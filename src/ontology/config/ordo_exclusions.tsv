@@ -185,3 +185,8 @@ Orphanet:674648	Syndrome with congenital phagocyte functional defect as a major 
 Orphanet:674896	Non-syndromic congenital phagocyte functional defect	FALSE	MONDO:excludeGroupingModifier
 Orphanet:676030	Primary benign peritoneal tumor	FALSE	MONDO:excludeGroupingPhenotype
 Orphanet:684757	Malformation of the anal canal and the rectum	FALSE	MONDO:excludeGroupingPhenotype
+Orphanet:664734	EBV susceptibility with hemophagocytic lymphohistiocytosis as a major feature	FALSE	MONDO:excludeGroupingPhenotype
+Orphanet:693855	Visceral arteriovenous malformation	FALSE	MONDO:excludeGroupingPhenotype
+Orphanet:696851	Common variable immunodeficiency and related disorders	FALSE	MONDO:excludeGrouping
+Orphanet:698914	Platelet-activating anti-platelet factor 4 disorder	FALSE	MONDO:excludeGrouping
+Orphanet:700143	X-linked distal myopathy	FALSE	MONDO:excludeGroupingOriginGenetic

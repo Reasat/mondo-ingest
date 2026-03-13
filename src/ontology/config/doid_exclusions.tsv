@@ -154,3 +154,9 @@ DOID:0080816	adult-onset severe asthma	MONDO:excludeGroupingModifier	FALSE
 DOID:0080824	persistent severe asthma	MONDO:excludeGroupingModifier	FALSE
 DOID:4667	kyphosis	MONDO:excludePhenotype	FALSE
 DOID:0050706	variable age at onset electroclinical syndrome	MONDO:excludePhenotype	FALSE
+DOID:0060333	mitochondrial complex V (ATP synthase) deficiency nuclear type 4	MONDO:excludePhenotype	FALSE
+DOID:4668	congenital kyphosis	MONDO:excludePhenotype	FALSE
+DOID:9373	postural kyphosis	MONDO:excludePhenotype	FALSE
+DOID:0061214	biliary obstruction	MONDO:excludePhenotype	FALSE
+DOID:0061215	hepatic fibrosis	MONDO:excludePhenotype	FALSE
+DOID:0111797	autosomal recessive congenital nystagmus	MONDO:excludeGroupingHeritability	FALSE
