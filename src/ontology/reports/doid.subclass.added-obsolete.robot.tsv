@@ -207,6 +207,7 @@ MONDO:0007878	congenital laryngomalacia	MONDO:0000839	DOID:0080833	DOID:0080015	
 MONDO:0007955	Meckel diverticulum	MONDO:0000839	DOID:9487	DOID:0080015	obsolete congenital abnormality
 MONDO:0008262	Poland syndrome	MONDO:0000839	DOID:12961	DOID:0080015	obsolete congenital abnormality
 MONDO:0008331	obsolete pseudopapilledema	MONDO:0001834	DOID:1392	DOID:1393	visual pathway disorder
+MONDO:0008340	congenital ptosis	MONDO:0000839	DOID:0060261	DOID:0080015	obsolete congenital abnormality
 MONDO:0008394	Silver-Russell syndrome	MONDO:0000839	DOID:14681	DOID:0080015	obsolete congenital abnormality
 MONDO:0008597	obsolete trichorhinophalangeal syndrome, type III	MONDO:0000426	DOID:0080376	DOID:0050736	autosomal dominant disease
 MONDO:0008597	obsolete trichorhinophalangeal syndrome, type III	MONDO:0002254	DOID:0080376	DOID:225	syndromic disease
@@ -334,6 +335,8 @@ MONDO:0014683	muscular dystrophy-dystroglycanopathy (congenital with brain and e
 MONDO:0014709	obsolete Heimler syndrome 2	MONDO:0006025	DOID:0080624	DOID:0050737	autosomal recessive disease
 MONDO:0014709	obsolete Heimler syndrome 2	MONDO:0019234	DOID:0080624	DOID:0080377	peroxisome biogenesis disorder
 MONDO:0014808	congenital secretory sodium diarrhea 8	MONDO:0000839	DOID:0060777	DOID:0080015	obsolete congenital abnormality
+MONDO:0014826	obsolete nucleoside diphosphate-linked moiety X Motif 15 deficiency	MONDO:0000426	DOID:0060996	DOID:0050736	autosomal dominant disease
+MONDO:0014826	obsolete nucleoside diphosphate-linked moiety X Motif 15 deficiency	MONDO:0012503	DOID:0060996	DOID:0080172	thiopurine S-methyltransferase deficiency
 MONDO:0014841	trichothiodystrophy 6, nonphotosensitive	MONDO:0009317	DOID:0111872	DOID:0111867	obsolete nonphotosensitive trichothiodystrophy
 MONDO:0015168	arthrogryposis multiplex congenita	MONDO:0000839	DOID:0080954	DOID:0080015	obsolete congenital abnormality
 MONDO:0015231	Bartter syndrome	MONDO:0000275	DOID:445	DOID:0050177	obsolete monogenic disease
@@ -369,6 +372,7 @@ MONDO:0017919	exstrophy-epispadias complex	MONDO:0000839	DOID:0080173	DOID:00800
 MONDO:0017985	congenital radioulnar synostosis	MONDO:0000839	DOID:9827	DOID:0080015	obsolete congenital abnormality
 MONDO:0017990	catecholaminergic polymorphic ventricular tachycardia	MONDO:0000275	DOID:0060674	DOID:0050177	obsolete monogenic disease
 MONDO:0018075	neural tube defect	MONDO:0000839	DOID:0080074	DOID:0080015	obsolete congenital abnormality
+MONDO:0018078	soft tissue sarcoma	MONDO:0002176	DOID:0070663	DOID:201	obsolete connective tissue cancer
 MONDO:0018092	Vogt-Koyanagi-Harada disease	MONDO:0017841	DOID:12297	DOID:0060039	obsolete autoimmune disease with skin involvement
 MONDO:0018097	infantile spasms	MONDO:0000413	DOID:0050562	DOID:0050703	obsolete infancy electroclinical syndrome
 MONDO:0018132	obsolete congenital muscular alpha-dystroglycanopathy with brain and eye anomalies	MONDO:0006025	DOID:0111229	DOID:0050737	autosomal recessive disease

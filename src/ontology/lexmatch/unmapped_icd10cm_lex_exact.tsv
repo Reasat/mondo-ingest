@@ -8,6 +8,7 @@ MONDO:0005488	adolescent idiopathic scoliosis	ICD10CM:M41.12	MONDO:equivalentTo	
 MONDO:0005810	infectious mononucleosis	ICD10CM:B27	MONDO:equivalentTo	Infectious mononucleosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	infectious mononucleosis
 MONDO:0007318	Alagille syndrome	ICD10CM:Q44.71	MONDO:equivalentTo	Alagille syndrome	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	alagille syndrome
 MONDO:0007608	desmoid tumor	ICD10CM:D48.11	MONDO:equivalentTo	Desmoid tumor	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	desmoid tumor
+MONDO:0008340	congenital ptosis	ICD10CM:Q10.0	MONDO:equivalentTo	Congenital ptosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	congenital ptosis
 MONDO:0008752	Alexander disease	ICD10CM:G31.86	MONDO:equivalentTo	Alexander disease	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	alexander disorder
 MONDO:0008797	anodontia	ICD10CM:K00.0	MONDO:equivalentTo	Anodontia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	anodontia
 MONDO:0009514	Laurence-Moon syndrome	ICD10CM:Q87.84	MONDO:equivalentTo	Laurence-Moon syndrome	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	laurence-moon syndrome

@@ -1307,7 +1307,7 @@ MONDO:0008337	familial pterygium of the conjunctiva	MONDO:8000030	Orphanet:2989	
 MONDO:0008338	contractures, pterygia, and spondylocarpotarsal fusion syndrome 1A	MONDO:8000032	Orphanet:65743	Orphanet:377789	obsolete malformation syndrome
 MONDO:0008339	antecubital pterygium syndrome	MONDO:0018798	Orphanet:2987	Orphanet:477808	obsolete other genetic dermis disorder
 MONDO:0008339	antecubital pterygium syndrome	MONDO:8000032	Orphanet:2987	Orphanet:377789	obsolete malformation syndrome
-MONDO:0008340	ptosis, hereditary congenital, 1	MONDO:0020169	Orphanet:91411	Orphanet:98578	obsolete rare disorder with ptosis
+MONDO:0008340	congenital ptosis	MONDO:0020169	Orphanet:91411	Orphanet:98578	obsolete rare disorder with ptosis
 MONDO:0008341	ptosis-strabismus-ectopic pupils syndrome	MONDO:0020169	Orphanet:2999	Orphanet:98578	obsolete rare disorder with ptosis
 MONDO:0008341	ptosis-strabismus-ectopic pupils syndrome	MONDO:0020253	Orphanet:2999	Orphanet:98683	obsolete syndrome with a symptomatic strabismus
 MONDO:0008341	ptosis-strabismus-ectopic pupils syndrome	MONDO:8000032	Orphanet:2999	Orphanet:377789	obsolete malformation syndrome
@@ -5869,6 +5869,7 @@ MONDO:0014474	autosomal recessive limb-girdle muscular dystrophy type 2U	MONDO:0
 MONDO:0014474	autosomal recessive limb-girdle muscular dystrophy type 2U	MONDO:0035862	Orphanet:352479	Orphanet:611314	obsolete rare syndromic intellectual disability without multiple congenital anomalies/dysmorphic syndrome
 MONDO:0014483	retinal dystrophy with inner retinal dysfunction and ganglion cell anomalies	MONDO:0034953	Orphanet:397758	Orphanet:519325	obsolete syndromic inherited retinal disorder
 MONDO:0014486	intellectual disability, autosomal dominant 30	MONDO:0035863	Orphanet:694304	Orphanet:611327	obsolete genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+MONDO:0014486	intellectual disability, autosomal dominant 30	MONDO:8000031	Orphanet:694308	Orphanet:557494	obsolete subtype of a disorder
 MONDO:0014489	limb-girdle muscular dystrophy due to POMK deficiency	MONDO:0017745	Orphanet:445110	Orphanet:309469	obsolete disorder of O-mannosylglycan synthesis
 MONDO:0014489	limb-girdle muscular dystrophy due to POMK deficiency	MONDO:0019058	Orphanet:445110	Orphanet:68385	obsolete neurometabolic disease
 MONDO:0014490	ketoacidosis due to monocarboxylate transporter-1 deficiency	MONDO:0018579	Orphanet:438075	Orphanet:438072	obsolete disorder of ketone body transport
@@ -5958,8 +5959,8 @@ MONDO:0014597	immunodeficiency 39	MONDO:0018545	Orphanet:574918	Orphanet:431156	
 MONDO:0014601	autosomal recessive spinocerebellar ataxia 20	MONDO:0017118	Orphanet:397709	Orphanet:269523	obsolete syndrome with a cerebellar malformation as major feature
 MONDO:0014601	autosomal recessive spinocerebellar ataxia 20	MONDO:0035863	Orphanet:397709	Orphanet:611327	obsolete genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability
 MONDO:0014601	autosomal recessive spinocerebellar ataxia 20	MONDO:8000032	Orphanet:397709	Orphanet:377789	obsolete malformation syndrome
-MONDO:0014602	Hogue-Janssens syndrome 1	MONDO:0035863	Orphanet:457279	Orphanet:611327	obsolete genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-MONDO:0014602	Hogue-Janssens syndrome 1	MONDO:8000032	Orphanet:457279	Orphanet:377789	obsolete malformation syndrome
+MONDO:0014602	Houge-Janssens syndrome 1	MONDO:0035863	Orphanet:457279	Orphanet:611327	obsolete genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+MONDO:0014602	Houge-Janssens syndrome 1	MONDO:8000032	Orphanet:457279	Orphanet:377789	obsolete malformation syndrome
 MONDO:0014605	Houge-Janssens syndrome 2	MONDO:0016055	Orphanet:457284	Orphanet:199639	obsolete syndrome with corpus callosum agenesis /dysgenesis as a major feature
 MONDO:0014605	Houge-Janssens syndrome 2	MONDO:0035863	Orphanet:457284	Orphanet:611327	obsolete genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability
 MONDO:0014605	Houge-Janssens syndrome 2	MONDO:8000032	Orphanet:457284	Orphanet:377789	obsolete malformation syndrome
@@ -11862,6 +11863,7 @@ MONDO:0032830	snijders blok-fisher syndrome	MONDO:0035863	Orphanet:656135	Orphan
 MONDO:0032831	pontocerebellar hypoplasia, type 13	MONDO:0035863	Orphanet:613267	Orphanet:611327	obsolete genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability
 MONDO:0032831	pontocerebellar hypoplasia, type 13	MONDO:8000032	Orphanet:613267	Orphanet:377789	obsolete malformation syndrome
 MONDO:0032832	intellectual developmental disorder with nasal speech, dysmorphic facies, and variable skeletal anomalies	MONDO:0035863	Orphanet:697760	Orphanet:611327	obsolete genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+MONDO:0032832	intellectual developmental disorder with nasal speech, dysmorphic facies, and variable skeletal anomalies	MONDO:8000031	Orphanet:697764	Orphanet:557494	obsolete subtype of a disorder
 MONDO:0032832	intellectual developmental disorder with nasal speech, dysmorphic facies, and variable skeletal anomalies	MONDO:8000032	Orphanet:697760	Orphanet:377789	obsolete malformation syndrome
 MONDO:0032836	Weiss-Kruszka syndrome	MONDO:0020169	Orphanet:502430	Orphanet:98578	obsolete rare disorder with ptosis
 MONDO:0032836	Weiss-Kruszka syndrome	MONDO:0035863	Orphanet:502430	Orphanet:611327	obsolete genetic multiple congenital anomalies/dysmorphic syndrome-intellectual disability
@@ -13125,6 +13127,15 @@ MONDO:0979371	congenital neuronal ceroid lipofuscinosis 10	MONDO:8000031	Orphane
 MONDO:0979372	late infantile neuronal ceroid lipofuscinosis 10	MONDO:8000031	Orphanet:700492	Orphanet:557494	obsolete subtype of a disorder
 MONDO:0979373	juvenile neuronal ceroid lipofuscinosis 10	MONDO:8000031	Orphanet:700497	Orphanet:557494	obsolete subtype of a disorder
 MONDO:0980715	cardiac conduction disease with or without cardiomyoopathy	MONDO:0015110	Orphanet:436242	Orphanet:101934	obsolete genetic cardiac rhythm disease
+MONDO:0980997	fibromuscular dysplasia of the cervical and intracranial arteries	MONDO:8000031	Orphanet:698036	Orphanet:557494	obsolete subtype of a disorder
+MONDO:0980998	fibromuscular dysplasia of the renal arteries	MONDO:8000031	Orphanet:698043	Orphanet:557494	obsolete subtype of a disorder
+MONDO:0980999	fibromuscular dysplasia of the coronary arteries	MONDO:8000031	Orphanet:698059	Orphanet:557494	obsolete subtype of a disorder
+MONDO:0981000	fibromuscular dysplasia of the visceral arteries	MONDO:8000031	Orphanet:698063	Orphanet:557494	obsolete subtype of a disorder
+MONDO:0981001	fibromuscular dysplasia of the arteries of the extremities	MONDO:8000031	Orphanet:698069	Orphanet:557494	obsolete subtype of a disorder
+MONDO:0981004	sickle cell S-Lepore disease	MONDO:8000031	Orphanet:699822	Orphanet:557494	obsolete subtype of a disorder
+MONDO:0981005	sickle cell S-O Arab disease	MONDO:8000031	Orphanet:700090	Orphanet:557494	obsolete subtype of a disorder
+MONDO:0981007	early-onset idiopathic chronic pancreatitis	MONDO:8000031	Orphanet:700136	Orphanet:557494	obsolete subtype of a disorder
+MONDO:0981008	late-onset idiopathic chronic pancreatitis	MONDO:8000031	Orphanet:700139	Orphanet:557494	obsolete subtype of a disorder
 MONDO:1010131	encapsulating peritoneal sclerosis	MONDO:0015621	Orphanet:696175	Orphanet:165711	obsolete rare abdominal surgical disease
 MONDO:1010131	encapsulating peritoneal sclerosis	MONDO:0019997	Orphanet:696175	Orphanet:97935	obsolete rare gastroenterologic disease
 MONDO:1010154	adult hypophosphatasia	MONDO:0020014	Orphanet:247676	Orphanet:98027	obsolete rare disease with odontological manifestation

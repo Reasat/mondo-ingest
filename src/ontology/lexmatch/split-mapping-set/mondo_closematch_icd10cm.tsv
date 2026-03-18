@@ -458,8 +458,6 @@ MONDO:0001901	selective IgG subclass deficiency	skos:closeMatch	ICD10CM:D80.3	Se
 MONDO:0001901	selective IgG subclass deficiency	skos:closeMatch	ICD10CM:D80.3	Selective deficiency of immunoglobulin G [IgG] subclasses	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:14176	LEXMATCH
 MONDO:0001903	calcific tendinitis	skos:closeMatch	ICD10CM:M75.3	Calcific tendinitis of shoulder	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:14181	LEXMATCH
 MONDO:0001903	calcific tendinitis	skos:closeMatch	ICD10CM:M75.3	Calcific tendinitis of shoulder	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:14181	LEXMATCH
-MONDO:0001904	polyneuropathy due to drug	skos:closeMatch	ICD10CM:G62.0	Drug-induced polyneuropathy	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:14184	LEXMATCH
-MONDO:0001904	polyneuropathy due to drug	skos:closeMatch	ICD10CM:G62.0	Drug-induced polyneuropathy	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:14184	LEXMATCH
 MONDO:0001909	renal tubular acidosis	skos:closeMatch	ICD10CM:N25.89	Other disorders resulting from impaired renal tubular function	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:14219	LEXMATCH
 MONDO:0001909	renal tubular acidosis	skos:closeMatch	ICD10CM:N25.89	Other disorders resulting from impaired renal tubular function	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:14219	LEXMATCH
 MONDO:0001910	ochronosis disorder	skos:closeMatch	ICD10CM:E70.29	Other disorders of tyrosine metabolism	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:14223	LEXMATCH
@@ -1177,8 +1175,6 @@ MONDO:0005231	hepatitis C virus infection	skos:closeMatch	ICD10CM:B19.20	Unspeci
 MONDO:0005240	kidney disorder	skos:closeMatch	ICD10CM:N08	Glomerular disorders in diseases classified elsewhere	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:557	LEXMATCH
 MONDO:0005240	kidney disorder	skos:closeMatch	ICD10CM:N08	Glomerular disorders in diseases classified elsewhere	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	nephropathy	LEXMATCH
 MONDO:0005240	kidney disorder	skos:closeMatch	ICD10CM:N08	Glomerular disorders in diseases classified elsewhere	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:557	LEXMATCH
-MONDO:0005244	peripheral neuropathy	skos:closeMatch	ICD10CM:G62.9	Polyneuropathy, unspecified	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:870	LEXMATCH
-MONDO:0005244	peripheral neuropathy	skos:closeMatch	ICD10CM:G62.9	Polyneuropathy, unspecified	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:870	LEXMATCH
 MONDO:0005249	pneumonia	skos:closeMatch	ICD10CM:J15	Bacterial pneumonia, not elsewhere classified	semapv:LexicalMatching	oaklib	0.5	rdf:ID	oio:hasDbXref-INVERSE	mondo:0005249	LEXMATCH
 MONDO:0005249	pneumonia	skos:closeMatch	ICD10CM:J15	Bacterial pneumonia, not elsewhere classified	semapv:LexicalMatching	oaklib	0.5	rdf:ID	skos:relatedMatch-INVERSE	mondo:0005249	LEXMATCH
 MONDO:0005258	autism spectrum disorder	skos:closeMatch	ICD10CM:F84.9	Pervasive developmental disorder, unspecified	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	atypical autism	LEXMATCH
@@ -1989,6 +1985,10 @@ MONDO:0008332	platelet-type von Willebrand disease	skos:closeMatch	ICD10CM:D68.0
 MONDO:0008332	platelet-type von Willebrand disease	skos:closeMatch	ICD10CM:D69.8	Other specified hemorrhagic conditions	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:0111056	LEXMATCH
 MONDO:0008332	platelet-type von Willebrand disease	skos:closeMatch	ICD10CM:D69.8	Other specified hemorrhagic conditions	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:0111056	LEXMATCH
 MONDO:0008337	familial pterygium of the conjunctiva	skos:closeMatch	ICD10CM:H11.0	Pterygium of eye	semapv:LexicalMatching	oaklib	0.5	rdf:ID	oio:hasDbXref-INVERSE	mondo:0008337	LEXMATCH
+MONDO:0008340	congenital ptosis	skos:closeMatch	ICD10CM:Q10.0	Congenital ptosis	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:0060261	LEXMATCH
+MONDO:0008340	congenital ptosis	skos:closeMatch	ICD10CM:Q10.0	Congenital ptosis	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	skos:exactMatch-INVERSE	doid:0060261	LEXMATCH
+MONDO:0008340	congenital ptosis	skos:closeMatch	ICD10CM:Q10.0	Congenital ptosis	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:0060261	LEXMATCH
+MONDO:0008340	congenital ptosis	skos:closeMatch	ICD10CM:Q10.0	Congenital ptosis	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	skos:exactMatch-INVERSE	doid:0060261	LEXMATCH
 MONDO:0008346	pulmonary hemosiderosis	skos:closeMatch	ICD10CM:J63.4	Siderosis	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:10328	LEXMATCH
 MONDO:0008346	pulmonary hemosiderosis	skos:closeMatch	ICD10CM:J63.4	Siderosis	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	siderosis	LEXMATCH
 MONDO:0008346	pulmonary hemosiderosis	skos:closeMatch	ICD10CM:J63.4	Siderosis	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	siderosis	LEXMATCH
@@ -4805,6 +4805,10 @@ MONDO:0044204	Shwachman-Diamond syndrome 1	skos:closeMatch	ICD10CM:D61.02	Shwach
 MONDO:0044344	Schistosoma japonicum infectious disease	skos:closeMatch	ICD10CM:B65.2	Schistosomiasis due to Schistosoma japonicum	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	asiatic schistosomiasis	LEXMATCH
 MONDO:0060690	phenytoin toxicity	skos:closeMatch	ICD10CM:Q86.1	Fetal hydantoin syndrome	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	fetal hydantoin syndrome	LEXMATCH
 MONDO:0060690	phenytoin toxicity	skos:closeMatch	ICD10CM:Q86.1	Fetal hydantoin syndrome	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	fetal hydantoin syndrome	LEXMATCH
+MONDO:0100040	FOXG1 disorder	skos:closeMatch	ICD10CM:Q04.8	Other specified congenital malformations of brain	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:0070657	LEXMATCH
+MONDO:0100040	FOXG1 disorder	skos:closeMatch	ICD10CM:Q04.8	Other specified congenital malformations of brain	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	skos:broadMatch-INVERSE	doid:0070657	LEXMATCH
+MONDO:0100040	FOXG1 disorder	skos:closeMatch	ICD10CM:Q04.8	Other specified congenital malformations of brain	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:0070657	LEXMATCH
+MONDO:0100040	FOXG1 disorder	skos:closeMatch	ICD10CM:Q04.8	Other specified congenital malformations of brain	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	skos:broadMatch-INVERSE	doid:0070657	LEXMATCH
 MONDO:0100079	developmental and epileptic encephalopathy, 6A	skos:closeMatch	ICD10CM:G40.83	Dravet syndrome	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	dravet syndrome	LEXMATCH
 MONDO:0100079	developmental and epileptic encephalopathy, 6A	skos:closeMatch	ICD10CM:G40.83	Dravet syndrome	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	dravet syndrome	LEXMATCH
 MONDO:0100081	sleep disorder	skos:closeMatch	ICD10CM:G47.5	Parasomnia	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	parasomnia	LEXMATCH
@@ -4839,6 +4843,8 @@ MONDO:0100436	cataract 2, multiple types	skos:closeMatch	ICD10CM:Q12.0	Congenita
 MONDO:0100436	cataract 2, multiple types	skos:closeMatch	ICD10CM:Q12.0	Congenital cataract	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:0110235	LEXMATCH
 MONDO:0100610	autism spectrum disorder 1	skos:closeMatch	ICD10CM:F84.5	Asperger's syndrome	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:0050432	LEXMATCH
 MONDO:0100610	autism spectrum disorder 1	skos:closeMatch	ICD10CM:F84.5	Asperger's syndrome	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:0050432	LEXMATCH
+MONDO:0100640	chronic idiopathic neuropathy	skos:closeMatch	ICD10CM:G60.9	Hereditary and idiopathic neuropathy, unspecified	semapv:LexicalMatching	oaklib	0.5	rdf:ID	oio:hasDbXref-INVERSE	mondo:0100640	LEXMATCH
+MONDO:0100640	chronic idiopathic neuropathy	skos:closeMatch	ICD10CM:G60.9	Hereditary and idiopathic neuropathy, unspecified	semapv:LexicalMatching	oaklib	0.5	rdf:ID	skos:relatedMatch-INVERSE	mondo:0100640	LEXMATCH
 MONDO:0700089	paroxysmal nonkinesigenic dyskinesia 1	skos:closeMatch	ICD10CM:G24.8	Other dystonia	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:0090049	LEXMATCH
 MONDO:0700089	paroxysmal nonkinesigenic dyskinesia 1	skos:closeMatch	ICD10CM:G24.8	Other dystonia	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:0090049	LEXMATCH
 MONDO:0700091	ring chromosome disorder	skos:closeMatch	ICD10CM:Q93.2	Chromosome replaced with ring, dicentric or isochromosome	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:0070620	LEXMATCH

@@ -252,6 +252,8 @@ Orphanet:522514	MONDO:excludeGrouping
 Orphanet:523000	MONDO:excludeGrouping
 Orphanet:641343	MONDO:excludeGrouping
 Orphanet:650182	MONDO:excludeGrouping
+Orphanet:696851	MONDO:excludeGrouping
+Orphanet:698914	MONDO:excludeGrouping
 Orphanet:90078	MONDO:excludeGrouping
 Orphanet:158038	MONDO:excludeGroupingHeritability
 Orphanet:519321	MONDO:excludeGroupingModifier
@@ -319,6 +321,7 @@ Orphanet:522540	MONDO:excludeGroupingOriginGenetic
 Orphanet:522560	MONDO:excludeGroupingOriginGenetic
 Orphanet:522562	MONDO:excludeGroupingOriginGenetic
 Orphanet:622914	MONDO:excludeGroupingOriginGenetic
+Orphanet:700143	MONDO:excludeGroupingOriginGenetic
 Orphanet:98495	MONDO:excludeGroupingOriginGenetic
 Orphanet:98737	MONDO:excludeGroupingOriginGenetic
 Orphanet:519306	MONDO:excludeGroupingOriginGenetic|MONDO:excludeGroupingModifier
@@ -368,9 +371,11 @@ Orphanet:649014	MONDO:excludeGroupingPhenotype
 Orphanet:653434	MONDO:excludeGroupingPhenotype
 Orphanet:664450	MONDO:excludeGroupingPhenotype
 Orphanet:664456	MONDO:excludeGroupingPhenotype
+Orphanet:664734	MONDO:excludeGroupingPhenotype
 Orphanet:674648	MONDO:excludeGroupingPhenotype
 Orphanet:676030	MONDO:excludeGroupingPhenotype
 Orphanet:684757	MONDO:excludeGroupingPhenotype
+Orphanet:693855	MONDO:excludeGroupingPhenotype
 Orphanet:519347	MONDO:excludeGroupingPhenotype|MONDO:excludeGroupingModifierRare
 Orphanet:522550	MONDO:excludeGroupingPhenotype|MONDO:excludeGroupingOriginGenetic
 Orphanet:522552	MONDO:excludeGroupingPhenotype|MONDO:excludeGroupingOriginGenetic

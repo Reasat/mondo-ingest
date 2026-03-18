@@ -1,21 +1,20 @@
 mondo_id	mondo_label	xref	xref_source	original_label	definition	parents	subset
 ID	LABEL	A oboInOwl:hasDbXref	>A oboInOwl:source SPLIT=|		A IAO:0000115	SC %	
-MONDO:0978309	ebv susceptibility with hemophagocytic lymphohistiocytosis as a major feature	Orphanet:664734	MONDO:equivalentTo	EBV susceptibility with hemophagocytic lymphohistiocytosis as a major feature		MONDO:8000033	group of disorders
-MONDO:0979268	visceral arteriovenous malformation	Orphanet:693855	MONDO:equivalentTo	Visceral arteriovenous malformation		MONDO:8000033|MONDO:0016234	group of disorders
-MONDO:0979303	common variable immunodeficiency and related disorders	Orphanet:696851	MONDO:equivalentTo	Common variable immunodeficiency and related disorders		MONDO:8000033|MONDO:0015132	group of disorders
-MONDO:0979324	platelet-activating anti-platelet factor 4 disorder	Orphanet:698914	MONDO:equivalentTo	Platelet-activating anti-platelet factor 4 disorder		MONDO:8000033|MONDO:0016634|MONDO:0015939	group of disorders
-MONDO:0979358	x-linked distal myopathy	Orphanet:700143	MONDO:equivalentTo	X-linked distal myopathy		MONDO:0018949|MONDO:8000033	group of disorders
-MONDO:0980995	zmynd11-related developmental delay-speech delay-seizures-behavioral abnormalities-craniofacial dysmorphism syndrome due to a point mutation	Orphanet:694308	MONDO:equivalentTo	ZMYND11-related developmental delay-speech delay-seizures-behavioral abnormalities-craniofacial dysmorphism syndrome due to a point mutation		MONDO:0014486|MONDO:8000031	subtype of a disorder
-MONDO:0980996	intellectual disability-nasal speech-craniofacial dysmorphism syndrome due to cnot2 mutation	Orphanet:697764	MONDO:equivalentTo	Intellectual disability-nasal speech-craniofacial dysmorphism syndrome due to CNOT2 mutation		MONDO:8000031|MONDO:0032832	subtype of a disorder
-MONDO:0980997	fibromuscular dysplasia of the cervical and intracranial arteries	Orphanet:698036	MONDO:equivalentTo	Fibromuscular dysplasia of the cervical and intracranial arteries		MONDO:0006761|MONDO:8000031	subtype of a disorder
-MONDO:0980998	fibromuscular dysplasia of the renal arteries	Orphanet:698043	MONDO:equivalentTo	Fibromuscular dysplasia of the renal arteries		MONDO:0006761|MONDO:8000031	subtype of a disorder
-MONDO:0980999	fibromuscular dysplasia of the coronary arteries	Orphanet:698059	MONDO:equivalentTo	Fibromuscular dysplasia of the coronary arteries		MONDO:8000031|MONDO:0006761	subtype of a disorder
-MONDO:0981000	fibromuscular dysplasia of the visceral arteries	Orphanet:698063	MONDO:equivalentTo	Fibromuscular dysplasia of the visceral arteries		MONDO:8000031|MONDO:0006761	subtype of a disorder
-MONDO:0981001	fibromuscular dysplasia of the arteries of the extremities	Orphanet:698069	MONDO:equivalentTo	Fibromuscular dysplasia of the arteries of the extremities		MONDO:8000031|MONDO:0006761	subtype of a disorder
 MONDO:0981002	combined immunodeficiency-lymphopenia-cancer predisposing syndrome due to aiolos deficiency	Orphanet:699593	MONDO:equivalentTo	Combined immunodeficiency-lymphopenia-cancer predisposing syndrome due to AIOLOS deficiency		MONDO:8000031|MONDO:0030333	subtype of a disorder
 MONDO:0981003	combined immunodeficiency-hypogammaglobulinemia-cancer predisposing syndrome due to aiolos deficiency	Orphanet:699596	MONDO:equivalentTo	Combined immunodeficiency-hypogammaglobulinemia-cancer predisposing syndrome due to AIOLOS deficiency		MONDO:8000031|MONDO:0030333	subtype of a disorder
-MONDO:0981004	sickle cell s-lepore disease	Orphanet:699822	MONDO:equivalentTo	Sickle cell S-Lepore disease		MONDO:0979354|MONDO:8000031	subtype of a disorder
-MONDO:0981005	sickle cell s-o arab disease	Orphanet:700090	MONDO:equivalentTo	Sickle cell S-O Arab disease		MONDO:8000031|MONDO:0979354	subtype of a disorder
 MONDO:0981006	sickle cell s-other specified hemoglobin variant	Orphanet:700107	MONDO:equivalentTo	Sickle cell S-other specified hemoglobin variant		MONDO:0979354|MONDO:8000031	subtype of a disorder
-MONDO:0981007	early-onset idiopathic chronic pancreatitis	Orphanet:700136	MONDO:equivalentTo	Early-onset idiopathic chronic pancreatitis		MONDO:0979357|MONDO:8000031	subtype of a disorder
-MONDO:0981008	late-onset idiopathic chronic pancreatitis	Orphanet:700139	MONDO:equivalentTo	Late-onset idiopathic chronic pancreatitis		MONDO:0979357|MONDO:8000031	subtype of a disorder
+MONDO:0981034	common variable immunodeficiency without known genetic defect	Orphanet:231205	MONDO:equivalentTo	Common variable immunodeficiency without known genetic defect		MONDO:8000034|MONDO:0000001	disorder
+MONDO:0981035	uterine arteriovenous malformation	Orphanet:693815	MONDO:equivalentTo	Uterine arteriovenous malformation		MONDO:0015106|MONDO:8000034|MONDO:8000032	disorder
+MONDO:0981036	pancreatic arteriovenous malformation	Orphanet:693826	MONDO:equivalentTo	Pancreatic arteriovenous malformation		MONDO:8000034|MONDO:8000032|MONDO:0015213	disorder
+MONDO:0981037	gastrointestinal tract arteriovenous malformation	Orphanet:693832	MONDO:equivalentTo	Gastrointestinal tract arteriovenous malformation		MONDO:0015245|MONDO:0015621|MONDO:8000032|MONDO:8000034	disorder
+MONDO:0981038	renal arteriovenous malformation	Orphanet:693839	MONDO:equivalentTo	Renal arteriovenous malformation		MONDO:0019748|MONDO:8000034|MONDO:8000032	disorder
+MONDO:0981039	hepatic arteriovenous malformation	Orphanet:693846	MONDO:equivalentTo	Hepatic arteriovenous malformation		MONDO:0015113|MONDO:8000032|MONDO:8000034	disorder
+MONDO:0981040	splenic arteriovenous malformation	Orphanet:693863	MONDO:equivalentTo	Splenic arteriovenous malformation		MONDO:8000032|MONDO:8000034|MONDO:0015213	disorder
+MONDO:0981041	gallblader arteriovenous malformation	Orphanet:693869	MONDO:equivalentTo	Gallblader arteriovenous malformation		MONDO:0015213|MONDO:8000032|MONDO:8000034	disorder
+MONDO:0981042	urinary tract arteriovenous malformation	Orphanet:693872	MONDO:equivalentTo	Urinary tract arteriovenous malformation		MONDO:8000032|MONDO:0015106|MONDO:8000034	disorder
+MONDO:0981043	common variable immunodeficiency phenotype due to germinal digenic/polygenic mutations	Orphanet:696857	MONDO:equivalentTo	Common variable immunodeficiency phenotype due to germinal digenic/polygenic mutations		MONDO:8000034|MONDO:0000001	disorder
+MONDO:0981044	common variable immunodeficiency phenotype due to somatic mutations	Orphanet:696863	MONDO:equivalentTo	Common variable immunodeficiency phenotype due to somatic mutations		MONDO:8000034|MONDO:0000001	disorder
+MONDO:0981045	common variable immunodeficiency phenotype due to germinal monogenic mutation	Orphanet:696870	MONDO:equivalentTo	Common variable immunodeficiency phenotype due to germinal monogenic mutation		MONDO:8000033	group of disorders
+MONDO:0981046	autoimmune heparin-induced thrombocytopenia	Orphanet:698945	MONDO:equivalentTo	Autoimmune heparin-induced thrombocytopenia		MONDO:8000034|MONDO:0000001	disorder
+MONDO:0981047	spontaneous heparin-induced thrombocytopenia	Orphanet:699021	MONDO:equivalentTo	Spontaneous heparin-induced thrombocytopenia		MONDO:8000034|MONDO:0000001	disorder
+MONDO:0981048	vaccine-induced immune thrombotic thrombocytopenia	Orphanet:699029	MONDO:equivalentTo	Vaccine-induced immune thrombotic thrombocytopenia		MONDO:8000034|MONDO:0000001	disorder

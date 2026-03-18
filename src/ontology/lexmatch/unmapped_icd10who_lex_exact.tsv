@@ -332,6 +332,7 @@ MONDO:0008213	pectus excavatum	ICD10WHO:Q67.6	MONDO:equivalentTo	Pectus excavatu
 MONDO:0008219	pemphigus vulgaris	ICD10WHO:L10.0	MONDO:equivalentTo	Pemphigus vulgaris	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pemphigus vulgaris
 MONDO:0008274	polyostotic fibrous dysplasia	ICD10WHO:Q78.1	MONDO:equivalentTo	Polyostotic fibrous dysplasia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	polyostotic fibrous dysplasia
 MONDO:0008320	Protrusio acetabuli	ICD10WHO:M24.7	MONDO:equivalentTo	Protrusio acetabuli	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	protrusio acetabuli
+MONDO:0008340	congenital ptosis	ICD10WHO:Q10.0	MONDO:equivalentTo	Congenital ptosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	congenital ptosis
 MONDO:0008475	spondylolisthesis	ICD10WHO:M43.1	MONDO:equivalentTo	Spondylolisthesis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	spondylolisthesis
 MONDO:0008542	tetralogy of fallot	ICD10WHO:Q21.3	MONDO:equivalentTo	Tetralogy of Fallot	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	tetralogy of fallot
 MONDO:0008585	HELLP syndrome	ICD10WHO:O14.2	MONDO:equivalentTo	HELLP syndrome	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hellp syndrome
@@ -524,6 +525,7 @@ MONDO:0043310	amaurosis fugax	ICD10WHO:G45.3	MONDO:equivalentTo	Amaurosis fugax	
 MONDO:0043327	cerebrospinal fluid leak	ICD10WHO:G96.0	MONDO:equivalentTo	Cerebrospinal fluid leak	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cerebrospinal fluid leak
 MONDO:0043468	acne keloid	ICD10WHO:L73.0	MONDO:equivalentTo	Acne keloid	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	acne keloid
 MONDO:0043537	cluster headache syndrome	ICD10WHO:G44.0	MONDO:equivalentTo	Cluster headache syndrome	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cluster headache syndrome
+MONDO:0043693	alcoholic liver disease	ICD10WHO:K70	MONDO:equivalentTo	Alcoholic liver disease	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	alcoholic liver disorder
 MONDO:0043762	tubal pregnancy	ICD10WHO:O00.1	MONDO:equivalentTo	Tubal pregnancy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	tubal pregnancy
 MONDO:0043765	presbycusis	ICD10WHO:H91.1	MONDO:equivalentTo	Presbycusis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	presbycusis
 MONDO:0043777	rhinophyma	ICD10WHO:L71.1	MONDO:equivalentTo	Rhinophyma	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	rhinophyma
@@ -538,6 +540,7 @@ MONDO:0100017	pityriasis rubra pilaris	ICD10WHO:L44.0	MONDO:equivalentTo	Pityria
 MONDO:0100076	juvenile idiopathic scoliosis	ICD10WHO:M41.1	MONDO:equivalentTo	Juvenile idiopathic scoliosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	juvenile idiopathic scoliosis
 MONDO:0100347	carcinoid syndrome	ICD10WHO:E34.0	MONDO:equivalentTo	Carcinoid syndrome	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	carcinoid syndrome
 MONDO:0100491	generalized pustular psoriasis	ICD10WHO:L40.1	MONDO:equivalentTo	Generalized pustular psoriasis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	generalized pustular psoriasis
+MONDO:0100637	drug-induced myopathy	ICD10WHO:G72.0	MONDO:equivalentTo	Drug-induced myopathy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	drug-induced myopathy
 MONDO:0400003	skeletal fluorosis	ICD10WHO:M85.1	MONDO:equivalentTo	Skeletal fluorosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	skeletal fluorosis
 MONDO:0800175	cardiogenic shock	ICD10WHO:R57.0	MONDO:equivalentTo	Cardiogenic shock	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cardiogenic shock
 MONDO:0800198	alopecia universalis	ICD10WHO:L63.1	MONDO:equivalentTo	Alopecia universalis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	alopecia universalis
@@ -545,6 +548,7 @@ MONDO:0850046	amniotic fluid embolism	ICD10WHO:O88.1	MONDO:equivalentTo	Amniotic
 MONDO:0859565	atrioventricular septal defect	ICD10WHO:Q21.2	MONDO:equivalentTo	Atrioventricular septal defect	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	atrioventricular septal defect
 MONDO:0956980	vascular parkinsonism	ICD10WHO:G21.4	MONDO:equivalentTo	Vascular parkinsonism	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	vascular parkinsonism
 MONDO:0958083	conjoined twins	ICD10WHO:Q89.4	MONDO:equivalentTo	Conjoined twins	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	conjoined twins
+MONDO:0980735	left ventricular failure	ICD10WHO:I50.1	MONDO:equivalentTo	Left ventricular failure	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	left ventricular failure
 MONDO:1030009	persistent atrial fibrillation	ICD10WHO:I48.1	MONDO:equivalentTo	Persistent atrial fibrillation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	persistent atrial fibrillation
 MONDO:1030011	paroxysmal atrial fibrillation	ICD10WHO:I48.0	MONDO:equivalentTo	Paroxysmal atrial fibrillation	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	paroxysmal atrial fibrillation
 MONDO:1060188	small plaque parapsoriasis	ICD10WHO:L41.3	MONDO:equivalentTo	Small plaque parapsoriasis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	small plaque parapsoriasis

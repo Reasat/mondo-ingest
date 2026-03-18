@@ -295,6 +295,7 @@ NCIT:C35376	Tracheal Agenesis	True	False	True	True
 NCIT:C3418	Toxoplasmosis	True	False	True	True
 NCIT:C85194	Toxocariasis	True	False	True	True
 NCIT:C35498	Toxic Shock Syndrome	True	False	True	True
+NCIT:C27063	Toxic Polyneuropathy	True	False	True	True
 NCIT:C35171	Toxic Nodular Goiter	True	False	True	True
 NCIT:C79777	Toxic Epidermal Necrolysis	True	False	True	True
 NCIT:C34943	Toxemia of Pregnancy	True	False	True	True
@@ -2459,6 +2460,7 @@ NCIT:C125591	Dubowitz Syndrome	True	False	True	True
 NCIT:C34741	Dubin-Johnson Syndrome	True	False	True	True
 NCIT:C84678	Duane Syndrome	True	False	True	True
 NCIT:C34553	Dry Eye Syndrome	True	False	True	True
+NCIT:C215367	Drug-Induced Polyneuropathy	True	False	True	True
 NCIT:C101045	Drug Induced Methemoglobinemia	True	False	True	True
 NCIT:C114354	Drug Induced Lupus Erythematosus	True	False	True	True
 NCIT:C112204	Drug Induced Cutaneous Vasculitis	True	False	True	True

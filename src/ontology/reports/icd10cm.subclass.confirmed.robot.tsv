@@ -69,7 +69,7 @@ MONDO:0001480	malignant tumor of undescended testis	MONDO:0005447	ICD10CM:C62.0	
 MONDO:0001484	paranoid schizophrenia	MONDO:0005090	ICD10CM:F20.0	ICD10CM:F20	schizophrenia
 MONDO:0001488	anterior corneal pigmentation	MONDO:0001308	ICD10CM:H18.01	ICD10CM:H18.0	corneal deposit
 MONDO:0001503	primary eye hypotony	MONDO:0004390	ICD10CM:H44.44	ICD10CM:H44.4	ocular hypotension
-MONDO:0001505	alcoholic hepatitis	MONDO:0043693	ICD10CM:K70.1	ICD10CM:K70	alcoholic liver diseases
+MONDO:0001505	alcoholic hepatitis	MONDO:0043693	ICD10CM:K70.1	ICD10CM:K70	alcoholic liver disease
 MONDO:0001514	prolapse of urethra	MONDO:0001592	ICD10CM:N81.0	ICD10CM:N81	prolapse of female genital organ
 MONDO:0001526	labia minora cancer	MONDO:0001528	ICD10CM:C51.1	ICD10CM:C51	vulva cancer
 MONDO:0001528	vulva cancer	MONDO:0001416	ICD10CM:C51	ICD10CM:C51-C58	female reproductive organ cancer
@@ -232,7 +232,7 @@ MONDO:0006609	seborrheic infantile dermatitis	MONDO:0006608	ICD10CM:L21.1	ICD10C
 MONDO:0006611	skin sarcoidosis	MONDO:0019338	ICD10CM:D86.3	ICD10CM:D86	sarcoidosis
 MONDO:0006613	stromal corneal pigmentation	MONDO:0001308	ICD10CM:H18.06	ICD10CM:H18.0	corneal deposit
 MONDO:0006637	acute kidney tubular necrosis	MONDO:0002492	ICD10CM:N17.0	ICD10CM:N17	acute kidney injury
-MONDO:0006644	alcoholic liver cirrhosis	MONDO:0043693	ICD10CM:K70.3	ICD10CM:K70	alcoholic liver diseases
+MONDO:0006644	alcoholic liver cirrhosis	MONDO:0043693	ICD10CM:K70.3	ICD10CM:K70	alcoholic liver disease
 MONDO:0006713	corneal neovascularization	MONDO:0003085	ICD10CM:H16.4	ICD10CM:H16	keratitis
 MONDO:0006790	hypercementosis	MONDO:0002220	ICD10CM:K03.4	ICD10CM:K03	tooth hard tissue disease
 MONDO:0006795	hypersplenism	MONDO:0002332	ICD10CM:D73.1	ICD10CM:D73	splenic disorder
@@ -319,7 +319,7 @@ MONDO:0020568	cutaneous myiasis	MONDO:0019147	ICD10CM:B87.0	ICD10CM:B87	myiasis
 MONDO:0020863	laryngeal diphtheria	MONDO:0005504	ICD10CM:A36.2	ICD10CM:A36	diphtheria
 MONDO:0020866	nasopharyngeal diphtheria	MONDO:0005504	ICD10CM:A36.1	ICD10CM:A36	diphtheria
 MONDO:0021023	complete androgen insensitivity syndrome	MONDO:0019154	ICD10CM:E34.51	ICD10CM:E34.5	androgen insensitivity syndrome
-MONDO:0021104	alcoholic fatty liver disease	MONDO:0043693	ICD10CM:K70.0	ICD10CM:K70	alcoholic liver diseases
+MONDO:0021104	alcoholic fatty liver disease	MONDO:0043693	ICD10CM:K70.0	ICD10CM:K70	alcoholic liver disease
 MONDO:0021309	malignant neoplasm of endocervix	MONDO:0002974	ICD10CM:C53.0	ICD10CM:C53	cervical cancer
 MONDO:0021317	cancer of cerebellum	MONDO:0001657	ICD10CM:C71.6	ICD10CM:C71	brain cancer
 MONDO:0021377	hypertrophic lichen planus	MONDO:0006572	ICD10CM:L43.0	ICD10CM:L43	lichen planus
@@ -347,7 +347,7 @@ MONDO:0040925	latent yaws	MONDO:0006019	ICD10CM:A66.8	ICD10CM:A66	yaws
 MONDO:0042233	disseminated candidiasis	MONDO:0002026	ICD10CM:B37.7	ICD10CM:B37	candidiasis
 MONDO:0042484	disseminated sporotrichosis	MONDO:0005968	ICD10CM:B42.7	ICD10CM:B42	sporotrichosis
 MONDO:0043004	Weil's disease	MONDO:0005825	ICD10CM:A27.0	ICD10CM:A27	leptospirosis
-MONDO:0043693	alcoholic liver diseases	MONDO:0005154	ICD10CM:K70	ICD10CM:K70-K77	liver disorder
+MONDO:0043693	alcoholic liver disease	MONDO:0005154	ICD10CM:K70	ICD10CM:K70-K77	liver disorder
 MONDO:0043777	rhinophyma	MONDO:0006604	ICD10CM:L71.1	ICD10CM:L71	rosacea
 MONDO:0043994	acute cholecystitis	MONDO:0002155	ICD10CM:K81.0	ICD10CM:K81	cholecystitis
 MONDO:0044144	panic disorder with agoraphobia	MONDO:0003709	ICD10CM:F40.01	ICD10CM:F40.0	agoraphobia

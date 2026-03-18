@@ -576,8 +576,6 @@ MONDO:0008231	Peyronie disease	ICD10WHO:N48.6	MONDO:equivalentTo	Induratio penis
 MONDO:0008231	Peyronie disease	ICD10WHO:N48.6	MONDO:equivalentTo	Induratio penis plastica	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	induratio penis plastica
 MONDO:0008315	prostate cancer	ICD10WHO:C61	MONDO:equivalentTo	Malignant neoplasm of prostate	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant neoplasm of prostate
 MONDO:0008315	prostate cancer	ICD10WHO:C61	MONDO:equivalentTo	Malignant neoplasm of prostate	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	malignant neoplasm of prostate
-MONDO:0008340	ptosis, hereditary congenital, 1	ICD10WHO:Q10.0	MONDO:equivalentTo	Congenital ptosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	congenital ptosis
-MONDO:0008340	ptosis, hereditary congenital, 1	ICD10WHO:Q10.0	MONDO:equivalentTo	Congenital ptosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	congenital ptosis
 MONDO:0008364	Raynaud disease	ICD10WHO:I73.0	MONDO:equivalentTo	Raynaud syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	raynaud syndrome
 MONDO:0008364	Raynaud disease	ICD10WHO:I73.0	MONDO:equivalentTo	Raynaud syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	raynaud syndrome
 MONDO:0008410	Scheuermann disease	ICD10WHO:M42.0	MONDO:equivalentTo	Juvenile osteochondrosis of spine	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	juvenile osteochondrosis of spine
@@ -884,8 +882,6 @@ MONDO:0043472	ectopic ACTH secretion syndrome	ICD10WHO:E24.3	MONDO:equivalentTo	
 MONDO:0043472	ectopic ACTH secretion syndrome	ICD10WHO:E24.3	MONDO:equivalentTo	Ectopic ACTH syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	ectopic acth syndrome
 MONDO:0043589	femoral neck fracture	ICD10WHO:S72.0	MONDO:equivalentTo	Fracture of neck of femur	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	fracture of neck of femur
 MONDO:0043589	femoral neck fracture	ICD10WHO:S72.0	MONDO:equivalentTo	Fracture of neck of femur	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fracture of neck of femur
-MONDO:0043693	alcoholic liver diseases	ICD10WHO:K70	MONDO:equivalentTo	Alcoholic liver disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	alcoholic liver disorder
-MONDO:0043693	alcoholic liver diseases	ICD10WHO:K70	MONDO:equivalentTo	Alcoholic liver disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	alcoholic liver disorder
 MONDO:0043731	lytic metastatic bone lesion	ICD10WHO:M89.5	MONDO:equivalentTo	Osteolysis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	osteolysis
 MONDO:0043731	lytic metastatic bone lesion	ICD10WHO:M89.5	MONDO:equivalentTo	Osteolysis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	osteolysis
 MONDO:0043759	abdominal ectopic pregnancy	ICD10WHO:O00.0	MONDO:equivalentTo	Abdominal pregnancy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	abdominal pregnancy

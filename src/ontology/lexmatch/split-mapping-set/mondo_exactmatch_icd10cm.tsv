@@ -457,8 +457,7 @@ MONDO:0008171	nephrolithiasis	skos:exactMatch	ICD10CM:N20	Calculus of kidney and
 MONDO:0008332	platelet-type von Willebrand disease	skos:exactMatch	ICD10CM:D68.09	Other von Willebrand disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	platelet-type von willebrand disorder	LEXMATCH
 MONDO:0008332	platelet-type von Willebrand disease	skos:exactMatch	ICD10CM:D68.09	Other von Willebrand disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pseudo-von willebrand disorder	LEXMATCH
 MONDO:0008332	platelet-type von Willebrand disease	skos:exactMatch	ICD10CM:D68.09	Other von Willebrand disease	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	platelet-type von willebrand disorder	LEXMATCH
-MONDO:0008340	ptosis, hereditary congenital, 1	skos:exactMatch	ICD10CM:Q10.0	Congenital ptosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	congenital ptosis	LEXMATCH
-MONDO:0008340	ptosis, hereditary congenital, 1	skos:exactMatch	ICD10CM:Q10.0	Congenital ptosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	congenital ptosis	LEXMATCH
+MONDO:0008340	congenital ptosis	skos:exactMatch	ICD10CM:Q10.0	Congenital ptosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	congenital ptosis	LEXMATCH
 MONDO:0008388	ringed hair disease	skos:exactMatch	ICD10CM:Q84.1	Congenital morphological disturbances of hair, not elsewhere classified	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pili annulati	LEXMATCH
 MONDO:0008392	Roussy-Levy syndrome	skos:exactMatch	ICD10CM:G60.0	Hereditary motor and sensory neuropathy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	roussy-levy syndrome	LEXMATCH
 MONDO:0008392	Roussy-Levy syndrome	skos:exactMatch	ICD10CM:G60.0	Hereditary motor and sensory neuropathy	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	roussy-levy syndrome	LEXMATCH

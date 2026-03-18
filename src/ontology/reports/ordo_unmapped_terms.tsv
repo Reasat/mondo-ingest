@@ -8,7 +8,6 @@ Orphanet:409980	>1 / 1000
 Orphanet:698945	Autoimmune heparin-induced thrombocytopenia
 Orphanet:699596	Combined immunodeficiency-hypogammaglobulinemia-cancer predisposing syndrome due to AIOLOS deficiency
 Orphanet:699593	Combined immunodeficiency-lymphopenia-cancer predisposing syndrome due to AIOLOS deficiency
-Orphanet:696851	Common variable immunodeficiency and related disorders
 Orphanet:696881	Common variable immunodeficiency phenotype due to CD19/CD81 deficiency
 Orphanet:696931	Common variable immunodeficiency phenotype due to TWEAK deficiency
 Orphanet:696857	Common variable immunodeficiency phenotype due to germinal digenic/polygenic mutations
@@ -16,23 +15,11 @@ Orphanet:696870	Common variable immunodeficiency phenotype due to germinal monog
 Orphanet:696907	Common variable immunodeficiency phenotype due to homozygous TACI deficiency
 Orphanet:696863	Common variable immunodeficiency phenotype due to somatic mutations
 Orphanet:231205	Common variable immunodeficiency without known genetic defect
-Orphanet:664734	EBV susceptibility with hemophagocytic lymphohistiocytosis as a major feature
-Orphanet:700136	Early-onset idiopathic chronic pancreatitis
-Orphanet:698069	Fibromuscular dysplasia of the arteries of the extremities
-Orphanet:698036	Fibromuscular dysplasia of the cervical and intracranial arteries
-Orphanet:698059	Fibromuscular dysplasia of the coronary arteries
-Orphanet:698043	Fibromuscular dysplasia of the renal arteries
-Orphanet:698063	Fibromuscular dysplasia of the visceral arteries
 Orphanet:693869	Gallblader arteriovenous malformation
 Orphanet:693832	Gastrointestinal tract arteriovenous malformation
 Orphanet:693846	Hepatic arteriovenous malformation
-Orphanet:697764	Intellectual disability-nasal speech-craniofacial dysmorphism syndrome due to CNOT2 mutation
-Orphanet:700139	Late-onset idiopathic chronic pancreatitis
 Orphanet:693826	Pancreatic arteriovenous malformation
-Orphanet:698914	Platelet-activating anti-platelet factor 4 disorder
 Orphanet:693839	Renal arteriovenous malformation
-Orphanet:699822	Sickle cell S-Lepore disease
-Orphanet:700090	Sickle cell S-O Arab disease
 Orphanet:700107	Sickle cell S-other specified hemoglobin variant
 Orphanet:693863	Splenic arteriovenous malformation
 Orphanet:699021	Spontaneous heparin-induced thrombocytopenia
@@ -40,12 +27,9 @@ Orphanet:409981	Unknown_epidemiological_range
 Orphanet:693872	Urinary tract arteriovenous malformation
 Orphanet:693815	Uterine arteriovenous malformation
 Orphanet:699029	Vaccine-induced immune thrombotic thrombocytopenia
-Orphanet:693855	Visceral arteriovenous malformation
-Orphanet:700143	X-linked distal myopathy
 Orphanet:409934	X-linked dominant
 Orphanet:409932	X-linked recessive
 Orphanet:409938	Y-linked
-Orphanet:694308	ZMYND11-related developmental delay-speech delay-seizures-behavioral abnormalities-craniofacial dysmorphism syndrome due to a point mutation
 Orphanet:409947	adolescent
 Orphanet:409948	adult
 Orphanet:C023	age of onset

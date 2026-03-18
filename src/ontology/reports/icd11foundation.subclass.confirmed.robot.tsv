@@ -81,7 +81,7 @@ MONDO:0001456	cobblestone retinal degeneration	MONDO:0001451	icd11.foundation:19
 MONDO:0001457	secondary vitreoretinal degeneration	MONDO:0001451	icd11.foundation:345348088	icd11.foundation:1518234440	peripheral retinal degeneration
 MONDO:0001464	sigmoid colon cancer	MONDO:0021063	icd11.foundation:1717786596	icd11.foundation:1265576634	malignant colon neoplasm
 MONDO:0001479	cutaneous diphtheria	MONDO:0005504	icd11.foundation:618920860	icd11.foundation:508032285	diphtheria
-MONDO:0001505	alcoholic hepatitis	MONDO:0043693	icd11.foundation:229221394	icd11.foundation:469481605	alcoholic liver diseases
+MONDO:0001505	alcoholic hepatitis	MONDO:0043693	icd11.foundation:229221394	icd11.foundation:469481605	alcoholic liver disease
 MONDO:0001530	secondary hyperparathyroidism of renal origin	MONDO:0006964	icd11.foundation:610229783	icd11.foundation:1442752937	secondary hyperparathyroidism
 MONDO:0001548	hepatic coma	MONDO:0001711	icd11.foundation:1021642894	icd11.foundation:1769383160	hepatic encephalopathy
 MONDO:0001586	mucopolysaccharidosis type 1	MONDO:0019249	icd11.foundation:1539226250	icd11.foundation:1596128696	mucopolysaccharidosis
@@ -1027,7 +1027,7 @@ MONDO:0021008	secondary antiphospholipid syndrome	MONDO:8000010	icd11.foundation
 MONDO:0021019	X-linked recessive ocular albinism	MONDO:0017304	icd11.foundation:846740259	icd11.foundation:1147926040	ocular albinism
 MONDO:0021020	Crigler-Najjar syndrome type 1	MONDO:0009044	icd11.foundation:1098453659	icd11.foundation:291439191	Crigler-Najjar syndrome
 MONDO:0021022	hereditary hyperekplexia	MONDO:0019253	icd11.foundation:988250063	icd11.foundation:946446904	metabolic disease involving other neurotransmitter deficiency
-MONDO:0021104	alcoholic fatty liver disease	MONDO:0043693	icd11.foundation:1759668616	icd11.foundation:469481605	alcoholic liver diseases
+MONDO:0021104	alcoholic fatty liver disease	MONDO:0043693	icd11.foundation:1759668616	icd11.foundation:469481605	alcoholic liver disease
 MONDO:0021132	tertiary hyperparathyroidism	MONDO:0001741	icd11.foundation:10683191	icd11.foundation:9633776	hyperparathyroidism
 MONDO:0021176	autoimmune hepatitis type 2	MONDO:0016264	icd11.foundation:61111843	icd11.foundation:1235727122	autoimmune hepatitis
 MONDO:0021177	autoimmune hepatitis type 3	MONDO:0016264	icd11.foundation:607786920	icd11.foundation:1235727122	autoimmune hepatitis
@@ -1082,7 +1082,7 @@ MONDO:0042981	aortic valve stenosis	MONDO:0003803	icd11.foundation:956813047	icd
 MONDO:0043219	migraine with brainstem aura	MONDO:0005475	icd11.foundation:2022157084	icd11.foundation:525744634	migraine with aura
 MONDO:0043300	actinic cheilitis	MONDO:0002102	icd11.foundation:436658980	icd11.foundation:482914030	cheilitis
 MONDO:0043537	cluster headache syndrome	MONDO:0015530	icd11.foundation:760621151	icd11.foundation:607078588	trigeminal autonomic cephalalgia
-MONDO:0043693	alcoholic liver diseases	MONDO:0005154	icd11.foundation:469481605	icd11.foundation:1784240230	liver disorder
+MONDO:0043693	alcoholic liver disease	MONDO:0005154	icd11.foundation:469481605	icd11.foundation:1784240230	liver disorder
 MONDO:0043762	tubal pregnancy	MONDO:0000755	icd11.foundation:913821868	icd11.foundation:1563334645	ectopic pregnancy
 MONDO:0043994	acute cholecystitis	MONDO:0002155	icd11.foundation:2071113448	icd11.foundation:786251500	cholecystitis
 MONDO:0044739	Stevens-Johnson syndrome/toxic epidermal necrolysis overlap syndrome	MONDO:0019810	icd11.foundation:496418968	icd11.foundation:195467267	toxic epidermal necrolysis

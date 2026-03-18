@@ -908,8 +908,7 @@ MONDO:0008274	polyostotic fibrous dysplasia	skos:exactMatch	ICD10WHO:Q78.1	Polyo
 MONDO:0008315	prostate cancer	skos:exactMatch	ICD10WHO:C61	Malignant neoplasm of prostate	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant neoplasm of prostate	LEXMATCH
 MONDO:0008315	prostate cancer	skos:exactMatch	ICD10WHO:C61	Malignant neoplasm of prostate	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	malignant neoplasm of prostate	LEXMATCH
 MONDO:0008320	Protrusio acetabuli	skos:exactMatch	ICD10WHO:M24.7	Protrusio acetabuli	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	protrusio acetabuli	LEXMATCH
-MONDO:0008340	ptosis, hereditary congenital, 1	skos:exactMatch	ICD10WHO:Q10.0	Congenital ptosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	congenital ptosis	LEXMATCH
-MONDO:0008340	ptosis, hereditary congenital, 1	skos:exactMatch	ICD10WHO:Q10.0	Congenital ptosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	congenital ptosis	LEXMATCH
+MONDO:0008340	congenital ptosis	skos:exactMatch	ICD10WHO:Q10.0	Congenital ptosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	congenital ptosis	LEXMATCH
 MONDO:0008364	Raynaud disease	skos:exactMatch	ICD10WHO:I73.0	Raynaud syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	raynaud syndrome	LEXMATCH
 MONDO:0008364	Raynaud disease	skos:exactMatch	ICD10WHO:I73.0	Raynaud syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	raynaud syndrome	LEXMATCH
 MONDO:0008410	Scheuermann disease	skos:exactMatch	ICD10WHO:M42.0	Juvenile osteochondrosis of spine	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	juvenile osteochondrosis of spine	LEXMATCH
@@ -1408,8 +1407,7 @@ MONDO:0043472	ectopic ACTH secretion syndrome	skos:exactMatch	ICD10WHO:E24.3	Ect
 MONDO:0043537	cluster headache syndrome	skos:exactMatch	ICD10WHO:G44.0	Cluster headache syndrome	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cluster headache syndrome	LEXMATCH
 MONDO:0043589	femoral neck fracture	skos:exactMatch	ICD10WHO:S72.0	Fracture of neck of femur	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	fracture of neck of femur	LEXMATCH
 MONDO:0043589	femoral neck fracture	skos:exactMatch	ICD10WHO:S72.0	Fracture of neck of femur	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fracture of neck of femur	LEXMATCH
-MONDO:0043693	alcoholic liver diseases	skos:exactMatch	ICD10WHO:K70	Alcoholic liver disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	alcoholic liver disorder	LEXMATCH
-MONDO:0043693	alcoholic liver diseases	skos:exactMatch	ICD10WHO:K70	Alcoholic liver disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	alcoholic liver disorder	LEXMATCH
+MONDO:0043693	alcoholic liver disease	skos:exactMatch	ICD10WHO:K70	Alcoholic liver disease	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	alcoholic liver disorder	LEXMATCH
 MONDO:0043731	lytic metastatic bone lesion	skos:exactMatch	ICD10WHO:M89.5	Osteolysis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	osteolysis	LEXMATCH
 MONDO:0043731	lytic metastatic bone lesion	skos:exactMatch	ICD10WHO:M89.5	Osteolysis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	osteolysis	LEXMATCH
 MONDO:0043759	abdominal ectopic pregnancy	skos:exactMatch	ICD10WHO:O00.0	Abdominal pregnancy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	abdominal pregnancy	LEXMATCH
@@ -1447,6 +1445,7 @@ MONDO:0100431	migraine without aura	skos:exactMatch	ICD10WHO:G43.0	Migraine with
 MONDO:0100491	generalized pustular psoriasis	skos:exactMatch	ICD10WHO:L40.1	Generalized pustular psoriasis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	generalized pustular psoriasis	LEXMATCH
 MONDO:0100610	autism spectrum disorder 1	skos:exactMatch	ICD10WHO:F84.5	Asperger syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	asperger syndrome	LEXMATCH
 MONDO:0100610	autism spectrum disorder 1	skos:exactMatch	ICD10WHO:F84.5	Asperger syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	asperger syndrome	LEXMATCH
+MONDO:0100637	drug-induced myopathy	skos:exactMatch	ICD10WHO:G72.0	Drug-induced myopathy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	drug-induced myopathy	LEXMATCH
 MONDO:0400003	skeletal fluorosis	skos:exactMatch	ICD10WHO:M85.1	Skeletal fluorosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	skeletal fluorosis	LEXMATCH
 MONDO:0700051	liver abscess (disease)	skos:exactMatch	ICD10WHO:K75.0	Abscess of liver	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	abscess of liver	LEXMATCH
 MONDO:0700051	liver abscess (disease)	skos:exactMatch	ICD10WHO:K75.0	Abscess of liver	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	abscess of liver	LEXMATCH
@@ -1458,6 +1457,7 @@ MONDO:0850046	amniotic fluid embolism	skos:exactMatch	ICD10WHO:O88.1	Amniotic fl
 MONDO:0859565	atrioventricular septal defect	skos:exactMatch	ICD10WHO:Q21.2	Atrioventricular septal defect	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	atrioventricular septal defect	LEXMATCH
 MONDO:0956980	vascular parkinsonism	skos:exactMatch	ICD10WHO:G21.4	Vascular parkinsonism	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	vascular parkinsonism	LEXMATCH
 MONDO:0958083	conjoined twins	skos:exactMatch	ICD10WHO:Q89.4	Conjoined twins	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	conjoined twins	LEXMATCH
+MONDO:0980735	left ventricular failure	skos:exactMatch	ICD10WHO:I50.1	Left ventricular failure	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	left ventricular failure	LEXMATCH
 MONDO:1010116	sudden unexpected infant death	skos:exactMatch	ICD10WHO:W75	Accidental suffocation and strangulation in bed	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	accidental suffocation and strangulation in bed	LEXMATCH
 MONDO:1010116	sudden unexpected infant death	skos:exactMatch	ICD10WHO:W75	Accidental suffocation and strangulation in bed	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	accidental suffocation and strangulation in bed	LEXMATCH
 MONDO:1010179	type 5 diabetes mellitus	skos:exactMatch	ICD10WHO:E12	Malnutrition-related diabetes mellitus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malnutrition-related diabetes mellitus	LEXMATCH

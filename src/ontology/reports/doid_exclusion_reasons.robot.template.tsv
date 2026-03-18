@@ -160,6 +160,7 @@ DOID:0081286	MONDO:excludeGrouping
 DOID:0111721	MONDO:excludeGrouping
 DOID:0112100	MONDO:excludeGrouping
 DOID:070355	MONDO:excludeGrouping
+DOID:0111797	MONDO:excludeGroupingHeritability
 DOID:0080813	MONDO:excludeGroupingModifier
 DOID:0080814	MONDO:excludeGroupingModifier
 DOID:0080816	MONDO:excludeGroupingModifier
@@ -2676,6 +2677,9 @@ DOID:9943	MONDO:excludeNonDisease
 DOID:9989	MONDO:excludeNonDisease
 DOID:9995	MONDO:excludeNonDisease
 DOID:0050706	MONDO:excludePhenotype
+DOID:0060333	MONDO:excludePhenotype
+DOID:0061214	MONDO:excludePhenotype
+DOID:0061215	MONDO:excludePhenotype
 DOID:0080666	MONDO:excludePhenotype
 DOID:0080685	MONDO:excludePhenotype
 DOID:0080831	MONDO:excludePhenotype
@@ -2685,3 +2689,5 @@ DOID:0111964	MONDO:excludePhenotype
 DOID:0111965	MONDO:excludePhenotype
 DOID:0111966	MONDO:excludePhenotype
 DOID:4667	MONDO:excludePhenotype
+DOID:4668	MONDO:excludePhenotype
+DOID:9373	MONDO:excludePhenotype

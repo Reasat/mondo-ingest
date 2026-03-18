@@ -204,6 +204,7 @@ MONDO:0008379	retinitis pigmentosa 10	MONDO:0019200	OMIM:180105	OMIMPS:268000	re
 MONDO:0008386	Axenfeld-Rieger syndrome type 1	MONDO:0019187	OMIM:180500	OMIMPS:180500	Axenfeld-Rieger syndrome
 MONDO:0008393	Rubinstein-Taybi syndrome due to CREBBP mutations	MONDO:0019188	OMIM:180849	OMIMPS:180849	Rubinstein-Taybi syndrome
 MONDO:0008409	congenital myopathy 7A, myosin storage, autosomal dominant	MONDO:0019952	OMIM:608358	OMIMPS:117000	congenital myopathy
+MONDO:0008419	scoliosis, isolated, susceptibility to, 1	MONDO:0980764	OMIM:181800	OMIMPS:181800	scoliosis, isolated, susceptibility to
 MONDO:0008422	autosomal dominant sideroblastic anemia	MONDO:0020099	OMIM:182170	OMIMPS:300751	inherited sideroblastic anemia
 MONDO:0008428	septooptic dysplasia	MONDO:0013099	OMIM:182230	OMIMPS:613038	combined pituitary hormone deficiencies, genetic form
 MONDO:0008437	hereditary spastic paraplegia 3A	MONDO:0019064	OMIM:182600	OMIMPS:303350	hereditary spastic paraplegia
@@ -968,6 +969,7 @@ MONDO:0011800	glioma susceptibility 4	MONDO:0100242	OMIM:607248	OMIMPS:137800	gl
 MONDO:0011801	spinocerebellar ataxia, autosomal recessive, with axonal neuropathy 1	MONDO:0020771	OMIM:607250	OMIMPS:607250	spinocerebellar ataxia, autosomal recessive, with axonal neuropathy
 MONDO:0011803	hereditary spastic paraplegia 7	MONDO:0019064	OMIM:607259	OMIMPS:303350	hereditary spastic paraplegia
 MONDO:0011814	Smith-McCort dysplasia 1	MONDO:0015799	OMIM:607326	OMIMPS:607326	Smith-McCort dysplasia
+MONDO:0011820	scoliosis, isolated, susceptibility to, 2	MONDO:0980764	OMIM:607354	OMIMPS:181800	scoliosis, isolated, susceptibility to
 MONDO:0011821	Meckel syndrome, type 3	MONDO:0018921	OMIM:607361	OMIMPS:249000	Meckel syndrome
 MONDO:0011822	Bartter disease type 3	MONDO:0015231	OMIM:607364	OMIMPS:601678	Bartter syndrome
 MONDO:0011826	glucocorticoid deficiency 2	MONDO:0008733	OMIM:607398	OMIMPS:202200	familial glucocorticoid deficiency
@@ -1072,6 +1074,7 @@ MONDO:0012092	hereditary sensory and autonomic neuropathy type 5	MONDO:0015364	O
 MONDO:0012106	microcephaly 5, primary, autosomal recessive	MONDO:0016660	OMIM:608716	OMIMPS:251200	autosomal recessive primary microcephaly
 MONDO:0012111	hypertrophic cardiomyopathy 8	MONDO:0024573	OMIM:608751	OMIMPS:192600	familial hypertrophic cardiomyopathy
 MONDO:0012112	hypertrophic cardiomyopathy 10	MONDO:0024573	OMIM:608758	OMIMPS:192600	familial hypertrophic cardiomyopathy
+MONDO:0012115	scoliosis, isolated, susceptibility to, 3	MONDO:0980764	OMIM:608765	OMIMPS:181800	scoliosis, isolated, susceptibility to
 MONDO:0012117	ALG9-congenital disorder of glycosylation	MONDO:0005500	OMIM:608776	OMIMPS:212065	congenital disorder of glycosylation type I
 MONDO:0012118	COG7-congenital disorder of glycosylation	MONDO:0005501	OMIM:608779	OMIMPS:212066	congenital disorder of glycosylation type II
 MONDO:0012119	asperger syndrome, susceptibility to, 3	MONDO:0100440	OMIM:608781	OMIMPS:608638	Asperger syndrome, susceptibility to
@@ -1378,6 +1381,8 @@ MONDO:0012812	developmental and epileptic encephalopathy, 4	MONDO:0100062	OMIM:6
 MONDO:0012813	retinitis pigmentosa 29	MONDO:0019200	OMIM:612165	OMIMPS:268000	retinitis pigmentosa
 MONDO:0012816	atrial fibrillation, familial, 6	MONDO:0018054	OMIM:612201	OMIMPS:608583	familial atrial fibrillation
 MONDO:0012818	maturity-onset diabetes of the young type 9	MONDO:0018911	OMIM:612225	OMIMPS:125850	maturity-onset diabetes of the young
+MONDO:0012826	scoliosis, isolated, susceptibility to, 4	MONDO:0980764	OMIM:612238	OMIMPS:181800	scoliosis, isolated, susceptibility to
+MONDO:0012827	scoliosis, isolated, susceptibility to, 5	MONDO:0980764	OMIM:612239	OMIMPS:181800	scoliosis, isolated, susceptibility to
 MONDO:0012828	atrial fibrillation, familial, 7	MONDO:0018054	OMIM:612240	OMIMPS:608583	familial atrial fibrillation
 MONDO:0012829	inflammatory bowel disease 12	MONDO:0005265	OMIM:612241	OMIMPS:266600	inflammatory bowel disease
 MONDO:0012831	inflammatory bowel disease 13	MONDO:0005265	OMIM:612244	OMIMPS:266600	inflammatory bowel disease
@@ -1823,6 +1828,7 @@ MONDO:0013731	MEGF10-related myopathy	MONDO:0019952	OMIM:614399	OMIMPS:117000	co
 MONDO:0013734	microphthalmia, syndromic 11	MONDO:0016073	OMIM:614402	OMIMPS:309800	syndromic microphthalmia
 MONDO:0013738	autosomal recessive nonsyndromic hearing loss 96	MONDO:0019588	OMIM:614414	OMIMPS:220290	hearing loss, autosomal recessive
 MONDO:0013739	chilblain lupus 2	MONDO:0018827	OMIM:614415	OMIMPS:610448	familial chilblain lupus
+MONDO:0013743	autosomal systemic lupus erythematosus type 16	MONDO:0007915	OMIM:614420	OMIMPS:601744	systemic lupus erythematosus
 MONDO:0013745	Joubert syndrome 14	MONDO:0018772	OMIM:614424	OMIMPS:213300	Joubert syndrome
 MONDO:0013746	ventricular septal defect 1	MONDO:0002070	OMIM:614429	OMIMPS:614429	ventricular septal defect
 MONDO:0013747	atrioventricular septal defect 4	MONDO:0020290	OMIM:614430	OMIMPS:606215	familial atrioventricular septal defect
@@ -2274,7 +2280,7 @@ MONDO:0014595	developmental and epileptic encephalopathy, 30	MONDO:0100062	OMIM:
 MONDO:0014596	lissencephaly 7 with cerebellar hypoplasia	MONDO:0018838	OMIM:616342	OMIMPS:607432	lissencephaly spectrum disorders
 MONDO:0014600	dyskeratosis congenita, autosomal recessive 6	MONDO:0015780	OMIM:616353	OMIMPS:127550	dyskeratosis congenita
 MONDO:0014601	autosomal recessive spinocerebellar ataxia 20	MONDO:0015244	OMIM:616354	OMIMPS:213200	autosomal recessive cerebellar ataxia
-MONDO:0014602	Hogue-Janssens syndrome 1	MONDO:0957553	OMIM:616355	OMIMPS:616355	Houge-Janssens syndrome
+MONDO:0014602	Houge-Janssens syndrome 1	MONDO:0957553	OMIM:616355	OMIMPS:616355	Houge-Janssens syndrome
 MONDO:0014603	autosomal dominant nonsyndromic hearing loss 40	MONDO:0019587	OMIM:616357	OMIMPS:124900	autosomal dominant nonsyndromic hearing loss
 MONDO:0014605	Houge-Janssens syndrome 2	MONDO:0957553	OMIM:616362	OMIMPS:616355	Houge-Janssens syndrome
 MONDO:0014611	multiple mitochondrial dysfunctions syndrome 4	MONDO:0017338	OMIM:616370	OMIMPS:605711	fatal multiple mitochondrial dysfunctions syndrome
@@ -3520,6 +3526,7 @@ MONDO:0800445	Birt-Hogg-Dube syndrome 1	MONDO:0800444	OMIM:135150	OMIMPS:135150	
 MONDO:0800452	congenital amegakaryocytic thrombocytopenia 1	MONDO:0800451	OMIM:604498	OMIMPS:604498	congenital amegakaryocytic thrombocytopenia
 MONDO:0800455	Birt-Hogg-Dube syndrome 2	MONDO:0800444	OMIM:620459	OMIMPS:135150	Birt-Hogg-Dube syndrome
 MONDO:0800497	interstitial lung disease 2	MONDO:0031199	OMIM:178500	OMIMPS:619611	inherited interstitial lung disease
+MONDO:0859083	systemic lupus erythematosus 17	MONDO:0007915	OMIM:301080	OMIMPS:601744	systemic lupus erythematosus
 MONDO:0859086	intellectual developmental disorder, X-linked 110	MONDO:0019181	OMIM:301095	OMIMPS:309530	non-syndromic X-linked intellectual disability
 MONDO:0859147	Marbach-Rustad progeroid syndrome	MONDO:0015333	OMIM:619322	OMIMPS:176670	progeroid syndrome
 MONDO:0859157	visceral myopathy 2	MONDO:0016829	OMIM:619350	OMIMPS:155310	familial visceral myopathy
@@ -3906,7 +3913,14 @@ MONDO:0980967	mitochondrial dna depletion syndrome 14A (encephalomyopathic type)
 MONDO:0980969	Charcot-Marie-Tooth disease, axonal, type 2LL	MONDO:0015626	OMIM:621485	OMIMPS:118220	Charcot-Marie-Tooth disease
 MONDO:0980971	charcot-marie-tooth disease, axonal, type 2MM	MONDO:0015626	OMIM:621488	OMIMPS:118220	Charcot-Marie-Tooth disease
 MONDO:0980972	hypotrichosis 16	MONDO:0003037	OMIM:621490	OMIMPS:605389	hypotrichosis
+MONDO:0980986	scoliosis, isolated, susceptibility to, 6	MONDO:0980764	OMIM:621428	OMIMPS:181800	scoliosis, isolated, susceptibility to
+MONDO:0980987	xeroderma pigmentosum, complementation group J	MONDO:0019600	OMIM:621435	OMIMPS:278700	xeroderma pigmentosum
+MONDO:0980991	microcephaly 31, primary, autosomal recessive	MONDO:0016660	OMIM:621507	OMIMPS:251200	autosomal recessive primary microcephaly
+MONDO:0980992	Meier-Gorlin syndrome 9	MONDO:0016817	OMIM:621512	OMIMPS:224690	Meier-Gorlin syndrome
+MONDO:0981022	cardiomyopathy, dilated, 3C	MONDO:0016333	OMIM:301163	OMIMPS:115200	familial dilated cardiomyopathy
+MONDO:0981023	spondylocostal dysostosis 7, autosomal recessive	MONDO:0000359	OMIM:621523	OMIMPS:277300	spondylocostal dysostosis
 MONDO:1060177	developmental and epileptic encephalopathy 119	MONDO:0100062	OMIM:621304	OMIMPS:308350	genetic developmental and epileptic encephalopathy
+MONDO:1060185	systemic lupus erythematosus 18	MONDO:0007915	OMIM:621369	OMIMPS:601744	systemic lupus erythematosus
 MONDO:8000006	WHIM syndrome 1	MONDO:0023880	OMIM:193670	OMIMPS:193670	WHIM syndrome
 MONDO:8000008	Martsolf syndrome 1	MONDO:0023910	OMIM:212720	OMIMPS:212720	Martsolf syndrome
 MONDO:8000011	visceral neuropathy, familial, 1, autosomal recessive	MONDO:0023961	OMIM:243180	OMIMPS:243180	visceral neuropathy, familial

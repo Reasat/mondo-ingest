@@ -17891,6 +17891,7 @@ OMIM:621291	MONDO:excludeGene
 OMIM:621292	MONDO:excludeGene
 OMIM:621293	MONDO:excludeGene
 OMIM:621294	MONDO:excludeGene
+OMIM:621296	MONDO:excludeGene
 OMIM:621297	MONDO:excludeGene
 OMIM:621298	MONDO:excludeGene
 OMIM:621299	MONDO:excludeGene
@@ -18038,6 +18039,11 @@ OMIM:621521	MONDO:excludeGene
 OMIM:621522	MONDO:excludeGene
 OMIM:621524	MONDO:excludeGene
 OMIM:621526	MONDO:excludeGene
+OMIM:621527	MONDO:excludeGene
+OMIM:621529	MONDO:excludeGene
+OMIM:621530	MONDO:excludeGene
+OMIM:621531	MONDO:excludeGene
+OMIM:621532	MONDO:excludeGene
 OMIMPS:151623	MONDO:excludeGrouping
 OMIM:100640	MONDO:excludeNonDisease
 OMIM:100660	MONDO:excludeNonDisease
@@ -25960,7 +25966,6 @@ OMIM:611171	MONDO:excludeNonDisease
 OMIM:611172	MONDO:excludeNonDisease
 OMIM:611173	MONDO:excludeNonDisease
 OMIM:611175	MONDO:excludeNonDisease
-OMIM:611176	MONDO:excludeNonDisease
 OMIM:611178	MONDO:excludeNonDisease
 OMIM:611179	MONDO:excludeNonDisease
 OMIM:611180	MONDO:excludeNonDisease
@@ -30738,6 +30743,11 @@ OMIM:621521	MONDO:excludeNonDisease
 OMIM:621522	MONDO:excludeNonDisease
 OMIM:621524	MONDO:excludeNonDisease
 OMIM:621526	MONDO:excludeNonDisease
+OMIM:621527	MONDO:excludeNonDisease
+OMIM:621529	MONDO:excludeNonDisease
+OMIM:621530	MONDO:excludeNonDisease
+OMIM:621531	MONDO:excludeNonDisease
+OMIM:621532	MONDO:excludeNonDisease
 OMIM:123270	MONDO:excludePhenotype
 OMIM:130180	MONDO:excludePhenotype
 OMIM:131500	MONDO:excludePhenotype
@@ -32529,6 +32539,9 @@ OMIM:618954	MONDO:excludeTrait
 OMIM:619701	MONDO:excludeTrait
 OMIM:619812	MONDO:excludeTrait
 OMIM:620975	MONDO:excludeTrait
+OMIM:621336	MONDO:excludeTrait
+OMIM:621420	MONDO:excludeTrait
+OMIMPS:608902	MONDO:excludeTrait
 OMIM:100640	MONDO:nonDisease
 OMIM:100650	MONDO:nonDisease
 OMIM:100660	MONDO:nonDisease
@@ -50306,3 +50319,8 @@ OMIM:621521	MONDO:nonDisease
 OMIM:621522	MONDO:nonDisease
 OMIM:621524	MONDO:nonDisease
 OMIM:621526	MONDO:nonDisease
+OMIM:621527	MONDO:nonDisease
+OMIM:621529	MONDO:nonDisease
+OMIM:621530	MONDO:nonDisease
+OMIM:621531	MONDO:nonDisease
+OMIM:621532	MONDO:nonDisease

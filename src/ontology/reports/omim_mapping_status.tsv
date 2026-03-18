@@ -1,20 +1,8 @@
 subject_id	subject_label	is_mapped	is_excluded	is_deprecated
-OMIM:301163	cardiomyopathy, dilated, 3c	False	False	False
-OMIM:621296	catechol-o-methyltransferase activity, variation 1n	False	False	False
-OMIM:621336	short sleep, familial natural, 3	False	False	False
-OMIM:621420	angiotensin i-converting enzyme, plasma level of	False	False	False
 OMIM:621426	drug metabolism, altered, cyp2a6-related	False	False	False
-OMIM:621428	scoliosis, isolated, susceptibility to, 6	False	False	False
-OMIM:621435	xeroderma pigmentosum, complementation group j	False	False	False
-OMIM:621500	epilepsy, idiopathic generalized 20	False	False	False
-OMIM:621502	dystonia 38, susceptibility to	False	False	False
-OMIM:621506	neurodevelopmental disorder with parkinsonism or other movement abnormalities	False	False	False
-OMIM:621507	microcephaly 31, primary, autosomal recessive	False	False	False
-OMIM:621512	meier-gorlin syndrome 9	False	False	False
-OMIM:621523	spondylocostal dysostosis 7, autosomal recessive	False	False	False
-OMIM:621525	neurodegenerative disorder with cerebellar and caudate atrophy	False	False	False
-OMIMPS:601744	Systemic lupus erythematosus	False	False	False
-OMIMPS:608902	Drug metabolism, altered (select examples)	False	False	False
+OMIM:621510	congenital myopathy 29 with contractures	False	False	False
+OMIM:621511	lethal congenital contracture syndrome 12	False	False	False
+OMIM:621533	neurodevelopmental disorder with seizures and impaired intellectual and language development	False	False	False
 OMIM:100500		False	False	True
 OMIM:100680		False	False	True
 OMIM:100735		False	False	True
@@ -19324,6 +19312,7 @@ OMIM:621291	ANKRD63	False	True	False
 OMIM:621292	GLIDR	False	True	False
 OMIM:621293	KNOP1	False	True	False
 OMIM:621294	ZBTB3	False	True	False
+OMIM:621296	catechol-o-methyltransferase activity, variation 1n	False	True	False
 OMIM:621297	LETR1	False	True	False
 OMIM:621298	GREP1	False	True	False
 OMIM:621299	CCDC201	False	True	False
@@ -19352,6 +19341,7 @@ OMIM:621329	FAM81A	False	True	False
 OMIM:621330	OSER1	False	True	False
 OMIM:621334	MIR496	False	True	False
 OMIM:621335	SPATA31A1	False	True	False
+OMIM:621336	short sleep, familial natural, 3	False	True	False
 OMIM:621338	PCYOX1L	False	True	False
 OMIM:621339	HRCT1	False	True	False
 OMIM:621340	CRISPLD1	False	True	False
@@ -19406,6 +19396,7 @@ OMIM:621413	PINLYP	False	True	False
 OMIM:621416	NUDT22	False	True	False
 OMIM:621418	C17ORF99	False	True	False
 OMIM:621419	DDX49	False	True	False
+OMIM:621420	angiotensin i-converting enzyme, plasma level of	False	True	False
 OMIM:621422	TRIR	False	True	False
 OMIM:621423	TRAPPC13	False	True	False
 OMIM:621425	ABRACL	False	True	False
@@ -19471,7 +19462,13 @@ OMIM:621521	SACK1E	False	True	False
 OMIM:621522	SACK1F	False	True	False
 OMIM:621524	WSB2	False	True	False
 OMIM:621526	QPCTL	False	True	False
+OMIM:621527	TMEM145	False	True	False
+OMIM:621529	TMEM168	False	True	False
+OMIM:621530	CWC25	False	True	False
+OMIM:621531	TRMT11	False	True	False
+OMIM:621532	THUMPD3	False	True	False
 OMIMPS:151623	Li-Fraumeni syndrome	False	True	False
+OMIMPS:608902	Drug metabolism, altered (select examples)	False	True	False
 OMIM:173500		False	True	True
 OMIM:173540		False	True	True
 OMIM:300795		False	True	True
@@ -21848,6 +21845,7 @@ OMIM:301137	spermatogenic failure, x-linked, 9	True	False	False
 OMIM:301142	neurodegenerative disorder, x-linked, female-restricted, with parkinsonism and cognitive impairment	True	False	False
 OMIM:301148	retinitis pigmentosa 99	True	False	False
 OMIM:301149	retinal dystrophy, x-linked, gardner-hardcastle type	True	False	False
+OMIM:301163	cardiomyopathy, dilated, 3c	True	False	False
 OMIM:301200	amelogenesis imperfecta, type 1e	True	False	False
 OMIM:301201	amelogenesis imperfecta, hypoplastic/hypomaturation, X-linked 2	True	False	False
 OMIM:301220	pigmentary disorder, reticulate, with systemic manifestations, X-linked	True	False	False
@@ -27826,9 +27824,11 @@ OMIM:621415	intellectual developmental disorder, autosomal dominant 77	True	Fals
 OMIM:621417	apolipoprotein a-ii deficiency	True	False	False
 OMIM:621421	ramond-elliott neurodevelopmental syndrome	True	False	False
 OMIM:621424	leukoencephalopathy without lacunae, adult-onset	True	False	False
+OMIM:621428	scoliosis, isolated, susceptibility to, 6	True	False	False
 OMIM:621431	mitochondrial complex 4 deficiency, nuclear type 24	True	False	False
 OMIM:621433	congenital myopathy 28 with rigid spine	True	False	False
 OMIM:621434	dental radicular dysplasia	True	False	False
+OMIM:621435	xeroderma pigmentosum, complementation group j	True	False	False
 OMIM:621436	microcephaly, progressive, with simplified gyral pattern and cerebellar hypoplasia	True	False	False
 OMIM:621439	neutropenia, severe congenital, 12, autosomal recessive	True	False	False
 OMIM:621440	dentin dysplasia, type 1b	True	False	False
@@ -27853,6 +27853,13 @@ OMIM:621488	charcot-marie-tooth disease, axonal, type 2mm	True	False	False
 OMIM:621490	hypotrichosis 16	True	False	False
 OMIM:621495	stad syndrome	True	False	False
 OMIM:621499	craniosynostosis-scoliosis syndrome	True	False	False
+OMIM:621500	epilepsy, idiopathic generalized 20	True	False	False
+OMIM:621502	dystonia 38, susceptibility to	True	False	False
+OMIM:621506	neurodevelopmental disorder with parkinsonism or other movement abnormalities	True	False	False
+OMIM:621507	microcephaly 31, primary, autosomal recessive	True	False	False
+OMIM:621512	meier-gorlin syndrome 9	True	False	False
+OMIM:621523	spondylocostal dysostosis 7, autosomal recessive	True	False	False
+OMIM:621525	neurodegenerative disorder with cerebellar and caudate atrophy	True	False	False
 OMIMPS:100070	Aortic aneurysm, familial abdominal	True	False	False
 OMIMPS:100300	Adams-Oliver syndrome	True	False	False
 OMIMPS:101800	Acrodysostosis	True	False	False
@@ -28317,6 +28324,7 @@ OMIMPS:601495	Agammaglobulinemia	True	False	False
 OMIMPS:601559	Stuve-Wiedemann syndrome	True	False	False
 OMIMPS:601675	Trichothiodystrophy	True	False	False
 OMIMPS:601678	Bartter syndrome	True	False	False
+OMIMPS:601744	Systemic lupus erythematosus	True	False	False
 OMIMPS:601764	Seizures, benign familial infantile	True	False	False
 OMIMPS:602014	Hypomagnesemia	True	False	False
 OMIMPS:602483	Auriculocondylar syndrome	True	False	False

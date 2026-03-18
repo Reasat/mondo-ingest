@@ -2121,7 +2121,7 @@ MONDO:0014562	neonatal encephalomyopathy-cardiomyopathy-respiratory distress syn
 MONDO:0014566	Charcot-Marie-Tooth disease axonal type 2U	MONDO:0018993	Orphanet:397735	Orphanet:64746	Charcot-Marie-Tooth disease type 2
 MONDO:0014576	lipoyl transferase 1 deficiency	MONDO:0018424	Orphanet:401862	Orphanet:401854	inherited lipoic acid biosynthesis defect
 MONDO:0014601	autosomal recessive spinocerebellar ataxia 20	MONDO:0015159	Orphanet:397709	Orphanet:102283	multiple congenital anomalies/dysmorphic syndrome-intellectual disability
-MONDO:0014602	Hogue-Janssens syndrome 1	MONDO:0015159	Orphanet:457279	Orphanet:102283	multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+MONDO:0014602	Houge-Janssens syndrome 1	MONDO:0015159	Orphanet:457279	Orphanet:102283	multiple congenital anomalies/dysmorphic syndrome-intellectual disability
 MONDO:0014605	Houge-Janssens syndrome 2	MONDO:0015159	Orphanet:457284	Orphanet:102283	multiple congenital anomalies/dysmorphic syndrome-intellectual disability
 MONDO:0014606	intellectual disability-microcephaly-strabismus-behavioral abnormalities syndrome	MONDO:0015159	Orphanet:468678	Orphanet:102283	multiple congenital anomalies/dysmorphic syndrome-intellectual disability
 MONDO:0014608	mandibulofacial dysostosis with alopecia	MONDO:0015483	Orphanet:443995	Orphanet:155899	mandibulofacial dysostosis
@@ -3749,6 +3749,7 @@ MONDO:0019074	bilateral acute depigmentation of the iris	MONDO:0011119	Orphanet:
 MONDO:0019078	Ritscher-Schinzel syndrome	MONDO:0015159	Orphanet:7	Orphanet:102283	multiple congenital anomalies/dysmorphic syndrome-intellectual disability
 MONDO:0019080	alopecia totalis	MONDO:0004907	Orphanet:700	Orphanet:79364	alopecia
 MONDO:0019082	bullous pemphigoid	MONDO:0019337	Orphanet:703	Orphanet:79669	autoimmune bullous skin disease
+MONDO:0019084	radiation proctitis	MONDO:0043459	Orphanet:70475	Orphanet:521132	radiation-induced disorder
 MONDO:0019094	congenital Epstein-Barr virus infection	MONDO:0016511	Orphanet:70596	Orphanet:232035	infectious embryofetopathy
 MONDO:0019100	neuromyelitis optica	MONDO:0044685	Orphanet:71211	Orphanet:499047	autoimmune/inflammatory optic neuropathy
 MONDO:0019107	Rh deficiency syndrome	MONDO:0020102	Orphanet:71275	Orphanet:98365	hereditary stomatocytosis
@@ -4415,7 +4416,6 @@ MONDO:0033683	congenital progressive bone marrow failure-B-cell immunodeficiency
 MONDO:0033717	congenital cerebellar ataxia due to RNU12 mutation	MONDO:0020043	Orphanet:512260	Orphanet:98095	autosomal recessive congenital cerebellar ataxia
 MONDO:0033821	fungal keratitis	MONDO:0023865	Orphanet:519930	Orphanet:519278	corneal infection
 MONDO:0033838	radiation-induced plexopathy	MONDO:0015923	Orphanet:521123	Orphanet:182086	acquired peripheral neuropathy
-MONDO:0033838	radiation-induced plexopathy	MONDO:0043459	Orphanet:521123	Orphanet:521132	radiation-induced disorder
 MONDO:0033850	autosomal recessive axonal charcot-marie-tooth disease due to copper metabolism defect	MONDO:0017762	Orphanet:521411	Orphanet:309839	disorder of copper metabolism
 MONDO:0033862	primary autoimmune enteropathy	MONDO:0019787	Orphanet:522037	Orphanet:94075	autoimmune enteropathy
 MONDO:0033885	mitochondrial complex IV deficiency, nuclear-type	MONDO:0000066	Orphanet:254905	Orphanet:254846	mitochondrial respiratory chain complex deficiency
@@ -4784,6 +4784,15 @@ MONDO:0979370	late infantile neuronal ceroid lipofuscinosis 8	MONDO:0010830	Orph
 MONDO:0979371	congenital neuronal ceroid lipofuscinosis 10	MONDO:0012414	Orphanet:700487	Orphanet:228337	neuronal ceroid lipofuscinosis 10
 MONDO:0979372	late infantile neuronal ceroid lipofuscinosis 10	MONDO:0012414	Orphanet:700492	Orphanet:228337	neuronal ceroid lipofuscinosis 10
 MONDO:0979373	juvenile neuronal ceroid lipofuscinosis 10	MONDO:0012414	Orphanet:700497	Orphanet:228337	neuronal ceroid lipofuscinosis 10
+MONDO:0980997	fibromuscular dysplasia of the cervical and intracranial arteries	MONDO:0006761	Orphanet:698036	Orphanet:698012	fibromuscular dysplasia
+MONDO:0980998	fibromuscular dysplasia of the renal arteries	MONDO:0006761	Orphanet:698043	Orphanet:698012	fibromuscular dysplasia
+MONDO:0980999	fibromuscular dysplasia of the coronary arteries	MONDO:0006761	Orphanet:698059	Orphanet:698012	fibromuscular dysplasia
+MONDO:0981000	fibromuscular dysplasia of the visceral arteries	MONDO:0006761	Orphanet:698063	Orphanet:698012	fibromuscular dysplasia
+MONDO:0981001	fibromuscular dysplasia of the arteries of the extremities	MONDO:0006761	Orphanet:698069	Orphanet:698012	fibromuscular dysplasia
+MONDO:0981004	sickle cell S-Lepore disease	MONDO:0979354	Orphanet:699822	Orphanet:700085	sickle cell disease due to hemoglobin S and a non-S/non-C hemoglobin variant
+MONDO:0981005	sickle cell S-O Arab disease	MONDO:0979354	Orphanet:700090	Orphanet:700085	sickle cell disease due to hemoglobin S and a non-S/non-C hemoglobin variant
+MONDO:0981007	early-onset idiopathic chronic pancreatitis	MONDO:0979357	Orphanet:700136	Orphanet:700133	idiopathic chronic pancreatitis
+MONDO:0981008	late-onset idiopathic chronic pancreatitis	MONDO:0979357	Orphanet:700139	Orphanet:700133	idiopathic chronic pancreatitis
 MONDO:1010154	adult hypophosphatasia	MONDO:0018570	Orphanet:247676	Orphanet:436	hypophosphatasia
 MONDO:1010168	childhood hypophosphatasia	MONDO:0018570	Orphanet:247667	Orphanet:436	hypophosphatasia
 MONDO:1010169	infantile hypophosphatasia	MONDO:0018570	Orphanet:247651	Orphanet:436	hypophosphatasia

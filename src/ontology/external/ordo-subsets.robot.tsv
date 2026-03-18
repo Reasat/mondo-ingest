@@ -930,7 +930,7 @@ MONDO:0008335	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:2994	s
 MONDO:0008337	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:2989	familial pterygium of the conjunctiva	Familial pterygium of the conjunctiva
 MONDO:0008338	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:65743	contractures, pterygia, and spondylocarpotarsal fusion syndrome 1A	Autosomal dominant multiple pterygium syndrome
 MONDO:0008339	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:2987	antecubital pterygium syndrome	Antecubital pterygium syndrome
-MONDO:0008340	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:91411	ptosis, hereditary congenital, 1	Congenital ptosis
+MONDO:0008340	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:91411	congenital ptosis	Congenital ptosis
 MONDO:0008341	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:2999	ptosis-strabismus-ectopic pupils syndrome	Ptosis-strabismus-ectopic pupils syndrome
 MONDO:0008343	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:1207	pulmonary atresia with ventricular septal defect	Pulmonary atresia with ventricular septal defect
 MONDO:0008346	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:99931	pulmonary hemosiderosis	Idiopathic pulmonary hemosiderosis
@@ -3525,6 +3525,7 @@ MONDO:0014475	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:423275
 MONDO:0014476	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:401953	episodic ataxia type 8	Episodic ataxia with slurred speech
 MONDO:0014483	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:397758	retinal dystrophy with inner retinal dysfunction and ganglion cell anomalies	Retinal dystrophy with inner retinal dysfunction and ganglion cell anomalies
 MONDO:0014486	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:694304	intellectual disability, autosomal dominant 30	ZMYND11-related developmental delay-speech delay-seizures-behavioral abnormalities-craniofacial dysmorphism syndrome
+MONDO:0014486	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:694308	intellectual disability, autosomal dominant 30	ZMYND11-related developmental delay-speech delay-seizures-behavioral abnormalities-craniofacial dysmorphism syndrome due to a point mutation
 MONDO:0014487	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:369861	congenital sideroblastic anemia-B-cell immunodeficiency-periodic fever-developmental delay syndrome	Congenital sideroblastic anemia-B-cell immunodeficiency-periodic fever-developmental delay syndrome
 MONDO:0014489	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:445110	limb-girdle muscular dystrophy due to POMK deficiency	Limb-girdle muscular dystrophy due to POMK deficiency
 MONDO:0014490	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:438075	ketoacidosis due to monocarboxylate transporter-1 deficiency	Ketoacidosis due to monocarboxylate transporter-1 deficiency
@@ -3572,7 +3573,7 @@ MONDO:0014574	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:444138
 MONDO:0014576	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:401862	lipoyl transferase 1 deficiency	Lipoyl transferase 1 deficiency
 MONDO:0014597	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:574918	immunodeficiency 39	Predisposition to severe viral infection due to IRF7 deficiency
 MONDO:0014601	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:397709	autosomal recessive spinocerebellar ataxia 20	Intellectual disability-coarse face-macrocephaly-cerebellar hypotrophy syndrome
-MONDO:0014602	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:457279	Hogue-Janssens syndrome 1	Intellectual disability-macrocephaly-hypotonia-behavioral abnormalities syndrome
+MONDO:0014602	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:457279	Houge-Janssens syndrome 1	Intellectual disability-macrocephaly-hypotonia-behavioral abnormalities syndrome
 MONDO:0014605	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:457284	Houge-Janssens syndrome 2	Microcephaly-corpus callosum hypoplasia-intellectual disability-facial dysmorphism syndrome
 MONDO:0014606	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:468678	intellectual disability-microcephaly-strabismus-behavioral abnormalities syndrome	White-Sutton syndrome
 MONDO:0014608	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:443995	mandibulofacial dysostosis with alopecia	Mandibulofacial dysostosis with alopecia
@@ -8604,6 +8605,7 @@ MONDO:0032820	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:659609
 MONDO:0032830	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:656135	snijders blok-fisher syndrome	Intellectual disability-cupped ears syndrome
 MONDO:0032831	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:613267	pontocerebellar hypoplasia, type 13	Pontocerebellar hypoplasia type 13
 MONDO:0032832	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:697760	intellectual developmental disorder with nasal speech, dysmorphic facies, and variable skeletal anomalies	Intellectual disability-nasal speech-craniofacial dysmorphism syndrome
+MONDO:0032832	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:697764	intellectual developmental disorder with nasal speech, dysmorphic facies, and variable skeletal anomalies	Intellectual disability-nasal speech-craniofacial dysmorphism syndrome due to CNOT2 mutation
 MONDO:0032836	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:502430	Weiss-Kruszka syndrome	Weiss-Kruszka Syndrome
 MONDO:0032838	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:664923	neurodevelopmental disorder with microcephaly, arthrogryposis, and structural brain anomalies	Congenital arthrogryposis-microcephaly-facial dysmorphism-severe neurodevelopmental delay syndrome
 MONDO:0032850	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:684305	neurooculocardiogenitourinary syndrome	Neurooculocardiogenitourinary syndrome
@@ -9562,6 +9564,15 @@ MONDO:0979371	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Or
 MONDO:0979372	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:700492	late infantile neuronal ceroid lipofuscinosis 10	Late infantile CLN10 disease
 MONDO:0979373	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:700497	juvenile neuronal ceroid lipofuscinosis 10	Juvenile CLN10 disease
 MONDO:0980715	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:436242	cardiac conduction disease with or without cardiomyoopathy	Hereditary atrial tachyarrhythmia-infra-Hisian cardiac conduction disease
+MONDO:0980997	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:698036	fibromuscular dysplasia of the cervical and intracranial arteries	Fibromuscular dysplasia of the cervical and intracranial arteries
+MONDO:0980998	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:698043	fibromuscular dysplasia of the renal arteries	Fibromuscular dysplasia of the renal arteries
+MONDO:0980999	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:698059	fibromuscular dysplasia of the coronary arteries	Fibromuscular dysplasia of the coronary arteries
+MONDO:0981000	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:698063	fibromuscular dysplasia of the visceral arteries	Fibromuscular dysplasia of the visceral arteries
+MONDO:0981001	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:698069	fibromuscular dysplasia of the arteries of the extremities	Fibromuscular dysplasia of the arteries of the extremities
+MONDO:0981004	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:699822	sickle cell S-Lepore disease	Sickle cell S-Lepore disease
+MONDO:0981005	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:700090	sickle cell S-O Arab disease	Sickle cell S-O Arab disease
+MONDO:0981007	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:700136	early-onset idiopathic chronic pancreatitis	Early-onset idiopathic chronic pancreatitis
+MONDO:0981008	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:700139	late-onset idiopathic chronic pancreatitis	Late-onset idiopathic chronic pancreatitis
 MONDO:1010131	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:696175	encapsulating peritoneal sclerosis	Encapsulating peritoneal sclerosis
 MONDO:1010154	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:247676	adult hypophosphatasia	Adult hypophosphatasia
 MONDO:1010168	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:247667	childhood hypophosphatasia	Childhood-onset hypophosphatasia

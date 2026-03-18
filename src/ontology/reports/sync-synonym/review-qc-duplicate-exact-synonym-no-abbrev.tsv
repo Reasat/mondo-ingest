@@ -361,9 +361,9 @@ Restless legs syndrome	MONDO:0005391	icd11.foundation:1254916765	added
 Restless legs syndrome	MONDO:0100170	OMIMPS:102300	added		
 Richter syndrome	MONDO:0002083	DOID:1703	confirmed		
 Richter syndrome	MONDO:0002083	NCIT:C35424	confirmed		
+Richter syndrome	MONDO:0002083	PMID:27040710	unconfirmed		
 Richter syndrome	MONDO:0002083	icd11.foundation:1736108343	confirmed		
 Richter syndrome	MONDO:0004948	ICD10CM:C91.1	added		
-Richter syndrome	MONDO:0004948	ICD10CM:C91.1	added		MONDO:0002083
 Rippling muscle disease	MONDO:0011634	icd11.foundation:894802822	added		
 Rippling muscle disease	MONDO:0019947	Orphanet:97238	added		
 Roussy-Levy syndrome	MONDO:0015358	ICD10CM:G60.0	added		MONDO:0008392
@@ -1219,6 +1219,9 @@ renal pelvis benign neoplasm	MONDO:0021467	MONDO:patterns/location	unconfirmed
 retinal degeneration	MONDO:0001451	icd11.foundation:1518234440	added		
 retinal degeneration	MONDO:0001451	icd11.foundation:1518234440	added		MONDO:0004580
 retinal degeneration	MONDO:0004580	DOID:8466	added		
+retinitis pigmentosa 99	MONDO:0100444	DOID:0061127	added		
+retinitis pigmentosa 99	MONDO:0100444	DOID:0061127	added		MONDO:0978291
+retinitis pigmentosa 99	MONDO:0978291	OMIM:301148	added		
 retinitis pigmentosa and congenital deafness	MONDO:0010168		unconfirmed		
 retinitis pigmentosa and congenital deafness	MONDO:0700087	OMIM:276900	added		
 retinitis proliferans	MONDO:0100450	DOID:9719	confirmed		

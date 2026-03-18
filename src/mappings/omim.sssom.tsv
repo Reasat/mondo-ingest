@@ -112757,7 +112757,6 @@ OMIM:618910	developmental and epileptic encephalopathy 86	skos:exactMatch	MONDO:
 OMIM:618910	developmental and epileptic encephalopathy 86	skos:exactMatch	Orphanet:442835		semapv:UnspecifiedMatching
 OMIM:618910	developmental and epileptic encephalopathy 86	skos:exactMatch	UMLS:C5394462		semapv:UnspecifiedMatching
 OMIM:618911	C16ORF92	skos:exactMatch	UMLS:C2681297		semapv:UnspecifiedMatching
-OMIM:618911	C16ORF92	skos:exactMatch	hgnc.symbol:26346		semapv:UnspecifiedMatching
 OMIM:618911	C16ORF92	skos:exactMatch	hgnc.symbol:C16orf92		semapv:UnspecifiedMatching
 OMIM:618911	C16ORF92	skos:exactMatch	ncbigene:146378		semapv:UnspecifiedMatching
 OMIM:618912	neuronopathy, distal hereditary motor, autosomal recessive 8	skos:exactMatch	MONDO:0030055		semapv:UnspecifiedMatching
@@ -112881,7 +112880,6 @@ OMIM:618945	SPACA6	skos:exactMatch	hgnc.symbol:27113		semapv:UnspecifiedMatching
 OMIM:618945	SPACA6	skos:exactMatch	hgnc.symbol:SPACA6		semapv:UnspecifiedMatching
 OMIM:618945	SPACA6	skos:exactMatch	ncbigene:147650		semapv:UnspecifiedMatching
 OMIM:618946	LLCFC1	skos:exactMatch	UMLS:C1427740		semapv:UnspecifiedMatching
-OMIM:618946	LLCFC1	skos:exactMatch	hgnc.symbol:21750		semapv:UnspecifiedMatching
 OMIM:618946	LLCFC1	skos:exactMatch	hgnc.symbol:LLCFC1		semapv:UnspecifiedMatching
 OMIM:618946	LLCFC1	skos:exactMatch	ncbigene:135927		semapv:UnspecifiedMatching
 OMIM:618947	arthrogryposis multiplex congenita 5	skos:exactMatch	MONDO:0100218		semapv:UnspecifiedMatching
@@ -120693,6 +120691,18 @@ OMIM:621522	SACK1F	skos:exactMatch	ncbigene:113828		semapv:UnspecifiedMatching
 OMIM:621524	WSB2	skos:exactMatch	hgnc.symbol:19222		semapv:UnspecifiedMatching
 OMIM:621524	WSB2	skos:exactMatch	hgnc.symbol:WSB2		semapv:UnspecifiedMatching
 OMIM:621524	WSB2	skos:exactMatch	ncbigene:55884		semapv:UnspecifiedMatching
+OMIM:621526	QPCTL	skos:exactMatch	hgnc.symbol:25952		semapv:UnspecifiedMatching
+OMIM:621526	QPCTL	skos:exactMatch	hgnc.symbol:QPCTL		semapv:UnspecifiedMatching
+OMIM:621526	QPCTL	skos:exactMatch	ncbigene:54814		semapv:UnspecifiedMatching
+OMIM:621527	TMEM145	skos:exactMatch	hgnc.symbol:26912		semapv:UnspecifiedMatching
+OMIM:621527	TMEM145	skos:exactMatch	hgnc.symbol:TMEM145		semapv:UnspecifiedMatching
+OMIM:621527	TMEM145	skos:exactMatch	ncbigene:284339		semapv:UnspecifiedMatching
+OMIM:621529	TMEM168	skos:exactMatch	hgnc.symbol:25826		semapv:UnspecifiedMatching
+OMIM:621529	TMEM168	skos:exactMatch	hgnc.symbol:TMEM168		semapv:UnspecifiedMatching
+OMIM:621529	TMEM168	skos:exactMatch	ncbigene:64418		semapv:UnspecifiedMatching
+OMIM:621530	CWC25	skos:exactMatch	hgnc.symbol:25989		semapv:UnspecifiedMatching
+OMIM:621530	CWC25	skos:exactMatch	hgnc.symbol:CWC25		semapv:UnspecifiedMatching
+OMIM:621530	CWC25	skos:exactMatch	ncbigene:54883		semapv:UnspecifiedMatching
 OMIMPS:100070	Aortic aneurysm, familial abdominal	skos:exactMatch	MONDO:0007031		semapv:UnspecifiedMatching
 OMIMPS:100300	Adams-Oliver syndrome	skos:exactMatch	MONDO:0007034		semapv:UnspecifiedMatching
 OMIMPS:101800	Acrodysostosis	skos:exactMatch	MONDO:0019797		semapv:UnspecifiedMatching

@@ -3964,7 +3964,6 @@ ICD10CM:E34.329	Unspecified genetic causes of short stature	False	False	False
 ICD10CM:E34.39	Other short stature due to endocrine disorder	False	False	False
 ICD10CM:E34.4	Constitutional tall stature	False	False	False
 ICD10CM:E34.50	Androgen insensitivity syndrome, unspecified	False	False	False
-ICD10CM:E34.9	Endocrine disorder, unspecified	False	False	False
 ICD10CM:E35	Disorders of endocrine glands in diseases classified elsewhere	False	False	False
 ICD10CM:E42	Marasmic kwashiorkor	False	False	False
 ICD10CM:E43	Unspecified severe protein-calorie malnutrition	False	False	False
@@ -3997,7 +3996,6 @@ ICD10CM:E55.9	Vitamin D deficiency, unspecified	False	False	False
 ICD10CM:E56	Other vitamin deficiencies	False	False	False
 ICD10CM:E56.0	Deficiency of vitamin E	False	False	False
 ICD10CM:E56.8	Deficiency of other vitamins	False	False	False
-ICD10CM:E56.9	Vitamin deficiency, unspecified	False	False	False
 ICD10CM:E58	Dietary calcium deficiency	False	False	False
 ICD10CM:E59	Dietary selenium deficiency	False	False	False
 ICD10CM:E60	Dietary zinc deficiency	False	False	False
@@ -5874,12 +5872,8 @@ ICD10CM:G61.8	Other inflammatory polyneuropathies	False	False	False
 ICD10CM:G61.89	Other inflammatory polyneuropathies	False	False	False
 ICD10CM:G61.9	Inflammatory polyneuropathy, unspecified	False	False	False
 ICD10CM:G62	Other and unspecified polyneuropathies	False	False	False
-ICD10CM:G62.0	Drug-induced polyneuropathy	False	False	False
-ICD10CM:G62.2	Polyneuropathy due to other toxic agents	False	False	False
-ICD10CM:G62.8	Other specified polyneuropathies	False	False	False
 ICD10CM:G62.82	Radiation-induced polyneuropathy	False	False	False
 ICD10CM:G62.89	Other specified polyneuropathies	False	False	False
-ICD10CM:G62.9	Polyneuropathy, unspecified	False	False	False
 ICD10CM:G63	Polyneuropathy in diseases classified elsewhere	False	False	False
 ICD10CM:G64	Other disorders of peripheral nervous system	False	False	False
 ICD10CM:G65	Sequelae of inflammatory and toxic polyneuropathies	False	False	False
@@ -5923,7 +5917,6 @@ ICD10CM:G71.3	Mitochondrial myopathy, not elsewhere classified	False	False	False
 ICD10CM:G71.8	Other primary disorders of muscles	False	False	False
 ICD10CM:G71.9	Primary disorder of muscle, unspecified	False	False	False
 ICD10CM:G72	Other and unspecified myopathies	False	False	False
-ICD10CM:G72.0	Drug-induced myopathy	False	False	False
 ICD10CM:G72.1	Alcoholic myopathy	False	False	False
 ICD10CM:G72.2	Myopathy due to other toxic agents	False	False	False
 ICD10CM:G72.4	Inflammatory and immune myopathies, not elsewhere classified	False	False	False
@@ -81222,7 +81215,6 @@ ICD10CM:P13.4	Fracture of clavicle due to birth injury	False	True	False
 ICD10CM:P13.8	Birth injuries to other parts of skeleton	False	True	False
 ICD10CM:P13.9	Birth injury to skeleton, unspecified	False	True	False
 ICD10CM:P14	Birth injury to peripheral nervous system	False	True	False
-ICD10CM:P14.0	Erb's paralysis due to birth injury	False	True	False
 ICD10CM:P14.1	Klumpke's paralysis due to birth injury	False	True	False
 ICD10CM:P14.2	Phrenic nerve paralysis due to birth injury	False	True	False
 ICD10CM:P14.3	Other brachial plexus birth injuries	False	True	False
@@ -96502,6 +96494,7 @@ ICD10CM:E34.5	Androgen insensitivity syndrome	True	False	False
 ICD10CM:E34.51	Complete androgen insensitivity syndrome	True	False	False
 ICD10CM:E34.52	Partial androgen insensitivity syndrome	True	False	False
 ICD10CM:E34.8	Other specified endocrine disorders	True	False	False
+ICD10CM:E34.9	Endocrine disorder, unspecified	True	False	False
 ICD10CM:E40	Kwashiorkor	True	False	False
 ICD10CM:E40-E46	Malnutrition (E40-E46)	True	False	False
 ICD10CM:E41	Nutritional marasmus	True	False	False
@@ -96514,6 +96507,7 @@ ICD10CM:E53.0	Riboflavin deficiency	True	False	False
 ICD10CM:E54	Ascorbic acid deficiency	True	False	False
 ICD10CM:E55	Vitamin D deficiency	True	False	False
 ICD10CM:E56.1	Deficiency of vitamin K	True	False	False
+ICD10CM:E56.9	Vitamin deficiency, unspecified	True	False	False
 ICD10CM:E61.2	Magnesium deficiency	True	False	False
 ICD10CM:E67.0	Hypervitaminosis A	True	False	False
 ICD10CM:E67.3	Hypervitaminosis D	True	False	False
@@ -96795,8 +96789,12 @@ ICD10CM:G60.1	Refsum's disease	True	False	False
 ICD10CM:G61.0	Guillain-Barre syndrome	True	False	False
 ICD10CM:G61.81	Chronic inflammatory demyelinating polyneuritis	True	False	False
 ICD10CM:G61.82	Multifocal motor neuropathy	True	False	False
+ICD10CM:G62.0	Drug-induced polyneuropathy	True	False	False
 ICD10CM:G62.1	Alcoholic polyneuropathy	True	False	False
+ICD10CM:G62.2	Polyneuropathy due to other toxic agents	True	False	False
+ICD10CM:G62.8	Other specified polyneuropathies	True	False	False
 ICD10CM:G62.81	Critical illness polyneuropathy	True	False	False
+ICD10CM:G62.9	Polyneuropathy, unspecified	True	False	False
 ICD10CM:G70.0	Myasthenia gravis	True	False	False
 ICD10CM:G71.0	Muscular dystrophy	True	False	False
 ICD10CM:G71.02	Facioscapulohumeral muscular dystrophy	True	False	False
@@ -96807,6 +96805,7 @@ ICD10CM:G71.13	Myotonic chondrodystrophy	True	False	False
 ICD10CM:G71.21	Nemaline myopathy	True	False	False
 ICD10CM:G71.22	Centronuclear myopathy	True	False	False
 ICD10CM:G71.220	X-linked myotubular myopathy	True	False	False
+ICD10CM:G72.0	Drug-induced myopathy	True	False	False
 ICD10CM:G72.3	Periodic paralysis	True	False	False
 ICD10CM:G72.41	Inclusion body myositis [IBM]	True	False	False
 ICD10CM:G80	Cerebral palsy	True	False	False
@@ -97888,6 +97887,7 @@ ICD10CM:U07.1	COVID-19	True	False	False
 ICD10CM:K40-K46	Hernia (K40-K46)	True	True	False
 ICD10CM:O00-O08	Pregnancy with abortive outcome (O00-O08)	True	True	False
 ICD10CM:O90.3	Peripartum cardiomyopathy	True	True	False
+ICD10CM:P14.0	Erb's paralysis due to birth injury	True	True	False
 ICD10CM:P53	Hemorrhagic disease of newborn	True	True	False
 ICD10CM:P83.4	Breast engorgement of newborn	True	True	False
 ICD10CM:R09.1	Pleurisy	True	True	False

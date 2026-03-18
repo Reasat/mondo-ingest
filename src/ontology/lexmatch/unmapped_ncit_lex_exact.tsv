@@ -51,5 +51,6 @@ MONDO:0971143	pleural mesothelioma in situ	NCIT:C183134	MONDO:equivalentTo	Pleur
 MONDO:0975753	papillary hemangioma	NCIT:C206681	MONDO:equivalentTo	Papillary Hemangioma	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	papillary hemangioma
 MONDO:0975754	pseudomyogenic hemangioendothelioma	NCIT:C121668	MONDO:equivalentTo	Pseudomyogenic Hemangioendothelioma	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pseudomyogenic hemangioendothelioma
 MONDO:0975925	adenoid ameloblastoma	NCIT:C202061	MONDO:equivalentTo	Adenoid Ameloblastoma	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	adenoid ameloblastoma
+MONDO:0980767	lipofibromatosis	NCIT:C99180	MONDO:equivalentTo	Lipofibromatosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lipofibromatosis
 MONDO:1010148	benign skeletal muscle neoplasm	NCIT:C214851	MONDO:equivalentTo	Benign Skeletal Muscle Neoplasm	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	benign skeletal muscle neoplasm
 MONDO:1040026	metastatic malignant neoplasm in the brain	NCIT:C3813	MONDO:equivalentTo	Metastatic Malignant Neoplasm in the Brain	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	metastatic malignant neoplasm in the brain

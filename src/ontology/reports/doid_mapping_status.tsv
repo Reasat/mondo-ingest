@@ -1,116 +1,18 @@
 subject_id	subject_label	is_mapped	is_excluded	is_deprecated
-DOID:0050156	idiopathic pulmonary fibrosis	False	False	False
 DOID:0050457	Sertoli cell-only syndrome	False	False	False
-DOID:0051057	avoidant/restrictive food intake disorder	False	False	False
-DOID:0051058	acute calcific periarthritis	False	False	False
-DOID:0051059	autosomal recessive Segawa syndrome	False	False	False
-DOID:0051060	frontotemporal dementia 1	False	False	False
-DOID:0051061	stroke	False	False	False
-DOID:0051062	ischemic stroke	False	False	False
-DOID:0051063	hemorrhagic stroke	False	False	False
-DOID:0051064	left ventricular failure	False	False	False
-DOID:0051065	chronic pancreatitis	False	False	False
-DOID:0051066	arterionephrosclerosis	False	False	False
 DOID:0060160	childhood spinal muscular atrophy	False	False	False
-DOID:0060261	congenital ptosis	False	False	False
-DOID:0060333	mitochondrial complex V (ATP synthase) deficiency nuclear type 4	False	False	False
 DOID:0060854	autosomal recessive pseudohypoaldosteronism type 1	False	False	False
-DOID:0060996	poor metabolism of thiopurines 2	False	False	False
-DOID:0061127	retinitis pigmentosa 99	False	False	False
-DOID:0061139	coronary atherosclerosis	False	False	False
-DOID:0061140	ragopathy	False	False	False
-DOID:0061151	familial isolated hypoparathyroidism 2	False	False	False
-DOID:0061157	retinopathy sensory neuropathy syndrome	False	False	False
-DOID:0061164	infantile onset multisystem autoimmune disease 5	False	False	False
-DOID:0061167	autosomal recessive proximal renal tubular acidosis	False	False	False
-DOID:0061176	developmental and epileptic encephalopathy 118	False	False	False
-DOID:0061191	neonatal nephrocutaneous inflammatory syndrome	False	False	False
-DOID:0061192	neonatal inflammatory skin and bowel disease 1	False	False	False
-DOID:0061193	nephrotic syndrome type 26	False	False	False
-DOID:0061194	nephrotic syndrome type 24	False	False	False
 DOID:0061195	proximal renal tubular acidosis-ocular anomaly syndrome	False	False	False
-DOID:0061196	Mietens syndrome	False	False	False
-DOID:0061197	BCARD syndrome	False	False	False
-DOID:0061198	Bethlem myopathy 1A	False	False	False
-DOID:0061199	Bethlem myopathy 1B	False	False	False
-DOID:0061200	Bethlem myopathy 1C	False	False	False
-DOID:0061201	Bethlem myopathy 2	False	False	False
-DOID:0061202	congenital muscular dystrophy with rapid progression	False	False	False
-DOID:0061203	maple syrup urine disease type IA	False	False	False
-DOID:0061204	dihydrolipoamide dehydrogenase deficiency	False	False	False
-DOID:0061205	mild variant of maple syrup urine disease	False	False	False
-DOID:0061206	maple syrup urine disease type IB	False	False	False
-DOID:0061207	maple syrup urine disease type II	False	False	False
-DOID:0061208	epidermolytic hyperkeratosis 2B	False	False	False
-DOID:0061209	branchiootic syndrome 1	False	False	False
-DOID:0061210	branchiootic syndrome 3	False	False	False
-DOID:0061211	Lafora disease 2	False	False	False
 DOID:0061212	hypocholesteremia	False	False	False
 DOID:0061213	telomere biology disorder	False	False	False
-DOID:0061214	biliary obstruction	False	False	False
-DOID:0061215	hepatic fibrosis	False	False	False
-DOID:0061216	pheochromocytoma/paraganglioma syndrome 1	False	False	False
-DOID:0061217	pheochromocytoma/paraganglioma syndrome 2	False	False	False
-DOID:0061218	pheochromocytoma/paraganglioma syndrome 3	False	False	False
-DOID:0061219	pheochromocytoma/paraganglioma syndrome 4	False	False	False
-DOID:0061220	pheochromocytoma/paraganglioma syndrome 5	False	False	False
-DOID:0061221	pheochromocytoma/paraganglioma syndrome 6	False	False	False
-DOID:0061222	pheochromocytoma/paraganglioma syndrome 7	False	False	False
-DOID:0061223	epidermolytic hyperkeratosis 2A	False	False	False
-DOID:0061224	Majeed syndrome	False	False	False
-DOID:0061225	interleukin-1 receptor antagonist deficiency	False	False	False
-DOID:0061226	primary ciliary dyskinesia 55	False	False	False
-DOID:0061227	autosomal recessive cerebral arteriopathy with subcortical infarcts and leukoencephalopathy 1	False	False	False
-DOID:0061228	autosomal recessive cerebral arteriopathy with subcortical infarcts and leukoencephalopathy 2	False	False	False
-DOID:0061229	Camurati-Engelmann disease 1	False	False	False
-DOID:0061230	Camurati-Engelmann disease 2	False	False	False
-DOID:0061231	enhanced S-cone syndrome 1	False	False	False
-DOID:0061232	enhanced S-cone syndrome 2	False	False	False
-DOID:0061233	autosomal recessive brain small vessel disease 2B	False	False	False
-DOID:0061234	brain small vessel disease 4	False	False	False
-DOID:0061235	brain small vessel disease 5 with osteoporosis	False	False	False
-DOID:0061236	brain small vessel disease 6 with leukoencephalopathy	False	False	False
-DOID:0061237	aggressive periodontitis 1	False	False	False
-DOID:0061238	Stargardt disease 3	False	False	False
-DOID:0061239	Stargardt disease 4	False	False	False
-DOID:0061240	Stargardt disease 5	False	False	False
-DOID:0061241	Stargardt disease 1	False	False	False
-DOID:0061242	glucocorticoid deficiency 2	False	False	False
-DOID:0061243	glucocorticoid deficiency 4 with or without mineralocorticoid deficiency	False	False	False
-DOID:0061244	glucocorticoid deficiency 5	False	False	False
-DOID:0061245	periventricular nodular heterotopia 8	False	False	False
-DOID:0061246	periventricular nodular heterotopia 9	False	False	False
-DOID:0070564	dialysis disequilibrium syndrome	False	False	False
-DOID:0070622	ring chromosome 20 syndrome	False	False	False
-DOID:0070635	cardiovascular-kidney-metabolic syndrome	False	False	False
 DOID:0070648	cherubism	False	False	False
 DOID:0070649	cherubism 2	False	False	False
-DOID:0070652	Nil-Deshwar neurodevelopmental syndrome	False	False	False
-DOID:0070655	Usher syndrome type 1B	False	False	False
 DOID:0070656	hamartoma syndrome	False	False	False
-DOID:0070657	congenital variant of Rett syndrome	False	False	False
-DOID:0070658	alcohol-associated liver disease	False	False	False
-DOID:0070659	alpha-gal syndrome	False	False	False
-DOID:0070660	Lafora disease 1	False	False	False
-DOID:0070661	muscle dysmorphic disorder	False	False	False
-DOID:0070662	subcutaneous panniculitis-like T-cell lymphoma	False	False	False
-DOID:0070663	soft tissue sarcoma	False	False	False
-DOID:0070664	oropharyngeal squamous cell carcinoma	False	False	False
-DOID:0070665	lipofibromatosis	False	False	False
-DOID:0070666	infantile myofibromatosis 1	False	False	False
-DOID:0070667	infantile myofibromatosis 2	False	False	False
-DOID:0070668	Snijders Blok-Campeau syndrome	False	False	False
 DOID:0111368	cholesterol-ester transfer protein deficiency	False	False	False
-DOID:0111797	autosomal recessive congenital nystagmus	False	False	False
 DOID:146	papilledema	False	False	False
-DOID:2442	paranasal sinus squamous cell carcinoma	False	False	False
 DOID:2536	chronic inflammatory demyelinating polyneuritis	False	False	False
 DOID:2934	aleutian mink disease	False	False	False
-DOID:3462	hamartoma	False	False	False
-DOID:3972	poorly differentiated thyroid carcinoma	False	False	False
-DOID:4668	congenital kyphosis	False	False	False
 DOID:5154	borna disease	False	False	False
-DOID:9373	postural kyphosis	False	False	False
 DOID:0040003	benzylpenicillin allergy	False	True	False
 DOID:0040004	amoxicillin allergy	False	True	False
 DOID:0040005	ceftriaxone allergy	False	True	False
@@ -194,7 +96,10 @@ DOID:0040102	N,N'-diethylthiourea allergic contact dermatitis	False	True	False
 DOID:0040103	cefotiam allergy	False	True	False
 DOID:0040104	toluene 2,4-diisocyanate allergic asthma	False	True	False
 DOID:0050706	variable age at onset electroclinical syndrome	False	True	False
+DOID:0060333	mitochondrial complex V (ATP synthase) deficiency nuclear type 4	False	True	False
 DOID:0060904	legume allergy	False	True	False
+DOID:0061214	biliary obstruction	False	True	False
+DOID:0061215	hepatic fibrosis	False	True	False
 DOID:0070334	vegetable allergy	False	True	False
 DOID:0070335	celery allergy	False	True	False
 DOID:0080577	polygenic disease	False	True	False
@@ -215,6 +120,7 @@ DOID:0081083	acute myeloid leukemia with inv(3) (q21.3;q26.2) or t(3;3) (q21.3;q
 DOID:0081084	acute myeloid leukemia with inv(16)(p13.1q22) or t(16;16)(p13.1;q22)	False	True	False
 DOID:0081286	embryonal tumor with multilayered rosettes	False	True	False
 DOID:0111721	amelogenesis imperfecta type 3	False	True	False
+DOID:0111797	autosomal recessive congenital nystagmus	False	True	False
 DOID:0111823	autosomal hemophilia A	False	True	False
 DOID:0111964	B cell and dendritic cell deficiency	False	True	False
 DOID:0111965	T cell, B cell, and NK cell deficiency	False	True	False
@@ -222,6 +128,8 @@ DOID:0111966	monocyte, dendritic cell, and NK cell deficiency	False	True	False
 DOID:0112100	mitochondrial type mitochondrial complex I deficiency	False	True	False
 DOID:070355	multisystem proteinopathy	False	True	False
 DOID:4667	kyphosis	False	True	False
+DOID:4668	congenital kyphosis	False	True	False
+DOID:9373	postural kyphosis	False	True	False
 DOID:0050001	obsolete Actinomadura madurae infectious disease	False	True	True
 DOID:0050002	obsolete Actinomadura pelletieri infectious disease	False	True	True
 DOID:0050003	obsolete Streptomyces somaliensis infectious disease	False	True	True
@@ -2781,6 +2689,7 @@ DOID:0050150	Pontiac fever	True	False	False
 DOID:0050152	aspiration pneumonia	True	False	False
 DOID:0050153	pulmonary aspergilloma	True	False	False
 DOID:0050155	sensory system disease	True	False	False
+DOID:0050156	idiopathic pulmonary fibrosis	True	False	False
 DOID:0050157	cryptogenic organizing pneumonia	True	False	False
 DOID:0050158	desquamative interstitial pneumonia	True	False	False
 DOID:0050159	lymphoid interstitial pneumonia	True	False	False
@@ -3409,6 +3318,16 @@ DOID:0051053	congenital disorder of glycosylation type IIz	True	False	False
 DOID:0051054	coarctation of the aorta	True	False	False
 DOID:0051055	46,XY gonadal dysgenesis with minifascicular neuropathy	True	False	False
 DOID:0051056	immunodeficiency 113	True	False	False
+DOID:0051057	avoidant/restrictive food intake disorder	True	False	False
+DOID:0051058	acute calcific periarthritis	True	False	False
+DOID:0051059	autosomal recessive Segawa syndrome	True	False	False
+DOID:0051060	frontotemporal dementia 1	True	False	False
+DOID:0051061	stroke	True	False	False
+DOID:0051062	ischemic stroke	True	False	False
+DOID:0051063	hemorrhagic stroke	True	False	False
+DOID:0051064	left ventricular failure	True	False	False
+DOID:0051065	chronic pancreatitis	True	False	False
+DOID:0051066	arterionephrosclerosis	True	False	False
 DOID:0060000	infective endocarditis	True	False	False
 DOID:0060001	withdrawal disorder	True	False	False
 DOID:0060002	C1 inhibitor deficiency	True	False	False
@@ -3649,6 +3568,7 @@ DOID:0060257	dyschromatosis symmetrica hereditaria	True	False	False
 DOID:0060258	reticulate acropigmentation of Kitamura	True	False	False
 DOID:0060259	renal-hepatic-pancreatic dysplasia	True	False	False
 DOID:0060260	ptosis	True	False	False
+DOID:0060261	congenital ptosis	True	False	False
 DOID:0060262	gallbladder disease	True	False	False
 DOID:0060263	porencephaly	True	False	False
 DOID:0060264	pontocerebellar hypoplasia	True	False	False
@@ -4263,6 +4183,7 @@ DOID:0060992	bent bone dysplasia syndrome 1	True	False	False
 DOID:0060993	bent bone dysplasia syndrome 2	True	False	False
 DOID:0060994	encephalopathy due to defective mitochondrial and peroxisomal fission 2	True	False	False
 DOID:0060995	autosomal dominant isolated macrothrombocytopenia 2	True	False	False
+DOID:0060996	poor metabolism of thiopurines 2	True	False	False
 DOID:0060997	rhabdoid tumor predisposition syndrome 2	True	False	False
 DOID:0060998	striatal degeneration 2	True	False	False
 DOID:0060999	mitochondrial trifunctional protein deficiency 2	True	False	False
@@ -4391,6 +4312,7 @@ DOID:0061123	visceral heterotaxy 14	True	False	False
 DOID:0061124	autosomal recessive nonsyndromic deafness 125	True	False	False
 DOID:0061125	immunodeficiency 131	True	False	False
 DOID:0061126	Brunet-Wagner neurodevelopmental syndrome	True	False	False
+DOID:0061127	retinitis pigmentosa 99	True	False	False
 DOID:0061128	mucopolysaccharidosis X	True	False	False
 DOID:0061129	intellectual developmental disorder with dysmorphic facies and behavioral abnormalities	True	False	False
 DOID:0061130	autosomal recessive limb-girdle muscular dystrophy type 28	True	False	False
@@ -4402,6 +4324,8 @@ DOID:0061135	infantile hypercalcemia 2	True	False	False
 DOID:0061136	infantile hypercalcemia 1	True	False	False
 DOID:0061137	spinocerebellar ataxia 27B	True	False	False
 DOID:0061138	complex cortical dysplasia with other brain malformations 9	True	False	False
+DOID:0061139	coronary atherosclerosis	True	False	False
+DOID:0061140	ragopathy	True	False	False
 DOID:0061141	complex cortical dysplasia with other brain malformations 12	True	False	False
 DOID:0061142	complex cortical dysplasia with other brain malformations 11	True	False	False
 DOID:0061143	complex cortical dysplasia with other brain malformations 10	True	False	False
@@ -4412,19 +4336,23 @@ DOID:0061147	neurodevelopmental disorder with or without autism or seizures	True
 DOID:0061148	hereditary congenital ptosis 2	True	False	False
 DOID:0061149	hereditary congenital ptosis 1	True	False	False
 DOID:0061150	familial isolated hypoparathyroidism 1	True	False	False
+DOID:0061151	familial isolated hypoparathyroidism 2	True	False	False
 DOID:0061152	monilethrix 2	True	False	False
 DOID:0061153	monilethrix 3	True	False	False
 DOID:0061154	Mulvihill-Smith syndrome	True	False	False
 DOID:0061155	kyphomelic dysplasia	True	False	False
 DOID:0061156	CASGID syndrome	True	False	False
+DOID:0061157	retinopathy sensory neuropathy syndrome	True	False	False
 DOID:0061158	Kariminejad neurodevelopmental syndrome	True	False	False
 DOID:0061159	infantile onset multisystem autoimmune disease	True	False	False
 DOID:0061160	infantile onset multisystem autoimmune disease 1	True	False	False
 DOID:0061161	infantile onset multisystem autoimmune disease 2	True	False	False
 DOID:0061162	infantile onset multisystem autoimmune disease 3	True	False	False
 DOID:0061163	infantile onset multisystem autoimmune disease 4	True	False	False
+DOID:0061164	infantile onset multisystem autoimmune disease 5	True	False	False
 DOID:0061165	proximal renal tubular acidosis	True	False	False
 DOID:0061166	autosomal recessive distal renal tubular acidosis 3 with or without sensorineural hearing loss	True	False	False
+DOID:0061167	autosomal recessive proximal renal tubular acidosis	True	False	False
 DOID:0061168	mitochondrial axonal Charcot-Marie-Tooth disease	True	False	False
 DOID:0061169	autosomal dominant autoinflammation, panniculitis, and dermatosis syndrome	True	False	False
 DOID:0061170	autoinflammation, panniculitis, and dermatosis syndrome	True	False	False
@@ -4433,6 +4361,7 @@ DOID:0061172	transient neonatal diabetes mellitus 3	True	False	False
 DOID:0061173	transient neonatal diabetes mellitus 1	True	False	False
 DOID:0061174	transient neonatal diabetes mellitus 2	True	False	False
 DOID:0061175	Gollop-Wolfgang complex	True	False	False
+DOID:0061176	developmental and epileptic encephalopathy 118	True	False	False
 DOID:0061177	X-linked spermatogenic failure 9	True	False	False
 DOID:0061178	autosomal recessive congenital nystagmus 8	True	False	False
 DOID:0061179	Adams-Oliver syndrome 3	True	False	False
@@ -4447,6 +4376,57 @@ DOID:0061187	multiple familial trichoepithelioma 1	True	False	False
 DOID:0061188	autosomal recessive sensory neuropathy with spastic paraplegia	True	False	False
 DOID:0061189	neuronal ceroid lipofuscinosis 15	True	False	False
 DOID:0061190	ReNU syndrome	True	False	False
+DOID:0061191	neonatal nephrocutaneous inflammatory syndrome	True	False	False
+DOID:0061192	neonatal inflammatory skin and bowel disease 1	True	False	False
+DOID:0061193	nephrotic syndrome type 26	True	False	False
+DOID:0061194	nephrotic syndrome type 24	True	False	False
+DOID:0061196	Mietens syndrome	True	False	False
+DOID:0061197	BCARD syndrome	True	False	False
+DOID:0061198	Bethlem myopathy 1A	True	False	False
+DOID:0061199	Bethlem myopathy 1B	True	False	False
+DOID:0061200	Bethlem myopathy 1C	True	False	False
+DOID:0061201	Bethlem myopathy 2	True	False	False
+DOID:0061202	congenital muscular dystrophy with rapid progression	True	False	False
+DOID:0061203	maple syrup urine disease type IA	True	False	False
+DOID:0061204	dihydrolipoamide dehydrogenase deficiency	True	False	False
+DOID:0061205	mild variant of maple syrup urine disease	True	False	False
+DOID:0061206	maple syrup urine disease type IB	True	False	False
+DOID:0061207	maple syrup urine disease type II	True	False	False
+DOID:0061208	epidermolytic hyperkeratosis 2B	True	False	False
+DOID:0061209	branchiootic syndrome 1	True	False	False
+DOID:0061210	branchiootic syndrome 3	True	False	False
+DOID:0061211	Lafora disease 2	True	False	False
+DOID:0061216	pheochromocytoma/paraganglioma syndrome 1	True	False	False
+DOID:0061217	pheochromocytoma/paraganglioma syndrome 2	True	False	False
+DOID:0061218	pheochromocytoma/paraganglioma syndrome 3	True	False	False
+DOID:0061219	pheochromocytoma/paraganglioma syndrome 4	True	False	False
+DOID:0061220	pheochromocytoma/paraganglioma syndrome 5	True	False	False
+DOID:0061221	pheochromocytoma/paraganglioma syndrome 6	True	False	False
+DOID:0061222	pheochromocytoma/paraganglioma syndrome 7	True	False	False
+DOID:0061223	epidermolytic hyperkeratosis 2A	True	False	False
+DOID:0061224	Majeed syndrome	True	False	False
+DOID:0061225	interleukin-1 receptor antagonist deficiency	True	False	False
+DOID:0061226	primary ciliary dyskinesia 55	True	False	False
+DOID:0061227	autosomal recessive cerebral arteriopathy with subcortical infarcts and leukoencephalopathy 1	True	False	False
+DOID:0061228	autosomal recessive cerebral arteriopathy with subcortical infarcts and leukoencephalopathy 2	True	False	False
+DOID:0061229	Camurati-Engelmann disease 1	True	False	False
+DOID:0061230	Camurati-Engelmann disease 2	True	False	False
+DOID:0061231	enhanced S-cone syndrome 1	True	False	False
+DOID:0061232	enhanced S-cone syndrome 2	True	False	False
+DOID:0061233	autosomal recessive brain small vessel disease 2B	True	False	False
+DOID:0061234	brain small vessel disease 4	True	False	False
+DOID:0061235	brain small vessel disease 5 with osteoporosis	True	False	False
+DOID:0061236	brain small vessel disease 6 with leukoencephalopathy	True	False	False
+DOID:0061237	aggressive periodontitis 1	True	False	False
+DOID:0061238	Stargardt disease 3	True	False	False
+DOID:0061239	Stargardt disease 4	True	False	False
+DOID:0061240	Stargardt disease 5	True	False	False
+DOID:0061241	Stargardt disease 1	True	False	False
+DOID:0061242	glucocorticoid deficiency 2	True	False	False
+DOID:0061243	glucocorticoid deficiency 4 with or without mineralocorticoid deficiency	True	False	False
+DOID:0061244	glucocorticoid deficiency 5	True	False	False
+DOID:0061245	periventricular nodular heterotopia 8	True	False	False
+DOID:0061246	periventricular nodular heterotopia 9	True	False	False
 DOID:0070000	3-methylglutaconic aciduria type 8	True	False	False
 DOID:0070002	3-methylglutaconic aciduria type 9	True	False	False
 DOID:0070003	blastoma	True	False	False
@@ -4993,6 +4973,7 @@ DOID:0070560	glucose transporter type 1 deficiency syndrome	True	False	False
 DOID:0070561	glucose transporter type 1 deficiency syndrome 1	True	False	False
 DOID:0070562	Fanconi-Bickel syndrome	True	False	False
 DOID:0070563	glucose-galactose malabsorption	True	False	False
+DOID:0070564	dialysis disequilibrium syndrome	True	False	False
 DOID:0070565	spermatogenic failure 66	True	False	False
 DOID:0070566	spermatogenic failure 67	True	False	False
 DOID:0070567	spermatogenic failure 68	True	False	False
@@ -5050,6 +5031,7 @@ DOID:0070618	rhabdoid tumor predisposition syndrome 1	True	False	False
 DOID:0070619	mitochondrial trifunctional protein deficiency 1	True	False	False
 DOID:0070620	ring chromosome syndrome	True	False	False
 DOID:0070621	ring chromosome 14 syndrome	True	False	False
+DOID:0070622	ring chromosome 20 syndrome	True	False	False
 DOID:0070623	B-lymphoblastic leukemia with MEF2D rearrangement	True	False	False
 DOID:0070624	B-lymphoblastic leukemia with MYC rearrangement	True	False	False
 DOID:0070625	B-lymphoblastic leukemia with NUTM1 rearrangement	True	False	False
@@ -5062,6 +5044,7 @@ DOID:0070631	acute myeloid leukemia with FUS-ERG fusion	True	False	False
 DOID:0070632	acute myeloid leukemia with MNX1-ETV6 fusion	True	False	False
 DOID:0070633	acute myeloid leukemia with NPM1-MLF1 fusion	True	False	False
 DOID:0070634	sitosterolemia 1	True	False	False
+DOID:0070635	cardiovascular-kidney-metabolic syndrome	True	False	False
 DOID:0070636	mirror movements 1	True	False	False
 DOID:0070637	mirror movements 2	True	False	False
 DOID:0070638	mirror movements 4	True	False	False
@@ -5076,8 +5059,22 @@ DOID:0070646	hereditary spastic paraplegia 30B	True	False	False
 DOID:0070647	hereditary spastic paraplegia 30A	True	False	False
 DOID:0070650	Ramon syndrome	True	False	False
 DOID:0070651	neurodevelopmental disorder with seizures and gingival overgrowth	True	False	False
+DOID:0070652	Nil-Deshwar neurodevelopmental syndrome	True	False	False
 DOID:0070653	Fliedner-Zweier syndrome	True	False	False
 DOID:0070654	desmosterolosis	True	False	False
+DOID:0070655	Usher syndrome type 1B	True	False	False
+DOID:0070657	congenital variant of Rett syndrome	True	False	False
+DOID:0070658	alcohol-associated liver disease	True	False	False
+DOID:0070659	alpha-gal syndrome	True	False	False
+DOID:0070660	Lafora disease 1	True	False	False
+DOID:0070661	muscle dysmorphic disorder	True	False	False
+DOID:0070662	subcutaneous panniculitis-like T-cell lymphoma	True	False	False
+DOID:0070663	soft tissue sarcoma	True	False	False
+DOID:0070664	oropharyngeal squamous cell carcinoma	True	False	False
+DOID:0070665	lipofibromatosis	True	False	False
+DOID:0070666	infantile myofibromatosis 1	True	False	False
+DOID:0070667	infantile myofibromatosis 2	True	False	False
+DOID:0070668	Snijders Blok-Campeau syndrome	True	False	False
 DOID:0080000	muscular disease	True	False	False
 DOID:0080001	bone disease	True	False	False
 DOID:0080005	bone remodeling disease	True	False	False
@@ -10985,6 +10982,7 @@ DOID:2435	skin glomangioma	True	False	False
 DOID:2436	glomangioma	True	False	False
 DOID:2438	dermis tumor	True	False	False
 DOID:2441	frontal sinus squamous cell carcinoma	True	False	False
+DOID:2442	paranasal sinus squamous cell carcinoma	True	False	False
 DOID:2444	hyperpituitarism	True	False	False
 DOID:2449	acromegaly	True	False	False
 DOID:2450	central retinal vein occlusion	True	False	False
@@ -11527,6 +11525,7 @@ DOID:3456	cervix erosion	True	False	False
 DOID:3457	invasive lobular carcinoma	True	False	False
 DOID:3458	breast adenocarcinoma	True	False	False
 DOID:3459	breast carcinoma	True	False	False
+DOID:3462	hamartoma	True	False	False
 DOID:3463	breast disease	True	False	False
 DOID:3478	iris cancer	True	False	False
 DOID:3479	uveal cancer	True	False	False
@@ -11783,6 +11782,7 @@ DOID:3964	trabecular follicular adenocarcinoma	True	False	False
 DOID:3965	Merkel cell carcinoma	True	False	False
 DOID:3969	papillary thyroid carcinoma	True	False	False
 DOID:397	restrictive cardiomyopathy	True	False	False
+DOID:3972	poorly differentiated thyroid carcinoma	True	False	False
 DOID:3973	medullary thyroid carcinoma	True	False	False
 DOID:3978	extrinsic cardiomyopathy	True	False	False
 DOID:3981	pantothenate kinase-associated neurodegeneration	True	False	False

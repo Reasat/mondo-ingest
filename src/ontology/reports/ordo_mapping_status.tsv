@@ -39,42 +39,26 @@ Orphanet:409979	<1 / 1 000 000	False	False	False
 Orphanet:409980	>1 / 1000	False	False	False
 Orphanet:409981	Unknown_epidemiological_range	False	False	False
 Orphanet:557495	category	False	False	False
-Orphanet:664734	EBV susceptibility with hemophagocytic lymphohistiocytosis as a major feature	False	False	False
 Orphanet:693815	Uterine arteriovenous malformation	False	False	False
 Orphanet:693826	Pancreatic arteriovenous malformation	False	False	False
 Orphanet:693832	Gastrointestinal tract arteriovenous malformation	False	False	False
 Orphanet:693839	Renal arteriovenous malformation	False	False	False
 Orphanet:693846	Hepatic arteriovenous malformation	False	False	False
-Orphanet:693855	Visceral arteriovenous malformation	False	False	False
 Orphanet:693863	Splenic arteriovenous malformation	False	False	False
 Orphanet:693869	Gallblader arteriovenous malformation	False	False	False
 Orphanet:693872	Urinary tract arteriovenous malformation	False	False	False
-Orphanet:694308	ZMYND11-related developmental delay-speech delay-seizures-behavioral abnormalities-craniofacial dysmorphism syndrome due to a point mutation	False	False	False
-Orphanet:696851	Common variable immunodeficiency and related disorders	False	False	False
 Orphanet:696857	Common variable immunodeficiency phenotype due to germinal digenic/polygenic mutations	False	False	False
 Orphanet:696863	Common variable immunodeficiency phenotype due to somatic mutations	False	False	False
 Orphanet:696870	Common variable immunodeficiency phenotype due to germinal monogenic mutation	False	False	False
 Orphanet:696881	Common variable immunodeficiency phenotype due to CD19/CD81 deficiency	False	False	False
 Orphanet:696907	Common variable immunodeficiency phenotype due to homozygous TACI deficiency	False	False	False
 Orphanet:696931	Common variable immunodeficiency phenotype due to TWEAK deficiency	False	False	False
-Orphanet:697764	Intellectual disability-nasal speech-craniofacial dysmorphism syndrome due to CNOT2 mutation	False	False	False
-Orphanet:698036	Fibromuscular dysplasia of the cervical and intracranial arteries	False	False	False
-Orphanet:698043	Fibromuscular dysplasia of the renal arteries	False	False	False
-Orphanet:698059	Fibromuscular dysplasia of the coronary arteries	False	False	False
-Orphanet:698063	Fibromuscular dysplasia of the visceral arteries	False	False	False
-Orphanet:698069	Fibromuscular dysplasia of the arteries of the extremities	False	False	False
-Orphanet:698914	Platelet-activating anti-platelet factor 4 disorder	False	False	False
 Orphanet:698945	Autoimmune heparin-induced thrombocytopenia	False	False	False
 Orphanet:699021	Spontaneous heparin-induced thrombocytopenia	False	False	False
 Orphanet:699029	Vaccine-induced immune thrombotic thrombocytopenia	False	False	False
 Orphanet:699593	Combined immunodeficiency-lymphopenia-cancer predisposing syndrome due to AIOLOS deficiency	False	False	False
 Orphanet:699596	Combined immunodeficiency-hypogammaglobulinemia-cancer predisposing syndrome due to AIOLOS deficiency	False	False	False
-Orphanet:699822	Sickle cell S-Lepore disease	False	False	False
-Orphanet:700090	Sickle cell S-O Arab disease	False	False	False
 Orphanet:700107	Sickle cell S-other specified hemoglobin variant	False	False	False
-Orphanet:700136	Early-onset idiopathic chronic pancreatitis	False	False	False
-Orphanet:700139	Late-onset idiopathic chronic pancreatitis	False	False	False
-Orphanet:700143	X-linked distal myopathy	False	False	False
 Orphanet:C003	epidemiology	False	False	False
 Orphanet:C004	prevalence	False	False	False
 Orphanet:C005	inheritance	False	False	False
@@ -4684,6 +4668,7 @@ Orphanet:663918	ATPase H+ transporting V0 subunit a1	False	True	False
 Orphanet:664450	Inherited cancer-predisposing lymphoproliferative syndrome	False	True	False
 Orphanet:664456	Immune dysregulation disease with immunodeficiency associated with EBV susceptibility	False	True	False
 Orphanet:664482	Primary hemophagocytic lymphohistiocytosis without hypopigmentation	False	True	False
+Orphanet:664734	EBV susceptibility with hemophagocytic lymphohistiocytosis as a major feature	False	True	False
 Orphanet:672842	guided entry of tail-anchored proteins factor 3, ATPase	False	True	False
 Orphanet:674648	Syndrome with congenital phagocyte functional defect as a major feature	False	True	False
 Orphanet:674734	lysine methyltransferase 5B	False	True	False
@@ -4724,6 +4709,7 @@ Orphanet:691617	N-alpha-acetyltransferase 60, NatF catalytic subunit	False	True	
 Orphanet:691624	cytidine/uridine monophosphate kinase 2	False	True	False
 Orphanet:691869	valyl-tRNA synthetase 2, mitochondrial	False	True	False
 Orphanet:692144	gliomedin	False	True	False
+Orphanet:693855	Visceral arteriovenous malformation	False	True	False
 Orphanet:693990	nuclear protein, coactivator of histone transcription	False	True	False
 Orphanet:693992	MSL complex subunit 2	False	True	False
 Orphanet:694367	advillin	False	True	False
@@ -4740,15 +4726,18 @@ Orphanet:696099	spleen associated tyrosine kinase	False	True	False
 Orphanet:696187	mannosidase alpha class 2B member 2	False	True	False
 Orphanet:696603	UPF1 RNA helicase and ATPase	False	True	False
 Orphanet:696607	SPARC like 1	False	True	False
+Orphanet:696851	Common variable immunodeficiency and related disorders	False	True	False
 Orphanet:697342	germ cell nuclear acidic peptidase	False	True	False
 Orphanet:697348	ubiquitin specific peptidase 26	False	True	False
 Orphanet:698485	ATP binding cassette subfamily D member 3	False	True	False
 Orphanet:698499	NUTM2B antisense RNA 1	False	True	False
 Orphanet:698643	IKAROS family zinc finger 2	False	True	False
+Orphanet:698914	Platelet-activating anti-platelet factor 4 disorder	False	True	False
 Orphanet:699060	programmed cell death 6 interacting protein	False	True	False
 Orphanet:699134	bromodomain and PHD finger containing 1	False	True	False
 Orphanet:699140	lysyl oxidase like 3	False	True	False
 Orphanet:699340	Rho guanine nucleotide exchange factor 1	False	True	False
+Orphanet:700143	X-linked distal myopathy	False	True	False
 Orphanet:700173	DnaJ heat shock protein family (Hsp40) member B4	False	True	False
 Orphanet:700329	NFKB activating protein	False	True	False
 Orphanet:700516	sorbitol dehydrogenase	False	True	False
@@ -13281,6 +13270,7 @@ Orphanet:693907	RASA1-related capillary malformation-arteriovenous malformation	
 Orphanet:693912	EPHB4-related capillary malformation-arteriovenous malformation	True	False	False
 Orphanet:694228	Congenital intrahepatic arterioportal fistula	True	False	False
 Orphanet:694304	ZMYND11-related developmental delay-speech delay-seizures-behavioral abnormalities-craniofacial dysmorphism syndrome	True	False	False
+Orphanet:694308	ZMYND11-related developmental delay-speech delay-seizures-behavioral abnormalities-craniofacial dysmorphism syndrome due to a point mutation	True	False	False
 Orphanet:694356	ADAR-related hereditary spastic paraplegia	True	False	False
 Orphanet:694922	Childhood-onset stress-induced neurodegenerative ataxia-seizure syndrome	True	False	False
 Orphanet:694937	Intellectual disability-peripheral neuropathy-corpus callosum abnormalities syndrome due to nudix hydrolase 2 deficiency	True	False	False
@@ -13343,9 +13333,15 @@ Orphanet:69744	Circumscribed palmoplantar hypokeratosis	True	False	False
 Orphanet:69745	Warty dyskeratoma	True	False	False
 Orphanet:697734	ST3GAL3-CDG	True	False	False
 Orphanet:697760	Intellectual disability-nasal speech-craniofacial dysmorphism syndrome	True	False	False
+Orphanet:697764	Intellectual disability-nasal speech-craniofacial dysmorphism syndrome due to CNOT2 mutation	True	False	False
 Orphanet:697986	Congenital peritoneal encapsulation	True	False	False
 Orphanet:698005	Epilepsy with generalized tonic-clonic seizures alone	True	False	False
 Orphanet:698012	Fibromuscular dysplasia	True	False	False
+Orphanet:698036	Fibromuscular dysplasia of the cervical and intracranial arteries	True	False	False
+Orphanet:698043	Fibromuscular dysplasia of the renal arteries	True	False	False
+Orphanet:698059	Fibromuscular dysplasia of the coronary arteries	True	False	False
+Orphanet:698063	Fibromuscular dysplasia of the visceral arteries	True	False	False
+Orphanet:698069	Fibromuscular dysplasia of the arteries of the extremities	True	False	False
 Orphanet:698085	Global developmental delay-intellectual disability-facial dysmorphism-pseudo-Pelger-Huët anomaly syndrome	True	False	False
 Orphanet:698090	Ophthalmological abnormalities-facial dysmorphism-intellectual disability syndrome	True	False	False
 Orphanet:698260	Carotid web	True	False	False
@@ -13376,6 +13372,7 @@ Orphanet:699796	Protracted juvenile CLN3 disease	True	False	False
 Orphanet:699802	Late infantile CLN5 disease	True	False	False
 Orphanet:699807	Juvenile CLN5 disease	True	False	False
 Orphanet:699812	Adult CLN5 disease	True	False	False
+Orphanet:699822	Sickle cell S-Lepore disease	True	False	False
 Orphanet:699835	Cataract-combined malonic and methylmalonic aciduria-intellectual disability syndrome	True	False	False
 Orphanet:699844	Microcephaly-corpus callosum hypoplasia-simplified gyral pattern-intellectual disability syndrome	True	False	False
 Orphanet:699850	2p25.3 microduplication syndrome	True	False	False
@@ -13383,9 +13380,12 @@ Orphanet:7	3C syndrome	True	False	False
 Orphanet:70	Proximal spinal muscular atrophy	True	False	False
 Orphanet:700	Alopecia totalis	True	False	False
 Orphanet:700085	Sickle cell disease due to hemoglobin S and a non-S/non-C hemoglobin variant	True	False	False
+Orphanet:700090	Sickle cell S-O Arab disease	True	False	False
 Orphanet:700111	Homozygous hemoglobin O Arab disease	True	False	False
 Orphanet:700124	Autosomal recessive hereditary chronic pancreatitis	True	False	False
 Orphanet:700133	Idiopathic chronic pancreatitis	True	False	False
+Orphanet:700136	Early-onset idiopathic chronic pancreatitis	True	False	False
+Orphanet:700139	Late-onset idiopathic chronic pancreatitis	True	False	False
 Orphanet:700154	TARDBP-related predominantly upper-limb distal myopathy	True	False	False
 Orphanet:700160	ADNP-related blepharophimosis-intellectual disability syndrome	True	False	False
 Orphanet:700163	SMPX-related distal myopathy	True	False	False

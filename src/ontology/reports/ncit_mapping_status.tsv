@@ -128788,7 +128788,6 @@ NCIT:C215363	Organic Anxiety Disorder	False	True	False
 NCIT:C215364	Cigarette Nicotine Dependence	False	True	False
 NCIT:C215365	Cigarette Nicotine Withdrawal	False	True	False
 NCIT:C215366	Mild Cognitive Impairment	False	True	False
-NCIT:C215367	Drug-Induced Polyneuropathy	False	True	False
 NCIT:C215368	Chronic Post-Procedural Pain	False	True	False
 NCIT:C215369	Ulcerative Proctitis	False	True	False
 NCIT:C21537	Protein Wnt-4	False	True	False
@@ -135463,7 +135462,6 @@ NCIT:C27054	Rectal Hemorrhage	False	True	False
 NCIT:C27059	Leukoencephalopathy	False	True	False
 NCIT:C2706	Anthrapyrazole	False	True	False
 NCIT:C27060	Radiation-Induced Myelopathy	False	True	False
-NCIT:C27063	Toxic Polyneuropathy	False	True	False
 NCIT:C27064	Radiation-Induced Cataract	False	True	False
 NCIT:C2707	DHEA Mustard	False	True	False
 NCIT:C27072	Finger Fracture	False	True	False
@@ -201346,6 +201344,7 @@ NCIT:C197914	Hypertensive Urgency	True	True	False
 NCIT:C203436	Thrombocytopenia 5	True	True	False
 NCIT:C205364	Familial Multiple Trichoepitheliomas	True	True	False
 NCIT:C205541	CYLD Cutaneous Syndrome	True	True	False
+NCIT:C215367	Drug-Induced Polyneuropathy	True	True	False
 NCIT:C26685	Placental Abruption	True	True	False
 NCIT:C26686	Abscess	True	True	False
 NCIT:C26687	Acanthosis Nigricans	True	True	False
@@ -201523,6 +201522,7 @@ NCIT:C27056	Acute Cervicitis	True	True	False
 NCIT:C27057	Chronic Cervicitis	True	True	False
 NCIT:C27061	Peroneal Nerve Paralysis	True	True	False
 NCIT:C27062	Demyelinating Polyneuropathy	True	True	False
+NCIT:C27063	Toxic Polyneuropathy	True	True	False
 NCIT:C27066	Pituitary Gland Necrosis	True	True	False
 NCIT:C27068	Diabetic Autonomic Neuropathy	True	True	False
 NCIT:C27069	Polycythemia Neonatorum	True	True	False
