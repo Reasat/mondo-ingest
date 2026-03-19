@@ -2,6 +2,7 @@ subject_id	subject_label	is_mapped	is_excluded	is_deprecated
 OMIM:621426	drug metabolism, altered, cyp2a6-related	False	False	False
 OMIM:621510	congenital myopathy 29 with contractures	False	False	False
 OMIM:621511	lethal congenital contracture syndrome 12	False	False	False
+OMIM:621528	meier-gorlin syndrome 10	False	False	False
 OMIM:621533	neurodevelopmental disorder with seizures and impaired intellectual and language development	False	False	False
 OMIM:100500		False	False	True
 OMIM:100680		False	False	True
@@ -19467,6 +19468,10 @@ OMIM:621529	TMEM168	False	True	False
 OMIM:621530	CWC25	False	True	False
 OMIM:621531	TRMT11	False	True	False
 OMIM:621532	THUMPD3	False	True	False
+OMIM:621534	FAM135B	False	True	False
+OMIM:621536	FAM174C	False	True	False
+OMIM:621537	CPS1IT1	False	True	False
+OMIM:621538	REX1BD	False	True	False
 OMIMPS:151623	Li-Fraumeni syndrome	False	True	False
 OMIMPS:608902	Drug metabolism, altered (select examples)	False	True	False
 OMIM:173500		False	True	True

@@ -109,7 +109,6 @@ MONDO:0011168	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:6019
 MONDO:0011183	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:602080
 MONDO:0011191	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:602089
 MONDO:0011237	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:602491
-MONDO:0011280	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:603013
 MONDO:0011285	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:603075
 MONDO:0011361	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:603688
 MONDO:0011369	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:603776
@@ -290,7 +289,6 @@ MONDO:0014416	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:6159
 MONDO:0014442	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:615991
 MONDO:0014488	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:616087
 MONDO:0014494	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:616106
-MONDO:0014629	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:616414
 MONDO:0014639	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:616436
 MONDO:0014674	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:616511
 MONDO:0014680	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:616532
@@ -367,8 +365,10 @@ MONDO:0100533	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:6145
 MONDO:0700041	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:613013
 MONDO:0700275	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:176807
 MONDO:0700299	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:620990
+MONDO:0700391	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:616414
 MONDO:0800001	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:614163
 MONDO:0800187	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:613002
+MONDO:0800358	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:621407
 MONDO:0800447	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:614009
 MONDO:0800497	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:178500
 MONDO:0859172	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:619462
@@ -384,4 +384,5 @@ MONDO:0971170	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:3011
 MONDO:0975748	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:620923
 MONDO:0976128	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:621064
 MONDO:0976267	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:621164
+MONDO:0980721	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:621236
 MONDO:1010151	http://purl.obolibrary.org/obo/mondo#omim_susceptibility	OMIM:611465

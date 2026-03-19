@@ -18044,6 +18044,10 @@ OMIM:621529	MONDO:excludeGene
 OMIM:621530	MONDO:excludeGene
 OMIM:621531	MONDO:excludeGene
 OMIM:621532	MONDO:excludeGene
+OMIM:621534	MONDO:excludeGene
+OMIM:621536	MONDO:excludeGene
+OMIM:621537	MONDO:excludeGene
+OMIM:621538	MONDO:excludeGene
 OMIMPS:151623	MONDO:excludeGrouping
 OMIM:100640	MONDO:excludeNonDisease
 OMIM:100660	MONDO:excludeNonDisease
@@ -30748,6 +30752,10 @@ OMIM:621529	MONDO:excludeNonDisease
 OMIM:621530	MONDO:excludeNonDisease
 OMIM:621531	MONDO:excludeNonDisease
 OMIM:621532	MONDO:excludeNonDisease
+OMIM:621534	MONDO:excludeNonDisease
+OMIM:621536	MONDO:excludeNonDisease
+OMIM:621537	MONDO:excludeNonDisease
+OMIM:621538	MONDO:excludeNonDisease
 OMIM:123270	MONDO:excludePhenotype
 OMIM:130180	MONDO:excludePhenotype
 OMIM:131500	MONDO:excludePhenotype
@@ -50324,3 +50332,7 @@ OMIM:621529	MONDO:nonDisease
 OMIM:621530	MONDO:nonDisease
 OMIM:621531	MONDO:nonDisease
 OMIM:621532	MONDO:nonDisease
+OMIM:621534	MONDO:nonDisease
+OMIM:621536	MONDO:nonDisease
+OMIM:621537	MONDO:nonDisease
+OMIM:621538	MONDO:nonDisease
