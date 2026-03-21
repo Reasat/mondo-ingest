@@ -24,10 +24,6 @@ def get_formatted_ncit_rare_df(ncit_rare_tsv_path: Union[str, Path], onto_config
         '?cls': 'ncit_id',
         '?lbl': 'ncit_label',
     }).sort_values(['ncit_id', 'ncit_label'])
-    # - remove duplicate rows where labels are a specific language variation, e.g. @en
-    df['label_has_lang_variation'] = df['ncit_label'].map(lambda label: '@' in str(label))
-    df = df[~df['label_has_lang_variation']]
-    del df['label_has_lang_variation']
 
     # Preprocess
     # - Strip annoying angle brackets from URIs
