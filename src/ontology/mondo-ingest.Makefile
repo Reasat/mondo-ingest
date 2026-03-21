@@ -757,7 +757,8 @@ EXTERNAL_FILES = \
 	gard \
 	nord \
 	ordo-subsets \
-	ncit-rare
+	ncit-rare \
+	doid-rare
 
 # The following target simulates the EMC pipeline. It runs it in exactly the same way
 # as it would be run in the context of the Mondo repo. This way, we can test Mondo 
@@ -790,14 +791,14 @@ $(EXTERNAL_CONTENT_DIR)/processed-%.robot.tsv: $(EXTERNAL_CONTENT_DIR)/%.robot.t
 update-externally-managed-content: $(foreach n,$(EXTERNAL_FILES), $(EXTERNAL_CONTENT_DIR)/processed-$(n).robot.owl)
 	@echo "Externally managed content updated."
 
-$(EXTERNAL_CONTENT_DIR)/%.robot.owl: $(EXTERNAL_CONTENT_DIR)/%.robot.tsv
+$(EXTERNAL_CONTENT_DIR)/%.robot.owl: #$(EXTERNAL_CONTENT_DIR)/%.robot.tsv
 	$(ROBOT) template \
-		--template $< \
+		--template $(EXTERNAL_CONTENT_DIR)/$*.robot.tsv \
 		--prefix "orcid: https://orcid.org/" \
 		--input $(IMPORTDIR)/ro_import.owl \
 	 	annotate \
-				--ontology-iri $(URIBASE)/mondo/external/nord.robot.owl \
-				--version-iri $(URIBASE)/mondo/external/$(TODAY)/nord.robot.owl \
+				--ontology-iri $(URIBASE)/mondo/external/$*.robot.owl \
+				--version-iri $(URIBASE)/mondo/external/$(TODAY)/$*.robot.owl \
 				-o $@
 .PRECIOUS: $(EXTERNAL_CONTENT_DIR)/%.robot.owl
 
@@ -850,6 +851,20 @@ $(EXTERNAL_CONTENT_DIR)/ncit-rare.robot.tsv: $(TMPDIR)/ncit-rare.tsv $(TMPDIR)/m
 	--onto-config-path metadata/ncit.yml \
 	--outpath $@
 .PRECIOUS: $(EXTERNAL_CONTENT_DIR)/ncit-rare.robot.tsv
+
+###### DOID #########
+
+$(TMPDIR)/doid-rare.tsv: $(TMPDIR)/mirror-doid.owl
+	$(ROBOT) query -i $< --query ../sparql/select-doid-rare.sparql $@
+
+$(EXTERNAL_CONTENT_DIR)/doid-rare.robot.tsv: $(TMPDIR)/doid-rare.tsv #$(TMPDIR)/mondo.sssom.tsv
+	mkdir -p $(EXTERNAL_CONTENT_DIR)
+	python3 $(SCRIPTSDIR)/doid_rare.py \
+	--doid-rare-tsv-path $(TMPDIR)/doid-rare.tsv \
+	--mondo-mappings-path $(TMPDIR)/mondo.sssom.tsv \
+	--onto-config-path metadata/doid.yml \
+	--outpath $@
+.PRECIOUS: $(EXTERNAL_CONTENT_DIR)/doid-rare.robot.tsv
 
 ###### OMIM #########
 
