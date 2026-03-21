@@ -1,0 +1,9 @@
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+prefix doid: <http://purl.obolibrary.org/obo/doid#>
+
+SELECT ?cls ?lbl
+WHERE {
+    ?cls oboInOwl:inSubset doid:DO_rare_slim .
+    ?cls rdfs:label ?lbl .
+}
