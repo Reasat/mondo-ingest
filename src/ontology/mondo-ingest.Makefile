@@ -791,7 +791,7 @@ $(EXTERNAL_CONTENT_DIR)/processed-%.robot.tsv: $(EXTERNAL_CONTENT_DIR)/%.robot.t
 update-externally-managed-content: $(foreach n,$(EXTERNAL_FILES), $(EXTERNAL_CONTENT_DIR)/processed-$(n).robot.owl)
 	@echo "Externally managed content updated."
 
-$(EXTERNAL_CONTENT_DIR)/%.robot.owl: #$(EXTERNAL_CONTENT_DIR)/%.robot.tsv
+$(EXTERNAL_CONTENT_DIR)/%.robot.owl: $(EXTERNAL_CONTENT_DIR)/%.robot.tsv
 	$(ROBOT) template \
 		--template $(EXTERNAL_CONTENT_DIR)/$*.robot.tsv \
 		--prefix "orcid: https://orcid.org/" \
