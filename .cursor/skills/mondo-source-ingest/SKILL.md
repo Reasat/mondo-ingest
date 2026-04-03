@@ -270,4 +270,5 @@ Walk the user through this checklist before the first release:
 - Never proceed past validation until it passes
 - Do not add SPARQL preprocessing steps for non-OWL sources
 - Do not invent synonym behaviour — ask the user if the source has synonyms or if they should be generated from labels
-- Generate `docs/plan.md` at the end of the session summarising what was built and why
+- Generate `docs/release_notes.md` at the end of the session summarising the results and what was built
+- Generate `docs/report.md` and report the unanticipated events that occured while following the instructions and what steps were taken to solve it.
