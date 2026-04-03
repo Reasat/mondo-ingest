@@ -229,11 +229,18 @@ Known structural patterns and how they are handled:
 
 | Pattern | Source | Fix |
 |---|---|---|
-| part-of restrictions instead of subClassOf | ORDO | `ordo-construct-subclass-from-part-of.ru` before extraction |
+| part-of restrictions instead of subClassOf | ORDO (older) | `ordo-construct-subclass-from-part-of.ru` before extraction |
 | illegal punning (property used as both annotation + object property) | OMIM | `fix_illegal_punning_omim.ru` before extraction |
 | nested annotation reification | ORDO | `fix_complex_reification_ordo.ru` before extraction |
 | self-revocation in replacement lists | OncoTree | skip self-referencing entries |
 | split/merge replacements | OncoTree | 1→1 use `IAO:0100001`; 1→many use `oboInOwl:consider` |
+| `owl:deprecated` as plain string literal (not `xsd:boolean`) | ORDO | Use `FILTER(str(?dep) = "true")` in all SPARQL that tests deprecation, not `?cls owl:deprecated true` |
+
+**Critical `config/properties.txt` rule for OWL sources:** The ROBOT `remove --select complement --select properties` step strips every annotation property not in the allowlist — including built-ins. Always include the following in `properties.txt` or the extractor will find no labels:
+```
+http://www.w3.org/2000/01/rdf-schema#label
+http://www.w3.org/2002/07/owl#deprecated
+```
 
 For non-OWL sources, this step is skipped entirely.
 

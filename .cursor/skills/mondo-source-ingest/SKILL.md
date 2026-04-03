@@ -75,6 +75,8 @@ If auth is needed, scaffold `env/.env.example` and load credentials from `.env` 
 
 If the source is versioned, scaffold a `scripts/resolve_version.py` that writes the resolved URL and version IRI to `.env`.
 
+For **live/latest endpoints** (no explicit version in the URL), scaffold a `resolve_latest_url()` function in `acquire.py` that scrapes the source's download page and extracts the current filename via regex. Always prefer dynamic resolution over hardcoding a version-specific URL — a hardcoded URL will silently fetch a stale file once the source publishes a new version.
+
 ---
 
 ## Phase 3: Schema and datamodel
@@ -137,6 +139,8 @@ gen-pydantic linkml/mondo_source_schema.yaml > src/<source_name>/datamodel.py
 ```
 
 Ask the user if they need any additional slots before generating.
+
+**Schema slot type warning:** The `in_subsets` slot has `range: uriorcurie`. Do not put plain text strings (e.g. source-internal classification labels like "Clinical subtype") into this slot — `linkml-owl` will reject them with `ValueError: X is not a valid URI or CURIE`. If the source has free-text classification values, either drop them or add a dedicated `range: string` slot for them.
 
 ---
 
@@ -208,6 +212,10 @@ The extractor must:
 5. Serialise to `source.linkml.yml` using `yaml.dump` or LinkML's Python serialiser
 
 For OncoTree-style sources with revocations, implement the second pass for obsolete terms after the main loop.
+
+**Extractor robustness rules (learned from ORDO):**
+- Always strip and skip blank/whitespace-only literal values before adding them to list slots. `linkml-owl` raises `ConstructorError: Empty list elements are not allowed` if a list contains an empty string. Use `val = str(o).strip(); if val: out.append(val)` in every literal-collecting helper.
+- When writing SPARQL that filters on `owl:deprecated`, use `FILTER(str(?dep) = "true")` rather than `?cls owl:deprecated true`. Some sources (including ORDO) serialise the deprecated flag as an untyped plain string literal `"true"` rather than `"true"^^xsd:boolean`. The boolean keyword in SPARQL does not match plain literals.
 
 ---
 
@@ -363,5 +371,6 @@ Walk the user through this checklist before the first release:
 - Never proceed past validation until it passes
 - Do not add SPARQL preprocessing steps for non-OWL sources
 - Do not invent synonym behaviour — ask the user if the source has synonyms or if they should be generated from labels
+- Never silently remove or simplify a pipeline step because a tool or plugin appears to be missing. Search the full filesystem, then ask the user where it is before removing anything.
 - Generate `docs/release_notes.md` at the end of the session summarising on the ontology stats
 - Generate `docs/report.md` and report the unanticipated events that occured while following the instructions and what steps were taken to solve it.
