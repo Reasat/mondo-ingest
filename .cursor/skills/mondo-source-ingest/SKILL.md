@@ -240,13 +240,106 @@ Tell the user: the derived OWL is for OWL-native consumers only. `source.linkml.
 
 ## Phase 8: Wire CI and release
 
-Generate `.github/workflows/release.yml`. The workflow must:
-- Trigger on push to `main` (paths: `justfile`, `scripts/**`, `linkml/**`, `pyproject.toml`) and weekly schedule
-- Run `uv sync && just build`
-- Create a dated tag (`vYYYYMMDD-<run_number>`)
-- Upload `source.linkml.yml` and `source.linkml.owl` as release assets
+Generate the two workflow files below. For OWL sources, all steps run inside `obolibrary/odkfull:v1.6` Docker so that ROBOT and the ODK normalize plugin are available without any separate install step. For non-OWL sources (JSON, TSV), the Docker step can be replaced with a plain `uv sync && uv run python ...` step on `ubuntu-latest`.
 
-Generate `.github/workflows/build.yml` for PRs (same build, no release).
+**`.github/workflows/release.yml`**
+
+```yaml
+name: Build and release
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 1"   # weekly, Monday 00:00 UTC
+  push:
+    branches: [main]
+    paths:
+      - "Makefile"         # or justfile for non-OWL sources
+      - "config/**"
+      - "sparql/**"        # OWL sources only
+      - "linkml/**"
+      - "scripts/**"
+      - "pyproject.toml"
+      - "uv.lock"
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build (ROBOT + LinkML)
+        run: |
+          docker run --rm \
+            -e ROBOT_PLUGINS_DIRECTORY=/tools/robot-plugins \
+            -v "$PWD:/work" \
+            -w /work \
+            obolibrary/odkfull:v1.6 \
+            bash -lc "pip3 install --break-system-packages uv && uv sync && make build-release"
+
+      - name: Set release tag
+        id: version
+        run: echo "tag=v$(date +%Y%m%d)-${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+
+      - name: Create release and upload assets
+        if: success() && hashFiles('source.linkml.yml') != ''
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: Release ${{ steps.version.outputs.tag }}
+          files: |
+            source.linkml.yml
+            source.linkml.owl
+          generate_release_notes: true
+          draft: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+Substitute the actual output filenames (e.g. `ordo.yaml`, `ordo.owl`) for `source.linkml.yml` / `source.linkml.owl`.
+
+**`.github/workflows/build.yml`**
+
+```yaml
+name: Build
+
+on:
+  pull_request:
+    paths:
+      - "Makefile"
+      - "config/**"
+      - "sparql/**"
+      - "linkml/**"
+      - "scripts/**"
+      - "pyproject.toml"
+      - "uv.lock"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build (ROBOT + LinkML)
+        run: |
+          docker run --rm \
+            -e ROBOT_PLUGINS_DIRECTORY=/tools/robot-plugins \
+            -v "$PWD:/work" \
+            -w /work \
+            obolibrary/odkfull:v1.6 \
+            bash -lc "pip3 install --break-system-packages uv && uv sync && make build-release"
+```
+
+**Key implementation notes:**
+- `permissions: contents: write` is required on the release job for `softprops/action-gh-release` to create tags and releases.
+- `ROBOT_PLUGINS_DIRECTORY=/tools/robot-plugins` makes the ODK normalize plugin available inside the container (its location in `odkfull`).
+- `hashFiles('source.linkml.yml') != ''` guards the release step so a failed build does not create an empty release.
+- The `workflow_dispatch` trigger allows manual runs from the GitHub Actions UI without a push.
+- Local `ROBOT_PLUGINS_DIRECTORY` will differ from CI (e.g. `/home/<user>/.robot/plugins` locally vs `/tools/robot-plugins` in Docker). Set it as a `?=` default in the Makefile so it can be overridden.
 
 ---
 
