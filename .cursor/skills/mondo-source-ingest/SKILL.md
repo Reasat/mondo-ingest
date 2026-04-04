@@ -64,6 +64,7 @@ Create the repo structure. Confirm the directory name with the user first.
 ├── tmp/                        # gitignored
 ├── justfile
 ├── pyproject.toml
+├── README.md
 └── uv.lock
 ```
 
@@ -84,6 +85,47 @@ If auth is needed, scaffold `env/.env.example` and load credentials from `.env` 
 If the source is versioned, scaffold a `scripts/resolve_version.py` that writes the resolved URL and version IRI to `.env`.
 
 For **live/latest endpoints** (no explicit version in the URL), scaffold a `resolve_latest_url()` function in `acquire.py` that scrapes the source's download page and extracts the current filename via regex. Always prefer dynamic resolution over hardcoding a version-specific URL — a hardcoded URL will silently fetch a stale file once the source publishes a new version.
+
+**`README.md`** — keep it minimal. The detailed pipeline rationale lives in `docs/plan.md`. The README should only contain:
+
+```markdown
+# <source-name>
+
+<One sentence description>.
+
+## Setup
+
+<Auth steps if needed, e.g.:>
+1. Register at <auth URL> to get API credentials
+2. Copy `env/.env.example` → `env/.env` and fill in the required variables
+3. Install dependencies: `uv sync`
+
+## Run
+
+```bash
+make acquire       # or: just acquire
+make build         # ROBOT preprocessing (OWL sources only)
+make build-release # YAML + validate + derived OWL
+```
+
+## Outputs
+
+| File | Description |
+|---|---|
+| `<source>.linkml.yaml` | Primary artefact for Mondo ingest |
+| `<source>.owl` | ROBOT-preprocessed OWL (OWL sources only) |
+| `<source>_from_linkml.owl` | LinkML-derived OWL |
+
+## Docs
+
+| Doc | Contents |
+|---|---|
+| [`docs/plan.md`](docs/plan.md) | Pipeline architecture, field mappings, ID scheme |
+| [`docs/release_notes.md`](docs/release_notes.md) | Ontology stats and verification results per release |
+| [`docs/report.md`](docs/report.md) | Unanticipated events and how they were resolved |
+```
+
+If `acquire` is slow (e.g. API traversal), add a note in the `make acquire` line so the user knows it is expected behaviour, e.g. `# ~2.5 hrs, cached after first run`.
 
 ---
 
