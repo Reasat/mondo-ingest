@@ -43,15 +43,22 @@ Create the repo structure. Confirm the directory name with the user first.
 ├── config/
 │   ├── property-map.sssom.tsv
 │   └── properties.txt          # OWL sources only
-├── docs/plan.md                 # generated summary of this session
+├── docs/
+│   ├── plan.md                 # pipeline logic: source, field mappings, design decisions, ID scheme
+│   ├── report.md               # unanticipated events, errors, deviations and how they were resolved
+│   └── release_notes.md        # ontology stats + Phase 9 verification results for each release
 ├── env/
 │   ├── .env.example
 │   └── .env                    # gitignored
 ├── linkml/
 │   └── mondo_source_schema.yaml
 ├── scripts/
-│   ├── acquire.py
-│   └── extract.py
+│   ├── acquire.py              # fetch/download source (all source types)
+│   ├── transform.py            # OWL sources: ROBOT-output OWL → YAML
+│   ├── extract.py              # non-OWL sources: raw JSON/TSV/API → YAML
+│   └── resolve_version.py      # optional: versioned sources only
+├── sparql/                     # OWL sources only
+│   └── *.ru                    # SPARQL update queries applied via ROBOT
 ├── src/<source_name>/
 │   └── datamodel.py            # generated from schema
 ├── tmp/                        # gitignored
@@ -60,15 +67,16 @@ Create the repo structure. Confirm the directory name with the user first.
 └── uv.lock
 ```
 
-**`pyproject.toml`** dependencies: `linkml`, `linkml-owl`, `pydantic`, `PyYAML`. Add `pyoxigraph` for OWL sources.
+Note: exact script filenames (`transform.py` vs `extract.py`) are confirmed during Phase 4 once the source format and processing steps are known.
+
+**`pyproject.toml`** dependencies: `linkml`, `pydantic`, `PyYAML`, `rdflib`. Add `linkml-owl` for non-OWL sources only. Add `pyoxigraph` if SPARQL querying inside the Python script is needed.
 
 **`justfile`** targets to generate:
 - `just acquire` — fetch source
-- `just extract` — run extractor → `source.linkml.yml`
+- `just transform` or `just extract` — source → `source.linkml.yml` (name confirmed in Phase 4)
 - `just validate` — `python -m linkml.validator.cli -s linkml/mondo_source_schema.yaml -C OntologyDocument source.linkml.yml`
-- `just data2owl` — `python -m linkml_owl.dumpers.owl_dumper -s linkml/mondo_source_schema.yaml source.linkml.yml -o source.linkml.owl`
-- `just build` — acquire → extract → validate → data2owl
-- `just iterate` — extract → validate loop only (tight feedback)
+- `just build` — full pipeline end-to-end
+- `just iterate` — transform/extract → validate loop only (tight feedback, skips acquire)
 - `just release` — tag and upload
 
 If auth is needed, scaffold `env/.env.example` and load credentials from `.env` in `acquire.py`.
@@ -200,20 +208,79 @@ For non-OWL sources, skip this step entirely.
 
 ---
 
-## Phase 5: Write the extractor
+## Phase 5: Write the processing scripts
 
-Show the user a sketch of `scripts/extract.py` based on the confirmed field mappings. Ask for approval before writing the full implementation.
+The pipeline differs by source type. Confirm the approach with the user before writing any code.
 
-The extractor must:
-1. Load the source
-2. Iterate over terms
-3. Create `OntologyTerm` instances from the generated datamodel
-4. Assemble into `OntologyDocument`
-5. Serialise to `source.linkml.yml` using `yaml.dump` or LinkML's Python serialiser
+---
 
-For OncoTree-style sources with revocations, implement the second pass for obsolete terms after the main loop.
+### 5a — OWL sources: ROBOT preprocessing + `transform.py`
 
-**Extractor robustness rules (learned from ORDO):**
+OWL sources go through two stages. Stage 1 is ROBOT (invoked from `justfile`); Stage 2 is Python.
+
+**Stage 1 — ROBOT (via `justfile`):**
+
+```
+just mirror   → robot merge -i raw.owl odk:normalize → tmp/mirror.owl
+just build    → robot merge -i tmp/mirror.owl
+                  query --update sparql/fix_*.ru        (structural fixes)
+                  query --update sparql/exact_syn_from_label.ru  (if needed)
+                  remove -T config/properties.txt --select complement --select properties --trim true
+                  annotate --ontology-iri <IRI> --version-iri <VERSION_IRI>
+                → source.owl                            ← released OWL artefact
+```
+
+SPARQL update files (`sparql/*.ru`) handle any structural issues identified in Phase 4.7. The property allowlist (`config/properties.txt`) must always include `rdfs:label` and `owl:deprecated` at minimum.
+
+**Stage 2 — `scripts/transform.py`:**
+
+Reads the ROBOT-output `source.owl` (not the raw acquired file) using rdflib. Maps OWL predicates to schema slots and writes `source.linkml.yml`.
+
+Show the user a sketch and confirm field mappings before writing the full implementation:
+
+```python
+from rdflib import OWL, RDF, RDFS, Graph, Literal, URIRef
+from rdflib.namespace import Namespace
+
+OBOINOWL = Namespace("http://www.geneontology.org/formats/oboInOwl#")
+
+def extract_terms(g: Graph) -> list[dict]:
+    for iri in sorted(str(s) for s in g.subjects(RDF.type, OWL.Class) if isinstance(s, URIRef)):
+        label = g.value(URIRef(iri), RDFS.label)
+        if label is None:
+            continue
+        # map further slots: definition, synonyms, parents ...
+        yield {"id": curie(iri), "label": str(label), ...}
+```
+
+---
+
+### 5b — Non-OWL sources: `extract.py`
+
+No ROBOT involved. The extractor reads the raw acquired file (JSON, TSV, API response) directly.
+
+Show the user a sketch and confirm field mappings before writing the full implementation:
+
+```python
+from src.<source>.datamodel import OntologyDocument, OntologyTerm
+
+def extract(data) -> OntologyDocument:
+    terms = []
+    for item in data:
+        terms.append(OntologyTerm(
+            id=f"PREFIX:{item['code']}",
+            label=item["name"],
+            parents=[f"PREFIX:{item['parent']}"] if item.get("parent") else [],
+            is_root=not bool(item.get("parent")),
+        ))
+    return OntologyDocument(title="Source", terms=terms)
+```
+
+For sources with revocations (OncoTree-style), implement a second pass for obsolete terms after the main loop.
+
+---
+
+**Robustness rules (apply to both paths):**
 - Always strip and skip blank/whitespace-only literal values before adding them to list slots. `linkml-owl` raises `ConstructorError: Empty list elements are not allowed` if a list contains an empty string. Use `val = str(o).strip(); if val: out.append(val)` in every literal-collecting helper.
 - When writing SPARQL that filters on `owl:deprecated`, use `FILTER(str(?dep) = "true")` rather than `?cls owl:deprecated true`. Some sources (including ORDO) serialise the deprecated flag as an untyped plain string literal `"true"` rather than `"true"^^xsd:boolean`. The boolean keyword in SPARQL does not match plain literals.
 
@@ -237,12 +304,18 @@ Do not proceed to Phase 7 until `linkml-validate` exits 0 and term counts look p
 
 ## Phase 7: Derive OWL
 
-Run:
+This phase applies to **non-OWL sources only**.
+
+For OWL sources, the released OWL artefact is the ROBOT-processed `source.owl` produced in Phase 5a — no further derivation is needed. Skip this phase.
+
+For non-OWL sources (JSON, TSV, API), the source has no OWL representation, so one must be derived from the YAML:
+
 ```bash
 just data2owl
+# python -m linkml_owl.dumpers.owl_dumper -s linkml/mondo_source_schema.yaml -f yaml source.linkml.yml -o source.linkml.owl
 ```
 
-Tell the user: the derived OWL is for OWL-native consumers only. `source.linkml.yml` is the primary contract. Known limitation: `linkml-owl` emits OWL Functional format; ROBOT may not load it cleanly in all cases.
+Tell the user: the derived OWL is for OWL-native consumers only. `source.linkml.yml` is the primary contract. Known limitation: `linkml-owl` emits OWL Functional format; ROBOT may not load it cleanly in all cases. If it fails on large datasets (rdflib N3 parser error), document this in `docs/report.md` and release `source.linkml.yml` only.
 
 ---
 
@@ -307,7 +380,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-Substitute the actual output filenames (e.g. `ordo.yaml`, `ordo.owl`) for `source.linkml.yml` / `source.linkml.owl`.
+Substitute the actual output filenames for `source.linkml.yml` / `source.linkml.owl`. Released artefacts differ by source type:
+
+| Source type | Released YAML | Released OWL |
+|---|---|---|
+| OWL | `source.linkml.yml` | `source.owl` (ROBOT-processed) |
+| Non-OWL | `source.linkml.yml` | `source.linkml.owl` (linkml-owl derived) |
 
 **`.github/workflows/build.yml`**
 
@@ -353,14 +431,21 @@ jobs:
 
 ## Phase 9: Verify
 
-Walk the user through this checklist before the first release:
+Walk the user through this checklist before the first release. Record results in `docs/release_notes.md`.
 
+**All sources:**
 - [ ] Term count in YAML matches expected source count
 - [ ] `label` is non-null for all terms
 - [ ] All `parents` references resolve to known term IDs
 - [ ] `linkml-validate` exits 0
-- [ ] `source.linkml.owl` can be opened in Protégé or loaded by ROBOT
+- [ ] `version` in YAML matches the official upstream release identifier
+
+**OWL sources additionally:**
+- [ ] `source.owl` (ROBOT output) can be loaded by ROBOT or opened in Protégé
 - [ ] If migrating from mondo-ingest: run `robot diff` between this OWL and the mondo-ingest reference OWL
+
+**Non-OWL sources additionally:**
+- [ ] `source.linkml.owl` (linkml-owl output) can be loaded by ROBOT or opened in Protégé
 
 ---
 
@@ -372,5 +457,8 @@ Walk the user through this checklist before the first release:
 - Do not add SPARQL preprocessing steps for non-OWL sources
 - Do not invent synonym behaviour — ask the user if the source has synonyms or if they should be generated from labels
 - Never silently remove or simplify a pipeline step because a tool or plugin appears to be missing. Search the full filesystem, then ask the user where it is before removing anything.
-- Generate `docs/release_notes.md` at the end of the session summarising on the ontology stats
-- Generate `docs/report.md` and report the unanticipated events that occured while following the instructions and what steps were taken to solve it.
+- Generate `docs/plan.md` capturing the pipeline logic that governs this repo: upstream source, field-to-slot mappings, ID scheme, versioning strategy, and key design decisions. This is the canonical reference for anyone maintaining the pipeline.
+- Generate `docs/report.md` recording every unanticipated event that occurred during the session — errors, tool failures, necessary deviations from the standard pipeline, and the exact steps taken to resolve each one.
+- Generate `docs/release_notes.md` containing the ontology statistics from the full run (term count, definitions, synonyms, roots, broken refs) together with the Phase 9 verification checklist results. Update this file for every subsequent release.
+- **Never substitute a third-party or mirror source for the official upstream.** The acquire step must always fetch from the authoritative publisher (e.g. WHO API, BioPortal official submission, ORPHADATA). Third-party builds (e.g. biopragmatics/obo-db-ingest, OBO Foundry mirrors) may be used for *inspection and prototyping only* — never as the production source. If the official source is slow or requires credentials, scaffold the credentials properly and document the performance impact; do not silently swap to a convenience mirror.
+- **Always record the official release identifier in the output.** The `version` field in the produced YAML must match the upstream publisher's versioning scheme (e.g. `2026-01` for WHO ICD-11, submission ID for BioPortal). A date derived from a third-party build timestamp is not an acceptable substitute.
