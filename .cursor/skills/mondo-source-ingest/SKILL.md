@@ -70,6 +70,30 @@ Create the repo structure. Confirm the directory name with the user first.
 
 Note: exact script filenames (`transform.py` vs `extract.py`) are confirmed during Phase 4 once the source format and processing steps are known.
 
+**`.gitignore`** — scaffold this at repo creation. Build artefacts are gitignored because they are uploaded as GitHub Release assets, not committed:
+
+```gitignore
+# Credentials — never commit
+.env
+env/.env
+
+# Build artefacts — uploaded as GitHub Release assets
+<source>.owl
+<source>_from_linkml.owl
+<source>.linkml.yaml
+
+# Build intermediates
+tmp/
+
+# Python
+*.pyc
+__pycache__/
+*.egg-info/
+
+# Virtual env — uv.lock IS committed for reproducible CI builds
+.venv/
+```
+
 **`pyproject.toml`** dependencies: `linkml`, `pydantic`, `PyYAML`, `rdflib`. Add `linkml-owl` for non-OWL sources only. Add `pyoxigraph` if SPARQL querying inside the Python script is needed.
 
 **`justfile`** targets to generate:
@@ -80,9 +104,24 @@ Note: exact script filenames (`transform.py` vs `extract.py`) are confirmed duri
 - `just iterate` — transform/extract → validate loop only (tight feedback, skips acquire)
 - `just release` — tag and upload
 
-If auth is needed, scaffold `env/.env.example` and load credentials from `.env` in `acquire.py`.
+If auth is needed, scaffold `env/.env.example` and load credentials from `.env` in `acquire.py`. Load with `load_dotenv()` first, then `os.getenv()` — this means CI can pass credentials as environment variables without needing the `.env` file present.
 
 If the source is versioned, scaffold a `scripts/resolve_version.py` that writes the resolved URL and version IRI to `.env`.
+
+**For API traversal sources** (sources where `acquire.py` must iterate node-by-node through an API rather than download a single file):
+- **Use an explicit queue or stack — never recursion.** Python's default 1,000-frame recursion limit silently truncates recursive traversals mid-run without raising an error. The choice between BFS (queue, `pop(0)`) and iterative DFS (stack, `pop()`) doesn't matter — both are safe. What matters is that the "call stack" is a plain Python list in heap memory, not the interpreter's call stack.
+- **Token refresh:** if the API uses short-lived OAuth tokens (~1 hour), implement proactive refresh (e.g. every 55 minutes) inside the traversal loop, plus a reactive catch on 401 responses. A single token fetch at startup is insufficient for long traversals.
+- **Cache every node response** to `tmp/cache/<encoded-uri>/response.json` as the traversal runs. If the run is interrupted, the next run reads from cache rather than re-fetching.
+- **Wire `actions/cache` in CI** to persist `tmp/cache/` between workflow runs, keyed on a hash of `acquire.py`. The first CI run pays the full traversal cost; all subsequent runs restore the cache and finish in seconds:
+  ```yaml
+  - name: Restore API node cache
+    uses: actions/cache@v4
+    with:
+      path: tmp/cache
+      key: <source>-api-cache-${{ hashFiles('scripts/acquire.py') }}
+      restore-keys: |
+        <source>-api-cache-
+  ```
 
 For **live/latest endpoints** (no explicit version in the URL), scaffold a `resolve_latest_url()` function in `acquire.py` that scrapes the source's download page and extracts the current filename via regex. Always prefer dynamic resolution over hardcoding a version-specific URL — a hardcoded URL will silently fetch a stale file once the source publishes a new version.
 
@@ -131,57 +170,141 @@ If `acquire` is slow (e.g. API traversal), add a note in the `make acquire` line
 
 ## Phase 3: Schema and datamodel
 
-Copy `mondo_source_schema.yaml` into `linkml/`. The base schema is:
+Copy `mondo_source_schema.yaml` into `linkml/`. The base schema below is the correct working template — do not simplify it. It has been validated against `linkml-owl` and produces correct OWL output.
 
 ```yaml
-id: https://w3id.org/monarch-initiative/mondo-source
-name: mondo_source
+id: https://w3id.org/monarch-initiative/mondo-source-schema
+name: mondo_source_schema
 prefixes:
-  linkml: https://w3id.org/linkml/
-  owl: http://www.w3.org/2002/07/owl#
-  rdfs: http://www.w3.org/2000/01/rdf-schema#
-  obo: http://purl.obolibrary.org/obo/
-  oboInOwl: http://www.geneontology.org/formats/oboInOwl#
-  skos: http://www.w3.org/2004/02/skos/core#
-imports: [linkml:types]
+  linkml:    https://w3id.org/linkml/
+  mondo_src: https://w3id.org/monarch-initiative/mondo-source-schema/
+  rdfs:      http://www.w3.org/2000/01/rdf-schema#
+  skos:      http://www.w3.org/2004/02/skos/core#
+  dcterms:   http://purl.org/dc/terms/
+  obo:       http://purl.obolibrary.org/obo/
+  oboInOwl:  http://www.geneontology.org/formats/oboInOwl#
+  owl:       http://www.w3.org/2002/07/owl#
+  # ADD source-specific prefix here, e.g.:
+  # ICD10WHO: https://icd.who.int/browse10/2019/en#/
+  # Orphanet: http://www.orpha.net/ORDO/Orphanet_
+
+imports:
+  - linkml:types
+
+default_prefix: mondo_src
 default_range: string
 
+
 classes:
+
   OntologyDocument:
     tree_root: true
     class_uri: owl:Ontology
-    attributes:
-      title: {required: true}
-      version: {}
-      terms:
-        multivalued: true
-        range: OntologyTerm
-        inlined_as_list: true
+    slots:
+      - title
+      - version
+      - terms
 
   OntologyTerm:
     class_uri: owl:Class
-    attributes:
-      id: {identifier: true, required: true}
-      label: {required: true, slot_uri: rdfs:label}
-      definition: {slot_uri: "obo:IAO_0000115"}
-      exact_synonyms:
-        multivalued: true
-        slot_uri: "oboInOwl:hasExactSynonym"
-      related_synonyms:
-        multivalued: true
-        slot_uri: "oboInOwl:hasRelatedSynonym"
-      narrow_synonyms:
-        multivalued: true
-        slot_uri: "oboInOwl:hasNarrowSynonym"
-      broad_synonyms:
-        multivalued: true
-        slot_uri: "oboInOwl:hasBroadSynonym"
-      parents:
-        multivalued: true
-        slot_uri: rdfs:subClassOf
-      is_root:
-        range: boolean
+    slots:
+      - id
+      - label
+      - definition
+      - exact_synonyms
+      - related_synonyms
+      - narrow_synonyms
+      - broad_synonyms
+      - parents
+      - is_root
+      - deprecated
+
+
+slots:
+
+  title:
+    slot_uri: rdfs:label
+    required: true
+
+  version:
+    slot_uri: owl:versionInfo
+    required: true
+
+  terms:
+    range: OntologyTerm
+    multivalued: true
+    inlined_as_list: true
+    required: true
+
+  id:
+    identifier: true
+    slot_uri: dcterms:identifier
+    range: uriorcurie        # must be uriorcurie — plain string breaks linkml-owl IRI resolution
+    required: true
+
+  label:
+    slot_uri: rdfs:label
+    required: true
+    annotations:
+      owl: AnnotationAssertion
+
+  definition:
+    slot_uri: obo:IAO_0000115
+    annotations:
+      owl: AnnotationAssertion
+
+  exact_synonyms:
+    slot_uri: oboInOwl:hasExactSynonym
+    multivalued: true
+    annotations:
+      owl: AnnotationAssertion
+
+  related_synonyms:
+    slot_uri: oboInOwl:hasRelatedSynonym
+    multivalued: true
+    annotations:
+      owl: AnnotationAssertion
+
+  narrow_synonyms:
+    slot_uri: oboInOwl:hasNarrowSynonym
+    multivalued: true
+    annotations:
+      owl: AnnotationAssertion
+
+  broad_synonyms:
+    slot_uri: oboInOwl:hasBroadSynonym
+    multivalued: true
+    annotations:
+      owl: AnnotationAssertion
+
+  parents:
+    slot_uri: rdfs:subClassOf
+    range: OntologyTerm
+    multivalued: true
+    annotations:
+      owl: SubClassOf          # SubClassOf, not AnnotationAssertion
+
+  is_root:
+    range: boolean
+    ifabsent: "false"
+
+  deprecated:
+    slot_uri: owl:deprecated
+    range: boolean
+    ifabsent: "false"
+    annotations:
+      owl: AnnotationAssertion
 ```
+
+**Critical `linkml-owl` rules — violations produce a silent empty OWL file (no error):**
+1. **Use top-level `slots:`, not inline `attributes:`** — `linkml-owl` only emits axioms for slots declared at the top level with `annotations: owl:`.
+2. **Every annotation property slot must have `annotations: owl: AnnotationAssertion`** — without it, `linkml-owl` silently omits that slot from the derived OWL.
+3. **`parents` must use `annotations: owl: SubClassOf`** — not `AnnotationAssertion`.
+4. **`id` must have `range: uriorcurie`** — plain `string` prevents `linkml-owl` from resolving CURIEs to IRIs. All class declarations will be missing.
+5. **The source IRI namespace must be declared in `prefixes:`** — if `ICD10WHO:A00.0` is an `id` value but `ICD10WHO:` is not in the prefix map, `linkml-owl` cannot expand it and silently skips the class.
+6. **When adding source-specific extra slots**, always include `annotations: owl: AnnotationAssertion` on them too. The pattern is invariant across sources.
+
+**Diagnosing a silent failure:** if `linkml-owl` produces a file under ~1 KB containing only the ontology header and zero `AnnotationAssertion` lines, one of the above rules has been violated. Check them in order.
 
 Then generate the Pydantic datamodel:
 ```bash
@@ -236,7 +359,15 @@ For OWL sources, look for `rdfs:label`. For JSON, identify the name field.
 >
 > These can be included in the YAML output or published separately as an SSSOM file. OncoTree `externalReferences` maps to `skos:exactMatch` in the output OWL.
 
-**4.7 — OWL structural issues (OWL sources only):**
+**4.7 — IRI namespace and CURIE scheme:**
+> What IRI namespace does the source use for its class identifiers?
+>
+> - OBO sources use `http://purl.obolibrary.org/obo/<PREFIX>_<code>` — these resolve cleanly to standard CURIEs.
+> - Some sources use their own namespaces (e.g. ICD10WHO uses `https://icd.who.int/browse10/2019/en#/`).
+>
+> If the source IRI namespace is not an OBO PURL, declare a custom prefix in the schema's `prefixes:` block and document the CURIE scheme in `docs/plan.md`. The prefix must be declared in the schema for `linkml-owl` to resolve it — an undeclared prefix causes `linkml-owl` to silently skip all class declarations.
+
+**4.8 — OWL structural issues (OWL sources only):**
 
 Run a SPARQL probe. Report any of these patterns and ask for confirmation before adding a ROBOT preprocessing step:
 
@@ -247,6 +378,10 @@ Run a SPARQL probe. Report any of these patterns and ask for confirmation before
 | nested annotation reification | ORDO | SPARQL fix before extraction |
 
 For non-OWL sources, skip this step entirely.
+
+**4.9 — Term count cross-check:**
+
+If a prior version of this source exists anywhere (committed file, BioPortal, another repo), compare term counts before treating a discrepancy as an error. Document the difference and its cause in `docs/report.md`. Known cause: the old `monarch-initiative/icd10who` TTL had 4,894 terms due to a Python recursion limit truncating the traversal — the correct full count is 12,597.
 
 ---
 
