@@ -501,6 +501,8 @@ Tell the user: the derived OWL is for OWL-native consumers only. `source.linkml.
 
 Generate the two workflow files below. For OWL sources, all steps run inside `obolibrary/odkfull:v1.6` Docker so that ROBOT and the ODK normalize plugin are available without any separate install step. For non-OWL sources (JSON, TSV), the Docker step can be replaced with a plain `uv sync && uv run python ...` step on `ubuntu-latest`.
 
+**Release schedule — ask the user first:** Do not assume the template’s `schedule` / `cron` block. Ask whether they want **automatic releases on an interval** (and what cadence — e.g. weekly, monthly, or none), versus **`workflow_dispatch` only** (manual), versus **push-to-main** triggers alone. Long API traversals, rate limits, or infrequent upstream changes often mean omitting `schedule` or using a looser interval; document the choice in `docs/plan.md`. The example `release.yml` below includes a **default** weekly cron — replace, remove, or keep it according to their answer.
+
 **`.github/workflows/release.yml`**
 
 ```yaml
