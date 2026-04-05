@@ -56,6 +56,7 @@ Create the repo structure. Confirm the directory name with the user first.
 │   ├── acquire.py              # fetch/download source (all source types)
 │   ├── transform.py            # OWL sources: ROBOT-output OWL → YAML
 │   ├── extract.py              # non-OWL sources: raw JSON/TSV/API → YAML
+│   ├── verify.py               # structural checks on the produced YAML
 │   └── resolve_version.py      # optional: versioned sources only
 ├── sparql/                     # OWL sources only
 │   └── *.ru                    # SPARQL update queries applied via ROBOT
@@ -608,14 +609,35 @@ jobs:
 
 ## Phase 9: Verify
 
-Walk the user through this checklist before the first release. Record results in `docs/release_notes.md`.
+Scaffold `scripts/verify.py` and run it before the first release. Record results in `docs/release_notes.md`.
 
-**All sources:**
-- [ ] Term count in YAML matches expected source count
-- [ ] `label` is non-null for all terms
-- [ ] All `parents` references resolve to known term IDs
-- [ ] `linkml-validate` exits 0
-- [ ] `version` in YAML matches the official upstream release identifier
+**`scripts/verify.py`** automates the structural checks. It must:
+- Accept `--yaml <path>` (the produced YAML) and `--expected-version <str>` (optional)
+- Check `title` and `version` are present and non-empty
+- Check for duplicate term IDs
+- Check every term has a non-empty `label`
+- Check every `parents` entry resolves to a known term ID in the same file (broken refs = hierarchy error)
+- Print a summary (term count, unique IDs, broken parent refs) and exit 0 on PASS, exit 1 on FAIL
+
+Run it:
+```bash
+uv run python scripts/verify.py --yaml <source>.linkml.yaml --expected-version <version>
+```
+
+Add this as a `just verify` / `make verify` target so it can be re-run for every release.
+
+**Full checklist (some checks automated by `verify.py`, some manual):**
+
+| Check | How |
+|---|---|
+| Title and version present | `verify.py` |
+| No duplicate term IDs | `verify.py` |
+| `label` non-null for all terms | `verify.py` |
+| All `parents` refs resolve | `verify.py` |
+| `version` matches upstream release identifier | `verify.py --expected-version` |
+| `linkml-validate` exits 0 | `uv run python -m linkml.validator.cli ...` |
+| OWL artefact loads in ROBOT / Protégé | manual spot-check |
+| `robot diff` vs mondo-ingest reference (if migrating) | manual |
 
 **OWL sources additionally:**
 - [ ] `source.owl` (ROBOT output) can be loaded by ROBOT or opened in Protégé
