@@ -52,14 +52,14 @@ Create the repo structure. Confirm the directory name with the user first.
 │   └── .env                    # gitignored
 ├── linkml/
 │   └── mondo_source_schema.yaml
-├── reports/                    # OWL sources only — output of `make reports` (committed)
+├── reports/                    # ROBOT QC output (see “`reports/` folder” below); committed
 ├── scripts/
 │   ├── acquire.py              # fetch/download source (all source types)
 │   ├── transform.py            # OWL sources: ROBOT-output OWL → YAML
 │   ├── extract.py              # non-OWL sources: raw JSON/TSV/API → YAML
 │   ├── verify.py               # structural checks on the produced YAML
 │   └── resolve_version.py      # optional: versioned sources only
-├── sparql/                     # OWL sources only
+├── sparql/                     # OWL: `*.ru` (ROBOT updates). Optional `*.sparql` SELECT for `robot query` / `reports/`
 │   └── *.ru                    # SPARQL update queries applied via ROBOT
 ├── src/<source_name>/
 │   └── datamodel.py            # generated from schema
@@ -72,6 +72,14 @@ Create the repo structure. Confirm the directory name with the user first.
 ├── README.md
 └── uv.lock
 ```
+
+**`reports/` folder (ROBOT QC):**
+
+- **Purpose:** Committed **QC metrics** from ROBOT on whatever release OWL you ship (extended `robot measure` JSON, optional `robot query` TSVs such as `top-level-counts.tsv` from `sparql/count_classes_by_top_level.sparql`).
+- **OWL-first sources (`Makefile`):** `make reports` runs `robot measure` + SPARQL counts against **mirror**, **transformed**, and **final** OWL (three top-level TSVs + `metrics.json` — see `make reports` below).
+- **Non-OWL sources (`justfile`) that run `linkml-owl`:** You still **publish** `<source>.linkml.owl`. Add a **`just reports`** (or equivalent) that runs the **same** ROBOT commands against **that single OWL** (typically one `metrics.json` and one `top-level-counts.tsv`). **Do not** treat “non-OWL” as “no `reports/`” — the label means the *source* is not OWL; the **derived OWL** is still amenable to ROBOT QC.
+- **YAML-only:** If a repo intentionally releases **no** OWL at all, omit `reports/` (nothing for ROBOT to measure).
+- **Phase 4.8:** “Skip for non-OWL” applies only to the **pre-extraction OWL probe** (SPARQL *update* chain on raw upstream OWL). It does **not** exempt you from **post‑`data2owl`** reports when you emit a OWL file.
 
 Note: exact script filenames (`transform.py` vs `extract.py`) are confirmed during Phase 4 once the source format and processing steps are known.
 
@@ -151,6 +159,8 @@ Usage: `./odk.sh make all` or `./odk.sh make MIR=false build`.
 - `just validate` — `python -m linkml.validator.cli -s linkml/mondo_source_schema.yaml -C OntologyDocument source.linkml.yaml`
 - `just build` — full pipeline end-to-end
 - `just iterate` — extract → validate loop only (tight feedback, skips acquire)
+- `just data2owl` — YAML → `<source>.linkml.owl` (if not folded into `build`)
+- `just reports` — **recommended** when `build` emits OWL: `robot measure` + optional SPARQL counts → `reports/` (see **`reports/` folder** above)
 - `just release` — tag and upload
 
 If auth is needed, scaffold `env/.env.example` and load credentials from `.env` in `acquire.py`. Load with `load_dotenv()` first, then `os.getenv()` — this means CI can pass credentials as environment variables without needing the `.env` file present.
@@ -206,7 +216,7 @@ just build
 |---|---|
 | `<source>.yaml` | Primary artefact for Mondo ingest |
 | `<source>.owl` | Final OWL (LinkML-derived; OWL sources also have `tmp/transformed-<source>.owl` as ROBOT intermediate) |
-| `reports/` | QC metrics and class counts (OWL sources only) |
+| `reports/` | ROBOT QC (`robot measure` + optional SPARQL); **OWL-first** (three OWL inputs) **or** **non–OWL + `linkml-owl`** (single derived OWL) — see **`reports/` folder** above |
 
 ## Docs
 
@@ -558,7 +568,7 @@ WHERE {
 
 Also strip non-breaking spaces (`U+00A0`) from xref values if the source is known to emit them. Apply this update in the `project.Makefile` ROBOT chain before the property filter step.
 
-**`sparql/count_classes_by_top_level.sparql` — scaffold for every OWL source.** The `make reports` target runs this query against the mirror, transformed, and final OWL to count descendant classes under the source's top-level grouping terms. Template:
+**`sparql/count_classes_by_top_level.sparql` — scaffold for every OWL source.** The `make reports` target runs this query against the mirror, transformed, and final OWL to count descendant classes under the source's top-level grouping terms. For **non-OWL** sources, reuse the same query file against the **single** `linkml-owl` output in `just reports` (one TSV). Template:
 
 ```sparql
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -580,7 +590,7 @@ GROUP BY ?topLevel
 
 Ask the user for the top-level grouping IRIs and fill them in during Phase 4.
 
-For non-OWL sources, skip this step entirely.
+For non-OWL sources, **skip this Phase 4.8 probe** (there is no raw upstream OWL to preprocess). **Still** add `sparql/count_classes_by_top_level.sparql` (filled with IRIs from the **derived** ontology) and **run it in `just reports`** after `data2owl` — see **`reports/` folder** in Phase 2.
 
 **4.9 — Term count cross-check:**
 
@@ -735,6 +745,8 @@ just data2owl
 
 Tell the user: the derived OWL is for OWL-native consumers only. `<source>.linkml.yaml` is the primary contract. Known limitation: `linkml-owl` emits OWL Functional format; ROBOT may not load it cleanly in all cases. If it fails on large datasets (rdflib N3 parser error), document this in `docs/pipeline_incidents.md` and release `<source>.linkml.yaml` only.
 
+**After `data2owl` succeeds:** run **`just reports`** (or equivalent) so **`reports/`** is populated from the derived OWL (`robot measure` + optional SPARQL). Wire it into CI/release alongside `verify`. If you skip OWL entirely (YAML-only release), skip `reports/` too — see **`reports/` folder** in Phase 2.
+
 ---
 
 ## Phase 8: Wire CI and release
@@ -887,6 +899,7 @@ Add this as a `just verify` / `make verify` target so it can be re-run for every
 | `linkml-validate` exits 0 | `uv run python -m linkml.validator.cli ...` |
 | OWL artefact loads in ROBOT / Protégé | manual spot-check |
 | `robot diff` vs mondo-ingest reference (if migrating) | manual |
+| `reports/` (when OWL is released) | `make reports` or `just reports` — `metrics.json` + optional SPARQL TSVs |
 
 **OWL sources additionally:**
 - [ ] `<source>.owl` (final LinkML-derived OWL, top-level) can be loaded by ROBOT or opened in Protégé
@@ -895,6 +908,7 @@ Add this as a `just verify` / `make verify` target so it can be re-run for every
 
 **Non-OWL sources additionally:**
 - [ ] `source.linkml.owl` (linkml-owl output) can be loaded by ROBOT or opened in Protégé
+- [ ] If you ship OWL: `reports/` is generated from that OWL (not “non-OWL ⇒ no reports”)
 
 ---
 
@@ -903,7 +917,7 @@ Add this as a `just verify` / `make verify` target so it can be re-run for every
 - Never propose field mappings without first showing the user a data sample
 - Never write the extractor without showing a sketch and getting confirmation
 - Never proceed past validation until it passes
-- Do not add SPARQL preprocessing steps for non-OWL sources
+- Do not add SPARQL **update** (`*.ru`) preprocessing on **raw upstream OWL** for non-OWL sources (Phase 4.8). **Post-`data2owl`** `robot measure` / `robot query` for **`reports/`** on the **derived** OWL is separate and recommended when OWL is published
 - Do not invent synonym behaviour — ask the user if the source has synonyms or if they should be generated from labels
 - Never silently remove or simplify a pipeline step because a tool or plugin appears to be missing. Search the full filesystem, then ask the user where it is before removing anything.
 - Generate `docs/plan.md` capturing the pipeline logic that governs this repo: upstream source, field-to-slot mappings, ID scheme, versioning strategy, and key design decisions. This is the canonical reference for anyone maintaining the pipeline.
