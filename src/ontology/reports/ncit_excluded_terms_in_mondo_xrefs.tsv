@@ -92,7 +92,7 @@ NCIT:C6857	Vulvar Fibroepithelial Stromal Polyp	True	False	True	True
 NCIT:C34565	Vulvar Dystrophy	True	False	True	True
 NCIT:C8596	Vulvar Angiokeratoma	True	False	True	True
 NCIT:C94360	Voyeurism	True	False	True	True
-NCIT:C3105	Von Hippel Lindau Syndrome	True	False	True	True
+NCIT:C3105	Von Hippel-Lindau Syndrome	True	False	True	True
 NCIT:C35130	Volkmann's Ischemic Contracture	True	False	True	True
 NCIT:C3441	Voice Disorder	True	False	True	True
 NCIT:C3440	Vocal Cord Polyp	True	False	True	True
@@ -860,7 +860,6 @@ NCIT:C26925	Polymyositis	True	False	True	True
 NCIT:C85018	Polymyalgia Rheumatica	True	False	True	True
 NCIT:C111648	Polymorphic Ventricular Tachycardia	True	False	True	True
 NCIT:C116936	Polymicrogyria	True	False	True	True
-NCIT:C162484	Polymerase Proofreading Associated Polyposis	True	False	True	True
 NCIT:C87110	Polydactyly	True	False	True	True
 NCIT:C27312	Polycythemia due to Hypoxia	True	False	True	True
 NCIT:C27069	Polycythemia Neonatorum	True	False	True	True
@@ -1103,7 +1102,6 @@ NCIT:C75481	Orofaciodigital Syndrome Type 1	True	False	True	True
 NCIT:C124838	Orofacial Cleft 1	True	False	True	True
 NCIT:C34873	Ornithosis	True	False	True	True
 NCIT:C84957	Ornithine Carbamoyltransferase Deficiency Disease	True	False	True	True
-NCIT:C4678	Organoid Nevus	True	False	True	True
 NCIT:C101334	Organic Acid Metabolism Disorder	True	False	True	True
 NCIT:C97145	Orchitis	True	False	True	True
 NCIT:C117296	Orbital Myositis	True	False	True	True
@@ -1448,11 +1446,6 @@ NCIT:C26830	Mesenteric Lymphadenitis	True	False	True	True
 NCIT:C40427	Mesenchymal Hamartoma	True	False	True	True
 NCIT:C35445	Mesangial Proliferative Glomerulonephritis	True	False	True	True
 NCIT:C118783	Merosin-Deficient Congenital Muscular Dystrophy Type 1A	True	False	True	True
-NCIT:C129931	Mental Retardation, X-linked 102	True	False	True	True
-NCIT:C133729	Mental Retardation, X-linked 1	True	False	True	True
-NCIT:C153179	Mental Retardation, Autosomal Recessive 34	True	False	True	True
-NCIT:C133742	Mental Retardation, Autosomal Dominant 9	True	False	True	True
-NCIT:C141424	Mental Retardation, Autosomal Dominant 1	True	False	True	True
 NCIT:C75486	Menkes Disease	True	False	True	True
 NCIT:C34813	Meningoencephalitis	True	False	True	True
 NCIT:C105595	Meningocele	True	False	True	True
@@ -1536,6 +1529,7 @@ NCIT:C98982	MMIH Syndrome	True	False	True	True
 NCIT:C147530	MIRAGE Syndrome	True	False	True	True
 NCIT:C176823	MHC Class II Deficiency	True	False	True	True
 NCIT:C84885	MELAS Syndrome	True	False	True	True
+NCIT:C177779	MCAP Syndrome	True	False	True	True
 NCIT:C129930	MASA Syndrome	True	False	True	True
 NCIT:C60672	MALT1 wt Allele	True	False	True	True
 NCIT:C61250	Lysosomal Storage Disease	True	False	True	True
@@ -1563,7 +1557,7 @@ NCIT:C27153	Lupus Erythematosus	True	False	True	True
 NCIT:C99090	Lung Abscess	True	False	True	True
 NCIT:C177445	Lumbar Spinal Stenosis	True	False	True	True
 NCIT:C27154	Lumbar Disc Degenerative Disorder	True	False	True	True
-NCIT:C126747	Lubs X-Linked Mental Retardation Syndrome	True	False	True	True
+NCIT:C126747	Lubs X-Linked Intellectual Disability Syndrome	True	False	True	True
 NCIT:C98975	Low Anorectal Malformation	True	False	True	True
 NCIT:C128426	Louse-Borne Relapsing Fever	True	False	True	True
 NCIT:C84537	Long-Chain Acyl-CoA Dehydrogenase Deficiency	True	False	True	True
@@ -1593,6 +1587,7 @@ NCIT:C34537	Lipoatrophic Diabetes Mellitus	True	False	True	True
 NCIT:C97092	Lipid Metabolism Disorder	True	False	True	True
 NCIT:C3190	Linitis Plastica	True	False	True	True
 NCIT:C116780	Linear Scleroderma	True	False	True	True
+NCIT:C4678	Linear Nevus Sebaceous	True	False	True	True
 NCIT:C4350	Limbic Encephalitis	True	False	True	True
 NCIT:C142082	Limb-Girdle Muscular Dystrophy Type 2Z	True	False	True	True
 NCIT:C142081	Limb-Girdle Muscular Dystrophy Type 2D	True	False	True	True
@@ -1764,6 +1759,11 @@ NCIT:C35319	Internal Hemorrhoid	True	False	True	True
 NCIT:C94332	Intermittent Explosive Disorder	True	False	True	True
 NCIT:C35110	Intermediate Uveitis	True	False	True	True
 NCIT:C97250	Intellectual Disability	True	False	True	True
+NCIT:C129931	Intellectual Developmental Disorder, X-linked 102	True	False	True	True
+NCIT:C133729	Intellectual Developmental Disorder, X-linked 1	True	False	True	True
+NCIT:C153179	Intellectual Developmental Disorder, Autosomal Recessive 34	True	False	True	True
+NCIT:C133742	Intellectual Developmental Disorder, Autosomal Dominant 9	True	False	True	True
+NCIT:C141424	Intellectual Developmental Disorder, Autosomal Dominant 1	True	False	True	True
 NCIT:C131836	Insulin Resistant Diabetes Mellitus with Acanthosis Nigricans and Hyperandrogenism	True	False	True	True
 NCIT:C113169	Insulin Resistance Syndrome	True	False	True	True
 NCIT:C28286	Insomnia	True	False	True	True
@@ -1855,7 +1855,7 @@ NCIT:C62591	Hypopituitarism	True	False	True	True
 NCIT:C131449	Hypophosphatemic Rickets	True	False	True	True
 NCIT:C37977	Hypophosphatemia	True	False	True	True
 NCIT:C26798	Hypophosphatasia	True	False	True	True
-NCIT:C133727	Hypoparathyroidism-Retardation-Dysmorphism Syndrome	True	False	True	True
+NCIT:C133727	Hypoparathyroidism-Intellectual Developmental Disorder-Dysmorphism Syndrome	True	False	True	True
 NCIT:C78350	Hypoparathyroidism	True	False	True	True
 NCIT:C126810	Hyponatremic Mineralocorticoid Resistance due to Mineralocorticoid Receptor Defect	True	False	True	True
 NCIT:C84775	Hypokalemic Periodic Paralysis	True	False	True	True
@@ -1989,7 +1989,6 @@ NCIT:C84759	Hereditary Coproporphyria	True	False	True	True
 NCIT:C97075	Hereditary Connective Tissue Disorder	True	False	True	True
 NCIT:C120084	Hereditary Colorectal Cancer Type X	True	False	True	True
 NCIT:C140268	Hereditary Cerebellar Ataxia	True	False	True	True
-NCIT:C27264	Hereditary Atypical Mole Melanoma Syndrome	True	False	True	True
 NCIT:C84758	Hereditary Angioedema	True	False	True	True
 NCIT:C113400	Hepatorenal Syndrome	True	False	True	True
 NCIT:C84756	Hepatolenticular Degeneration	True	False	True	True
@@ -2024,7 +2023,6 @@ NCIT:C35344	Hemoglobin D Disease	True	False	True	True
 NCIT:C34675	Hemoglobin C Disease	True	False	True	True
 NCIT:C82892	Hemochromatosis	True	False	True	True
 NCIT:C34674	Hemimelia	True	False	True	True
-NCIT:C177779	Hemimegalencephaly	True	False	True	True
 NCIT:C84751	Helminthiasis	True	False	True	True
 NCIT:C34671	Heberden's Node	True	False	True	True
 NCIT:C50577	Heart Failure	True	False	True	True
@@ -2309,7 +2307,7 @@ NCIT:C3932	Ethmoid Sinus Polyp	True	False	True	True
 NCIT:C9224	Esophagitis	True	False	True	True
 NCIT:C53506	Esophageal Varices	True	False	True	True
 NCIT:C26950	Esophageal Ulcer	True	False	True	True
-NCIT:C3953	Esophageal Leukoplakia	True	False	True	True
+NCIT:C3953	Esophageal Epidermoid Metaplasia	True	False	True	True
 NCIT:C87072	Esophageal Atresia	True	False	True	True
 NCIT:C101039	Escobar Syndrome	True	False	True	True
 NCIT:C34594	Escherichia coli Infection	True	False	True	True
@@ -2583,7 +2581,7 @@ NCIT:C34521	Dacryocystitis	True	False	True	True
 NCIT:C26971	Dacryoadenitis	True	False	True	True
 NCIT:C126343	DOCK8 Deficiency	True	False	True	True
 NCIT:C7757	DNA Repair Disorder	True	False	True	True
-NCIT:C123317	DICER1 Syndrome	True	False	True	True
+NCIT:C123317	DICER1-Related Tumor Predisposition Syndrome	True	False	True	True
 NCIT:C128804	D-Glyceric Aciduria	True	False	True	True
 NCIT:C119676	D-Bifunctional Protein Deficiency	True	False	True	True
 NCIT:C35360	Cytomegalovirus Pneumonia	True	False	True	True
@@ -2689,13 +2687,12 @@ NCIT:C123308	Congenital Myotonic Dystrophy	True	False	True	True
 NCIT:C129304	Congenital Myasthenic Syndrome 5	True	False	True	True
 NCIT:C168997	Congenital Myasthenic Syndrome 12	True	False	True	True
 NCIT:C84647	Congenital Myasthenic Syndrome	True	False	True	True
-NCIT:C126690	Congenital Muscular Dystrophy-Dystroglycanopathy with Mental Retardation Type B2	True	False	True	True
+NCIT:C126690	Congenital Muscular Dystrophy-Dystroglycanopathy with Intellectual Developmental Disorder Type B2	True	False	True	True
 NCIT:C197881	Congenital Mitral Insufficiency	True	False	True	True
 NCIT:C98898	Congenital Methemoglobinemia	True	False	True	True
 NCIT:C34816	Congenital Metabolic Disorder	True	False	True	True
 NCIT:C99267	Congenital Malformation Syndrome	True	False	True	True
 NCIT:C98895	Congenital Lobar Emphysema	True	False	True	True
-NCIT:C177122	Congenital Lipomatous Overgrowth, Vascular Malformations, Epidermal Nevi, and Skeletal/Spinal Abnormalities Syndrome	True	False	True	True
 NCIT:C34961	Congenital Infundibular Stenosis	True	False	True	True
 NCIT:C26734	Congenital Hypothyroidism	True	False	True	True
 NCIT:C120162	Congenital Hypogonadotropic Hypogonadism	True	False	True	True
@@ -2991,6 +2988,7 @@ NCIT:C3672	Calcification	True	False	True	True
 NCIT:C205541	CYLD Cutaneous Syndrome	True	False	True	True
 NCIT:C126341	CTLA4 Deficiency	True	False	True	True
 NCIT:C70646	CREST Syndrome	True	False	True	True
+NCIT:C177122	CLOVES Syndrome	True	False	True	True
 NCIT:C75100	CHARGE Syndrome	True	False	True	True
 NCIT:C61244	CD40 Ligand Deficiency	True	False	True	True
 NCIT:C84606	CADASIL Syndrome	True	False	True	True
@@ -3127,8 +3125,8 @@ NCIT:C53656	Bacterial Conjunctivitis	True	False	True	True
 NCIT:C26699	Bacterial Arthritis	True	False	True	True
 NCIT:C3477	Bacillary Angiomatosis	True	False	True	True
 NCIT:C84581	Babesiosis	True	False	True	True
-NCIT:C8493	BRCA1/2-Associated Hereditary Breast and Ovarian Cancer Syndrome	True	False	True	True
-NCIT:C172639	BAP1 Tumor Predisposition Syndrome	True	False	True	True
+NCIT:C8493	BRCA-Related Cancer Predisposition Syndrome	True	False	True	True
+NCIT:C172639	BAP1-Related Tumor Predisposition Syndrome	True	False	True	True
 NCIT:C27301	Axonal Neuropathy	True	False	True	True
 NCIT:C27333	Axillary Lymphadenitis	True	False	True	True
 NCIT:C92636	Avoidant Personality Disorder	True	False	True	True
@@ -3190,7 +3188,6 @@ NCIT:C35771	Atherosclerotic Cardiovascular Disease	True	False	True	True
 NCIT:C35768	Atherosclerosis	True	False	True	True
 NCIT:C97168	Ataxic Cerebral Palsy	True	False	True	True
 NCIT:C132224	Ataxia-Telangiectasia-Like Disorder 1	True	False	True	True
-NCIT:C176909	Ataxia-Pancytopenia Syndrome	True	False	True	True
 NCIT:C2887	Ataxia Telangiectasia Syndrome	True	False	True	True
 NCIT:C27953	Asymmetric Motor Neuropathy	True	False	True	True
 NCIT:C28397	Asthma	True	False	True	True
@@ -3295,7 +3292,6 @@ NCIT:C34769	American Cutaneous Leishmaniasis	True	False	True	True
 NCIT:C61443	Amenorrhea	True	False	True	True
 NCIT:C34370	Amelia	True	False	True	True
 NCIT:C34558	Amebic Colitis	True	False	True	True
-NCIT:C84551	Amebiasis	True	False	True	True
 NCIT:C118764	Amblyopia	True	False	True	True
 NCIT:C84550	Amaurosis Fugax	True	False	True	True
 NCIT:C118459	Amastia	True	False	True	True
@@ -3309,7 +3305,7 @@ NCIT:C119677	Alpha-Methylacyl-CoA Racemase Deficiency	True	False	True	True
 NCIT:C98841	Alpha-Methylacetoacetic Aciduria	True	False	True	True
 NCIT:C84548	Alpha-Mannosidosis	True	False	True	True
 NCIT:C84397	Alpha-1 Antitrypsin Deficiency	True	False	True	True
-NCIT:C118631	Alpha Thalassemia X-Linked Mental Retardation Syndrome	True	False	True	True
+NCIT:C118631	Alpha Thalassemia X-Linked Intellectual Disability Syndrome	True	False	True	True
 NCIT:C34368	Alpha Thalassemia	True	False	True	True
 NCIT:C35257	Alper Syndrome	True	False	True	True
 NCIT:C82859	Alopecia Mucinosa	True	False	True	True

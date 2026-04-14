@@ -136,7 +136,6 @@ MONDO:0004573		skos:exactMatch	OMIM:615026	riboflavin deficiency	semapv:Unspecif
 MONDO:0004741		skos:exactMatch	OMIMPS:276700	Tyrosinemia	semapv:UnspecifiedMatching
 MONDO:0004743		skos:exactMatch	OMIM:603174	hyperhomocysteinemia	semapv:UnspecifiedMatching
 MONDO:0004822		skos:exactMatch	OMIMPS:211400	Bronchiectasis	semapv:UnspecifiedMatching
-MONDO:0004914		skos:exactMatch	OMIM:116870	celiac artery stenosis from compression by median arcuate ligament of diaphragm	semapv:UnspecifiedMatching
 MONDO:0004933		skos:exactMatch	OMIMPS:241550	Hypoplastic left heart syndrome	semapv:UnspecifiedMatching
 MONDO:0004948		skos:exactMatch	OMIM:151400	leukemia, chronic lymphocytic	semapv:UnspecifiedMatching
 MONDO:0004951		skos:exactMatch	OMIM:609423	human immunodeficiency virus type 1, susceptibility to	semapv:UnspecifiedMatching
@@ -569,7 +568,7 @@ MONDO:0007432		skos:exactMatch	OMIMPS:125310	Cerebral arteriopathy with subcorti
 MONDO:0007433		skos:exactMatch	OMIM:125320	dementia/parkinsonism with non-alzheimer amyloid plaques	semapv:UnspecifiedMatching
 MONDO:0007434		skos:exactMatch	OMIM:125350	failure of tooth eruption, primary	semapv:UnspecifiedMatching
 MONDO:0007435		skos:exactMatch	OMIM:125370	dentatorubral-pallidoluysian atrophy	semapv:UnspecifiedMatching
-MONDO:0007436		skos:exactMatch	OMIMPS:125400	Dentin dysplasia, type I	semapv:UnspecifiedMatching
+MONDO:0007436		skos:exactMatch	OMIMPS:125400	Dentin dysplasia	semapv:UnspecifiedMatching
 MONDO:0007437		skos:exactMatch	OMIM:125420	dentin dysplasia, type 2	semapv:UnspecifiedMatching
 MONDO:0007438		skos:exactMatch	OMIM:125440	dentin dysplasia with sclerotic bones	semapv:UnspecifiedMatching
 MONDO:0007439		skos:exactMatch	OMIM:125460	deoxyribose-5-phosphate aldolase deficiency	semapv:UnspecifiedMatching
@@ -1011,6 +1010,7 @@ MONDO:0007912		skos:exactMatch	OMIM:152420	lithium transport	semapv:UnspecifiedM
 MONDO:0007913		skos:exactMatch	OMIM:152450	low density lipoprotein, variation 1n molecular weight of	semapv:UnspecifiedMatching
 MONDO:0007914		skos:exactMatch	OMIM:152550	lumbar stenosis, familial	semapv:UnspecifiedMatching
 MONDO:0007915		skos:exactMatch	OMIM:152700	systemic lupus erythematosus	semapv:UnspecifiedMatching
+MONDO:0007915		skos:exactMatch	OMIMPS:601744	Systemic lupus erythematosus	semapv:UnspecifiedMatching
 MONDO:0007916		skos:exactMatch	OMIM:152800	lymphangiectasia, intestinal	semapv:UnspecifiedMatching
 MONDO:0007917		skos:exactMatch	OMIM:152900	lymphedema and cerebral arteriovenous anomaly	semapv:UnspecifiedMatching
 MONDO:0007918		skos:exactMatch	OMIM:152950	microcephaly with or without chorioretinopathy, lymphedema, or impaired intellectual development	semapv:UnspecifiedMatching
@@ -1403,7 +1403,6 @@ MONDO:0008336		skos:exactMatch	OMIM:177990	pterygium colli, isolated	semapv:Unsp
 MONDO:0008337		skos:exactMatch	OMIM:178000	pterygium of conjunctiva and cornea	semapv:UnspecifiedMatching
 MONDO:0008338		skos:exactMatch	OMIM:178110	contractures, pterygia, and spondylocarpotarsal fusion syndrome 1a	semapv:UnspecifiedMatching
 MONDO:0008339		skos:exactMatch	OMIM:178200	pterygium, antecubital	semapv:UnspecifiedMatching
-MONDO:0008340		skos:exactMatch	OMIM:178300	ptosis, hereditary congenital 1	semapv:UnspecifiedMatching
 MONDO:0008341		skos:exactMatch	OMIM:178330	ptosis, strabismus, and ectopic pupils	semapv:UnspecifiedMatching
 MONDO:0008342		skos:exactMatch	OMIM:178350	pubic bone dysplasia	semapv:UnspecifiedMatching
 MONDO:0008343		skos:exactMatch	OMIM:178370	pulmonary atresia with ventricular septal defect	semapv:UnspecifiedMatching
@@ -1579,7 +1578,7 @@ MONDO:0008526		skos:exactMatch	OMIM:186750	talonavicular coalition	semapv:Unspec
 MONDO:0008527		skos:exactMatch	OMIM:186850	tarsal coalition	semapv:UnspecifiedMatching
 MONDO:0008528		skos:exactMatch	OMIM:186890	tear protein, anodal	semapv:UnspecifiedMatching
 MONDO:0008529		skos:exactMatch	OMIM:186950	t-cell subgroups, non-hla-linked	semapv:UnspecifiedMatching
-MONDO:0008530		skos:exactMatch	OMIM:187000	teeth, odd shapes of	semapv:UnspecifiedMatching
+MONDO:0008530		skos:exactMatch	OMIM:187000	lobodontia	semapv:UnspecifiedMatching
 MONDO:0008531		skos:exactMatch	OMIM:187030	t-complex locus TCP10B	semapv:UnspecifiedMatching
 MONDO:0008532		skos:exactMatch	OMIM:187050	teeth present at birth	semapv:UnspecifiedMatching
 MONDO:0008533		skos:exactMatch	OMIM:187100	teeth, supernumerary	semapv:UnspecifiedMatching
@@ -2308,6 +2307,8 @@ MONDO:0009322		skos:exactMatch	OMIM:234300	halo nevi	semapv:UnspecifiedMatching
 MONDO:0009323		skos:exactMatch	OMIM:234350	halothane hepatitis	semapv:UnspecifiedMatching
 MONDO:0009324		skos:exactMatch	OMIM:234500	hartnup disorder	semapv:UnspecifiedMatching
 MONDO:0009326		skos:exactMatch	OMIM:234700	heart block, congenital	semapv:UnspecifiedMatching
+MONDO:0009327		skos:exactMatch	OMIM:140500		semapv:UnspecifiedMatching
+MONDO:0009327		skos:exactMatch	OMIM:234750		semapv:UnspecifiedMatching
 MONDO:0009328		skos:exactMatch	OMIM:234800	hemangiomatosis, cutaneous, with associated features	semapv:UnspecifiedMatching
 MONDO:0009329		skos:exactMatch	OMIM:234810	pulmonary venoocclusive disease 2, autosomal recessive	semapv:UnspecifiedMatching
 MONDO:0009330		skos:exactMatch	OMIM:234820	hemangiopericytoma, malignant	semapv:UnspecifiedMatching
@@ -7699,7 +7700,6 @@ MONDO:0014974		skos:exactMatch	OMIM:617223	sudden cardiac failure, alcohol-induc
 MONDO:0014975		skos:exactMatch	OMIM:617225	spastic paraplegia 78, autosomal recessive	semapv:UnspecifiedMatching
 MONDO:0014976		skos:exactMatch	OMIM:617228	combined oxidative phosphorylation deficiency 31	semapv:UnspecifiedMatching
 MONDO:0014977		skos:exactMatch	OMIM:617232	muscular dystrophy, limb-girdle, autosomal recessive 21	semapv:UnspecifiedMatching
-MONDO:0014978		skos:exactMatch	OMIM:617234	oocyte/zygote/embryo maturation arrest 16	semapv:UnspecifiedMatching
 MONDO:0014979		skos:exactMatch	OMIM:617235	myoclonus, intractable, neonatal	semapv:UnspecifiedMatching
 MONDO:0014980		skos:exactMatch	OMIMPS:617236	Cone-rod dystrophy and hearing loss	semapv:UnspecifiedMatching
 MONDO:0014981		skos:exactMatch	OMIM:617237	immunodeficiency 49, severe combined	semapv:UnspecifiedMatching
@@ -7871,6 +7871,7 @@ MONDO:0017338		skos:exactMatch	OMIMPS:605711	Multiple mitochondrial dysfunctions
 MONDO:0017359		skos:exactMatch	OMIMPS:250950	3-Methylglutaconic aciduria	semapv:UnspecifiedMatching
 MONDO:0017366		skos:exactMatch	OMIMPS:168000	Pheochromocytoma/paraganglioma syndrome	semapv:UnspecifiedMatching
 MONDO:0017380		skos:exactMatch	OMIM:174900	juvenile polyposis syndrome	semapv:UnspecifiedMatching
+MONDO:0017388		skos:exactMatch	OMIM:116870	celiac artery stenosis from compression by median arcuate ligament of diaphragm	semapv:UnspecifiedMatching
 MONDO:0017398		skos:exactMatch	OMIMPS:257920	3MC syndrome	semapv:UnspecifiedMatching
 MONDO:0017400		skos:exactMatch	OMIM:615710	mitchell-riley syndrome	semapv:UnspecifiedMatching
 MONDO:0017411		skos:exactMatch	OMIMPS:614328		semapv:UnspecifiedMatching
@@ -10578,6 +10579,7 @@ MONDO:0979883		skos:exactMatch	OMIM:621337	cranioectodermal dysplasia 6	semapv:U
 MONDO:0979897		skos:exactMatch	OMIM:621343	congenital myopathy 27	semapv:UnspecifiedMatching
 MONDO:0979898		skos:exactMatch	OMIM:621344	dursun-ozgul neurodevelopmental syndrome	semapv:UnspecifiedMatching
 MONDO:0979899		skos:exactMatch	OMIM:621345	spondyloepiphyseal dysplasia, holling type	semapv:UnspecifiedMatching
+MONDO:0979905		skos:exactMatch	OMIM:178300	ptosis, hereditary congenital 1	semapv:UnspecifiedMatching
 MONDO:0980699		skos:exactMatch	OMIM:621354	neurodevelopmental disorder with growth impairment, quadriparesis, and poor or absent speech	semapv:UnspecifiedMatching
 MONDO:0980700		skos:exactMatch	OMIM:621372	neurodevelopmental disorder with speech delay and behavioral abnormalities	semapv:UnspecifiedMatching
 MONDO:0980701		skos:exactMatch	OMIM:621373	molybdenum cofactor deficiency, type b2	semapv:UnspecifiedMatching
@@ -10638,11 +10640,22 @@ MONDO:0980971		skos:exactMatch	OMIM:621488	charcot-marie-tooth disease, axonal, 
 MONDO:0980972		skos:exactMatch	OMIM:621490	hypotrichosis 16	semapv:UnspecifiedMatching
 MONDO:0980973		skos:exactMatch	OMIM:621495	stad syndrome	semapv:UnspecifiedMatching
 MONDO:0980974		skos:exactMatch	OMIM:621499	craniosynostosis-scoliosis syndrome	semapv:UnspecifiedMatching
+MONDO:0980986		skos:exactMatch	OMIM:621428	scoliosis, isolated, susceptibility to, 6	semapv:UnspecifiedMatching
+MONDO:0980987		skos:exactMatch	OMIM:621435	xeroderma pigmentosum, complementation group j	semapv:UnspecifiedMatching
+MONDO:0980988		skos:exactMatch	OMIM:621500	epilepsy, idiopathic generalized 20	semapv:UnspecifiedMatching
+MONDO:0980989		skos:exactMatch	OMIM:621502	dystonia 38, susceptibility to	semapv:UnspecifiedMatching
+MONDO:0980990		skos:exactMatch	OMIM:621506	neurodevelopmental disorder with parkinsonism or other movement abnormalities	semapv:UnspecifiedMatching
+MONDO:0980991		skos:exactMatch	OMIM:621507	microcephaly 31, primary, autosomal recessive	semapv:UnspecifiedMatching
+MONDO:0980992		skos:exactMatch	OMIM:621512	meier-gorlin syndrome 9	semapv:UnspecifiedMatching
+MONDO:0981022		skos:exactMatch	OMIM:301163	cardiomyopathy, dilated, 3c	semapv:UnspecifiedMatching
+MONDO:0981023		skos:exactMatch	OMIM:621523	spondylocostal dysostosis 7, autosomal recessive	semapv:UnspecifiedMatching
+MONDO:0981024		skos:exactMatch	OMIM:621525	neurodegenerative disorder with cerebellar and caudate atrophy	semapv:UnspecifiedMatching
 MONDO:1010151		skos:exactMatch	OMIM:611465	gallbladder disease 4	semapv:UnspecifiedMatching
 MONDO:1010154		skos:exactMatch	OMIM:146300	hypophosphatasia, adult	semapv:UnspecifiedMatching
 MONDO:1010168		skos:exactMatch	OMIM:241510	hypophosphatasia, childhood	semapv:UnspecifiedMatching
 MONDO:1010169		skos:exactMatch	OMIM:241500	hypophosphatasia, infantile	semapv:UnspecifiedMatching
 MONDO:1010178		skos:exactMatch	OMIM:214800	charge syndrome	semapv:UnspecifiedMatching
+MONDO:1010200		skos:exactMatch	OMIM:617234	oocyte/zygote/embryo maturation arrest 16	semapv:UnspecifiedMatching
 MONDO:1030001		skos:exactMatch	OMIMPS:607631	Epilepsy, juvenile absence	semapv:UnspecifiedMatching
 MONDO:1040014		skos:exactMatch	OMIM:621122	paul-chao neurodevelopmental syndrome	semapv:UnspecifiedMatching
 MONDO:1060161		skos:exactMatch	OMIMPS:179800	Distal renal tubular acidosis	semapv:UnspecifiedMatching
@@ -13383,7 +13396,7 @@ OMIM:116860	cerebral cavernous malformations	skos:exactMatch	MONDO:0020724		sema
 OMIM:116860	cerebral cavernous malformations	skos:exactMatch	Orphanet:221061		semapv:UnspecifiedMatching
 OMIM:116860	cerebral cavernous malformations	skos:exactMatch	UMLS:C1366911		semapv:UnspecifiedMatching
 OMIM:116860	cerebral cavernous malformations	skos:exactMatch	UMLS:C2919945		semapv:UnspecifiedMatching
-OMIM:116870	celiac artery stenosis from compression by median arcuate ligament of diaphragm	skos:exactMatch	MONDO:0004914		semapv:UnspecifiedMatching
+OMIM:116870	celiac artery stenosis from compression by median arcuate ligament of diaphragm	skos:exactMatch	MONDO:0017388		semapv:UnspecifiedMatching
 OMIM:116870	celiac artery stenosis from compression by median arcuate ligament of diaphragm	skos:exactMatch	UMLS:C1861783		semapv:UnspecifiedMatching
 OMIM:116880	CTSL	skos:exactMatch	UMLS:C1332807		semapv:UnspecifiedMatching
 OMIM:116880	CTSL	skos:exactMatch	hgnc.symbol:2537		semapv:UnspecifiedMatching
@@ -17610,6 +17623,7 @@ OMIM:140400	progressive familial heart block, type 2	skos:exactMatch	UMLS:C18416
 OMIM:140450	heart-hand syndrome, spanish type	skos:exactMatch	MONDO:0007702		semapv:UnspecifiedMatching
 OMIM:140450	heart-hand syndrome, spanish type	skos:exactMatch	Orphanet:1342		semapv:UnspecifiedMatching
 OMIM:140450	heart-hand syndrome, spanish type	skos:exactMatch	UMLS:C1841657		semapv:UnspecifiedMatching
+OMIM:140500		skos:exactMatch	MONDO:0009327		semapv:UnspecifiedMatching
 OMIM:140550	HSPA1A	skos:exactMatch	UMLS:C1415755		semapv:UnspecifiedMatching
 OMIM:140550	HSPA1A	skos:exactMatch	hgnc.symbol:5232		semapv:UnspecifiedMatching
 OMIM:140550	HSPA1A	skos:exactMatch	hgnc.symbol:HSPA1A		semapv:UnspecifiedMatching
@@ -25002,7 +25016,7 @@ OMIM:178110	contractures, pterygia, and spondylocarpotarsal fusion syndrome 1a	s
 OMIM:178200	pterygium, antecubital	skos:exactMatch	MONDO:0008339		semapv:UnspecifiedMatching
 OMIM:178200	pterygium, antecubital	skos:exactMatch	Orphanet:2987		semapv:UnspecifiedMatching
 OMIM:178200	pterygium, antecubital	skos:exactMatch	UMLS:C1867439		semapv:UnspecifiedMatching
-OMIM:178300	ptosis, hereditary congenital 1	skos:exactMatch	MONDO:0008340		semapv:UnspecifiedMatching
+OMIM:178300	ptosis, hereditary congenital 1	skos:exactMatch	MONDO:0979905		semapv:UnspecifiedMatching
 OMIM:178300	ptosis, hereditary congenital 1	skos:exactMatch	Orphanet:91411		semapv:UnspecifiedMatching
 OMIM:178300	ptosis, hereditary congenital 1	skos:exactMatch	UMLS:C1867438		semapv:UnspecifiedMatching
 OMIM:178330	ptosis, strabismus, and ectopic pupils	skos:exactMatch	MONDO:0008341		semapv:UnspecifiedMatching
@@ -26866,8 +26880,8 @@ OMIM:186990	CD2	skos:exactMatch	UMLS:C1367475		semapv:UnspecifiedMatching
 OMIM:186990	CD2	skos:exactMatch	hgnc.symbol:1639		semapv:UnspecifiedMatching
 OMIM:186990	CD2	skos:exactMatch	hgnc.symbol:CD2		semapv:UnspecifiedMatching
 OMIM:186990	CD2	skos:exactMatch	ncbigene:914		semapv:UnspecifiedMatching
-OMIM:187000	teeth, odd shapes of	skos:exactMatch	MONDO:0008530		semapv:UnspecifiedMatching
-OMIM:187000	teeth, odd shapes of	skos:exactMatch	UMLS:C1861274		semapv:UnspecifiedMatching
+OMIM:187000	lobodontia	skos:exactMatch	MONDO:0008530		semapv:UnspecifiedMatching
+OMIM:187000	lobodontia	skos:exactMatch	UMLS:C1861274		semapv:UnspecifiedMatching
 OMIM:187011	CCL5	skos:exactMatch	UMLS:C1332691		semapv:UnspecifiedMatching
 OMIM:187011	CCL5	skos:exactMatch	UMLS:C4016386		semapv:UnspecifiedMatching
 OMIM:187011	CCL5	skos:exactMatch	UMLS:C4016387		semapv:UnspecifiedMatching
@@ -28841,6 +28855,8 @@ OMIM:204110	amaurosis congenita, cone-rod type, with congenital hypertrichosis	s
 OMIM:204110	amaurosis congenita, cone-rod type, with congenital hypertrichosis	skos:exactMatch	Orphanet:1021		semapv:UnspecifiedMatching
 OMIM:204110	amaurosis congenita, cone-rod type, with congenital hypertrichosis	skos:exactMatch	UMLS:C1857588		semapv:UnspecifiedMatching
 OMIM:204200	ceroid lipofuscinosis, neuronal, 3	skos:exactMatch	MONDO:0008767		semapv:UnspecifiedMatching
+OMIM:204200	ceroid lipofuscinosis, neuronal, 3	skos:exactMatch	Orphanet:699780		semapv:UnspecifiedMatching
+OMIM:204200	ceroid lipofuscinosis, neuronal, 3	skos:exactMatch	Orphanet:699796		semapv:UnspecifiedMatching
 OMIM:204200	ceroid lipofuscinosis, neuronal, 3	skos:exactMatch	UMLS:C0751383		semapv:UnspecifiedMatching
 OMIM:204300	ceroid lipofuscinosis, neuronal, 6b (kufs type)	skos:exactMatch	MONDO:0008768		semapv:UnspecifiedMatching
 OMIM:204300	ceroid lipofuscinosis, neuronal, 6b (kufs type)	skos:exactMatch	Orphanet:228363		semapv:UnspecifiedMatching
@@ -30609,6 +30625,7 @@ OMIM:234580	heimler syndrome 1	skos:exactMatch	UMLS:C4551980		semapv:Unspecified
 OMIM:234700	heart block, congenital	skos:exactMatch	MONDO:0009326		semapv:UnspecifiedMatching
 OMIM:234700	heart block, congenital	skos:exactMatch	Orphanet:60041		semapv:UnspecifiedMatching
 OMIM:234700	heart block, congenital	skos:exactMatch	UMLS:C0149530		semapv:UnspecifiedMatching
+OMIM:234750		skos:exactMatch	MONDO:0009327		semapv:UnspecifiedMatching
 OMIM:234800	hemangiomatosis, cutaneous, with associated features	skos:exactMatch	MONDO:0009328		semapv:UnspecifiedMatching
 OMIM:234800	hemangiomatosis, cutaneous, with associated features	skos:exactMatch	UMLS:C0220738		semapv:UnspecifiedMatching
 OMIM:234810	pulmonary venoocclusive disease 2, autosomal recessive	skos:exactMatch	MONDO:0009329		semapv:UnspecifiedMatching
@@ -32335,9 +32352,10 @@ OMIM:261590	phenformin 4-hydroxylation	skos:exactMatch	MONDO:0009860		semapv:Uns
 OMIM:261590	phenformin 4-hydroxylation	skos:exactMatch	UMLS:C1849927		semapv:UnspecifiedMatching
 OMIM:261600	phenylketonuria	skos:exactMatch	MONDO:0009861		semapv:UnspecifiedMatching
 OMIM:261600	phenylketonuria	skos:exactMatch	Orphanet:2209		semapv:UnspecifiedMatching
+OMIM:261600	phenylketonuria	skos:exactMatch	Orphanet:293284		semapv:UnspecifiedMatching
+OMIM:261600	phenylketonuria	skos:exactMatch	Orphanet:708881		semapv:UnspecifiedMatching
+OMIM:261600	phenylketonuria	skos:exactMatch	Orphanet:708895		semapv:UnspecifiedMatching
 OMIM:261600	phenylketonuria	skos:exactMatch	Orphanet:716		semapv:UnspecifiedMatching
-OMIM:261600	phenylketonuria	skos:exactMatch	Orphanet:79253		semapv:UnspecifiedMatching
-OMIM:261600	phenylketonuria	skos:exactMatch	Orphanet:79254		semapv:UnspecifiedMatching
 OMIM:261600	phenylketonuria	skos:exactMatch	Orphanet:79651		semapv:UnspecifiedMatching
 OMIM:261600	phenylketonuria	skos:exactMatch	UMLS:C0751434		semapv:UnspecifiedMatching
 OMIM:261630	hyperphenylalaninemia, bh4-deficient, c	skos:exactMatch	MONDO:0009862		semapv:UnspecifiedMatching
@@ -37755,6 +37773,10 @@ OMIM:301161	SYAP1	skos:exactMatch	ncbigene:94056		semapv:UnspecifiedMatching
 OMIM:301162	RBMX2	skos:exactMatch	hgnc.symbol:24282		semapv:UnspecifiedMatching
 OMIM:301162	RBMX2	skos:exactMatch	hgnc.symbol:RBMX2		semapv:UnspecifiedMatching
 OMIM:301162	RBMX2	skos:exactMatch	ncbigene:51634		semapv:UnspecifiedMatching
+OMIM:301163	cardiomyopathy, dilated, 3c	skos:exactMatch	MONDO:0981022		semapv:UnspecifiedMatching
+OMIM:301165	RBM41	skos:exactMatch	hgnc.symbol:25617		semapv:UnspecifiedMatching
+OMIM:301165	RBM41	skos:exactMatch	hgnc.symbol:RBM41		semapv:UnspecifiedMatching
+OMIM:301165	RBM41	skos:exactMatch	ncbigene:55285		semapv:UnspecifiedMatching
 OMIM:301200	amelogenesis imperfecta, type 1e	skos:exactMatch	MONDO:0010521		semapv:UnspecifiedMatching
 OMIM:301200	amelogenesis imperfecta, type 1e	skos:exactMatch	Orphanet:100033		semapv:UnspecifiedMatching
 OMIM:301200	amelogenesis imperfecta, type 1e	skos:exactMatch	Orphanet:88661		semapv:UnspecifiedMatching
@@ -45337,15 +45359,11 @@ OMIM:601486	DAZL	skos:exactMatch	ncbigene:1618		semapv:UnspecifiedMatching
 OMIM:601487	PPARG	skos:exactMatch	UMLS:C0028756		semapv:UnspecifiedMatching
 OMIM:601487	PPARG	skos:exactMatch	UMLS:C1335238		semapv:UnspecifiedMatching
 OMIM:601487	PPARG	skos:exactMatch	UMLS:C1720861		semapv:UnspecifiedMatching
-OMIM:601487	PPARG	skos:exactMatch	UMLS:C1832250		semapv:UnspecifiedMatching
-OMIM:601487	PPARG	skos:exactMatch	UMLS:C1832251		semapv:UnspecifiedMatching
-OMIM:601487	PPARG	skos:exactMatch	UMLS:C1832253		semapv:UnspecifiedMatching
 OMIM:601487	PPARG	skos:exactMatch	UMLS:C3276201		semapv:UnspecifiedMatching
-OMIM:601487	PPARG	skos:exactMatch	UMLS:C4016735		semapv:UnspecifiedMatching
-OMIM:601487	PPARG	skos:exactMatch	UMLS:C4016737		semapv:UnspecifiedMatching
 OMIM:601487	PPARG	skos:exactMatch	UMLS:C4016738		semapv:UnspecifiedMatching
-OMIM:601487	PPARG	skos:exactMatch	UMLS:C5193186		semapv:UnspecifiedMatching
 OMIM:601487	PPARG	skos:exactMatch	UMLS:C5436966		semapv:UnspecifiedMatching
+OMIM:601487	PPARG	skos:exactMatch	UMLS:C5975671		semapv:UnspecifiedMatching
+OMIM:601487	PPARG	skos:exactMatch	UMLS:C5975672		semapv:UnspecifiedMatching
 OMIM:601487	PPARG	skos:exactMatch	hgnc.symbol:9236		semapv:UnspecifiedMatching
 OMIM:601487	PPARG	skos:exactMatch	hgnc.symbol:PPARG		semapv:UnspecifiedMatching
 OMIM:601487	PPARG	skos:exactMatch	ncbigene:5468		semapv:UnspecifiedMatching
@@ -47302,7 +47320,6 @@ OMIM:601965	S1PR3	skos:exactMatch	hgnc.symbol:3167		semapv:UnspecifiedMatching
 OMIM:601965	S1PR3	skos:exactMatch	hgnc.symbol:S1PR3		semapv:UnspecifiedMatching
 OMIM:601965	S1PR3	skos:exactMatch	ncbigene:1903		semapv:UnspecifiedMatching
 OMIM:601966	RSC1A1	skos:exactMatch	UMLS:C1419765		semapv:UnspecifiedMatching
-OMIM:601966	RSC1A1	skos:exactMatch	hgnc.symbol:10458		semapv:UnspecifiedMatching
 OMIM:601966	RSC1A1	skos:exactMatch	hgnc.symbol:RSC1A1		semapv:UnspecifiedMatching
 OMIM:601966	RSC1A1	skos:exactMatch	ncbigene:6248		semapv:UnspecifiedMatching
 OMIM:601967	WNT7B	skos:exactMatch	UMLS:C1421517		semapv:UnspecifiedMatching
@@ -49606,6 +49623,7 @@ OMIM:602538	CELF2	skos:exactMatch	hgnc.symbol:2550		semapv:UnspecifiedMatching
 OMIM:602538	CELF2	skos:exactMatch	hgnc.symbol:CELF2		semapv:UnspecifiedMatching
 OMIM:602538	CELF2	skos:exactMatch	ncbigene:10659		semapv:UnspecifiedMatching
 OMIM:602539	MAP3K3	skos:exactMatch	UMLS:C1442513		semapv:UnspecifiedMatching
+OMIM:602539	MAP3K3	skos:exactMatch	UMLS:C5975677		semapv:UnspecifiedMatching
 OMIM:602539	MAP3K3	skos:exactMatch	hgnc.symbol:6855		semapv:UnspecifiedMatching
 OMIM:602539	MAP3K3	skos:exactMatch	hgnc.symbol:MAP3K3		semapv:UnspecifiedMatching
 OMIM:602539	MAP3K3	skos:exactMatch	ncbigene:4215		semapv:UnspecifiedMatching
@@ -49955,13 +49973,13 @@ OMIM:602630	TGIF1	skos:exactMatch	UMLS:C1840528		semapv:UnspecifiedMatching
 OMIM:602630	TGIF1	skos:exactMatch	hgnc.symbol:11776		semapv:UnspecifiedMatching
 OMIM:602630	TGIF1	skos:exactMatch	hgnc.symbol:TGIF1		semapv:UnspecifiedMatching
 OMIM:602630	TGIF1	skos:exactMatch	ncbigene:7050		semapv:UnspecifiedMatching
-OMIM:602631	SLC22A18	skos:exactMatch	UMLS:C1420135		semapv:UnspecifiedMatching
-OMIM:602631	SLC22A18	skos:exactMatch	UMLS:C4016282		semapv:UnspecifiedMatching
-OMIM:602631	SLC22A18	skos:exactMatch	UMLS:C4016400		semapv:UnspecifiedMatching
-OMIM:602631	SLC22A18	skos:exactMatch	UMLS:C4016802		semapv:UnspecifiedMatching
-OMIM:602631	SLC22A18	skos:exactMatch	hgnc.symbol:10964		semapv:UnspecifiedMatching
-OMIM:602631	SLC22A18	skos:exactMatch	hgnc.symbol:SLC67A1		semapv:UnspecifiedMatching
-OMIM:602631	SLC22A18	skos:exactMatch	ncbigene:5002		semapv:UnspecifiedMatching
+OMIM:602631	SLC67A1	skos:exactMatch	UMLS:C1420135		semapv:UnspecifiedMatching
+OMIM:602631	SLC67A1	skos:exactMatch	UMLS:C4016282		semapv:UnspecifiedMatching
+OMIM:602631	SLC67A1	skos:exactMatch	UMLS:C4016400		semapv:UnspecifiedMatching
+OMIM:602631	SLC67A1	skos:exactMatch	UMLS:C4016802		semapv:UnspecifiedMatching
+OMIM:602631	SLC67A1	skos:exactMatch	hgnc.symbol:10964		semapv:UnspecifiedMatching
+OMIM:602631	SLC67A1	skos:exactMatch	hgnc.symbol:SLC67A1		semapv:UnspecifiedMatching
+OMIM:602631	SLC67A1	skos:exactMatch	ncbigene:5002		semapv:UnspecifiedMatching
 OMIM:602632	PODXL	skos:exactMatch	UMLS:C1418724		semapv:UnspecifiedMatching
 OMIM:602632	PODXL	skos:exactMatch	hgnc.symbol:9171		semapv:UnspecifiedMatching
 OMIM:602632	PODXL	skos:exactMatch	hgnc.symbol:PODXL		semapv:UnspecifiedMatching
@@ -56689,7 +56707,7 @@ OMIM:604276	PKP4	skos:exactMatch	hgnc.symbol:9026		semapv:UnspecifiedMatching
 OMIM:604276	PKP4	skos:exactMatch	hgnc.symbol:PKP4		semapv:UnspecifiedMatching
 OMIM:604276	PKP4	skos:exactMatch	ncbigene:8502		semapv:UnspecifiedMatching
 OMIM:604277	SPAST	skos:exactMatch	UMLS:C1539809		semapv:UnspecifiedMatching
-OMIM:604277	SPAST	skos:exactMatch	UMLS:C3711371		semapv:UnspecifiedMatching
+OMIM:604277	SPAST	skos:exactMatch	UMLS:C1866855		semapv:UnspecifiedMatching
 OMIM:604277	SPAST	skos:exactMatch	UMLS:C4016882		semapv:UnspecifiedMatching
 OMIM:604277	SPAST	skos:exactMatch	hgnc.symbol:11233		semapv:UnspecifiedMatching
 OMIM:604277	SPAST	skos:exactMatch	hgnc.symbol:SPAST		semapv:UnspecifiedMatching
@@ -57856,10 +57874,10 @@ OMIM:604572	DNAJB1	skos:exactMatch	UMLS:C1415791		semapv:UnspecifiedMatching
 OMIM:604572	DNAJB1	skos:exactMatch	hgnc.symbol:5270		semapv:UnspecifiedMatching
 OMIM:604572	DNAJB1	skos:exactMatch	hgnc.symbol:DNAJB1		semapv:UnspecifiedMatching
 OMIM:604572	DNAJB1	skos:exactMatch	ncbigene:3337		semapv:UnspecifiedMatching
-OMIM:604573	ATP5MPL	skos:exactMatch	UMLS:C1412885		semapv:UnspecifiedMatching
-OMIM:604573	ATP5MPL	skos:exactMatch	hgnc.symbol:1188		semapv:UnspecifiedMatching
-OMIM:604573	ATP5MPL	skos:exactMatch	hgnc.symbol:ATP5MJ		semapv:UnspecifiedMatching
-OMIM:604573	ATP5MPL	skos:exactMatch	ncbigene:9556		semapv:UnspecifiedMatching
+OMIM:604573	ATP5MJ	skos:exactMatch	UMLS:C1412885		semapv:UnspecifiedMatching
+OMIM:604573	ATP5MJ	skos:exactMatch	hgnc.symbol:1188		semapv:UnspecifiedMatching
+OMIM:604573	ATP5MJ	skos:exactMatch	hgnc.symbol:ATP5MJ		semapv:UnspecifiedMatching
+OMIM:604573	ATP5MJ	skos:exactMatch	ncbigene:9556		semapv:UnspecifiedMatching
 OMIM:604574	FRRS1L	skos:exactMatch	UMLS:C1413032		semapv:UnspecifiedMatching
 OMIM:604574	FRRS1L	skos:exactMatch	UMLS:C4310770		semapv:UnspecifiedMatching
 OMIM:604574	FRRS1L	skos:exactMatch	hgnc.symbol:1362		semapv:UnspecifiedMatching
@@ -68312,7 +68330,7 @@ OMIM:607103	ATE1	skos:exactMatch	hgnc.symbol:ATE1		semapv:UnspecifiedMatching
 OMIM:607103	ATE1	skos:exactMatch	ncbigene:11101		semapv:UnspecifiedMatching
 OMIM:607104	TNKS1BP1	skos:exactMatch	UMLS:C1425997		semapv:UnspecifiedMatching
 OMIM:607104	TNKS1BP1	skos:exactMatch	hgnc.symbol:19081		semapv:UnspecifiedMatching
-OMIM:607104	TNKS1BP1	skos:exactMatch	hgnc.symbol:TNKS1BP1		semapv:UnspecifiedMatching
+OMIM:607104	TNKS1BP1	skos:exactMatch	hgnc.symbol:CNOT12		semapv:UnspecifiedMatching
 OMIM:607104	TNKS1BP1	skos:exactMatch	ncbigene:85456		semapv:UnspecifiedMatching
 OMIM:607105	NOX3	skos:exactMatch	UMLS:C1417770		semapv:UnspecifiedMatching
 OMIM:607105	NOX3	skos:exactMatch	hgnc.symbol:7890		semapv:UnspecifiedMatching
@@ -69436,7 +69454,7 @@ OMIM:607379	NF2	skos:exactMatch	ncbigene:4771		semapv:UnspecifiedMatching
 OMIM:607380	TRAF3IP1	skos:exactMatch	UMLS:C1425137		semapv:UnspecifiedMatching
 OMIM:607380	TRAF3IP1	skos:exactMatch	UMLS:C4225263		semapv:UnspecifiedMatching
 OMIM:607380	TRAF3IP1	skos:exactMatch	hgnc.symbol:17861		semapv:UnspecifiedMatching
-OMIM:607380	TRAF3IP1	skos:exactMatch	hgnc.symbol:TRAF3IP1		semapv:UnspecifiedMatching
+OMIM:607380	TRAF3IP1	skos:exactMatch	hgnc.symbol:IFT54		semapv:UnspecifiedMatching
 OMIM:607380	TRAF3IP1	skos:exactMatch	ncbigene:26146		semapv:UnspecifiedMatching
 OMIM:607381	TIMM50	skos:exactMatch	UMLS:C1428182		semapv:UnspecifiedMatching
 OMIM:607381	TIMM50	skos:exactMatch	UMLS:C4540171		semapv:UnspecifiedMatching
@@ -70178,8 +70196,8 @@ OMIM:607564	TRIM6	skos:exactMatch	hgnc.symbol:TRIM6		semapv:UnspecifiedMatching
 OMIM:607564	TRIM6	skos:exactMatch	ncbigene:117854		semapv:UnspecifiedMatching
 OMIM:607565	spastic paraplegia, ataxia, and impaired intellectual development	skos:exactMatch	MONDO:0011858		semapv:UnspecifiedMatching
 OMIM:607565	spastic paraplegia, ataxia, and impaired intellectual development	skos:exactMatch	UMLS:C1843661		semapv:UnspecifiedMatching
+OMIM:607566	EPM2A	skos:exactMatch	UMLS:C0751783		semapv:UnspecifiedMatching
 OMIM:607566	EPM2A	skos:exactMatch	UMLS:C1414435		semapv:UnspecifiedMatching
-OMIM:607566	EPM2A	skos:exactMatch	UMLS:C5848203		semapv:UnspecifiedMatching
 OMIM:607566	EPM2A	skos:exactMatch	hgnc.symbol:3413		semapv:UnspecifiedMatching
 OMIM:607566	EPM2A	skos:exactMatch	hgnc.symbol:EPM2A		semapv:UnspecifiedMatching
 OMIM:607566	EPM2A	skos:exactMatch	ncbigene:7957		semapv:UnspecifiedMatching
@@ -96737,7 +96755,6 @@ OMIM:614435	hypoplastic left heart syndrome 2	skos:exactMatch	Orphanet:2248		sem
 OMIM:614435	hypoplastic left heart syndrome 2	skos:exactMatch	UMLS:C3280795		semapv:UnspecifiedMatching
 OMIM:614436	charcot-marie-tooth disease, axonal, type 2p	skos:exactMatch	MONDO:0013753		semapv:UnspecifiedMatching
 OMIM:614436	charcot-marie-tooth disease, axonal, type 2p	skos:exactMatch	Orphanet:300319		semapv:UnspecifiedMatching
-OMIM:614436	charcot-marie-tooth disease, axonal, type 2p	skos:exactMatch	Orphanet:99941		semapv:UnspecifiedMatching
 OMIM:614436	charcot-marie-tooth disease, axonal, type 2p	skos:exactMatch	UMLS:C3280797		semapv:UnspecifiedMatching
 OMIM:614437	cutis laxa, autosomal recessive, type 1b	skos:exactMatch	MONDO:0013754		semapv:UnspecifiedMatching
 OMIM:614437	cutis laxa, autosomal recessive, type 1b	skos:exactMatch	Orphanet:314718		semapv:UnspecifiedMatching
@@ -99604,11 +99621,11 @@ OMIM:615203	RHBDD2	skos:exactMatch	UMLS:C1826823		semapv:UnspecifiedMatching
 OMIM:615203	RHBDD2	skos:exactMatch	hgnc.symbol:23082		semapv:UnspecifiedMatching
 OMIM:615203	RHBDD2	skos:exactMatch	hgnc.symbol:RHBDD2		semapv:UnspecifiedMatching
 OMIM:615203	RHBDD2	skos:exactMatch	ncbigene:57414		semapv:UnspecifiedMatching
-OMIM:615204	ATP5MD	skos:exactMatch	UMLS:C1429011		semapv:UnspecifiedMatching
-OMIM:615204	ATP5MD	skos:exactMatch	UMLS:C5231461		semapv:UnspecifiedMatching
-OMIM:615204	ATP5MD	skos:exactMatch	hgnc.symbol:30889		semapv:UnspecifiedMatching
-OMIM:615204	ATP5MD	skos:exactMatch	hgnc.symbol:ATP5MK		semapv:UnspecifiedMatching
-OMIM:615204	ATP5MD	skos:exactMatch	ncbigene:84833		semapv:UnspecifiedMatching
+OMIM:615204	ATP5MK	skos:exactMatch	UMLS:C1429011		semapv:UnspecifiedMatching
+OMIM:615204	ATP5MK	skos:exactMatch	UMLS:C5231461		semapv:UnspecifiedMatching
+OMIM:615204	ATP5MK	skos:exactMatch	hgnc.symbol:30889		semapv:UnspecifiedMatching
+OMIM:615204	ATP5MK	skos:exactMatch	hgnc.symbol:ATP5MK		semapv:UnspecifiedMatching
+OMIM:615204	ATP5MK	skos:exactMatch	ncbigene:84833		semapv:UnspecifiedMatching
 OMIM:615205	SPINK13	skos:exactMatch	UMLS:C2828722		semapv:UnspecifiedMatching
 OMIM:615205	SPINK13	skos:exactMatch	hgnc.symbol:27200		semapv:UnspecifiedMatching
 OMIM:615205	SPINK13	skos:exactMatch	hgnc.symbol:SPINK13		semapv:UnspecifiedMatching
@@ -99790,7 +99807,7 @@ OMIM:615252	ZBED6CL	skos:exactMatch	hgnc.symbol:ZBED10P		semapv:UnspecifiedMatch
 OMIM:615252	ZBED6CL	skos:exactMatch	ncbigene:113763		semapv:UnspecifiedMatching
 OMIM:615253	ZBED8	skos:exactMatch	UMLS:C2681239		semapv:UnspecifiedMatching
 OMIM:615253	ZBED8	skos:exactMatch	hgnc.symbol:30804		semapv:UnspecifiedMatching
-OMIM:615253	ZBED8	skos:exactMatch	hgnc.symbol:FAM200C		semapv:UnspecifiedMatching
+OMIM:615253	ZBED8	skos:exactMatch	hgnc.symbol:ZBED8		semapv:UnspecifiedMatching
 OMIM:615253	ZBED8	skos:exactMatch	ncbigene:63920		semapv:UnspecifiedMatching
 OMIM:615254	SCAND3	skos:exactMatch	UMLS:C1422235		semapv:UnspecifiedMatching
 OMIM:615254	SCAND3	skos:exactMatch	hgnc.symbol:13851		semapv:UnspecifiedMatching
@@ -104697,10 +104714,10 @@ OMIM:616585	RSPRY1	skos:exactMatch	ncbigene:89970		semapv:UnspecifiedMatching
 OMIM:616586	spastic paraplegia 9b, autosomal recessive	skos:exactMatch	MONDO:0014702		semapv:UnspecifiedMatching
 OMIM:616586	spastic paraplegia 9b, autosomal recessive	skos:exactMatch	Orphanet:447760		semapv:UnspecifiedMatching
 OMIM:616586	spastic paraplegia 9b, autosomal recessive	skos:exactMatch	UMLS:C5568980		semapv:UnspecifiedMatching
-OMIM:616587	FAM118B	skos:exactMatch	UMLS:C1825252		semapv:UnspecifiedMatching
-OMIM:616587	FAM118B	skos:exactMatch	hgnc.symbol:26110		semapv:UnspecifiedMatching
-OMIM:616587	FAM118B	skos:exactMatch	hgnc.symbol:SIRAL1		semapv:UnspecifiedMatching
-OMIM:616587	FAM118B	skos:exactMatch	ncbigene:79607		semapv:UnspecifiedMatching
+OMIM:616587	SIRAL1	skos:exactMatch	UMLS:C1825252		semapv:UnspecifiedMatching
+OMIM:616587	SIRAL1	skos:exactMatch	hgnc.symbol:26110		semapv:UnspecifiedMatching
+OMIM:616587	SIRAL1	skos:exactMatch	hgnc.symbol:SIRAL1		semapv:UnspecifiedMatching
+OMIM:616587	SIRAL1	skos:exactMatch	ncbigene:79607		semapv:UnspecifiedMatching
 OMIM:616588	DHFRL1	skos:exactMatch	UMLS:C1539290		semapv:UnspecifiedMatching
 OMIM:616588	DHFRL1	skos:exactMatch	hgnc.symbol:27309		semapv:UnspecifiedMatching
 OMIM:616588	DHFRL1	skos:exactMatch	hgnc.symbol:DHFR2		semapv:UnspecifiedMatching
@@ -105455,7 +105472,7 @@ OMIM:616786	MAPKBP1	skos:exactMatch	hgnc.symbol:MAPKBP1		semapv:UnspecifiedMatch
 OMIM:616786	MAPKBP1	skos:exactMatch	ncbigene:23005		semapv:UnspecifiedMatching
 OMIM:616787	CLUAP1	skos:exactMatch	UMLS:C1539108		semapv:UnspecifiedMatching
 OMIM:616787	CLUAP1	skos:exactMatch	hgnc.symbol:19009		semapv:UnspecifiedMatching
-OMIM:616787	CLUAP1	skos:exactMatch	hgnc.symbol:CLUAP1		semapv:UnspecifiedMatching
+OMIM:616787	CLUAP1	skos:exactMatch	hgnc.symbol:IFT38		semapv:UnspecifiedMatching
 OMIM:616787	CLUAP1	skos:exactMatch	ncbigene:23059		semapv:UnspecifiedMatching
 OMIM:616788	orofacial cleft 15	skos:exactMatch	MONDO:0014772		semapv:UnspecifiedMatching
 OMIM:616788	orofacial cleft 15	skos:exactMatch	Orphanet:199306		semapv:UnspecifiedMatching
@@ -107047,7 +107064,7 @@ OMIM:617233	WDR70	skos:exactMatch	UMLS:C1823834		semapv:UnspecifiedMatching
 OMIM:617233	WDR70	skos:exactMatch	hgnc.symbol:25495		semapv:UnspecifiedMatching
 OMIM:617233	WDR70	skos:exactMatch	hgnc.symbol:WDR70		semapv:UnspecifiedMatching
 OMIM:617233	WDR70	skos:exactMatch	ncbigene:55100		semapv:UnspecifiedMatching
-OMIM:617234	oocyte/zygote/embryo maturation arrest 16	skos:exactMatch	MONDO:0014978		semapv:UnspecifiedMatching
+OMIM:617234	oocyte/zygote/embryo maturation arrest 16	skos:exactMatch	MONDO:1010200		semapv:UnspecifiedMatching
 OMIM:617234	oocyte/zygote/embryo maturation arrest 16	skos:exactMatch	UMLS:C4310659		semapv:UnspecifiedMatching
 OMIM:617235	myoclonus, intractable, neonatal	skos:exactMatch	MONDO:0014979		semapv:UnspecifiedMatching
 OMIM:617235	myoclonus, intractable, neonatal	skos:exactMatch	UMLS:C4310658		semapv:UnspecifiedMatching
@@ -107932,10 +107949,10 @@ OMIM:617472	TNN	skos:exactMatch	UMLS:C1427797		semapv:UnspecifiedMatching
 OMIM:617472	TNN	skos:exactMatch	hgnc.symbol:22942		semapv:UnspecifiedMatching
 OMIM:617472	TNN	skos:exactMatch	hgnc.symbol:TNN		semapv:UnspecifiedMatching
 OMIM:617472	TNN	skos:exactMatch	ncbigene:63923		semapv:UnspecifiedMatching
-OMIM:617473	ATP5L	skos:exactMatch	UMLS:C1422508		semapv:UnspecifiedMatching
-OMIM:617473	ATP5L	skos:exactMatch	hgnc.symbol:14247		semapv:UnspecifiedMatching
-OMIM:617473	ATP5L	skos:exactMatch	hgnc.symbol:ATP5MG		semapv:UnspecifiedMatching
-OMIM:617473	ATP5L	skos:exactMatch	ncbigene:10632		semapv:UnspecifiedMatching
+OMIM:617473	ATP5MG	skos:exactMatch	UMLS:C1422508		semapv:UnspecifiedMatching
+OMIM:617473	ATP5MG	skos:exactMatch	hgnc.symbol:14247		semapv:UnspecifiedMatching
+OMIM:617473	ATP5MG	skos:exactMatch	hgnc.symbol:ATP5MG		semapv:UnspecifiedMatching
+OMIM:617473	ATP5MG	skos:exactMatch	ncbigene:10632		semapv:UnspecifiedMatching
 OMIM:617474	ZNF609	skos:exactMatch	UMLS:C1428770		semapv:UnspecifiedMatching
 OMIM:617474	ZNF609	skos:exactMatch	hgnc.symbol:29003		semapv:UnspecifiedMatching
 OMIM:617474	ZNF609	skos:exactMatch	hgnc.symbol:ZNF609		semapv:UnspecifiedMatching
@@ -119206,6 +119223,7 @@ OMIM:620886	TRMT6	skos:exactMatch	hgnc.symbol:20900		semapv:UnspecifiedMatching
 OMIM:620886	TRMT6	skos:exactMatch	hgnc.symbol:TRMT6		semapv:UnspecifiedMatching
 OMIM:620886	TRMT6	skos:exactMatch	ncbigene:51605		semapv:UnspecifiedMatching
 OMIM:620887	multiple mitochondrial dysfunctions syndrome 9b	skos:exactMatch	MONDO:0971174		semapv:UnspecifiedMatching
+OMIM:620887	multiple mitochondrial dysfunctions syndrome 9b	skos:exactMatch	Orphanet:543470		semapv:UnspecifiedMatching
 OMIM:620887	multiple mitochondrial dysfunctions syndrome 9b	skos:exactMatch	UMLS:C5935635		semapv:UnspecifiedMatching
 OMIM:620888	neurodevelopmental disorder with characteristic facial and ectodermal features and tetraparesis 1	skos:exactMatch	MONDO:0975745		semapv:UnspecifiedMatching
 OMIM:620889	FHAD1	skos:exactMatch	UMLS:C1825297		semapv:UnspecifiedMatching
@@ -119257,6 +119275,7 @@ OMIM:620902	TNRC18	skos:exactMatch	hgnc.symbol:11962		semapv:UnspecifiedMatching
 OMIM:620902	TNRC18	skos:exactMatch	hgnc.symbol:TNRC18		semapv:UnspecifiedMatching
 OMIM:620902	TNRC18	skos:exactMatch	ncbigene:84629		semapv:UnspecifiedMatching
 OMIM:620903	polycystic kidney disease 8	skos:exactMatch	MONDO:0971178		semapv:UnspecifiedMatching
+OMIM:620903	polycystic kidney disease 8	skos:exactMatch	Orphanet:730		semapv:UnspecifiedMatching
 OMIM:620903	polycystic kidney disease 8	skos:exactMatch	UMLS:C5935640		semapv:UnspecifiedMatching
 OMIM:620904	FAM98A	skos:exactMatch	UMLS:C1825217		semapv:UnspecifiedMatching
 OMIM:620904	FAM98A	skos:exactMatch	hgnc.symbol:24520		semapv:UnspecifiedMatching
@@ -119368,6 +119387,7 @@ OMIM:620946	USP42	skos:exactMatch	hgnc.symbol:20068		semapv:UnspecifiedMatching
 OMIM:620946	USP42	skos:exactMatch	hgnc.symbol:USP42		semapv:UnspecifiedMatching
 OMIM:620946	USP42	skos:exactMatch	ncbigene:84132		semapv:UnspecifiedMatching
 OMIM:620947	spinocerebellar ataxia 51	skos:exactMatch	MONDO:0975800		semapv:UnspecifiedMatching
+OMIM:620947	spinocerebellar ataxia 51	skos:exactMatch	UMLS:C5975394		semapv:UnspecifiedMatching
 OMIM:620948	UTP6	skos:exactMatch	hgnc.symbol:18279		semapv:UnspecifiedMatching
 OMIM:620948	UTP6	skos:exactMatch	hgnc.symbol:UTP6		semapv:UnspecifiedMatching
 OMIM:620948	UTP6	skos:exactMatch	ncbigene:55813		semapv:UnspecifiedMatching
@@ -119402,6 +119422,7 @@ OMIM:620961	SNX25	skos:exactMatch	hgnc.symbol:21883		semapv:UnspecifiedMatching
 OMIM:620961	SNX25	skos:exactMatch	hgnc.symbol:SNX25		semapv:UnspecifiedMatching
 OMIM:620961	SNX25	skos:exactMatch	ncbigene:83891		semapv:UnspecifiedMatching
 OMIM:620962	cholestasis, progressive familial intrahepatic, 13	skos:exactMatch	MONDO:0975807		semapv:UnspecifiedMatching
+OMIM:620963	ZDHHC18	skos:exactMatch	UMLS:C1427089		semapv:UnspecifiedMatching
 OMIM:620963	ZDHHC18	skos:exactMatch	hgnc.symbol:20712		semapv:UnspecifiedMatching
 OMIM:620963	ZDHHC18	skos:exactMatch	hgnc.symbol:ZDHHC18		semapv:UnspecifiedMatching
 OMIM:620963	ZDHHC18	skos:exactMatch	ncbigene:84243		semapv:UnspecifiedMatching
@@ -119570,6 +119591,7 @@ OMIM:621031	POLR1E	skos:exactMatch	hgnc.symbol:17631		semapv:UnspecifiedMatching
 OMIM:621031	POLR1E	skos:exactMatch	hgnc.symbol:POLR1E		semapv:UnspecifiedMatching
 OMIM:621031	POLR1E	skos:exactMatch	ncbigene:64425		semapv:UnspecifiedMatching
 OMIM:621032	cerebral cavernous malformations 5	skos:exactMatch	MONDO:0975952		semapv:UnspecifiedMatching
+OMIM:621032	cerebral cavernous malformations 5	skos:exactMatch	UMLS:C5975541		semapv:UnspecifiedMatching
 OMIM:621033	NUP210L	skos:exactMatch	UMLS:C1538504		semapv:UnspecifiedMatching
 OMIM:621033	NUP210L	skos:exactMatch	UMLS:C5975569		semapv:UnspecifiedMatching
 OMIM:621033	NUP210L	skos:exactMatch	hgnc.symbol:29915		semapv:UnspecifiedMatching
@@ -119732,6 +119754,7 @@ OMIM:621094	neuronopathy, distal hereditary motor, autosomal dominant 15	skos:ex
 OMIM:621095	charcot-marie-tooth disease, axonal, type 2jj	skos:exactMatch	MONDO:0976227		semapv:UnspecifiedMatching
 OMIM:621096	immunodeficiency 132b	skos:exactMatch	MONDO:0976228		semapv:UnspecifiedMatching
 OMIM:621097	immunodeficiency 131	skos:exactMatch	MONDO:0976229		semapv:UnspecifiedMatching
+OMIM:621097	immunodeficiency 131	skos:exactMatch	UMLS:C6012696		semapv:UnspecifiedMatching
 OMIM:621098	VSIG8	skos:exactMatch	hgnc.symbol:32063		semapv:UnspecifiedMatching
 OMIM:621098	VSIG8	skos:exactMatch	hgnc.symbol:VSIG8		semapv:UnspecifiedMatching
 OMIM:621098	VSIG8	skos:exactMatch	ncbigene:391123		semapv:UnspecifiedMatching
@@ -120488,6 +120511,7 @@ OMIM:621425	ABRACL	skos:exactMatch	ncbigene:58527		semapv:UnspecifiedMatching
 OMIM:621427	NECAB1	skos:exactMatch	hgnc.symbol:20983		semapv:UnspecifiedMatching
 OMIM:621427	NECAB1	skos:exactMatch	hgnc.symbol:NECAB1		semapv:UnspecifiedMatching
 OMIM:621427	NECAB1	skos:exactMatch	ncbigene:64168		semapv:UnspecifiedMatching
+OMIM:621428	scoliosis, isolated, susceptibility to, 6	skos:exactMatch	MONDO:0980986		semapv:UnspecifiedMatching
 OMIM:621429	SYNPO2L	skos:exactMatch	hgnc.symbol:23532		semapv:UnspecifiedMatching
 OMIM:621429	SYNPO2L	skos:exactMatch	hgnc.symbol:SYNPO2L		semapv:UnspecifiedMatching
 OMIM:621429	SYNPO2L	skos:exactMatch	ncbigene:79933		semapv:UnspecifiedMatching
@@ -120500,6 +120524,7 @@ OMIM:621432	WDR64	skos:exactMatch	hgnc.symbol:WDR64		semapv:UnspecifiedMatching
 OMIM:621432	WDR64	skos:exactMatch	ncbigene:128025		semapv:UnspecifiedMatching
 OMIM:621433	congenital myopathy 28 with rigid spine	skos:exactMatch	MONDO:0980756		semapv:UnspecifiedMatching
 OMIM:621434	dental radicular dysplasia	skos:exactMatch	MONDO:0980763		semapv:UnspecifiedMatching
+OMIM:621435	xeroderma pigmentosum, complementation group j	skos:exactMatch	MONDO:0980987		semapv:UnspecifiedMatching
 OMIM:621436	microcephaly, progressive, with simplified gyral pattern and cerebellar hypoplasia	skos:exactMatch	MONDO:0980935		semapv:UnspecifiedMatching
 OMIM:621437	SH3D21	skos:exactMatch	hgnc.symbol:26236		semapv:UnspecifiedMatching
 OMIM:621437	SH3D21	skos:exactMatch	hgnc.symbol:SH3D21		semapv:UnspecifiedMatching
@@ -120648,9 +120673,11 @@ OMIM:621498	RTF2	skos:exactMatch	hgnc.symbol:15890		semapv:UnspecifiedMatching
 OMIM:621498	RTF2	skos:exactMatch	hgnc.symbol:RTF2		semapv:UnspecifiedMatching
 OMIM:621498	RTF2	skos:exactMatch	ncbigene:51507		semapv:UnspecifiedMatching
 OMIM:621499	craniosynostosis-scoliosis syndrome	skos:exactMatch	MONDO:0980974		semapv:UnspecifiedMatching
+OMIM:621500	epilepsy, idiopathic generalized 20	skos:exactMatch	MONDO:0980988		semapv:UnspecifiedMatching
 OMIM:621501	CWC15	skos:exactMatch	hgnc.symbol:26939		semapv:UnspecifiedMatching
 OMIM:621501	CWC15	skos:exactMatch	hgnc.symbol:CWC15		semapv:UnspecifiedMatching
 OMIM:621501	CWC15	skos:exactMatch	ncbigene:51503		semapv:UnspecifiedMatching
+OMIM:621502	dystonia 38, susceptibility to	skos:exactMatch	MONDO:0980989		semapv:UnspecifiedMatching
 OMIM:621503	LRRC39	skos:exactMatch	hgnc.symbol:28228		semapv:UnspecifiedMatching
 OMIM:621503	LRRC39	skos:exactMatch	hgnc.symbol:LRRC39		semapv:UnspecifiedMatching
 OMIM:621503	LRRC39	skos:exactMatch	ncbigene:127495		semapv:UnspecifiedMatching
@@ -120660,12 +120687,15 @@ OMIM:621504	CCDC89	skos:exactMatch	ncbigene:220388		semapv:UnspecifiedMatching
 OMIM:621505	ANKRD35	skos:exactMatch	hgnc.symbol:26323		semapv:UnspecifiedMatching
 OMIM:621505	ANKRD35	skos:exactMatch	hgnc.symbol:ANKRD35		semapv:UnspecifiedMatching
 OMIM:621505	ANKRD35	skos:exactMatch	ncbigene:148741		semapv:UnspecifiedMatching
+OMIM:621506	neurodevelopmental disorder with parkinsonism or other movement abnormalities	skos:exactMatch	MONDO:0980990		semapv:UnspecifiedMatching
+OMIM:621507	microcephaly 31, primary, autosomal recessive	skos:exactMatch	MONDO:0980991		semapv:UnspecifiedMatching
 OMIM:621508	GIN1	skos:exactMatch	hgnc.symbol:25959		semapv:UnspecifiedMatching
 OMIM:621508	GIN1	skos:exactMatch	hgnc.symbol:GIN1		semapv:UnspecifiedMatching
 OMIM:621508	GIN1	skos:exactMatch	ncbigene:54826		semapv:UnspecifiedMatching
 OMIM:621509	GPR160	skos:exactMatch	hgnc.symbol:23693		semapv:UnspecifiedMatching
 OMIM:621509	GPR160	skos:exactMatch	hgnc.symbol:GPR160		semapv:UnspecifiedMatching
 OMIM:621509	GPR160	skos:exactMatch	ncbigene:26996		semapv:UnspecifiedMatching
+OMIM:621512	meier-gorlin syndrome 9	skos:exactMatch	MONDO:0980992		semapv:UnspecifiedMatching
 OMIM:621513	FAHD2A	skos:exactMatch	hgnc.symbol:24252		semapv:UnspecifiedMatching
 OMIM:621513	FAHD2A	skos:exactMatch	hgnc.symbol:FAHD2A		semapv:UnspecifiedMatching
 OMIM:621513	FAHD2A	skos:exactMatch	ncbigene:51011		semapv:UnspecifiedMatching
@@ -120693,9 +120723,11 @@ OMIM:621521	SACK1E	skos:exactMatch	ncbigene:54854		semapv:UnspecifiedMatching
 OMIM:621522	SACK1F	skos:exactMatch	hgnc.symbol:25148		semapv:UnspecifiedMatching
 OMIM:621522	SACK1F	skos:exactMatch	hgnc.symbol:SACK1F		semapv:UnspecifiedMatching
 OMIM:621522	SACK1F	skos:exactMatch	ncbigene:113828		semapv:UnspecifiedMatching
+OMIM:621523	spondylocostal dysostosis 7, autosomal recessive	skos:exactMatch	MONDO:0981023		semapv:UnspecifiedMatching
 OMIM:621524	WSB2	skos:exactMatch	hgnc.symbol:19222		semapv:UnspecifiedMatching
 OMIM:621524	WSB2	skos:exactMatch	hgnc.symbol:WSB2		semapv:UnspecifiedMatching
 OMIM:621524	WSB2	skos:exactMatch	ncbigene:55884		semapv:UnspecifiedMatching
+OMIM:621525	neurodegenerative disorder with cerebellar and caudate atrophy	skos:exactMatch	MONDO:0981024		semapv:UnspecifiedMatching
 OMIM:621526	QPCTL	skos:exactMatch	hgnc.symbol:25952		semapv:UnspecifiedMatching
 OMIM:621526	QPCTL	skos:exactMatch	hgnc.symbol:QPCTL		semapv:UnspecifiedMatching
 OMIM:621526	QPCTL	skos:exactMatch	ncbigene:54814		semapv:UnspecifiedMatching
@@ -120717,6 +120749,57 @@ OMIM:621532	THUMPD3	skos:exactMatch	ncbigene:25917		semapv:UnspecifiedMatching
 OMIM:621534	FAM135B	skos:exactMatch	hgnc.symbol:28029		semapv:UnspecifiedMatching
 OMIM:621534	FAM135B	skos:exactMatch	hgnc.symbol:FAM135B		semapv:UnspecifiedMatching
 OMIM:621534	FAM135B	skos:exactMatch	ncbigene:51059		semapv:UnspecifiedMatching
+OMIM:621536	FAM174C	skos:exactMatch	hgnc.symbol:26073		semapv:UnspecifiedMatching
+OMIM:621536	FAM174C	skos:exactMatch	hgnc.symbol:FAM174C		semapv:UnspecifiedMatching
+OMIM:621536	FAM174C	skos:exactMatch	ncbigene:55009		semapv:UnspecifiedMatching
+OMIM:621537	CPS1IT1	skos:exactMatch	hgnc.symbol:30102		semapv:UnspecifiedMatching
+OMIM:621537	CPS1IT1	skos:exactMatch	hgnc.symbol:CPS1-IT1		semapv:UnspecifiedMatching
+OMIM:621537	CPS1IT1	skos:exactMatch	ncbigene:29034		semapv:UnspecifiedMatching
+OMIM:621538	REX1BD	skos:exactMatch	hgnc.symbol:26098		semapv:UnspecifiedMatching
+OMIM:621538	REX1BD	skos:exactMatch	hgnc.symbol:REX1BD		semapv:UnspecifiedMatching
+OMIM:621538	REX1BD	skos:exactMatch	ncbigene:55049		semapv:UnspecifiedMatching
+OMIM:621540	OLFML2B	skos:exactMatch	hgnc.symbol:24558		semapv:UnspecifiedMatching
+OMIM:621540	OLFML2B	skos:exactMatch	hgnc.symbol:OLFML2B		semapv:UnspecifiedMatching
+OMIM:621540	OLFML2B	skos:exactMatch	ncbigene:25903		semapv:UnspecifiedMatching
+OMIM:621541	OLFML1	skos:exactMatch	hgnc.symbol:24473		semapv:UnspecifiedMatching
+OMIM:621541	OLFML1	skos:exactMatch	hgnc.symbol:OLFML1		semapv:UnspecifiedMatching
+OMIM:621541	OLFML1	skos:exactMatch	ncbigene:283298		semapv:UnspecifiedMatching
+OMIM:621542	ARRDC2	skos:exactMatch	hgnc.symbol:25225		semapv:UnspecifiedMatching
+OMIM:621542	ARRDC2	skos:exactMatch	hgnc.symbol:ARRDC2		semapv:UnspecifiedMatching
+OMIM:621542	ARRDC2	skos:exactMatch	ncbigene:27106		semapv:UnspecifiedMatching
+OMIM:621543	UBAP1L	skos:exactMatch	hgnc.symbol:40028		semapv:UnspecifiedMatching
+OMIM:621543	UBAP1L	skos:exactMatch	hgnc.symbol:UBAP1L		semapv:UnspecifiedMatching
+OMIM:621543	UBAP1L	skos:exactMatch	ncbigene:390595		semapv:UnspecifiedMatching
+OMIM:621544	GPN2	skos:exactMatch	hgnc.symbol:25513		semapv:UnspecifiedMatching
+OMIM:621544	GPN2	skos:exactMatch	hgnc.symbol:GPN2		semapv:UnspecifiedMatching
+OMIM:621544	GPN2	skos:exactMatch	ncbigene:54707		semapv:UnspecifiedMatching
+OMIM:621545	GPN3	skos:exactMatch	hgnc.symbol:30186		semapv:UnspecifiedMatching
+OMIM:621545	GPN3	skos:exactMatch	hgnc.symbol:GPN3		semapv:UnspecifiedMatching
+OMIM:621545	GPN3	skos:exactMatch	ncbigene:51184		semapv:UnspecifiedMatching
+OMIM:621546	TTC22	skos:exactMatch	hgnc.symbol:26067		semapv:UnspecifiedMatching
+OMIM:621546	TTC22	skos:exactMatch	hgnc.symbol:TTC22		semapv:UnspecifiedMatching
+OMIM:621546	TTC22	skos:exactMatch	ncbigene:55001		semapv:UnspecifiedMatching
+OMIM:621547	ZDHHC4	skos:exactMatch	hgnc.symbol:18471		semapv:UnspecifiedMatching
+OMIM:621547	ZDHHC4	skos:exactMatch	hgnc.symbol:ZDHHC4		semapv:UnspecifiedMatching
+OMIM:621547	ZDHHC4	skos:exactMatch	ncbigene:55146		semapv:UnspecifiedMatching
+OMIM:621549	SIRAL2	skos:exactMatch	hgnc.symbol:1313		semapv:UnspecifiedMatching
+OMIM:621549	SIRAL2	skos:exactMatch	hgnc.symbol:SIRAL2		semapv:UnspecifiedMatching
+OMIM:621549	SIRAL2	skos:exactMatch	ncbigene:55007		semapv:UnspecifiedMatching
+OMIM:621550	TMEM39A	skos:exactMatch	hgnc.symbol:25600		semapv:UnspecifiedMatching
+OMIM:621550	TMEM39A	skos:exactMatch	hgnc.symbol:TMEM39A		semapv:UnspecifiedMatching
+OMIM:621550	TMEM39A	skos:exactMatch	ncbigene:55254		semapv:UnspecifiedMatching
+OMIM:621551	TMEM39B	skos:exactMatch	hgnc.symbol:25510		semapv:UnspecifiedMatching
+OMIM:621551	TMEM39B	skos:exactMatch	hgnc.symbol:TMEM39B		semapv:UnspecifiedMatching
+OMIM:621551	TMEM39B	skos:exactMatch	ncbigene:55116		semapv:UnspecifiedMatching
+OMIM:621553	GTPBP8	skos:exactMatch	hgnc.symbol:25007		semapv:UnspecifiedMatching
+OMIM:621553	GTPBP8	skos:exactMatch	hgnc.symbol:GTPBP8		semapv:UnspecifiedMatching
+OMIM:621553	GTPBP8	skos:exactMatch	ncbigene:29083		semapv:UnspecifiedMatching
+OMIM:621554	GPATCH1	skos:exactMatch	hgnc.symbol:24658		semapv:UnspecifiedMatching
+OMIM:621554	GPATCH1	skos:exactMatch	hgnc.symbol:GPATCH1		semapv:UnspecifiedMatching
+OMIM:621554	GPATCH1	skos:exactMatch	ncbigene:55094		semapv:UnspecifiedMatching
+OMIM:621555	TMCO4	skos:exactMatch	hgnc.symbol:27393		semapv:UnspecifiedMatching
+OMIM:621555	TMCO4	skos:exactMatch	hgnc.symbol:TMCO4		semapv:UnspecifiedMatching
+OMIM:621555	TMCO4	skos:exactMatch	ncbigene:255104		semapv:UnspecifiedMatching
 OMIMPS:100070	Aortic aneurysm, familial abdominal	skos:exactMatch	MONDO:0007031		semapv:UnspecifiedMatching
 OMIMPS:100300	Adams-Oliver syndrome	skos:exactMatch	MONDO:0007034		semapv:UnspecifiedMatching
 OMIMPS:101800	Acrodysostosis	skos:exactMatch	MONDO:0019797		semapv:UnspecifiedMatching
@@ -120780,7 +120863,7 @@ OMIMPS:123700	Cutis laxa	skos:exactMatch	MONDO:0100237		semapv:UnspecifiedMatchi
 OMIMPS:124000	Mitochondrial complex III deficiency, nuclear type	skos:exactMatch	MONDO:0020811		semapv:UnspecifiedMatching
 OMIMPS:124900	Deafness, autosomal dominant	skos:exactMatch	MONDO:0019587		semapv:UnspecifiedMatching
 OMIMPS:125310	Cerebral arteriopathy with subcortical infarcts and leukoencephalopathy	skos:exactMatch	MONDO:0007432		semapv:UnspecifiedMatching
-OMIMPS:125400	Dentin dysplasia, type I	skos:exactMatch	MONDO:0007436		semapv:UnspecifiedMatching
+OMIMPS:125400	Dentin dysplasia	skos:exactMatch	MONDO:0007436		semapv:UnspecifiedMatching
 OMIMPS:125850	Maturity-onset diabetes of the young	skos:exactMatch	MONDO:0018911		semapv:UnspecifiedMatching
 OMIMPS:126200	Multiple sclerosis, susceptibility to	skos:exactMatch	MONDO:0007462		semapv:UnspecifiedMatching
 OMIMPS:126800	Duane retraction syndrome	skos:exactMatch	MONDO:0007473		semapv:UnspecifiedMatching
@@ -121181,6 +121264,7 @@ OMIMPS:601495	Agammaglobulinemia	skos:exactMatch	MONDO:0015977		semapv:Unspecifi
 OMIMPS:601559	Stuve-Wiedemann syndrome	skos:exactMatch	MONDO:0031280		semapv:UnspecifiedMatching
 OMIMPS:601675	Trichothiodystrophy	skos:exactMatch	MONDO:0018053		semapv:UnspecifiedMatching
 OMIMPS:601678	Bartter syndrome	skos:exactMatch	MONDO:0015231		semapv:UnspecifiedMatching
+OMIMPS:601744	Systemic lupus erythematosus	skos:exactMatch	MONDO:0007915		semapv:UnspecifiedMatching
 OMIMPS:601764	Seizures, benign familial infantile	skos:exactMatch	MONDO:0017615		semapv:UnspecifiedMatching
 OMIMPS:602014	Hypomagnesemia	skos:exactMatch	MONDO:0018100		semapv:UnspecifiedMatching
 OMIMPS:602483	Auriculocondylar syndrome	skos:exactMatch	MONDO:0000107		semapv:UnspecifiedMatching

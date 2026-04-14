@@ -29,12 +29,15 @@ MONDO:0003741	juvenile type testicular granulosa cell tumor	skos:broadMatch	NCIT
 MONDO:0003741	juvenile type testicular granulosa cell tumor	skos:broadMatch	NCIT:C4207	Juvenile Granulosa Cell Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	juvenile type granulosa cell neoplasm	LEXMATCH
 MONDO:0003741	juvenile type testicular granulosa cell tumor	skos:broadMatch	NCIT:C4207	Juvenile Granulosa Cell Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	juvenile type granulosa cell tumor	LEXMATCH
 MONDO:0003741	juvenile type testicular granulosa cell tumor	skos:broadMatch	NCIT:C4207	Juvenile Granulosa Cell Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	rdfs:label	juvenile granulosa cell tumor	LEXMATCH
-MONDO:0003957	adult pineoblastoma	skos:broadMatch	NCIT:C114812	Childhood Pineoblastoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	pineoblastoma	LEXMATCH
+MONDO:0003945	bone epithelioid hemangioma	skos:broadMatch	NCIT:C6477	Bone Hemangioma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	bone hemangioma	LEXMATCH
+MONDO:0003945	bone epithelioid hemangioma	skos:broadMatch	NCIT:C6477	Bone Hemangioma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	rdfs:label	bone hemangioma	LEXMATCH
 MONDO:0004000	childhood pilocytic astrocytoma	skos:broadMatch	NCIT:C71016	Adult Pilocytic Astrocytoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	pilocytic astrocytoma	LEXMATCH
 MONDO:0004310	adult embryonal tumor with multilayered rosettes, c19mc-altered	skos:broadMatch	NCIT:C115203	Childhood Embryonal Tumor with Multilayered Rosettes, C19MC-Altered	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	embryonal tumor with multilayered rosettes, c19mc-altered	LEXMATCH
 MONDO:0004344	childhood malignant hemangiopericytoma	skos:broadMatch	NCIT:C6894	Malignant Solitary Fibrous Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	malignant hemangiopericytoma	LEXMATCH
 MONDO:0004352	adult brain ependymoma	skos:broadMatch	NCIT:C156462	Brain Ependymoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	brain ependymoma	LEXMATCH
 MONDO:0004352	adult brain ependymoma	skos:broadMatch	NCIT:C156462	Brain Ependymoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	rdfs:label	brain ependymoma	LEXMATCH
+MONDO:0004639	perinatal necrotizing enterocolitis	skos:broadMatch	NCIT:C84915	Necrotizing Enterocolitis	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	necrotizing enterocolitis	LEXMATCH
+MONDO:0004639	perinatal necrotizing enterocolitis	skos:broadMatch	NCIT:C84915	Necrotizing Enterocolitis	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	rdfs:label	necrotizing enterocolitis	LEXMATCH
 MONDO:0004950	gastric carcinoma	skos:broadMatch	NCIT:C118813	Childhood Gastric Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	gastric (stomach) cancer	LEXMATCH
 MONDO:0004989	breast carcinoma	skos:broadMatch	NCIT:C118809	Childhood Breast Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	breast cancer	LEXMATCH
 MONDO:0004996	childhood acute myeloid leukemia	skos:broadMatch	NCIT:C9154	Adult Acute Myeloid Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	acute myeloid leukemia (aml)	LEXMATCH
@@ -56,7 +59,10 @@ MONDO:0008988	citrullinemia type I	skos:broadMatch	NCIT:C84639	Citrullinemia	sem
 MONDO:0009773	odonto-onycho-dermal dysplasia	skos:broadMatch	NCIT:C84683	Ectodermal Dysplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	ectodermal dysplasia	LEXMATCH
 MONDO:0009773	odonto-onycho-dermal dysplasia	skos:broadMatch	NCIT:C84683	Ectodermal Dysplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	rdfs:label	ectodermal dysplasia	LEXMATCH
 MONDO:0011789	familial meningioma	skos:broadMatch	NCIT:C9093	Adult Meningioma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	meningioma	LEXMATCH
+MONDO:0013879	pulmonary fibrosis and/or bone marrow failure, Telomere-related, 2	skos:broadMatch	NCIT:C220794	Aplastic Anemia, CTCAE	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	aplastic anemia	LEXMATCH
 MONDO:0015075	thyroid gland carcinoma	skos:broadMatch	NCIT:C118827	Childhood Thyroid Gland Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	thyroid gland cancer	LEXMATCH
+MONDO:0016259	carcinosarcoma of the corpus uteri	skos:broadMatch	NCIT:C223978	Uterine Carcinosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	uterine carcinosarcoma	LEXMATCH
+MONDO:0016259	carcinosarcoma of the corpus uteri	skos:broadMatch	NCIT:C223978	Uterine Carcinosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	rdfs:label	uterine carcinosarcoma	LEXMATCH
 MONDO:0016695	oligodendroglioma	skos:broadMatch	NCIT:C68691	Adult Oligodendroglial Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	oligodendroglial tumor	LEXMATCH
 MONDO:0017282	alveolar echinococcosis	skos:broadMatch	NCIT:C84682	Echinococcosis	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	echinococcosis	LEXMATCH
 MONDO:0017282	alveolar echinococcosis	skos:broadMatch	NCIT:C84682	Echinococcosis	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	rdfs:label	echinococcosis	LEXMATCH
@@ -66,6 +72,7 @@ MONDO:0018531	carcinoma of liver and intrahepatic biliary tract	skos:broadMatch	
 MONDO:0018944	gestational trophoblastic neoplasm	skos:broadMatch	NCIT:C180633	Gestational Trophoblastic Disorder	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	gestational trophoblastic disorder	LEXMATCH
 MONDO:0018944	gestational trophoblastic neoplasm	skos:broadMatch	NCIT:C180633	Gestational Trophoblastic Disorder	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	rdfs:label	gestational trophoblastic disorder	LEXMATCH
 MONDO:0019015	omphalocele	skos:broadMatch	NCIT:C84725	Gastroschisis	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	eventration	LEXMATCH
+MONDO:0019087	cholangiocarcinoma	skos:broadMatch	NCIT:C8265	Adult Cholangiocarcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	intrahepatic bile duct cancer (cholangiocarcinoma)	LEXMATCH
 MONDO:0019478	adult nodular lymphocyte predominant Hodgkin lymphoma	skos:broadMatch	NCIT:C8060	Childhood Nodular Lymphocyte Predominant B-Cell Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	nodular lymphocyte predominant hodgkin lymphoma	LEXMATCH
 MONDO:0020690	adult glioblastoma	skos:broadMatch	NCIT:C5136	Childhood Glioblastoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	glioblastoma	LEXMATCH
 MONDO:0024331	colorectal carcinoma	skos:broadMatch	NCIT:C118808	Childhood Colorectal Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	colorectal (colon or rectal) cancer	LEXMATCH

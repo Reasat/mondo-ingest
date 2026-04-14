@@ -31,6 +31,7 @@ MONDO:0003351	colon leiomyosarcoma	MONDO:0021063	icd11.foundation:1612353121	icd
 MONDO:0003360	small intestine leiomyosarcoma	MONDO:0000956	icd11.foundation:389419378	icd11.foundation:906379260	small intestine cancer
 MONDO:0003481	dysgerminoma of ovary	MONDO:0008170	icd11.foundation:208782658	icd11.foundation:685124533	ovarian cancer
 MONDO:0003630	pancreatic serous cystadenocarcinoma	MONDO:0006047	icd11.foundation:1624575808	icd11.foundation:1663659989	pancreatic adenocarcinoma
+MONDO:0003749	esophageal disorder	MONDO:0004335	icd11.foundation:1594312948	icd11.foundation:1256772020	digestive system disorder
 MONDO:0003781	bronchitis	MONDO:0000270	icd11.foundation:11753425	icd11.foundation:1582386590	lower respiratory tract disorder
 MONDO:0004132	anal canal squamous cell carcinoma	MONDO:0000405	icd11.foundation:585238371	icd11.foundation:655574575	anal canal cancer
 MONDO:0004273	breast apocrine adenoma	MONDO:0000620	icd11.foundation:636674012	icd11.foundation:2120366482	breast benign neoplasm

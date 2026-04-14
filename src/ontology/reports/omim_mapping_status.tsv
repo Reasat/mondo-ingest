@@ -4,6 +4,11 @@ OMIM:621510	congenital myopathy 29 with contractures	False	False	False
 OMIM:621511	lethal congenital contracture syndrome 12	False	False	False
 OMIM:621528	meier-gorlin syndrome 10	False	False	False
 OMIM:621533	neurodevelopmental disorder with seizures and impaired intellectual and language development	False	False	False
+OMIM:621535	spinocerebellar ataxia 52	False	False	False
+OMIM:621539	ebstein-bezieau neurodevelopmental syndrome	False	False	False
+OMIM:621548	retinitis pigmentosa 101	False	False	False
+OMIM:621552	luo-agrawal neurodevelopmental syndrome	False	False	False
+OMIM:621556	deafness, autosomal dominant 91	False	False	False
 OMIM:100500		False	False	True
 OMIM:100680		False	False	True
 OMIM:100735		False	False	True
@@ -143,7 +148,6 @@ OMIM:139220	removed from database	False	False	True
 OMIM:139230	removed from database	False	False	True
 OMIM:140090		False	False	True
 OMIM:140340		False	False	True
-OMIM:140500		False	False	True
 OMIM:140570		False	False	True
 OMIM:140573		False	False	True
 OMIM:140574		False	False	True
@@ -468,7 +472,6 @@ OMIM:232330		False	False	True
 OMIM:233430		False	False	True
 OMIM:233500		False	False	True
 OMIM:233670		False	False	True
-OMIM:234750		False	False	True
 OMIM:235360		False	False	True
 OMIM:235600		False	False	True
 OMIM:235735		False	False	True
@@ -4551,6 +4554,7 @@ OMIM:301159	BCLAF3	False	True	False
 OMIM:301160	CXORF65	False	True	False
 OMIM:301161	SYAP1	False	True	False
 OMIM:301162	RBMX2	False	True	False
+OMIM:301165	RBM41	False	True	False
 OMIM:301300	ALAS2	False	True	False
 OMIM:301770	ARR3	False	True	False
 OMIM:301780	ARSC2	False	True	False
@@ -6625,7 +6629,7 @@ OMIM:602626	IL1RAP	False	True	False
 OMIM:602627	CDC6	False	True	False
 OMIM:602628	FOXN3	False	True	False
 OMIM:602630	TGIF1	False	True	False
-OMIM:602631	SLC22A18	False	True	False
+OMIM:602631	SLC67A1	False	True	False
 OMIM:602632	PODXL	False	True	False
 OMIM:602633	FHL2	False	True	False
 OMIM:602634	DNAJB9	False	True	False
@@ -8260,7 +8264,7 @@ OMIM:604568	DOC2B	False	True	False
 OMIM:604569	CNTNAP2	False	True	False
 OMIM:604570	SHROOM3	False	True	False
 OMIM:604572	DNAJB1	False	True	False
-OMIM:604573	ATP5MPL	False	True	False
+OMIM:604573	ATP5MJ	False	True	False
 OMIM:604574	FRRS1L	False	True	False
 OMIM:604575	ZNHIT2	False	True	False
 OMIM:604576	ERG28	False	True	False
@@ -16068,7 +16072,7 @@ OMIM:615200	PLEKHF1	False	True	False
 OMIM:615201	MIR1909	False	True	False
 OMIM:615202	MIR1915	False	True	False
 OMIM:615203	RHBDD2	False	True	False
-OMIM:615204	ATP5MD	False	True	False
+OMIM:615204	ATP5MK	False	True	False
 OMIM:615205	SPINK13	False	True	False
 OMIM:615208	PLEKHF2	False	True	False
 OMIM:615209	MIR149	False	True	False
@@ -16821,7 +16825,7 @@ OMIM:616581	KDM4E	False	True	False
 OMIM:616582	LSR	False	True	False
 OMIM:616584	SPATA31A7	False	True	False
 OMIM:616585	RSPRY1	False	True	False
-OMIM:616587	FAM118B	False	True	False
+OMIM:616587	SIRAL1	False	True	False
 OMIM:616588	DHFRL1	False	True	False
 OMIM:616590	ZBTB5	False	True	False
 OMIM:616591	ZBTB7C	False	True	False
@@ -17341,7 +17345,7 @@ OMIM:617469	AFG1L	False	True	False
 OMIM:617470	USPL1	False	True	False
 OMIM:617471	SERPINA12	False	True	False
 OMIM:617472	TNN	False	True	False
-OMIM:617473	ATP5L	False	True	False
+OMIM:617473	ATP5MG	False	True	False
 OMIM:617474	ZNF609	False	True	False
 OMIM:617476	CNKSR3	False	True	False
 OMIM:617477	ZNF324	False	True	False
@@ -19472,6 +19476,21 @@ OMIM:621534	FAM135B	False	True	False
 OMIM:621536	FAM174C	False	True	False
 OMIM:621537	CPS1IT1	False	True	False
 OMIM:621538	REX1BD	False	True	False
+OMIM:621540	OLFML2B	False	True	False
+OMIM:621541	OLFML1	False	True	False
+OMIM:621542	ARRDC2	False	True	False
+OMIM:621543	UBAP1L	False	True	False
+OMIM:621544	GPN2	False	True	False
+OMIM:621545	GPN3	False	True	False
+OMIM:621546	TTC22	False	True	False
+OMIM:621547	ZDHHC4	False	True	False
+OMIM:621549	SIRAL2	False	True	False
+OMIM:621550	TMEM39A	False	True	False
+OMIM:621551	TMEM39B	False	True	False
+OMIM:621553	GTPBP8	False	True	False
+OMIM:621554	GPATCH1	False	True	False
+OMIM:621555	TMCO4	False	True	False
+OMIM:621557	CALHM5	False	True	False
 OMIMPS:151623	Li-Fraumeni syndrome	False	True	False
 OMIMPS:608902	Drug metabolism, altered (select examples)	False	True	False
 OMIM:173500		False	True	True
@@ -20453,7 +20472,7 @@ OMIM:186580	blau syndrome	True	False	False
 OMIM:186700	syringomyelia, noncommunicating isolated	True	False	False
 OMIM:186850	tarsal coalition	True	False	False
 OMIM:186890	tear protein, anodal	True	False	False
-OMIM:187000	teeth, odd shapes of	True	False	False
+OMIM:187000	lobodontia	True	False	False
 OMIM:187260	telangiectasia, hereditary benign	True	False	False
 OMIM:187300	telangiectasia, hereditary hemorrhagic, type 1	True	False	False
 OMIM:187370	arthrogryposis, distal, type 10	True	False	False
@@ -27928,7 +27947,7 @@ OMIMPS:123700	Cutis laxa	True	False	False
 OMIMPS:124000	Mitochondrial complex III deficiency, nuclear type	True	False	False
 OMIMPS:124900	Deafness, autosomal dominant	True	False	False
 OMIMPS:125310	Cerebral arteriopathy with subcortical infarcts and leukoencephalopathy	True	False	False
-OMIMPS:125400	Dentin dysplasia, type I	True	False	False
+OMIMPS:125400	Dentin dysplasia	True	False	False
 OMIMPS:125850	Maturity-onset diabetes of the young	True	False	False
 OMIMPS:126200	Multiple sclerosis, susceptibility to	True	False	False
 OMIMPS:126800	Duane retraction syndrome	True	False	False
@@ -28484,6 +28503,7 @@ OMIM:102590		True	False	True
 OMIM:103470		True	False	True
 OMIM:134700		True	False	True
 OMIM:137560		True	False	True
+OMIM:140500		True	False	True
 OMIM:145410		True	False	True
 OMIM:146400		True	False	True
 OMIM:162020		True	False	True
@@ -28494,6 +28514,7 @@ OMIM:168850		True	False	True
 OMIM:175020		True	False	True
 OMIM:181515		True	False	True
 OMIM:209800		True	False	True
+OMIM:234750		True	False	True
 OMIM:242870		True	False	True
 OMIM:247440		True	False	True
 OMIM:252700		True	False	True

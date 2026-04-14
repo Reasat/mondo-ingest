@@ -17,7 +17,6 @@ MONDO:0001117	methemoglobinemia	skos:narrowMatch	ICD10CM:D74.8	Other methemoglob
 MONDO:0001143	paralytic strabismus	skos:narrowMatch	ICD10CM:H49.8	Other paralytic strabismus	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	paralytic strabismus	LEXMATCH
 MONDO:0001143	paralytic strabismus	skos:narrowMatch	ICD10CM:H49.88	Other paralytic strabismus	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	paralytic strabismus	LEXMATCH
 MONDO:0001150	hydrocephalus	skos:narrowMatch	ICD10CM:G91.8	Other hydrocephalus	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	hydrocephalus	LEXMATCH
-MONDO:0001175	immature cataract	skos:narrowMatch	ICD10CM:H25.09	Other age-related incipient cataract	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	water clefts	LEXMATCH
 MONDO:0001198	acquired thrombocytopenia	skos:narrowMatch	ICD10CM:D69.59	Other secondary thrombocytopenia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	secondary thrombocytopenia	LEXMATCH
 MONDO:0001200	secondary hypertension	skos:narrowMatch	ICD10CM:I15.8	Other secondary hypertension	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	secondary hypertension	LEXMATCH
 MONDO:0001214	acute conjunctivitis	skos:narrowMatch	ICD10CM:H10.2	Other acute conjunctivitis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	acute conjunctivitis	LEXMATCH
@@ -37,7 +36,6 @@ MONDO:0001493	chronic pulmonary heart disease	skos:narrowMatch	ICD10CM:I27.81	Co
 MONDO:0001515	corneal degeneration	skos:narrowMatch	ICD10CM:H18.49	Other corneal degeneration	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	corneal degeneration	LEXMATCH
 MONDO:0001529	pancytopenia	skos:narrowMatch	ICD10CM:D61.818	Other pancytopenia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	pancytopenia	LEXMATCH
 MONDO:0001549	hemolytic-uremic syndrome	skos:narrowMatch	ICD10CM:D59.39	Other hemolytic-uremic syndrome	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	hemolytic-uremic syndrome	LEXMATCH
-MONDO:0001557	olecranon bursitis	skos:narrowMatch	ICD10CM:M70.3	Other bursitis of elbow	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	bursitis of elbow	LEXMATCH
 MONDO:0001658	nontoxic goiter	skos:narrowMatch	ICD10CM:E04	Other nontoxic goiter	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	nontoxic goiter	LEXMATCH
 MONDO:0001658	nontoxic goiter	skos:narrowMatch	ICD10CM:E04	Other nontoxic goiter	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	nontoxic goiter	LEXMATCH
 MONDO:0001713	inherited aplastic anemia	skos:narrowMatch	ICD10CM:D61.09	Other constitutional aplastic anemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	constitutional aplastic anemia	LEXMATCH
@@ -59,14 +57,12 @@ MONDO:0002076	pneumothorax	skos:narrowMatch	ICD10CM:J93.83	Other pneumothorax	se
 MONDO:0002127	urethral stricture	skos:narrowMatch	ICD10CM:N35.8	Other urethral stricture	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	urethral stricture	LEXMATCH
 MONDO:0002127	urethral stricture	skos:narrowMatch	ICD10CM:N35.8	Other urethral stricture	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	urethral stricture	LEXMATCH
 MONDO:0002203	constipation disorder	skos:narrowMatch	ICD10CM:K59.09	Other constipation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	constipation	LEXMATCH
-MONDO:0002253	spondylosis	skos:narrowMatch	ICD10CM:M47.1	Other spondylosis with myelopathy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	spondylosis with myelopathy	LEXMATCH
 MONDO:0002253	spondylosis	skos:narrowMatch	ICD10CM:M47.8	Other spondylosis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	spondylosis	LEXMATCH
 MONDO:0002253	spondylosis	skos:narrowMatch	ICD10CM:M47.89	Other spondylosis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	spondylosis	LEXMATCH
 MONDO:0002304	protein S deficiency	skos:narrowMatch	ICD10CM:D68.59	Other primary thrombophilia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	protein s deficiency	LEXMATCH
 MONDO:0002304	protein S deficiency	skos:narrowMatch	ICD10CM:D68.59	Other primary thrombophilia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	protein s deficiency	LEXMATCH
 MONDO:0002305	thrombophilia	skos:narrowMatch	ICD10CM:D68.6	Other thrombophilia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	thrombophilia	LEXMATCH
 MONDO:0002305	thrombophilia	skos:narrowMatch	ICD10CM:D68.69	Other thrombophilia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	thrombophilia	LEXMATCH
-MONDO:0002443	bruxism	skos:narrowMatch	ICD10CM:F45.8	Other somatoform disorders	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	teeth grinding	LEXMATCH
 MONDO:0002492	acute kidney injury	skos:narrowMatch	ICD10CM:N17.8	Other acute kidney failure	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	acute kidney failure	LEXMATCH
 MONDO:0002552	vascular myelopathy	skos:narrowMatch	ICD10CM:G95.19	Other vascular myelopathies	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	vascular myelopathies	LEXMATCH
 MONDO:0002565	myelitis	skos:narrowMatch	ICD10CM:G04.89	Other myelitis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	myelitis	LEXMATCH
@@ -78,7 +74,6 @@ MONDO:0002738	acute transudative otitis media	skos:narrowMatch	ICD10CM:H65.1	Oth
 MONDO:0002738	acute transudative otitis media	skos:narrowMatch	ICD10CM:H65.19	Other acute nonsuppurative otitis media	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	acute nonsuppurative otitis media	LEXMATCH
 MONDO:0002815	acute myocarditis	skos:narrowMatch	ICD10CM:I40.8	Other acute myocarditis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	acute myocarditis	LEXMATCH
 MONDO:0002897	secondary syphilis	skos:narrowMatch	ICD10CM:A51.4	Other secondary syphilis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	secondary syphilis	LEXMATCH
-MONDO:0002984	reticulohistiocytic granuloma	skos:narrowMatch	ICD10CM:D76.3	Other histiocytosis syndromes	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	reticulohistiocytoma	LEXMATCH
 MONDO:0003009	hyperaldosteronism	skos:narrowMatch	ICD10CM:E26.8	Other hyperaldosteronism	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	hyperaldosteronism	LEXMATCH
 MONDO:0003009	hyperaldosteronism	skos:narrowMatch	ICD10CM:E26.89	Other hyperaldosteronism	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	hyperaldosteronism	LEXMATCH
 MONDO:0003061	benign muscle neoplasm	skos:narrowMatch	ICD10CM:D21	Other benign neoplasms of connective and other soft tissue	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	benign neoplasm of muscle	LEXMATCH
@@ -157,7 +152,6 @@ MONDO:0005129	cataract	skos:narrowMatch	ICD10CM:H26	Other cataract	semapv:Lexica
 MONDO:0005129	cataract	skos:narrowMatch	ICD10CM:H26	Other cataract	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	cataract	LEXMATCH
 MONDO:0005133	endometriosis	skos:narrowMatch	ICD10CM:N80.8	Other endometriosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	endometriosis	LEXMATCH
 MONDO:0005133	endometriosis	skos:narrowMatch	ICD10CM:N80.8	Other endometriosis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	endometriosis	LEXMATCH
-MONDO:0005155	cirrhosis of liver	skos:narrowMatch	ICD10CM:K74.69	Other cirrhosis of liver	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	cirrhosis of liver	LEXMATCH
 MONDO:0005155	cirrhosis of liver	skos:narrowMatch	ICD10CM:K74.69	Other cirrhosis of liver	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	cirrhosis of liver	LEXMATCH
 MONDO:0005201	restrictive cardiomyopathy	skos:narrowMatch	ICD10CM:I42.5	Other restrictive cardiomyopathy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	restrictive cardiomyopathy	LEXMATCH
 MONDO:0005201	restrictive cardiomyopathy	skos:narrowMatch	ICD10CM:I42.5	Other restrictive cardiomyopathy	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	restrictive cardiomyopathy	LEXMATCH
@@ -255,8 +249,8 @@ MONDO:0007329	cirrhosis, familial	skos:narrowMatch	ICD10CM:K74.69	Other cirrhosi
 MONDO:0007540	multiple endocrine neoplasia type 1	skos:narrowMatch	ICD10CM:E31.2	Multiple endocrine neoplasia [MEN] syndromes	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	multiple endocrine adenomatosis	LEXMATCH
 MONDO:0007738	spondyloepiphyseal dysplasia with congenital joint dislocations	skos:narrowMatch	ICD10CM:Q77.7	Spondyloepiphyseal dysplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	spondyloepiphyseal dysplasia	LEXMATCH
 MONDO:0007738	spondyloepiphyseal dysplasia with congenital joint dislocations	skos:narrowMatch	ICD10CM:Q77.7	Spondyloepiphyseal dysplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	rdfs:label	spondyloepiphyseal dysplasia	LEXMATCH
-MONDO:0007885	Legg-Calve-Perthes disease	skos:narrowMatch	ICD10CM:M91.8	Other juvenile osteochondrosis of hip and pelvis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	juvenile osteochondrosis of hip and pelvis	LEXMATCH
-MONDO:0007972	Meniere disease	skos:narrowMatch	ICD10CM:H81.39	Other peripheral vertigo	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	otogenic vertigo	LEXMATCH
+MONDO:0008114	obsessive-compulsive disorder	skos:narrowMatch	ICD10CM:F42.8	Other obsessive-compulsive disorder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	obsessive-compulsive disorder	LEXMATCH
+MONDO:0008114	obsessive-compulsive disorder	skos:narrowMatch	ICD10CM:F42.8	Other obsessive-compulsive disorder	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	obsessive-compulsive disorder	LEXMATCH
 MONDO:0008195	paramyotonia congenita of Von Eulenburg	skos:narrowMatch	ICD10CM:G71.19	Other specified myotonic disorders	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	paramyotonia congenita	LEXMATCH
 MONDO:0008244	piebaldism	skos:narrowMatch	ICD10CM:E70.39	Other specified albinism	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	piebaldism	LEXMATCH
 MONDO:0008244	piebaldism	skos:narrowMatch	ICD10CM:E70.39	Other specified albinism	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	piebaldism	LEXMATCH
@@ -340,7 +334,6 @@ MONDO:0016175	cutis laxa	skos:narrowMatch	ICD10CM:Q82.8	Other specified congenit
 MONDO:0016349	congenital hydrocephalus	skos:narrowMatch	ICD10CM:Q03.8	Other congenital hydrocephalus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	congenital hydrocephalus	LEXMATCH
 MONDO:0016349	congenital hydrocephalus	skos:narrowMatch	ICD10CM:Q03.8	Other congenital hydrocephalus	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	congenital hydrocephalus	LEXMATCH
 MONDO:0016620	primary hypertrophic osteoarthropathy	skos:narrowMatch	ICD10CM:M89.4	Other hypertrophic osteoarthropathy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	pachydermoperiostosis	LEXMATCH
-MONDO:0016971	limb-girdle muscular dystrophy	skos:narrowMatch	ICD10CM:G71.038	Other limb girdle muscular dystrophy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	limb girdle muscular dystrophy	LEXMATCH
 MONDO:0017304	ocular albinism	skos:narrowMatch	ICD10CM:E70.318	Other ocular albinism	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	ocular albinism	LEXMATCH
 MONDO:0017304	ocular albinism	skos:narrowMatch	ICD10CM:E70.318	Other ocular albinism	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	ocular albinism	LEXMATCH
 MONDO:0017572	tick-borne encephalitis	skos:narrowMatch	ICD10CM:A84.8	Other tick-borne viral encephalitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	tick-borne viral encephalitis	LEXMATCH
@@ -369,7 +362,6 @@ MONDO:0018947	centronuclear myopathy	skos:narrowMatch	ICD10CM:G71.228	Other cent
 MONDO:0018947	centronuclear myopathy	skos:narrowMatch	ICD10CM:G71.228	Other centronuclear myopathy	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	centronuclear myopathy	LEXMATCH
 MONDO:0018975	neurofibromatosis type 1	skos:narrowMatch	ICD10CM:Q85.0	Neurofibromatosis (nonmalignant)	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	neurofibromatosis	LEXMATCH
 MONDO:0018992	IgG4-related thyroid disease	skos:narrowMatch	ICD10CM:E06.5	Other chronic thyroiditis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	riedel thyroiditis	LEXMATCH
-MONDO:0019050	inherited hemoglobinopathy	skos:narrowMatch	ICD10CM:D58.2	Other hemoglobinopathies	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	hemoglobinopathies	LEXMATCH
 MONDO:0019065	amyloidosis	skos:narrowMatch	ICD10CM:E85.8	Other amyloidosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	amyloidosis	LEXMATCH
 MONDO:0019065	amyloidosis	skos:narrowMatch	ICD10CM:E85.8	Other amyloidosis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	amyloidosis	LEXMATCH
 MONDO:0019065	amyloidosis	skos:narrowMatch	ICD10CM:E85.89	Other amyloidosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	amyloidosis	LEXMATCH
@@ -391,7 +383,6 @@ MONDO:0019565	hereditary von Willebrand disease	skos:narrowMatch	ICD10CM:D68.0	V
 MONDO:0019565	hereditary von Willebrand disease	skos:narrowMatch	ICD10CM:D68.0	Von Willebrand disease	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	rdfs:label	von willebrand disorder	LEXMATCH
 MONDO:0019565	hereditary von Willebrand disease	skos:narrowMatch	ICD10CM:D68.09	Other von Willebrand disease	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	von willebrand disorder	LEXMATCH
 MONDO:0019565	hereditary von Willebrand disease	skos:narrowMatch	ICD10CM:D68.09	Other von Willebrand disease	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	rdfs:label	von willebrand disorder	LEXMATCH
-MONDO:0019565	hereditary von Willebrand disease	skos:narrowMatch	ICD10CM:D69.8	Other specified hemorrhagic conditions	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	vascular pseudohemophilia	LEXMATCH
 MONDO:0019737	thrombotic microangiopathy	skos:narrowMatch	ICD10CM:M31.19	Other thrombotic microangiopathy	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	thrombotic microangiopathy	LEXMATCH
 MONDO:0019952	congenital myopathy	skos:narrowMatch	ICD10CM:G71.29	Other congenital myopathy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasBroadSynonym	congenital myopathy	LEXMATCH
 MONDO:0019952	congenital myopathy	skos:narrowMatch	ICD10CM:G71.29	Other congenital myopathy	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasBroadSynonym	congenital myopathy	LEXMATCH

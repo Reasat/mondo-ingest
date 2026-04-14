@@ -158,7 +158,6 @@ MONDO:0003628	pulmonary valve disorder	MONDO:0002869	icd11.foundation:1146446025
 MONDO:0003632	endocervicitis	MONDO:0002345	icd11.foundation:803236221	icd11.foundation:1433247301	cervicitis
 MONDO:0003712	angiokeratoma of mibelli	MONDO:0003143	icd11.foundation:989688835	icd11.foundation:533651286	angiokeratoma
 MONDO:0003713	angiokeratoma circumscriptum	MONDO:0003143	icd11.foundation:225334653	icd11.foundation:533651286	angiokeratoma
-MONDO:0003749	esophageal disorder	MONDO:0004335	icd11.foundation:1594312948	icd11.foundation:1256772020	digestive system disorder
 MONDO:0003767	mitral valve disorder	MONDO:0002869	icd11.foundation:1997348476	icd11.foundation:1121431779	heart valve disorder
 MONDO:0003803	aortic valve disorder	MONDO:0002869	icd11.foundation:1609206873	icd11.foundation:1121431779	heart valve disorder
 MONDO:0003835	gastric cardia adenocarcinoma	MONDO:0005036	icd11.foundation:323129890	icd11.foundation:1855471719	gastric adenocarcinoma
@@ -456,7 +455,7 @@ MONDO:0010674	mucopolysaccharidosis type 2	MONDO:0019249	icd11.foundation:105627
 MONDO:0010680	X-linked Emery-Dreifuss muscular dystrophy	MONDO:0016830	icd11.foundation:516501338	icd11.foundation:749295636	Emery-Dreifuss muscular dystrophy
 MONDO:0010691	Norrie disease	MONDO:0020247	icd11.foundation:676214590	icd11.foundation:44221751	congenital vitreoretinal dysplasia
 MONDO:0010704	otopalatodigital syndrome type 1	MONDO:0019027	icd11.foundation:1442049882	icd11.foundation:1506946342	otopalatodigital syndrome
-MONDO:0010714	Pelizeaus-Merzbacher spectrum disorder	MONDO:0019046	icd11.foundation:1313582105	icd11.foundation:468040251	leukodystrophy
+MONDO:0010714	Pelizaeus-Merzbacher spectrum disorder	MONDO:0019046	icd11.foundation:1313582105	icd11.foundation:468040251	leukodystrophy
 MONDO:0010725	X-linked retinoschisis	MONDO:0004579	icd11.foundation:2074506458	icd11.foundation:1118046584	retinoschisis
 MONDO:0010731	Simpson-Golabi-Behmel syndrome	MONDO:0019716	icd11.foundation:181316558	icd11.foundation:2113355045	overgrowth syndrome
 MONDO:0010738	spondylometaphyseal dysplasia, Golden type	MONDO:0016763	icd11.foundation:840695879	icd11.foundation:181781948	spondylometaphyseal dysplasia
@@ -727,11 +726,11 @@ MONDO:0017148	heritable pulmonary arterial hypertension	MONDO:0015924	icd11.foun
 MONDO:0017209	infectious posterior uveitis	MONDO:0001280	icd11.foundation:1722408748	icd11.foundation:1884626736	choroiditis
 MONDO:0017211	infectious panuveitis	MONDO:0017255	icd11.foundation:1709165622	icd11.foundation:1125547814	panuveitis
 MONDO:0017219	microform holoprosencephaly	MONDO:0016296	icd11.foundation:44293173	icd11.foundation:1712699129	holoprosencephaly
-MONDO:0017221	Pelizaeus-Merzbacher disease, connatal form	MONDO:0010714	icd11.foundation:1118374715	icd11.foundation:1313582105	Pelizeaus-Merzbacher spectrum disorder
-MONDO:0017222	Pelizaeus-Merzbacher disease, classic form	MONDO:0010714	icd11.foundation:1613420896	icd11.foundation:1313582105	Pelizeaus-Merzbacher spectrum disorder
-MONDO:0017223	Pelizaeus-Merzbacher disease, transitional form	MONDO:0010714	icd11.foundation:1471805474	icd11.foundation:1313582105	Pelizeaus-Merzbacher spectrum disorder
-MONDO:0017224	Pelizaeus-Merzbacher disease in female carriers	MONDO:0010714	icd11.foundation:1751389523	icd11.foundation:1313582105	Pelizeaus-Merzbacher spectrum disorder
-MONDO:0017225	null syndrome	MONDO:0010714	icd11.foundation:1663254692	icd11.foundation:1313582105	Pelizeaus-Merzbacher spectrum disorder
+MONDO:0017221	Pelizaeus-Merzbacher disease, connatal form	MONDO:0010714	icd11.foundation:1118374715	icd11.foundation:1313582105	Pelizaeus-Merzbacher spectrum disorder
+MONDO:0017222	Pelizaeus-Merzbacher disease, classic form	MONDO:0010714	icd11.foundation:1613420896	icd11.foundation:1313582105	Pelizaeus-Merzbacher spectrum disorder
+MONDO:0017223	Pelizaeus-Merzbacher disease, transitional form	MONDO:0010714	icd11.foundation:1471805474	icd11.foundation:1313582105	Pelizaeus-Merzbacher spectrum disorder
+MONDO:0017224	Pelizaeus-Merzbacher disease in female carriers	MONDO:0010714	icd11.foundation:1751389523	icd11.foundation:1313582105	Pelizaeus-Merzbacher spectrum disorder
+MONDO:0017225	null syndrome	MONDO:0010714	icd11.foundation:1663254692	icd11.foundation:1313582105	Pelizaeus-Merzbacher spectrum disorder
 MONDO:0017243	bullous diffuse cutaneous mastocytosis	MONDO:0019315	icd11.foundation:227748867	icd11.foundation:193128939	diffuse cutaneous mastocytosis
 MONDO:0017248	congenital pulmonary airway malformation type 0	MONDO:0016580	icd11.foundation:1763273166	icd11.foundation:2091138945	congenital pulmonary airway malformation
 MONDO:0017249	congenital pulmonary airway malformation type 1	MONDO:0016580	icd11.foundation:1455719613	icd11.foundation:2091138945	congenital pulmonary airway malformation
@@ -882,7 +881,7 @@ MONDO:0018925	familial or sporadic hemiplegic migraine	MONDO:0005475	icd11.found
 MONDO:0018937	mucopolysaccharidosis type 3	MONDO:0019249	icd11.foundation:1477250013	icd11.foundation:1596128696	mucopolysaccharidosis
 MONDO:0018938	mucopolysaccharidosis type 4	MONDO:0019249	icd11.foundation:2078241550	icd11.foundation:1596128696	mucopolysaccharidosis
 MONDO:0018941	furuncular myiasis	MONDO:0020568	icd11.foundation:1861376017	icd11.foundation:1342682193	cutaneous myiasis
-MONDO:0018945	McLeod neuroacanthocytosis syndrome	MONDO:0016987	icd11.foundation:1749275115	icd11.foundation:1012724153	neuroacanthocytosis
+MONDO:0018945	XK-related neurodegenerative disease	MONDO:0016987	icd11.foundation:1749275115	icd11.foundation:1012724153	neuroacanthocytosis
 MONDO:0018978	IgG4-related mediastinitis	MONDO:0017287	icd11.foundation:791747341	icd11.foundation:99883782	immunoglobulin G4-related sclerosing disease
 MONDO:0018982	Niemann-Pick disease type C	MONDO:0001982	icd11.foundation:812702125	icd11.foundation:398872780	Niemann-Pick disease
 MONDO:0018992	IgG4-related thyroid disease	MONDO:0017287	icd11.foundation:1357889668	icd11.foundation:99883782	immunoglobulin G4-related sclerosing disease
