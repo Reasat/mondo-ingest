@@ -52,6 +52,7 @@ Create the repo structure. Confirm the directory name with the user first.
 │   └── .env                    # gitignored
 ├── linkml/
 │   └── mondo_source_schema.yaml
+├── reports/                    # OWL sources only — output of `make reports` (committed)
 ├── scripts/
 │   ├── acquire.py              # fetch/download source (all source types)
 │   ├── transform.py            # OWL sources: ROBOT-output OWL → YAML
@@ -63,7 +64,10 @@ Create the repo structure. Confirm the directory name with the user first.
 ├── src/<source_name>/
 │   └── datamodel.py            # generated from schema
 ├── tmp/                        # gitignored
-├── justfile
+├── Makefile                    # OWL sources: generic pipeline (sourced from project.Makefile)
+├── project.Makefile            # OWL sources: source-specific rules and download URLs
+├── odk.sh                      # OWL sources: Docker wrapper (./odk.sh make all)
+├── justfile                    # non-OWL sources
 ├── pyproject.toml
 ├── README.md
 └── uv.lock
@@ -79,9 +83,11 @@ Note: exact script filenames (`transform.py` vs `extract.py`) are confirmed duri
 env/.env
 
 # Build artefacts — uploaded as GitHub Release assets
+# OWL sources: <source>.owl (ROBOT-processed) and <source>.owl (final LinkML-derived, top-level)
+# Non-OWL sources: <source>.linkml.yaml and <source>.linkml.owl
 <source>.owl
-<source>_from_linkml.owl
 <source>.linkml.yaml
+<source>.linkml.owl
 
 # Build intermediates
 tmp/
@@ -97,12 +103,51 @@ __pycache__/
 
 **`pyproject.toml`** dependencies: `linkml`, `pydantic`, `PyYAML`, `rdflib`. Add `linkml-owl` for non-OWL sources only. Add `pyoxigraph` if SPARQL querying inside the Python script is needed.
 
-**`justfile`** targets to generate:
+**Build tool differs by source type:**
+
+**OWL sources — `Makefile` + `project.Makefile`:**
+
+Use a two-file split. The generic `Makefile` contains the reusable pipeline (always sourced via `include project.Makefile` at the bottom). The `project.Makefile` contains the source-specific download URL and ROBOT preprocessing chain. All file paths derive from a single `SOURCE ?= <source-name>` variable. Key derived variables:
+
+```makefile
+SOURCE      ?= <source-name>
+RAW_OWL     := tmp/$(SOURCE)_raw.owl
+MIRROR_OWL  := tmp/mirror-$(SOURCE).owl
+OUTPUT_OWL  := tmp/transformed-$(SOURCE).owl   # ROBOT-processed intermediate
+OUTPUT_OWL_LINKML := $(SOURCE).owl              # final LinkML-derived OWL (top-level)
+YAML_OUT    := $(SOURCE).yaml
+MIR         ?= true   # set MIR=false to skip re-downloading: make MIR=false build
+```
+
+Core `Makefile` targets:
+- `make all` — `build` + `reports`
+- `make mirror` — download raw source OWL to `tmp/`
+- `make build` — full pipeline: ROBOT preprocessing → transform → validate → linkml-owl
+- `make reports` — `robot measure` (JSON metrics) + SPARQL count queries across mirror/transformed/final OWL
+- `make robot-plugins` — copies ROBOT plugin JARs from `/tools/robot-plugins/` (ODK) or local `plugins/` into `tmp/plugins/`; exports `ROBOT_PLUGINS_DIRECTORY`
+- `make dependencies` — installs `linkml-owl==0.5.0` plus bleeding-edge `linkml` and `linkml-runtime` from the `linkml/linkml` monorepo (required for the inlining bug fix — see Known Issues)
+- `make update-schema` — downloads schema from `SCHEMA_URL`
+- `make clean` — removes `tmp/`, `reports/`, build artefacts
+- `make help` — prints usage
+
+All Python commands run as bare `python` (no `uv run` wrapper) because the pipeline runs inside the ODK Docker container where dependencies are pre-installed via `make dependencies`.
+
+**`odk.sh`** — Docker wrapper for local execution:
+```sh
+#!/bin/sh
+IMAGE=${IMAGE:-odkfull}
+docker run -v "$PWD/:/work" -w /work \
+  -e ROBOT_JAVA_ARGS="-Xmx20G" -e JAVA_OPTS="-Xmx20G" \
+  --rm -ti obolibrary/$IMAGE "$@"
+```
+Usage: `./odk.sh make all` or `./odk.sh make MIR=false build`.
+
+**Non-OWL sources — `justfile`:**
 - `just acquire` — fetch source
-- `just transform` or `just extract` — source → `source.linkml.yml` (name confirmed in Phase 4)
-- `just validate` — `python -m linkml.validator.cli -s linkml/mondo_source_schema.yaml -C OntologyDocument source.linkml.yml`
+- `just extract` — source → `source.linkml.yaml`
+- `just validate` — `python -m linkml.validator.cli -s linkml/mondo_source_schema.yaml -C OntologyDocument source.linkml.yaml`
 - `just build` — full pipeline end-to-end
-- `just iterate` — transform/extract → validate loop only (tight feedback, skips acquire)
+- `just iterate` — extract → validate loop only (tight feedback, skips acquire)
 - `just release` — tag and upload
 
 If auth is needed, scaffold `env/.env.example` and load credentials from `.env` in `acquire.py`. Load with `load_dotenv()` first, then `os.getenv()` — this means CI can pass credentials as environment variables without needing the `.env` file present.
@@ -143,18 +188,22 @@ For **live/latest endpoints** (no explicit version in the URL), scaffold a `reso
 ## Run
 
 ```bash
-make acquire       # or: just acquire
-make build         # ROBOT preprocessing (OWL sources only)
-make build-release # YAML + validate + derived OWL
+# OWL sources (run inside ODK Docker via odk.sh, or locally with ROBOT installed):
+./odk.sh make all          # full pipeline: mirror + build + reports
+./odk.sh make MIR=false build   # skip re-downloading
+
+# Non-OWL sources:
+just acquire
+just build
 ```
 
 ## Outputs
 
 | File | Description |
 |---|---|
-| `<source>.linkml.yaml` | Primary artefact for Mondo ingest |
-| `<source>.owl` | ROBOT-preprocessed OWL (OWL sources only) |
-| `<source>_from_linkml.owl` | LinkML-derived OWL |
+| `<source>.yaml` | Primary artefact for Mondo ingest |
+| `<source>.owl` | Final OWL (LinkML-derived; OWL sources also have `tmp/transformed-<source>.owl` as ROBOT intermediate) |
+| `reports/` | QC metrics and class counts (OWL sources only) |
 
 ## Docs
 
@@ -171,11 +220,13 @@ If `acquire` is slow (e.g. API traversal), add a note in the `make acquire` line
 
 ## Phase 3: Schema and datamodel
 
-Copy `mondo_source_schema.yaml` into `linkml/`. The base schema below is the correct working template — do not simplify it. It has been validated against `linkml-owl` and produces correct OWL output.
+Copy `mondo_source_schema.yaml` into `linkml/`. The base schema below is the correct working template (v0.4.0) — do not simplify it. It has been validated against `linkml-owl` and produces correct OWL output.
 
 ```yaml
 id: https://w3id.org/monarch-initiative/mondo-source-schema
 name: mondo_source_schema
+version: 0.4.0
+
 prefixes:
   linkml:    https://w3id.org/linkml/
   mondo_src: https://w3id.org/monarch-initiative/mondo-source-schema/
@@ -185,6 +236,7 @@ prefixes:
   obo:       http://purl.obolibrary.org/obo/
   oboInOwl:  http://www.geneontology.org/formats/oboInOwl#
   owl:       http://www.w3.org/2002/07/owl#
+  MONDO:     http://purl.obolibrary.org/obo/mondo#
   # ADD source-specific prefix here, e.g.:
   # ICD10WHO: https://icd.who.int/browse10/2019/en#/
   # Orphanet: http://www.orpha.net/ORDO/Orphanet_
@@ -194,6 +246,23 @@ imports:
 
 default_prefix: mondo_src
 default_range: string
+
+
+enums:
+
+  SynonymTypeEnum:
+    description: Types of synonyms used in Mondo source ingests.
+    permissible_values:
+      omim_included:
+        meaning: MONDO:omim_included
+      generated_from_label:
+        meaning: MONDO:GENERATED_FROM_LABEL
+      generated:
+        meaning: MONDO:GENERATED
+      omim_formerly:
+        meaning: MONDO:omim_formerly
+      abbreviation:
+        meaning: MONDO:ABBREVIATION
 
 
 classes:
@@ -206,6 +275,12 @@ classes:
       - version
       - terms
 
+  Synonym:
+    description: A synonym value with an optional type annotation.
+    slots:
+      - synonym_text
+      - synonym_type
+
   OntologyTerm:
     class_uri: owl:Class
     slots:
@@ -216,9 +291,36 @@ classes:
       - related_synonyms
       - narrow_synonyms
       - broad_synonyms
+      - skos_exact_match
       - parents
-      - is_root
       - deprecated
+    # is_root is computed internally in transform.py (to decide whether a term has parents)
+    # but is NEVER written to YAML or declared in the schema — it would emit spurious OWL.
+    slot_usage:
+      exact_synonyms:
+        annotations:
+          owl.template: |-
+            {% for s in exact_synonyms %}
+            AnnotationAssertion({% if s.synonym_type %}Annotation(oboInOwl:hasSynonymType {{s.synonym_type.meaning}}) {% endif %}oboInOwl:hasExactSynonym {{id}} "{{s.synonym_text|replace('"', '\\"')}}")
+            {% endfor %}
+      related_synonyms:
+        annotations:
+          owl.template: |-
+            {% for s in related_synonyms %}
+            AnnotationAssertion({% if s.synonym_type %}Annotation(oboInOwl:hasSynonymType {{s.synonym_type.meaning}}) {% endif %}oboInOwl:hasRelatedSynonym {{id}} "{{s.synonym_text|replace('"', '\\"')}}")
+            {% endfor %}
+      narrow_synonyms:
+        annotations:
+          owl.template: |-
+            {% for s in narrow_synonyms %}
+            AnnotationAssertion({% if s.synonym_type %}Annotation(oboInOwl:hasSynonymType {{s.synonym_type.meaning}}) {% endif %}oboInOwl:hasNarrowSynonym {{id}} "{{s.synonym_text|replace('"', '\\"')}}")
+            {% endfor %}
+      broad_synonyms:
+        annotations:
+          owl.template: |-
+            {% for s in broad_synonyms %}
+            AnnotationAssertion({% if s.synonym_type %}Annotation(oboInOwl:hasSynonymType {{s.synonym_type.meaning}}) {% endif %}oboInOwl:hasBroadSynonym {{id}} "{{s.synonym_text|replace('"', '\\"')}}")
+            {% endfor %}
 
 
 slots:
@@ -236,6 +338,12 @@ slots:
     multivalued: true
     inlined_as_list: true
     required: true
+
+  synonym_text:
+    required: true
+
+  synonym_type:
+    range: SynonymTypeEnum
 
   id:
     identifier: true
@@ -257,24 +365,31 @@ slots:
   exact_synonyms:
     slot_uri: oboInOwl:hasExactSynonym
     multivalued: true
-    annotations:
-      owl: AnnotationAssertion
+    range: Synonym
+    inlined_as_list: true
 
   related_synonyms:
     slot_uri: oboInOwl:hasRelatedSynonym
     multivalued: true
-    annotations:
-      owl: AnnotationAssertion
+    range: Synonym
+    inlined_as_list: true
 
   narrow_synonyms:
     slot_uri: oboInOwl:hasNarrowSynonym
     multivalued: true
-    annotations:
-      owl: AnnotationAssertion
+    range: Synonym
+    inlined_as_list: true
 
   broad_synonyms:
     slot_uri: oboInOwl:hasBroadSynonym
     multivalued: true
+    range: Synonym
+    inlined_as_list: true
+
+  skos_exact_match:
+    slot_uri: skos:exactMatch
+    multivalued: true
+    range: uriorcurie
     annotations:
       owl: AnnotationAssertion
 
@@ -285,17 +400,43 @@ slots:
     annotations:
       owl: SubClassOf          # SubClassOf, not AnnotationAssertion
 
-  is_root:
-    range: boolean
-    ifabsent: "false"
-
   deprecated:
     slot_uri: owl:deprecated
     range: boolean
-    ifabsent: "false"
+    # NO ifabsent here — ifabsent: "false" emits owl:deprecated false on every non-deprecated term
     annotations:
       owl: AnnotationAssertion
 ```
+
+**Adding object property slots (OWL sources with RO/BFO restrictions):**
+
+If the source uses OWL object property restrictions (e.g. ORDO uses part-of and material-basis relations), add these to `OntologyTerm.slots` and the top-level `slots:` block. Object properties use `range: OntologyTerm` and `owl: ObjectSomeValuesFrom` — not `AnnotationAssertion`:
+
+```yaml
+# In OntologyTerm slots: list
+      - has_material_basis_in_germline_mutation_in
+      - has_material_basis_in_somatic_mutation_in
+      - has_material_basis_in
+      - part_of
+      - has_part
+
+# In top-level slots:
+  has_material_basis_in_germline_mutation_in:
+    slot_uri: RO:0004001
+    multivalued: true
+    range: OntologyTerm
+    annotations:
+      owl: ObjectSomeValuesFrom
+
+  part_of:
+    slot_uri: BFO:0000050
+    multivalued: true
+    range: OntologyTerm
+    annotations:
+      owl: ObjectSomeValuesFrom
+```
+
+Add `RO: http://purl.obolibrary.org/obo/RO_` and `BFO: http://purl.obolibrary.org/obo/BFO_` to `prefixes:` when these slots are used.
 
 **Critical `linkml-owl` rules — violations produce a silent empty OWL file (no error):**
 1. **Use top-level `slots:`, not inline `attributes:`** — `linkml-owl` only emits axioms for slots declared at the top level with `annotations: owl:`.
@@ -303,7 +444,10 @@ slots:
 3. **`parents` must use `annotations: owl: SubClassOf`** — not `AnnotationAssertion`.
 4. **`id` must have `range: uriorcurie`** — plain `string` prevents `linkml-owl` from resolving CURIEs to IRIs. All class declarations will be missing.
 5. **The source IRI namespace must be declared in `prefixes:`** — if `ICD10WHO:A00.0` is an `id` value but `ICD10WHO:` is not in the prefix map, `linkml-owl` cannot expand it and silently skips the class.
-6. **When adding source-specific extra slots**, always include `annotations: owl: AnnotationAssertion` on them too. The pattern is invariant across sources.
+6. **When adding source-specific extra slots**, always include `annotations: owl: AnnotationAssertion` (or `owl: ObjectSomeValuesFrom` for object properties) on them too.
+7. **Do not add `ifabsent: "false"` to the `deprecated` slot.** This causes `owl:deprecated false` to be emitted as an annotation axiom on every non-deprecated term, polluting the output OWL. Leave `deprecated` without any `ifabsent`.
+8. **`is_root` must never appear in the schema or YAML output.** It is internal state in `transform.py` (used to decide whether a term has parents). If it appears in the schema, `linkml-owl` emits it as a spurious annotation on every root term.
+9. **Synonym slots must use `range: Synonym` + `inlined_as_list: true` + `owl.template` in `OntologyTerm.slot_usage`.** The older pattern of `multivalued: true` plain strings with `annotations: owl: AnnotationAssertion` is incompatible with synonym type annotation. `linkml-owl`'s `AnnotationAssertion` mode cannot reach into inlined objects, so the Jinja `owl.template` is required. Transform scripts must emit synonyms as objects — `{"synonym_text": "..."}` — not plain strings.
 
 **Diagnosing a silent failure:** if `linkml-owl` produces a file under ~1 KB containing only the ontology header and zero `AnnotationAssertion` lines, one of the above rules has been violated. Check them in order.
 
@@ -355,10 +499,19 @@ For OWL sources, look for `rdfs:label`. For JSON, identify the name field.
 >
 > Should I include obsolete terms in the output?
 
+**4.5b — Non-disease term exclusion:**
+> Some sources include top-level grouping nodes whose direct children are not diseases — they are gene/locus type classifications, administrative groupings, or metadata artefacts (e.g. ORDO's `Orphanet_C010` "genetic material" parent, whose children include `gene with protein product`, `non coding RNA`, `disorder-associated locus`). These terms are incorrectly typed as `owl:Class` in the source OWL but must not appear as disease classes in the output.
+>
+> Ask: are there any top-level grouping terms in this source whose subtrees should be excluded from the ingest? If so, build an exclusion set in `transform.py` and apply it both when collecting terms and when collecting parents (so no retained term references an excluded term via `rdfs:subClassOf`).
+
 **4.6 — Cross-references and mappings:**
 > Does the source contain cross-references to other ontologies (e.g. NCI, UMLS, OMIM)?
 >
-> These can be included in the YAML output or published separately as an SSSOM file. OncoTree `externalReferences` maps to `skos:exactMatch` in the output OWL.
+> If so, do **not** carry them through as `oboInOwl:hasDbXref` — that predicate should not appear in the final OWL. Instead, collect them into `skos_exact_match` (the `skos:exactMatch` slot in the schema). This applies to both `oboInOwl:hasDbXref` values and source-internal notation codes (e.g. ORPHA codes from `skos:notation`).
+>
+> In `transform.py`, merge all xrefs into `skos_exact_match` after normalising their CURIE prefixes. The `sparql/fix_xref_prefixes.ru` SPARQL update (see Phase 4.8) normalises prefixes on the OWL side before extraction; the Python side should deduplicate and sort the result.
+>
+> Mappings may additionally be published as an SSSOM file if the project requires it.
 
 **4.7 — IRI namespace and CURIE scheme:**
 > What IRI namespace does the source use for its class identifiers?
@@ -377,6 +530,30 @@ Run a SPARQL probe. Report any of these patterns and ask for confirmation before
 | part-of restrictions instead of subClassOf | ORDO | SPARQL rewrite before extraction |
 | illegal punning | OMIM | SPARQL fix before extraction |
 | nested annotation reification | ORDO | SPARQL fix before extraction |
+| Non-standard CURIE prefixes in `hasDbXref` | ORDO, many sources | `sparql/fix_xref_prefixes.ru` (include by default) |
+
+**`sparql/fix_xref_prefixes.ru` — include for every OWL source.** This file is ported from `mondo-ingest` and normalises the most common bad CURIE prefixes in `oboInOwl:hasDbXref` values before the Python transform reads them:
+
+```sparql
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+
+DELETE { ?s oboInOwl:hasDbXref ?old }
+INSERT { ?s oboInOwl:hasDbXref ?new }
+WHERE {
+  ?s oboInOwl:hasDbXref ?old .
+  BIND(
+    IF(STRSTARTS(STR(?old), "ICD-11:"),  CONCAT("ICD11:",   SUBSTR(STR(?old), 8)),
+    IF(STRSTARTS(STR(?old), "ICD-10:"),  CONCAT("ICD10:",   SUBSTR(STR(?old), 8)),
+    IF(STRSTARTS(STR(?old), "MeSH:"),    CONCAT("MESH:",    SUBSTR(STR(?old), 6)),
+    IF(STRSTARTS(STR(?old), "OMIM:PS"),  CONCAT("OMIMPS:",  SUBSTR(STR(?old), 8)),
+       STR(?old)))))
+    AS ?new
+  )
+  FILTER(?old != ?new)
+}
+```
+
+Also strip non-breaking spaces (`U+00A0`) from xref values if the source is known to emit them. Apply this update in the `project.Makefile` ROBOT chain before the property filter step.
 
 For non-OWL sources, skip this step entirely.
 
@@ -394,25 +571,37 @@ The pipeline differs by source type. Confirm the approach with the user before w
 
 ### 5a — OWL sources: ROBOT preprocessing + `transform.py`
 
-OWL sources go through two stages. Stage 1 is ROBOT (invoked from `justfile`); Stage 2 is Python.
+OWL sources go through two stages. Stage 1 is ROBOT (invoked from `Makefile`); Stage 2 is Python.
 
-**Stage 1 — ROBOT (via `justfile`):**
+**Stage 1 — ROBOT (via `Makefile`):**
 
 ```
-just mirror   → robot merge -i raw.owl odk:normalize → tmp/mirror.owl
-just build    → robot merge -i tmp/mirror.owl
-                  query --update sparql/fix_*.ru        (structural fixes)
+make mirror   → robot merge -i tmp/<source>_raw.owl odk:normalize → tmp/mirror-<source>.owl
+make build    → robot merge -i tmp/mirror-<source>.owl
+                  remove --select imports
+                  rename --mappings config/property-map.sssom.tsv
+                  query --update sparql/fix_xref_prefixes.ru     (always include)
+                  query --update sparql/fix_*.ru                 (source-specific fixes)
                   query --update sparql/exact_syn_from_label.ru  (if needed)
                   remove -T config/properties.txt --select complement --select properties --trim true
                   annotate --ontology-iri <IRI> --version-iri <VERSION_IRI>
-                → source.owl                            ← released OWL artefact
+                → tmp/transformed-<source>.owl          ← ROBOT intermediate (not the release artefact)
+              then Python transform → <source>.yaml
+              then linkml-owl → <source>.owl            ← released OWL artefact (top-level)
 ```
 
-SPARQL update files (`sparql/*.ru`) handle any structural issues identified in Phase 4.7. The property allowlist (`config/properties.txt`) must always include `rdfs:label` and `owl:deprecated` at minimum.
+**Output file naming — important:**
+- `tmp/transformed-<source>.owl` — ROBOT-preprocessed intermediate; used as input to `transform.py`
+- `<source>.owl` — final OWL derived by `linkml-owl` from the YAML; this is the top-level release artefact
+- `<source>.yaml` — primary YAML artefact for Mondo ingest
+
+SPARQL update files (`sparql/*.ru`) handle structural issues identified in Phase 4.8. The property allowlist (`config/properties.txt`) must always include `rdfs:label` and `owl:deprecated` at minimum. The `sparql/fix_xref_prefixes.ru` file (see Phase 5a–SPARQL below) should be included for every OWL source.
+
+The source-specific ROBOT preprocessing chain (download URL, SPARQL file list, `robot` invocation) lives in `project.Makefile`, not the generic `Makefile`.
 
 **Stage 2 — `scripts/transform.py`:**
 
-Reads the ROBOT-output `source.owl` (not the raw acquired file) using rdflib. Maps OWL predicates to schema slots and writes `source.linkml.yml`.
+Reads the ROBOT-output `tmp/transformed-<source>.owl` (not the raw acquired file or the mirror) using rdflib. Maps OWL predicates to schema slots and writes `<source>.yaml`.
 
 Show the user a sketch and confirm field mappings before writing the full implementation:
 
@@ -427,9 +616,20 @@ def extract_terms(g: Graph) -> list[dict]:
         label = g.value(URIRef(iri), RDFS.label)
         if label is None:
             continue
-        # map further slots: definition, synonyms, parents ...
-        yield {"id": curie(iri), "label": str(label), ...}
+        exact_syns = [
+            {"synonym_text": str(o).strip()}
+            for o in g.objects(URIRef(iri), OBOINOWL.hasExactSynonym)
+            if str(o).strip()
+        ]
+        # map further slots: definition, parents, skos_exact_match ...
+        # is_root is computed here (no parents → root) but NEVER written to the output dict
+        yield {"id": curie(iri), "label": str(label), "exact_synonyms": exact_syns, ...}
 ```
+
+Key rules for `transform.py`:
+- **Synonyms are objects**, not plain strings: `{"synonym_text": "..."}` or `{"synonym_text": "...", "synonym_type": "abbreviation"}`. Plain strings will fail schema validation.
+- **`is_root` is internal only.** Compute it to decide whether `parents` is empty, but never write it to the output dict.
+- **Xrefs → `skos_exact_match`.** Collect `oboInOwl:hasDbXref` values (and any source notation codes) and merge them into `skos_exact_match` as a list of CURIEs. Do not emit a `database_cross_references` key.
 
 ---
 
@@ -445,11 +645,12 @@ from src.<source>.datamodel import OntologyDocument, OntologyTerm
 def extract(data) -> OntologyDocument:
     terms = []
     for item in data:
+        has_parent = bool(item.get("parent"))
         terms.append(OntologyTerm(
             id=f"PREFIX:{item['code']}",
             label=item["name"],
-            parents=[f"PREFIX:{item['parent']}"] if item.get("parent") else [],
-            is_root=not bool(item.get("parent")),
+            parents=[f"PREFIX:{item['parent']}"] if has_parent else [],
+            # is_root is intentionally NOT set — compute internally, never write to output
         ))
     return OntologyDocument(title="Source", terms=terms)
 ```
@@ -461,6 +662,15 @@ For sources with revocations (OncoTree-style), implement a second pass for obsol
 **Robustness rules (apply to both paths):**
 - Always strip and skip blank/whitespace-only literal values before adding them to list slots. `linkml-owl` raises `ConstructorError: Empty list elements are not allowed` if a list contains an empty string. Use `val = str(o).strip(); if val: out.append(val)` in every literal-collecting helper.
 - When writing SPARQL that filters on `owl:deprecated`, use `FILTER(str(?dep) = "true")` rather than `?cls owl:deprecated true`. Some sources (including ORDO) serialise the deprecated flag as an untyped plain string literal `"true"` rather than `"true"^^xsd:boolean`. The boolean keyword in SPARQL does not match plain literals.
+- **Custom YAML dumper for special characters.** Synonym text (and other string values) can contain `,`, `:`, `{`, or `}`. Standard `yaml.dump` may emit these unquoted, causing downstream parsers to misread the value. Implement a `yaml.Dumper` subclass that quotes strings containing these characters, and pass it to `yaml.dump(..., Dumper=QuotingDumper)`.
+- **`linkml-runtime` inlining bug with commas.** There is an active bug in `linkml_runtime._normalize_inlined` (`yamlutils.py`) where string values containing commas in `inlined_as_list` slots (i.e. synonym text with commas) cause a `ValueError` during key parsing. The workaround is to install `linkml-runtime` from the `main` branch of the `linkml/linkml` monorepo. Add this to the `dependencies` Makefile target:
+  ```makefile
+  dependencies:
+      pip install --quiet --break-system-packages linkml-owl==0.5.0 \
+          "linkml @ git+https://github.com/linkml/linkml.git@main#subdirectory=packages/linkml" \
+          "linkml-runtime @ git+https://github.com/linkml/linkml.git@main#subdirectory=packages/linkml_runtime"
+  ```
+  Document this in `docs/report.md` for every new repo until the upstream bug is fixed.
 
 ---
 
@@ -560,12 +770,14 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
 
-Substitute the actual output filenames for `source.linkml.yml` / `source.linkml.owl`. Released artefacts differ by source type:
+Substitute the actual output filenames. Released artefacts differ by source type:
 
 | Source type | Released YAML | Released OWL |
 |---|---|---|
-| OWL | `source.linkml.yml` | `source.owl` (ROBOT-processed) |
-| Non-OWL | `source.linkml.yml` | `source.linkml.owl` (linkml-owl derived) |
+| OWL | `<source>.yaml` | `<source>.owl` (final LinkML-derived OWL, top-level) |
+| Non-OWL | `<source>.linkml.yaml` | `<source>.linkml.owl` (linkml-owl derived) |
+
+Note: for OWL sources, the ROBOT-preprocessed intermediate (`tmp/transformed-<source>.owl`) is not released — it lives in `tmp/` which is gitignored.
 
 **`.github/workflows/build.yml`**
 
