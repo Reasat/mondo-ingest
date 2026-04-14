@@ -83,9 +83,10 @@ Note: exact script filenames (`transform.py` vs `extract.py`) are confirmed duri
 env/.env
 
 # Build artefacts — uploaded as GitHub Release assets
-# OWL sources: <source>.owl (ROBOT-processed) and <source>.owl (final LinkML-derived, top-level)
+# OWL sources: <source>.yaml (YAML) and <source>.owl (final LinkML-derived OWL)
 # Non-OWL sources: <source>.linkml.yaml and <source>.linkml.owl
 <source>.owl
+<source>.yaml
 <source>.linkml.yaml
 <source>.linkml.owl
 
@@ -101,7 +102,7 @@ __pycache__/
 .venv/
 ```
 
-**`pyproject.toml`** dependencies: `linkml`, `pydantic`, `PyYAML`, `rdflib`. Add `linkml-owl` for non-OWL sources only. Add `pyoxigraph` if SPARQL querying inside the Python script is needed.
+**`pyproject.toml`** dependencies: `linkml`, `pydantic`, `PyYAML`, `rdflib`. Add `linkml-owl` for all source types — OWL sources call it via `make build` to derive the final `<source>.owl` from the YAML; non-OWL sources call it directly via `just data2owl`. Note that for OWL sources `linkml-owl` is installed at the pinned version by `make dependencies` (not from `pyproject.toml`) because the required version differs from what `uv sync` would resolve. Add `pyoxigraph` if SPARQL querying inside the Python script is needed.
 
 **Build tool differs by source type:**
 
@@ -119,11 +120,13 @@ YAML_OUT    := $(SOURCE).yaml
 MIR         ?= true   # set MIR=false to skip re-downloading: make MIR=false build
 ```
 
+> **Open design question:** `MIRROR_OWL` and `OUTPUT_OWL` are currently in the generic `Makefile`. For sources that have no OWL intermediate at all (e.g. an API-based pipeline that produces YAML directly without a ROBOT step), these variables have no meaning in the generic file. Consider moving them to `project.Makefile` on a case-by-case basis — keep them in the generic file when every variant of the pipeline will use them, move them to `project.Makefile` when they are source-specific.
+
 Core `Makefile` targets:
 - `make all` — `build` + `reports`
 - `make mirror` — download raw source OWL to `tmp/`
 - `make build` — full pipeline: ROBOT preprocessing → transform → validate → linkml-owl
-- `make reports` — `robot measure` (JSON metrics) + SPARQL count queries across mirror/transformed/final OWL
+- `make reports` — `robot measure` (extended JSON metrics) + `count_classes_by_top_level.sparql` across mirror/transformed/final OWL; produces `reports/metrics.json`, `reports/mirror-top-level-counts.tsv`, `reports/transformed-top-level-counts.tsv`, `reports/top-level-counts.tsv`
 - `make robot-plugins` — copies ROBOT plugin JARs from `/tools/robot-plugins/` (ODK) or local `plugins/` into `tmp/plugins/`; exports `ROBOT_PLUGINS_DIRECTORY`
 - `make dependencies` — installs `linkml-owl==0.5.0` plus bleeding-edge `linkml` and `linkml-runtime` from the `linkml/linkml` monorepo (required for the inlining bug fix — see Known Issues)
 - `make update-schema` — downloads schema from `SCHEMA_URL`
@@ -555,6 +558,28 @@ WHERE {
 
 Also strip non-breaking spaces (`U+00A0`) from xref values if the source is known to emit them. Apply this update in the `project.Makefile` ROBOT chain before the property filter step.
 
+**`sparql/count_classes_by_top_level.sparql` — scaffold for every OWL source.** The `make reports` target runs this query against the mirror, transformed, and final OWL to count descendant classes under the source's top-level grouping terms. Template:
+
+```sparql
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl:  <http://www.w3.org/2002/07/owl#>
+
+SELECT ?topLevel (COUNT(DISTINCT ?child) AS ?count)
+WHERE {
+  VALUES ?topLevel {
+    # REPLACE with the actual top-level IRIs for this source, e.g.:
+    # <http://www.orpha.net/ORDO/Orphanet_557493>   # Disorder
+    # <http://www.orpha.net/ORDO/Orphanet_557492>   # Group of disorders
+    # <http://www.orpha.net/ORDO/Orphanet_557494>   # Subtype of a disorder
+  }
+  ?child rdfs:subClassOf+ ?topLevel .
+  ?child a owl:Class .
+}
+GROUP BY ?topLevel
+```
+
+Ask the user for the top-level grouping IRIs and fill them in during Phase 4.
+
 For non-OWL sources, skip this step entirely.
 
 **4.9 — Term count cross-check:**
@@ -676,14 +701,19 @@ For sources with revocations (OncoTree-style), implement a second pass for obsol
 
 ## Phase 6: Validate and iterate
 
-Run:
+Run the tight feedback loop (skips the slow download step):
+
 ```bash
+# OWL sources:
+./odk.sh make MIR=false build
+
+# Non-OWL sources:
 just iterate
 ```
 
 If validation fails:
 1. Show the user which fields failed and why
-2. Propose a specific fix in the extractor
+2. Propose a specific fix in the extractor / transform
 3. Re-run
 
 Do not proceed to Phase 7 until `linkml-validate` exits 0 and term counts look plausible. Log term counts for the user to review.
@@ -700,10 +730,10 @@ For non-OWL sources (JSON, TSV, API), the source has no OWL representation, so o
 
 ```bash
 just data2owl
-# python -m linkml_owl.dumpers.owl_dumper -s linkml/mondo_source_schema.yaml -f yaml source.linkml.yml -o source.linkml.owl
+# python -m linkml_owl.dumpers.owl_dumper -s linkml/mondo_source_schema.yaml -f yaml <source>.linkml.yaml -o <source>.linkml.owl
 ```
 
-Tell the user: the derived OWL is for OWL-native consumers only. `source.linkml.yml` is the primary contract. Known limitation: `linkml-owl` emits OWL Functional format; ROBOT may not load it cleanly in all cases. If it fails on large datasets (rdflib N3 parser error), document this in `docs/report.md` and release `source.linkml.yml` only.
+Tell the user: the derived OWL is for OWL-native consumers only. `<source>.linkml.yaml` is the primary contract. Known limitation: `linkml-owl` emits OWL Functional format; ROBOT may not load it cleanly in all cases. If it fails on large datasets (rdflib N3 parser error), document this in `docs/report.md` and release `<source>.linkml.yaml` only.
 
 ---
 
@@ -749,21 +779,21 @@ jobs:
             -v "$PWD:/work" \
             -w /work \
             obolibrary/odkfull:v1.6 \
-            bash -lc "pip3 install --break-system-packages uv && uv sync && make build-release"
+            bash -lc "make dependencies && make all"
 
       - name: Set release tag
         id: version
         run: echo "tag=v$(date +%Y%m%d)-${{ github.run_number }}" >> "$GITHUB_OUTPUT"
 
       - name: Create release and upload assets
-        if: success() && hashFiles('source.linkml.yml') != ''
+        if: success() && hashFiles('<source>.yaml') != ''
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.tag }}
           name: Release ${{ steps.version.outputs.tag }}
           files: |
-            source.linkml.yml
-            source.linkml.owl
+            <source>.yaml
+            <source>.owl
           generate_release_notes: true
           draft: false
         env:
@@ -809,15 +839,16 @@ jobs:
             -v "$PWD:/work" \
             -w /work \
             obolibrary/odkfull:v1.6 \
-            bash -lc "pip3 install --break-system-packages uv && uv sync && make build-release"
+            bash -lc "make dependencies && make all"
 ```
 
 **Key implementation notes:**
 - `permissions: contents: write` is required on the release job for `softprops/action-gh-release` to create tags and releases.
-- `ROBOT_PLUGINS_DIRECTORY=/tools/robot-plugins` makes the ODK normalize plugin available inside the container (its location in `odkfull`).
-- `hashFiles('source.linkml.yml') != ''` guards the release step so a failed build does not create an empty release.
+- `ROBOT_PLUGINS_DIRECTORY=/tools/robot-plugins` makes the ODK normalize plugin available inside the container (its location in `odkfull`). The `make robot-plugins` target copies JARs from there into `tmp/plugins/` before ROBOT runs.
+- `hashFiles('<source>.yaml') != ''` guards the release step so a failed build does not create an empty release.
+- `make dependencies` installs the pinned `linkml-owl==0.5.0` and bleeding-edge `linkml`/`linkml-runtime` from the monorepo; this must run before `make all` inside the container.
 - The `workflow_dispatch` trigger allows manual runs from the GitHub Actions UI without a push.
-- Local `ROBOT_PLUGINS_DIRECTORY` will differ from CI (e.g. `/home/<user>/.robot/plugins` locally vs `/tools/robot-plugins` in Docker). Set it as a `?=` default in the Makefile so it can be overridden.
+- Local `ROBOT_PLUGINS_DIRECTORY` will differ from CI (e.g. `/home/<user>/.robot/plugins` locally vs `/tools/robot-plugins` in Docker). The `make robot-plugins` target handles this automatically.
 
 ---
 
@@ -835,6 +866,10 @@ Scaffold `scripts/verify.py` and run it before the first release. Record results
 
 Run it:
 ```bash
+# OWL sources:
+uv run python scripts/verify.py --yaml <source>.yaml --expected-version <version>
+
+# Non-OWL sources:
 uv run python scripts/verify.py --yaml <source>.linkml.yaml --expected-version <version>
 ```
 
@@ -854,7 +889,8 @@ Add this as a `just verify` / `make verify` target so it can be re-run for every
 | `robot diff` vs mondo-ingest reference (if migrating) | manual |
 
 **OWL sources additionally:**
-- [ ] `source.owl` (ROBOT output) can be loaded by ROBOT or opened in Protégé
+- [ ] `<source>.owl` (final LinkML-derived OWL, top-level) can be loaded by ROBOT or opened in Protégé
+- [ ] `tmp/transformed-<source>.owl` (ROBOT-preprocessed intermediate) can be loaded as a sanity check
 - [ ] If migrating from mondo-ingest: run `robot diff` between this OWL and the mondo-ingest reference OWL
 
 **Non-OWL sources additionally:**
