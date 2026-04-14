@@ -1,0 +1,15 @@
+---
+name: mondo-source-ingest-update
+description: >-
+  Drives an existing Mondo source ingest repo through the full mondo-source-ingest workflow
+  to completion. Use when the user wants to update, modernize, or finish an ingest repo and
+  mentions this skill or "mondo-source-ingest-update".
+---
+
+# Mondo Source Ingest — Update
+
+Work in an **existing** Mondo source ingest repository (not a blank scaffold). Otherwise, do **exactly** what **[mondo-source-ingest](../mondo-source-ingest/SKILL.md)** says: follow **every phase through Phase 9** to completion — intake where still unknown, scaffold gaps, schema/datamodel as needed, source analysis and scripts, validate and iterate, derive OWL if applicable, wire CI/release, run `verify.py` and record release notes and incidents.
+
+Skip re-asking intake or re-probing mappings **only** when that information is already settled in the repo’s `docs/plan.md` and the user is not changing upstream behaviour; if anything material is missing or stale, fill it in by following the base skill’s steps.
+
+All guardrails and conventions in **mondo-source-ingest** apply unchanged.
