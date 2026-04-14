@@ -12,4 +12,6 @@ Work in an **existing** Mondo source ingest repository (not a blank scaffold). O
 
 Skip re-asking intake or re-probing mappings **only** when that information is already settled in the repo’s `docs/plan.md` and the user is not changing upstream behaviour; if anything material is missing or stale, fill it in by following the base skill’s steps.
 
+**`reports/`:** When the pipeline publishes OWL (including **non-OWL → `linkml-owl`**), scaffold or verify **`reports/`** and **`just reports` / `make reports`** per the base skill section **`reports/` folder (ROBOT QC)** — not optional just because the *source* is non-OWL.
+
 All guardrails and conventions in **mondo-source-ingest** apply unchanged.
