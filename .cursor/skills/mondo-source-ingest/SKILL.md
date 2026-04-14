@@ -45,7 +45,7 @@ Create the repo structure. Confirm the directory name with the user first.
 │   └── properties.txt          # OWL sources only
 ├── docs/
 │   ├── plan.md                 # pipeline logic: source, field mappings, design decisions, ID scheme
-│   ├── report.md               # unanticipated events, errors, deviations and how they were resolved
+│   ├── pipeline_incidents.md   # unanticipated events, errors, deviations and how they were resolved
 │   └── release_notes.md        # ontology stats + Phase 9 verification results for each release
 ├── env/
 │   ├── .env.example
@@ -214,7 +214,7 @@ just build
 |---|---|
 | [`docs/plan.md`](docs/plan.md) | Pipeline architecture, field mappings, ID scheme |
 | [`docs/release_notes.md`](docs/release_notes.md) | Ontology stats and verification results per release |
-| [`docs/report.md`](docs/report.md) | Unanticipated events and how they were resolved |
+| [`docs/pipeline_incidents.md`](docs/pipeline_incidents.md) | Pipeline incidents: errors, deviations, resolutions |
 ```
 
 If `acquire` is slow (e.g. API traversal), add a note in the `make acquire` line so the user knows it is expected behaviour, e.g. `# ~2.5 hrs, cached after first run`.
@@ -584,7 +584,7 @@ For non-OWL sources, skip this step entirely.
 
 **4.9 — Term count cross-check:**
 
-If a prior version of this source exists anywhere (committed file, BioPortal, another repo), compare term counts before treating a discrepancy as an error. Document the difference and its cause in `docs/report.md`. Known cause: the old `monarch-initiative/icd10who` TTL had 4,894 terms due to a Python recursion limit truncating the traversal — the correct full count is 12,597.
+If a prior version of this source exists anywhere (committed file, BioPortal, another repo), compare term counts before treating a discrepancy as an error. Document the difference and its cause in `docs/pipeline_incidents.md`. Known cause: the old `monarch-initiative/icd10who` TTL had 4,894 terms due to a Python recursion limit truncating the traversal — the correct full count is 12,597.
 
 ---
 
@@ -695,7 +695,7 @@ For sources with revocations (OncoTree-style), implement a second pass for obsol
           "linkml @ git+https://github.com/linkml/linkml.git@main#subdirectory=packages/linkml" \
           "linkml-runtime @ git+https://github.com/linkml/linkml.git@main#subdirectory=packages/linkml_runtime"
   ```
-  Document this in `docs/report.md` for every new repo until the upstream bug is fixed.
+  Document this in `docs/pipeline_incidents.md` for every new repo until the upstream bug is fixed.
 
 ---
 
@@ -733,7 +733,7 @@ just data2owl
 # python -m linkml_owl.dumpers.owl_dumper -s linkml/mondo_source_schema.yaml -f yaml <source>.linkml.yaml -o <source>.linkml.owl
 ```
 
-Tell the user: the derived OWL is for OWL-native consumers only. `<source>.linkml.yaml` is the primary contract. Known limitation: `linkml-owl` emits OWL Functional format; ROBOT may not load it cleanly in all cases. If it fails on large datasets (rdflib N3 parser error), document this in `docs/report.md` and release `<source>.linkml.yaml` only.
+Tell the user: the derived OWL is for OWL-native consumers only. `<source>.linkml.yaml` is the primary contract. Known limitation: `linkml-owl` emits OWL Functional format; ROBOT may not load it cleanly in all cases. If it fails on large datasets (rdflib N3 parser error), document this in `docs/pipeline_incidents.md` and release `<source>.linkml.yaml` only.
 
 ---
 
@@ -907,7 +907,7 @@ Add this as a `just verify` / `make verify` target so it can be re-run for every
 - Do not invent synonym behaviour — ask the user if the source has synonyms or if they should be generated from labels
 - Never silently remove or simplify a pipeline step because a tool or plugin appears to be missing. Search the full filesystem, then ask the user where it is before removing anything.
 - Generate `docs/plan.md` capturing the pipeline logic that governs this repo: upstream source, field-to-slot mappings, ID scheme, versioning strategy, and key design decisions. This is the canonical reference for anyone maintaining the pipeline.
-- Generate `docs/report.md` recording every unanticipated event that occurred during the session — errors, tool failures, necessary deviations from the standard pipeline, and the exact steps taken to resolve each one.
+- Generate `docs/pipeline_incidents.md` recording every unanticipated event that occurred during the session — errors, tool failures, necessary deviations from the standard pipeline, and the exact steps taken to resolve each one.
 - Generate `docs/release_notes.md` containing the ontology statistics from the full run (term count, definitions, synonyms, roots, broken refs) together with the Phase 9 verification checklist results. Update this file for every subsequent release.
 - **Never substitute a third-party or mirror source for the official upstream.** The acquire step must always fetch from the authoritative publisher (e.g. WHO API, BioPortal official submission, ORPHADATA). Third-party builds (e.g. biopragmatics/obo-db-ingest, OBO Foundry mirrors) may be used for *inspection and prototyping only* — never as the production source. If the official source is slow or requires credentials, scaffold the credentials properly and document the performance impact; do not silently swap to a convenience mirror.
 - **Always record the official release identifier in the output.** The `version` field in the produced YAML must match the upstream publisher's versioning scheme (e.g. `2026-01` for WHO ICD-11, submission ID for BioPortal). A date derived from a third-party build timestamp is not an acceptable substitute.
