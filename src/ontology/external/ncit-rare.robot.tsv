@@ -147,6 +147,7 @@ MONDO:0007571	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C125383	primar
 MONDO:0007603	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C84712	Felty syndrome	Felty Syndrome
 MONDO:0007606	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C3040	fibrodysplasia ossificans progressiva	Fibrodysplasia Ossificans Progressiva
 MONDO:0007621	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C175241	Floating-Harbor syndrome	Floating-Harbor Syndrome
+MONDO:0007635	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C122805	Frasier syndrome	Frasier Syndrome
 MONDO:0007636	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C129028	frontorhiny	Frontonasal Dysplasia
 MONDO:0007644	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C123434	IgAD1	Immunoglobulin A Deficiency 1
 MONDO:0007656	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C84727	Gerstmann-Straussler-Scheinker syndrome	Gerstmann-Straussler-Scheinker Disease
@@ -173,7 +174,7 @@ MONDO:0007949	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C128115	Marsha
 MONDO:0007950	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C84269	mastocytosis	Mastocytosis
 MONDO:0007969	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C84886	Melkersson-Rosenthal syndrome	Melkersson-Rosenthal Syndrome
 MONDO:0007970	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C84887	melorheostosis	Melorheostosis
-MONDO:0007974	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C141424	intellectual disability, autosomal dominant 1	Mental Retardation, Autosomal Dominant 1
+MONDO:0007974	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C141424	intellectual disability, autosomal dominant 1	Intellectual Developmental Disorder, Autosomal Dominant 1
 MONDO:0007982	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C131868	metaphyseal chondrodysplasia, Jansen type	Metaphyseal Chondrodysplasia, Jansen Type
 MONDO:0007986	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C175209	metatropic dysplasia	Metatropic Dysplasia
 MONDO:0007987	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C125594	Kniest dysplasia	Kniest Dysplasia
@@ -313,7 +314,7 @@ MONDO:0009377	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C129307	hypera
 MONDO:0009387	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C84771	familial lipoprotein lipase deficiency	Hyperlipoproteinemia, Type I
 MONDO:0009388	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C123433	hyperlysinemia	Hyperlysinemia
 MONDO:0009393	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C129029	ornithine translocase deficiency	Hyperornithinemia-Hyperammonemia-Homocitrullinuria Syndrome
-MONDO:0009426	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C133727	hypoparathyroidism-retardation-dysmorphism syndrome	Hypoparathyroidism-Retardation-Dysmorphism Syndrome
+MONDO:0009426	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C133727	hypoparathyroidism-retardation-dysmorphism syndrome	Hypoparathyroidism-Intellectual Developmental Disorder-Dysmorphism Syndrome
 MONDO:0009454	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C156430	immunodeficiency-centromeric instability-facial anomalies syndrome 1	Immunodeficiency-Centromeric Instability-Facial Anomalies Syndrome 1
 MONDO:0009458	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C135087	Schimke immuno-osseous dysplasia	Schimke Immunoosseous Dysplasia
 MONDO:0009468	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C85035	pseudotumor cerebri	Pseudotumor Cerebri
@@ -430,8 +431,8 @@ MONDO:0010354	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C118843	Allan-
 MONDO:0010370	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C75485	Cornelia de Lange syndrome 2	X-Linked Cornelia De Lange Syndrome
 MONDO:0010383	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C84717	fragile X syndrome	Fragile X Syndrome
 MONDO:0010476	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C175210	neurodegeneration with brain iron accumulation 5	Neurodegeneration with Brain Iron Accumulation 5
-MONDO:0010497	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C129931	intellectual disability, X-linked 102	Mental Retardation, X-linked 102
-MONDO:0010519	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C118631	alpha thalassemia-X-linked intellectual disability syndrome	Alpha Thalassemia X-Linked Mental Retardation Syndrome
+MONDO:0010497	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C129931	intellectual disability, X-linked 102	Intellectual Developmental Disorder, X-linked 102
+MONDO:0010519	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C118631	alpha thalassemia-X-linked intellectual disability syndrome	Alpha Thalassemia X-Linked Intellectual Disability Syndrome
 MONDO:0010526	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C84701	Fabry disease	Fabry Disease
 MONDO:0010557	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C34469	choroideremia	Choroideremia
 MONDO:0010559	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C129930	MASA syndrome	MASA Syndrome
@@ -443,7 +444,7 @@ MONDO:0010592	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C84715	focal d
 MONDO:0010631	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C84787	incontinentia pigmenti	Incontinentia Pigmenti
 MONDO:0010645	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C84940	oculocerebrorenal syndrome	Oculocerebrorenal Syndrome
 MONDO:0010651	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C75486	Menkes disease	Menkes Disease
-MONDO:0010656	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C133729	intellectual disability, X-linked 1	Mental Retardation, X-linked 1
+MONDO:0010656	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C133729	intellectual disability, X-linked 1	Intellectual Developmental Disorder, X-linked 1
 MONDO:0010674	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C61260	mucopolysaccharidosis type 2	Hunter Syndrome
 MONDO:0010679	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C75482	Duchenne muscular dystrophy	Duchenne Muscular Dystrophy
 MONDO:0010683	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C118781	X-linked myotubular myopathy	X-Linked Centronuclear Myopathy
@@ -451,7 +452,7 @@ MONDO:0010691	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C118634	Norrie
 MONDO:0010702	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C75481	orofaciodigital syndrome I	Orofaciodigital Syndrome Type 1
 MONDO:0010703	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C84957	ornithine carbamoyltransferase deficiency	Ornithine Carbamoyltransferase Deficiency Disease
 MONDO:0010704	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C118845	otopalatodigital syndrome type 1	Otopalatodigital Syndrome Type 1
-MONDO:0010714	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C75487	Pelizeaus-Merzbacher spectrum disorder	Pelizaeus-Merzbacher Disease
+MONDO:0010714	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C75487	Pelizaeus-Merzbacher spectrum disorder	Pelizaeus-Merzbacher Disease
 MONDO:0010725	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C75483	X-linked retinoschisis	Juvenile X-Linked Retinoschisis
 MONDO:0010726	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C75488	Rett syndrome	Rett Syndrome
 MONDO:0010735	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C85233	Kennedy disease	Spinal and Bulbar Muscular Atrophy, X-linked 1
@@ -539,12 +540,12 @@ MONDO:0012806	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C176826	ectode
 MONDO:0012849	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C181002	Joubert syndrome 9	Joubert Syndrome 9
 MONDO:0012912	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C129722	pseudopseudohypoparathyroidism	Albright Hereditary Osteodystrophy without Multiple Hormone Resistance
 MONDO:0013000	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C133887	porphyria due to ALA dehydratase deficiency	Acute Hepatic Porphyria
-MONDO:0013038	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C177122	CLOVES syndrome	Congenital Lipomatous Overgrowth, Vascular Malformations, Epidermal Nevi, and Skeletal/Spinal Abnormalities Syndrome
+MONDO:0013038	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C177122	CLOVES syndrome	CLOVES Syndrome
 MONDO:0013127	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C163755	asphyxiating thoracic dystrophy 3	Short-Rib Thoracic Dysplasia 3 with or without Polydactyly
 MONDO:0013129	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C164226	cone dystrophy 4	Achromatopsia 5
 MONDO:0013154	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C126742	muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A2	Muscular Dystrophy-Dystroglycanopathy (Congenital with Brain and Eye Anomalies) Type A, 2
 MONDO:0013158	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C126743	muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A6	Muscular Dystrophy-Dystroglycanopathy (Congenital with Brain and Eye Anomalies) Type A, 6
-MONDO:0013160	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C126690	muscular dystrophy-dystroglycanopathy (congenital with intellectual disability), type B2	Congenital Muscular Dystrophy-Dystroglycanopathy with Mental Retardation Type B2
+MONDO:0013160	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C126690	muscular dystrophy-dystroglycanopathy (congenital with intellectual disability), type B2	Congenital Muscular Dystrophy-Dystroglycanopathy with Intellectual Developmental Disorder Type B2
 MONDO:0013178	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C148369	congenital muscular dystrophy due to LMNA mutation	Muscular Dystrophy Congenital, LMNA-Related
 MONDO:0013364	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C153291	Rubinstein-Taybi syndrome due to EP300 haploinsufficiency	Rubinstein-Taybi Syndrome Type 2
 MONDO:0013434	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C148370	primary ciliary dyskinesia 14	Primary Ciliary Dyskinesia 14
@@ -553,11 +554,11 @@ MONDO:0013461	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C129974	inosin
 MONDO:0013558	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C150369	Hermansky-Pudlak syndrome 6	Hermansky-Pudlak Syndrome 6
 MONDO:0013571	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C84526	acatalasia	Acatalasemia
 MONDO:0013626	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C119057	psoriasis 14, pustular	Deficiency of the Interleukin-36 Receptor Antagonist
-MONDO:0013656	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C133742	intellectual disability, autosomal dominant 9	Mental Retardation, Autosomal Dominant 9
+MONDO:0013656	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C133742	intellectual disability, autosomal dominant 9	Intellectual Developmental Disorder, Autosomal Dominant 9
 MONDO:0013674	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C175707	neurodegeneration with brain iron accumulation 4	Neurodegeneration with Brain Iron Accumulation 4
 MONDO:0013681	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C119677	alpha-methylacyl-CoA racemase deficiency	Alpha-Methylacyl-CoA Racemase Deficiency
 MONDO:0013700	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C129030	pancreatic triacylglycerol lipase deficiency	Pancreatic Lipase Deficiency
-MONDO:0013785	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C153179	intellectual disability, autosomal recessive 34	Mental Retardation, Autosomal Recessive 34
+MONDO:0013785	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C153179	intellectual disability, autosomal recessive 34	Intellectual Developmental Disorder, Autosomal Recessive 34
 MONDO:0013808	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C3213	Maffucci syndrome	Maffucci Syndrome
 MONDO:0013824	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C175702	Joubert syndrome 17	Joubert Syndrome 17
 MONDO:0013867	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C183529	Brown-Vialetto-van Laere syndrome 2	Brown-Vialetto-Van Laere Syndrome 2
@@ -767,7 +768,6 @@ MONDO:0019444	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C85199	trichin
 MONDO:0019467	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C7203	CD4+/CD56+ hematodermic neoplasm	Blastic Plasmacytoid Dendritic Cell Neoplasm
 MONDO:0019479	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C27349	histiocytic sarcoma	Histiocytic Sarcoma
 MONDO:0019480	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C6921	Langerhans cell sarcoma	Langerhans Cell Sarcoma
-MONDO:0019499	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C26900	Turner syndrome	Turner Syndrome
 MONDO:0019501	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C85217	Usher syndrome	Usher Syndrome
 MONDO:0019508	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C74986	van der Woude syndrome	Van der Woude Syndrome
 MONDO:0019517	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C75009	Waardenburg syndrome type 2	Waardenburg Syndrome Type 2
@@ -793,7 +793,7 @@ MONDO:0020333	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C9285	aggressi
 MONDO:0020334	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C3169	mast cell leukemia	Mast Cell Leukemia
 MONDO:0020370	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C84644	Cogan-Reese syndrome	Cogan-Reese Syndrome
 MONDO:0020481	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C122789	myotonia fluctuans	Myotonia Fluctuans
-MONDO:0020492	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C177779	hemimegalencephaly	Hemimegalencephaly
+MONDO:0020492	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C177779	hemimegalencephaly	MCAP Syndrome
 MONDO:0020500	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C84883	Marburg hemorrhagic fever	Marburg Virus Disease
 MONDO:0020517	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C3016	eosinophilic granuloma	Eosinophilic Granuloma
 MONDO:0020519	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C6920	hand-Schuller-Christian disease	Hand-Schuller-Christian Disease
@@ -845,7 +845,6 @@ MONDO:0100017	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C85014	pityria
 MONDO:0100040	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C176903	FOXG1 disorder	Rett Syndrome, Congenital Variant
 MONDO:0100064	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C157158	tyrosine hydroxylase deficiency	Tyrosine Hydroxylase Deficiency
 MONDO:0100186	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C141442	GTP cyclohydrolase I deficiency with hyperphenylalaninemia	GTP Cyclohydrolase I Deficiency
-MONDO:0100216	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C123317	DICER1-related tumor predisposition	DICER1 Syndrome
 MONDO:0100253	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C4681	Roberts-SC phocomelia syndrome	Roberts-SC Phocomelia Syndrome
 MONDO:0100339	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C84718	Friedreich ataxia	Friedreich Ataxia
 MONDO:0100354	http://purl.obolibrary.org/obo/mondo#ncit_rare	NCIT:C98982	megacystis-microcolon-intestinal hypoperistalsis syndrome 1	MMIH Syndrome

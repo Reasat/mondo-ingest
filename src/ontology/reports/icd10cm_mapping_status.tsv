@@ -9979,7 +9979,6 @@ ICD10CM:H93.091	Unspecified degenerative and vascular disorders of right ear	Fal
 ICD10CM:H93.092	Unspecified degenerative and vascular disorders of left ear	False	False	False
 ICD10CM:H93.093	Unspecified degenerative and vascular disorders of ear, bilateral	False	False	False
 ICD10CM:H93.099	Unspecified degenerative and vascular disorders of unspecified ear	False	False	False
-ICD10CM:H93.1	Tinnitus	False	False	False
 ICD10CM:H93.11	Tinnitus, right ear	False	False	False
 ICD10CM:H93.12	Tinnitus, left ear	False	False	False
 ICD10CM:H93.13	Tinnitus, bilateral	False	False	False
@@ -97106,6 +97105,7 @@ ICD10CM:H83.0	Labyrinthitis	True	False	False
 ICD10CM:H83.2	Labyrinthine dysfunction	True	False	False
 ICD10CM:H90	Conductive and sensorineural hearing loss	True	False	False
 ICD10CM:H91.1	Presbycusis	True	False	False
+ICD10CM:H93.1	Tinnitus	True	False	False
 ICD10CM:H93.23	Hyperacusis	True	False	False
 ICD10CM:H93.3	Disorders of acoustic nerve	True	False	False
 ICD10CM:I00-I02	Acute rheumatic fever (I00-I02)	True	False	False

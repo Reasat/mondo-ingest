@@ -307,7 +307,6 @@ MONDO:0006301	metanephric adenoma	MONDO:0018738	NCIT:C27253	NCIT:C157748	benign 
 MONDO:0006316	neuroblastic tumor	MONDO:0005872	NCIT:C6963	NCIT:C4788	nervous system cancer
 MONDO:0006368	phosphaturic mesenchymal tumor	MONDO:0002616	NCIT:C67237	NCIT:C7059	mesenchymal cell neoplasm
 MONDO:0006373	pituitary gland adenoma	MONDO:0019496	NCIT:C3329	NCIT:C188218	neuroendocrine neoplasm
-MONDO:0006377	pleural biphasic mesothelioma	MONDO:0005112	NCIT:C45665	NCIT:C7376	malignant pleural mesothelioma
 MONDO:0006388	prolactin-producing pituitary gland carcinoma	MONDO:0010911	NCIT:C5962	NCIT:C3342	prolactin-producing pituitary gland adenoma
 MONDO:0006397	renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions	MONDO:0017886	NCIT:C27891	NCIT:C154494	MIT family translocation renal cell carcinoma
 MONDO:0006411	sinonasal undifferentiated carcinoma	MONDO:0056819	NCIT:C54294	NCIT:C54293	nasal cavity and paranasal sinus carcinoma
@@ -419,7 +418,7 @@ MONDO:0019500	extragonadal teratoma	MONDO:0002601	NCIT:C189045	NCIT:C3403	terato
 MONDO:0019959	glucagonoma	MONDO:0023206	NCIT:C95597	NCIT:C45840	functional pancreatic neuroendocrine tumor
 MONDO:0020083	immunodeficiency-associated lymphoproliferative disease	MONDO:0016537	NCIT:C150672	NCIT:C9308	lymphoproliferative syndrome
 MONDO:0020083	immunodeficiency-associated lymphoproliferative disease	MONDO:0024572	NCIT:C150672	NCIT:C35686	immunodeficiency-related disorder
-MONDO:0020316	acute myeloid leukemia with abnormal bone marrow eosinophils inv(16)(p13q22) or t(16;16)(p13;q22)	MONDO:0017893	NCIT:C9287	NCIT:C7175	inherited acute myeloid leukemia
+MONDO:0020316	acute myeloid leukemia with abnormal bone marrow eosinophils inv(16)(p13q22) or t(16;16)(p13;q22)	MONDO:0850269	NCIT:C9287	NCIT:C122688	core binding factor acute myeloid leukemia
 MONDO:0020317	acute myeloid leukemia with 11q23 abnormalities	MONDO:0100404	NCIT:C82403	NCIT:C174129	acute myeloid leukemia, MLL gene rearrangement
 MONDO:0020325	anaplastic large cell lymphoma	MONDO:0020633	NCIT:C3720	NCIT:C36025	anaplastic cancer
 MONDO:0020334	mast cell leukemia	MONDO:0004643	NCIT:C3169	NCIT:C3172	myeloid leukemia
@@ -499,6 +498,7 @@ MONDO:0024857	immature extragonadal teratoma	MONDO:0019500	NCIT:C8884	NCIT:C1890
 MONDO:0024861	mixed teratoma and seminoma	MONDO:0005853	NCIT:C9010	NCIT:C3729	malignant mixed neoplasm
 MONDO:0024886	serous adenofibroma	MONDO:0037256	NCIT:C67090	NCIT:C7074	serous neoplasm
 MONDO:0033980	RELA fusion-positive ependymoma	MONDO:0956990	NCIT:C129351	NCIT:C186350	supratentorial ependymoma, ZFTA fusion–positive
+MONDO:0035112	acute myeloid leukemia with BCR-ABL1	MONDO:0017893	NCIT:C129785	NCIT:C7175	inherited acute myeloid leukemia
 MONDO:0035605	B-lymphoblastic leukemia/lymphoma with recurrent genetic abnormality	MONDO:0004947	NCIT:C80328	NCIT:C8936	B-cell acute lymphoblastic leukemia
 MONDO:0040673	malignant peritoneal germ cell tumor	MONDO:0003685	NCIT:C136410	NCIT:C6447	retroperitoneal germ cell neoplasm
 MONDO:0040673	malignant peritoneal germ cell tumor	MONDO:0005941	NCIT:C136410	NCIT:C3537	retroperitoneal cancer
@@ -515,13 +515,10 @@ MONDO:0056813	hormone-resistant breast carcinoma	MONDO:0004988	NCIT:C114932	NCIT
 MONDO:0100373	acute myeloid leukemia, inv(16)(p13.1;q22)	MONDO:0020316	NCIT:C9018	NCIT:C9287	acute myeloid leukemia with abnormal bone marrow eosinophils inv(16)(p13q22) or t(16;16)(p13;q22)
 MONDO:0100374	acute myeloid leukemia, t(16;16)(p13.1;q22)	MONDO:0020316	NCIT:C9019	NCIT:C9287	acute myeloid leukemia with abnormal bone marrow eosinophils inv(16)(p13q22) or t(16;16)(p13;q22)
 MONDO:0100382	acute myeloid leukemia, t(6;9)(p23;q34.1)	MONDO:0017893	NCIT:C82423	NCIT:C7175	inherited acute myeloid leukemia
-MONDO:0100396	acute myeloid leukemia, t(7;12)(q36;p13)	MONDO:0004996	NCIT:C122690	NCIT:C9160	childhood acute myeloid leukemia
 MONDO:0100398	acute myeloid leukemia, inv(3)(q21.3;q26.2)	MONDO:0018435	NCIT:C122716	NCIT:C82426	acute myeloid leukemia with inv3(p21;q26.2) or t(3;3)(p21;q26.2)
 MONDO:0100399	acute myeloid leukemia, t(3;3)(q21.3;q26.2)	MONDO:0018435	NCIT:C122717	NCIT:C82426	acute myeloid leukemia with inv3(p21;q26.2) or t(3;3)(p21;q26.2)
 MONDO:0100404	acute myeloid leukemia, MLL gene rearrangement	MONDO:0017893	NCIT:C174129	NCIT:C7175	inherited acute myeloid leukemia
 MONDO:0100413	acute myeloid leukemia, biallelic CEBPA gene mutation	MONDO:0017894	NCIT:C129782	NCIT:C82433	acute myeloid leukemia with CEBPA somatic mutations
-MONDO:0100414	acute myeloid leukemia, CEBPA gene mutation	MONDO:0100413	NCIT:C151898	NCIT:C129782	acute myeloid leukemia, biallelic CEBPA gene mutation
-MONDO:0100415	acute myeloid leukemia, FLT3 internal tandem duplication	MONDO:0017893	NCIT:C126748	NCIT:C7175	inherited acute myeloid leukemia
 MONDO:0200000	uterine ligament adenosarcoma	MONDO:0001108	NCIT:C102570	NCIT:C179934	broad ligament malignant neoplasm
 MONDO:0700219	neoplastic meningitis	MONDO:0003762	NCIT:C3814	NCIT:C8506	malignant leptomeningeal tumor
 MONDO:0700219	neoplastic meningitis	MONDO:0021322	NCIT:C27383	NCIT:C4628	malignant tumor of meninges

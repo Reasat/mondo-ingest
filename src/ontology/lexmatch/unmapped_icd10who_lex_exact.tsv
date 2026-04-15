@@ -542,6 +542,7 @@ MONDO:0100347	carcinoid syndrome	ICD10WHO:E34.0	MONDO:equivalentTo	Carcinoid syn
 MONDO:0100491	generalized pustular psoriasis	ICD10WHO:L40.1	MONDO:equivalentTo	Generalized pustular psoriasis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	generalized pustular psoriasis
 MONDO:0100637	drug-induced myopathy	ICD10WHO:G72.0	MONDO:equivalentTo	Drug-induced myopathy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	drug-induced myopathy
 MONDO:0400003	skeletal fluorosis	ICD10WHO:M85.1	MONDO:equivalentTo	Skeletal fluorosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	skeletal fluorosis
+MONDO:0700322	tinnitus	ICD10WHO:H93.1	MONDO:equivalentTo	Tinnitus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	tinnitus
 MONDO:0800175	cardiogenic shock	ICD10WHO:R57.0	MONDO:equivalentTo	Cardiogenic shock	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cardiogenic shock
 MONDO:0800198	alopecia universalis	ICD10WHO:L63.1	MONDO:equivalentTo	Alopecia universalis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	alopecia universalis
 MONDO:0850046	amniotic fluid embolism	ICD10WHO:O88.1	MONDO:equivalentTo	Amniotic fluid embolism	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	amniotic fluid embolism

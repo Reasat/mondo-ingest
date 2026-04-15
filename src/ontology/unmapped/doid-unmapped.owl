@@ -27,6 +27,72 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_0051067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0051067"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0051068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0051068"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0051069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0051069"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0051070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0051070"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0051071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0051071"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0051072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0051072"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0051073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0051073"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0051074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0051074"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0051075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0051075"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0051076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0051076"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0051077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0051077"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_0060160 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060160"/>
@@ -57,6 +123,222 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_0061247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061247"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0061247"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0061247"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0061247"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061251"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061252"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061253"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061254"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061255"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061256"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061257"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061258"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061259"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061260"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061261"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061262"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061263"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061264"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061265"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061266"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061267"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061268"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061269"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061270"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061273"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061274"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061275"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061276"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061277"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061278"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061279"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061280"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061281"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061282"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0061283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0061283"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_0070648 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0070648"/>
@@ -74,6 +356,82 @@
     <!-- http://purl.obolibrary.org/obo/DOID_0070656 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0070656"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0070669 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0070669"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0070670 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0070670"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0070671 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0070671"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0070672 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0070672"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0070673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0070673"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0070674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0070674"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0070675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0070675"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0070676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0070676"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0070677 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0070677"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0070678 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0070678"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0070679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0070679">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0070678"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0070680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0070680">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0070678"/>
+    </owl:Class>
     
 
 

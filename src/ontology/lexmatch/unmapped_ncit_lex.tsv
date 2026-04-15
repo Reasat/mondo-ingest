@@ -9,10 +9,7 @@ MONDO:0000873	lymphoblastic lymphoma	NCIT:C9124	MONDO:equivalentTo	Childhood Lym
 MONDO:0000873	lymphoblastic lymphoma	NCIT:C9361	MONDO:equivalentTo	Adult Lymphoblastic Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	lymphoblastic lymphoma
 MONDO:0000873	lymphoblastic lymphoma	NCIT:C9361	MONDO:equivalentTo	Adult Lymphoblastic Lymphoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	lymphoblastic lymphoma
 MONDO:0000874	T-cell childhood lymphoblastic lymphoma	NCIT:C7226	MONDO:equivalentTo	Adult T Lymphoblastic Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	t lymphoblastic lymphoma
-MONDO:0000930	nodular malignant melanoma	NCIT:C205125	MONDO:equivalentTo	Nodular Melanoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	nodular melanoma
-MONDO:0000930	nodular malignant melanoma	NCIT:C205125	MONDO:equivalentTo	Nodular Melanoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	nodular melanoma
 MONDO:0000950	asthenopia	NCIT:C217076	MONDO:equivalentTo	Eye Strain/Fatigue	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	asthenopia
-MONDO:0000964	skin lipoma	NCIT:C5566	MONDO:equivalentTo	Skin Lipomatous Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cutaneous lipomatous tumor
 MONDO:0000992	heart conduction disease	NCIT:C78245	MONDO:equivalentTo	Cardiac Conduction Disorder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cardiac conduction disorder
 MONDO:0000992	heart conduction disease	NCIT:C78245	MONDO:equivalentTo	Cardiac Conduction Disorder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	disorder of cardiac conduction
 MONDO:0000992	heart conduction disease	NCIT:C78245	MONDO:equivalentTo	Cardiac Conduction Disorder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	cardiac conduction disorder
@@ -28,21 +25,10 @@ MONDO:0001653	prepuce cancer	NCIT:C215192	MONDO:equivalentTo	Malignant Prepuce N
 MONDO:0001657	brain cancer	NCIT:C5115	MONDO:equivalentTo	Adult Malignant Brain Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant brain neoplasm
 MONDO:0001744	angle-closure glaucoma	NCIT:C34639	MONDO:equivalentTo	Angle Closure Glaucoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	angle closure glaucoma
 MONDO:0001744	angle-closure glaucoma	NCIT:C34639	MONDO:equivalentTo	Angle Closure Glaucoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	angle closure glaucoma
-MONDO:0001868	primary angle-closure glaucoma	NCIT:C34639	MONDO:equivalentTo	Angle Closure Glaucoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	primary angle closure glaucoma
 MONDO:0002038	head and neck carcinoma	NCIT:C6077	MONDO:equivalentTo	Neck Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	carcinoma of neck
 MONDO:0002038	head and neck carcinoma	NCIT:C6077	MONDO:equivalentTo	Neck Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	neck carcinoma
 MONDO:0002038	head and neck carcinoma	NCIT:C6077	MONDO:equivalentTo	Neck Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	neck carcinoma
-MONDO:0002056	breast fibroadenoma	NCIT:C4276	MONDO:equivalentTo	Juvenile Breast Fibroadenoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	juvenile fibroadenoma
-MONDO:0002056	breast fibroadenoma	NCIT:C4276	MONDO:equivalentTo	Juvenile Breast Fibroadenoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	juvenile fibroadenoma of breast
-MONDO:0002056	breast fibroadenoma	NCIT:C5194	MONDO:equivalentTo	Breast Complex Fibroadenoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	complex fibroadenoma of breast
-MONDO:0002066	breast adenomyoepithelioma	NCIT:C5143	MONDO:equivalentTo	Malignant Breast Adenomyoepithelioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	breast adenomyoepithelioma with malignant change
-MONDO:0002066	breast adenomyoepithelioma	NCIT:C5143	MONDO:equivalentTo	Malignant Breast Adenomyoepithelioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant adenomyoepithelioma of breast
-MONDO:0002073	malignant pineal area germ cell neoplasm	NCIT:C4659	MONDO:equivalentTo	Pineal Region Germ Cell Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pineal germ cell tumor
-MONDO:0002073	malignant pineal area germ cell neoplasm	NCIT:C4659	MONDO:equivalentTo	Pineal Region Germ Cell Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pineal region germ cell tumor
-MONDO:0002073	malignant pineal area germ cell neoplasm	NCIT:C4659	MONDO:equivalentTo	Pineal Region Germ Cell Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pineal region germ cell tumor
-MONDO:0002095	vascular cancer	NCIT:C7390	MONDO:equivalentTo	Malignant Vascular Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant vascular neoplasm
 MONDO:0002095	vascular cancer	NCIT:C7390	MONDO:equivalentTo	Malignant Vascular Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant vascular tumor
-MONDO:0002095	vascular cancer	NCIT:C7390	MONDO:equivalentTo	Malignant Vascular Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	malignant vascular neoplasm
 MONDO:0002108	thyroid cancer	NCIT:C118827	MONDO:equivalentTo	Childhood Thyroid Gland Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	thyroid gland cancer
 MONDO:0002141	cutaneous undifferentiated pleomorphic sarcoma	NCIT:C4246	MONDO:equivalentTo	Atypical Fibroxanthoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant fibrous histiocytoma of skin
 MONDO:0002142	undifferentiated pleomorphic sarcoma	NCIT:C114749	MONDO:equivalentTo	Childhood Undifferentiated Pleomorphic Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	undifferentiated pleomorphic sarcoma
@@ -50,10 +36,7 @@ MONDO:0002142	undifferentiated pleomorphic sarcoma	NCIT:C114749	MONDO:equivalent
 MONDO:0002171	giant cell tumor	NCIT:C7069	MONDO:equivalentTo	Giant Cell Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	giant cell neoplasm
 MONDO:0002171	giant cell tumor	NCIT:C7069	MONDO:equivalentTo	Giant Cell Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	giant cell neoplasm
 MONDO:0002189	nodular hidradenoma	NCIT:C205539	MONDO:equivalentTo	Solid Cystic Hidradenoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	solid and cystic hidradenoma
-MONDO:0002274	monoclonal paraproteinemia disease	NCIT:C35548	MONDO:equivalentTo	Monoclonal Gammopathy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	monoclonal paraproteinemia
-MONDO:0002286	renal artery disease	NCIT:C35338	MONDO:equivalentTo	Kidney Vascular Disorder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	renal vascular disorder
 MONDO:0002357	hepatic flexure cancer	NCIT:C194076	MONDO:equivalentTo	Malignant Hepatic Flexure Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant neoplasm of hepatic flexure
-MONDO:0002360	chondroma	NCIT:C3007	MONDO:equivalentTo	Enchondroma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	central chondroma
 MONDO:0002386	mixed epithelial stromal tumor of the kidney	NCIT:C37264	MONDO:equivalentTo	Benign Kidney Mixed Epithelial and Stromal Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	benign mest
 MONDO:0002460	lacrimal system cancer	NCIT:C175308	MONDO:equivalentTo	Malignant Lacrimal System Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant lacrimal apparatus neoplasm
 MONDO:0002485	breast neuroendocrine neoplasm	NCIT:C175610	MONDO:equivalentTo	Breast Neuroendocrine Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	breast neuroendocrine tumor
@@ -62,14 +45,12 @@ MONDO:0002501	brain glioblastoma	NCIT:C147901	MONDO:equivalentTo	Childhood Brain
 MONDO:0002501	brain glioblastoma	NCIT:C147901	MONDO:equivalentTo	Childhood Brain Glioblastoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	brain glioblastoma
 MONDO:0002501	brain glioblastoma	NCIT:C9375	MONDO:equivalentTo	Adult Brain Glioblastoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	brain glioblastoma
 MONDO:0002501	brain glioblastoma	NCIT:C9375	MONDO:equivalentTo	Adult Brain Glioblastoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	brain glioblastoma
-MONDO:0002513	kidney benign neoplasm	NCIT:C7514	MONDO:equivalentTo	Kidney and Ureter Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	renal and ureteral tumor
 MONDO:0002544	brain oligodendroglioma	NCIT:C114773	MONDO:equivalentTo	Childhood Brain Oligodendroglioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	brain oligodendroglioma
 MONDO:0002544	brain oligodendroglioma	NCIT:C114773	MONDO:equivalentTo	Childhood Brain Oligodendroglioma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	brain oligodendroglioma
 MONDO:0002544	brain oligodendroglioma	NCIT:C9376	MONDO:equivalentTo	Adult Brain Oligodendroglioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	brain oligodendroglioma
 MONDO:0002544	brain oligodendroglioma	NCIT:C9376	MONDO:equivalentTo	Adult Brain Oligodendroglioma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	brain oligodendroglioma
 MONDO:0002571	primary central nervous system lymphoma	NCIT:C212063	MONDO:equivalentTo	Central Nervous System Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	central nervous system lymphoma
 MONDO:0002571	primary central nervous system lymphoma	NCIT:C212063	MONDO:equivalentTo	Central Nervous System Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	central nervous system lymphoma
-MONDO:0002592	invasive malignant thymoma	NCIT:C6453	MONDO:equivalentTo	Invasive Thymoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	infiltrating thymoma
 MONDO:0002601	teratoma	NCIT:C68626	MONDO:equivalentTo	Childhood Teratoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	teratoma
 MONDO:0002601	teratoma	NCIT:C68626	MONDO:equivalentTo	Childhood Teratoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	teratoma
 MONDO:0002618	undifferentiated high grade pleomorphic sarcoma of bone	NCIT:C114750	MONDO:equivalentTo	Childhood Undifferentiated High Grade Pleomorphic Sarcoma of Bone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	undifferentiated high grade pleomorphic sarcoma of bone
@@ -80,50 +61,28 @@ MONDO:0002618	undifferentiated high grade pleomorphic sarcoma of bone	NCIT:C1159
 MONDO:0002618	undifferentiated high grade pleomorphic sarcoma of bone	NCIT:C115997	MONDO:equivalentTo	Localized Adult Undifferentiated High Grade Pleomorphic Sarcoma of Bone	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	undifferentiated high grade pleomorphic sarcoma of bone
 MONDO:0002618	undifferentiated high grade pleomorphic sarcoma of bone	NCIT:C115998	MONDO:equivalentTo	Localized Childhood Undifferentiated High Grade Pleomorphic Sarcoma of Bone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	undifferentiated high grade pleomorphic sarcoma of bone
 MONDO:0002618	undifferentiated high grade pleomorphic sarcoma of bone	NCIT:C115998	MONDO:equivalentTo	Localized Childhood Undifferentiated High Grade Pleomorphic Sarcoma of Bone	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	undifferentiated high grade pleomorphic sarcoma of bone
-MONDO:0002625	Ewing sarcoma of bone	NCIT:C6623	MONDO:equivalentTo	Localized Bone Ewing Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	localized skeletal ewings sarcoma
-MONDO:0002629	bone osteosarcoma	NCIT:C4834	MONDO:equivalentTo	Primary Bone Osteosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	primary osteosarcoma of bone
 MONDO:0002691	liver cancer	NCIT:C190593	MONDO:equivalentTo	Malignant Liver Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant liver neoplasm
 MONDO:0002691	liver cancer	NCIT:C190593	MONDO:equivalentTo	Malignant Liver Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	malignant liver neoplasm
-MONDO:0002691	liver cancer	NCIT:C7692	MONDO:equivalentTo	Resectable Malignant Liver Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	resectable malignant neoplasm of liver
 MONDO:0002691	liver cancer	NCIT:C7708	MONDO:equivalentTo	Childhood Malignant Liver Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant liver neoplasm
 MONDO:0002691	liver cancer	NCIT:C7711	MONDO:equivalentTo	Adult Liver Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	liver cancer
 MONDO:0002691	liver cancer	NCIT:C7711	MONDO:equivalentTo	Adult Liver Carcinoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	liver cancer
-MONDO:0002691	liver cancer	NCIT:C8609	MONDO:equivalentTo	Malignant Hepatobiliary Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant hepato-biliary neoplasm
 MONDO:0002714	central nervous system cancer	NCIT:C5448	MONDO:equivalentTo	Childhood Malignant Central Nervous System Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant central nervous system neoplasm
 MONDO:0002718	central nervous system teratoma	NCIT:C6204	MONDO:equivalentTo	Childhood Central Nervous System Teratoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	central nervous system teratoma
 MONDO:0002718	central nervous system teratoma	NCIT:C6204	MONDO:equivalentTo	Childhood Central Nervous System Teratoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	central nervous system teratoma
-MONDO:0002749	extracranial neuroblastoma	NCIT:C6591	MONDO:equivalentTo	Peripheral Neuroblastoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	extracranial neuroblastoma
 MONDO:0002749	extracranial neuroblastoma	NCIT:C6591	MONDO:equivalentTo	Peripheral Neuroblastoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	extracranial neuroblastoma
-MONDO:0002786	diencephalic cancer	NCIT:C5125	MONDO:equivalentTo	Diencephalic Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tumor of diencephalon
-MONDO:0002821	trabecular follicular adenocarcinoma	NCIT:C46095	MONDO:equivalentTo	Solid/Trabecular Variant Thyroid Gland Papillary Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	follicular adenocarcinoma, trabecular
 MONDO:0002863	rhabdomyosarcoma with mixed embryonal and alveolar features	NCIT:C7960	MONDO:equivalentTo	Childhood Rhabdomyosarcoma with Mixed Embryonal and Alveolar Features	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mixed alveolar rhabdomyosarcoma
-MONDO:0002870	tricuspid valve insufficiency	NCIT:C50843	MONDO:equivalentTo	Tricuspid Valve Regurgitation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tricuspid regurgitation
 MONDO:0002870	tricuspid valve insufficiency	NCIT:C50843	MONDO:equivalentTo	Tricuspid Valve Regurgitation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tricuspid valve regurgitation
 MONDO:0002870	tricuspid valve insufficiency	NCIT:C50843	MONDO:equivalentTo	Tricuspid Valve Regurgitation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	tricuspid valve regurgitation
-MONDO:0002877	cervical carcinosarcoma	NCIT:C40226	MONDO:equivalentTo	Cervical Mixed Epithelial and Mesenchymal Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cervical mixed epithelial and mesenchymal neoplasm
-MONDO:0002877	cervical carcinosarcoma	NCIT:C40226	MONDO:equivalentTo	Cervical Mixed Epithelial and Mesenchymal Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	cervical mixed epithelial and mesenchymal neoplasm
-MONDO:0002900	cerebral neuroblastoma	NCIT:C114775	MONDO:equivalentTo	Childhood Central Nervous System Neuroblastoma, FOXR2-Activated	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	central nervous system neuroblastoma
 MONDO:0002926	clear cell sarcoma	NCIT:C27370	MONDO:equivalentTo	Adult Clear Cell Sarcoma of Soft Tissue	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	clear cell sarcoma of soft tissue
 MONDO:0002926	clear cell sarcoma	NCIT:C27371	MONDO:equivalentTo	Childhood Clear Cell Sarcoma of Soft Tissue	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	clear cell sarcoma of soft tissue
-MONDO:0002928	carcinosarcoma	NCIT:C3730	MONDO:equivalentTo	Mixed Mesodermal (Mullerian) Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mesodermal mixed tumor
-MONDO:0002928	carcinosarcoma	NCIT:C3730	MONDO:equivalentTo	Mixed Mesodermal (Mullerian) Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mixed mesodermal (mullerian) tumor
-MONDO:0002928	carcinosarcoma	NCIT:C3730	MONDO:equivalentTo	Mixed Mesodermal (Mullerian) Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mullerian mixed tumor
-MONDO:0002928	carcinosarcoma	NCIT:C3730	MONDO:equivalentTo	Mixed Mesodermal (Mullerian) Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	mixed mesodermal (mullerian) tumor
-MONDO:0002928	carcinosarcoma	NCIT:C8975	MONDO:equivalentTo	Female Reproductive System Carcinosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant mixed mesodermal (mullerian) tumor
-MONDO:0002928	carcinosarcoma	NCIT:C8975	MONDO:equivalentTo	Female Reproductive System Carcinosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant mixed mullerian tumor
 MONDO:0002937	nodular basal cell carcinoma	NCIT:C62282	MONDO:equivalentTo	Skin Nodular Basal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	nodular basal cell carcinoma
 MONDO:0003030	endometrioid stromal sarcoma of the cervix	NCIT:C40222	MONDO:equivalentTo	Cervical Low Grade Endometrioid Stromal Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	endometrioid stromal sarcoma of the cervix
 MONDO:0003030	endometrioid stromal sarcoma of the cervix	NCIT:C40222	MONDO:equivalentTo	Cervical Low Grade Endometrioid Stromal Sarcoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	endometrioid stromal sarcoma of the cervix
 MONDO:0003054	benign meningioma	NCIT:C38936	MONDO:equivalentTo	Grade 1 Meningioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	benign meningioma (who grade i)
-MONDO:0003054	benign meningioma	NCIT:C38936	MONDO:equivalentTo	Grade 1 Meningioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	meningioma, benign
-MONDO:0003112	malignant gastric germ cell tumor	NCIT:C6448	MONDO:equivalentTo	Gastric Germ Cell Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	germ cell tumor of the stomach
 MONDO:0003171	pineal gland astrocytoma	NCIT:C115327	MONDO:equivalentTo	Adult Pineal Gland Astrocytoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	pineal gland astrocytoma
-MONDO:0003202	pituitary gland basophilic carcinoma	NCIT:C4150	MONDO:equivalentTo	Pituitary Gland Basophil Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	basophil adenocarcinoma
-MONDO:0003202	pituitary gland basophilic carcinoma	NCIT:C4150	MONDO:equivalentTo	Pituitary Gland Basophil Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	basophil carcinoma
 MONDO:0003202	pituitary gland basophilic carcinoma	NCIT:C4150	MONDO:equivalentTo	Pituitary Gland Basophil Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pituitary gland basophil carcinoma
 MONDO:0003202	pituitary gland basophilic carcinoma	NCIT:C4150	MONDO:equivalentTo	Pituitary Gland Basophil Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pituitary gland basophil carcinoma
 MONDO:0003210	intrahepatic cholangiocarcinoma	NCIT:C8265	MONDO:equivalentTo	Adult Cholangiocarcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	intrahepatic bile duct cancer (cholangiocarcinoma)
-MONDO:0003210	intrahepatic cholangiocarcinoma	NCIT:C96805	MONDO:equivalentTo	Small Duct Intrahepatic Cholangiocarcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	peripheral cholangiocarcinoma
 MONDO:0003266	ependymal tumor	NCIT:C115192	MONDO:equivalentTo	Childhood Ependymal Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	ependymal tumor
 MONDO:0003266	ependymal tumor	NCIT:C115192	MONDO:equivalentTo	Childhood Ependymal Tumor	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	ependymal tumor
 MONDO:0003266	ependymal tumor	NCIT:C68690	MONDO:equivalentTo	Adult Ependymal Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	ependymal tumor
@@ -132,7 +91,6 @@ MONDO:0003268	mixed glioma	NCIT:C115195	MONDO:equivalentTo	Childhood Mixed Gliom
 MONDO:0003268	mixed glioma	NCIT:C115195	MONDO:equivalentTo	Childhood Mixed Glioma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	mixed glioma
 MONDO:0003268	mixed glioma	NCIT:C115250	MONDO:equivalentTo	Adult Mixed Glioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mixed glioma
 MONDO:0003268	mixed glioma	NCIT:C115250	MONDO:equivalentTo	Adult Mixed Glioma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	mixed glioma
-MONDO:0003306	atypical neurofibroma	NCIT:C178255	MONDO:equivalentTo	Atypical Neurofibromatous Neoplasm of Uncertain Biologic Potential	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	atypical neurofibroma
 MONDO:0003306	atypical neurofibroma	NCIT:C178255	MONDO:equivalentTo	Atypical Neurofibromatous Neoplasm of Uncertain Biologic Potential	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	atypical neurofibroma
 MONDO:0003313	endometrioid stromal sarcoma of the vagina	NCIT:C40271	MONDO:equivalentTo	Vaginal Low Grade Endometrioid Stromal Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	endometrioid stromal sarcoma of the vagina
 MONDO:0003313	endometrioid stromal sarcoma of the vagina	NCIT:C40271	MONDO:equivalentTo	Vaginal Low Grade Endometrioid Stromal Sarcoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	endometrioid stromal sarcoma of the vagina
@@ -145,27 +103,16 @@ MONDO:0003510	malignant testicular germ cell tumor	NCIT:C68628	MONDO:equivalentT
 MONDO:0003531	papillary eccrine carcinoma	NCIT:C27527	MONDO:equivalentTo	Tubular Apocrine Adenoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tubular apocrine adenoma
 MONDO:0003531	papillary eccrine carcinoma	NCIT:C27527	MONDO:equivalentTo	Tubular Apocrine Adenoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	tubular apocrine adenoma
 MONDO:0003539	T-cell adult acute lymphocytic leukemia	NCIT:C126112	MONDO:equivalentTo	Infant T Acute Lymphoblastic Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	t acute lymphoblastic leukemia
-MONDO:0003638	lung meningioma	NCIT:C5276	MONDO:equivalentTo	Primary Lung Meningioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	primary pulmonary meningioma
 MONDO:0003649	esophageal neuroendocrine tumor	NCIT:C5821	MONDO:equivalentTo	Esophageal Neuroendocrine Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	esophageal neuroendocrine neoplasm
 MONDO:0003649	esophageal neuroendocrine tumor	NCIT:C5821	MONDO:equivalentTo	Esophageal Neuroendocrine Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	neuroendocrine neoplasm of esophagus
 MONDO:0003649	esophageal neuroendocrine tumor	NCIT:C5821	MONDO:equivalentTo	Esophageal Neuroendocrine Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	esophageal neuroendocrine neoplasm
 MONDO:0003671	septal myocardial infarction	NCIT:C35519	MONDO:equivalentTo	Septal Myocardial Infarction by ECG Finding	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	septal myocardial infarction
 MONDO:0003731	adult central nervous system teratoma	NCIT:C6204	MONDO:equivalentTo	Childhood Central Nervous System Teratoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	central nervous system teratoma
-MONDO:0003766	thalamic cancer	NCIT:C6221	MONDO:equivalentTo	Thalamic Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tumor of thalamus
-MONDO:0003812	ovarian endometrial cancer	NCIT:C6257	MONDO:equivalentTo	Ovarian Endometrioid Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	endometrioid neoplasm of ovary
-MONDO:0003812	ovarian endometrial cancer	NCIT:C6257	MONDO:equivalentTo	Ovarian Endometrioid Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	ovarian endometrioid neoplasm
-MONDO:0003822	non-invasive bladder papillary urothelial neoplasm	NCIT:C191672	MONDO:equivalentTo	Papillary Urothelial Neoplasm of Low Malignant Potential	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	papillary urothelial neoplasm of low malignant potential
-MONDO:0003822	non-invasive bladder papillary urothelial neoplasm	NCIT:C191672	MONDO:equivalentTo	Papillary Urothelial Neoplasm of Low Malignant Potential	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	papillary urothelial neoplasm of low malignant potential
-MONDO:0003822	non-invasive bladder papillary urothelial neoplasm	NCIT:C27884	MONDO:equivalentTo	Bladder Papillary Urothelial Neoplasm of Low Malignant Potential	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bladder papillary neoplasm of low malignant potential
-MONDO:0003822	non-invasive bladder papillary urothelial neoplasm	NCIT:C27884	MONDO:equivalentTo	Bladder Papillary Urothelial Neoplasm of Low Malignant Potential	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bladder punlmp
 MONDO:0003857	adult intracranial malignant hemangiopericytoma	NCIT:C129527	MONDO:equivalentTo	Central Nervous System Solitary Fibrous Tumor, Grade 3	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	central nervous system solitary fibrous tumor/hemangiopericytoma, grade type 3
 MONDO:0003899	adult myxoid chondrosarcoma	NCIT:C7924	MONDO:equivalentTo	Adult Extraskeletal Myxoid Chondrosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	adult myxoid chondrosarcoma
 MONDO:0003899	adult myxoid chondrosarcoma	NCIT:C7924	MONDO:equivalentTo	Adult Extraskeletal Myxoid Chondrosarcoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	adult myxoid chondrosarcoma
-MONDO:0003945	bone epithelioid hemangioma	NCIT:C6477	MONDO:equivalentTo	Bone Hemangioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hemangioma of bone
-MONDO:0003945	bone epithelioid hemangioma	NCIT:C6477	MONDO:equivalentTo	Bone Hemangioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	osseous hemangioma
 MONDO:0004182	stage IVb bladder cancer	NCIT:C140426	MONDO:equivalentTo	Stage IVB Bladder Cancer AJCC v8	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	stage ivb bladder cancer
 MONDO:0004182	stage IVb bladder cancer	NCIT:C140426	MONDO:equivalentTo	Stage IVB Bladder Cancer AJCC v8	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	stage ivb bladder cancer
-MONDO:0004387	luteoma of pregnancy	NCIT:C3202	MONDO:equivalentTo	Ovarian Stromal Luteoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	luteoma
 MONDO:0004557	congenital fibrosarcoma	NCIT:C142823	MONDO:equivalentTo	Congenital Peribronchial Myofibroblastic Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	congenital fibrosarcoma
 MONDO:0004557	congenital fibrosarcoma	NCIT:C142823	MONDO:equivalentTo	Congenital Peribronchial Myofibroblastic Tumor	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	congenital fibrosarcoma
 MONDO:0004604	Hodgkin's lymphoma, lymphocytic-histiocytic predominance	NCIT:C7054	MONDO:equivalentTo	Childhood Lymphocyte-Rich Classic Hodgkin Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	lymphocyte-rich classical hodgkin lymphoma
@@ -175,7 +122,6 @@ MONDO:0004627	duodenitis	NCIT:C22079	MONDO:equivalentTo	Acute Enteritis of the M
 MONDO:0004627	duodenitis	NCIT:C22079	MONDO:equivalentTo	Acute Enteritis of the Mouse Intestinal Tract	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	duodenitis
 MONDO:0004633	Hodgkin's lymphoma, mixed cellularity	NCIT:C8063	MONDO:equivalentTo	Childhood Mixed Cellularity Classic Hodgkin Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mixed cellularity classical hodgkin lymphoma
 MONDO:0004633	Hodgkin's lymphoma, mixed cellularity	NCIT:C9127	MONDO:equivalentTo	Adult Mixed Cellularity Classic Hodgkin Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mixed cellularity classical hodgkin lymphoma
-MONDO:0004639	perinatal necrotizing enterocolitis	NCIT:C84915	MONDO:equivalentTo	Necrotizing Enterocolitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	necrotizing enterocolitis in fetus or newborn
 MONDO:0004658	breast carcinoma in situ	NCIT:C139534	MONDO:equivalentTo	Anatomic Stage 0 Breast Cancer AJCC v8	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	stage type 0 breast cancer
 MONDO:0004658	breast carcinoma in situ	NCIT:C139555	MONDO:equivalentTo	Prognostic Stage 0 Breast Cancer AJCC v8	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	stage type 0 breast cancer
 MONDO:0004660	lung carcinoma in situ	NCIT:C136469	MONDO:equivalentTo	Stage 0 Lung Cancer AJCC v8	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	stage type 0 lung cancer
@@ -196,36 +142,24 @@ MONDO:0004725	rectum carcinoma in situ	NCIT:C134291	MONDO:equivalentTo	Stage 0 R
 MONDO:0004938	substance dependence	NCIT:C45996	MONDO:equivalentTo	Dependency	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	dependence
 MONDO:0004952	Hodgkins lymphoma	NCIT:C7702	MONDO:equivalentTo	Adult Hodgkin Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hodgkin lymphoma
 MONDO:0004952	Hodgkins lymphoma	NCIT:C7714	MONDO:equivalentTo	Childhood Hodgkin Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hodgkin lymphoma
-MONDO:0004957	mucinous adenocarcinoma	NCIT:C27379	MONDO:equivalentTo	Mucin-Producing Adenocarcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mucin-producing adenocarcinoma
-MONDO:0004957	mucinous adenocarcinoma	NCIT:C27379	MONDO:equivalentTo	Mucin-Producing Adenocarcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	mucin-producing adenocarcinoma
 MONDO:0004963	T-cell acute lymphoblastic leukemia	NCIT:C126112	MONDO:equivalentTo	Infant T Acute Lymphoblastic Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	t acute lymphoblastic leukemia
-MONDO:0004972	adenoma	NCIT:C4196	MONDO:equivalentTo	Acinar Cell Adenoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acinic cell adenoma
-MONDO:0005004	clear cell adenocarcinoma	NCIT:C4156	MONDO:equivalentTo	Water-Clear Cell Adenocarcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	water-clear cell adenocarcinoma
-MONDO:0005004	clear cell adenocarcinoma	NCIT:C4156	MONDO:equivalentTo	Water-Clear Cell Adenocarcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	water-clear cell adenocarcinoma
 MONDO:0005023	ductal breast carcinoma in situ	NCIT:C213452	MONDO:equivalentTo	Intraductal Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	intraductal carcinoma
 MONDO:0005023	ductal breast carcinoma in situ	NCIT:C213452	MONDO:equivalentTo	Intraductal Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	intraductal carcinoma
 MONDO:0005035	ganglioneuroblastoma	NCIT:C124271	MONDO:equivalentTo	Childhood Ganglioneuroblastoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	ganglioneuroblastoma
 MONDO:0005035	ganglioneuroblastoma	NCIT:C124271	MONDO:equivalentTo	Childhood Ganglioneuroblastoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	ganglioneuroblastoma
-MONDO:0005055	Kaposi's sarcoma	NCIT:C3551	MONDO:equivalentTo	Lung Kaposi Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	kaposis sarcoma of lung
-MONDO:0005055	Kaposi's sarcoma	NCIT:C4578	MONDO:equivalentTo	Conjunctival Kaposi Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	kaposis sarcoma of conjunctiva
-MONDO:0005055	Kaposi's sarcoma	NCIT:C4579	MONDO:equivalentTo	Corneal Kaposi Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	kaposis sarcoma of cornea
-MONDO:0005055	Kaposi's sarcoma	NCIT:C6749	MONDO:equivalentTo	Palate Kaposi Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	kaposis sarcoma of palate
 MONDO:0005056	keratinizing squamous cell carcinoma	NCIT:C136713	MONDO:equivalentTo	Lung Keratinizing Squamous Cell Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	keratinizing squamous cell carcinoma
 MONDO:0005056	keratinizing squamous cell carcinoma	NCIT:C136713	MONDO:equivalentTo	Lung Keratinizing Squamous Cell Carcinoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	keratinizing squamous cell carcinoma
 MONDO:0005058	leiomyosarcoma	NCIT:C7810	MONDO:equivalentTo	Adult Leiomyosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	leiomyosarcoma
 MONDO:0005058	leiomyosarcoma	NCIT:C7810	MONDO:equivalentTo	Adult Leiomyosarcoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	leiomyosarcoma
 MONDO:0005058	leiomyosarcoma	NCIT:C8093	MONDO:equivalentTo	Childhood Leiomyosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	leiomyosarcoma
 MONDO:0005058	leiomyosarcoma	NCIT:C8093	MONDO:equivalentTo	Childhood Leiomyosarcoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	leiomyosarcoma
-MONDO:0005061	lung adenocarcinoma	NCIT:C27745	MONDO:equivalentTo	Non-Small Cell Adenocarcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	nonsmall cell adenocarcinoma
 MONDO:0005072	neuroblastoma	NCIT:C124270	MONDO:equivalentTo	Childhood Neuroblastoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	neuroblastoma
 MONDO:0005072	neuroblastoma	NCIT:C124270	MONDO:equivalentTo	Childhood Neuroblastoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	neuroblastoma
 MONDO:0005102	undifferentiated (embryonal) sarcoma	NCIT:C121793	MONDO:equivalentTo	Undifferentiated Soft Tissue Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	undifferentiated sarcoma
 MONDO:0005103	well-differentiated liposarcoma	NCIT:C176981	MONDO:equivalentTo	Atypical Lipomatous Tumor/Well Differentiated Liposarcoma of Deep Soft Tissue	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	well differentiated liposarcoma of deep soft tissue
-MONDO:0005164	fibrosarcoma	NCIT:C6605	MONDO:equivalentTo	Soft Tissue Fibrosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	fibrosarcoma of soft tissue
-MONDO:0005192	exocrine pancreatic carcinoma	NCIT:C207229	MONDO:equivalentTo	Pancreatic Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	carcinoma of pancreas
+MONDO:0005112	malignant pleural mesothelioma	NCIT:C222813	MONDO:equivalentTo	Pleural Diffuse Malignant Mesothelioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pleural diffuse malignant mesothelioma
+MONDO:0005112	malignant pleural mesothelioma	NCIT:C222813	MONDO:equivalentTo	Pleural Diffuse Malignant Mesothelioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pleural diffuse malignant mesothelioma
 MONDO:0005192	exocrine pancreatic carcinoma	NCIT:C207229	MONDO:equivalentTo	Pancreatic Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	carcinoma of the pancreas
-MONDO:0005192	exocrine pancreatic carcinoma	NCIT:C207229	MONDO:equivalentTo	Pancreatic Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pancreatic carcinoma
-MONDO:0005192	exocrine pancreatic carcinoma	NCIT:C207229	MONDO:equivalentTo	Pancreatic Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pancreatic carcinoma
 MONDO:0005212	rhabdomyosarcoma	NCIT:C7705	MONDO:equivalentTo	Childhood Rhabdomyosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	rhabdomyosarcoma
 MONDO:0005212	rhabdomyosarcoma	NCIT:C7705	MONDO:equivalentTo	Childhood Rhabdomyosarcoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	rhabdomyosarcoma
 MONDO:0005212	rhabdomyosarcoma	NCIT:C9130	MONDO:equivalentTo	Adult Rhabdomyosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	rhabdomyosarcoma
@@ -236,16 +170,8 @@ MONDO:0005335	colorectal neoplasm	NCIT:C215201	MONDO:equivalentTo	Large Intestin
 MONDO:0005369	carcinoid tumor	NCIT:C203250	MONDO:equivalentTo	Neuroendocrine Tumor G1	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	net g1
 MONDO:0005369	carcinoid tumor	NCIT:C203250	MONDO:equivalentTo	Neuroendocrine Tumor G1	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	neuroendocrine tumor g1
 MONDO:0005369	carcinoid tumor	NCIT:C203250	MONDO:equivalentTo	Neuroendocrine Tumor G1	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	neuroendocrine tumor g1
-MONDO:0005461	endometrium adenocarcinoma	NCIT:C6290	MONDO:equivalentTo	Endometrial Endometrioid Adenocarcinoma, Variant with Squamous Differentiation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	endometrial adenoacanthoma
-MONDO:0005461	endometrium adenocarcinoma	NCIT:C6290	MONDO:equivalentTo	Endometrial Endometrioid Adenocarcinoma, Variant with Squamous Differentiation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	endometrial endometrioid adenocarcinoma with squamous differentiation
-MONDO:0005512	malignant peritoneal mesothelioma	NCIT:C9350	MONDO:equivalentTo	Peritoneal Malignant Mesothelioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant mesothelioma of peritoneum
 MONDO:0005512	malignant peritoneal mesothelioma	NCIT:C9350	MONDO:equivalentTo	Peritoneal Malignant Mesothelioma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	malignant peritoneal mesothelioma
-MONDO:0005647	anogenital human papillomavirus infection	NCIT:C2960	MONDO:equivalentTo	Condyloma Acuminatum	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	genital warts
-MONDO:0005647	anogenital human papillomavirus infection	NCIT:C2960	MONDO:equivalentTo	Condyloma Acuminatum	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	venereal wart
-MONDO:0005864	muscle cancer	NCIT:C214801	MONDO:equivalentTo	Myosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	myosarcoma
-MONDO:0005864	muscle cancer	NCIT:C214801	MONDO:equivalentTo	Myosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	myosarcoma
 MONDO:0006025	autosomal recessive disease	NCIT:C85866	MONDO:equivalentTo	Autosomal Recessive Disorder	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	autosomal recessive disorder
-MONDO:0006036	granulosa cell tumor	NCIT:C66750	MONDO:equivalentTo	Adult Granulosa Cell Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	granulosa cell tumor, adult type
 MONDO:0006096	atypical endometrial hyperplasia	NCIT:C27789	MONDO:equivalentTo	Endometrial Atypical Hyperplasia/Endometrioid Intraepithelial Neoplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	atypical hyperplasia of endometrium
 MONDO:0006096	atypical endometrial hyperplasia	NCIT:C27789	MONDO:equivalentTo	Endometrial Atypical Hyperplasia/Endometrioid Intraepithelial Neoplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	atypical hyperplasia of the endometrium
 MONDO:0006096	atypical endometrial hyperplasia	NCIT:C27789	MONDO:equivalentTo	Endometrial Atypical Hyperplasia/Endometrioid Intraepithelial Neoplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	endometrial hyperplasia with atypia
@@ -261,9 +187,6 @@ MONDO:0006210	fibrolamellar hepatocellular carcinoma	NCIT:C114992	MONDO:equivale
 MONDO:0006243	hepatoid adenocarcinoma	NCIT:C95465	MONDO:equivalentTo	Pancreatic Hepatoid Adenocarcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hepatoid carcinoma
 MONDO:0006317	neurothekeoma	NCIT:C156278	MONDO:equivalentTo	Cellular Neurothekeoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	neurothekeoma
 MONDO:0006317	neurothekeoma	NCIT:C156278	MONDO:equivalentTo	Cellular Neurothekeoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	neurothekeoma
-MONDO:0006329	olfactory neuroblastoma	NCIT:C6016	MONDO:equivalentTo	Paranasal Sinus Olfactory Neuroblastoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	paranasal sinus olfactory neuroblastoma
-MONDO:0006329	olfactory neuroblastoma	NCIT:C6016	MONDO:equivalentTo	Paranasal Sinus Olfactory Neuroblastoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	paranasal sinus olfactory neuroblastoma
-MONDO:0006350	papillary transitional cell carcinoma	NCIT:C213296	MONDO:equivalentTo	Papillary Urothelial Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	papillary transitional cell carcinoma
 MONDO:0006350	papillary transitional cell carcinoma	NCIT:C213296	MONDO:equivalentTo	Papillary Urothelial Carcinoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	papillary transitional cell carcinoma
 MONDO:0006363	peritoneal multicystic mesothelioma	NCIT:C3765	MONDO:equivalentTo	Multicystic Mesothelioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	multicystic mesothelioma
 MONDO:0006363	peritoneal multicystic mesothelioma	NCIT:C3765	MONDO:equivalentTo	Multicystic Mesothelioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	multicystic mesothelioma
@@ -273,19 +196,14 @@ MONDO:0006519	rectal cancer	NCIT:C118823	MONDO:equivalentTo	Childhood Rectal Car
 MONDO:0006680	blue nevus	NCIT:C208328	MONDO:equivalentTo	Cutaneous Blue Nevus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	blue nevus of skin
 MONDO:0006680	blue nevus	NCIT:C208328	MONDO:equivalentTo	Cutaneous Blue Nevus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	blue nevus of the skin
 MONDO:0006680	blue nevus	NCIT:C208328	MONDO:equivalentTo	Cutaneous Blue Nevus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	blue skin nevus
-MONDO:0006715	coronary stenosis	NCIT:C80427	MONDO:equivalentTo	Coronary Artery Stenosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	coronary artery stenosis
-MONDO:0006715	coronary stenosis	NCIT:C80427	MONDO:equivalentTo	Coronary Artery Stenosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	coronary artery stenosis
 MONDO:0006717	cutaneous fibrous histiocytoma	NCIT:C8402	MONDO:equivalentTo	Fibrohistiocytic Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	fibrohistiocytic neoplasm
 MONDO:0006717	cutaneous fibrous histiocytoma	NCIT:C8402	MONDO:equivalentTo	Fibrohistiocytic Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fibrohistiocytic neoplasm
 MONDO:0006738	eccrine acrospiroma	NCIT:C205462	MONDO:equivalentTo	Eccrine Poroma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	eccrine poroma
 MONDO:0006738	eccrine acrospiroma	NCIT:C205462	MONDO:equivalentTo	Eccrine Poroma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	eccrine poroma
-MONDO:0006745	endometrioid stromal sarcoma	NCIT:C126998	MONDO:equivalentTo	Uterine Corpus High Grade Endometrial Stromal Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	endometrial stromal sarcoma, high grade
 MONDO:0006745	endometrioid stromal sarcoma	NCIT:C84686	MONDO:equivalentTo	Empty Sella Syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	empty sella syndrome
 MONDO:0006745	endometrioid stromal sarcoma	NCIT:C84686	MONDO:equivalentTo	Empty Sella Syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	empty sella syndrome
-MONDO:0006891	partial motor epilepsy	NCIT:C50847	MONDO:equivalentTo	Partial Motor Seizure	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	focal motor seizure
 MONDO:0006971	sigmoid neoplasm	NCIT:C213279	MONDO:equivalentTo	Sigmoid Colon Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	sigmoid colon neoplasm
 MONDO:0006971	sigmoid neoplasm	NCIT:C213279	MONDO:equivalentTo	Sigmoid Colon Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	sigmoid colon neoplasm
-MONDO:0007100	familial amyloid neuropathy	NCIT:C205629	MONDO:equivalentTo	Hereditary ATTR Amyloidosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	familial transthyretin amyloidosis
 MONDO:0007243	Burkitt lymphoma	NCIT:C9062	MONDO:equivalentTo	Adult Burkitt Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	burkitt lymphoma
 MONDO:0007243	Burkitt lymphoma	NCIT:C9062	MONDO:equivalentTo	Adult Burkitt Lymphoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	burkitt lymphoma
 MONDO:0007243	Burkitt lymphoma	NCIT:C9095	MONDO:equivalentTo	Childhood Burkitt Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	burkitt lymphoma
@@ -296,13 +214,11 @@ MONDO:0007576	esophageal cancer	NCIT:C118812	MONDO:equivalentTo	Childhood Esopha
 MONDO:0007576	esophageal cancer	NCIT:C118812	MONDO:equivalentTo	Childhood Esophageal Carcinoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	esophageal cancer
 MONDO:0007667	subependymoma	NCIT:C115623	MONDO:equivalentTo	Adult Subependymoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	subependymoma
 MONDO:0007667	subependymoma	NCIT:C115623	MONDO:equivalentTo	Adult Subependymoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	subependymoma
-MONDO:0007896	acute monocytic leukemia	NCIT:C7318	MONDO:equivalentTo	Acute Monoblastic and Monocytic Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute monoblastic leukemia and acute monocytic leukemia
 MONDO:0007896	acute monocytic leukemia	NCIT:C9163	MONDO:equivalentTo	Childhood Acute Monocytic Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute monocytic leukemia
 MONDO:0007896	acute monocytic leukemia	NCIT:C9163	MONDO:equivalentTo	Childhood Acute Monocytic Leukemia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	acute monocytic leukemia
 MONDO:0008056	myotonic dystrophy type 1	NCIT:C84914	MONDO:equivalentTo	Myotonic Dystrophy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	myotonic dystrophy
 MONDO:0008056	myotonic dystrophy type 1	NCIT:C84914	MONDO:equivalentTo	Myotonic Dystrophy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	myotonic dystrophy
 MONDO:0008145	Ollier disease	NCIT:C53457	MONDO:equivalentTo	Multiple Osteochondromas	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	osteochondromatosis
-MONDO:0008280	Peutz-Jeghers syndrome	NCIT:C36205	MONDO:equivalentTo	Peutz-Jeghers Polyp of the Stomach	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	gastric peutz-jeghers polyp
 MONDO:0008375	retinal detachment	NCIT:C55886	MONDO:equivalentTo	Retinal Detachment, CTCAE 3.0	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	retinal detachment
 MONDO:0008375	retinal detachment	NCIT:C55886	MONDO:equivalentTo	Retinal Detachment, CTCAE 3.0	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	retinal detachment
 MONDO:0008698	achalasia	NCIT:C84699	MONDO:equivalentTo	Esophageal Achalasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	achalasia of cardia
@@ -325,12 +241,9 @@ MONDO:0009958	adult Refsum disease	NCIT:C85043	MONDO:equivalentTo	Refsum Disease
 MONDO:0009958	adult Refsum disease	NCIT:C85043	MONDO:equivalentTo	Refsum Disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	refsum disorder
 MONDO:0009993	embryonal rhabdomyosarcoma	NCIT:C7957	MONDO:equivalentTo	Childhood Embryonal Rhabdomyosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	embryonal rhabdomyosarcoma
 MONDO:0009993	embryonal rhabdomyosarcoma	NCIT:C7957	MONDO:equivalentTo	Childhood Embryonal Rhabdomyosarcoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	embryonal rhabdomyosarcoma
-MONDO:0009994	alveolar rhabdomyosarcoma	NCIT:C7958	MONDO:equivalentTo	Childhood Alveolar Rhabdomyosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	alveolar childhood rhabdomyosarcoma
 MONDO:0009994	alveolar rhabdomyosarcoma	NCIT:C7958	MONDO:equivalentTo	Childhood Alveolar Rhabdomyosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	alveolar rhabdomyosarcoma
 MONDO:0009994	alveolar rhabdomyosarcoma	NCIT:C7958	MONDO:equivalentTo	Childhood Alveolar Rhabdomyosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pediatric alveolar rhabdomyosarcoma
 MONDO:0009994	alveolar rhabdomyosarcoma	NCIT:C7958	MONDO:equivalentTo	Childhood Alveolar Rhabdomyosarcoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	alveolar rhabdomyosarcoma
-MONDO:0010198	Wernicke-Korsakoff syndrome	NCIT:C84803	MONDO:equivalentTo	Korsakoff Syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	korsakoff syndrome
-MONDO:0010198	Wernicke-Korsakoff syndrome	NCIT:C84803	MONDO:equivalentTo	Korsakoff Syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	korsakoff syndrome
 MONDO:0010434	synovial sarcoma	NCIT:C7817	MONDO:equivalentTo	Adult Synovial Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	synovial sarcoma
 MONDO:0010434	synovial sarcoma	NCIT:C7817	MONDO:equivalentTo	Adult Synovial Sarcoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	synovial sarcoma
 MONDO:0010434	synovial sarcoma	NCIT:C8089	MONDO:equivalentTo	Childhood Synovial Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	synovial sarcoma
@@ -338,11 +251,11 @@ MONDO:0010434	synovial sarcoma	NCIT:C8089	MONDO:equivalentTo	Childhood Synovial 
 MONDO:0011655	alveolar soft part sarcoma	NCIT:C8092	MONDO:equivalentTo	Childhood Alveolar Soft Part Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	alveolar soft part sarcoma
 MONDO:0011655	alveolar soft part sarcoma	NCIT:C8092	MONDO:equivalentTo	Childhood Alveolar Soft Part Sarcoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	alveolar soft part sarcoma
 MONDO:0011719	gastrointestinal stromal tumor	NCIT:C123906	MONDO:equivalentTo	Childhood Gastrointestinal Stromal Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	gastrointestinal stromal tumor (gist)
-MONDO:0011719	gastrointestinal stromal tumor	NCIT:C35778	MONDO:equivalentTo	Gastrointestinal Stromal Tumor of the Gastrointestinal Tract	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	stromal tumor of gastrointestinal tract
 MONDO:0011996	chronic myelogenous leukemia, BCR-ABL1 positive	NCIT:C7320	MONDO:equivalentTo	Childhood Chronic Myeloid Leukemia, BCR-ABL1 Positive	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	chronic myelogenous leukemia (cml)
 MONDO:0012825	extraskeletal myxoid chondrosarcoma	NCIT:C7924	MONDO:equivalentTo	Adult Extraskeletal Myxoid Chondrosarcoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	extraskeletal myxoid chondrosarcoma
 MONDO:0012883	acute promyelocytic leukemia	NCIT:C7968	MONDO:equivalentTo	Childhood Acute Promyelocytic Leukemia with t(15;17)(q24.1;q21.2); PML-RARA	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute promyelocytic leukemia with pml-rara
 MONDO:0012883	acute promyelocytic leukemia	NCIT:C9155	MONDO:equivalentTo	Adult Acute Promyelocytic Leukemia with t(15;17)(q24.1;q21.2); PML-RARA	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute promyelocytic leukemia with pml-rara
+MONDO:0015061	neurogenic thoracic outlet syndrome	NCIT:C85188	MONDO:equivalentTo	Thoracic Outlet Syndrome	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	neurogenic thoracic outlet syndrome
 MONDO:0015277	medullary thyroid gland carcinoma	NCIT:C95466	MONDO:equivalentTo	Pancreatic Medullary Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	medullary carcinoma
 MONDO:0015523	epithelioid hemangioendothelioma	NCIT:C114923	MONDO:equivalentTo	Adult Epithelioid Hemangioendothelioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	epithelioid hemangioendothelioma
 MONDO:0015523	epithelioid hemangioendothelioma	NCIT:C114923	MONDO:equivalentTo	Adult Epithelioid Hemangioendothelioma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	epithelioid hemangioendothelioma
@@ -351,10 +264,13 @@ MONDO:0015523	epithelioid hemangioendothelioma	NCIT:C114926	MONDO:equivalentTo	C
 MONDO:0015674	late infantile neuronal ceroid lipofuscinosis	NCIT:C85864	MONDO:equivalentTo	Neuronal Ceroid Lipofuscinosis Type 2	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	late infantile neuronal ceroid lipofuscinosis
 MONDO:0015686	primary peritoneal carcinoma	NCIT:C4182	MONDO:equivalentTo	Serous Surface Papillary Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	serous surface papillary carcinoma
 MONDO:0015686	primary peritoneal carcinoma	NCIT:C4182	MONDO:equivalentTo	Serous Surface Papillary Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	serous surface papillary carcinoma
+MONDO:0015909	aplastic anemia	NCIT:C220794	MONDO:equivalentTo	Aplastic Anemia, CTCAE	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	aplastic anemia
 MONDO:0016057	isolated encephalocele	NCIT:C84687	MONDO:equivalentTo	Encephalocele	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	encephalocele
 MONDO:0016057	isolated encephalocele	NCIT:C84687	MONDO:equivalentTo	Encephalocele	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	encephalocele
 MONDO:0016226	specific language disorder	NCIT:C35546	MONDO:equivalentTo	Dysphasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	dysphasia
 MONDO:0016226	specific language disorder	NCIT:C35546	MONDO:equivalentTo	Dysphasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	dysphasia
+MONDO:0016259	carcinosarcoma of the corpus uteri	NCIT:C223980	MONDO:equivalentTo	Uterine Corpus Carcinosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	uterine corpus carcinosarcoma
+MONDO:0016259	carcinosarcoma of the corpus uteri	NCIT:C223980	MONDO:equivalentTo	Uterine Corpus Carcinosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	uterine corpus carcinosarcoma
 MONDO:0016280	sarcoma of cervix uteri	NCIT:C128054	MONDO:equivalentTo	Cervical Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cervical sarcoma
 MONDO:0016280	sarcoma of cervix uteri	NCIT:C128054	MONDO:equivalentTo	Cervical Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	cervical sarcoma
 MONDO:0016642	meningioma	NCIT:C9093	MONDO:equivalentTo	Adult Meningioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	meningioma
@@ -405,8 +321,6 @@ MONDO:0016703	anaplastic oligoastrocytoma	NCIT:C114973	MONDO:equivalentTo	Childh
 MONDO:0016715	ependymoblastoma	NCIT:C115203	MONDO:equivalentTo	Childhood Embryonal Tumor with Multilayered Rosettes, C19MC-Altered	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	embryonal tumor with multilayered rosettes, c19mc-altered
 MONDO:0016717	choroid plexus neoplasm	NCIT:C42080	MONDO:equivalentTo	Childhood Choroid Plexus Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	choroid plexus neoplasm
 MONDO:0016717	choroid plexus neoplasm	NCIT:C42080	MONDO:equivalentTo	Childhood Choroid Plexus Neoplasm	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	choroid plexus neoplasm
-MONDO:0016722	pineoblastoma	NCIT:C114812	MONDO:equivalentTo	Childhood Pineoblastoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pineoblastoma
-MONDO:0016722	pineoblastoma	NCIT:C114812	MONDO:equivalentTo	Childhood Pineoblastoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	pineoblastoma
 MONDO:0016723	pineocytoma	NCIT:C8291	MONDO:equivalentTo	Adult Pineocytoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pineocytoma
 MONDO:0016723	pineocytoma	NCIT:C8291	MONDO:equivalentTo	Adult Pineocytoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	pineocytoma
 MONDO:0016733	ganglioglioma	NCIT:C27362	MONDO:equivalentTo	Childhood Ganglioglioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	ganglioglioma
@@ -425,8 +339,6 @@ MONDO:0017858	acute erythroid leukemia	NCIT:C9153	MONDO:equivalentTo	Adult Acute
 MONDO:0017858	acute erythroid leukemia	NCIT:C9153	MONDO:equivalentTo	Adult Acute Erythroid Leukemia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	acute erythroid leukemia
 MONDO:0017858	acute erythroid leukemia	NCIT:C9164	MONDO:equivalentTo	Childhood Acute Erythroid Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute erythroid leukemia
 MONDO:0017858	acute erythroid leukemia	NCIT:C9164	MONDO:equivalentTo	Childhood Acute Erythroid Leukemia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	acute erythroid leukemia
-MONDO:0017884	papillary renal cell carcinoma	NCIT:C27890	MONDO:equivalentTo	Sporadic Papillary Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	sporadic papillary renal cell carcinoma
-MONDO:0017884	papillary renal cell carcinoma	NCIT:C27890	MONDO:equivalentTo	Sporadic Papillary Renal Cell Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	sporadic papillary renal cell carcinoma
 MONDO:0018017	goblet cell carcinoma	NCIT:C201135	MONDO:equivalentTo	Goblet Cell Adenocarcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	goblet cell adenocarcinoma
 MONDO:0018017	goblet cell carcinoma	NCIT:C201135	MONDO:equivalentTo	Goblet Cell Adenocarcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	goblet cell carcinoid
 MONDO:0018017	goblet cell carcinoma	NCIT:C201135	MONDO:equivalentTo	Goblet Cell Adenocarcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	goblet cell adenocarcinoma
@@ -439,8 +351,6 @@ MONDO:0018078	soft tissue sarcoma	NCIT:C7715	MONDO:equivalentTo	Childhood Soft T
 MONDO:0018171	malignant germ cell tumor of ovary	NCIT:C68629	MONDO:equivalentTo	Childhood Malignant Ovarian Germ Cell Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant ovarian germ cell tumor
 MONDO:0018177	glioblastoma	NCIT:C5136	MONDO:equivalentTo	Childhood Glioblastoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	glioblastoma
 MONDO:0018177	glioblastoma	NCIT:C5136	MONDO:equivalentTo	Childhood Glioblastoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	glioblastoma
-MONDO:0018473	hyperlipoproteinemia type 3	NCIT:C34710	MONDO:equivalentTo	Remnant Hyperlipidemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	remnant hyperlipidemia
-MONDO:0018473	hyperlipoproteinemia type 3	NCIT:C34710	MONDO:equivalentTo	Remnant Hyperlipidemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	remnant hyperlipidemia
 MONDO:0018523	pancreatic mucinous cystadenoma	NCIT:C95488	MONDO:equivalentTo	Non-Invasive Pancreatic Mucinous-Cystic Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pancreatic mucinous cystadenoma
 MONDO:0018523	pancreatic mucinous cystadenoma	NCIT:C95488	MONDO:equivalentTo	Non-Invasive Pancreatic Mucinous-Cystic Neoplasm	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	pancreatic mucinous cystadenoma
 MONDO:0018535	biliary cystadenocarcinoma	NCIT:C96947	MONDO:equivalentTo	Intrahepatic Bile Duct Mucinous Cystic Neoplasm with an Associated Invasive Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	intrahepatic bile duct cystadenocarcinoma
@@ -469,8 +379,6 @@ MONDO:0018908	non-Hodgkin lymphoma	NCIT:C7706	MONDO:equivalentTo	Childhood Non-H
 MONDO:0018908	non-Hodgkin lymphoma	NCIT:C7706	MONDO:equivalentTo	Childhood Non-Hodgkin Lymphoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	non-hodgkin lymphoma
 MONDO:0018911	maturity-onset diabetes of the young	NCIT:C91449	MONDO:equivalentTo	Maturity Onset Diabetes of the Young Pathway	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	maturity onset diabetes of the young
 MONDO:0019086	carcinoma of esophagus	NCIT:C118812	MONDO:equivalentTo	Childhood Esophageal Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	esophageal cancer
-MONDO:0019087	cholangiocarcinoma	NCIT:C8265	MONDO:equivalentTo	Adult Cholangiocarcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	adult primary cholangiocarcinoma
-MONDO:0019087	cholangiocarcinoma	NCIT:C8265	MONDO:equivalentTo	Adult Cholangiocarcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	adult primary cholangiocellular carcinoma
 MONDO:0019171	familial long QT syndrome	NCIT:C85049	MONDO:equivalentTo	Long QT Syndrome 1	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	romano-ward syndrome
 MONDO:0019210	cutaneous neuroendocrine carcinoma	NCIT:C173385	MONDO:equivalentTo	Cutaneous Merkel Cell Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cutaneous neuroendocrine carcinoma
 MONDO:0019210	cutaneous neuroendocrine carcinoma	NCIT:C173385	MONDO:equivalentTo	Cutaneous Merkel Cell Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	neuroendocrine carcinoma of skin
@@ -497,11 +405,8 @@ MONDO:0019472	extranodal nasal NK/T cell lymphoma	NCIT:C115154	MONDO:equivalentT
 MONDO:0019472	extranodal nasal NK/T cell lymphoma	NCIT:C68692	MONDO:equivalentTo	Childhood Nasal Type Extranodal NK/T-Cell Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	nasal type extranodal nk/t-cell lymphoma
 MONDO:0019473	enteropathy-associated T-cell lymphoma	NCIT:C150495	MONDO:equivalentTo	Intestinal T-Cell Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	intestinal t-cell lymphoma
 MONDO:0019473	enteropathy-associated T-cell lymphoma	NCIT:C150495	MONDO:equivalentTo	Intestinal T-Cell Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	intestinal t-cell lymphoma
-MONDO:0019499	Turner syndrome	NCIT:C85210	MONDO:equivalentTo	XO Syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	xo syndrome
-MONDO:0019499	Turner syndrome	NCIT:C85210	MONDO:equivalentTo	XO Syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	xo syndrome
 MONDO:0019635	idiopathic achalasia	NCIT:C84699	MONDO:equivalentTo	Esophageal Achalasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	achalasia cardia
 MONDO:0019781	astrocytoma (excluding glioblastoma)	NCIT:C124275	MONDO:equivalentTo	Childhood Astrocytoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	astrocytoma
-MONDO:0019960	VIPoma	NCIT:C65189	MONDO:equivalentTo	Malignant Vipoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	vipoma, malignant
 MONDO:0019964	thymic neuroendocrine tumor	NCIT:C162460	MONDO:equivalentTo	Thymus Neuroendocrine Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	thymus neuroendocrine neoplasm
 MONDO:0019964	thymic neuroendocrine tumor	NCIT:C162460	MONDO:equivalentTo	Thymus Neuroendocrine Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	thymus neuroendocrine neoplasm
 MONDO:0020321	acute undifferentiated leukemia	NCIT:C126110	MONDO:equivalentTo	Infant Acute Undifferentiated Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute undifferentiated leukemia
@@ -541,7 +446,6 @@ MONDO:0021285	carcinoma in situ of urethra	NCIT:C140459	MONDO:equivalentTo	Stage
 MONDO:0021285	carcinoma in situ of urethra	NCIT:C6195	MONDO:equivalentTo	Stage 0 Urethral Cancer AJCC v7	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	stage type 0 urethra carcinoma
 MONDO:0021290	carcinoma in situ of appendix	NCIT:C134118	MONDO:equivalentTo	Stage 0 Appendix Carcinoma AJCC v8	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	stage type 0 appendix cancer
 MONDO:0021296	carcinoma in situ of renal pelvis	NCIT:C140362	MONDO:equivalentTo	Stage 0is Renal Pelvis Cancer AJCC v8	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	stage type 0is renal pelvis cancer
-MONDO:0021441	benign neoplasm of exocrine pancreas	NCIT:C95470	MONDO:equivalentTo	Benign Pancreatic Serous Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	benign exocrine pancreas neoplasm
 MONDO:0021527	benign neoplasm of meninges	NCIT:C38936	MONDO:equivalentTo	Grade 1 Meningioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	benign meningeal neoplasm
 MONDO:0021527	benign neoplasm of meninges	NCIT:C38936	MONDO:equivalentTo	Grade 1 Meningioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	benign neoplasm of the meninges
 MONDO:0021656	nongerminomatous germ cell tumor	NCIT:C123841	MONDO:equivalentTo	Childhood Nongerminomatous Germ Cell Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	nongerminomatous germ cell tumor
@@ -577,8 +481,6 @@ MONDO:0045056	grade II meningioma	NCIT:C71301	MONDO:equivalentTo	Childhood Grade
 MONDO:0045056	grade II meningioma	NCIT:C71301	MONDO:equivalentTo	Childhood Grade 2 Meningioma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	grade ii meningioma
 MONDO:0045056	grade II meningioma	NCIT:C71304	MONDO:equivalentTo	Adult Grade 2 Meningioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	grade ii meningioma
 MONDO:0045056	grade II meningioma	NCIT:C71304	MONDO:equivalentTo	Adult Grade 2 Meningioma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	grade ii meningioma
-MONDO:0056798	disorder of appendix	NCIT:C173799	MONDO:equivalentTo	Appendix Disorder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	appendix disorder
-MONDO:0056798	disorder of appendix	NCIT:C173799	MONDO:equivalentTo	Appendix Disorder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	appendix disorder
 MONDO:0600025	hydrosalpinx	NCIT:C78293	MONDO:equivalentTo	Fallopian Tube Obstruction	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	fallopian tube obstruction
 MONDO:0600025	hydrosalpinx	NCIT:C78293	MONDO:equivalentTo	Fallopian Tube Obstruction	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fallopian tube obstruction
 MONDO:0800385	iron poisoning	NCIT:C78393	MONDO:equivalentTo	Iron Overload	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	iron overload

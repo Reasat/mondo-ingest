@@ -1,5 +1,6 @@
 subject_id	subject_label	is_mapped	is_excluded	is_deprecated
 Orphanet:231205	Common variable immunodeficiency without known genetic defect	False	False	False
+Orphanet:2346	Angioosteohypertrophic syndrome	False	False	False
 Orphanet:377794	clinical group	False	False	False
 Orphanet:377795	etiological subtype	False	False	False
 Orphanet:377796	clinical subtype	False	False	False
@@ -8373,7 +8374,6 @@ Orphanet:234	Dubin-Johnson syndrome	True	False	False
 Orphanet:2340	Keratosis follicularis spinulosa decalvans	True	False	False
 Orphanet:2342	Haim-Munk syndrome	True	False	False
 Orphanet:2345	Isolated Klippel-Feil syndrome	True	False	False
-Orphanet:2346	Angioosteohypertrophic syndrome	True	False	False
 Orphanet:2347	Lethal Kniest-like dysplasia	True	False	False
 Orphanet:2348	Familial partial lipodystrophy, Dunnigan type	True	False	False
 Orphanet:2349	Muscular pseudohypertrophy-hypothyroidism syndrome	True	False	False
