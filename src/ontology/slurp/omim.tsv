@@ -1,12 +1,13 @@
 mondo_id	mondo_label	xref	xref_source	original_label	definition	parents
 ID	LABEL	A oboInOwl:hasDbXref	>A oboInOwl:source SPLIT=|		A IAO:0000115	SC %
 MONDO:0981029	drug metabolism, altered, cyp2a6-related	OMIM:621426	MONDO:equivalentTo	drug metabolism, altered, cyp2a6-related		
-MONDO:0981030	congenital myopathy 29 with contractures	OMIM:621510	MONDO:equivalentTo	congenital myopathy 29 with contractures		MONDO:0019952
-MONDO:0981031	lethal congenital contracture syndrome 12	OMIM:621511	MONDO:equivalentTo	lethal congenital contracture syndrome 12		MONDO:0017436
-MONDO:0981032	neurodevelopmental disorder with seizures and impaired intellectual and language development	OMIM:621533	MONDO:equivalentTo	neurodevelopmental disorder with seizures and impaired intellectual and language development		
-MONDO:0981050	meier-gorlin syndrome 10	OMIM:621528	MONDO:equivalentTo	meier-gorlin syndrome 10		MONDO:0016817
-MONDO:0981162	spinocerebellar ataxia 52	OMIM:621535	MONDO:equivalentTo	spinocerebellar ataxia 52		MONDO:0020380
-MONDO:0981163	ebstein-bezieau neurodevelopmental syndrome	OMIM:621539	MONDO:equivalentTo	ebstein-bezieau neurodevelopmental syndrome		
-MONDO:0981164	retinitis pigmentosa 101	OMIM:621548	MONDO:equivalentTo	retinitis pigmentosa 101		MONDO:0019200
-MONDO:0981165	luo-agrawal neurodevelopmental syndrome	OMIM:621552	MONDO:equivalentTo	luo-agrawal neurodevelopmental syndrome		
-MONDO:0981166	deafness, autosomal dominant 91	OMIM:621556	MONDO:equivalentTo	deafness, autosomal dominant 91		
+MONDO:0981170	neurodevelopmental disorder, x-linked, with poor or absent speech and behavioral abnormalities	OMIM:301164	MONDO:equivalentTo	neurodevelopmental disorder, x-linked, with poor or absent speech and behavioral abnormalities		
+MONDO:0981171	retinal dystrophy, zeitz-han type	OMIM:621558	MONDO:equivalentTo	retinal dystrophy, zeitz-han type		
+MONDO:0981172	dentin dysplasia, type 1c	OMIM:621559	MONDO:equivalentTo	dentin dysplasia, type 1c		MONDO:0007436
+MONDO:0981173	retinitis pigmentosa 102	OMIM:621560	MONDO:equivalentTo	retinitis pigmentosa 102		MONDO:0019200
+MONDO:0981174	retinitis pigmentosa 103	OMIM:621561	MONDO:equivalentTo	retinitis pigmentosa 103		MONDO:0019200
+MONDO:0981175	retinitis pigmentosa 104	OMIM:621562	MONDO:equivalentTo	retinitis pigmentosa 104		MONDO:0019200
+MONDO:0981176	retinitis pigmentosa 105	OMIM:621563	MONDO:equivalentTo	retinitis pigmentosa 105		MONDO:0019200
+MONDO:0981177	retinitis pigmentosa 106	OMIM:621564	MONDO:equivalentTo	retinitis pigmentosa 106		MONDO:0019200
+MONDO:0981178	yu-kury neurodevelopmental syndrome	OMIM:621565	MONDO:equivalentTo	yu-kury neurodevelopmental syndrome		
+MONDO:0981179	davis-wells syndrome	OMIM:621566	MONDO:equivalentTo	davis-wells syndrome		

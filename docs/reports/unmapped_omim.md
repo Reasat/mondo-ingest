@@ -2,15 +2,16 @@
 [Interactive FlatGithub table](https://flatgithub.com/monarch-initiative/mondo-ingest?filename=src/ontology/reports/omim_mapping_status.tsv)
 
 ### Unmapped mappable terms _(!excluded, !deprecated)_
-| subject_id   | subject_label                                                                                |
-|:-------------|:---------------------------------------------------------------------------------------------|
-| OMIM:621510  | congenital myopathy 29 with contractures                                                     |
-| OMIM:621556  | deafness, autosomal dominant 91                                                              |
-| OMIM:621426  | drug metabolism, altered, cyp2a6-related                                                     |
-| OMIM:621539  | ebstein-bezieau neurodevelopmental syndrome                                                  |
-| OMIM:621511  | lethal congenital contracture syndrome 12                                                    |
-| OMIM:621552  | luo-agrawal neurodevelopmental syndrome                                                      |
-| OMIM:621528  | meier-gorlin syndrome 10                                                                     |
-| OMIM:621533  | neurodevelopmental disorder with seizures and impaired intellectual and language development |
-| OMIM:621548  | retinitis pigmentosa 101                                                                     |
-| OMIM:621535  | spinocerebellar ataxia 52                                                                    |
+| subject_id   | subject_label                                                                                  |
+|:-------------|:-----------------------------------------------------------------------------------------------|
+| OMIM:621566  | davis-wells syndrome                                                                           |
+| OMIM:621559  | dentin dysplasia, type 1c                                                                      |
+| OMIM:621426  | drug metabolism, altered, cyp2a6-related                                                       |
+| OMIM:301164  | neurodevelopmental disorder, x-linked, with poor or absent speech and behavioral abnormalities |
+| OMIM:621558  | retinal dystrophy, zeitz-han type                                                              |
+| OMIM:621560  | retinitis pigmentosa 102                                                                       |
+| OMIM:621561  | retinitis pigmentosa 103                                                                       |
+| OMIM:621562  | retinitis pigmentosa 104                                                                       |
+| OMIM:621563  | retinitis pigmentosa 105                                                                       |
+| OMIM:621564  | retinitis pigmentosa 106                                                                       |
+| OMIM:621565  | yu-kury neurodevelopmental syndrome                                                            |

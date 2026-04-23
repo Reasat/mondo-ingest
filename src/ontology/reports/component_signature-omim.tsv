@@ -17,6 +17,7 @@
 <http://identifiers.org/hgnc/10193>
 <http://identifiers.org/hgnc/1020>
 <http://identifiers.org/hgnc/10212>
+<http://identifiers.org/hgnc/10227>
 <http://identifiers.org/hgnc/10249>
 <http://identifiers.org/hgnc/10250>
 <http://identifiers.org/hgnc/10254>
@@ -2648,6 +2649,7 @@
 <http://identifiers.org/hgnc/29298>
 <http://identifiers.org/hgnc/29300>
 <http://identifiers.org/hgnc/29304>
+<http://identifiers.org/hgnc/29314>
 <http://identifiers.org/hgnc/29316>
 <http://identifiers.org/hgnc/29326>
 <http://identifiers.org/hgnc/2932>
@@ -2993,6 +2995,9 @@
 <http://identifiers.org/hgnc/341>
 <http://identifiers.org/hgnc/3420>
 <http://identifiers.org/hgnc/3424>
+<http://identifiers.org/hgnc/34269>
+<http://identifiers.org/hgnc/34270>
+<http://identifiers.org/hgnc/34285>
 <http://identifiers.org/hgnc/3431>
 <http://identifiers.org/hgnc/3432>
 <http://identifiers.org/hgnc/3433>
@@ -3131,6 +3136,7 @@
 <http://identifiers.org/hgnc/397>
 <http://identifiers.org/hgnc/3999>
 <http://identifiers.org/hgnc/399>
+<http://identifiers.org/hgnc/40028>
 <http://identifiers.org/hgnc/40038>
 <http://identifiers.org/hgnc/40045>
 <http://identifiers.org/hgnc/40050>
@@ -4339,6 +4345,7 @@
 <http://identifiers.org/hgnc/9545>
 <http://identifiers.org/hgnc/9546>
 <http://identifiers.org/hgnc/9549>
+<http://identifiers.org/hgnc/9552>
 <http://identifiers.org/hgnc/9557>
 <http://identifiers.org/hgnc/9577>
 <http://identifiers.org/hgnc/9580>
@@ -8544,6 +8551,7 @@
 <https://omim.org/entry/180550>
 <https://omim.org/entry/180600>
 <https://omim.org/entry/180660>
+<https://omim.org/entry/180692>
 <https://omim.org/entry/180700>
 <https://omim.org/entry/180720>
 <https://omim.org/entry/180721>
@@ -11488,6 +11496,7 @@
 <https://omim.org/entry/301148>
 <https://omim.org/entry/301149>
 <https://omim.org/entry/301163>
+<https://omim.org/entry/301164>
 <https://omim.org/entry/301200>
 <https://omim.org/entry/301201>
 <https://omim.org/entry/301220>
@@ -12908,6 +12917,7 @@
 <https://omim.org/entry/601676>
 <https://omim.org/entry/601678>
 <https://omim.org/entry/601680>
+<https://omim.org/entry/601681>
 <https://omim.org/entry/601682>
 <https://omim.org/entry/601683>
 <https://omim.org/entry/601687>
@@ -20569,6 +20579,7 @@
 <https://omim.org/entry/617468>
 <https://omim.org/entry/617475>
 <https://omim.org/entry/617478>
+<https://omim.org/entry/617479>
 <https://omim.org/entry/617480>
 <https://omim.org/entry/617481>
 <https://omim.org/entry/617485>
@@ -22106,6 +22117,7 @@
 <https://omim.org/entry/620139>
 <https://omim.org/entry/620141>
 <https://omim.org/entry/620142>
+<https://omim.org/entry/620144>
 <https://omim.org/entry/620145>
 <https://omim.org/entry/620148>
 <https://omim.org/entry/620149>
@@ -22685,6 +22697,9 @@
 <https://omim.org/entry/621487>
 <https://omim.org/entry/621488>
 <https://omim.org/entry/621490>
+<https://omim.org/entry/621491>
+<https://omim.org/entry/621493>
+<https://omim.org/entry/621494>
 <https://omim.org/entry/621495>
 <https://omim.org/entry/621499>
 <https://omim.org/entry/621500>
@@ -22701,9 +22716,19 @@
 <https://omim.org/entry/621533>
 <https://omim.org/entry/621535>
 <https://omim.org/entry/621539>
+<https://omim.org/entry/621543>
 <https://omim.org/entry/621548>
 <https://omim.org/entry/621552>
 <https://omim.org/entry/621556>
+<https://omim.org/entry/621558>
+<https://omim.org/entry/621559>
+<https://omim.org/entry/621560>
+<https://omim.org/entry/621561>
+<https://omim.org/entry/621562>
+<https://omim.org/entry/621563>
+<https://omim.org/entry/621564>
+<https://omim.org/entry/621565>
+<https://omim.org/entry/621566>
 <https://omim.org/phenotypicSeries/PS100070>
 <https://omim.org/phenotypicSeries/PS100300>
 <https://omim.org/phenotypicSeries/PS101800>

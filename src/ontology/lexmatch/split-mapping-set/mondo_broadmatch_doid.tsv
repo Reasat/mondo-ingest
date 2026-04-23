@@ -1,4 +1,0 @@
-subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string	comment
-MONDO:0012853	Fontaine progeroid syndrome	skos:broadMatch	DOID:0051067	Fontaine progeroid syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasNarrowSynonym	oio:hasExactSynonym	progeroid syndrome, congenital, petty type	LEXMATCH
-MONDO:0100451	CEP290-related ciliopathy	skos:broadMatch	DOID:0061280	Senior-Loken syndrome 6	semapv:LexicalMatching	oaklib	0.8	oio:hasNarrowSynonym	oio:hasExactSynonym	senior-loken syndrome type 6	LEXMATCH
-MONDO:0100451	CEP290-related ciliopathy	skos:broadMatch	DOID:0061280	Senior-Loken syndrome 6	semapv:LexicalMatching	oaklib	0.8	oio:hasNarrowSynonym	rdfs:label	senior-loken syndrome type 6	LEXMATCH

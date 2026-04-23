@@ -8512,6 +8512,7 @@ MONDO:0029102	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orpha
 MONDO:0029133	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:565909	muscular dystrophy, limb-girdle, autosomal dominant 4	Calpain-3-related limb-girdle muscular dystrophy D4
 MONDO:0029134	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:542301	severe combined immunodeficiency due to CARMIL2 deficiency	Combined immunodeficiency due to CARMIL2 deficiency
 MONDO:0029136	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:565837	muscular dystrophy, limb-girdle, autosomal recessive 23	Laminin subunit alpha 2-related limb-girdle muscular dystrophy R23
+MONDO:0029144	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:562538	extraoral halitosis due to methanethiol oxidase deficiency	Autosomal recessive extra-oral halitosis
 MONDO:0029810	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:300755	obsolete laminopathy with striated muscle involvement	Laminopathy with striated muscle involvement
 MONDO:0029811	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:300758	obsolete laminopathy with peripheral neuropathy	Laminopathy with peripheral neuropathy
 MONDO:0029812	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:300763	obsolete laminopathy with lipodystrophy	Laminopathy with lipodystrophy
@@ -8690,7 +8691,6 @@ MONDO:0034143	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:556985
 MONDO:0034145	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:557003	oculocerebrodental syndrome	Oculoskeletodental syndrome
 MONDO:0034146	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:557056	spastic ataxia-dysarthria due to glutaminase deficiency	Spastic ataxia-dysarthria due to glutaminase deficiency
 MONDO:0034150	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:558411	idiopathic gastroparesis	Idiopathic gastroparesis
-MONDO:0034186	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:562538	autosomal recessive extra-oral halitosis	Autosomal recessive extra-oral halitosis
 MONDO:0034189	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:562639	primary biliary cholangitis/primary sclerosing cholangitis and autoimmune hepatitis overlap syndrome	Primary biliary cholangitis/primary sclerosing cholangitis and autoimmune hepatitis overlap syndrome
 MONDO:0034204	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:563708	syndromic congenital sodium diarrhea	Syndromic congenital sodium diarrhea
 MONDO:0034212	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:565782	methotrexate toxicity	Methotrexate toxicity

@@ -91,7 +91,6 @@ Buckley syndrome	MONDO:0018037	icd11.foundation:223461798	added
 Budd-Chiari syndrome	MONDO:0006786	DOID:11512	added		
 Budd-Chiari syndrome	MONDO:0006786	DOID:11512	added		MONDO:0010947
 Budd-Chiari syndrome	MONDO:0010947	ICD10CM:I82.0	confirmed		
-Budd-Chiari syndrome	MONDO:0010947	MONDO:Lexical	unconfirmed		
 Budd-Chiari syndrome	MONDO:0010947	OMIM:600880	confirmed		
 Budd-Chiari syndrome	MONDO:0010947	Orphanet:131	confirmed		
 Budd-Chiari syndrome	MONDO:0010947	icd11.foundation:1300118676	confirmed		
@@ -134,7 +133,6 @@ Congenital entropion	MONDO:0020159	ICD10CM:Q10.2	added
 Congenital entropion	MONDO:0034971	icd11.foundation:1290880184	added		
 Cowden syndrome 1	MONDO:0007924	DOID:0050657	added		
 Cowden syndrome 1	MONDO:0007924	DOID:0050657	added		MONDO:0008021
-Cowden syndrome 1	MONDO:0008021	MONDO:Lexical	unconfirmed		
 Cowden syndrome 1	MONDO:0008021	OMIM:158350	confirmed		
 Creeping myiasis	MONDO:0018857	Orphanet:504	added		
 Creeping myiasis	MONDO:0018857	icd11.foundation:1282509430	added		
@@ -400,7 +398,6 @@ Peritonitis	MONDO:1010128	icd11.foundation:775356003	added
 Pilar cyst	MONDO:0012328	icd11.foundation:150930710	added		
 Pilar cyst	MONDO:0018850	NCIT:C27125	confirmed		
 Pitt-Hopkins syndrome	MONDO:0012589	DOID:0060488	confirmed		
-Pitt-Hopkins syndrome	MONDO:0012589	MONDO:Lexical	unconfirmed		
 Pitt-Hopkins syndrome	MONDO:0012589	NCIT:C129872	confirmed		
 Pitt-Hopkins syndrome	MONDO:0012589	OMIM:610954	confirmed		
 Pitt-Hopkins syndrome	MONDO:0012589	Orphanet:2896	confirmed		
@@ -436,7 +433,6 @@ Richter syndrome	MONDO:0004948	ICD10CM:C91.1	added
 Rippling muscle disease	MONDO:0011634	icd11.foundation:894802822	added		
 Rippling muscle disease	MONDO:0019947	Orphanet:97238	added		
 Roussy-Levy syndrome	MONDO:0015358	ICD10CM:G60.0	added		MONDO:0008392
-Salla disease	MONDO:0011449	MONDO:Lexical	unconfirmed		
 Salla disease	MONDO:0011449	NCIT:C85067	confirmed		
 Salla disease	MONDO:0011449	OMIM:604369	confirmed		
 Salla disease	MONDO:0011449	Orphanet:309334	confirmed		
@@ -449,7 +445,6 @@ Schindler disease	MONDO:0017779	Orphanet:3137	confirmed
 Schwartz-Jampel syndrome type 1	MONDO:0009717	Orphanet:800	added		
 Schwartz-Jampel syndrome type 1	MONDO:0009717	Orphanet:800	added		MONDO:0100435
 Schwartz-Jampel syndrome type 1	MONDO:0100435	DOID:0090005	confirmed		
-Schwartz-Jampel syndrome type 1	MONDO:0100435	MONDO:RULE_1	unconfirmed		
 Secondary hypertension	MONDO:0001200	ICD10WHO:I15	added		
 Secondary hypertension	MONDO:0001200	icd11.foundation:1331849426	added		
 Secondary hypertension	MONDO:0005044	ICD10CM:I15	added		
@@ -519,7 +514,7 @@ Toxic epidermal necrolysis	MONDO:0019810	icd11.foundation:1575072695	added
 Trachoma	MONDO:0001249	ICD10CM:A71	added		
 Trachoma	MONDO:0001249	ICD10WHO:A71	added		
 Trachoma	MONDO:0001249	icd11.foundation:372424530	added		
-Trachoma	MONDO:0005808	NCIT:C116817	unconfirmed		
+Trachoma	MONDO:0005808		unconfirmed		
 Treacher Collins syndrome	MONDO:0002457	DOID:2908	confirmed		
 Treacher Collins syndrome	MONDO:0002457	NCIT:C75018	confirmed		
 Treacher Collins syndrome	MONDO:0002457	OMIMPS:154500	confirmed		
@@ -548,7 +543,6 @@ Westphal disease	MONDO:0016122	icd11.foundation:577112387	added		MONDO:0042980
 Westphal disease	MONDO:0042980	GTR:AN0099343	unconfirmed		
 Westphal disease	MONDO:0042980	MESH:C536694	unconfirmed		
 Wieacker-Wolff syndrome	MONDO:0010758	DOID:0060815	confirmed		
-Wieacker-Wolff syndrome	MONDO:0010758	MONDO:Lexical	unconfirmed		
 Wieacker-Wolff syndrome	MONDO:0010758	OMIM:314580	confirmed		
 Wieacker-Wolff syndrome	MONDO:0010758	Orphanet:3454	confirmed		
 Wieacker-Wolff syndrome	MONDO:0025445	OMIMPS:314580	added		
@@ -709,20 +703,17 @@ atrophic rhinitis	MONDO:0004514	ICD10CM:J31.0	added		MONDO:0005659
 atrophic rhinitis	MONDO:0005659	DOID:4731	added		
 attention deficit hyperactivity disorder	MONDO:0005302	DOID:1094	added		
 attention deficit hyperactivity disorder	MONDO:0007743	NCIT:C97160	confirmed		
-attention deficit-hyperactivity disorder	MONDO:0007743	MONDO:Lexical	unconfirmed		
 attention deficit-hyperactivity disorder	MONDO:0007743	NCIT:C97160	confirmed		
 attention deficit-hyperactivity disorder	MONDO:0100518	OMIM:143465	added		
 attention deficit-hyperactivity disorder	MONDO:0100518	OMIM:143465	added		MONDO:0007743
-autoinflammation, lipodystrophy, and dermatosis syndrome	MONDO:0009726	MONDO:Lexical	unconfirmed		
+autoinflammation, lipodystrophy, and dermatosis syndrome	MONDO:0009726		unconfirmed		
 autoinflammation, lipodystrophy, and dermatosis syndrome	MONDO:0054698	OMIM:256040	added		
 avascular necrosis of bone	MONDO:0005380	ICD10CM:M87	added		
 avascular necrosis of bone	MONDO:0005380	icd11.foundation:536467755	added		
 avascular necrosis of bone	MONDO:0018373	NCIT:C34841	confirmed		
 band-like calcification with simplified gyration and polymicrogyria	MONDO:0009626	DOID:0050656	confirmed		
-band-like calcification with simplified gyration and polymicrogyria	MONDO:0009626	MONDO:Lexical	unconfirmed		
 band-like calcification with simplified gyration and polymicrogyria	MONDO:0020789	OMIM:251290	added		
 basal cell nevus syndrome	MONDO:0007187	DOID:2512	confirmed		
-basal cell nevus syndrome	MONDO:0007187	MONDO:Lexical	unconfirmed		
 basal cell nevus syndrome	MONDO:0007187	NCIT:C2892	confirmed		
 basal cell nevus syndrome	MONDO:0007187	OMIMPS:109400	confirmed		
 basal cell nevus syndrome	MONDO:0007187	Orphanet:377	confirmed		
@@ -757,7 +748,6 @@ bladder transitional cell papilloma	MONDO:0004041	DOID:6933	added
 bladder transitional cell papilloma	MONDO:0044906	NCIT:C39858	confirmed		
 blepharocheilodontic syndrome	MONDO:0007339	DOID:0080344	confirmed		
 blepharocheilodontic syndrome	MONDO:0007339	GARD:0002071	unconfirmed		
-blepharocheilodontic syndrome	MONDO:0007339	MONDO:Lexical	unconfirmed		
 blepharocheilodontic syndrome	MONDO:0007339	OMIMPS:119580	confirmed		
 blepharocheilodontic syndrome	MONDO:0007339	Orphanet:1997	confirmed		
 blepharocheilodontic syndrome	MONDO:0007339	icd11.foundation:755252042	confirmed		
@@ -1015,7 +1005,6 @@ endocervicitis	MONDO:0003632	DOID:5757	added
 enlarged vestibular aqueduct	MONDO:0010933		unconfirmed		
 enlarged vestibular aqueduct	MONDO:0023069	DOID:0050332	added		
 epidermodysplasia verruciformis	MONDO:0009176	DOID:13777	confirmed		
-epidermodysplasia verruciformis	MONDO:0009176	MONDO:Lexical	unconfirmed		
 epidermodysplasia verruciformis	MONDO:0009176	NCIT:C126877	confirmed		
 epidermodysplasia verruciformis	MONDO:0009176	icd11.foundation:1191479808	confirmed		
 epidermodysplasia verruciformis	MONDO:0100045	OMIM:226400	added		
@@ -1029,7 +1018,6 @@ epiglottitis	MONDO:0005753	DOID:9398	added
 epiglottitis	MONDO:0041366	icd11.foundation:1070805666	added		
 epiglottitis	MONDO:0041366	icd11.foundation:1070805666	added		MONDO:0005753
 epilepsy, familial focal, with variable foci	MONDO:0020310	MONDO:0000215	unconfirmed		
-epilepsy, familial focal, with variable foci	MONDO:0020310	MONDO:Lexical	unconfirmed		
 epilepsy, familial focal, with variable foci	MONDO:0020310	OMIMPS:604364	confirmed		
 epilepsy, familial focal, with variable foci	MONDO:0024556	OMIM:604364	added		
 epilepsy, idiopathic generalized, susceptibility to, locus on chromosome 10	MONDO:0012338	OMIM:609750	added		
@@ -1095,7 +1083,6 @@ familial periodic paralysis	MONDO:0016122	icd11.foundation:577112387	added		MOND
 favus	MONDO:0004678	ICD10CM:B35	added		
 favus	MONDO:0005983	DOID:4336	confirmed		
 favus	MONDO:0005983	NCIT:C35072	confirmed		
-fetal akinesia deformation sequence	MONDO:0008824	MONDO:Lexical	unconfirmed		
 fetal akinesia deformation sequence	MONDO:0008824	NCIT:C129071	confirmed		
 fetal akinesia deformation sequence	MONDO:0008824	OMIMPS:208150	confirmed		
 fetal akinesia deformation sequence	MONDO:0100101	OMIM:208150	added		
@@ -1143,7 +1130,7 @@ generalised glycogenosis	MONDO:0009290		unconfirmed	http://purl.obolibrary.org/o
 generalized pustular psoriasis	MONDO:0013626	OMIM:614204	added		MONDO:0100491
 germ cell cancer	MONDO:0005040	DOID:2994	added		
 germ cell cancer	MONDO:0006290	MONDO:patterns/location	unconfirmed		
-glaucoma, primary open angle	MONDO:0005338	MONDO:Lexical	unconfirmed		
+glaucoma, primary open angle	MONDO:0005338		unconfirmed		
 glaucoma, primary open angle	MONDO:0100553	OMIM:137760	added		
 glutaric aciduria	MONDO:0000129	MONDO:ambiguous	unconfirmed		
 glutaric aciduria	MONDO:0017351	ICD10CM:E72.3	added		
@@ -1165,7 +1152,6 @@ heart attack	MONDO:0005068	NCIT:C27996	confirmed
 hematologic cancer	MONDO:0002334	DOID:2531	added		
 hematologic cancer	MONDO:0044881	NCIT:C27134	confirmed		
 hemifacial microsomia	MONDO:0015397	DOID:2907	confirmed		
-hemifacial microsomia	MONDO:0015397	MONDO:Lexical	unconfirmed		
 hemifacial microsomia	MONDO:0958175	OMIM:164210	added		
 hemochromatosis, hereditary	MONDO:0006507		unconfirmed		
 hemochromatosis, hereditary	MONDO:0021001	OMIM:235200	added		
@@ -1210,7 +1196,6 @@ hyperinsulinemic hypoglycemia due to focal adenomatous hyperplasia	MONDO:0011153
 hyperinsulinism, congenital	MONDO:0009734	OMIM:256450	added		
 hyperinsulinism, congenital	MONDO:0011153	OMIM:601820	added		
 hyperkalemic periodic paralysis	MONDO:0008224	DOID:14451	confirmed		
-hyperkalemic periodic paralysis	MONDO:0008224	MONDO:Lexical	unconfirmed		
 hyperkalemic periodic paralysis	MONDO:0008224	NCIT:C123429	confirmed		
 hyperkalemic periodic paralysis	MONDO:0008224	OMIM:170500	confirmed		
 hyperkalemic periodic paralysis	MONDO:0008224	Orphanet:682	confirmed		
@@ -1297,7 +1282,6 @@ keratopathy	MONDO:0000942	icd11.foundation:980864631	added
 keratopathy	MONDO:0000942	icd11.foundation:980864631	added		MONDO:0002261
 keratopathy	MONDO:0002261	DOID:2283	added		
 lacrimoauriculodentodigital syndrome	MONDO:0007872	DOID:0081370	confirmed		
-lacrimoauriculodentodigital syndrome	MONDO:0007872	MONDO:Lexical	unconfirmed		
 lacrimoauriculodentodigital syndrome	MONDO:0007872	OMIMPS:149730	confirmed		
 lacrimoauriculodentodigital syndrome	MONDO:0007872	Orphanet:2363	confirmed		
 lacrimoauriculodentodigital syndrome	MONDO:0100302	OMIM:149730	added		
@@ -1317,7 +1301,6 @@ lethal midline granuloma	MONDO:0019472	Orphanet:86879	confirmed
 lip-pit syndrome	MONDO:0007333	OMIM:119300	added		
 lip-pit syndrome	MONDO:0019508	Orphanet:888	confirmed		
 lipoid nephrosis	MONDO:0005377	ICD10CM:N04	added		
-lipoid nephrosis	MONDO:0005377	ICD10CM:N04	added		MONDO:0006835
 lipoid nephrosis	MONDO:0006835	DOID:10966	confirmed		
 lipoid nephrosis	MONDO:0006835	NCIT:C34844	confirmed		
 lipoma	MONDO:0005106	DOID:3315	confirmed		
@@ -1330,7 +1313,6 @@ lipomatosis, familial multiple	MONDO:0007909	OMIM:151900	added
 lipomucopolysaccharidosis	MONDO:0009738	OMIM:256550	added		
 lipomucopolysaccharidosis	MONDO:0019346	Orphanet:812	confirmed		
 lipomucopolysaccharidosis	MONDO:0019346	icd11.foundation:1154773192	confirmed		
-lissencephaly 3	MONDO:0012703	MONDO:Lexical	unconfirmed		
 lissencephaly 3	MONDO:0012703	NCIT:C148461	confirmed		
 lissencephaly 3	MONDO:0012703	OMIM:611603	confirmed		
 lissencephaly 3	MONDO:0015148	DOID:0112232	added		
@@ -1368,7 +1350,6 @@ manic-depressive illness	MONDO:0010648	OMIM:309200	added
 manic-depressive psychosis	MONDO:0004985	ICD10CM:F31	added		
 manic-depressive psychosis	MONDO:0007440	OMIM:125480	added		
 maple syrup urine disease	MONDO:0009563	DOID:9269	confirmed		
-maple syrup urine disease	MONDO:0009563	MONDO:Lexical	unconfirmed		
 maple syrup urine disease	MONDO:0009563	NCIT:C34806	confirmed		
 maple syrup urine disease	MONDO:0009563	OMIMPS:248600	confirmed		
 maple syrup urine disease	MONDO:0009563	Orphanet:511	confirmed		
@@ -1641,7 +1622,6 @@ pituitary gland disease	MONDO:0003381	NCIT:C26854	confirmed
 pituitary gland disease	MONDO:0015127	icd11.foundation:292840069	added		
 pleural malignant mesothelioma	MONDO:0005112	NCIT:C7376	confirmed		
 pleural malignant mesothelioma	MONDO:0006292	icd11.foundation:369414280	added		
-polycystic kidney disease, autosomal recessive	MONDO:0009889	MONDO:Lexical	unconfirmed		
 polycystic kidney disease, autosomal recessive	MONDO:0009889	MONDO:patterns/autosomal_recessive	unconfirmed		
 polycystic kidney disease, autosomal recessive	MONDO:0033004	OMIM:263200	added		
 polymastia	MONDO:0008101	OMIM:163700	added		
@@ -1812,7 +1792,6 @@ retinitis proliferans	MONDO:0100450	DOID:9719	confirmed
 retinitis proliferans	MONDO:0100450	https://clinicalgenome.org/affiliation/40072/	unconfirmed		
 retinitis proliferans	MONDO:0700115	icd11.foundation:1908429642	added		
 retinoblastoma	MONDO:0008380	DOID:768	confirmed		
-retinoblastoma	MONDO:0008380	MONDO:Lexical	unconfirmed		
 retinoblastoma	MONDO:0008380	NCIT:C7541	confirmed		
 retinoblastoma	MONDO:0008380	Orphanet:790	confirmed		
 retinoblastoma	MONDO:0008380	icd11.foundation:1855353671	confirmed		
@@ -1878,7 +1857,6 @@ spherophakia-brachymorphia syndrome	MONDO:0018096	Orphanet:3449	confirmed
 spinocerebellar ataxia 27A	MONDO:0012247	DOID:0050976	added		MONDO:0008654
 spinocerebellar degeneration with slow eye movements	MONDO:0008458	OMIM:183090	added		
 spinocerebellar degeneration with slow eye movements	MONDO:0008458	OMIM:183090	added		MONDO:0010065
-spinocerebellar degeneration with slow eye movements	MONDO:0010065	MONDO:Lexical	unconfirmed		
 spinocerebellar degeneration with slow eye movements	MONDO:0010065	OMIM:271322	confirmed		
 spondylocostal dysplasia	MONDO:0000359	https://rarediseases.org/rare-diseases/jarcho-levin-syndrome/	unconfirmed		
 spondylocostal dysplasia	MONDO:0007389	OMIM:122600	added		

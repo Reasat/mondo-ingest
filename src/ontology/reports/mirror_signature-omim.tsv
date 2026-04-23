@@ -17,6 +17,7 @@
 <http://identifiers.org/hgnc/10193>
 <http://identifiers.org/hgnc/1020>
 <http://identifiers.org/hgnc/10212>
+<http://identifiers.org/hgnc/10227>
 <http://identifiers.org/hgnc/10249>
 <http://identifiers.org/hgnc/10250>
 <http://identifiers.org/hgnc/10254>
@@ -2648,6 +2649,7 @@
 <http://identifiers.org/hgnc/29298>
 <http://identifiers.org/hgnc/29300>
 <http://identifiers.org/hgnc/29304>
+<http://identifiers.org/hgnc/29314>
 <http://identifiers.org/hgnc/29316>
 <http://identifiers.org/hgnc/29326>
 <http://identifiers.org/hgnc/2932>
@@ -2993,6 +2995,9 @@
 <http://identifiers.org/hgnc/341>
 <http://identifiers.org/hgnc/3420>
 <http://identifiers.org/hgnc/3424>
+<http://identifiers.org/hgnc/34269>
+<http://identifiers.org/hgnc/34270>
+<http://identifiers.org/hgnc/34285>
 <http://identifiers.org/hgnc/3431>
 <http://identifiers.org/hgnc/3432>
 <http://identifiers.org/hgnc/3433>
@@ -3131,6 +3136,7 @@
 <http://identifiers.org/hgnc/397>
 <http://identifiers.org/hgnc/3999>
 <http://identifiers.org/hgnc/399>
+<http://identifiers.org/hgnc/40028>
 <http://identifiers.org/hgnc/40038>
 <http://identifiers.org/hgnc/40045>
 <http://identifiers.org/hgnc/40050>
@@ -4339,6 +4345,7 @@
 <http://identifiers.org/hgnc/9545>
 <http://identifiers.org/hgnc/9546>
 <http://identifiers.org/hgnc/9549>
+<http://identifiers.org/hgnc/9552>
 <http://identifiers.org/hgnc/9557>
 <http://identifiers.org/hgnc/9577>
 <http://identifiers.org/hgnc/9580>
@@ -13309,6 +13316,7 @@
 <https://omim.org/entry/301161>
 <https://omim.org/entry/301162>
 <https://omim.org/entry/301163>
+<https://omim.org/entry/301164>
 <https://omim.org/entry/301165>
 <https://omim.org/entry/301200>
 <https://omim.org/entry/301201>
@@ -35412,6 +35420,15 @@
 <https://omim.org/entry/621555>
 <https://omim.org/entry/621556>
 <https://omim.org/entry/621557>
+<https://omim.org/entry/621558>
+<https://omim.org/entry/621559>
+<https://omim.org/entry/621560>
+<https://omim.org/entry/621561>
+<https://omim.org/entry/621562>
+<https://omim.org/entry/621563>
+<https://omim.org/entry/621564>
+<https://omim.org/entry/621565>
+<https://omim.org/entry/621566>
 <https://omim.org/phenotypicSeries/PS100070>
 <https://omim.org/phenotypicSeries/PS100300>
 <https://omim.org/phenotypicSeries/PS101800>

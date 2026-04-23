@@ -4379,6 +4379,7 @@ MONDO:0025193	oculopharyngodistal myopathy	MONDO:0016106	Orphanet:98897	Orphanet
 MONDO:0028226	autosomal recessive severe congenital neutropenia	MONDO:0018542	Orphanet:439849	Orphanet:42738	severe congenital neutropenia
 MONDO:0029133	muscular dystrophy, limb-girdle, autosomal dominant 4	MONDO:0015151	Orphanet:565909	Orphanet:102014	muscular dystrophy, limb-girdle, autosomal dominant
 MONDO:0029136	muscular dystrophy, limb-girdle, autosomal recessive 23	MONDO:0015152	Orphanet:565837	Orphanet:102015	autosomal recessive limb-girdle muscular dystrophy
+MONDO:0029144	extraoral halitosis due to methanethiol oxidase deficiency	MONDO:0019222	Orphanet:562538	Orphanet:79173	inborn disorder of methionine cycle and sulfur amino acid metabolism
 MONDO:0030105	galactosemia 4	MONDO:0018116	Orphanet:570422	Orphanet:352	galactosemia
 MONDO:0030258	pontocerebellar hypoplasia, type 14	MONDO:0020135	Orphanet:613274	Orphanet:98523	pontocerebellar hypoplasia
 MONDO:0030524	mucopolysaccharidosis, type 10	MONDO:0019249	Orphanet:662216	Orphanet:79213	mucopolysaccharidosis
@@ -4432,7 +4433,6 @@ MONDO:0034143	early-onset calcifying leukoencephalopathy-skeletal dysplasia	MOND
 MONDO:0034145	oculocerebrodental syndrome	MONDO:0005308	Orphanet:557003	Orphanet:363250	ciliopathy
 MONDO:0034145	oculocerebrodental syndrome	MONDO:0015159	Orphanet:557003	Orphanet:102283	multiple congenital anomalies/dysmorphic syndrome-intellectual disability
 MONDO:0034146	spastic ataxia-dysarthria due to glutaminase deficiency	MONDO:0017847	Orphanet:557056	Orphanet:316240	autosomal recessive spastic ataxia
-MONDO:0034186	autosomal recessive extra-oral halitosis	MONDO:0019222	Orphanet:562538	Orphanet:79173	inborn disorder of methionine cycle and sulfur amino acid metabolism
 MONDO:0034976	iatrogenic Creutzfeldt-Jakob disease	MONDO:0018686	Orphanet:576379	Orphanet:454700	acquired Creutzfeldt-Jakob disease
 MONDO:0035004	serine biosynthesis pathway deficiency, infantile/juvenile form	MONDO:0018162	Orphanet:583595	Orphanet:35705	neurometabolic disorder due to serine deficiency
 MONDO:0035121	myeloid/lymphoid neoplasm associated with JAK2 rearrangement	MONDO:0015688	Orphanet:589542	Orphanet:168943	myeloid/lymphoid neoplasms associated with eosinophilia and abnormality of PDGFRA, PDGFRB, FGFR1 or JAK2

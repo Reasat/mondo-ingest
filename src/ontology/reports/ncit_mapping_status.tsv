@@ -15320,6 +15320,7 @@ NCIT:C16246	Retired NCI_Kind Concepts	False	False	True
 NCIT:C16247	Retired Diagnostic and Prognostic Factors Concepts	False	False	True
 NCIT:C162479	BTK inhibitor TG-1701	False	False	True
 NCIT:C16248	Retired Diagnostic, Therapeutic, and Research Equipment Concepts	False	False	True
+NCIT:C162484	Polymerase Proofreading Associated Polyposis	False	False	True
 NCIT:C162487	Paratesticular Melanotic Neuroectodermal Tumor	False	False	True
 NCIT:C16250	Retired Properties or Attributes Concepts	False	False	True
 NCIT:C162536	Non-Human Papillomavirus-Related Penile Intraepithelial Neoplasia	False	False	True
@@ -15557,6 +15558,7 @@ NCIT:C176788	PQ/CMC Application Submission Type Terminology	False	False	True
 NCIT:C176789	PQ/CMC Co-Packaged Indicator Terminology	False	False	True
 NCIT:C176790	PQ/CMC Process Related Impurity Category Terminology	False	False	True
 NCIT:C176814	PQ/CMC Product Related Impurity Category Terminology	False	False	True
+NCIT:C176909	Ataxia-Pancytopenia Syndrome	False	False	True
 NCIT:C176957	Retired Concept 2020	False	False	True
 NCIT:C176965	CDK9 Inhibitor GFH009	False	False	True
 NCIT:C177148	Unanticipated Adverse Event	False	False	True
@@ -17420,6 +17422,7 @@ NCIT:C2724	MS-275	False	False	True
 NCIT:C27251	PDQ Antiquated Neoplastic Concept	False	False	True
 NCIT:C27254	Papillary Eccrine Carcinoma	False	False	True
 NCIT:C27261	Pre T-ALL	False	False	True
+NCIT:C27264	Hereditary Atypical Mole Melanoma Syndrome	False	False	True
 NCIT:C27267	Lymphoma/Leukemia by Kiel Classification (Antiquated)	False	False	True
 NCIT:C27279	Localized Adrenal Gland Pheochromocytoma	False	False	True
 NCIT:C27315	Mycobacterium Avium Intracellulare Lymphadenitis	False	False	True
@@ -17792,9 +17795,11 @@ NCIT:C34972	Raynaud's Disease	False	False	True
 NCIT:C35093	Solitary Bone Cyst	False	False	True
 NCIT:C35103	Uremia	False	False	True
 NCIT:C35144	Vasospasm	False	False	True
+NCIT:C35423	Complex Endometrial Hyperplasia	False	False	True
 NCIT:C35425	Splenic Lymphoma with Circulating Villous Lymphocytes	False	False	True
 NCIT:C35433	Adrenogenital Syndrome	False	False	True
 NCIT:C35439	Hemophagocytic Syndrome	False	False	True
+NCIT:C35463	Simple Endometrial Hyperplasia	False	False	True
 NCIT:C35480	Aseptic Necrosis of Femoral Head	False	False	True
 NCIT:C35538	Nephrotic Syndrome with Lesion of Lobular Glomerulonephritis	False	False	True
 NCIT:C35539	Nephrotic Syndrome with Lesion of Mesangiocapillary Glomerulonephritis	False	False	True
@@ -17907,6 +17912,7 @@ NCIT:C38338	Activated Skin-Homing Lymphocyte	False	False	True
 NCIT:C38375	t(v;11q23.3)	False	False	True
 NCIT:C38389	Sex	False	False	True
 NCIT:C38398	NFIC Gene	False	False	True
+NCIT:C3843	Malignant Ovarian Cyst	False	False	True
 NCIT:C38470	Laboratory Finding	False	False	True
 NCIT:C38497	HPRT2 Gene	False	False	True
 NCIT:C38498	Hypoxanthine Phosphoribosyltransferase 2	False	False	True
@@ -17963,6 +17969,7 @@ NCIT:C4009	Non-Functioning Pituitary Gland Neoplasm	False	False	True
 NCIT:C40091	Ovarian Endometrioid Adenocarcinoma not Otherwise Specified	False	False	True
 NCIT:C40092	Ovarian Squamous Cell Tumor	False	False	True
 NCIT:C40117	Tubal Epithelial Hyperplasia	False	False	True
+NCIT:C40136	Uterine Ligament Serous Adenocarcinoma	False	False	True
 NCIT:C40140	Borderline Uterine Ligament Neoplasm	False	False	True
 NCIT:C40169	Uterine Corpus Diffuse Leiomyomatosis	False	False	True
 NCIT:C40202	Cervical Mucinous Adenocarcinoma, Endocervical-Type	False	False	True
@@ -18198,6 +18205,7 @@ NCIT:C44318	4-N-Nitrosomethylamino-1-3-Pyridyl-1-Butanone	False	False	True
 NCIT:C44342	Bis(chloroethyl) Nitrosourea	False	False	True
 NCIT:C44344	Broad-Spectrum UV Radiation	False	False	True
 NCIT:C44394	Iron Dextran Complex	False	False	True
+NCIT:C4442	Stage 0 Extrahepatic Bile Duct Cancer	False	False	True
 NCIT:C44421	N-Nitroso-N-Ethylurea	False	False	True
 NCIT:C44422	N-Nitroso-N-Methylurea	False	False	True
 NCIT:C4462	Skin Squamous Papilloma	False	False	True
@@ -18782,6 +18790,7 @@ NCIT:C71599	IL-2R Alpha-Positive Neoplastic Cells Present	False	False	True
 NCIT:C7160	Sclerosing Hemangioma	False	False	True
 NCIT:C7167	Myelodysplastic Syndrome with Excess Blasts-1	False	False	True
 NCIT:C71680	FD&C Yellow No. 1	False	False	True
+NCIT:C7169	Pineal Region Dysgerminoma	False	False	True
 NCIT:C71697	Teprotumumab	False	False	True
 NCIT:C7170	Acute Monocytic Leukemia	False	False	True
 NCIT:C71706	Receptor Tyrosine Kinase ABT-869	False	False	True
@@ -18822,6 +18831,7 @@ NCIT:C7374	Uterine Corpus Gestational Choriocarcinoma	False	False	True
 NCIT:C7375	Pericardial Fibroma	False	False	True
 NCIT:C73753	Milliliter per Day	False	False	True
 NCIT:C73754	Milliliter per Gram	False	False	True
+NCIT:C7380	Thyroid Gland Papillary and Follicular Carcinoma	False	False	True
 NCIT:C7382	Testicular Mixed Germ Cell Tumor	False	False	True
 NCIT:C7385	Thyroid Gland Trabecular Follicular Carcinoma	False	False	True
 NCIT:C73894	Xerophyllum asphodeloides	False	False	True
@@ -19007,6 +19017,7 @@ NCIT:C84274	ETV6-PDGFRB Fusion Protein Expression	False	False	True
 NCIT:C8432	Borderline Ovarian Serous Surface Papilloma	False	False	True
 NCIT:C84334	CA19-9 Measurement	False	False	True
 NCIT:C84387	Feed Milling	False	False	True
+NCIT:C84551	Amebiasis	False	False	True
 NCIT:C84584	Balkan Endemic Nephropathy	False	False	True
 NCIT:C84592	Benign Familial Pemphigus	False	False	True
 NCIT:C84634	Chronic Idiopathic Jaundice	False	False	True
@@ -19065,6 +19076,7 @@ NCIT:C87117	Risk Factor Assessment Result	False	False	True
 NCIT:C87119	Scarf Sign Result	False	False	True
 NCIT:C87122	Small for Gestational Age	False	False	True
 NCIT:C87147	Contact Lens	False	False	True
+NCIT:C8717	Mucin-Rich Endometrial Endometrioid Adenocarcinoma	False	False	True
 NCIT:C87170	Square Window Result	False	False	True
 NCIT:C87172	Heart Rate Finding	False	False	True
 NCIT:C87173	Respiratory Rate Finding	False	False	True
@@ -19158,6 +19170,7 @@ NCIT:C9342	Spindle Cell Intraocular Melanoma	False	False	True
 NCIT:C9365	Stage IIA Bladder Cancer	False	False	True
 NCIT:C9366	Stage IIB Bladder Cancer	False	False	True
 NCIT:C9367	Stage IVA Bladder Cancer	False	False	True
+NCIT:C9368	Stage IVB Bladder Cancer	False	False	True
 NCIT:C9373	Adult Brain Medulloblastoma	False	False	True
 NCIT:C9416	Sarcoma by AJCC Grade	False	False	True
 NCIT:C9419	AJCC Grade 1 Sarcoma	False	False	True
@@ -49199,7 +49212,6 @@ NCIT:C12841	Reproductive System	False	True	False
 NCIT:C128411	Acute Sinusitis	False	True	False
 NCIT:C128416	Pre-Extensively Drug-Resistant Tuberculosis	False	True	False
 NCIT:C12842	Skin Graft	False	True	False
-NCIT:C128427	Southern Tick-Associated Rash Illness	False	True	False
 NCIT:C128428	Infectious Hidradenitis	False	True	False
 NCIT:C128429	Hidradenitis Suppurativa	False	True	False
 NCIT:C12843	Coronary Artery	False	True	False
@@ -206417,25 +206429,12 @@ NCIT:C97110	Spinal Cord Disorder	True	False	False
 NCIT:C98291	Gonadal Teratoma	True	False	False
 NCIT:C99055	Sacrococcygeal Teratoma	True	False	False
 NCIT:C99086	Airway Infantile Hemangioma	True	False	False
-NCIT:C162484	Polymerase Proofreading Associated Polyposis	True	False	True
-NCIT:C176909	Ataxia-Pancytopenia Syndrome	True	False	True
-NCIT:C27264	Hereditary Atypical Mole Melanoma Syndrome	True	False	True
 NCIT:C27892	Unclassified Renal Cell Carcinoma	True	False	True
-NCIT:C35423	Complex Endometrial Hyperplasia	True	False	True
-NCIT:C35463	Simple Endometrial Hyperplasia	True	False	True
-NCIT:C3843	Malignant Ovarian Cyst	True	False	True
-NCIT:C40136	Uterine Ligament Serous Adenocarcinoma	True	False	True
 NCIT:C40257	Vaginal Tubular Adenoma	True	False	True
-NCIT:C4442	Stage 0 Extrahepatic Bile Duct Cancer	True	False	True
 NCIT:C6941	Breast Blunt Duct Adenosis	True	False	True
 NCIT:C6977	Breast Papillomatosis	True	False	True
-NCIT:C7169	Pineal Region Dysgerminoma	True	False	True
-NCIT:C7380	Thyroid Gland Papillary and Follicular Carcinoma	True	False	True
 NCIT:C75007	Marfan Syndrome Type II	True	False	True
-NCIT:C84551	Amebiasis	True	False	True
-NCIT:C8717	Mucin-Rich Endometrial Endometrioid Adenocarcinoma	True	False	True
 NCIT:C8998	Medullary Carcinoma	True	False	True
-NCIT:C9368	Stage IVB Bladder Cancer	True	False	True
 NCIT:C101024	Colon Atresia	True	True	False
 NCIT:C101025	Duodenal Atresia	True	True	False
 NCIT:C101029	Atrioventricular Septal Defect	True	True	False
@@ -207050,6 +207049,7 @@ NCIT:C128423	Zika Virus Infection	True	True	False
 NCIT:C128424	Middle East Respiratory Syndrome	True	True	False
 NCIT:C128425	Anaplasmosis	True	True	False
 NCIT:C128426	Louse-Borne Relapsing Fever	True	True	False
+NCIT:C128427	Southern Tick-Associated Rash Illness	True	True	False
 NCIT:C128438	Variant Creutzfeldt-Jakob Disease	True	True	False
 NCIT:C128439	Hand Foot and Mouth Disease	True	True	False
 NCIT:C128441	Carrión Disease	True	True	False
