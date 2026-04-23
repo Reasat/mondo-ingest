@@ -22554,7 +22554,7 @@ OMIM:164031	NOP2	skos:exactMatch	hgnc.symbol:NOP2		semapv:UnspecifiedMatching
 OMIM:164031	NOP2	skos:exactMatch	ncbigene:4839		semapv:UnspecifiedMatching
 OMIM:164035	NCL	skos:exactMatch	UMLS:C1417613		semapv:UnspecifiedMatching
 OMIM:164035	NCL	skos:exactMatch	hgnc.symbol:7667		semapv:UnspecifiedMatching
-OMIM:164035	NCL	skos:exactMatch	hgnc.symbol:NCL		semapv:UnspecifiedMatching
+OMIM:164035	NCL	skos:exactMatch	hgnc.symbol:NUCLEOLIN		semapv:UnspecifiedMatching
 OMIM:164035	NCL	skos:exactMatch	ncbigene:4691		semapv:UnspecifiedMatching
 OMIM:164040	NPM1	skos:exactMatch	UMLS:C1334894		semapv:UnspecifiedMatching
 OMIM:164040	NPM1	skos:exactMatch	UMLS:C4015936		semapv:UnspecifiedMatching
@@ -23099,7 +23099,7 @@ OMIM:165600	orbital margin, hypoplasia of	skos:exactMatch	UMLS:C1833795		semapv:
 OMIM:165640	ODC1	skos:exactMatch	UMLS:C1417932		semapv:UnspecifiedMatching
 OMIM:165640	ODC1	skos:exactMatch	UMLS:C1417933		semapv:UnspecifiedMatching
 OMIM:165640	ODC1	skos:exactMatch	UMLS:C5436741		semapv:UnspecifiedMatching
-OMIM:165640	ODC1	skos:exactMatch	UMLS:C5436942		semapv:UnspecifiedMatching
+OMIM:165640	ODC1	skos:exactMatch	UMLS:C5975654		semapv:UnspecifiedMatching
 OMIM:165640	ODC1	skos:exactMatch	hgnc.symbol:8109		semapv:UnspecifiedMatching
 OMIM:165640	ODC1	skos:exactMatch	hgnc.symbol:ODC1		semapv:UnspecifiedMatching
 OMIM:165640	ODC1	skos:exactMatch	ncbigene:4953		semapv:UnspecifiedMatching
@@ -28148,7 +28148,7 @@ OMIM:192225	VCAM1	skos:exactMatch	hgnc.symbol:VCAM1		semapv:UnspecifiedMatching
 OMIM:192225	VCAM1	skos:exactMatch	ncbigene:7412		semapv:UnspecifiedMatching
 OMIM:192240	VEGFA	skos:exactMatch	UMLS:C1823619		semapv:UnspecifiedMatching
 OMIM:192240	VEGFA	skos:exactMatch	UMLS:C2676832		semapv:UnspecifiedMatching
-OMIM:192240	VEGFA	skos:exactMatch	UMLS:C4693980		semapv:UnspecifiedMatching
+OMIM:192240	VEGFA	skos:exactMatch	UMLS:C5975661		semapv:UnspecifiedMatching
 OMIM:192240	VEGFA	skos:exactMatch	hgnc.symbol:12680		semapv:UnspecifiedMatching
 OMIM:192240	VEGFA	skos:exactMatch	hgnc.symbol:VEGFA		semapv:UnspecifiedMatching
 OMIM:192240	VEGFA	skos:exactMatch	ncbigene:7422		semapv:UnspecifiedMatching
@@ -38474,7 +38474,6 @@ OMIM:309520	intellectual developmental disorder, x-linked, syndromic, lujan-fryn
 OMIM:309520	intellectual developmental disorder, x-linked, syndromic, lujan-fryns type	skos:exactMatch	UMLS:C0796022		semapv:UnspecifiedMatching
 OMIM:309530	intellectual developmental disorder, X-linked 1	skos:exactMatch	MONDO:0010656		semapv:UnspecifiedMatching
 OMIM:309530	intellectual developmental disorder, X-linked 1	skos:exactMatch	Orphanet:397933		semapv:UnspecifiedMatching
-OMIM:309530	intellectual developmental disorder, X-linked 1	skos:exactMatch	Orphanet:777		semapv:UnspecifiedMatching
 OMIM:309530	intellectual developmental disorder, X-linked 1	skos:exactMatch	UMLS:C1845181		semapv:UnspecifiedMatching
 OMIM:309530	intellectual developmental disorder, X-linked 1	skos:exactMatch	UMLS:C2931498		semapv:UnspecifiedMatching
 OMIM:309541	methylmalonic aciduria and homocystinuria, cblx type	skos:exactMatch	MONDO:0010657		semapv:UnspecifiedMatching
@@ -55906,7 +55905,7 @@ OMIM:604072	DGKI	skos:exactMatch	hgnc.symbol:DGKI		semapv:UnspecifiedMatching
 OMIM:604072	DGKI	skos:exactMatch	ncbigene:9162		semapv:UnspecifiedMatching
 OMIM:604073	ZNF131	skos:exactMatch	UMLS:C1421623		semapv:UnspecifiedMatching
 OMIM:604073	ZNF131	skos:exactMatch	hgnc.symbol:12915		semapv:UnspecifiedMatching
-OMIM:604073	ZNF131	skos:exactMatch	hgnc.symbol:ZNF131		semapv:UnspecifiedMatching
+OMIM:604073	ZNF131	skos:exactMatch	hgnc.symbol:ZBTB35		semapv:UnspecifiedMatching
 OMIM:604073	ZNF131	skos:exactMatch	ncbigene:7690		semapv:UnspecifiedMatching
 OMIM:604074	ZNF132	skos:exactMatch	UMLS:C1421624		semapv:UnspecifiedMatching
 OMIM:604074	ZNF132	skos:exactMatch	hgnc.symbol:12916		semapv:UnspecifiedMatching
@@ -64237,6 +64236,7 @@ OMIM:606130	RNF26	skos:exactMatch	hgnc.symbol:14646		semapv:UnspecifiedMatching
 OMIM:606130	RNF26	skos:exactMatch	hgnc.symbol:RNF26		semapv:UnspecifiedMatching
 OMIM:606130	RNF26	skos:exactMatch	ncbigene:79102		semapv:UnspecifiedMatching
 OMIM:606131	TRIM63	skos:exactMatch	UMLS:C1540067		semapv:UnspecifiedMatching
+OMIM:606131	TRIM63	skos:exactMatch	UMLS:C6012754		semapv:UnspecifiedMatching
 OMIM:606131	TRIM63	skos:exactMatch	hgnc.symbol:16007		semapv:UnspecifiedMatching
 OMIM:606131	TRIM63	skos:exactMatch	hgnc.symbol:TRIM63		semapv:UnspecifiedMatching
 OMIM:606131	TRIM63	skos:exactMatch	ncbigene:84676		semapv:UnspecifiedMatching
@@ -78124,7 +78124,7 @@ OMIM:609549	nanophthalmos 2	skos:exactMatch	Orphanet:35612		semapv:UnspecifiedMa
 OMIM:609549	nanophthalmos 2	skos:exactMatch	UMLS:C1836006		semapv:UnspecifiedMatching
 OMIM:609550	ZNF330	skos:exactMatch	UMLS:C1423505		semapv:UnspecifiedMatching
 OMIM:609550	ZNF330	skos:exactMatch	hgnc.symbol:15462		semapv:UnspecifiedMatching
-OMIM:609550	ZNF330	skos:exactMatch	hgnc.symbol:ZNF330		semapv:UnspecifiedMatching
+OMIM:609550	ZNF330	skos:exactMatch	hgnc.symbol:NOAZFP		semapv:UnspecifiedMatching
 OMIM:609550	ZNF330	skos:exactMatch	ncbigene:27309		semapv:UnspecifiedMatching
 OMIM:609551	LMAN2	skos:exactMatch	UMLS:C1424674		semapv:UnspecifiedMatching
 OMIM:609551	LMAN2	skos:exactMatch	hgnc.symbol:16986		semapv:UnspecifiedMatching
@@ -120800,6 +120800,9 @@ OMIM:621554	GPATCH1	skos:exactMatch	ncbigene:55094		semapv:UnspecifiedMatching
 OMIM:621555	TMCO4	skos:exactMatch	hgnc.symbol:27393		semapv:UnspecifiedMatching
 OMIM:621555	TMCO4	skos:exactMatch	hgnc.symbol:TMCO4		semapv:UnspecifiedMatching
 OMIM:621555	TMCO4	skos:exactMatch	ncbigene:255104		semapv:UnspecifiedMatching
+OMIM:621557	CALHM5	skos:exactMatch	hgnc.symbol:21568		semapv:UnspecifiedMatching
+OMIM:621557	CALHM5	skos:exactMatch	hgnc.symbol:CALHM5		semapv:UnspecifiedMatching
+OMIM:621557	CALHM5	skos:exactMatch	ncbigene:254228		semapv:UnspecifiedMatching
 OMIMPS:100070	Aortic aneurysm, familial abdominal	skos:exactMatch	MONDO:0007031		semapv:UnspecifiedMatching
 OMIMPS:100300	Adams-Oliver syndrome	skos:exactMatch	MONDO:0007034		semapv:UnspecifiedMatching
 OMIMPS:101800	Acrodysostosis	skos:exactMatch	MONDO:0019797		semapv:UnspecifiedMatching

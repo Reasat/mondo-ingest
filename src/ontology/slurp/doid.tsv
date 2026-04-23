@@ -10,59 +10,5 @@ MONDO:0971183	autosomal recessive pseudohypoaldosteronism type 1	DOID:0060854	MO
 MONDO:0975812	sertoli cell-only syndrome	DOID:0050457	MONDO:equivalentTo	Sertoli cell-only syndrome		MONDO:0005372
 MONDO:0979397	cherubism	DOID:0070648	MONDO:equivalentTo	cherubism	A bone resorption disease characterized by replacement of bone in the jaws with fibrous tissue leading to facial swelling.	MONDO:0000837
 MONDO:0979598	hamartoma syndrome	DOID:0070656	MONDO:equivalentTo	hamartoma syndrome		MONDO:0002254
-MONDO:0979904	proximal renal tubular acidosis-ocular anomaly syndrome	DOID:0061195	MONDO:equivalentTo	proximal renal tubular acidosis-ocular anomaly syndrome		MONDO:0001909|MONDO:0006025
 MONDO:0979921	hypocholesteremia	DOID:0061212	MONDO:equivalentTo	hypocholesteremia		MONDO:0005066
 MONDO:0979922	telomere biology disorder	DOID:0061213	MONDO:equivalentTo	telomere biology disorder	A genetic disease that is characterized by telomeres that are longer or shorter than usual.	MONDO:0003847
-MONDO:0981052	fontaine progeroid syndrome	DOID:0051067	MONDO:equivalentTo	Fontaine progeroid syndrome	A progeroid syndrome that is characterized by poor growth, abnormal skeletal features, and distinctive craniofacial features with sagging, thin skin, and decreased subcutaneous fat suggesting an aged appearance that is most pronounced in infancy and improves with time and that has_material_basis_in heterozygous mutation in the SLC25A24 gene on chromosome 1p36.	MONDO:0000426|MONDO:0015333
-MONDO:0981053	early-onset obesity, adrenal insufficiency, and red hair	DOID:0051068	MONDO:equivalentTo	early-onset obesity, adrenal insufficiency, and red hair	A syndrome that is characterized by early-onset obesity due to severe hyperphagia, pigmentary abnormalities, mainly pale skin and red hair, and secondary hypocortisolism and that has_material_basis_in  homozygous or compound heterozygous mutation in the POMC gene on chromosome 2p23.	MONDO:0002254|MONDO:0006025
-MONDO:0981054	meier-gorlin syndrome 9	DOID:0051069	MONDO:equivalentTo	Meier-Gorlin syndrome 9	A Meier-Gorlin syndrome that is characterized by short stature, microtia, and patellar hypoplasia or absence and that has_material_basis_in homozygous or compound heterozygous mutation in the GINS3 gene on chromosome 16q21.	MONDO:0016817|MONDO:0006025
-MONDO:0981055	meier-gorlin syndrome 10	DOID:0051070	MONDO:equivalentTo	Meier-Gorlin syndrome 10	A Meier-Gorlin syndrome that is characterized by intrauterine growth retardation, short stature with proportionate microcephaly, microtia, and absent or hypoplastic patellae and that has_material_basis_in homozygous mutation in the DONSON gene on chromosome 21q22.	MONDO:0016817|MONDO:0006025
-MONDO:0981056	neurodevelopmental disorder with seizures and impaired intellectual and language development	DOID:0051071	MONDO:equivalentTo	neurodevelopmental disorder with seizures and impaired intellectual and language development	An autosomal recessive intellectual developmental disorder that is characterized by intellectual disability, developmental delay, seizures, hypotonia, microcephaly, and dysmorphic features and that has_material_basis_in homozygous or compound heterozygous mutation in the JKAMP gene on chromosome 14q23.	MONDO:0019502
-MONDO:0981057	neurodegenerative disorder with cerebellar and caudate atrophy	DOID:0051072	MONDO:equivalentTo	neurodegenerative disorder with cerebellar and caudate atrophy	An autosomal dominant intellectual developmental disorder that is characterized by neurodegenerative features, including progressive ataxia, cognitive decline, and neuropathy, and a distinctive neuroradiologic phenotype with cerebellar and caudate atrophy and basal ganglia signal abnormalities and that has_material_basis_in heterozygous complex chromosome 16p13.3 rearrangement comprising a duplication with an embedded triplication involving at least the ATP6V0C gene.	MONDO:0015802
-MONDO:0981058	dilated cardiomyopathy 3c	DOID:0051073	MONDO:equivalentTo	dilated cardiomyopathy 3C	A dilated cardiomyopathy that is characterized by severe arrhythmogenic dilated cardiomyopathy (DCM) with onset as young as the teen years but usually in the third to fifth decades of life and that has_material_basis_in mutation in the gene encoding emerin (EMD) on chromosome Xq28.	MONDO:0005021|MONDO:0000425
-MONDO:0981059	primary autosomal recessive microcephaly 31	DOID:0051074	MONDO:equivalentTo	primary autosomal recessive microcephaly 31	A primary autosomal recessive microcephaly that is characterized by progressive small head circumference and poor overall postnatal growth and that has_material_basis_in homozygous mutation in the CDK4 gene on chromosome 12q14.	MONDO:0016660
-MONDO:0981060	aggressive periodontitis 2	DOID:0051075	MONDO:equivalentTo	aggressive periodontitis 2	An aggressive periodontitis that has_material_basis_in a locus is situated between D1S196 and D1S533 on chromosome 1q25.	MONDO:0008226
-MONDO:0981061	neurodevelopmental disorder with parkinsonism or other movement abnormalities	DOID:0051076	MONDO:equivalentTo	neurodevelopmental disorder with parkinsonism or other movement abnormalities	An autosomal recessive intellectual developmental disorder that is characterized by mild to severe developmental delay or intellectual disability and movement abnormalities including spasticity, early onset-parkinsonism with dystonia, myoclonus, or a combination of these and that has_material_basis_in homozygous or compound heterozygous mutation in the EPG5 gene on chromosome 18q12-q21.	MONDO:0019502
-MONDO:0981062	diethylstilbestrol syndrome	DOID:0051077	MONDO:equivalentTo	diethylstilbestrol syndrome	A reproductive system disease that is characterized by reproductive tract malformations, decreased fertility and increased risk of developing clear cell carcinoma of the vagina and cervix in young women, in offspring or grandchildren of women exposed to diethylstilbestrol (DES) during pregnancy.	MONDO:0005039
-MONDO:0981063	familial hyperaldosteronism	DOID:0061247	MONDO:equivalentTo	familial hyperaldosteronism		MONDO:0003009
-MONDO:0981064	charcot-marie-tooth disease type 2kk	DOID:0061251	MONDO:equivalentTo	Charcot-Marie-Tooth disease type 2KK		MONDO:0006025|MONDO:0018993
-MONDO:0981065	neurodevelopmental disorder with hypotonia, epilepsy, and absent speech	DOID:0061252	MONDO:equivalentTo	neurodevelopmental disorder with hypotonia, epilepsy, and absent speech		MONDO:0019502
-MONDO:0981066	neurodevelopmental disorder with speech delay, movement abnormalities, and seizures	DOID:0061253	MONDO:equivalentTo	neurodevelopmental disorder with speech delay, movement abnormalities, and seizures		MONDO:0015802
-MONDO:0981067	intellectual developmental disorder with seizures and dysmorphic facies	DOID:0061254	MONDO:equivalentTo	intellectual developmental disorder with seizures and dysmorphic facies		MONDO:0015802
-MONDO:0981068	spondylocostal dysostosis 7	DOID:0061255	MONDO:equivalentTo	spondylocostal dysostosis 7		MONDO:0006025|MONDO:0000359
-MONDO:0981069	congenital myopathy 25	DOID:0061256	MONDO:equivalentTo	congenital myopathy 25		MONDO:0019952|MONDO:0006025
-MONDO:0981070	congenital myopathy 26	DOID:0061257	MONDO:equivalentTo	congenital myopathy 26		MONDO:0019952|MONDO:0000426
-MONDO:0981071	congenital myopathy 27	DOID:0061258	MONDO:equivalentTo	congenital myopathy 27		MONDO:0019952|MONDO:0006025
-MONDO:0981072	congenital myopathy 28	DOID:0061259	MONDO:equivalentTo	congenital myopathy 28		MONDO:0019952|MONDO:0006025
-MONDO:0981073	congenital myopathy 29	DOID:0061260	MONDO:equivalentTo	congenital myopathy 29		MONDO:0019952|MONDO:0006025
-MONDO:0981074	lethal congenital contracture syndrome 5	DOID:0061261	MONDO:equivalentTo	lethal congenital contracture syndrome 5		MONDO:0017436
-MONDO:0981075	lethal congenital contracture syndrome 6	DOID:0061262	MONDO:equivalentTo	lethal congenital contracture syndrome 6		MONDO:0017436
-MONDO:0981076	lethal congenital contracture syndrome 7	DOID:0061263	MONDO:equivalentTo	lethal congenital contracture syndrome 7		MONDO:0017436
-MONDO:0981077	lethal congenital contracture syndrome 8	DOID:0061264	MONDO:equivalentTo	lethal congenital contracture syndrome 8		MONDO:0017436
-MONDO:0981078	lethal congenital contracture syndrome 9	DOID:0061265	MONDO:equivalentTo	lethal congenital contracture syndrome 9		MONDO:0017436
-MONDO:0981079	lethal congenital contracture syndrome 10	DOID:0061266	MONDO:equivalentTo	lethal congenital contracture syndrome 10		MONDO:0017436
-MONDO:0981080	lethal congenital contracture syndrome 11	DOID:0061267	MONDO:equivalentTo	lethal congenital contracture syndrome 11		MONDO:0017436
-MONDO:0981081	lethal congenital contracture syndrome 12	DOID:0061268	MONDO:equivalentTo	lethal congenital contracture syndrome 12		MONDO:0017436
-MONDO:0981082	periventricular nodular heterotopia 6	DOID:0061269	MONDO:equivalentTo	periventricular nodular heterotopia 6		MONDO:0000426|MONDO:0020341
-MONDO:0981083	periventricular nodular heterotopia 7	DOID:0061270	MONDO:equivalentTo	periventricular nodular heterotopia 7		MONDO:0000426|MONDO:0020341
-MONDO:0981084	weill-marchesani syndrome 1	DOID:0061273	MONDO:equivalentTo	Weill-Marchesani syndrome 1		MONDO:0006025|MONDO:0018096
-MONDO:0981085	weill-marchesani syndrome 2	DOID:0061274	MONDO:equivalentTo	Weill-Marchesani syndrome 2		MONDO:0000426|MONDO:0018096
-MONDO:0981086	weill-marchesani syndrome 3	DOID:0061275	MONDO:equivalentTo	Weill-Marchesani syndrome 3		MONDO:0006025|MONDO:0018096
-MONDO:0981087	weill-marchesani syndrome 4	DOID:0061276	MONDO:equivalentTo	Weill-Marchesani syndrome 4		MONDO:0006025|MONDO:0018096
-MONDO:0981088	senior-loken syndrome 1	DOID:0061277	MONDO:equivalentTo	Senior-Loken syndrome 1		MONDO:0017842
-MONDO:0981089	senior-loken syndrome 4	DOID:0061278	MONDO:equivalentTo	Senior-Loken syndrome 4		MONDO:0017842
-MONDO:0981090	senior-loken syndrome 5	DOID:0061279	MONDO:equivalentTo	Senior-Loken syndrome 5		MONDO:0017842
-MONDO:0981091	senior-loken syndrome 6	DOID:0061280	MONDO:equivalentTo	Senior-Loken syndrome 6		MONDO:0017842
-MONDO:0981092	senior-loken syndrome 7	DOID:0061281	MONDO:equivalentTo	Senior-Loken syndrome 7		MONDO:0017842
-MONDO:0981093	senior-loken syndrome 8	DOID:0061282	MONDO:equivalentTo	Senior-Loken syndrome 8		MONDO:0017842
-MONDO:0981094	senior-loken syndrome 9	DOID:0061283	MONDO:equivalentTo	Senior-Loken syndrome 9		MONDO:0017842
-MONDO:0981095	autosomal recessive nonsyndromic deafness 122	DOID:0070669	MONDO:equivalentTo	autosomal recessive nonsyndromic deafness 122		MONDO:0019588
-MONDO:0981096	autosomal recessive nonsyndromic deafness 123	DOID:0070670	MONDO:equivalentTo	autosomal recessive nonsyndromic deafness 123		MONDO:0019588
-MONDO:0981097	autosomal recessive nonsyndromic deafness 117	DOID:0070671	MONDO:equivalentTo	autosomal recessive nonsyndromic deafness 117		MONDO:0019588
-MONDO:0981098	autosomal recessive nonsyndromic deafness 118	DOID:0070672	MONDO:equivalentTo	autosomal recessive nonsyndromic deafness 118		MONDO:0019588
-MONDO:0981099	autosomal recessive nonsyndromic deafness 119	DOID:0070673	MONDO:equivalentTo	autosomal recessive nonsyndromic deafness 119		MONDO:0019588
-MONDO:0981100	autosomal recessive nonsyndromic deafness 120	DOID:0070674	MONDO:equivalentTo	autosomal recessive nonsyndromic deafness 120		MONDO:0019588
-MONDO:0981101	autosomal recessive nonsyndromic deafness 121	DOID:0070675	MONDO:equivalentTo	autosomal recessive nonsyndromic deafness 121		MONDO:0019588
-MONDO:0981102	autosomal recessive nonsyndromic deafness 124	DOID:0070676	MONDO:equivalentTo	autosomal recessive nonsyndromic deafness 124		MONDO:0019588
-MONDO:0981103	ferguson-bonni neurodevelopmental syndrome	DOID:0070677	MONDO:equivalentTo	Ferguson-Bonni neurodevelopmental syndrome		MONDO:0000508|MONDO:0006025
-MONDO:0981104	congenital hypomyelinating neuropathy	DOID:0070678	MONDO:equivalentTo	congenital hypomyelinating neuropathy		MONDO:0019056

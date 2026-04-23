@@ -1796,6 +1796,7 @@ MONDO:0011400	dilated cardiomyopathy 1G	MONDO:0005021	DOID:0110430	DOID:12930	di
 MONDO:0011401	Alzheimer disease without neurofibrillary tangles	MONDO:0004975	DOID:0110048	DOID:10652	Alzheimer disease
 MONDO:0011405	poikiloderma with neutropenia	MONDO:0005093	DOID:0060551	DOID:37	skin disorder
 MONDO:0011422	autosomal recessive proximal renal tubular acidosis	MONDO:0001909	DOID:0061167	DOID:14219	renal tubular acidosis
+MONDO:0011422	autosomal recessive proximal renal tubular acidosis	MONDO:0001909	DOID:0061195	DOID:14219	renal tubular acidosis
 MONDO:0011425	dilated cardiomyopathy 1H	MONDO:0005021	DOID:0110429	DOID:12930	dilated cardiomyopathy
 MONDO:0011426	aceruloplasminemia	MONDO:0002279	DOID:0050711	DOID:2351	iron metabolism disease
 MONDO:0011426	aceruloplasminemia	MONDO:0019052	DOID:0050711	DOID:655	inborn errors of metabolism
@@ -2567,6 +2568,7 @@ MONDO:0016472	dracunculiasis	MONDO:0004664	DOID:14418	DOID:883	helminthiasis
 MONDO:0016473	familial rhabdoid tumor	MONDO:0002254	DOID:0070617	DOID:225	syndromic disease
 MONDO:0016486	beta-thalassemia major	MONDO:0019402	DOID:0080771	DOID:12241	beta thalassemia
 MONDO:0016487	beta-thalassemia intermedia	MONDO:0019402	DOID:0080772	DOID:12241	beta thalassemia
+MONDO:0016525	familial hyperaldosteronism	MONDO:0003009	DOID:0061247	DOID:446	hyperaldosteronism
 MONDO:0016576	split hand-foot malformation	MONDO:0005497	DOID:0090020	DOID:0080006	bone development disease
 MONDO:0016612	X-linked cerebellar ataxia	MONDO:0100309	DOID:0050953	DOID:0050951	hereditary ataxia
 MONDO:0016649	Warburg micro syndrome	MONDO:0002254	DOID:0060237	DOID:225	syndromic disease
@@ -2916,6 +2918,7 @@ MONDO:0033008	Galloway-Mowat syndrome 4	MONDO:0006025	DOID:0080246	DOID:0050737	
 MONDO:0033043	spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy	MONDO:0006025	DOID:0080252	DOID:0050737	autosomal recessive disease
 MONDO:0033043	spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy	MONDO:0017845	DOID:0080252	DOID:0050952	spastic ataxia
 MONDO:0033046	Meier-Gorlin syndrome 8	MONDO:0006025	DOID:0080255	DOID:0050737	autosomal recessive disease
+MONDO:0033352	neuropathy, congenital hypomelinating	MONDO:0019056	DOID:0070678	DOID:440	neuromuscular disease
 MONDO:0033480	spinocerebellar ataxia 45	MONDO:0020380	DOID:0080287	DOID:1441	autosomal dominant cerebellar ataxia
 MONDO:0033481	spinocerebellar ataxia 46	MONDO:0020380	DOID:0080288	DOID:1441	autosomal dominant cerebellar ataxia
 MONDO:0033549	optic atrophy 12	MONDO:0003608	DOID:0080840	DOID:5723	optic atrophy
@@ -3013,4 +3016,7 @@ MONDO:0968949	palmoplantar keratoderma, epidermolytic	MONDO:0006590	DOID:0080223
 MONDO:0970994	immunodeficiency 120	MONDO:0015131	DOID:0061086	DOID:628	combined immunodeficiency
 MONDO:0975830	myopathy with myalgia, increased serum creatine kinase, and with or without episodic rhabdomyolysis 2	MONDO:0003939	DOID:0061184	DOID:0080000	muscle tissue disorder
 MONDO:0976133	myopathy, myofibrillar, 13, with rimmed vacuoles	MONDO:0000426	DOID:0051045	DOID:0050736	autosomal dominant disease
+MONDO:0980992	Meier-Gorlin syndrome 9	MONDO:0006025	DOID:0051069	DOID:0050737	autosomal recessive disease
+MONDO:0981022	cardiomyopathy, dilated, 3C	MONDO:0005021	DOID:0051073	DOID:12930	dilated cardiomyopathy
+MONDO:0981050	Meier-Gorlin syndrome 10	MONDO:0006025	DOID:0051070	DOID:0050737	autosomal recessive disease
 MONDO:8000008	Martsolf syndrome 1	MONDO:0002254	DOID:0111586	DOID:225	syndromic disease

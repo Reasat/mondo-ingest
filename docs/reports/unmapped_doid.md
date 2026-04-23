@@ -2,77 +2,18 @@
 [Interactive FlatGithub table](https://flatgithub.com/monarch-initiative/mondo-ingest?filename=src/ontology/reports/doid_mapping_status.tsv)
 
 ### Unmapped mappable terms _(!excluded, !deprecated)_
-| subject_id   | subject_label                                                                                |
-|:-------------|:---------------------------------------------------------------------------------------------|
-| DOID:0061251 | Charcot-Marie-Tooth disease type 2KK                                                         |
-| DOID:0070677 | Ferguson-Bonni neurodevelopmental syndrome                                                   |
-| DOID:0051067 | Fontaine progeroid syndrome                                                                  |
-| DOID:0051070 | Meier-Gorlin syndrome 10                                                                     |
-| DOID:0051069 | Meier-Gorlin syndrome 9                                                                      |
-| DOID:0061277 | Senior-Loken syndrome 1                                                                      |
-| DOID:0061278 | Senior-Loken syndrome 4                                                                      |
-| DOID:0061279 | Senior-Loken syndrome 5                                                                      |
-| DOID:0061280 | Senior-Loken syndrome 6                                                                      |
-| DOID:0061281 | Senior-Loken syndrome 7                                                                      |
-| DOID:0061282 | Senior-Loken syndrome 8                                                                      |
-| DOID:0061283 | Senior-Loken syndrome 9                                                                      |
-| DOID:0050457 | Sertoli cell-only syndrome                                                                   |
-| DOID:0061273 | Weill-Marchesani syndrome 1                                                                  |
-| DOID:0061274 | Weill-Marchesani syndrome 2                                                                  |
-| DOID:0061275 | Weill-Marchesani syndrome 3                                                                  |
-| DOID:0061276 | Weill-Marchesani syndrome 4                                                                  |
-| DOID:0051075 | aggressive periodontitis 2                                                                   |
-| DOID:2934    | aleutian mink disease                                                                        |
-| DOID:0070671 | autosomal recessive nonsyndromic deafness 117                                                |
-| DOID:0070672 | autosomal recessive nonsyndromic deafness 118                                                |
-| DOID:0070673 | autosomal recessive nonsyndromic deafness 119                                                |
-| DOID:0070674 | autosomal recessive nonsyndromic deafness 120                                                |
-| DOID:0070675 | autosomal recessive nonsyndromic deafness 121                                                |
-| DOID:0070669 | autosomal recessive nonsyndromic deafness 122                                                |
-| DOID:0070670 | autosomal recessive nonsyndromic deafness 123                                                |
-| DOID:0070676 | autosomal recessive nonsyndromic deafness 124                                                |
-| DOID:0060854 | autosomal recessive pseudohypoaldosteronism type 1                                           |
-| DOID:5154    | borna disease                                                                                |
-| DOID:0070648 | cherubism                                                                                    |
-| DOID:0070649 | cherubism 2                                                                                  |
-| DOID:0060160 | childhood spinal muscular atrophy                                                            |
-| DOID:0111368 | cholesterol-ester transfer protein deficiency                                                |
-| DOID:2536    | chronic inflammatory demyelinating polyneuritis                                              |
-| DOID:0070678 | congenital hypomyelinating neuropathy                                                        |
-| DOID:0070679 | congenital hypomyelinating neuropathy 2                                                      |
-| DOID:0070680 | congenital hypomyelinating neuropathy 3                                                      |
-| DOID:0061256 | congenital myopathy 25                                                                       |
-| DOID:0061257 | congenital myopathy 26                                                                       |
-| DOID:0061258 | congenital myopathy 27                                                                       |
-| DOID:0061259 | congenital myopathy 28                                                                       |
-| DOID:0061260 | congenital myopathy 29                                                                       |
-| DOID:0051077 | diethylstilbestrol syndrome                                                                  |
-| DOID:0051073 | dilated cardiomyopathy 3C                                                                    |
-| DOID:0051068 | early-onset obesity, adrenal insufficiency, and red hair                                     |
-| DOID:0061247 | familial hyperaldosteronism                                                                  |
-| DOID:0061249 | familial hyperaldosteronism II                                                               |
-| DOID:0061248 | familial hyperaldosteronism III                                                              |
-| DOID:0061250 | familial hyperaldosteronism IV                                                               |
-| DOID:0070656 | hamartoma syndrome                                                                           |
-| DOID:0061212 | hypocholesteremia                                                                            |
-| DOID:0061254 | intellectual developmental disorder with seizures and dysmorphic facies                      |
-| DOID:0061266 | lethal congenital contracture syndrome 10                                                    |
-| DOID:0061267 | lethal congenital contracture syndrome 11                                                    |
-| DOID:0061268 | lethal congenital contracture syndrome 12                                                    |
-| DOID:0061261 | lethal congenital contracture syndrome 5                                                     |
-| DOID:0061262 | lethal congenital contracture syndrome 6                                                     |
-| DOID:0061263 | lethal congenital contracture syndrome 7                                                     |
-| DOID:0061264 | lethal congenital contracture syndrome 8                                                     |
-| DOID:0061265 | lethal congenital contracture syndrome 9                                                     |
-| DOID:0051072 | neurodegenerative disorder with cerebellar and caudate atrophy                               |
-| DOID:0061252 | neurodevelopmental disorder with hypotonia, epilepsy, and absent speech                      |
-| DOID:0051076 | neurodevelopmental disorder with parkinsonism or other movement abnormalities                |
-| DOID:0051071 | neurodevelopmental disorder with seizures and impaired intellectual and language development |
-| DOID:0061253 | neurodevelopmental disorder with speech delay, movement abnormalities, and seizures          |
-| DOID:146     | papilledema                                                                                  |
-| DOID:0061269 | periventricular nodular heterotopia 6                                                        |
-| DOID:0061270 | periventricular nodular heterotopia 7                                                        |
-| DOID:0051074 | primary autosomal recessive microcephaly 31                                                  |
-| DOID:0061195 | proximal renal tubular acidosis-ocular anomaly syndrome                                      |
-| DOID:0061255 | spondylocostal dysostosis 7                                                                  |
-| DOID:0061213 | telomere biology disorder                                                                    |
+| subject_id   | subject_label                                      |
+|:-------------|:---------------------------------------------------|
+| DOID:0050457 | Sertoli cell-only syndrome                         |
+| DOID:2934    | aleutian mink disease                              |
+| DOID:0060854 | autosomal recessive pseudohypoaldosteronism type 1 |
+| DOID:5154    | borna disease                                      |
+| DOID:0070648 | cherubism                                          |
+| DOID:0070649 | cherubism 2                                        |
+| DOID:0060160 | childhood spinal muscular atrophy                  |
+| DOID:0111368 | cholesterol-ester transfer protein deficiency      |
+| DOID:2536    | chronic inflammatory demyelinating polyneuritis    |
+| DOID:0070656 | hamartoma syndrome                                 |
+| DOID:0061212 | hypocholesteremia                                  |
+| DOID:146     | papilledema                                        |
+| DOID:0061213 | telomere biology disorder                          |

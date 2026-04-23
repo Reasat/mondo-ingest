@@ -19137,7 +19137,6 @@ OMIM:180670	MONDO:excludeNonDisease
 OMIM:180680	MONDO:excludeNonDisease
 OMIM:180690	MONDO:excludeNonDisease
 OMIM:180691	MONDO:excludeNonDisease
-OMIM:180692	MONDO:excludeNonDisease
 OMIM:180710	MONDO:excludeNonDisease
 OMIM:180740	MONDO:excludeNonDisease
 OMIM:180910	MONDO:excludeNonDisease
@@ -20704,7 +20703,6 @@ OMIM:601673	MONDO:excludeNonDisease
 OMIM:601674	MONDO:excludeNonDisease
 OMIM:601677	MONDO:excludeNonDisease
 OMIM:601679	MONDO:excludeNonDisease
-OMIM:601681	MONDO:excludeNonDisease
 OMIM:601684	MONDO:excludeNonDisease
 OMIM:601685	MONDO:excludeNonDisease
 OMIM:601686	MONDO:excludeNonDisease
@@ -28842,7 +28840,6 @@ OMIM:617473	MONDO:excludeNonDisease
 OMIM:617474	MONDO:excludeNonDisease
 OMIM:617476	MONDO:excludeNonDisease
 OMIM:617477	MONDO:excludeNonDisease
-OMIM:617479	MONDO:excludeNonDisease
 OMIM:617482	MONDO:excludeNonDisease
 OMIM:617483	MONDO:excludeNonDisease
 OMIM:617484	MONDO:excludeNonDisease
@@ -29968,7 +29965,6 @@ OMIM:620134	MONDO:excludeNonDisease
 OMIM:620136	MONDO:excludeNonDisease
 OMIM:620140	MONDO:excludeNonDisease
 OMIM:620143	MONDO:excludeNonDisease
-OMIM:620144	MONDO:excludeNonDisease
 OMIM:620146	MONDO:excludeNonDisease
 OMIM:620147	MONDO:excludeNonDisease
 OMIM:620159	MONDO:excludeNonDisease
@@ -30737,10 +30733,7 @@ OMIM:621483	MONDO:excludeNonDisease
 OMIM:621484	MONDO:excludeNonDisease
 OMIM:621486	MONDO:excludeNonDisease
 OMIM:621489	MONDO:excludeNonDisease
-OMIM:621491	MONDO:excludeNonDisease
 OMIM:621492	MONDO:excludeNonDisease
-OMIM:621493	MONDO:excludeNonDisease
-OMIM:621494	MONDO:excludeNonDisease
 OMIM:621496	MONDO:excludeNonDisease
 OMIM:621497	MONDO:excludeNonDisease
 OMIM:621498	MONDO:excludeNonDisease
@@ -30773,7 +30766,6 @@ OMIM:621538	MONDO:excludeNonDisease
 OMIM:621540	MONDO:excludeNonDisease
 OMIM:621541	MONDO:excludeNonDisease
 OMIM:621542	MONDO:excludeNonDisease
-OMIM:621543	MONDO:excludeNonDisease
 OMIM:621544	MONDO:excludeNonDisease
 OMIM:621545	MONDO:excludeNonDisease
 OMIM:621546	MONDO:excludeNonDisease

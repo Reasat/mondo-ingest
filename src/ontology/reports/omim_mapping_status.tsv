@@ -1,14 +1,15 @@
 subject_id	subject_label	is_mapped	is_excluded	is_deprecated
+OMIM:301164	neurodevelopmental disorder, x-linked, with poor or absent speech and behavioral abnormalities	False	False	False
 OMIM:621426	drug metabolism, altered, cyp2a6-related	False	False	False
-OMIM:621510	congenital myopathy 29 with contractures	False	False	False
-OMIM:621511	lethal congenital contracture syndrome 12	False	False	False
-OMIM:621528	meier-gorlin syndrome 10	False	False	False
-OMIM:621533	neurodevelopmental disorder with seizures and impaired intellectual and language development	False	False	False
-OMIM:621535	spinocerebellar ataxia 52	False	False	False
-OMIM:621539	ebstein-bezieau neurodevelopmental syndrome	False	False	False
-OMIM:621548	retinitis pigmentosa 101	False	False	False
-OMIM:621552	luo-agrawal neurodevelopmental syndrome	False	False	False
-OMIM:621556	deafness, autosomal dominant 91	False	False	False
+OMIM:621558	retinal dystrophy, zeitz-han type	False	False	False
+OMIM:621559	dentin dysplasia, type 1c	False	False	False
+OMIM:621560	retinitis pigmentosa 102	False	False	False
+OMIM:621561	retinitis pigmentosa 103	False	False	False
+OMIM:621562	retinitis pigmentosa 104	False	False	False
+OMIM:621563	retinitis pigmentosa 105	False	False	False
+OMIM:621564	retinitis pigmentosa 106	False	False	False
+OMIM:621565	yu-kury neurodevelopmental syndrome	False	False	False
+OMIM:621566	davis-wells syndrome	False	False	False
 OMIM:100500		False	False	True
 OMIM:100680		False	False	True
 OMIM:100735		False	False	True
@@ -27881,9 +27882,18 @@ OMIM:621500	epilepsy, idiopathic generalized 20	True	False	False
 OMIM:621502	dystonia 38, susceptibility to	True	False	False
 OMIM:621506	neurodevelopmental disorder with parkinsonism or other movement abnormalities	True	False	False
 OMIM:621507	microcephaly 31, primary, autosomal recessive	True	False	False
+OMIM:621510	congenital myopathy 29 with contractures	True	False	False
+OMIM:621511	lethal congenital contracture syndrome 12	True	False	False
 OMIM:621512	meier-gorlin syndrome 9	True	False	False
 OMIM:621523	spondylocostal dysostosis 7, autosomal recessive	True	False	False
 OMIM:621525	neurodegenerative disorder with cerebellar and caudate atrophy	True	False	False
+OMIM:621528	meier-gorlin syndrome 10	True	False	False
+OMIM:621533	neurodevelopmental disorder with seizures and impaired intellectual and language development	True	False	False
+OMIM:621535	spinocerebellar ataxia 52	True	False	False
+OMIM:621539	ebstein-bezieau neurodevelopmental syndrome	True	False	False
+OMIM:621548	retinitis pigmentosa 101	True	False	False
+OMIM:621552	luo-agrawal neurodevelopmental syndrome	True	False	False
+OMIM:621556	deafness, autosomal dominant 91	True	False	False
 OMIMPS:100070	Aortic aneurysm, familial abdominal	True	False	False
 OMIMPS:100300	Adams-Oliver syndrome	True	False	False
 OMIMPS:101800	Acrodysostosis	True	False	False

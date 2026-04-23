@@ -1,12 +1,2 @@
 subject_id	subject_label	object_id	predicate_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string
 ID		A oboInOwl:hasDbXref	>A oboInOwl:source							
-MONDO:0002224	malignant ovarian cyst	NCIT:C3843	MONDO:equivalentTo	Malignant Ovarian Cyst	semapv:UnspecifiedMatching		0.5			
-MONDO:0003480	pineal region dysgerminoma	NCIT:C7169	MONDO:equivalentTo	Pineal Region Dysgerminoma	semapv:UnspecifiedMatching		0.5			
-MONDO:0003626	uterine ligament serous adenocarcinoma	NCIT:C40136	MONDO:equivalentTo	Uterine Ligament Serous Adenocarcinoma	semapv:UnspecifiedMatching		0.5			
-MONDO:0004175	mucin-rich endometrial endometrioid adenocarcinoma	NCIT:C8717	MONDO:equivalentTo	Mucin-Rich Endometrial Endometrioid Adenocarcinoma	semapv:UnspecifiedMatching		0.5			
-MONDO:0004182	stage IVb bladder cancer	NCIT:C9368	MONDO:equivalentTo	Stage IVB Bladder Cancer	semapv:UnspecifiedMatching		0.5			
-MONDO:0005644	amebiasis	NCIT:C84551	MONDO:equivalentTo	Amebiasis	semapv:UnspecifiedMatching		0.5			
-MONDO:0006169	complex endometrial hyperplasia	NCIT:C35423	MONDO:equivalentTo	Complex Endometrial Hyperplasia	semapv:UnspecifiedMatching		0.5			
-MONDO:0006410	simple endometrial hyperplasia	NCIT:C35463	MONDO:equivalentTo	Simple Endometrial Hyperplasia	semapv:UnspecifiedMatching		0.5			
-MONDO:0006886	thyroid gland papillary and follicular carcinoma	NCIT:C7380	MONDO:equivalentTo	Thyroid Gland Papillary and Follicular Carcinoma	semapv:UnspecifiedMatching		0.5			
-MONDO:0008038	ataxia-pancytopenia syndrome	NCIT:C176909	MONDO:equivalentTo	Ataxia-Pancytopenia Syndrome	semapv:UnspecifiedMatching		0.5			

@@ -1,71 +1,12 @@
 subject_id	subject_label	is_mapped	is_excluded	is_deprecated
 DOID:0050457	Sertoli cell-only syndrome	False	False	False
-DOID:0051067	Fontaine progeroid syndrome	False	False	False
-DOID:0051068	early-onset obesity, adrenal insufficiency, and red hair	False	False	False
-DOID:0051069	Meier-Gorlin syndrome 9	False	False	False
-DOID:0051070	Meier-Gorlin syndrome 10	False	False	False
-DOID:0051071	neurodevelopmental disorder with seizures and impaired intellectual and language development	False	False	False
-DOID:0051072	neurodegenerative disorder with cerebellar and caudate atrophy	False	False	False
-DOID:0051073	dilated cardiomyopathy 3C	False	False	False
-DOID:0051074	primary autosomal recessive microcephaly 31	False	False	False
-DOID:0051075	aggressive periodontitis 2	False	False	False
-DOID:0051076	neurodevelopmental disorder with parkinsonism or other movement abnormalities	False	False	False
-DOID:0051077	diethylstilbestrol syndrome	False	False	False
 DOID:0060160	childhood spinal muscular atrophy	False	False	False
 DOID:0060854	autosomal recessive pseudohypoaldosteronism type 1	False	False	False
-DOID:0061195	proximal renal tubular acidosis-ocular anomaly syndrome	False	False	False
 DOID:0061212	hypocholesteremia	False	False	False
 DOID:0061213	telomere biology disorder	False	False	False
-DOID:0061247	familial hyperaldosteronism	False	False	False
-DOID:0061248	familial hyperaldosteronism III	False	False	False
-DOID:0061249	familial hyperaldosteronism II	False	False	False
-DOID:0061250	familial hyperaldosteronism IV	False	False	False
-DOID:0061251	Charcot-Marie-Tooth disease type 2KK	False	False	False
-DOID:0061252	neurodevelopmental disorder with hypotonia, epilepsy, and absent speech	False	False	False
-DOID:0061253	neurodevelopmental disorder with speech delay, movement abnormalities, and seizures	False	False	False
-DOID:0061254	intellectual developmental disorder with seizures and dysmorphic facies	False	False	False
-DOID:0061255	spondylocostal dysostosis 7	False	False	False
-DOID:0061256	congenital myopathy 25	False	False	False
-DOID:0061257	congenital myopathy 26	False	False	False
-DOID:0061258	congenital myopathy 27	False	False	False
-DOID:0061259	congenital myopathy 28	False	False	False
-DOID:0061260	congenital myopathy 29	False	False	False
-DOID:0061261	lethal congenital contracture syndrome 5	False	False	False
-DOID:0061262	lethal congenital contracture syndrome 6	False	False	False
-DOID:0061263	lethal congenital contracture syndrome 7	False	False	False
-DOID:0061264	lethal congenital contracture syndrome 8	False	False	False
-DOID:0061265	lethal congenital contracture syndrome 9	False	False	False
-DOID:0061266	lethal congenital contracture syndrome 10	False	False	False
-DOID:0061267	lethal congenital contracture syndrome 11	False	False	False
-DOID:0061268	lethal congenital contracture syndrome 12	False	False	False
-DOID:0061269	periventricular nodular heterotopia 6	False	False	False
-DOID:0061270	periventricular nodular heterotopia 7	False	False	False
-DOID:0061273	Weill-Marchesani syndrome 1	False	False	False
-DOID:0061274	Weill-Marchesani syndrome 2	False	False	False
-DOID:0061275	Weill-Marchesani syndrome 3	False	False	False
-DOID:0061276	Weill-Marchesani syndrome 4	False	False	False
-DOID:0061277	Senior-Loken syndrome 1	False	False	False
-DOID:0061278	Senior-Loken syndrome 4	False	False	False
-DOID:0061279	Senior-Loken syndrome 5	False	False	False
-DOID:0061280	Senior-Loken syndrome 6	False	False	False
-DOID:0061281	Senior-Loken syndrome 7	False	False	False
-DOID:0061282	Senior-Loken syndrome 8	False	False	False
-DOID:0061283	Senior-Loken syndrome 9	False	False	False
 DOID:0070648	cherubism	False	False	False
 DOID:0070649	cherubism 2	False	False	False
 DOID:0070656	hamartoma syndrome	False	False	False
-DOID:0070669	autosomal recessive nonsyndromic deafness 122	False	False	False
-DOID:0070670	autosomal recessive nonsyndromic deafness 123	False	False	False
-DOID:0070671	autosomal recessive nonsyndromic deafness 117	False	False	False
-DOID:0070672	autosomal recessive nonsyndromic deafness 118	False	False	False
-DOID:0070673	autosomal recessive nonsyndromic deafness 119	False	False	False
-DOID:0070674	autosomal recessive nonsyndromic deafness 120	False	False	False
-DOID:0070675	autosomal recessive nonsyndromic deafness 121	False	False	False
-DOID:0070676	autosomal recessive nonsyndromic deafness 124	False	False	False
-DOID:0070677	Ferguson-Bonni neurodevelopmental syndrome	False	False	False
-DOID:0070678	congenital hypomyelinating neuropathy	False	False	False
-DOID:0070679	congenital hypomyelinating neuropathy 2	False	False	False
-DOID:0070680	congenital hypomyelinating neuropathy 3	False	False	False
 DOID:0111368	cholesterol-ester transfer protein deficiency	False	False	False
 DOID:146	papilledema	False	False	False
 DOID:2536	chronic inflammatory demyelinating polyneuritis	False	False	False
@@ -3388,6 +3329,17 @@ DOID:0051063	hemorrhagic stroke	True	False	False
 DOID:0051064	left ventricular failure	True	False	False
 DOID:0051065	chronic pancreatitis	True	False	False
 DOID:0051066	arterionephrosclerosis	True	False	False
+DOID:0051067	Fontaine progeroid syndrome	True	False	False
+DOID:0051068	early-onset obesity, adrenal insufficiency, and red hair	True	False	False
+DOID:0051069	Meier-Gorlin syndrome 9	True	False	False
+DOID:0051070	Meier-Gorlin syndrome 10	True	False	False
+DOID:0051071	neurodevelopmental disorder with seizures and impaired intellectual and language development	True	False	False
+DOID:0051072	neurodegenerative disorder with cerebellar and caudate atrophy	True	False	False
+DOID:0051073	dilated cardiomyopathy 3C	True	False	False
+DOID:0051074	primary autosomal recessive microcephaly 31	True	False	False
+DOID:0051075	aggressive periodontitis 2	True	False	False
+DOID:0051076	neurodevelopmental disorder with parkinsonism or other movement abnormalities	True	False	False
+DOID:0051077	diethylstilbestrol syndrome	True	False	False
 DOID:0060000	infective endocarditis	True	False	False
 DOID:0060001	withdrawal disorder	True	False	False
 DOID:0060002	C1 inhibitor deficiency	True	False	False
@@ -4440,6 +4392,7 @@ DOID:0061191	neonatal nephrocutaneous inflammatory syndrome	True	False	False
 DOID:0061192	neonatal inflammatory skin and bowel disease 1	True	False	False
 DOID:0061193	nephrotic syndrome type 26	True	False	False
 DOID:0061194	nephrotic syndrome type 24	True	False	False
+DOID:0061195	proximal renal tubular acidosis-ocular anomaly syndrome	True	False	False
 DOID:0061196	Mietens syndrome	True	False	False
 DOID:0061197	BCARD syndrome	True	False	False
 DOID:0061198	Bethlem myopathy 1A	True	False	False
@@ -4487,6 +4440,41 @@ DOID:0061243	glucocorticoid deficiency 4 with or without mineralocorticoid defic
 DOID:0061244	glucocorticoid deficiency 5	True	False	False
 DOID:0061245	periventricular nodular heterotopia 8	True	False	False
 DOID:0061246	periventricular nodular heterotopia 9	True	False	False
+DOID:0061247	familial hyperaldosteronism	True	False	False
+DOID:0061248	familial hyperaldosteronism III	True	False	False
+DOID:0061249	familial hyperaldosteronism II	True	False	False
+DOID:0061250	familial hyperaldosteronism IV	True	False	False
+DOID:0061251	Charcot-Marie-Tooth disease type 2KK	True	False	False
+DOID:0061252	neurodevelopmental disorder with hypotonia, epilepsy, and absent speech	True	False	False
+DOID:0061253	neurodevelopmental disorder with speech delay, movement abnormalities, and seizures	True	False	False
+DOID:0061254	intellectual developmental disorder with seizures and dysmorphic facies	True	False	False
+DOID:0061255	spondylocostal dysostosis 7	True	False	False
+DOID:0061256	congenital myopathy 25	True	False	False
+DOID:0061257	congenital myopathy 26	True	False	False
+DOID:0061258	congenital myopathy 27	True	False	False
+DOID:0061259	congenital myopathy 28	True	False	False
+DOID:0061260	congenital myopathy 29	True	False	False
+DOID:0061261	lethal congenital contracture syndrome 5	True	False	False
+DOID:0061262	lethal congenital contracture syndrome 6	True	False	False
+DOID:0061263	lethal congenital contracture syndrome 7	True	False	False
+DOID:0061264	lethal congenital contracture syndrome 8	True	False	False
+DOID:0061265	lethal congenital contracture syndrome 9	True	False	False
+DOID:0061266	lethal congenital contracture syndrome 10	True	False	False
+DOID:0061267	lethal congenital contracture syndrome 11	True	False	False
+DOID:0061268	lethal congenital contracture syndrome 12	True	False	False
+DOID:0061269	periventricular nodular heterotopia 6	True	False	False
+DOID:0061270	periventricular nodular heterotopia 7	True	False	False
+DOID:0061273	Weill-Marchesani syndrome 1	True	False	False
+DOID:0061274	Weill-Marchesani syndrome 2	True	False	False
+DOID:0061275	Weill-Marchesani syndrome 3	True	False	False
+DOID:0061276	Weill-Marchesani syndrome 4	True	False	False
+DOID:0061277	Senior-Loken syndrome 1	True	False	False
+DOID:0061278	Senior-Loken syndrome 4	True	False	False
+DOID:0061279	Senior-Loken syndrome 5	True	False	False
+DOID:0061280	Senior-Loken syndrome 6	True	False	False
+DOID:0061281	Senior-Loken syndrome 7	True	False	False
+DOID:0061282	Senior-Loken syndrome 8	True	False	False
+DOID:0061283	Senior-Loken syndrome 9	True	False	False
 DOID:0070000	3-methylglutaconic aciduria type 8	True	False	False
 DOID:0070002	3-methylglutaconic aciduria type 9	True	False	False
 DOID:0070003	blastoma	True	False	False
@@ -5135,6 +5123,18 @@ DOID:0070665	lipofibromatosis	True	False	False
 DOID:0070666	infantile myofibromatosis 1	True	False	False
 DOID:0070667	infantile myofibromatosis 2	True	False	False
 DOID:0070668	Snijders Blok-Campeau syndrome	True	False	False
+DOID:0070669	autosomal recessive nonsyndromic deafness 122	True	False	False
+DOID:0070670	autosomal recessive nonsyndromic deafness 123	True	False	False
+DOID:0070671	autosomal recessive nonsyndromic deafness 117	True	False	False
+DOID:0070672	autosomal recessive nonsyndromic deafness 118	True	False	False
+DOID:0070673	autosomal recessive nonsyndromic deafness 119	True	False	False
+DOID:0070674	autosomal recessive nonsyndromic deafness 120	True	False	False
+DOID:0070675	autosomal recessive nonsyndromic deafness 121	True	False	False
+DOID:0070676	autosomal recessive nonsyndromic deafness 124	True	False	False
+DOID:0070677	Ferguson-Bonni neurodevelopmental syndrome	True	False	False
+DOID:0070678	congenital hypomyelinating neuropathy	True	False	False
+DOID:0070679	congenital hypomyelinating neuropathy 2	True	False	False
+DOID:0070680	congenital hypomyelinating neuropathy 3	True	False	False
 DOID:0080000	muscular disease	True	False	False
 DOID:0080001	bone disease	True	False	False
 DOID:0080005	bone remodeling disease	True	False	False
