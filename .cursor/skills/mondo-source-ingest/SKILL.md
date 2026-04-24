@@ -745,7 +745,7 @@ just data2owl
 
 Tell the user: the derived OWL is for OWL-native consumers only. `<source>.linkml.yaml` is the primary contract. Known limitation: `linkml-owl` emits OWL Functional format; ROBOT may not load it cleanly in all cases. If it fails on large datasets (rdflib N3 parser error), document this in `docs/pipeline_incidents.md` and release `<source>.linkml.yaml` only.
 
-**After `data2owl` succeeds:** run **`just reports`** (or equivalent) so **`reports/`** is populated from the derived OWL (`robot measure` + optional SPARQL). Wire it into CI/release alongside `verify`. If you skip OWL entirely (YAML-only release), skip `reports/` too — see **`reports/` folder** in Phase 2.
+**After `data2owl` succeeds:** run **`just reports`** (or equivalent) so **`reports/`** is populated from the derived OWL (`robot measure` + optional SPARQL). Wire that into **CI** (e.g. `build.yml` artifacts or committed metrics) alongside `verify` — **not** into GitHub Release uploads; release assets stay YAML + OWL only (Phase 8 table). If you skip OWL entirely (YAML-only release), skip `reports/` too — see **`reports/` folder** in Phase 2.
 
 ---
 
@@ -795,7 +795,7 @@ jobs:
 
       - name: Set release tag
         id: version
-        run: echo "tag=v$(date +%Y%m%d)-${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+        run: echo "tag=v$(date +%Y%m%d)" >> "$GITHUB_OUTPUT"
 
       - name: Create release and upload assets
         if: success() && hashFiles('<source>.yaml') != ''
@@ -818,6 +818,8 @@ Substitute the actual output filenames. Released artefacts differ by source type
 |---|---|---|
 | OWL | `<source>.yaml` | `<source>.owl` (final LinkML-derived OWL, top-level) |
 | Non-OWL | `<source>.linkml.yaml` | `<source>.linkml.owl` (linkml-owl derived) |
+
+**GitHub Release assets (`action-gh-release` `files`):** upload **only** the YAML and OWL from the table above. Do **not** attach `reports/*` (or other QC) as release assets — keep `reports/` in-repo (committed or regenerated in CI) and/or as **workflow artifacts** in `build.yml`, not as downloadable release files.
 
 Note: for OWL sources, the ROBOT-preprocessed intermediate (`tmp/transformed-<source>.owl`) is not released — it lives in `tmp/` which is gitignored.
 
