@@ -1326,7 +1326,7 @@ MONDO:0009095	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:1657	d
 MONDO:0009099	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:3145	nephrogenic diabetes insipidus-intracranial calcification syndrome	Arginine vasopressin resistance-intracranial calcification-short stature-facial dysmorphism syndrome
 MONDO:0009104	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:2143	Donnai-Barrow syndrome	Donnai-Barrow syndrome
 MONDO:0009105	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:84064	trichohepatoenteric syndrome	Syndromic diarrhea
-MONDO:0009106	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:1671	diastematomyelia	Split cord malformation type I
+MONDO:0009106	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:573278	diastematomyelia	Split cord malformation
 MONDO:0009107	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:628	diastrophic dysplasia	Diastrophic dysplasia
 MONDO:0009109	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:470	lysinuric protein intolerance	Lysinuric protein intolerance
 MONDO:0009110	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:2195	dicarboxylic aminoaciduria	Dicarboxylic aminoaciduria
@@ -2707,7 +2707,7 @@ MONDO:0011988	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:183707
 MONDO:0011989	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:507	leishmaniasis	Leishmaniasis
 MONDO:0011992	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:101005	hereditary spastic paraplegia 25	Autosomal recessive spastic paraplegia type 25
 MONDO:0011995	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:314993	cataract - congenital heart disease - neural tube defect syndrome	Cataract-congenital heart disease-neural tube defect syndrome
-MONDO:0011996	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:521	chronic myelogenous leukemia, BCR-ABL1 positive	Chronic myeloid leukemia
+MONDO:0011996	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:521	chronic myeloid leukemia	Chronic myeloid leukemia
 MONDO:0011997	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:183678	Hermansky-Pudlak syndrome 2	Hermansky-Pudlak syndrome due to AP-3 deficiency
 MONDO:0011997	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:664500	Hermansky-Pudlak syndrome 2	Hermansky-Pudlak syndrome due to AP3B1 deficiency
 MONDO:0011998	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:140481	autosomal dominant slowed nerve conduction velocity	Autosomal dominant slowed nerve conduction velocity
@@ -7796,7 +7796,6 @@ MONDO:0019831	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orpha
 MONDO:0019832	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:95502	acquired pituitary hormone deficiency	Acquired pituitary hormone deficiency
 MONDO:0019833	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:95503	obsolete pituitary hormone deficiency from tumoral origin	Pituitary hormone deficiency of tumoral origin
 MONDO:0019834	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:95505	obsolete pituitary hormone deficiency from meningeal origin	Pituitary hormone deficiency of meningeal origin
-MONDO:0019835	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:95506	primary hypophysitis	Primary hypophysitis
 MONDO:0019836	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:95507	congenital anomaly of hepatic vein	Congenital anomaly of hepatic vein
 MONDO:0019837	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:95510	obsolete atrial appendage anomaly	Atrial appendage anomaly
 MONDO:0019838	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:95512	adenohypophysitis	Adenohypophysitis
@@ -8827,8 +8826,6 @@ MONDO:0035524	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Or
 MONDO:0035525	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:572361	blepharophimosis-ptosis-epicanthus inversus syndrome type 2	Blepharophimosis-ptosis-epicanthus inversus syndrome type 2
 MONDO:0035534	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:572761	DONSON-related microcephaly-short stature-limb abnormalities spectrum	DONSON-related microcephaly-short stature-limb abnormalities spectrum
 MONDO:0035540	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:573163	pheochromocytoma-paraganglioma	Pheochromocytoma-paraganglioma
-MONDO:0035541	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:573253	obsolete split cord malformation type II	Split cord malformation type II
-MONDO:0035542	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:573278	obsolete split cord malformation	Split cord malformation
 MONDO:0035548	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:574957	autosomal recessive mendelian susceptibility to mycobacterial diseases due to partial jak1 deficiency	Mendelian susceptibility to mycobacterial diseases due to partial JAK1 deficiency
 MONDO:0035551	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:575553	cathepsin a-related arteriopathy-strokes-leukoencephalopathy	Cathepsin A-related arteriopathy-strokes-leukoencephalopathy
 MONDO:0035554	http://purl.obolibrary.org/obo/mondo#ordo_subtype_of_a_disorder	Orphanet:576227	obsolete complete atrioventricular septal defect without ventricular hypoplasia	Complete atrioventricular septal defect without ventricular hypoplasia
@@ -9581,6 +9578,9 @@ MONDO:1040032	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:611223
 MONDO:1040033	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:370980	congenital muscular dystrophy without intellectual disability	Congenital muscular dystrophy without intellectual disability
 MONDO:1060108	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:438213	PURA-related severe neonatal hypotonia-seizures-encephalopathy syndrome	PURA-related severe neonatal hypotonia-seizures-encephalopathy syndrome
 MONDO:1060125	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:700286	congenital high airway obstruction syndrome	Congenital high airway obstruction syndrome
+MONDO:1060220	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:1671	split cord malformation type I	Split cord malformation type I
+MONDO:1060221	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:573253	split cord malformation type II	Split cord malformation type II
+MONDO:1060222	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:633076	split cord malformation, composite type	Split cord malformation, composite type
 MONDO:8000006	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:51636	WHIM syndrome 1	WHIM syndrome
 MONDO:8000008	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:1387	Martsolf syndrome 1	Cataract-intellectual disability-hypogonadism syndrome
 MONDO:8000010	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:80	antiphospholipid syndrome	Antiphospholipid syndrome

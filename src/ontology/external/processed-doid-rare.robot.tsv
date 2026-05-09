@@ -513,7 +513,7 @@ MONDO:0007077	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0090002	Tietz 
 MONDO:0007078	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080053	pseudohypoparathyroidism type 1A	pseudohypoparathyroidism type 1A
 MONDO:0007080	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:14080	glucocorticoid-remediable aldosteronism	glucocorticoid-remediable aldosteronism
 MONDO:0007083	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111244	autosomal dominant palmoplantar keratoderma and congenital alopecia	palmoplantar keratoderma and congenital alopecia 1
-MONDO:0007086	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110032	autosomal dominant Alport syndrome	autosomal dominant Alport syndrome 3A
+MONDO:0007086	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110032	autosomal dominant Alport syndrome	Alport syndrome 3A
 MONDO:0007097	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0050637	Finnish type amyloidosis	Finnish type amyloidosis
 MONDO:0007099	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0050636	familial visceral amyloidosis	hereditary systemic amyloidosis 2
 MONDO:0007100	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0050638	familial amyloid neuropathy	hereditary systemic amyloidosis 1
@@ -625,10 +625,10 @@ MONDO:0007540	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:10017	multiple
 MONDO:0007542	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:4997	Camurati-Engelmann disease	Camurati-Engelmann disease
 MONDO:0007548	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111345	transient bullous dermolysis of the newborn	transient bullous dermolysis of the newborn
 MONDO:0007549	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080224	generalized dominant dystrophic epidermolysis bullosa	autosomal dominant dystrophic epidermolysis bullosa
-MONDO:0007550	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060735	epidermolysis bullosa simplex 1A, generalized severe	epidermolysis bullosa simplex Dowling-Meara type
+MONDO:0007550	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060735	epidermolysis bullosa simplex 1A, generalized severe	generalized severe epidermolysis bullosa simplex 1A
 MONDO:0007552	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080988	pretibial dystrophic epidermolysis bullosa	pretibial dystrophic epidermolysis bullosa
-MONDO:0007555	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060736	epidermolysis bullosa simplex 5A, Ogna type	epidermolysis bullosa simplex Ogna type
-MONDO:0007556	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111346	epidermolysis bullosa simplex 2F, with mottled pigmentation	epidermolysis bullosa simplex with mottled pigmentation
+MONDO:0007555	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060736	epidermolysis bullosa simplex 5A, Ogna type	epidermolysis bullosa simplex 5A Ogna type
+MONDO:0007556	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111346	epidermolysis bullosa simplex 2F, with mottled pigmentation	epidermolysis bullosa simplex 2F with mottled pigmentation
 MONDO:0007561	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070303	multiple epiphyseal dysplasia type 1	multiple epiphyseal dysplasia 1
 MONDO:0007562	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111348	multiple epiphyseal dysplasia, Beighton type	multiple epiphyseal dysplasia with myopia and deafness
 MONDO:0007564	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:5374	pilomatrixoma	pilomatrixoma
@@ -936,7 +936,7 @@ MONDO:0008757	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0050634	alopec
 MONDO:0008758	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080122	mitochondrial DNA depletion syndrome 4a	Alpers-Huttenlocher syndrome
 MONDO:0008759	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0081326	oxoglutaricaciduria	oxoglutarate dehydrogenase deficiency
 MONDO:0008760	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:14723	beta-ketothiolase deficiency	beta-ketothiolase deficiency
-MONDO:0008762	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110033	autosomal recessive Alport syndrome	autosomal recessive Alport syndrome
+MONDO:0008762	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110033	autosomal recessive Alport syndrome	Alport syndrome 2
 MONDO:0008767	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110731	neuronal ceroid lipofuscinosis 3	neuronal ceroid lipofuscinosis 3
 MONDO:0008768	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110730	ceroid lipofuscinosis, neuronal, 6B (Kufs type)	neuronal ceroid lipofuscinosis 6B
 MONDO:0008769	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110726	neuronal ceroid lipofuscinosis 2	neuronal ceroid lipofuscinosis 2
@@ -1260,6 +1260,7 @@ MONDO:0009744	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110721	neuron
 MONDO:0009745	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110728	neuronal ceroid lipofuscinosis 5	neuronal ceroid lipofuscinosis 5
 MONDO:0009746	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070146	hereditary sensory and autonomic neuropathy type 4	congenital insensitivity to pain with anhidrosis
 MONDO:0009747	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080125	mitochondrial DNA depletion syndrome 6 (hepatocerebral type)	mitochondrial DNA depletion syndrome 6
+MONDO:0009748	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0061188	hereditary sensory and autonomic neuropathy with spastic paraplegia	autosomal recessive sensory neuropathy with spastic paraplegia
 MONDO:0009749	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0090068	giant axonal neuropathy 1	giant axonal neuropathy 1
 MONDO:0009756	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070111	Niemann-Pick disease type A	Niemann-Pick disease type A
 MONDO:0009757	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070113	Niemann-Pick disease, type C1	Niemann-Pick disease type C1
@@ -1361,6 +1362,7 @@ MONDO:0010046	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110774	heredi
 MONDO:0010047	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110810	hereditary spastic paraplegia 5A	hereditary spastic paraplegia 5A
 MONDO:0010056	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0050529	spinal muscular atrophy, type IV	adult spinal muscular atrophy
 MONDO:0010060	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080126	mitochondrial DNA depletion syndrome 7 (hepatocerebral type)	mitochondrial DNA depletion syndrome 7
+MONDO:0010068	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:5684	spondyloepimetaphyseal dysplasia, sponastrime type	spondyloepimetaphyseal dysplasia, Sponastrime type
 MONDO:0010073	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112292	spondyloepiphyseal dysplasia tarda, Kohn type	spondyloepiphyseal dysplasia tarda with impaired intellectual development
 MONDO:0010077	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112196	spondyloepimetaphyseal dysplasia-short limb-abnormal calcification syndrome	spondylometaepiphyseal dysplasia, short limb-hand type
 MONDO:0010078	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112195	spondyloperipheral dysplasia	spondyloperipheral dysplasia
@@ -1399,6 +1401,7 @@ MONDO:0010208	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112171	wrinkl
 MONDO:0010209	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070452	xanthinuria type I	xanthinuria type I
 MONDO:0010214	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110847	xeroderma pigmentosum variant type	xeroderma pigmentosum variant type
 MONDO:0010217	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112158	de Sanctis-Cacchione syndrome	De Sanctis-Cacchione syndrome
+MONDO:0010220	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0061226	Young syndrome	primary ciliary dyskinesia 55
 MONDO:0010221	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112152	CHIME syndrome	CHIME syndrome
 MONDO:0010224	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112151	corpus callosum agenesis-abnormal genitalia syndrome	corpus callosum agenesis-abnormal genitalia syndrome
 MONDO:0010225	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0081453	Dent disease type 1	Dent disease 1
@@ -1496,6 +1499,7 @@ MONDO:0010498	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111865	MEND s
 MONDO:0010499	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060572	Ritscher-Schinzel syndrome 2	Ritscher-Schinzel syndrome 2
 MONDO:0010501	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060817	syndromic X-linked intellectual disability 34	syndromic X-linked intellectual disability 34
 MONDO:0010502	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112025	intellectual disability, X-linked 99, syndromic, female-restricted	female-restricted syndromic X-linked intellectual disability 99
+MONDO:0010504	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112002	immunodeficiency 47	immunodeficiency 47
 MONDO:0010512	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070538	intellectual disability, X-linked, syndromic, Bain type	syndromic X-linked intellectual developmental disorder bain type
 MONDO:0010514	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112001	combined immunodeficiency due to moesin deficiency	immunodeficiency 50
 MONDO:0010519	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110030	alpha thalassemia-X-linked intellectual disability syndrome	alpha thalassemia-X-linked intellectual disability syndrome
@@ -1657,7 +1661,7 @@ MONDO:0011025	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060694	Cayman
 MONDO:0011026	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060712	autosomal recessive congenital ichthyosis 4A	autosomal recessive congenital ichthyosis 4A
 MONDO:0011028	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110280	autosomal recessive limb-girdle muscular dystrophy type 2F	autosomal recessive limb-girdle muscular dystrophy type 2F
 MONDO:0011035	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111683	neurofibromatosis-Noonan syndrome	neurofibromatosis-Noonan syndrome
-MONDO:0011037	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111682	renal dysplasia, cystic, susceptibility to	diffuse cystic renal dysplasia
+MONDO:0011037	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111682	renal dysplasia, cystic, susceptibility to	cystic renal dysplasia
 MONDO:0011045	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111803	MMEP syndrome	syndromic microphthalmia 8
 MONDO:0011053	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0081441	intellectual disability-sparse hair-brachydactyly syndrome	Nicolaides-Baraitser syndrome
 MONDO:0011066	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110191	Charcot-Marie-Tooth disease type 4B1	Charcot-Marie-Tooth disease type 4B1
@@ -1896,7 +1900,7 @@ MONDO:0011985	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060760	hyper-
 MONDO:0011988	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112064	neutrophil immunodeficiency syndrome	immunodeficiency 73a with defective neutrophil chemotaxis and leukocytosis
 MONDO:0011989	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:9065	leishmaniasis	leishmaniasis
 MONDO:0011992	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110776	hereditary spastic paraplegia 25	hereditary spastic paraplegia 25
-MONDO:0011996	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:8552	chronic myelogenous leukemia, BCR-ABL1 positive	chronic myeloid leukemia
+MONDO:0011996	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:8552	chronic myeloid leukemia	chronic myeloid leukemia
 MONDO:0012004	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:1540	parathyroid gland carcinoma	parathyroid carcinoma
 MONDO:0012012	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110199	Charcot-Marie-Tooth disease dominant intermediate C	Charcot-Marie-Tooth disease dominant intermediate C
 MONDO:0012014	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110201	Charcot-Marie-Tooth disease recessive intermediate A	Charcot-Marie-Tooth disease recessive intermediate A
@@ -1932,6 +1936,7 @@ MONDO:0012160	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112300	spondy
 MONDO:0012163	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0090014	immunodeficiency 104	severe combined immunodeficiency 104
 MONDO:0012172	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111277	mitochondrial trifunctional protein deficiency	mitochondrial trifunctional protein deficiency
 MONDO:0012173	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0061186	long chain 3-hydroxyacyl-CoA dehydrogenase deficiency	long chain 3-hydroxyacyl-CoA dehydrogenase deficiency
+MONDO:0012177	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0061157	posterior column ataxia-retinitis pigmentosa syndrome	retinopathy sensory neuropathy syndrome
 MONDO:0012181	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110778	hereditary spastic paraplegia 27	hereditary spastic paraplegia 27
 MONDO:0012184	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060852	Pierson syndrome	Pierson syndrome
 MONDO:0012185	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112301	spondylometaphyseal dysplasia, A4 type	spondylometaphyseal dysplasia type A4
@@ -1971,6 +1976,7 @@ MONDO:0012315	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060390	distal
 MONDO:0012316	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0061224	Majeed syndrome	Majeed syndrome
 MONDO:0012320	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111183	migraine, familial hemiplegic, 3	familial hemiplegic migraine 3
 MONDO:0012334	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110780	hereditary spastic paraplegia 29	hereditary spastic paraplegia 29
+MONDO:0012335	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0051068	obesity due to pro-opiomelanocortin deficiency	early-onset obesity, adrenal insufficiency, and red hair
 MONDO:0012342	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080926	7q11.23 microduplication syndrome	7q11.23 duplication syndrome
 MONDO:0012345	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070521	acral peeling skin syndrome	peeling skin syndrome 2
 MONDO:0012354	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060692	platelet-type bleeding disorder 8	platelet-type bleeding disorder 8
@@ -2026,7 +2032,7 @@ MONDO:0012589	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060488	Pitt-H
 MONDO:0012590	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060590	XFE progeroid syndrome	XFE progeroid syndrome
 MONDO:0012591	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110344	osteogenesis imperfecta type 5	osteogenesis imperfecta type 5
 MONDO:0012603	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0090054	episodic kinesigenic dyskinesia 2	episodic kinesigenic dyskinesia 2
-MONDO:0012604	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060842	isolated microphthalmia 3	isolated microphthalmia 3
+MONDO:0012604	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060842	isolated microphthalmia 3	syndromic microphthalmia 16
 MONDO:0012605	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060837	isolated microphthalmia 5	isolated microphthalmia 5
 MONDO:0012608	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111213	neuronopathy, distal hereditary motor, autosomal recessive 4	autosomal recessive distal hereditary motor neuronopathy 4
 MONDO:0012611	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070511	polyhydramnios, megalencephaly, and symptomatic epilepsy	polyhydramnios, megalencephaly, and symptomatic epilepsy
@@ -2083,6 +2089,7 @@ MONDO:0012817	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:3369	Ewing sar
 MONDO:0012824	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060789	hypomyelinating leukodystrophy 4	hypomyelinating leukodystrophy 4
 MONDO:0012833	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111161	Crouzon syndrome-acanthosis nigricans syndrome	Crouzon syndrome-acanthosis nigricans syndrome
 MONDO:0012847	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060715	autosomal recessive congenital ichthyosis 6	autosomal recessive congenital ichthyosis 6
+MONDO:0012853	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0051067	Fontaine progeroid syndrome	Fontaine progeroid syndrome
 MONDO:0012856	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0050675	Birk-Barel syndrome	Birk-Barel syndrome
 MONDO:0012859	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110946	autosomal recessive osteopetrosis 7	autosomal recessive osteopetrosis 7
 MONDO:0012864	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060428	chromosome 2q32-q33 deletion syndrome	SATB2-associated syndrome
@@ -2371,6 +2378,7 @@ MONDO:0014269	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111476	combin
 MONDO:0014270	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080572	STT3A-congenital disorder of glycosylation	congenital disorder of glycosylation Iw
 MONDO:0014271	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080573	STT3B-congenital disorder of glycosylation	congenital disorder of glycosylation Ix
 MONDO:0014272	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070555	palmoplantar keratoderma, Nagashima type	Nagashima-type palmoplantar keratosis
+MONDO:0014276	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111973	combined immunodeficiency due to CD3gamma deficiency	immunodeficiency 17
 MONDO:0014282	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110817	hereditary spastic paraplegia 72	hereditary spastic paraplegia 72A
 MONDO:0014286	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070154	neuropathy, hereditary sensory, type 1F	hereditary sensory neuropathy type 1F
 MONDO:0014290	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110740	neurodegeneration with brain iron accumulation 6	neurodegeneration with brain iron accumulation 6
@@ -2634,6 +2642,7 @@ MONDO:0015999	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060280	primar
 MONDO:0016001	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0050573	2-hydroxyglutaric aciduria	2-hydroxyglutaric aciduria
 MONDO:0016003	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:10242	ehrlichiosis	ehrlichiosis
 MONDO:0016006	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:2962	Cockayne syndrome	Cockayne syndrome
+MONDO:0016012	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0051077	diethylstilbestrol syndrome	diethylstilbestrol syndrome
 MONDO:0016027	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:14264	benign neonatal seizures	benign neonatal seizures
 MONDO:0016027	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:14777	benign neonatal seizures	benign familial neonatal epilepsy
 MONDO:0016028	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:9240	erythromelalgia	erythromelalgia
@@ -3075,7 +3084,7 @@ MONDO:0019667	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112284	spondy
 MONDO:0019675	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112197	spondyloepimetaphyseal dysplasia with joint laxity	spondyloepimetaphyseal dysplasia with joint laxity
 MONDO:0019696	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080049	acromesomelic dysplasia	acromesomelic dysplasia
 MONDO:0019701	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:2581	chondrodysplasia punctata	chondrodysplasia punctata
-MONDO:0019719	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080205	congenital anomaly of kidney and urinary tract	CAKUT
+MONDO:0019719	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080205	congenital anomaly of kidney and urinary tract	congenital anomalies of kidney and urinary tract
 MONDO:0019754	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111152	multicentric Castleman disease	multicentric Castleman disease
 MONDO:0019772	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:3982	blepharospasm-oromandibular dystonia syndrome	Meige syndrome
 MONDO:0019790	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:14464	neuroleptic malignant syndrome	neuroleptic malignant syndrome
@@ -3131,6 +3140,7 @@ MONDO:0020527	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060890	ectopi
 MONDO:0020560	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:2129	atypical teratoid rhabdoid tumor	atypical teratoid rhabdoid tumor
 MONDO:0020563	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080531	dedifferentiated liposarcoma	dedifferentiated liposarcoma
 MONDO:0020602	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060248	Simpson-Golabi-Behmel syndrome type 1	Simpson-Golabi-Behmel syndrome type 1
+MONDO:0020682	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080738	Ehlers-Danlos syndrome, spondylodysplastic type, 1	Ehlers-Danlos syndrome spondylodysplastic type 1
 MONDO:0020684	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080986	Ehlers-Danlos syndrome, periodontal type 1	Ehlers-Danlos syndrome periodontal type 1
 MONDO:0020721	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060063	X-linked sideroblastic anemia 1	sideroblastic anemia 1
 MONDO:0020723	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080886	vitamin D-dependent rickets, type 1A	vitamin D-dependent rickets type 1A
@@ -3197,6 +3207,7 @@ MONDO:0032600	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070668	Snijde
 MONDO:0032641	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070638	mirror movements 4	mirror movements 4
 MONDO:0032643	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112327	pontocerebellar hypoplasia, type 12	pontocerebellar hypoplasia type 12
 MONDO:0032677	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112228	lissencephaly 9 with complex brainstem malformation	lissencephaly 9 with complex brainstem malformation
+MONDO:0032763	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111991	immunodeficiency 62	immunodeficiency 62
 MONDO:0032766	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080958	hypoalphalipoproteinemia, primary, 2	primary hypoalphalipoproteinemia 2
 MONDO:0032819	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111836	hypothyroidism, congenital, nongoitrous, 7	congenital nongoitrous hypothyroidism 7
 MONDO:0032869	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111749	mitochondrial complex 5 (ATP synthase) deficiency, nuclear type 6	mitochondrial complex V (ATP synthase) deficiency nuclear type 6
@@ -3316,6 +3327,7 @@ MONDO:0957813	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070643	spasti
 MONDO:0957825	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070675	hearing loss, autosomal recessive 121	autosomal recessive nonsyndromic deafness 121
 MONDO:0957873	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070367	leukoencephalopathy with vanishing white matter 5	leukoencephalopathy with vanishing white matter 5
 MONDO:0957958	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070642	spastic paraplegia 72b, autosomal recessive	hereditary spastic paraplegia 72B
+MONDO:0958106	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0081075	congenital insensitivity to pain syndrome, Marsili type	Marsili syndrome
 MONDO:0958228	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070669	hearing loss, autosomal recessive 122	autosomal recessive nonsyndromic deafness 122
 MONDO:0958277	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070670	hearing loss, autosomal recessive 123	autosomal recessive nonsyndromic deafness 123
 MONDO:0968949	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080223	palmoplantar keratoderma, epidermolytic	epidermolytic palmoplantar keratoderma

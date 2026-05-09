@@ -2127,8 +2127,7 @@ MONDO:0009105	trichohepatoenteric syndrome	MONDO:0015114	Orphanet:84064	Orphanet
 MONDO:0009105	trichohepatoenteric syndrome	MONDO:0015508	Orphanet:84064	Orphanet:156604	obsolete hereditary parenchymatous liver disease
 MONDO:0009105	trichohepatoenteric syndrome	MONDO:0019126	Orphanet:84064	Orphanet:73014	obsolete intractable diarrhea of infancy
 MONDO:0009105	trichohepatoenteric syndrome	MONDO:0031697	Orphanet:84064	Orphanet:363300	obsolete genetic intractable diarrhea of infancy
-MONDO:0009106	diastematomyelia	MONDO:0035542	Orphanet:1671	Orphanet:573278	obsolete split cord malformation
-MONDO:0009106	diastematomyelia	MONDO:8000030	Orphanet:1671	Orphanet:377791	obsolete morphological anomaly
+MONDO:0009106	diastematomyelia	MONDO:0017085	Orphanet:573278	Orphanet:268843	obsolete malformation of the neurenteric canal, spinal cord and column
 MONDO:0009107	diastrophic dysplasia	MONDO:0019688	Orphanet:628	Orphanet:93423	obsolete sulfation-related bone disorder
 MONDO:0009112	rhizomelic chondrodysplasia punctata type 2	MONDO:8000031	Orphanet:309796	Orphanet:557494	obsolete subtype of a disorder
 MONDO:0009113	hemolytic anemia due to diphosphoglycerate mutase deficiency	MONDO:0019602	Orphanet:714	Orphanet:91088	obsolete other inborn metabolic disease
@@ -12185,10 +12184,6 @@ MONDO:0035534	DONSON-related microcephaly-short stature-limb abnormalities spect
 MONDO:0035534	DONSON-related microcephaly-short stature-limb abnormalities spectrum	MONDO:0019699	Orphanet:572761	Orphanet:93440	obsolete slender bone dysplasia
 MONDO:0035534	DONSON-related microcephaly-short stature-limb abnormalities spectrum	MONDO:0026187	Orphanet:572761	Orphanet:183570	obsolete genetic malformation syndrome with short stature
 MONDO:0035534	DONSON-related microcephaly-short stature-limb abnormalities spectrum	MONDO:8000032	Orphanet:572761	Orphanet:377789	obsolete malformation syndrome
-MONDO:0035541	obsolete split cord malformation type II	MONDO:0035542	Orphanet:573253	Orphanet:573278	obsolete split cord malformation
-MONDO:0035541	obsolete split cord malformation type II	MONDO:8000030	Orphanet:573253	Orphanet:377791	obsolete morphological anomaly
-MONDO:0035542	obsolete split cord malformation	MONDO:0000859	Orphanet:573278	Orphanet:645202	spina bifida occulta
-MONDO:0035542	obsolete split cord malformation	MONDO:0017085	Orphanet:573278	Orphanet:268843	obsolete malformation of the neurenteric canal, spinal cord and column
 MONDO:0035551	cathepsin a-related arteriopathy-strokes-leukoencephalopathy	MONDO:0018787	Orphanet:575553	Orphanet:477754	obsolete genetic cerebral small vessel disease
 MONDO:0035551	cathepsin a-related arteriopathy-strokes-leukoencephalopathy	MONDO:0020144	Orphanet:575553	Orphanet:98549	obsolete cerebrovascular dementia
 MONDO:0035554	obsolete complete atrioventricular septal defect without ventricular hypoplasia	MONDO:0015273	Orphanet:576227	Orphanet:1329	complete atrioventricular canal
@@ -13151,6 +13146,9 @@ MONDO:1060108	PURA-related severe neonatal hypotonia-seizures-encephalopathy syn
 MONDO:1060125	congenital high airway obstruction syndrome	MONDO:0015221	Orphanet:700286	Orphanet:108993	obsolete non-syndromic respiratory or mediastinal malformation
 MONDO:1060125	congenital high airway obstruction syndrome	MONDO:0015930	Orphanet:700286	Orphanet:182111	obsolete respiratory malformation
 MONDO:1060125	congenital high airway obstruction syndrome	MONDO:0032013	Orphanet:700286	Orphanet:377792	obsolete clinical syndrome
+MONDO:1060220	split cord malformation type I	MONDO:8000030	Orphanet:1671	Orphanet:377791	obsolete morphological anomaly
+MONDO:1060221	split cord malformation type II	MONDO:8000030	Orphanet:573253	Orphanet:377791	obsolete morphological anomaly
+MONDO:1060222	split cord malformation, composite type	MONDO:8000030	Orphanet:633076	Orphanet:377791	obsolete morphological anomaly
 MONDO:8000006	WHIM syndrome 1	MONDO:0015979	Orphanet:51636	Orphanet:183710	obsolete hereditary predisposition to infections
 MONDO:8000006	WHIM syndrome 1	MONDO:0019305	Orphanet:51636	Orphanet:79391	obsolete immune deficiency with skin involvement
 MONDO:8000006	WHIM syndrome 1	MONDO:0026166	Orphanet:51636	Orphanet:183494	obsolete genetic immune deficiency with skin involvement

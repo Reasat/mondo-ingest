@@ -22,6 +22,12 @@ MONDO:0013283	immunodeficiency, common variable, 3	skos:closeMatch	Orphanet:6968
 MONDO:0013286	immunodeficiency, common variable, 6	skos:closeMatch	Orphanet:696881	Common variable immunodeficiency phenotype due to CD19/CD81 deficiency	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	skos:narrowMatch	omim:613496	LEXMATCH
 MONDO:0013286	immunodeficiency, common variable, 6	skos:closeMatch	Orphanet:696881	Common variable immunodeficiency phenotype due to CD19/CD81 deficiency	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	skos:narrowMatch	omim:613496	LEXMATCH
 MONDO:0013286	immunodeficiency, common variable, 6	skos:closeMatch	Orphanet:696881	Common variable immunodeficiency phenotype due to CD19/CD81 deficiency	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch-INVERSE	skos:narrowMatch	omim:613496	LEXMATCH
+MONDO:0019835	lymphocytic hypophysitis	skos:closeMatch	Orphanet:95506	Primary hypophysitis	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	skos:exactMatch	mesh:d000069281	LEXMATCH
+MONDO:0019835	lymphocytic hypophysitis	skos:closeMatch	Orphanet:95506	Primary hypophysitis	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	skos:exactMatch	umls:c0342410	LEXMATCH
+MONDO:0019835	lymphocytic hypophysitis	skos:closeMatch	Orphanet:95506	Primary hypophysitis	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	primary hypophysitis	LEXMATCH
+MONDO:0019835	lymphocytic hypophysitis	skos:closeMatch	Orphanet:95506	Primary hypophysitis	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	primary hypophysitis	LEXMATCH
+MONDO:0019835	lymphocytic hypophysitis	skos:closeMatch	Orphanet:95506	Primary hypophysitis	semapv:LexicalMatching	oaklib	0.5	rdf:ID	skos:exactMatch	mondo:0019835	LEXMATCH
+MONDO:0019835	lymphocytic hypophysitis	skos:closeMatch	Orphanet:95506	Primary hypophysitis	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch-INVERSE	rdf:ID	orphanet:95506	LEXMATCH
 MONDO:0020783	capillary malformation-arteriovenous malformation 1	skos:closeMatch	Orphanet:2346	Angioosteohypertrophic syndrome	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	skos:exactMatch-INVERSE	omim:608354	LEXMATCH
 MONDO:0020783	capillary malformation-arteriovenous malformation 1	skos:closeMatch	Orphanet:2346	Angioosteohypertrophic syndrome	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	skos:narrowMatch	omim:608354	LEXMATCH
 MONDO:0020783	capillary malformation-arteriovenous malformation 1	skos:closeMatch	Orphanet:2346	Angioosteohypertrophic syndrome	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	skos:narrowMatch	omim:608355	LEXMATCH

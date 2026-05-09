@@ -4235,6 +4235,7 @@ MONDO:0958011	immunodeficiency 117	MONDO:0850200	DOID:0061083	DOID:0080710	T cel
 MONDO:0958030	immunodeficiency 118	MONDO:0003778	DOID:0061084	DOID:612	inborn error of immunity
 MONDO:0958030	immunodeficiency 118	MONDO:0020605	DOID:0061084	DOID:0080012	X-linked recessive disease
 MONDO:0958106	congenital insensitivity to pain syndrome, Marsili type	MONDO:0000426	DOID:0081075	DOID:0050736	autosomal dominant disease
+MONDO:0958106	congenital insensitivity to pain syndrome, Marsili type	MONDO:0015364	DOID:0081075	DOID:0050548	hereditary sensory and autonomic neuropathy
 MONDO:0958196	epilepsy, early-onset, 3, with or without developmental delay	MONDO:0000426	DOID:0070472	DOID:0050736	autosomal dominant disease
 MONDO:0958196	epilepsy, early-onset, 3, with or without developmental delay	MONDO:0005027	DOID:0070472	DOID:1826	epilepsy
 MONDO:0958203	intellectual developmental disorder, autosomal dominant 74	MONDO:0015802	DOID:0061047	DOID:0060307	autosomal dominant non-syndromic intellectual disability

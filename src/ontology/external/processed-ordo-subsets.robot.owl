@@ -8,7 +8,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mondo/external/processed-ordo-subsets.robot.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mondo/external/2026-04-23/processed-ordo-subsets.robot.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mondo/external/2026-05-08/processed-ordo-subsets.robot.owl"/>
     </owl:Ontology>
     
 
@@ -18593,13 +18593,13 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0009106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0009106">
-        <oboInOwl:inSubset>http://purl.obolibrary.org/obo/mondo#ordo_disorder</oboInOwl:inSubset>
+        <oboInOwl:inSubset>http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders</oboInOwl:inSubset>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0009106"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-        <owl:annotatedTarget>http://purl.obolibrary.org/obo/mondo#ordo_disorder</owl:annotatedTarget>
-        <oboInOwl:source>Orphanet:1671</oboInOwl:source>
+        <owl:annotatedTarget>http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders</owl:annotatedTarget>
+        <oboInOwl:source>Orphanet:573278</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -108884,20 +108884,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MONDO_0019835 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0019835">
-        <oboInOwl:inSubset>http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders</oboInOwl:inSubset>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019835"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-        <owl:annotatedTarget>http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders</owl:annotatedTarget>
-        <oboInOwl:source>Orphanet:95506</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MONDO_0019836 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0019836">
@@ -123303,34 +123289,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MONDO_0035541 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0035541">
-        <oboInOwl:inSubset>http://purl.obolibrary.org/obo/mondo#ordo_disorder</oboInOwl:inSubset>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0035541"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-        <owl:annotatedTarget>http://purl.obolibrary.org/obo/mondo#ordo_disorder</owl:annotatedTarget>
-        <oboInOwl:source>Orphanet:573253</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MONDO_0035542 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0035542">
-        <oboInOwl:inSubset>http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders</oboInOwl:inSubset>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0035542"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
-        <owl:annotatedTarget>http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders</owl:annotatedTarget>
-        <oboInOwl:source>Orphanet:573278</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MONDO_0035548 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0035548">
@@ -133840,6 +133798,48 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
         <owl:annotatedTarget>http://purl.obolibrary.org/obo/mondo#ordo_disorder</owl:annotatedTarget>
         <oboInOwl:source>Orphanet:700286</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_1060220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_1060220">
+        <oboInOwl:inSubset>http://purl.obolibrary.org/obo/mondo#ordo_disorder</oboInOwl:inSubset>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_1060220"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <owl:annotatedTarget>http://purl.obolibrary.org/obo/mondo#ordo_disorder</owl:annotatedTarget>
+        <oboInOwl:source>Orphanet:1671</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_1060221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_1060221">
+        <oboInOwl:inSubset>http://purl.obolibrary.org/obo/mondo#ordo_disorder</oboInOwl:inSubset>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_1060221"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <owl:annotatedTarget>http://purl.obolibrary.org/obo/mondo#ordo_disorder</owl:annotatedTarget>
+        <oboInOwl:source>Orphanet:573253</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_1060222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_1060222">
+        <oboInOwl:inSubset>http://purl.obolibrary.org/obo/mondo#ordo_disorder</oboInOwl:inSubset>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_1060222"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+        <owl:annotatedTarget>http://purl.obolibrary.org/obo/mondo#ordo_disorder</owl:annotatedTarget>
+        <oboInOwl:source>Orphanet:633076</oboInOwl:source>
     </owl:Axiom>
     
 

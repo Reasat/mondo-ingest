@@ -60,6 +60,7 @@ Orphanet:699029	Vaccine-induced immune thrombotic thrombocytopenia	False	False	F
 Orphanet:699593	Combined immunodeficiency-lymphopenia-cancer predisposing syndrome due to AIOLOS deficiency	False	False	False
 Orphanet:699596	Combined immunodeficiency-hypogammaglobulinemia-cancer predisposing syndrome due to AIOLOS deficiency	False	False	False
 Orphanet:700107	Sickle cell S-other specified hemoglobin variant	False	False	False
+Orphanet:95506	Primary hypophysitis	False	False	False
 Orphanet:C003	epidemiology	False	False	False
 Orphanet:C004	prevalence	False	False	False
 Orphanet:C005	inheritance	False	False	False
@@ -4597,7 +4598,6 @@ Orphanet:631877	deoxyhypusine hydroxylase	False	True	False
 Orphanet:631879	adhesion G protein-coupled receptor L1	False	True	False
 Orphanet:631882	coiled-coil domain containing 34	False	True	False
 Orphanet:632514	cilia and flagella associated protein 74	False	True	False
-Orphanet:633076	Split cord malformation, composite type	False	True	False
 Orphanet:633205	COPI coat complex subunit beta 1	False	True	False
 Orphanet:633208	carboxypeptidase E	False	True	False
 Orphanet:639340	ZFP36 ring finger protein like 2	False	True	False
@@ -14642,7 +14642,6 @@ Orphanet:95500	Congenital anomaly of the coronary sinus	True	False	False
 Orphanet:95502	Acquired pituitary hormone deficiency	True	False	False
 Orphanet:95503	Pituitary hormone deficiency of tumoral origin	True	False	False
 Orphanet:95505	Pituitary hormone deficiency of meningeal origin	True	False	False
-Orphanet:95506	Primary hypophysitis	True	False	False
 Orphanet:95507	Congenital anomaly of hepatic vein	True	False	False
 Orphanet:95510	Atrial appendage anomaly	True	False	False
 Orphanet:95512	Adenohypophysitis	True	False	False
@@ -15626,6 +15625,7 @@ Orphanet:557866	Rare disorder with Hirschsprung disease as a major feature	True	
 Orphanet:56044	Carcinoma of gallbladder and extrahepatic biliary tract	True	True	False
 Orphanet:567554	Systemic disease with glomerulopathy as a major feature	True	True	False
 Orphanet:567564	Nephrotic syndrome without extrarenal manifestations	True	True	False
+Orphanet:633076	Split cord malformation, composite type	True	True	False
 Orphanet:68364	Hemoglobinopathy	True	True	False
 Orphanet:68383	Rare constitutional aplastic anemia	True	True	False
 Orphanet:73014	Intractable diarrhea of infancy	True	True	False

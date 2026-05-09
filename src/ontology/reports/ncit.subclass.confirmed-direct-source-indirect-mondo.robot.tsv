@@ -274,7 +274,7 @@ MONDO:0010108	testicular germ cell tumor	MONDO:0002259	NCIT:C8591	NCIT:C26786	go
 MONDO:0010108	testicular germ cell tumor	MONDO:0005040	NCIT:C8591	NCIT:C3708	germ cell tumor
 MONDO:0011014	pleuropulmonary blastoma	MONDO:0005565	NCIT:C5669	NCIT:C8997	blastoma
 MONDO:0011366	ovarian germ cell tumor	MONDO:0002259	NCIT:C3873	NCIT:C26786	gonadal disorder
-MONDO:0011996	chronic myelogenous leukemia, BCR-ABL1 positive	MONDO:0020076	NCIT:C3174	NCIT:C4345	myeloproliferative neoplasm
+MONDO:0011996	chronic myeloid leukemia	MONDO:0020076	NCIT:C3174	NCIT:C4345	myeloproliferative neoplasm
 MONDO:0013280	myxoid liposarcoma	MONDO:0005060	NCIT:C27781	NCIT:C3194	liposarcoma
 MONDO:0015032	intraneural perineurioma	MONDO:0001406	NCIT:C6911	NCIT:C3321	peripheral nervous system neoplasm
 MONDO:0015041	myelodysplastic syndrome with excess blasts-2	MONDO:0018881	NCIT:C7168	NCIT:C3247	myelodysplastic syndrome

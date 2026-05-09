@@ -2975,7 +2975,7 @@ MONDO:0030973	immunodeficiency 77	MONDO:0021094	OMIM:619223	OMIMPS:300755	immuno
 MONDO:0030974	mitochondrial complex 2 deficiency, nuclear type 4	MONDO:0031230	OMIM:619224	OMIMPS:252011	mitochondrial complex II deficiency, nuclear type
 MONDO:0030975	premature ovarian failure 20	MONDO:0019852	OMIM:619938	OMIMPS:311360	inherited primary ovarian failure
 MONDO:0030977	neuronopathy, distal hereditary motor, autosomal recessive 7	MONDO:0015363	OMIM:619216	OMIMPS:604320	neuronopathy, distal hereditary motor, autosomal recessive
-MONDO:0030983	Waardenburg syndrome, IIa 2F	MONDO:0018094	OMIM:619947	OMIMPS:193500	Waardenburg syndrome
+MONDO:0030983	Waardenburg syndrome 2F	MONDO:0018094	OMIM:619947	OMIMPS:193500	Waardenburg syndrome
 MONDO:0030984	spermatogenic failure 75	MONDO:0004983	OMIM:619949	OMIMPS:258150	spermatogenic failure
 MONDO:0030985	premature ovarian failure 19	MONDO:0019852	OMIM:619245	OMIMPS:311360	inherited primary ovarian failure
 MONDO:0030989	spermatogenic failure 53	MONDO:0004983	OMIM:619258	OMIMPS:258150	spermatogenic failure
@@ -3537,6 +3537,7 @@ MONDO:0859192	cerebral cavernous malformation 4	MONDO:0031037	OMIM:619538	OMIMPS
 MONDO:0859222	heterotaxy, visceral, 12, autosomal	MONDO:0018677	OMIM:619702	OMIMPS:306955	visceral heterotaxy
 MONDO:0859228	combined oxidative phosphorylation deficiency 55	MONDO:0000732	OMIM:619743	OMIMPS:609060	combined oxidative phosphorylation deficiency
 MONDO:0859234	agammaglobulinemia 8b, autosomal recessive	MONDO:0015977	OMIM:619824	OMIMPS:601495	agammaglobulinemia
+MONDO:0859235	auditory neuropathy, autosomal dominant 3	MONDO:0021944	OMIM:619832	OMIMPS:609129	auditory neuropathy
 MONDO:0859242	leukodystrophy, hypomyelinating, 24	MONDO:0019046	OMIM:619851	OMIMPS:312080	leukodystrophy
 MONDO:0859245	spinocerebellar ataxia, autosomal recessive 32	MONDO:0015244	OMIM:619862	OMIMPS:213200	autosomal recessive cerebellar ataxia
 MONDO:0859264	congenital myopathy 11	MONDO:0019952	OMIM:619967	OMIMPS:117000	congenital myopathy
@@ -3649,6 +3650,7 @@ MONDO:0957266	RECON progeroid syndrome	MONDO:0015333	OMIM:620370	OMIMPS:176670	p
 MONDO:0957270	muscular dystrophy, limb-girdle, autosomal recessive 28	MONDO:0015152	OMIM:620375	OMIMPS:253600	autosomal recessive limb-girdle muscular dystrophy
 MONDO:0957274	spastic paraplegia 89, autosomal recessive	MONDO:0019064	OMIM:620379	OMIMPS:303350	hereditary spastic paraplegia
 MONDO:0957278	oocyte/zygote/embryo maturation arrest 20	MONDO:0014769	OMIM:620383	OMIMPS:615774	inherited oocyte maturation defect
+MONDO:0957279	auditory neuropathy, autosomal dominant 2	MONDO:0021944	OMIM:620384	OMIMPS:609129	auditory neuropathy
 MONDO:0957281	nemaline myopathy 5B, autosomal recessive, childhood-onset	MONDO:0018958	OMIM:620386	OMIMPS:256030	nemaline myopathy
 MONDO:0957284	nemaline myopathy 5C, autosomal dominant	MONDO:0018958	OMIM:620389	OMIMPS:256030	nemaline myopathy
 MONDO:0957288	intellectual developmental disorder, autosomal recessive 79	MONDO:0019502	OMIM:620393	OMIMPS:249500	autosomal recessive non-syndromic intellectual disability

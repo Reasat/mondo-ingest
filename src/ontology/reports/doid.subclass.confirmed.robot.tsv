@@ -5219,7 +5219,7 @@ MONDO:0010805	bladder exstrophy	MONDO:0017919	DOID:0080174	DOID:0080173	exstroph
 MONDO:0010806	retinitis pigmentosa 13	MONDO:0019200	DOID:0110403	DOID:10584	retinitis pigmentosa
 MONDO:0010807	autosomal recessive nonsyndromic hearing loss 2	MONDO:0019588	DOID:0110477	DOID:0050565	hearing loss, autosomal recessive
 MONDO:0010808	fatal familial insomnia	MONDO:0005429	DOID:0050433	DOID:649	prion disease
-MONDO:0010809	familial chronic myelocytic leukemia-like syndrome	MONDO:0011996	DOID:0060761	DOID:8552	chronic myelogenous leukemia, BCR-ABL1 positive
+MONDO:0010809	familial chronic myelocytic leukemia-like syndrome	MONDO:0011996	DOID:0060761	DOID:8552	chronic myeloid leukemia
 MONDO:0010811	benign prostatic hyperplasia	MONDO:0003105	DOID:11132	DOID:47	prostate disorder
 MONDO:0010814	chondrodysplasia-pseudohermaphroditism syndrome	MONDO:0002254	DOID:0060644	DOID:225	syndromic disease
 MONDO:0010815	spondyloepiphyseal dysplasia tarda with characteristic facies	MONDO:0019667	DOID:0112289	DOID:0112284	spondyloepiphyseal dysplasia tarda
@@ -5612,7 +5612,7 @@ MONDO:0011987	cone-rod dystrophy 13	MONDO:0015993	DOID:0111016	DOID:0050572	cone
 MONDO:0011989	leishmaniasis	MONDO:0002428	DOID:9065	DOID:2789	protozoa infectious disease
 MONDO:0011991	autosomal recessive nonsyndromic hearing loss 38	MONDO:0019588	DOID:0110496	DOID:0050565	hearing loss, autosomal recessive
 MONDO:0011994	autosomal dominant nonsyndromic hearing loss 41	MONDO:0019587	DOID:0110567	DOID:0050564	autosomal dominant nonsyndromic hearing loss
-MONDO:0011996	chronic myelogenous leukemia, BCR-ABL1 positive	MONDO:0004643	DOID:8552	DOID:8692	myeloid leukemia
+MONDO:0011996	chronic myeloid leukemia	MONDO:0004643	DOID:8552	DOID:8692	myeloid leukemia
 MONDO:0011997	Hermansky-Pudlak syndrome 2	MONDO:0019312	DOID:0060540	DOID:3753	Hermansky-Pudlak syndrome
 MONDO:0011999	otosclerosis 3	MONDO:0005349	DOID:0060922	DOID:12185	otosclerosis
 MONDO:0012000	specific phobia	MONDO:0003699	DOID:599	DOID:591	phobic disorder
@@ -8327,7 +8327,6 @@ MONDO:0957896	metabolic dysfunction and alcohol associated liver disease	MONDO:0
 MONDO:0957921	Cornelia de Lange syndrome 6	MONDO:0016033	DOID:0060970	DOID:11725	Cornelia de Lange syndrome
 MONDO:0957928	otosclerosis 11	MONDO:0005349	DOID:0060928	DOID:12185	otosclerosis
 MONDO:0957958	spastic paraplegia 72b, autosomal recessive	MONDO:0019064	DOID:0070642	DOID:2476	hereditary spastic paraplegia
-MONDO:0958106	congenital insensitivity to pain syndrome, Marsili type	MONDO:0002254	DOID:0081075	DOID:225	syndromic disease
 MONDO:0958150	Borrelia miyamotoi disease	MONDO:0000314	DOID:0070527	DOID:0050338	primary bacterial infectious disease
 MONDO:0958151	cepacia syndrome	MONDO:0000316	DOID:0070528	DOID:0050340	opportunistic bacterial infectious disease
 MONDO:0958159	sarcoma with BCOR genetic alterations	MONDO:0006974	DOID:0081402	DOID:3098	small cell sarcoma
