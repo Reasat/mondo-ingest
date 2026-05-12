@@ -1,5 +1,6 @@
 subject_id	predicate_id	object_id	subject_label	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string
 ID	>A oboInOwl:source	A oboInOwl:hasDbXref								
+MONDO:0800353	MONDO:equivalentTo	OMIM:621567	congenital disorder of glycosylation, type Ibb	congenital disorder of glycosylation, type ibb	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	congenital disorder of glycosylation, type ibb
 MONDO:0000022	MONDO:equivalentTo	ICD10CM:N39.44	nocturnal enuresis	Nocturnal enuresis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	nocturnal enuresis
 MONDO:0001711	MONDO:equivalentTo	ICD10CM:K76.82	hepatic encephalopathy	Hepatic encephalopathy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hepatic encephalopathy
 MONDO:0002571	MONDO:equivalentTo	ICD10CM:C83.390	primary central nervous system lymphoma	Primary central nervous system lymphoma	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	primary central nervous system lymphoma
@@ -53,6 +54,7 @@ MONDO:0004762	MONDO:equivalentTo	icd11.foundation:2109588852	pelvic congestion s
 MONDO:0008340	MONDO:equivalentTo	icd11.foundation:1561844189	congenital ptosis	Congenital ptosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	congenital ptosis
 MONDO:0016001	MONDO:equivalentTo	icd11.foundation:896211058	2-hydroxyglutaric aciduria	2-hydroxyglutaric aciduria	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	2-hydroxyglutaric aciduria
 MONDO:0019504	MONDO:equivalentTo	icd11.foundation:1532846455	superior limbic keratoconjunctivitis	Superior limbic keratoconjunctivitis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	superior limbic keratoconjunctivitis
+MONDO:0019835	MONDO:equivalentTo	icd11.foundation:481072789	lymphocytic hypophysitis	Lymphocytic hypophysitis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lymphocytic hypophysitis
 MONDO:0023124	MONDO:equivalentTo	icd11.foundation:232201917	Dursun syndrome	Dursun syndrome	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	dursun syndrome
 MONDO:0100637	MONDO:equivalentTo	icd11.foundation:1456167356	drug-induced myopathy	Drug-induced myopathy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	drug-induced myopathy
 MONDO:0700322	MONDO:equivalentTo	icd11.foundation:1089305710	tinnitus	Tinnitus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	tinnitus
@@ -70,6 +72,7 @@ MONDO:1060189	MONDO:equivalentTo	icd11.foundation:1532939912	large plaque paraps
 MONDO:1060200	MONDO:equivalentTo	icd11.foundation:583743726	primary hyperthyroidism	Primary hyperthyroidism	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	primary hyperthyroidism
 MONDO:1060201	MONDO:equivalentTo	icd11.foundation:355116695	secondary hyperthyroidism	Secondary hyperthyroidism	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	secondary hyperthyroidism
 MONDO:1060213	MONDO:equivalentTo	icd11.foundation:80797147	reticular pseudodrusen	Reticular pseudodrusen	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	reticular pseudodrusen
+MONDO:1060217	MONDO:equivalentTo	icd11.foundation:2018168585	xanthomatous hypophysitis	Xanthomatous hypophysitis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	xanthomatous hypophysitis
 MONDO:0007864	MONDO:equivalentTo	Orphanet:2346	angioosteohypertrophic syndrome	Angioosteohypertrophic syndrome	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	mesh:d007715
 MONDO:0007864	MONDO:equivalentTo	Orphanet:2346	angioosteohypertrophic syndrome	Angioosteohypertrophic syndrome	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omim:149000
 MONDO:0007864	MONDO:equivalentTo	Orphanet:2346	angioosteohypertrophic syndrome	Angioosteohypertrophic syndrome	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	umls:c0022739
@@ -135,6 +138,26 @@ MONDO:0005676	MONDO:equivalentTo	DOID:5154	borna disease	borna disease	semapv:Le
 MONDO:0007315	MONDO:equivalentTo	DOID:0070648	cherubism	cherubism	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	mesh:d002636
 MONDO:0007744	MONDO:equivalentTo	DOID:0111368	cholesterol-ester transfer protein deficiency	cholesterol-ester transfer protein deficiency	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cholesterol-ester transfer protein deficiency
 MONDO:0009465	MONDO:equivalentTo	DOID:14671	multiple intestinal atresia	multiple intestinal atresia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	multiple intestinal atresia
+MONDO:0014885	MONDO:equivalentTo	DOID:0061300	Hermansky-Pudlak syndrome 10	Hermansky-Pudlak syndrome 10	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hermansky-pudlak syndrome type 10
+MONDO:0016349	MONDO:equivalentTo	DOID:0070681	congenital hydrocephalus	congenital hydrocephalus	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	icd10cm:q03
+MONDO:0016349	MONDO:equivalentTo	DOID:0070681	congenital hydrocephalus	congenital hydrocephalus	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omimps:236600
+MONDO:0030471	MONDO:equivalentTo	DOID:0061292	Galloway-Mowat syndrome 9	Galloway-Mowat syndrome 9	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omim:619603
+MONDO:0030476	MONDO:equivalentTo	DOID:0061293	Galloway-Mowat syndrome 10	Galloway-Mowat syndrome 10	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omim:619609
+MONDO:0030819	MONDO:equivalentTo	DOID:0070703	meckel syndrome 14	Meckel syndrome 14	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omim:619879
+MONDO:0030903	MONDO:equivalentTo	DOID:0061301	Hermansky-Pudlak syndrome 11	Hermansky-Pudlak syndrome 11	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hermansky-pudlak syndrome type 11
+MONDO:0032691	MONDO:equivalentTo	DOID:0061289	Galloway-Mowat syndrome 6	Galloway-Mowat syndrome 6	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omim:618347
+MONDO:0032692	MONDO:equivalentTo	DOID:0061290	Galloway-Mowat syndrome 7	Galloway-Mowat syndrome 7	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omim:618348
+MONDO:0032693	MONDO:equivalentTo	DOID:0061291	Galloway-Mowat syndrome 8	Galloway-Mowat syndrome 8	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omim:618349
+MONDO:0971178	MONDO:equivalentTo	DOID:0051081	polycystic kidney disease 8	polycystic kidney disease 8	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omim:620903
+MONDO:0979574	MONDO:equivalentTo	DOID:0061298	retinitis pigmentosa 100	retinitis pigmentosa 100	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omim:621280
+MONDO:0980947	MONDO:equivalentTo	DOID:0070697	neurodevelopmental disorder with spasticity, thin corpus callosum, and decreased brain white matter	neurodevelopmental disorder with spasticity, thin corpus callosum, and decreased brain white matter	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omim:621460
+MONDO:0980965	MONDO:equivalentTo	DOID:0070694	neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities	neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omim:621474
+MONDO:0980968	MONDO:equivalentTo	DOID:0070696	neurodevelopmental disorder with seizures, hypotonia, and variable spasticity	neurodevelopmental disorder with seizures, hypotonia, and variable spasticity	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omim:621482
+MONDO:0980973	MONDO:equivalentTo	DOID:0070699	STAD syndrome	STAD syndrome	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omim:621495
+MONDO:0980974	MONDO:equivalentTo	DOID:0070691	craniosynostosis-scoliosis syndrome	craniosynostosis-scoliosis syndrome	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omim:621499
+MONDO:0981163	MONDO:equivalentTo	DOID:0070693	Ebstein-Bezieau neurodevelopmental syndrome	Ebstein-Bezieau neurodevelopmental syndrome	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omim:621539
+MONDO:0981164	MONDO:equivalentTo	DOID:0061299	retinitis pigmentosa 101	retinitis pigmentosa 101	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	retinitis pigmentosa type 101
+MONDO:0981165	MONDO:equivalentTo	DOID:0070700	Luo-Agrawal neurodevelopmental syndrome	Luo-Agrawal neurodevelopmental syndrome	semapv:LexicalMatching	oaklib	0.9411764705882352	skos:exactMatch	skos:exactMatch	omim:621552
 MONDO:0000088	MONDO:equivalentTo	ICD10WHO:E30.1	precocious puberty	Precocious puberty	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	precocious puberty
 MONDO:0000245	MONDO:equivalentTo	ICD10WHO:B35.5	tinea imbricata	Tinea imbricata	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	tinea imbricata
 MONDO:0000397	MONDO:equivalentTo	ICD10WHO:G80.4	ataxic cerebral palsy	Ataxic cerebral palsy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ataxic cerebral palsy

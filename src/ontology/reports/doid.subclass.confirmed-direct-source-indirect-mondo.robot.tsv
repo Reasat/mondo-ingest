@@ -2765,7 +2765,7 @@ MONDO:0019591	panhypopituitarism	MONDO:0005152	DOID:9410	DOID:9406	hypopituitari
 MONDO:0019609	Zellweger spectrum disorders	MONDO:0006025	DOID:905	DOID:0050737	autosomal recessive disease
 MONDO:0019610	Zollinger-Ellison syndrome	MONDO:0002254	DOID:0050782	DOID:225	syndromic disease
 MONDO:0019669	hypochondrogenesis	MONDO:0005516	DOID:0080044	DOID:2256	osteochondrodysplasia
-MONDO:0019719	congenital anomaly of kidney and urinary tract	MONDO:0002118	DOID:0080205	DOID:18	urinary system disorder
+MONDO:0019719	congenital anomaly of kidney and urinary tract	MONDO:0005240	DOID:0080205	DOID:557	kidney disorder
 MONDO:0019773	myelomeningocele	MONDO:0002545	DOID:0060326	DOID:319	spinal cord disorder
 MONDO:0019773	myelomeningocele	MONDO:0008449	DOID:0060326	DOID:0080016	spina bifida
 MONDO:0019783	neovascular glaucoma	MONDO:0005041	DOID:1687	DOID:1686	glaucoma

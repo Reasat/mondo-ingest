@@ -25,6 +25,7 @@
 | Orphanet:693832 | Gastrointestinal tract arteriovenous malformation                                                     |
 | Orphanet:693846 | Hepatic arteriovenous malformation                                                                    |
 | Orphanet:693826 | Pancreatic arteriovenous malformation                                                                 |
+| Orphanet:95506  | Primary hypophysitis                                                                                  |
 | Orphanet:693839 | Renal arteriovenous malformation                                                                      |
 | Orphanet:700107 | Sickle cell S-other specified hemoglobin variant                                                      |
 | Orphanet:693863 | Splenic arteriovenous malformation                                                                    |

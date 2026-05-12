@@ -5219,7 +5219,7 @@ MONDO:0010805	bladder exstrophy	MONDO:0017919	DOID:0080174	DOID:0080173	exstroph
 MONDO:0010806	retinitis pigmentosa 13	MONDO:0019200	DOID:0110403	DOID:10584	retinitis pigmentosa
 MONDO:0010807	autosomal recessive nonsyndromic hearing loss 2	MONDO:0019588	DOID:0110477	DOID:0050565	hearing loss, autosomal recessive
 MONDO:0010808	fatal familial insomnia	MONDO:0005429	DOID:0050433	DOID:649	prion disease
-MONDO:0010809	familial chronic myelocytic leukemia-like syndrome	MONDO:0011996	DOID:0060761	DOID:8552	chronic myelogenous leukemia, BCR-ABL1 positive
+MONDO:0010809	familial chronic myelocytic leukemia-like syndrome	MONDO:0011996	DOID:0060761	DOID:8552	chronic myeloid leukemia
 MONDO:0010811	benign prostatic hyperplasia	MONDO:0003105	DOID:11132	DOID:47	prostate disorder
 MONDO:0010814	chondrodysplasia-pseudohermaphroditism syndrome	MONDO:0002254	DOID:0060644	DOID:225	syndromic disease
 MONDO:0010815	spondyloepiphyseal dysplasia tarda with characteristic facies	MONDO:0019667	DOID:0112289	DOID:0112284	spondyloepiphyseal dysplasia tarda
@@ -5612,7 +5612,7 @@ MONDO:0011987	cone-rod dystrophy 13	MONDO:0015993	DOID:0111016	DOID:0050572	cone
 MONDO:0011989	leishmaniasis	MONDO:0002428	DOID:9065	DOID:2789	protozoa infectious disease
 MONDO:0011991	autosomal recessive nonsyndromic hearing loss 38	MONDO:0019588	DOID:0110496	DOID:0050565	hearing loss, autosomal recessive
 MONDO:0011994	autosomal dominant nonsyndromic hearing loss 41	MONDO:0019587	DOID:0110567	DOID:0050564	autosomal dominant nonsyndromic hearing loss
-MONDO:0011996	chronic myelogenous leukemia, BCR-ABL1 positive	MONDO:0004643	DOID:8552	DOID:8692	myeloid leukemia
+MONDO:0011996	chronic myeloid leukemia	MONDO:0004643	DOID:8552	DOID:8692	myeloid leukemia
 MONDO:0011997	Hermansky-Pudlak syndrome 2	MONDO:0019312	DOID:0060540	DOID:3753	Hermansky-Pudlak syndrome
 MONDO:0011999	otosclerosis 3	MONDO:0005349	DOID:0060922	DOID:12185	otosclerosis
 MONDO:0012000	specific phobia	MONDO:0003699	DOID:599	DOID:591	phobic disorder
@@ -8327,7 +8327,6 @@ MONDO:0957896	metabolic dysfunction and alcohol associated liver disease	MONDO:0
 MONDO:0957921	Cornelia de Lange syndrome 6	MONDO:0016033	DOID:0060970	DOID:11725	Cornelia de Lange syndrome
 MONDO:0957928	otosclerosis 11	MONDO:0005349	DOID:0060928	DOID:12185	otosclerosis
 MONDO:0957958	spastic paraplegia 72b, autosomal recessive	MONDO:0019064	DOID:0070642	DOID:2476	hereditary spastic paraplegia
-MONDO:0958106	congenital insensitivity to pain syndrome, Marsili type	MONDO:0002254	DOID:0081075	DOID:225	syndromic disease
 MONDO:0958150	Borrelia miyamotoi disease	MONDO:0000314	DOID:0070527	DOID:0050338	primary bacterial infectious disease
 MONDO:0958151	cepacia syndrome	MONDO:0000316	DOID:0070528	DOID:0050340	opportunistic bacterial infectious disease
 MONDO:0958159	sarcoma with BCOR genetic alterations	MONDO:0006974	DOID:0081402	DOID:3098	small cell sarcoma
@@ -12333,7 +12332,7 @@ MONDO:0006107	benign thyroid gland neoplasm	MONDO:0015074	NCIT:C3628	NCIT:C3414	
 MONDO:0006108	bile duct adenoma	MONDO:0006180	NCIT:C2942	NCIT:C36207	digestive system adenoma
 MONDO:0006108	bile duct adenoma	MONDO:0021662	NCIT:C2942	NCIT:C2898	bile duct neoplasm
 MONDO:0006112	bladder inflammatory myofibroblastic tumor	MONDO:0015798	NCIT:C6177	NCIT:C6481	inflammatory myofibroblastic tumor
-MONDO:0006115	blast phase chronic myelogenous leukemia, BCR-ABL1 positive	MONDO:0011996	NCIT:C9110	NCIT:C3174	chronic myelogenous leukemia, BCR-ABL1 positive
+MONDO:0006115	blast phase chronic myelogenous leukemia, BCR-ABL1 positive	MONDO:0011996	NCIT:C9110	NCIT:C3174	chronic myeloid leukemia
 MONDO:0006117	breast diffuse large B-cell lymphoma	MONDO:0018905	NCIT:C40375	NCIT:C8851	diffuse large B-cell lymphoma
 MONDO:0006119	breast mucosa-associated lymphoid tissue lymphoma	MONDO:0007650	NCIT:C35688	NCIT:C3898	MALT lymphoma
 MONDO:0006123	cardiac rhabdomyoma	MONDO:0036688	NCIT:C6739	NCIT:C3358	rhabdomyoma
@@ -12730,7 +12729,7 @@ MONDO:0011705	lymphangioleiomyomatosis	MONDO:0006359	NCIT:C3725	NCIT:C38150	neop
 MONDO:0011836	thyroid Hurthle cell carcinoma	MONDO:0005034	NCIT:C4946	NCIT:C8054	thyroid gland follicular carcinoma
 MONDO:0011927	tufted angioma	MONDO:0003110	NCIT:C4487	NCIT:C4905	skin hemangioma
 MONDO:0011962	endometrial cancer	MONDO:0021251	NCIT:C27815	NCIT:C3012	endometrium neoplasm
-MONDO:0011996	chronic myelogenous leukemia, BCR-ABL1 positive	MONDO:0004643	NCIT:C3174	NCIT:C3172	myeloid leukemia
+MONDO:0011996	chronic myeloid leukemia	MONDO:0004643	NCIT:C3174	NCIT:C3172	myeloid leukemia
 MONDO:0012004	parathyroid gland carcinoma	MONDO:0021311	NCIT:C4906	NCIT:C9322	malignant tumor of parathyroid gland
 MONDO:0012552	multiple endocrine neoplasia type 4	MONDO:0017169	NCIT:C157449	NCIT:C6432	multiple endocrine neoplasia
 MONDO:0012817	Ewing sarcoma	MONDO:0005089	NCIT:C4817	NCIT:C9118	sarcoma
@@ -13293,7 +13292,7 @@ MONDO:0021360	tumor of parathyroid gland	MONDO:0001223	NCIT:C3313	NCIT:C26844	pa
 MONDO:0021364	neoplasm of oropharynx	MONDO:0021246	NCIT:C3291	NCIT:C3325	pharynx neoplasm
 MONDO:0021366	neoplasm of middle ear	MONDO:0003276	NCIT:C4412	NCIT:C27065	middle ear disorder
 MONDO:0021366	neoplasm of middle ear	MONDO:0021233	NCIT:C4412	NCIT:C3000	ear neoplasm
-MONDO:0021367	leukemia, myeloid, accelerated-phase	MONDO:0011996	NCIT:C3173	NCIT:C3174	chronic myelogenous leukemia, BCR-ABL1 positive
+MONDO:0021367	leukemia, myeloid, accelerated-phase	MONDO:0011996	NCIT:C3173	NCIT:C3174	chronic myeloid leukemia
 MONDO:0021368	neoplasm of major salivary gland	MONDO:0021357	NCIT:C4407	NCIT:C3361	tumor of salivary gland
 MONDO:0021370	neoplasm of minor salivary gland	MONDO:0021357	NCIT:C4409	NCIT:C3361	tumor of salivary gland
 MONDO:0021372	neoplasm of temporal lobe	MONDO:0021374	NCIT:C5567	NCIT:C4874	neoplasm of cerebral hemisphere
@@ -16791,7 +16790,7 @@ MONDO:0030973	immunodeficiency 77	MONDO:0021094	OMIM:619223	OMIMPS:300755	immuno
 MONDO:0030974	mitochondrial complex 2 deficiency, nuclear type 4	MONDO:0031230	OMIM:619224	OMIMPS:252011	mitochondrial complex II deficiency, nuclear type
 MONDO:0030975	premature ovarian failure 20	MONDO:0019852	OMIM:619938	OMIMPS:311360	inherited primary ovarian failure
 MONDO:0030977	neuronopathy, distal hereditary motor, autosomal recessive 7	MONDO:0015363	OMIM:619216	OMIMPS:604320	neuronopathy, distal hereditary motor, autosomal recessive
-MONDO:0030983	Waardenburg syndrome, IIa 2F	MONDO:0018094	OMIM:619947	OMIMPS:193500	Waardenburg syndrome
+MONDO:0030983	Waardenburg syndrome 2F	MONDO:0018094	OMIM:619947	OMIMPS:193500	Waardenburg syndrome
 MONDO:0030984	spermatogenic failure 75	MONDO:0004983	OMIM:619949	OMIMPS:258150	spermatogenic failure
 MONDO:0030985	premature ovarian failure 19	MONDO:0019852	OMIM:619245	OMIMPS:311360	inherited primary ovarian failure
 MONDO:0030989	spermatogenic failure 53	MONDO:0004983	OMIM:619258	OMIMPS:258150	spermatogenic failure
@@ -17353,6 +17352,7 @@ MONDO:0859192	cerebral cavernous malformation 4	MONDO:0031037	OMIM:619538	OMIMPS
 MONDO:0859222	heterotaxy, visceral, 12, autosomal	MONDO:0018677	OMIM:619702	OMIMPS:306955	visceral heterotaxy
 MONDO:0859228	combined oxidative phosphorylation deficiency 55	MONDO:0000732	OMIM:619743	OMIMPS:609060	combined oxidative phosphorylation deficiency
 MONDO:0859234	agammaglobulinemia 8b, autosomal recessive	MONDO:0015977	OMIM:619824	OMIMPS:601495	agammaglobulinemia
+MONDO:0859235	auditory neuropathy, autosomal dominant 3	MONDO:0021944	OMIM:619832	OMIMPS:609129	auditory neuropathy
 MONDO:0859242	leukodystrophy, hypomyelinating, 24	MONDO:0019046	OMIM:619851	OMIMPS:312080	leukodystrophy
 MONDO:0859245	spinocerebellar ataxia, autosomal recessive 32	MONDO:0015244	OMIM:619862	OMIMPS:213200	autosomal recessive cerebellar ataxia
 MONDO:0859264	congenital myopathy 11	MONDO:0019952	OMIM:619967	OMIMPS:117000	congenital myopathy
@@ -17465,6 +17465,7 @@ MONDO:0957266	RECON progeroid syndrome	MONDO:0015333	OMIM:620370	OMIMPS:176670	p
 MONDO:0957270	muscular dystrophy, limb-girdle, autosomal recessive 28	MONDO:0015152	OMIM:620375	OMIMPS:253600	autosomal recessive limb-girdle muscular dystrophy
 MONDO:0957274	spastic paraplegia 89, autosomal recessive	MONDO:0019064	OMIM:620379	OMIMPS:303350	hereditary spastic paraplegia
 MONDO:0957278	oocyte/zygote/embryo maturation arrest 20	MONDO:0014769	OMIM:620383	OMIMPS:615774	inherited oocyte maturation defect
+MONDO:0957279	auditory neuropathy, autosomal dominant 2	MONDO:0021944	OMIM:620384	OMIMPS:609129	auditory neuropathy
 MONDO:0957281	nemaline myopathy 5B, autosomal recessive, childhood-onset	MONDO:0018958	OMIM:620386	OMIMPS:256030	nemaline myopathy
 MONDO:0957284	nemaline myopathy 5C, autosomal dominant	MONDO:0018958	OMIM:620389	OMIMPS:256030	nemaline myopathy
 MONDO:0957288	intellectual developmental disorder, autosomal recessive 79	MONDO:0019502	OMIM:620393	OMIMPS:249500	autosomal recessive non-syndromic intellectual disability
@@ -20496,7 +20497,6 @@ MONDO:0016502	Hermansky-Pudlak syndrome without pulmonary fibrosis	MONDO:0019312
 MONDO:0016512	Kabuki syndrome	MONDO:0015159	Orphanet:2322	Orphanet:102283	multiple congenital anomalies/dysmorphic syndrome-intellectual disability
 MONDO:0016527	glycogen storage disease due to lactate dehydrogenase deficiency	MONDO:0002412	Orphanet:2364	Orphanet:79201	disorder of glycogen metabolism
 MONDO:0016533	apolipoprotein A-II amyloidosis	MONDO:0007099	Orphanet:238269	Orphanet:85450	familial visceral amyloidosis
-MONDO:0016534	infundibulo-neurohypophysitis	MONDO:0019835	Orphanet:238305	Orphanet:95506	primary hypophysitis
 MONDO:0016535	hypohidrotic ectodermal dysplasia	MONDO:0019287	Orphanet:238468	Orphanet:79373	ectodermal dysplasia syndrome
 MONDO:0016539	atypical hypotonia-cystinuria syndrome	MONDO:0011669	Orphanet:238523	Orphanet:238517	hypotonia-cystinuria syndrome
 MONDO:0016540	congenital secondary polycythemia	MONDO:0020115	Orphanet:238536	Orphanet:98428	secondary polycythemia
@@ -21833,9 +21833,6 @@ MONDO:0019824	non-acquired pituitary hormone deficiency	MONDO:0015514	Orphanet:9
 MONDO:0019825	congenital coronary artery aneurysm	MONDO:0015203	Orphanet:95491	Orphanet:1081	coronary artery congenital malformation
 MONDO:0019828	pituitary stalk interruption syndrome	MONDO:0019824	Orphanet:95496	Orphanet:95488	non-acquired pituitary hormone deficiency
 MONDO:0019832	acquired pituitary hormone deficiency	MONDO:0015127	Orphanet:95502	Orphanet:101957	pituitary deficiency
-MONDO:0019835	primary hypophysitis	MONDO:0019832	Orphanet:95506	Orphanet:95502	acquired pituitary hormone deficiency
-MONDO:0019838	adenohypophysitis	MONDO:0019835	Orphanet:95512	Orphanet:95506	primary hypophysitis
-MONDO:0019839	panhypophysitis	MONDO:0019835	Orphanet:95513	Orphanet:95506	primary hypophysitis
 MONDO:0019845	iatrogenic or traumatic pituitary deficiency	MONDO:0019832	Orphanet:95619	Orphanet:95502	acquired pituitary hormone deficiency
 MONDO:0019846	acquired central diabetes insipidus	MONDO:0015790	Orphanet:95626	Orphanet:178029	central diabetes insipidus
 MONDO:0019857	congenital hypothyroidism due to transplacental passage of maternal TSH-binding inhibitory antibodies	MONDO:0016555	Orphanet:95715	Orphanet:238696	transient congenital hypothyroidism due to maternal factor
@@ -22542,5 +22539,8 @@ MONDO:1010154	adult hypophosphatasia	MONDO:0018570	Orphanet:247676	Orphanet:436	
 MONDO:1010168	childhood hypophosphatasia	MONDO:0018570	Orphanet:247667	Orphanet:436	hypophosphatasia
 MONDO:1010169	infantile hypophosphatasia	MONDO:0018570	Orphanet:247651	Orphanet:436	hypophosphatasia
 MONDO:1060108	PURA-related severe neonatal hypotonia-seizures-encephalopathy syndrome	MONDO:0015159	Orphanet:438213	Orphanet:102283	multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+MONDO:1060220	split cord malformation type I	MONDO:0009106	Orphanet:1671	Orphanet:573278	diastematomyelia
+MONDO:1060221	split cord malformation type II	MONDO:0009106	Orphanet:573253	Orphanet:573278	diastematomyelia
+MONDO:1060222	split cord malformation, composite type	MONDO:0009106	Orphanet:633076	Orphanet:573278	diastematomyelia
 MONDO:8000008	Martsolf syndrome 1	MONDO:0015159	Orphanet:1387	Orphanet:102283	multiple congenital anomalies/dysmorphic syndrome-intellectual disability
 MONDO:8000011	visceral neuropathy, familial, 1, autosomal recessive	MONDO:0017574	Orphanet:99811	Orphanet:2978	chronic intestinal pseudoobstruction

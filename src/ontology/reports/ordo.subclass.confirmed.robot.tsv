@@ -2747,7 +2747,6 @@ MONDO:0016502	Hermansky-Pudlak syndrome without pulmonary fibrosis	MONDO:0019312
 MONDO:0016512	Kabuki syndrome	MONDO:0015159	Orphanet:2322	Orphanet:102283	multiple congenital anomalies/dysmorphic syndrome-intellectual disability
 MONDO:0016527	glycogen storage disease due to lactate dehydrogenase deficiency	MONDO:0002412	Orphanet:2364	Orphanet:79201	disorder of glycogen metabolism
 MONDO:0016533	apolipoprotein A-II amyloidosis	MONDO:0007099	Orphanet:238269	Orphanet:85450	familial visceral amyloidosis
-MONDO:0016534	infundibulo-neurohypophysitis	MONDO:0019835	Orphanet:238305	Orphanet:95506	primary hypophysitis
 MONDO:0016535	hypohidrotic ectodermal dysplasia	MONDO:0019287	Orphanet:238468	Orphanet:79373	ectodermal dysplasia syndrome
 MONDO:0016539	atypical hypotonia-cystinuria syndrome	MONDO:0011669	Orphanet:238523	Orphanet:238517	hypotonia-cystinuria syndrome
 MONDO:0016540	congenital secondary polycythemia	MONDO:0020115	Orphanet:238536	Orphanet:98428	secondary polycythemia
@@ -4084,9 +4083,6 @@ MONDO:0019824	non-acquired pituitary hormone deficiency	MONDO:0015514	Orphanet:9
 MONDO:0019825	congenital coronary artery aneurysm	MONDO:0015203	Orphanet:95491	Orphanet:1081	coronary artery congenital malformation
 MONDO:0019828	pituitary stalk interruption syndrome	MONDO:0019824	Orphanet:95496	Orphanet:95488	non-acquired pituitary hormone deficiency
 MONDO:0019832	acquired pituitary hormone deficiency	MONDO:0015127	Orphanet:95502	Orphanet:101957	pituitary deficiency
-MONDO:0019835	primary hypophysitis	MONDO:0019832	Orphanet:95506	Orphanet:95502	acquired pituitary hormone deficiency
-MONDO:0019838	adenohypophysitis	MONDO:0019835	Orphanet:95512	Orphanet:95506	primary hypophysitis
-MONDO:0019839	panhypophysitis	MONDO:0019835	Orphanet:95513	Orphanet:95506	primary hypophysitis
 MONDO:0019845	iatrogenic or traumatic pituitary deficiency	MONDO:0019832	Orphanet:95619	Orphanet:95502	acquired pituitary hormone deficiency
 MONDO:0019846	acquired central diabetes insipidus	MONDO:0015790	Orphanet:95626	Orphanet:178029	central diabetes insipidus
 MONDO:0019857	congenital hypothyroidism due to transplacental passage of maternal TSH-binding inhibitory antibodies	MONDO:0016555	Orphanet:95715	Orphanet:238696	transient congenital hypothyroidism due to maternal factor
@@ -4793,5 +4789,8 @@ MONDO:1010154	adult hypophosphatasia	MONDO:0018570	Orphanet:247676	Orphanet:436	
 MONDO:1010168	childhood hypophosphatasia	MONDO:0018570	Orphanet:247667	Orphanet:436	hypophosphatasia
 MONDO:1010169	infantile hypophosphatasia	MONDO:0018570	Orphanet:247651	Orphanet:436	hypophosphatasia
 MONDO:1060108	PURA-related severe neonatal hypotonia-seizures-encephalopathy syndrome	MONDO:0015159	Orphanet:438213	Orphanet:102283	multiple congenital anomalies/dysmorphic syndrome-intellectual disability
+MONDO:1060220	split cord malformation type I	MONDO:0009106	Orphanet:1671	Orphanet:573278	diastematomyelia
+MONDO:1060221	split cord malformation type II	MONDO:0009106	Orphanet:573253	Orphanet:573278	diastematomyelia
+MONDO:1060222	split cord malformation, composite type	MONDO:0009106	Orphanet:633076	Orphanet:573278	diastematomyelia
 MONDO:8000008	Martsolf syndrome 1	MONDO:0015159	Orphanet:1387	Orphanet:102283	multiple congenital anomalies/dysmorphic syndrome-intellectual disability
 MONDO:8000011	visceral neuropathy, familial, 1, autosomal recessive	MONDO:0017574	Orphanet:99811	Orphanet:2978	chronic intestinal pseudoobstruction

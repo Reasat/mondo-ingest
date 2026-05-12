@@ -2052,7 +2052,9 @@ MONDO:0009303	anti-glomerular basement membrane disease	skos:closeMatch	ICD10CM:
 MONDO:0009324	Hartnup disease	skos:closeMatch	ICD10CM:E72.02	Hartnup's disease	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:1060	LEXMATCH
 MONDO:0009324	Hartnup disease	skos:closeMatch	ICD10CM:E72.02	Hartnup's disease	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:1060	LEXMATCH
 MONDO:0009366	normal pressure hydrocephalus	skos:closeMatch	ICD10CM:G91.2	(Idiopathic) normal pressure hydrocephalus	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:1572	LEXMATCH
+MONDO:0009366	normal pressure hydrocephalus	skos:closeMatch	ICD10CM:G91.2	(Idiopathic) normal pressure hydrocephalus	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	skos:exactMatch-INVERSE	doid:1572	LEXMATCH
 MONDO:0009366	normal pressure hydrocephalus	skos:closeMatch	ICD10CM:G91.2	(Idiopathic) normal pressure hydrocephalus	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:1572	LEXMATCH
+MONDO:0009366	normal pressure hydrocephalus	skos:closeMatch	ICD10CM:G91.2	(Idiopathic) normal pressure hydrocephalus	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	skos:exactMatch-INVERSE	doid:1572	LEXMATCH
 MONDO:0009380	Dubin-Johnson syndrome	skos:closeMatch	ICD10CM:E80.6	Other disorders of bilirubin metabolism	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:12308	LEXMATCH
 MONDO:0009380	Dubin-Johnson syndrome	skos:closeMatch	ICD10CM:E80.6	Other disorders of bilirubin metabolism	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:12308	LEXMATCH
 MONDO:0009387	familial lipoprotein lipase deficiency	skos:closeMatch	ICD10CM:E78.3	Hyperchylomicronemia	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:14118	LEXMATCH
@@ -3929,6 +3931,10 @@ MONDO:0018911	maturity-onset diabetes of the young	skos:closeMatch	ICD10CM:E11.8
 MONDO:0018911	maturity-onset diabetes of the young	skos:closeMatch	ICD10CM:E11.8	Type 2 diabetes mellitus with unspecified complications	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	skos:relatedMatch-INVERSE	doid:0050524	LEXMATCH
 MONDO:0018919	McCune-Albright syndrome	skos:closeMatch	ICD10CM:Q78.1	Polyostotic fibrous dysplasia	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:1858	LEXMATCH
 MONDO:0018919	McCune-Albright syndrome	skos:closeMatch	ICD10CM:Q78.1	Polyostotic fibrous dysplasia	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:1858	LEXMATCH
+MONDO:0018921	Meckel syndrome	skos:closeMatch	ICD10CM:Q61.9	Cystic kidney disease, unspecified	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:0050778	LEXMATCH
+MONDO:0018921	Meckel syndrome	skos:closeMatch	ICD10CM:Q61.9	Cystic kidney disease, unspecified	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	skos:broadMatch-INVERSE	doid:0050778	LEXMATCH
+MONDO:0018921	Meckel syndrome	skos:closeMatch	ICD10CM:Q61.9	Cystic kidney disease, unspecified	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:0050778	LEXMATCH
+MONDO:0018921	Meckel syndrome	skos:closeMatch	ICD10CM:Q61.9	Cystic kidney disease, unspecified	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	skos:broadMatch-INVERSE	doid:0050778	LEXMATCH
 MONDO:0018938	mucopolysaccharidosis type 4	skos:closeMatch	ICD10CM:E76.219	Morquio mucopolysaccharidoses, unspecified	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:12804	LEXMATCH
 MONDO:0018938	mucopolysaccharidosis type 4	skos:closeMatch	ICD10CM:E76.219	Morquio mucopolysaccharidoses, unspecified	semapv:LexicalMatching	oaklib	0.5	skos:exactMatch	oio:hasDbXref-INVERSE	doid:12804	LEXMATCH
 MONDO:0018949	distal myopathy	skos:closeMatch	ICD10CM:G71.09	Other specified muscular dystrophies	semapv:LexicalMatching	oaklib	0.5	oio:hasDbXref	oio:hasDbXref-INVERSE	doid:11720	LEXMATCH

@@ -10,6 +10,10 @@ OMIM:621563	retinitis pigmentosa 105	False	False	False
 OMIM:621564	retinitis pigmentosa 106	False	False	False
 OMIM:621565	yu-kury neurodevelopmental syndrome	False	False	False
 OMIM:621566	davis-wells syndrome	False	False	False
+OMIM:621567	congenital disorder of glycosylation, type ibb	False	False	False
+OMIM:621570	cornelia lange lange syndrome 7	False	False	False
+OMIM:621582	ras-associated autoimmune leukoproliferative disorder 2	False	False	False
+OMIM:621587	retinitis pigmentosa 107	False	False	False
 OMIM:100500		False	False	True
 OMIM:100680		False	False	True
 OMIM:100735		False	False	True
@@ -19492,6 +19496,22 @@ OMIM:621553	GTPBP8	False	True	False
 OMIM:621554	GPATCH1	False	True	False
 OMIM:621555	TMCO4	False	True	False
 OMIM:621557	CALHM5	False	True	False
+OMIM:621568	CCDC87	False	True	False
+OMIM:621569	TMCO2	False	True	False
+OMIM:621571	TMCO5A	False	True	False
+OMIM:621572	TMCO6	False	True	False
+OMIM:621573	KIAA1191	False	True	False
+OMIM:621574	TTC27	False	True	False
+OMIM:621575	LYRM2	False	True	False
+OMIM:621576	SAYSD1	False	True	False
+OMIM:621577	TMEM140	False	True	False
+OMIM:621578	CCDC198	False	True	False
+OMIM:621579	FNDC8	False	True	False
+OMIM:621580	ZNF555	False	True	False
+OMIM:621581	ZNF524	False	True	False
+OMIM:621583	ZNF558	False	True	False
+OMIM:621584	ZNF362	False	True	False
+OMIM:621586	PWWP2B	False	True	False
 OMIMPS:151623	Li-Fraumeni syndrome	False	True	False
 OMIMPS:608902	Drug metabolism, altered (select examples)	False	True	False
 OMIM:173500		False	True	True
@@ -24674,7 +24694,7 @@ OMIM:614464	joubert syndrome 15	True	False	False
 OMIM:614465	joubert syndrome 16	True	False	False
 OMIM:614466	coronary heart disease, susceptibility to, 6	True	False	False
 OMIM:614468	familial cold autoinflammatory syndrome 3	True	False	False
-OMIM:614470	ras-associated autoimmune leukoproliferative disorder	True	False	False
+OMIM:614470	ras-associated autoimmune leukoproliferative disorder 1	True	False	False
 OMIM:614473	arterial calcification, generalized, of infancy, 2	True	False	False
 OMIM:614474	atrioventricular septal defect 5	True	False	False
 OMIM:614475	atrial septal defect 9	True	False	False

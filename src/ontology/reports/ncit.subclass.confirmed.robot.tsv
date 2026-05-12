@@ -2416,7 +2416,7 @@ MONDO:0006107	benign thyroid gland neoplasm	MONDO:0015074	NCIT:C3628	NCIT:C3414	
 MONDO:0006108	bile duct adenoma	MONDO:0006180	NCIT:C2942	NCIT:C36207	digestive system adenoma
 MONDO:0006108	bile duct adenoma	MONDO:0021662	NCIT:C2942	NCIT:C2898	bile duct neoplasm
 MONDO:0006112	bladder inflammatory myofibroblastic tumor	MONDO:0015798	NCIT:C6177	NCIT:C6481	inflammatory myofibroblastic tumor
-MONDO:0006115	blast phase chronic myelogenous leukemia, BCR-ABL1 positive	MONDO:0011996	NCIT:C9110	NCIT:C3174	chronic myelogenous leukemia, BCR-ABL1 positive
+MONDO:0006115	blast phase chronic myelogenous leukemia, BCR-ABL1 positive	MONDO:0011996	NCIT:C9110	NCIT:C3174	chronic myeloid leukemia
 MONDO:0006117	breast diffuse large B-cell lymphoma	MONDO:0018905	NCIT:C40375	NCIT:C8851	diffuse large B-cell lymphoma
 MONDO:0006119	breast mucosa-associated lymphoid tissue lymphoma	MONDO:0007650	NCIT:C35688	NCIT:C3898	MALT lymphoma
 MONDO:0006123	cardiac rhabdomyoma	MONDO:0036688	NCIT:C6739	NCIT:C3358	rhabdomyoma
@@ -2813,7 +2813,7 @@ MONDO:0011705	lymphangioleiomyomatosis	MONDO:0006359	NCIT:C3725	NCIT:C38150	neop
 MONDO:0011836	thyroid Hurthle cell carcinoma	MONDO:0005034	NCIT:C4946	NCIT:C8054	thyroid gland follicular carcinoma
 MONDO:0011927	tufted angioma	MONDO:0003110	NCIT:C4487	NCIT:C4905	skin hemangioma
 MONDO:0011962	endometrial cancer	MONDO:0021251	NCIT:C27815	NCIT:C3012	endometrium neoplasm
-MONDO:0011996	chronic myelogenous leukemia, BCR-ABL1 positive	MONDO:0004643	NCIT:C3174	NCIT:C3172	myeloid leukemia
+MONDO:0011996	chronic myeloid leukemia	MONDO:0004643	NCIT:C3174	NCIT:C3172	myeloid leukemia
 MONDO:0012004	parathyroid gland carcinoma	MONDO:0021311	NCIT:C4906	NCIT:C9322	malignant tumor of parathyroid gland
 MONDO:0012552	multiple endocrine neoplasia type 4	MONDO:0017169	NCIT:C157449	NCIT:C6432	multiple endocrine neoplasia
 MONDO:0012817	Ewing sarcoma	MONDO:0005089	NCIT:C4817	NCIT:C9118	sarcoma
@@ -3376,7 +3376,7 @@ MONDO:0021360	tumor of parathyroid gland	MONDO:0001223	NCIT:C3313	NCIT:C26844	pa
 MONDO:0021364	neoplasm of oropharynx	MONDO:0021246	NCIT:C3291	NCIT:C3325	pharynx neoplasm
 MONDO:0021366	neoplasm of middle ear	MONDO:0003276	NCIT:C4412	NCIT:C27065	middle ear disorder
 MONDO:0021366	neoplasm of middle ear	MONDO:0021233	NCIT:C4412	NCIT:C3000	ear neoplasm
-MONDO:0021367	leukemia, myeloid, accelerated-phase	MONDO:0011996	NCIT:C3173	NCIT:C3174	chronic myelogenous leukemia, BCR-ABL1 positive
+MONDO:0021367	leukemia, myeloid, accelerated-phase	MONDO:0011996	NCIT:C3173	NCIT:C3174	chronic myeloid leukemia
 MONDO:0021368	neoplasm of major salivary gland	MONDO:0021357	NCIT:C4407	NCIT:C3361	tumor of salivary gland
 MONDO:0021370	neoplasm of minor salivary gland	MONDO:0021357	NCIT:C4409	NCIT:C3361	tumor of salivary gland
 MONDO:0021372	neoplasm of temporal lobe	MONDO:0021374	NCIT:C5567	NCIT:C4874	neoplasm of cerebral hemisphere

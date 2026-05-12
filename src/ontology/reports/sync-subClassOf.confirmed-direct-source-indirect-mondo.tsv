@@ -2765,7 +2765,7 @@ MONDO:0019591	panhypopituitarism	MONDO:0005152	DOID:9410	DOID:9406	hypopituitari
 MONDO:0019609	Zellweger spectrum disorders	MONDO:0006025	DOID:905	DOID:0050737	autosomal recessive disease
 MONDO:0019610	Zollinger-Ellison syndrome	MONDO:0002254	DOID:0050782	DOID:225	syndromic disease
 MONDO:0019669	hypochondrogenesis	MONDO:0005516	DOID:0080044	DOID:2256	osteochondrodysplasia
-MONDO:0019719	congenital anomaly of kidney and urinary tract	MONDO:0002118	DOID:0080205	DOID:18	urinary system disorder
+MONDO:0019719	congenital anomaly of kidney and urinary tract	MONDO:0005240	DOID:0080205	DOID:557	kidney disorder
 MONDO:0019773	myelomeningocele	MONDO:0002545	DOID:0060326	DOID:319	spinal cord disorder
 MONDO:0019773	myelomeningocele	MONDO:0008449	DOID:0060326	DOID:0080016	spina bifida
 MONDO:0019783	neovascular glaucoma	MONDO:0005041	DOID:1687	DOID:1686	glaucoma
@@ -3690,7 +3690,7 @@ MONDO:0010108	testicular germ cell tumor	MONDO:0002259	NCIT:C8591	NCIT:C26786	go
 MONDO:0010108	testicular germ cell tumor	MONDO:0005040	NCIT:C8591	NCIT:C3708	germ cell tumor
 MONDO:0011014	pleuropulmonary blastoma	MONDO:0005565	NCIT:C5669	NCIT:C8997	blastoma
 MONDO:0011366	ovarian germ cell tumor	MONDO:0002259	NCIT:C3873	NCIT:C26786	gonadal disorder
-MONDO:0011996	chronic myelogenous leukemia, BCR-ABL1 positive	MONDO:0020076	NCIT:C3174	NCIT:C4345	myeloproliferative neoplasm
+MONDO:0011996	chronic myeloid leukemia	MONDO:0020076	NCIT:C3174	NCIT:C4345	myeloproliferative neoplasm
 MONDO:0013280	myxoid liposarcoma	MONDO:0005060	NCIT:C27781	NCIT:C3194	liposarcoma
 MONDO:0015032	intraneural perineurioma	MONDO:0001406	NCIT:C6911	NCIT:C3321	peripheral nervous system neoplasm
 MONDO:0015041	myelodysplastic syndrome with excess blasts-2	MONDO:0018881	NCIT:C7168	NCIT:C3247	myelodysplastic syndrome
@@ -4983,7 +4983,7 @@ MONDO:0011908	juvenile myelomonocytic leukemia	MONDO:0020077	Orphanet:86834	Orph
 MONDO:0011934	dermatofibrosarcoma protuberans	MONDO:0018078	Orphanet:31112	Orphanet:3394	soft tissue sarcoma
 MONDO:0011939	Spondyloenchondrodysplasia with immune dysregulation	MONDO:0700264	Orphanet:1855	Orphanet:477647	type 1 interferonopathy
 MONDO:0011984	synpolydactyly type 2	MONDO:0021651	Orphanet:295197	Orphanet:93403	synpolydactyly
-MONDO:0011996	chronic myelogenous leukemia, BCR-ABL1 positive	MONDO:0020076	Orphanet:521	Orphanet:98274	myeloproliferative neoplasm
+MONDO:0011996	chronic myeloid leukemia	MONDO:0020076	Orphanet:521	Orphanet:98274	myeloproliferative neoplasm
 MONDO:0012041	familial adenomatous polyposis 2	MONDO:0015185	Orphanet:247798	Orphanet:104010	intestinal polyposis syndrome
 MONDO:0012127	autosomal recessive limb-girdle muscular dystrophy type 2J	MONDO:0016191	Orphanet:140922	Orphanet:209053	neuromuscular disease caused by qualitative or quantitative defects of titin
 MONDO:0012177	posterior column ataxia-retinitis pigmentosa syndrome	MONDO:0020046	Orphanet:88628	Orphanet:98098	autosomal recessive degenerative and progressive cerebellar ataxia
