@@ -9,6 +9,8 @@
 | OMIM:621566  | davis-wells syndrome                                                                           |
 | OMIM:621559  | dentin dysplasia, type 1c                                                                      |
 | OMIM:621426  | drug metabolism, altered, cyp2a6-related                                                       |
+| OMIM:621588  | epidermodysplasia verruciformis, susceptibility to, 6                                          |
+| OMIM:621585  | mendez-johnson immunoneurologic syndrome                                                       |
 | OMIM:301164  | neurodevelopmental disorder, x-linked, with poor or absent speech and behavioral abnormalities |
 | OMIM:621582  | ras-associated autoimmune leukoproliferative disorder 2                                        |
 | OMIM:621558  | retinal dystrophy, zeitz-han type                                                              |

@@ -6732,7 +6732,6 @@ MONDO:0014860	polycystic liver disease 2	MONDO:0000447	DOID:0060975	DOID:0050770
 MONDO:0014861	autoimmune disease, multisystem, infantile-onset, 2	MONDO:0000213	DOID:0061161	DOID:0061159	autoimmune disease, multisystem, infantile-onset
 MONDO:0014862	cerebral palsy, spastic quadriplegic, 3	MONDO:0016215	DOID:0081361	DOID:10970	spastic quadriplegic cerebral palsy
 MONDO:0014864	hypermanganesemia with dystonia 2	MONDO:0000214	DOID:0080537	DOID:0080535	hypermanganesemia with dystonia
-MONDO:0014866	Charcot-Marie-Tooth disease axonal type 2T	MONDO:0018993	DOID:0110160	DOID:0050539	Charcot-Marie-Tooth disease type 2
 MONDO:0014867	spinocerebellar ataxia 43	MONDO:0020380	DOID:0111745	DOID:1441	autosomal dominant cerebellar ataxia
 MONDO:0014868	developmental and epileptic encephalopathy, 38	MONDO:0100062	DOID:0080417	DOID:0112202	genetic developmental and epileptic encephalopathy
 MONDO:0014870	NEK9-related lethal skeletal dysplasia	MONDO:0017436	DOID:0061266	DOID:0060558	lethal congenital contracture syndrome
@@ -7901,6 +7900,7 @@ MONDO:0044325	Fanconi anemia, complementation group W	MONDO:0019391	DOID:0060978
 MONDO:0044327	polycystic liver disease 4 with or without kidney cysts	MONDO:0000447	DOID:0060977	DOID:0050770	autosomal dominant polycystic liver disease
 MONDO:0044330	hyperekplexia 4	MONDO:0021022	DOID:0080581	DOID:0060695	hereditary hyperekplexia
 MONDO:0044634	retinitis pigmentosa-hearing loss-premature aging-short stature-facial dysmorphism syndrome	MONDO:0002254	DOID:0081175	DOID:225	syndromic disease
+MONDO:0044640	Charcot-Marie-Tooth disease type 2T	MONDO:0018993	DOID:0110160	DOID:0050539	Charcot-Marie-Tooth disease type 2
 MONDO:0044705	paranasal sinus squamous cell carcinoma	MONDO:0000380	DOID:2442	DOID:0050619	paranasal sinus carcinoma
 MONDO:0044723	3-methylglutaconic aciduria type 8	MONDO:0017359	DOID:0070000	DOID:0060336	3-methylglutaconic aciduria
 MONDO:0044724	3-methylglutaconic aciduria type 9	MONDO:0017359	DOID:0070002	DOID:0060336	3-methylglutaconic aciduria
@@ -19725,7 +19725,6 @@ MONDO:0013907	bilateral generalized polymicrogyria	MONDO:0017091	Orphanet:208447
 MONDO:0013918	distal tetrasomy 15q	MONDO:0017806	Orphanet:314588	Orphanet:314585	15q overgrowth syndrome
 MONDO:0013925	methylmalonic acidemia with homocystinuria, type cblJ	MONDO:0016826	Orphanet:369955	Orphanet:26	methylmalonic aciduria and homocystinuria
 MONDO:0013928	dystonia 23	MONDO:0015990	Orphanet:420492	Orphanet:1866	focal, segmental or multifocal dystonia
-MONDO:0013947	neuronopathy, distal hereditary motor, autosomal recessive 5	MONDO:0015363	Orphanet:314485	Orphanet:140468	neuronopathy, distal hereditary motor, autosomal recessive
 MONDO:0013959	Charcot-Marie-Tooth disease type 4F	MONDO:0018995	Orphanet:99952	Orphanet:64749	Charcot-Marie-Tooth disease type 4
 MONDO:0013968	PGM1-congenital disorder of glycosylation	MONDO:0017740	Orphanet:319646	Orphanet:309347	disorder of protein N-glycosylation
 MONDO:0013970	branched-chain keto acid dehydrogenase kinase deficiency	MONDO:0019242	Orphanet:308410	Orphanet:79197	inborn disorder of branched-chain amino acid metabolism

@@ -2518,7 +2518,6 @@ MONDO:0014830	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111055	platel
 MONDO:0014846	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111613	spinocerebellar ataxia, autosomal recessive 23	autosomal recessive spinocerebellar ataxia 23
 MONDO:0014856	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111471	combined oxidative phosphorylation defect type 30	combined oxidative phosphorylation deficiency 30
 MONDO:0014865	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112129	autosomal recessive severe congenital neutropenia due to CSF3R deficiency	severe congenital neutropenia 7
-MONDO:0014866	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110160	Charcot-Marie-Tooth disease axonal type 2T	Charcot-Marie-Tooth disease axonal type 2T
 MONDO:0014867	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111745	spinocerebellar ataxia 43	cerebellar ataxia type 43
 MONDO:0014882	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110822	hereditary spastic paraplegia 77	hereditary spastic paraplegia 77
 MONDO:0014884	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070225	cholestasis, progressive familial intrahepatic, 5	progressive familial intrahepatic cholestasis 5
@@ -3227,6 +3226,7 @@ MONDO:0035944	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080647	B-lymp
 MONDO:0042981	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:1712	aortic valve stenosis	aortic valve stenosis
 MONDO:0043275	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080835	TORCH syndrome	TORCH syndrome
 MONDO:0044634	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0081175	retinitis pigmentosa-hearing loss-premature aging-short stature-facial dysmorphism syndrome	short stature, hearing loss, retinitis pigmentosa, and distinctive facies
+MONDO:0044640	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0110160	Charcot-Marie-Tooth disease type 2T	Charcot-Marie-Tooth disease axonal type 2T
 MONDO:0044646	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070423	early-onset progressive diffuse brain atrophy-microcephaly-muscle weakness-optic atrophy syndrome	early onset progressive encephalopathy with brain atrophy and thin corpus callosum
 MONDO:0044701	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070474	childhood-onset motor and cognitive regression syndrome with extrapyramidal movement disorder	childhood-onset neurodegeneration with brain atrophy
 MONDO:0044702	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111738	X-linked external auditory canal atresia-dilated internal auditory canal-facial dysmorphism syndrome	X-linked deafness 7
