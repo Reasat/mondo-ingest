@@ -3315,7 +3315,7 @@ MONDO:0013931	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:95433	
 MONDO:0013934	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:314689	combined immunodeficiency due to STK4 deficiency	Combined immunodeficiency due to STK4 deficiency
 MONDO:0013941	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:99646	metaphyseal chondromatosis with D-2-hydroxyglutaric aciduria	Metaphyseal chondromatosis with D-2-hydroxyglutaric aciduria
 MONDO:0013944	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:324530	autoinflammation-PLCG2-associated antibody deficiency-immune dysregulation	Autoinflammation-PLCG2-associated antibody deficiency-immune dysregulation
-MONDO:0013947	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:314485	neuronopathy, distal hereditary motor, autosomal recessive 5	Young adult-onset distal hereditary motor neuropathy
+MONDO:0013947	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:443950	neuronopathy, distal hereditary motor, autosomal recessive 5	DNAJB2-related Charcot-Marie-Tooth disease type 2
 MONDO:0013954	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:319558	Mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency	Mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency
 MONDO:0013955	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:319552	Mendelian susceptibility to mycobacterial diseases due to complete IL12RB1 deficiency	Mendelian susceptibility to mycobacterial diseases due to complete IL12RB1 deficiency
 MONDO:0013956	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:319595	Mendelian susceptibility to mycobacterial diseases due to partial STAT1 deficiency	Mendelian susceptibility to mycobacterial diseases due to partial STAT1 deficiency
@@ -3676,7 +3676,6 @@ MONDO:0014856	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:478042
 MONDO:0014857	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:494344	neurodevelopmental disorder with or without anomalies of the brain, eye, or heart	RERE-related neurodevelopmental syndrome
 MONDO:0014864	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:521406	hypermanganesemia with dystonia 2	Dystonia-parkinsonism-hypermanganesemia syndrome
 MONDO:0014865	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:420702	autosomal recessive severe congenital neutropenia due to CSF3R deficiency	Autosomal recessive severe congenital neutropenia due to CSF3R deficiency
-MONDO:0014866	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:443950	Charcot-Marie-Tooth disease axonal type 2T	DNAJB2-related Charcot-Marie-Tooth disease type 2
 MONDO:0014867	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:497764	spinocerebellar ataxia 43	Spinocerebellar ataxia type 43
 MONDO:0014869	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:528091	hydrops-lactic acidosis-sideroblastic anemia-multisystemic failure syndrome	Hydrops-lactic acidosis-sideroblastic anemia-multisystemic failure syndrome
 MONDO:0014870	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:464366	NEK9-related lethal skeletal dysplasia	NEK9-related lethal skeletal dysplasia

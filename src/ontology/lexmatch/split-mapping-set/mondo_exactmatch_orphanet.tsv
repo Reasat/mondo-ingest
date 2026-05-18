@@ -2,6 +2,7 @@ subject_id	subject_label	predicate_id	object_id	object_label	mapping_justificati
 MONDO:0007864	angioosteohypertrophic syndrome	skos:exactMatch	Orphanet:2346	Angioosteohypertrophic syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	skos:exactMatch	skos:exactMatch	mesh:d007715	LEXMATCH
 MONDO:0007864	angioosteohypertrophic syndrome	skos:exactMatch	Orphanet:2346	Angioosteohypertrophic syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	skos:exactMatch	skos:exactMatch	omim:149000	LEXMATCH
 MONDO:0007864	angioosteohypertrophic syndrome	skos:exactMatch	Orphanet:2346	Angioosteohypertrophic syndrome	semapv:LexicalMatching	oaklib	0.9411764705882353	skos:exactMatch	skos:exactMatch	umls:c0022739	LEXMATCH
+MONDO:0013947	neuronopathy, distal hereditary motor, autosomal recessive 5	skos:exactMatch	Orphanet:314485	Young adult-onset distal hereditary motor neuropathy	semapv:LexicalMatching	oaklib	0.9411764705882353	skos:exactMatch	skos:exactMatch	umls:c4749918	LEXMATCH
 MONDO:0015076	obsolete rare parathyroid tumor	skos:exactMatch	Orphanet:100090	Rare parathyroid tumor	semapv:UnspecifiedMatching		0.5				MONDO_MAPPINGS
 MONDO:0015081	obsolete neuroendocrine tumor with other location	skos:exactMatch	Orphanet:100101	Neuroendocrine tumor with other location	semapv:UnspecifiedMatching		0.5				MONDO_MAPPINGS
 MONDO:0015088	obsolete autosomal dominant pure spastic paraplegia	skos:exactMatch	Orphanet:100980	Autosomal dominant pure spastic paraplegia	semapv:UnspecifiedMatching		0.5				MONDO_MAPPINGS

@@ -1,6 +1,7 @@
 subject_id	subject_label	is_mapped	is_excluded	is_deprecated
 Orphanet:231205	Common variable immunodeficiency without known genetic defect	False	False	False
 Orphanet:2346	Angioosteohypertrophic syndrome	False	False	False
+Orphanet:314485	Young adult-onset distal hereditary motor neuropathy	False	False	False
 Orphanet:377794	clinical group	False	False	False
 Orphanet:377795	etiological subtype	False	False	False
 Orphanet:377796	clinical subtype	False	False	False
@@ -10119,7 +10120,6 @@ Orphanet:314459	Pseudo-Meigs syndrome	True	False	False
 Orphanet:314466	Atypical Meigs syndrome	True	False	False
 Orphanet:314473	Ovarian fibroma	True	False	False
 Orphanet:314478	Ovarian fibrothecoma	True	False	False
-Orphanet:314485	Young adult-onset distal hereditary motor neuropathy	True	False	False
 Orphanet:3145	Arginine vasopressin resistance-intracranial calcification-short stature-facial dysmorphism syndrome	True	False	False
 Orphanet:314555	Facial dysmorphism-ocular anomalies-osteopenia-intellectual disability-dental anomalies syndrome	True	False	False
 Orphanet:314566	Primary progressive apraxia of speech	True	False	False

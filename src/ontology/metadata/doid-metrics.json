@@ -4,10 +4,10 @@
     "abox_axiom_count_incl": 0,
     "annotation_property_count": 31,
     "annotation_property_count_incl": 31,
-    "axiom_count": 135804,
-    "axiom_count_incl": 135804,
-    "class_count": 13795,
-    "class_count_incl": 13795,
+    "axiom_count": 135808,
+    "axiom_count_incl": 135808,
+    "class_count": 13796,
+    "class_count_incl": 13796,
     "dataproperty_count": 0,
     "dataproperty_count_incl": 0,
     "datatypes_count": 2,
@@ -26,7 +26,7 @@
     "obj_property_count_incl": 2,
     "ontology_anno_count": 12,
     "ontology_iri": "http://purl.obolibrary.org/obo/mondo/sources/doid.owl",
-    "ontology_version_iri": "http://purl.obolibrary.org/obo/mondo/sources/2026-05-08/doid.owl",
+    "ontology_version_iri": "http://purl.obolibrary.org/obo/mondo/sources/2026-05-18/doid.owl",
     "owl2": true,
     "owl2_dl": true,
     "owl2_el": true,
@@ -37,8 +37,8 @@
     "rdfs": false,
     "rule_count": 0,
     "rule_count_incl": 0,
-    "signature_entity_count": 13830,
-    "signature_entity_count_incl": 13830,
+    "signature_entity_count": 13831,
+    "signature_entity_count_incl": 13831,
     "syntax": "RDF/XML Syntax",
     "tbox_axiom_count": 17119,
     "tbox_axiom_count_incl": 17119,
@@ -67,24 +67,24 @@
     "valid_imports": [],
     "valid_imports_incl": [],
     "axiom_type_count": {
-      "AnnotationAssertion": 104855,
+      "AnnotationAssertion": 104858,
       "SubAnnotationPropertyOf": 3,
       "DisjointClasses": 26,
-      "Declaration": 13827,
+      "Declaration": 13828,
       "SubClassOf": 17093
     },
     "axiom_type_count_incl": {
-      "AnnotationAssertion": 104855,
+      "AnnotationAssertion": 104858,
       "SubAnnotationPropertyOf": 3,
       "DisjointClasses": 26,
-      "Declaration": 13827,
+      "Declaration": 13828,
       "SubClassOf": 17093
     },
     "class_expression_count": {
-      "Class": 48193
+      "Class": 48194
     },
     "class_expression_count_incl": {
-      "Class": 48193
+      "Class": 48194
     },
     "curie_map": {
       "DISDRIV": "http://purl.obolibrary.org/obo/DISDRIV_",
@@ -114,13 +114,13 @@
     },
     "namespace_axiom_count": {
       "DISDRIV": 2,
-      "oboInOwl": 91092,
+      "oboInOwl": 91094,
       "owl": 2518,
       "DOID": 46526,
       "HP": 122,
       "skos": 7311,
       "CL": 61,
-      "rdfs": 20682,
+      "rdfs": 20684,
       "BFO": 2,
       "FOODON": 24,
       "NCBITaxon": 339,
@@ -133,19 +133,19 @@
       "CHEBI": 94,
       "UBERON": 417,
       "SO": 19,
-      "obo": 264,
+      "obo": 265,
       "GENO": 10,
       "dc": 1
     },
     "namespace_axiom_count_incl": {
       "DISDRIV": 2,
-      "oboInOwl": 91092,
+      "oboInOwl": 91094,
       "owl": 2518,
       "DOID": 46526,
       "HP": 122,
       "skos": 7311,
       "CL": 61,
-      "rdfs": 20682,
+      "rdfs": 20684,
       "BFO": 2,
       "FOODON": 24,
       "NCBITaxon": 339,
@@ -158,7 +158,7 @@
       "CHEBI": 94,
       "UBERON": 417,
       "SO": 19,
-      "obo": 264,
+      "obo": 265,
       "GENO": 10,
       "dc": 1
     },
@@ -184,7 +184,7 @@
       "IAO": 2,
       "UBERON": 417,
       "SO": 19,
-      "obo": 262,
+      "obo": 263,
       "GENO": 10,
       "dc": 1
     },
@@ -210,7 +210,7 @@
       "IAO": 2,
       "UBERON": 417,
       "SO": 19,
-      "obo": 262,
+      "obo": 263,
       "GENO": 10,
       "dc": 1
     },

@@ -5,5 +5,5 @@
 | icd10who | <https://icd.who.int/browse10/2019/en#/> |  |  |
 | icd11foundation | <http://who.int/icd> |  | "2025-01-26" |
 | ncit | <http://purl.obolibrary.org/obo/ncit.owl> | <http://purl.obolibrary.org/obo/ncit/releases/2026-03-19/ncit.owl> | "26.02d" |
-| omim | <http://purl.obolibrary.org/obo/mondo/omim.owl> | <http://purl.obolibrary.org/obo/mondo/releases/2026-05-06/omim.owl> | "2026-05-06" |
+| omim | <http://purl.obolibrary.org/obo/mondo/omim.owl> | <http://purl.obolibrary.org/obo/mondo/releases/2026-05-13/omim.owl> | "2026-05-13" |
 | ordo | <https://www.orphadata.com/data/ontologies/ordo/last_version/ORDO_en_4.7.owl> | <https://www.orphadata.com/data/ontologies/ordo/last_version/ORDO_en_4.7.owl> | "4.7" |

@@ -2904,8 +2904,6 @@ MONDO:0014856	combined oxidative phosphorylation defect type 30	MONDO:0006025	DO
 MONDO:0014859	developmental and epileptic encephalopathy, 37	MONDO:0006025	DOID:0080435	DOID:0050737	autosomal recessive disease
 MONDO:0014861	autoimmune disease, multisystem, infantile-onset, 2	MONDO:0006025	DOID:0061161	DOID:0050737	autosomal recessive disease
 MONDO:0014862	cerebral palsy, spastic quadriplegic, 3	MONDO:0006025	DOID:0081361	DOID:0050737	autosomal recessive disease
-MONDO:0014866	Charcot-Marie-Tooth disease axonal type 2T	MONDO:0000426	DOID:0110160	DOID:0050736	autosomal dominant disease
-MONDO:0014866	Charcot-Marie-Tooth disease axonal type 2T	MONDO:0006025	DOID:0110160	DOID:0050737	autosomal recessive disease
 MONDO:0014868	developmental and epileptic encephalopathy, 38	MONDO:0006025	DOID:0080417	DOID:0050737	autosomal recessive disease
 MONDO:0014871	retinitis pigmentosa 75	MONDO:0006025	DOID:0110361	DOID:0050737	autosomal recessive disease
 MONDO:0014872	congenital stationary night blindness 1H	MONDO:0006025	DOID:0110866	DOID:0050737	autosomal recessive disease
@@ -3912,6 +3910,8 @@ MONDO:0044326	developmental delay and seizures with or without movement abnormal
 MONDO:0044329	osteogenesis imperfecta, type 18	MONDO:0006025	DOID:0111848	DOID:0050737	autosomal recessive disease
 MONDO:0044330	hyperekplexia 4	MONDO:0006025	DOID:0080581	DOID:0050737	autosomal recessive disease
 MONDO:0044634	retinitis pigmentosa-hearing loss-premature aging-short stature-facial dysmorphism syndrome	MONDO:0006025	DOID:0081175	DOID:0050737	autosomal recessive disease
+MONDO:0044640	Charcot-Marie-Tooth disease type 2T	MONDO:0000426	DOID:0110160	DOID:0050736	autosomal dominant disease
+MONDO:0044640	Charcot-Marie-Tooth disease type 2T	MONDO:0006025	DOID:0110160	DOID:0050737	autosomal recessive disease
 MONDO:0044646	early-onset progressive diffuse brain atrophy-microcephaly-muscle weakness-optic atrophy syndrome	MONDO:0019502	DOID:0070423	DOID:0060308	autosomal recessive non-syndromic intellectual disability
 MONDO:0044701	childhood-onset motor and cognitive regression syndrome with extrapyramidal movement disorder	MONDO:0000426	DOID:0070474	DOID:0050736	autosomal dominant disease
 MONDO:0044701	childhood-onset motor and cognitive regression syndrome with extrapyramidal movement disorder	MONDO:0005559	DOID:0070474	DOID:1289	neurodegenerative disease

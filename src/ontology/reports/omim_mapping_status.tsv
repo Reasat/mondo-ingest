@@ -13,7 +13,9 @@ OMIM:621566	davis-wells syndrome	False	False	False
 OMIM:621567	congenital disorder of glycosylation, type ibb	False	False	False
 OMIM:621570	cornelia lange lange syndrome 7	False	False	False
 OMIM:621582	ras-associated autoimmune leukoproliferative disorder 2	False	False	False
+OMIM:621585	mendez-johnson immunoneurologic syndrome	False	False	False
 OMIM:621587	retinitis pigmentosa 107	False	False	False
+OMIM:621588	epidermodysplasia verruciformis, susceptibility to, 6	False	False	False
 OMIM:100500		False	False	True
 OMIM:100680		False	False	True
 OMIM:100735		False	False	True
@@ -11392,7 +11394,7 @@ OMIM:608350	EMCN	False	True	False
 OMIM:608351	IGSF11	False	True	False
 OMIM:608352	ACRBP	False	True	False
 OMIM:608353	AZIN2	False	True	False
-OMIM:608356	ODF3	False	True	False
+OMIM:608356	CIMAP1A	False	True	False
 OMIM:608357	SULT1C4	False	True	False
 OMIM:608359	SULT4A1	False	True	False
 OMIM:608360	LRRC8A	False	True	False
@@ -15345,7 +15347,7 @@ OMIM:613797	PRSS33	False	True	False
 OMIM:613798	CCDC39	False	True	False
 OMIM:613799	CCDC40	False	True	False
 OMIM:613802	MLEC	False	True	False
-OMIM:613813	MDM1	False	True	False
+OMIM:613813	SAXO6	False	True	False
 OMIM:613814	TTC19	False	True	False
 OMIM:613815	CYP21A2	False	True	False
 OMIM:613816	UBR7	False	True	False
@@ -15549,7 +15551,7 @@ OMIM:614216	ASCC2	False	True	False
 OMIM:614217	ASCC3	False	True	False
 OMIM:614218	WDR81	False	True	False
 OMIM:614232	HSD11B2	False	True	False
-OMIM:614234	PIFO	False	True	False
+OMIM:614234	CIMAP3	False	True	False
 OMIM:614235	PDZD8	False	True	False
 OMIM:614236	SLC38A7	False	True	False
 OMIM:614239	PHETA1	False	True	False
@@ -16749,7 +16751,7 @@ OMIM:616441	OVOL2	False	True	False
 OMIM:616442	OVOL3	False	True	False
 OMIM:616443	ZMYM5	False	True	False
 OMIM:616444	RBM19	False	True	False
-OMIM:616446	LEXM	False	True	False
+OMIM:616446	CIMAP2	False	True	False
 OMIM:616447	VIRMA	False	True	False
 OMIM:616448	RAB12	False	True	False
 OMIM:616450	EFHD2	False	True	False
@@ -18118,7 +18120,7 @@ OMIM:619038	SPOCD1	False	True	False
 OMIM:619039	REPIN1	False	True	False
 OMIM:619043	IPPK	False	True	False
 OMIM:619045	SERHL2	False	True	False
-OMIM:619047	PPP1R32	False	True	False
+OMIM:619047	SAXO4	False	True	False
 OMIM:619049	TDRP	False	True	False
 OMIM:619050	HMGCLL1	False	True	False
 OMIM:619066	ZNF532	False	True	False
@@ -19512,6 +19514,7 @@ OMIM:621581	ZNF524	False	True	False
 OMIM:621583	ZNF558	False	True	False
 OMIM:621584	ZNF362	False	True	False
 OMIM:621586	PWWP2B	False	True	False
+OMIM:621589	LBHD1	False	True	False
 OMIMPS:151623	Li-Fraumeni syndrome	False	True	False
 OMIMPS:608902	Drug metabolism, altered (select examples)	False	True	False
 OMIM:173500		False	True	True
