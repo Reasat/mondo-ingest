@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mondo/external/processed-nord.robot.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mondo/external/2026-05-18/processed-nord.robot.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mondo/external/2026-06-08/processed-nord.robot.owl"/>
     </owl:Ontology>
     
 
@@ -51273,7 +51273,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0011551">
         <oboInOwl:hasDbXref>NORD:1810</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Tyrosine Hydroxylase Deficiency</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#nord_rare"/>
     </owl:Class>
     <owl:Axiom>
@@ -51281,13 +51280,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>NORD:1810</owl:annotatedTarget>
         <oboInOwl:source>MONDO:NORD</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0011551"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Tyrosine Hydroxylase Deficiency</owl:annotatedTarget>
-        <obo:OMO_0002001>https://w3id.org/information-resource-registry/nord</obo:OMO_0002001>
-        <oboInOwl:hasDbXref>NORD:1810</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0011551"/>
@@ -104315,7 +104307,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0017363">
         <oboInOwl:hasDbXref>NORD:967</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Chronic Eosinophilic Pneumonia</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#nord_rare"/>
     </owl:Class>
     <owl:Axiom>
@@ -104323,13 +104314,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>NORD:967</owl:annotatedTarget>
         <oboInOwl:source>MONDO:NORD</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0017363"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Chronic Eosinophilic Pneumonia</owl:annotatedTarget>
-        <obo:OMO_0002001>https://w3id.org/information-resource-registry/nord</obo:OMO_0002001>
-        <oboInOwl:hasDbXref>NORD:967</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0017363"/>
@@ -121638,7 +121622,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0019171">
         <oboInOwl:hasDbXref>NORD:1675</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Long QT Syndrome</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#nord_rare"/>
     </owl:Class>
     <owl:Axiom>
@@ -121646,13 +121629,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>NORD:1675</owl:annotatedTarget>
         <oboInOwl:source>MONDO:NORD</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019171"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Long QT Syndrome</owl:annotatedTarget>
-        <obo:OMO_0002001>https://w3id.org/information-resource-registry/nord</obo:OMO_0002001>
-        <oboInOwl:hasDbXref>NORD:1675</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019171"/>
@@ -136118,7 +136094,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0024526">
         <oboInOwl:hasDbXref>NORD:1344</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Laband Syndrome</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#nord_rare"/>
     </owl:Class>
     <owl:Axiom>
@@ -136126,13 +136101,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>NORD:1344</owl:annotatedTarget>
         <oboInOwl:source>MONDO:NORD</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0024526"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Laband Syndrome</owl:annotatedTarget>
-        <obo:OMO_0002001>https://w3id.org/information-resource-registry/nord</obo:OMO_0002001>
-        <oboInOwl:hasDbXref>NORD:1344</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0024526"/>
@@ -152478,7 +152446,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_8000006">
         <oboInOwl:hasDbXref>NORD:1849</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>WHIM Syndrome</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/mondo#nord_rare"/>
     </owl:Class>
     <owl:Axiom>
@@ -152486,13 +152453,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>NORD:1849</owl:annotatedTarget>
         <oboInOwl:source>MONDO:NORD</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_8000006"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>WHIM Syndrome</owl:annotatedTarget>
-        <obo:OMO_0002001>https://w3id.org/information-resource-registry/nord</obo:OMO_0002001>
-        <oboInOwl:hasDbXref>NORD:1849</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_8000006"/>

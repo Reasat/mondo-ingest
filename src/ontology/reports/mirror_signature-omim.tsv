@@ -1573,6 +1573,7 @@
 <http://identifiers.org/hgnc/19750>
 <http://identifiers.org/hgnc/1975>
 <http://identifiers.org/hgnc/19829>
+<http://identifiers.org/hgnc/19835>
 <http://identifiers.org/hgnc/19849>
 <http://identifiers.org/hgnc/19857>
 <http://identifiers.org/hgnc/1985>
@@ -3537,6 +3538,7 @@
 <http://identifiers.org/hgnc/6021>
 <http://identifiers.org/hgnc/6023>
 <http://identifiers.org/hgnc/6024>
+<http://identifiers.org/hgnc/6027>
 <http://identifiers.org/hgnc/602>
 <http://identifiers.org/hgnc/603>
 <http://identifiers.org/hgnc/6050>
@@ -4025,6 +4027,7 @@
 <http://identifiers.org/hgnc/7982>
 <http://identifiers.org/hgnc/7983>
 <http://identifiers.org/hgnc/7985>
+<http://identifiers.org/hgnc/7988>
 <http://identifiers.org/hgnc/7989>
 <http://identifiers.org/hgnc/7994>
 <http://identifiers.org/hgnc/799>
@@ -13321,6 +13324,7 @@
 <https://omim.org/entry/301163>
 <https://omim.org/entry/301164>
 <https://omim.org/entry/301165>
+<https://omim.org/entry/301166>
 <https://omim.org/entry/301200>
 <https://omim.org/entry/301201>
 <https://omim.org/entry/301220>
@@ -35455,6 +35459,27 @@
 <https://omim.org/entry/621587>
 <https://omim.org/entry/621588>
 <https://omim.org/entry/621589>
+<https://omim.org/entry/621590>
+<https://omim.org/entry/621592>
+<https://omim.org/entry/621593>
+<https://omim.org/entry/621594>
+<https://omim.org/entry/621595>
+<https://omim.org/entry/621596>
+<https://omim.org/entry/621597>
+<https://omim.org/entry/621598>
+<https://omim.org/entry/621599>
+<https://omim.org/entry/621600>
+<https://omim.org/entry/621602>
+<https://omim.org/entry/621603>
+<https://omim.org/entry/621604>
+<https://omim.org/entry/621605>
+<https://omim.org/entry/621606>
+<https://omim.org/entry/621607>
+<https://omim.org/entry/621608>
+<https://omim.org/entry/621609>
+<https://omim.org/entry/621610>
+<https://omim.org/entry/621611>
+<https://omim.org/entry/621612>
 <https://omim.org/phenotypicSeries/PS100070>
 <https://omim.org/phenotypicSeries/PS100300>
 <https://omim.org/phenotypicSeries/PS101800>
@@ -35674,7 +35699,6 @@
 <https://omim.org/phenotypicSeries/PS193000>
 <https://omim.org/phenotypicSeries/PS193100>
 <https://omim.org/phenotypicSeries/PS193500>
-<https://omim.org/phenotypicSeries/PS193670>
 <https://omim.org/phenotypicSeries/PS193900>
 <https://omim.org/phenotypicSeries/PS194070>
 <https://omim.org/phenotypicSeries/PS200600>
@@ -35919,6 +35943,7 @@
 <https://omim.org/phenotypicSeries/PS601678>
 <https://omim.org/phenotypicSeries/PS601744>
 <https://omim.org/phenotypicSeries/PS601764>
+<https://omim.org/phenotypicSeries/PS601859>
 <https://omim.org/phenotypicSeries/PS602014>
 <https://omim.org/phenotypicSeries/PS602483>
 <https://omim.org/phenotypicSeries/PS602588>
@@ -36683,6 +36708,7 @@
 <https://www.ncbi.nlm.nih.gov/gene/3260>
 <https://www.ncbi.nlm.nih.gov/gene/3261>
 <https://www.ncbi.nlm.nih.gov/gene/3341>
+<https://www.ncbi.nlm.nih.gov/gene/3343>
 <https://www.ncbi.nlm.nih.gov/gene/3349>
 <https://www.ncbi.nlm.nih.gov/gene/337892>
 <https://www.ncbi.nlm.nih.gov/gene/337893>
@@ -36947,6 +36973,7 @@
 <https://www.ncbi.nlm.nih.gov/gene/619537>
 <https://www.ncbi.nlm.nih.gov/gene/619539>
 <https://www.ncbi.nlm.nih.gov/gene/628>
+<https://www.ncbi.nlm.nih.gov/gene/6298>
 <https://www.ncbi.nlm.nih.gov/gene/6365>
 <https://www.ncbi.nlm.nih.gov/gene/6377>
 <https://www.ncbi.nlm.nih.gov/gene/6378>

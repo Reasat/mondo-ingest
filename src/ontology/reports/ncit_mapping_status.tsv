@@ -1854,6 +1854,7 @@ NCIT:C142827	Primary Pulmonary Myxoid Sarcoma with EWSR1-CREB1 Fusion	False	Fals
 NCIT:C142828	Lung Myoepithelial Tumor	False	False	False
 NCIT:C142829	Lung Myoepithelioma	False	False	False
 NCIT:C142830	Lung Myoepithelial Carcinoma	False	False	False
+NCIT:C142833	Pulmonary Langerhans Cell Histiocytosis	False	False	False
 NCIT:C142848	Recurrent Malignant Glioma	False	False	False
 NCIT:C142849	Recurrent Rhabdoid Tumor	False	False	False
 NCIT:C142850	Refractory Peripheral Primitive Neuroectodermal Tumor	False	False	False
@@ -202798,7 +202799,6 @@ NCIT:C138211	High Grade B-Cell Lymphoma	True	False	False
 NCIT:C139012	Breast Implant-Associated Anaplastic Large Cell Lymphoma	True	False	False
 NCIT:C141365	Porcine Leukemia	True	False	False
 NCIT:C142783	Lung PEComa	True	False	False
-NCIT:C142833	Pulmonary Langerhans Cell Histiocytosis	True	False	False
 NCIT:C147005	Cardiac Germ Cell Tumor	True	False	False
 NCIT:C147073	Canine Mammary Adenoma	True	False	False
 NCIT:C147532	Sheep Lung Adenocarcinoma	True	False	False

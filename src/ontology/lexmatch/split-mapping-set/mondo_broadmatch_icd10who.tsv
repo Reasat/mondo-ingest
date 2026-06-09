@@ -27,6 +27,8 @@ MONDO:0003781	bronchitis	skos:broadMatch	ICD10WHO:J20	Acute bronchitis	semapv:Le
 MONDO:0003781	bronchitis	skos:broadMatch	ICD10WHO:J20	Acute bronchitis	semapv:LexicalMatching	oaklib	0.8	oio:hasNarrowSynonym	rdfs:label	acute bronchitis	LEXMATCH
 MONDO:0004631	tongue cancer	skos:broadMatch	ICD10WHO:C01	Malignant neoplasm of base of tongue	semapv:LexicalMatching	oaklib	0.8	oio:hasNarrowSynonym	oio:hasExactSynonym	malignant neoplasm of base of tongue	LEXMATCH
 MONDO:0004631	tongue cancer	skos:broadMatch	ICD10WHO:C01	Malignant neoplasm of base of tongue	semapv:LexicalMatching	oaklib	0.8	oio:hasNarrowSynonym	rdfs:label	malignant neoplasm of base of tongue	LEXMATCH
+MONDO:0005100	systemic sclerosis	skos:broadMatch	ICD10WHO:G37.0	Diffuse sclerosis	semapv:LexicalMatching	oaklib	0.8	oio:hasNarrowSynonym	oio:hasExactSynonym	diffuse sclerosis	LEXMATCH
+MONDO:0005100	systemic sclerosis	skos:broadMatch	ICD10WHO:G37.0	Diffuse sclerosis	semapv:LexicalMatching	oaklib	0.8	oio:hasNarrowSynonym	rdfs:label	diffuse sclerosis	LEXMATCH
 MONDO:0005515	oral cavity cancer	skos:broadMatch	ICD10WHO:C04	Malignant neoplasm of floor of mouth	semapv:LexicalMatching	oaklib	0.8	oio:hasNarrowSynonym	oio:hasExactSynonym	malignant neoplasm of floor of mouth	LEXMATCH
 MONDO:0005515	oral cavity cancer	skos:broadMatch	ICD10WHO:C04	Malignant neoplasm of floor of mouth	semapv:LexicalMatching	oaklib	0.8	oio:hasNarrowSynonym	rdfs:label	malignant neoplasm of floor of mouth	LEXMATCH
 MONDO:0005615	plasmacytoma	skos:broadMatch	ICD10WHO:C90.3	Solitary plasmacytoma	semapv:LexicalMatching	oaklib	0.8	oio:hasNarrowSynonym	oio:hasExactSynonym	solitary plasmacytoma	LEXMATCH

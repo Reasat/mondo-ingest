@@ -85,33 +85,18 @@ MONDO:0020316	acute myeloid leukemia with abnormal bone marrow eosinophils inv(1
 MONDO:0020316	acute myeloid leukemia with abnormal bone marrow eosinophils inv(16)(p13q22) or t(16;16)(p13;q22)	skos:closeMatch	ICD10WHO:C92.5	Acute myelomonocytic leukaemia	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	acute myelomonocytic leukaemia	LEXMATCH
 MONDO:0020338	adult pure red cell aplasia	skos:closeMatch	ICD10WHO:D60	Acquired pure red cell aplasia [erythroblastopenia]	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	acquired pure red cell aplasia	LEXMATCH
 MONDO:0020338	adult pure red cell aplasia	skos:closeMatch	ICD10WHO:D60	Acquired pure red cell aplasia [erythroblastopenia]	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	acquired pure red cell aplasia	LEXMATCH
-MONDO:0020782	chronic gingivitis	skos:closeMatch	ICD10WHO:K05.1	Chronic gingivitis	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	chronic gingivitis	LEXMATCH
-MONDO:0020782	chronic gingivitis	skos:closeMatch	ICD10WHO:K05.1	Chronic gingivitis	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	chronic gingivitis	LEXMATCH
 MONDO:0020797	decompression sickness	skos:closeMatch	ICD10WHO:T70.3	Caisson disease [decompression sickness]	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	caisson disorder	LEXMATCH
 MONDO:0020797	decompression sickness	skos:closeMatch	ICD10WHO:T70.3	Caisson disease [decompression sickness]	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	caisson disorder	LEXMATCH
-MONDO:0020863	laryngeal diphtheria	skos:closeMatch	ICD10WHO:A36.2	Laryngeal diphtheria	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	laryngeal diphtheria	LEXMATCH
-MONDO:0020863	laryngeal diphtheria	skos:closeMatch	ICD10WHO:A36.2	Laryngeal diphtheria	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	laryngeal diphtheria	LEXMATCH
-MONDO:0020866	nasopharyngeal diphtheria	skos:closeMatch	ICD10WHO:A36.1	Nasopharyngeal diphtheria	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	nasopharyngeal diphtheria	LEXMATCH
-MONDO:0020866	nasopharyngeal diphtheria	skos:closeMatch	ICD10WHO:A36.1	Nasopharyngeal diphtheria	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	nasopharyngeal diphtheria	LEXMATCH
 MONDO:0021146	headache disorder	skos:closeMatch	ICD10WHO:G44	Other headache syndromes	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasBroadSynonym	headache syndromes	LEXMATCH
 MONDO:0021340	intertrigo	skos:closeMatch	ICD10WHO:L30.4	Erythema intertrigo	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	erythema intertrigo	LEXMATCH
 MONDO:0021340	intertrigo	skos:closeMatch	ICD10WHO:L30.4	Erythema intertrigo	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	erythema intertrigo	LEXMATCH
-MONDO:0021377	hypertrophic lichen planus	skos:closeMatch	ICD10WHO:L43.0	Hypertrophic lichen planus	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	hypertrophic lichen planus	LEXMATCH
-MONDO:0021377	hypertrophic lichen planus	skos:closeMatch	ICD10WHO:L43.0	Hypertrophic lichen planus	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	hypertrophic lichen planus	LEXMATCH
 MONDO:0021718	polyneuritis	skos:closeMatch	ICD10WHO:G61	Inflammatory polyneuropathy	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	inflammatory polyneuropathy	LEXMATCH
 MONDO:0021718	polyneuritis	skos:closeMatch	ICD10WHO:G61	Inflammatory polyneuropathy	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	inflammatory polyneuropathy	LEXMATCH
-MONDO:0021739	prurigo	skos:closeMatch	ICD10WHO:L28.2	Other prurigo	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasBroadSynonym	prurigo	LEXMATCH
 MONDO:0021742	puerperal infection	skos:closeMatch	ICD10WHO:O86	Other puerperal infections	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasBroadSynonym	puerperal infections	LEXMATCH
-MONDO:0021750	pyonephrosis	skos:closeMatch	ICD10WHO:N13.6	Pyonephrosis	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	pyonephrosis	LEXMATCH
-MONDO:0021750	pyonephrosis	skos:closeMatch	ICD10WHO:N13.6	Pyonephrosis	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	pyonephrosis	LEXMATCH
 MONDO:0021783	streptococcal sore throat	skos:closeMatch	ICD10WHO:J02.0	Streptococcal pharyngitis	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	streptococcal pharyngitis	LEXMATCH
 MONDO:0021783	streptococcal sore throat	skos:closeMatch	ICD10WHO:J02.0	Streptococcal pharyngitis	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	streptococcal pharyngitis	LEXMATCH
 MONDO:0021929	traumatic myositis ossificans	skos:closeMatch	ICD10WHO:M61.0	Myositis ossificans traumatica	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	myositis ossificans traumatica	LEXMATCH
 MONDO:0021929	traumatic myositis ossificans	skos:closeMatch	ICD10WHO:M61.0	Myositis ossificans traumatica	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	myositis ossificans traumatica	LEXMATCH
-MONDO:0022096	pyogenic granuloma	skos:closeMatch	ICD10WHO:L98.0	Pyogenic granuloma	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	pyogenic granuloma	LEXMATCH
-MONDO:0022096	pyogenic granuloma	skos:closeMatch	ICD10WHO:L98.0	Pyogenic granuloma	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	pyogenic granuloma	LEXMATCH
-MONDO:0022103	chronic prostatitis	skos:closeMatch	ICD10WHO:N41.1	Chronic prostatitis	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	chronic prostatitis	LEXMATCH
-MONDO:0022103	chronic prostatitis	skos:closeMatch	ICD10WHO:N41.1	Chronic prostatitis	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	chronic prostatitis	LEXMATCH
 MONDO:0022208	crystal arthropathy	skos:closeMatch	ICD10WHO:M11	Other crystal arthropathies	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasBroadSynonym	crystal arthropathies	LEXMATCH
 MONDO:0022699	cerebral palsy spastic hemiplegic	skos:closeMatch	ICD10WHO:G80.2	Spastic hemiplegic cerebral palsy	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	spastic hemiplegic cerebral palsy	LEXMATCH
 MONDO:0022699	cerebral palsy spastic hemiplegic	skos:closeMatch	ICD10WHO:G80.2	Spastic hemiplegic cerebral palsy	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	spastic hemiplegic cerebral palsy	LEXMATCH

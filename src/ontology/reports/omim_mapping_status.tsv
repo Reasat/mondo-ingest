@@ -16,6 +16,10 @@ OMIM:621582	ras-associated autoimmune leukoproliferative disorder 2	False	False	
 OMIM:621585	mendez-johnson immunoneurologic syndrome	False	False	False
 OMIM:621587	retinitis pigmentosa 107	False	False	False
 OMIM:621588	epidermodysplasia verruciformis, susceptibility to, 6	False	False	False
+OMIM:621595	cardiomyopathy, dilated, 2n	False	False	False
+OMIM:621600	paget disease of bone 7, early-onset	False	False	False
+OMIM:621608	developmental and epileptic encephalopathy 122	False	False	False
+OMIMPS:601859	Autoimmune lymphoproliferative syndrome	False	False	False
 OMIM:100500		False	False	True
 OMIM:100680		False	False	True
 OMIM:100735		False	False	True
@@ -2620,7 +2624,7 @@ OMIM:151020	lentil agglutinin binding	False	True	False
 OMIM:151250	AL-A1	False	True	False
 OMIM:151290	B3GAT1	False	True	False
 OMIM:151300	LNPEP	False	True	False
-OMIM:151310	LEUT	False	True	False
+OMIM:151310	leucine transport, high	False	True	False
 OMIM:151350	LARS1	False	True	False
 OMIM:151385	RUNX1	False	True	False
 OMIM:151410	BCR	False	True	False
@@ -2700,7 +2704,7 @@ OMIM:154200	MDH1	False	True	False
 OMIM:154235	MAK	False	True	False
 OMIM:154250	ME1	False	True	False
 OMIM:154270	ME2	False	True	False
-OMIM:154280	SAI1	False	True	False
+OMIM:154280	suppressor of anchorage independence 1	False	True	False
 OMIM:154360	MGAM	False	True	False
 OMIM:154365	PSMC2	False	True	False
 OMIM:154540	M6PR	False	True	False
@@ -4562,6 +4566,7 @@ OMIM:301160	CXORF65	False	True	False
 OMIM:301161	SYAP1	False	True	False
 OMIM:301162	RBMX2	False	True	False
 OMIM:301165	RBM41	False	True	False
+OMIM:301166	ZNF280C	False	True	False
 OMIM:301300	ALAS2	False	True	False
 OMIM:301770	ARR3	False	True	False
 OMIM:301780	ARSC2	False	True	False
@@ -16198,7 +16203,7 @@ OMIM:615409	SPATA33	False	True	False
 OMIM:615410	MRAP2	False	True	False
 OMIM:615416	BHLHA9	False	True	False
 OMIM:615417	BET1L	False	True	False
-OMIM:615421	CCDC111	False	True	False
+OMIM:615421	PRIMPOL	False	True	False
 OMIM:615423	TRMT10C	False	True	False
 OMIM:615427	ELMOD3	False	True	False
 OMIM:615428	DDX47	False	True	False
@@ -19515,6 +19520,24 @@ OMIM:621583	ZNF558	False	True	False
 OMIM:621584	ZNF362	False	True	False
 OMIM:621586	PWWP2B	False	True	False
 OMIM:621589	LBHD1	False	True	False
+OMIM:621590	LEISA1	False	True	False
+OMIM:621592	GLTC1	False	True	False
+OMIM:621593	SDIM1	False	True	False
+OMIM:621594	PURPL	False	True	False
+OMIM:621596	ASH1LAS1	False	True	False
+OMIM:621597	ANKMY2	False	True	False
+OMIM:621598	FAM216A	False	True	False
+OMIM:621599	CCDC166	False	True	False
+OMIM:621602	SAXO2	False	True	False
+OMIM:621603	CIMAP1D	False	True	False
+OMIM:621604	SAXO5	False	True	False
+OMIM:621605	CIMAP1C	False	True	False
+OMIM:621606	TEKTL1	False	True	False
+OMIM:621607	CIMAP1B	False	True	False
+OMIM:621609	LINC00689	False	True	False
+OMIM:621610	SAXO3	False	True	False
+OMIM:621611	CCDC200	False	True	False
+OMIM:621612	OIP5AS1	False	True	False
 OMIMPS:151623	Li-Fraumeni syndrome	False	True	False
 OMIMPS:608902	Drug metabolism, altered (select examples)	False	True	False
 OMIM:173500		False	True	True
@@ -20573,7 +20596,7 @@ OMIM:193500	waardenburg syndrome, type 1	True	False	False
 OMIM:193510	waardenburg syndrome, type 2a	True	False	False
 OMIM:193520	watson syndrome	True	False	False
 OMIM:193530	weyers acrofacial dysostosis	True	False	False
-OMIM:193670	whim syndrome 1	True	False	False
+OMIM:193670	whim syndrome	True	False	False
 OMIM:193700	arthrogryposis, distal, type 2a	True	False	False
 OMIM:193900	white sponge nevus 1	True	False	False
 OMIM:194050	williams-beuren syndrome	True	False	False
@@ -22262,6 +22285,7 @@ OMIM:601362	digeorge syndrome/velocardiofacial syndrome complex 2	True	False	Fal
 OMIM:601363	wilms tumor 4	True	False	False
 OMIM:601367	stroke, ischemic	True	False	False
 OMIM:601369	deafness, autosomal dominant 9	True	False	False
+OMIM:601375	ectodermal dysplasia, christianson-fourie type	True	False	False
 OMIM:601382	charcot-marie-tooth disease, demyelinating, type 4b1	True	False	False
 OMIM:601386	deafness, autosomal recessive 12	True	False	False
 OMIM:601388	type 1 diabetes mellitus 12	True	False	False
@@ -26995,7 +27019,7 @@ OMIM:619401	lymphatic malformation 11	True	False	False
 OMIM:619402	cardiomyopathy, familial hypertrophic, 28	True	False	False
 OMIM:619405	spinocerebellar ataxia, autosomal recessive 30	True	False	False
 OMIM:619406	hypokalemic tubulopathy and deafness	True	False	False
-OMIM:619407	whim syndrome 2	True	False	False
+OMIM:619407	neutropenia, severe congenital, 13, autosomal recessive	True	False	False
 OMIM:619418	neurologic, endocrine, and pancreatic disease, multisystem, infantile-onset 2	True	False	False
 OMIM:619420	martsolf syndrome 2	True	False	False
 OMIM:619422	spinocerebellar ataxia, autosomal recessive 31	True	False	False
@@ -28136,7 +28160,7 @@ OMIMPS:192600	Cardiomyopathy, familial hypertrophic	True	False	False
 OMIMPS:193000	Vesicoureteral reflux	True	False	False
 OMIMPS:193100	Hypophosphatemic rickets	True	False	False
 OMIMPS:193500	Waardenburg syndrome	True	False	False
-OMIMPS:193670	WHIM syndrome	True	False	False
+OMIMPS:193670		True	False	False
 OMIMPS:193900	White sponge nevus	True	False	False
 OMIMPS:194070	Wilms tumor	True	False	False
 OMIMPS:200600	Achondrogenesis	True	False	False
@@ -28330,7 +28354,7 @@ OMIMPS:300755	Immunodeficiency (select examples)	True	False	False
 OMIMPS:300818	Paroxysmal nocturnal hemoglobinuria	True	False	False
 OMIMPS:300908	Anemia, congenital, nonspherocytic hemolytic	True	False	False
 OMIMPS:301050	Alport syndrome	True	False	False
-OMIMPS:301108	Cataracts, hearing impairment, nephrotic syndrome, and enterocolitis 1	True	False	False
+OMIMPS:301108	Cataracts, hearing impairment, nephrotic syndrome, and enterocolitis	True	False	False
 OMIMPS:303350	Spastic paraplegia	True	False	False
 OMIMPS:304500	Deafness, X-linked	True	False	False
 OMIMPS:305100	Ectodermal dysplasia (select examples)	True	False	False
@@ -29932,7 +29956,6 @@ OMIM:601370	holoprosencephaly, semilobar, with craniosynostosis	True	True	False
 OMIM:601371	cataract, age-related nuclear	True	True	False
 OMIM:601372	chorea, remitting, with nystagmus and cataract	True	True	False
 OMIM:601374	aprosencephaly and cerebellar dysgenesis	True	True	False
-OMIM:601375	ectodermal dysplasia, hidrotic, christianson-fourie type	True	True	False
 OMIM:601376	chondrodysplasia, lethal, with long bone angulation and mixed bone density	True	True	False
 OMIM:601379	hunter-mcalpine craniosynostosis syndrome	True	True	False
 OMIM:601389	cervical ribs, sprengel anomaly, anal atresia, and urethral obstruction	True	True	False

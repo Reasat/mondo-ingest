@@ -1962,6 +1962,7 @@ MONDO:0013989	developmental and epileptic encephalopathy, 14	MONDO:0100062	OMIM:
 MONDO:0013990	pontocerebellar hypoplasia type 8	MONDO:0020135	OMIM:614961	OMIMPS:607596	pontocerebellar hypoplasia
 MONDO:0013993	pontocerebellar hypoplasia type 7	MONDO:0020135	OMIM:614969	OMIMPS:607596	pontocerebellar hypoplasia
 MONDO:0013994	Joubert syndrome 20	MONDO:0018772	OMIM:614970	OMIMPS:213300	Joubert syndrome
+MONDO:0013996	focal facial dermal dysplasia type II	MONDO:0018363	OMIM:614973	OMIMPS:136500	focal facial dermal dysplasia
 MONDO:0013997	focal facial dermal dysplasia type IV	MONDO:0018363	OMIM:614974	OMIMPS:136500	focal facial dermal dysplasia
 MONDO:0013998	MEGF8-related Carpenter syndrome	MONDO:0019012	OMIM:614976	OMIMPS:201000	Carpenter syndrome
 MONDO:0014002	autosomal dominant nocturnal frontal lobe epilepsy 5	MONDO:0000030	OMIM:615005	OMIMPS:600513	familial sleep-related hypermotor epilepsy
@@ -2775,7 +2776,6 @@ MONDO:0030356	short-rib thoracic dysplasia 21 without polydactyly	MONDO:0018770	
 MONDO:0030360	cholestasis, progressive familial intrahepatic, 6	MONDO:0015762	OMIM:619484	OMIMPS:211600	progressive familial intrahepatic cholestasis
 MONDO:0030361	Aicardi-Goutieres syndrome 8	MONDO:0018866	OMIM:619486	OMIMPS:225750	Aicardi-Goutieres syndrome
 MONDO:0030362	Aicardi-Goutieres syndrome 9	MONDO:0018866	OMIM:619487	OMIMPS:225750	Aicardi-Goutieres syndrome
-MONDO:0030374	WHIM syndrome 2	MONDO:0023880	OMIM:619407	OMIMPS:193670	WHIM syndrome
 MONDO:0030375	neurologic, endocrine, and pancreatic disease, multisystem, infantile-onset 2	MONDO:0024189	OMIM:619418	OMIMPS:616263	neurologic, endocrine, and pancreatic disease, multisystem, infantile-onset
 MONDO:0030376	Martsolf syndrome 2	MONDO:0023910	OMIM:619420	OMIMPS:212720	Martsolf syndrome
 MONDO:0030378	combined oxidative phosphorylation deficiency 53	MONDO:0000732	OMIM:619423	OMIMPS:609060	combined oxidative phosphorylation deficiency
@@ -3876,6 +3876,7 @@ MONDO:0979236	cardiomyopathy, dilated, 2l	MONDO:0016333	OMIM:621237	OMIMPS:11520
 MONDO:0979238	developmental and epileptic encephalopathy 118	MONDO:0100062	OMIM:621250	OMIMPS:308350	genetic developmental and epileptic encephalopathy
 MONDO:0979241	fanconi anemia, complementation group 10	MONDO:0019391	OMIM:621258	OMIMPS:227650	Fanconi anemia
 MONDO:0979242	short-rib thoracic dysplasia 22 without polydactyly	MONDO:0018770	OMIM:621260	OMIMPS:208500	Jeune syndrome
+MONDO:0979243	cardiomyopathy, dilated, 2M	MONDO:0016333	OMIM:621261	OMIMPS:115200	familial dilated cardiomyopathy
 MONDO:0979244	Diamond-Blackfan anemia 22	MONDO:0015253	OMIM:621262	OMIMPS:105650	Diamond-Blackfan anemia
 MONDO:0979570	immunodeficiency 133 with ectodermal dysplasia with or without peripheral neuropathy	MONDO:0021094	OMIM:621254	OMIMPS:300755	immunodeficiency disease
 MONDO:0979571	exudative vitreoretinopathy 8	MONDO:0019516	OMIM:621268	OMIMPS:133780	exudative vitreoretinopathy
@@ -3929,7 +3930,6 @@ MONDO:0981164	retinitis pigmentosa 101	MONDO:0019200	OMIM:621548	OMIMPS:268000	r
 MONDO:1010200	oocyte/zygote/embryo maturation arrest 16	MONDO:0014769	OMIM:617234	OMIMPS:615774	inherited oocyte maturation defect
 MONDO:1060177	developmental and epileptic encephalopathy 119	MONDO:0100062	OMIM:621304	OMIMPS:308350	genetic developmental and epileptic encephalopathy
 MONDO:1060185	systemic lupus erythematosus 18	MONDO:0007915	OMIM:621369	OMIMPS:601744	systemic lupus erythematosus
-MONDO:8000006	WHIM syndrome 1	MONDO:0023880	OMIM:193670	OMIMPS:193670	WHIM syndrome
 MONDO:8000008	Martsolf syndrome 1	MONDO:0023910	OMIM:212720	OMIMPS:212720	Martsolf syndrome
 MONDO:8000011	visceral neuropathy, familial, 1, autosomal recessive	MONDO:0023961	OMIM:243180	OMIMPS:243180	visceral neuropathy, familial
 MONDO:8000012	neurologic, endocrine, and pancreatic disease, multisystem, infantile-onset 1	MONDO:0024189	OMIM:616263	OMIMPS:616263	neurologic, endocrine, and pancreatic disease, multisystem, infantile-onset

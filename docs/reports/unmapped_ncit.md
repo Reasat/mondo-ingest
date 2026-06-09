@@ -8194,6 +8194,7 @@
 | NCIT:C6746   | Pulmonary Artery Angiosarcoma                                                                                                                                               |
 | NCIT:C142825 | Pulmonary Artery Intimal Sarcoma                                                                                                                                            |
 | NCIT:C223234 | Pulmonary Erdheim-Chester Disease                                                                                                                                           |
+| NCIT:C142833 | Pulmonary Langerhans Cell Histiocytosis                                                                                                                                     |
 | NCIT:C45607  | Pulmonary Lymphomatoid Granulomatosis                                                                                                                                       |
 | NCIT:C201978 | Pulmonary Mucinous Cystic Tumor of Borderline Malignancy                                                                                                                    |
 | NCIT:C7435   | Pulmonary Precancerous Condition                                                                                                                                            |

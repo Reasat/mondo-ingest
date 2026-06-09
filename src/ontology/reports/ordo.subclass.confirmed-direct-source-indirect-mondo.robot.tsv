@@ -274,7 +274,6 @@ MONDO:0013815	bent bone dysplasia syndrome 1	MONDO:0019698	Orphanet:313855	Orpha
 MONDO:0013860	idiopathic membranous glomerulonephritis	MONDO:0019722	Orphanet:97560	Orphanet:93548	glomerular disorder
 MONDO:0013866	neuronal ceroid lipofuscinosis 11	MONDO:0016295	Orphanet:314629	Orphanet:216	neuronal ceroid lipofuscinosis
 MONDO:0013931	peroxisome biogenesis disorder 4B	MONDO:0019053	Orphanet:95433	Orphanet:68373	peroxisomal disease
-MONDO:0013996	focal facial dermal dysplasia type II	MONDO:0018363	Orphanet:398173	Orphanet:398166	focal facial dermal dysplasia
 MONDO:0014062	mitochondrial DNA deletion syndrome with progressive myopathy	MONDO:0009637	Orphanet:352470	Orphanet:206966	inborn mitochondrial myopathy
 MONDO:0014147	neuronal ceroid lipofuscinosis 13	MONDO:0016295	Orphanet:352709	Orphanet:216	neuronal ceroid lipofuscinosis
 MONDO:0014157	mandibular hypoplasia-deafness-progeroid syndrome	MONDO:0019303	Orphanet:363649	Orphanet:79389	premature aging syndrome
@@ -381,6 +380,7 @@ MONDO:0017373	poliomyelitis	MONDO:0020010	Orphanet:2912	Orphanet:98010	infectiou
 MONDO:0017381	congenital herpes simplex virus infection	MONDO:0016511	Orphanet:293	Orphanet:232035	infectious embryofetopathy
 MONDO:0017382	familial clubfoot due to 5q31 microdeletion	MONDO:0016046	Orphanet:293144	Orphanet:199315	familial clubfoot with or without associated lower limb anomalies
 MONDO:0017383	familial clubfoot due to PITX1 point mutation	MONDO:0016046	Orphanet:293150	Orphanet:199315	familial clubfoot with or without associated lower limb anomalies
+MONDO:0017385	malignant migrating partial seizures of infancy	MONDO:0100022	Orphanet:293181	Orphanet:693802	neonatal/infantile epilepsy syndrome
 MONDO:0017404	distal Xq28 microduplication syndrome	MONDO:0017010	Orphanet:293939	Orphanet:263783	partial duplication of the long arm of chromosome X
 MONDO:0017409	fetal cytomegalovirus syndrome	MONDO:0016511	Orphanet:294	Orphanet:232035	infectious embryofetopathy
 MONDO:0017416	postpoliomyelitis syndrome	MONDO:0020129	Orphanet:2942	Orphanet:98506	acquired motor neuron disease
@@ -561,4 +561,5 @@ MONDO:0850112	breast implant-associated anaplastic large cell lymphoma	MONDO:001
 MONDO:0957462	primary pulmonary tuberculosis	MONDO:0018076	Orphanet:645814	Orphanet:3389	tuberculosis
 MONDO:0957464	primary cutaneous tuberculosis	MONDO:0018076	Orphanet:645849	Orphanet:3389	tuberculosis
 MONDO:0957467	primary genito-urinary tuberculosis	MONDO:0018076	Orphanet:645874	Orphanet:3389	tuberculosis
+MONDO:0957874	neuronopathy, distal hereditary motor, autosomal recessive 9	MONDO:0018151	Orphanet:658778	Orphanet:35656	coenzyme Q10 deficiency
 MONDO:0958034	lipodystrophy, familial partial, type 9	MONDO:0020087	Orphanet:686999	Orphanet:98305	hereditary lipodystrophy

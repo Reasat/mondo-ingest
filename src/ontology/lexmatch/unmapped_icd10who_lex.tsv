@@ -306,8 +306,6 @@ MONDO:0005077	pertussis	ICD10WHO:A37	MONDO:equivalentTo	Whooping cough	semapv:Le
 MONDO:0005081	preeclampsia	ICD10WHO:O14	MONDO:equivalentTo	Pre-eclampsia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pre-eclampsia
 MONDO:0005081	preeclampsia	ICD10WHO:O14	MONDO:equivalentTo	Pre-eclampsia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pre-eclampsia
 MONDO:0005091	severe acute respiratory syndrome	ICD10WHO:U04	MONDO:equivalentTo	Severe acute respiratory syndrome [SARS]	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	severe acute respiratory syndrome
-MONDO:0005100	systemic sclerosis	ICD10WHO:G37.0	MONDO:equivalentTo	Diffuse sclerosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	diffuse sclerosis
-MONDO:0005100	systemic sclerosis	ICD10WHO:G37.0	MONDO:equivalentTo	Diffuse sclerosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	diffuse sclerosis
 MONDO:0005119	anthrax infection	ICD10WHO:A22	MONDO:equivalentTo	Anthrax	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	anthrax
 MONDO:0005119	anthrax infection	ICD10WHO:A22	MONDO:equivalentTo	Anthrax	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	anthrax
 MONDO:0005124	leprosy	ICD10WHO:A30	MONDO:equivalentTo	Leprosy [Hansen disease]	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	leprosy
@@ -319,8 +317,6 @@ MONDO:0005160	aortic aneurysm	ICD10WHO:I71.5	MONDO:equivalentTo	Thoracoabdominal
 MONDO:0005160	aortic aneurysm	ICD10WHO:I71.5	MONDO:equivalentTo	Thoracoabdominal aortic aneurysm, ruptured	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	thoracoabdominal aortic aneurysm, ruptured
 MONDO:0005160	aortic aneurysm	ICD10WHO:I71.8	MONDO:equivalentTo	Aortic aneurysm of unspecified site, ruptured	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	aortic aneurysm of unspecified site, ruptured
 MONDO:0005160	aortic aneurysm	ICD10WHO:I71.8	MONDO:equivalentTo	Aortic aneurysm of unspecified site, ruptured	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	aortic aneurysm of unspecified site, ruptured
-MONDO:0005185	chronic childhood arthritis	ICD10WHO:M08.0	MONDO:equivalentTo	Juvenile rheumatoid arthritis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	juvenile rheumatoid arthritis
-MONDO:0005185	chronic childhood arthritis	ICD10WHO:M08.0	MONDO:equivalentTo	Juvenile rheumatoid arthritis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	juvenile rheumatoid arthritis
 MONDO:0005219	breast fibrocystic disease	ICD10WHO:N60.1	MONDO:equivalentTo	Diffuse cystic mastopathy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	diffuse cystic mastopathy
 MONDO:0005219	breast fibrocystic disease	ICD10WHO:N60.1	MONDO:equivalentTo	Diffuse cystic mastopathy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	diffuse cystic mastopathy
 MONDO:0005258	autism spectrum disorder	ICD10WHO:F84	MONDO:equivalentTo	Pervasive developmental disorders	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pervasive developmental disorders
@@ -584,8 +580,6 @@ MONDO:0011122	obesity disorder	ICD10WHO:E66	MONDO:equivalentTo	Obesity	semapv:Le
 MONDO:0011122	obesity disorder	ICD10WHO:E66	MONDO:equivalentTo	Obesity	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	obesity
 MONDO:0011399	alpha thalassemia spectrum	ICD10WHO:D56.0	MONDO:equivalentTo	Alpha thalassaemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	alpha thalassaemia
 MONDO:0011399	alpha thalassemia spectrum	ICD10WHO:D56.0	MONDO:equivalentTo	Alpha thalassaemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	alpha thalassaemia
-MONDO:0011405	poikiloderma with neutropenia	ICD10WHO:L28.1	MONDO:equivalentTo	Prurigo nodularis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	prurigo nodularis
-MONDO:0011405	poikiloderma with neutropenia	ICD10WHO:L28.1	MONDO:equivalentTo	Prurigo nodularis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	prurigo nodularis
 MONDO:0011429	juvenile idiopathic arthritis	ICD10WHO:M08.0	MONDO:equivalentTo	Juvenile rheumatoid arthritis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	juvenile rheumatoid arthritis
 MONDO:0011429	juvenile idiopathic arthritis	ICD10WHO:M08.0	MONDO:equivalentTo	Juvenile rheumatoid arthritis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	juvenile rheumatoid arthritis
 MONDO:0011438	acne	ICD10WHO:L70.0	MONDO:equivalentTo	Acne vulgaris	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acne vulgaris
@@ -624,8 +618,6 @@ MONDO:0015814	primary cutaneous follicle center lymphoma	ICD10WHO:C82.6	MONDO:eq
 MONDO:0015986	bilateral renal agenesis	ICD10WHO:Q60.1	MONDO:equivalentTo	Renal agenesis, bilateral	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	renal agenesis, bilateral
 MONDO:0015986	bilateral renal agenesis	ICD10WHO:Q60.1	MONDO:equivalentTo	Renal agenesis, bilateral	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	renal agenesis, bilateral
 MONDO:0016011	fetal alcohol syndrome	ICD10WHO:Q86.0	MONDO:equivalentTo	Fetal alcohol syndrome (dysmorphic)	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	fetal alcohol syndrome
-MONDO:0016057	isolated encephalocele	ICD10WHO:Q01	MONDO:equivalentTo	Encephalocele	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	encephalocele
-MONDO:0016057	isolated encephalocele	ICD10WHO:Q01	MONDO:equivalentTo	Encephalocele	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	encephalocele
 MONDO:0016218	Guillain-Barre syndrome	ICD10WHO:G61.0	MONDO:equivalentTo	Guillain-Barré syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	guillain-barré syndrome
 MONDO:0016218	Guillain-Barre syndrome	ICD10WHO:G61.0	MONDO:equivalentTo	Guillain-Barré syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	guillain-barré syndrome
 MONDO:0016367	dermatomyositis	ICD10WHO:M33	MONDO:equivalentTo	Dermatopolymyositis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	dermatopolymyositis

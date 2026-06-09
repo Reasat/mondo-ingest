@@ -7977,7 +7977,7 @@ MONDO:0020036	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orpha
 MONDO:0020037	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:98063	obsolete rare gynecological tumor	Rare gynecological tumor
 MONDO:0020038	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:98074	obsolete gonadal dysgenesis of gynecological interest	Gonadal dysgenesis of gynecological interest
 MONDO:0020039	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:98078	obsolete 46,XX disorder of sex development induced by androgens excess	46,XX difference of sex development induced by androgens excess
-MONDO:0020040	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:98085	46,XY disorder of sex development	46,XY difference of sex development
+MONDO:0020040	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:98085	46 XY differences of sex development	46,XY difference of sex development
 MONDO:0020041	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:98086	obsolete 46,XY disorder of sex development due to a defect in testosterone metabolism by peripheral tissue	46,XY difference of sex development due to a defect in testosterone metabolism by peripheral tissue
 MONDO:0020042	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:98087	obsolete syndrome with 46,XY disorder of sex development	Syndrome with 46,XY difference of sex development
 MONDO:0020043	http://purl.obolibrary.org/obo/mondo#ordo_group_of_disorders	Orphanet:98095	autosomal recessive congenital cerebellar ataxia	Autosomal recessive congenital cerebellar ataxia
@@ -9319,6 +9319,7 @@ MONDO:0957477	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:647799
 MONDO:0957481	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:647823	idiopathic pregnancy-associated osteoporosis	Idiopathic pregnancy-associated osteoporosis
 MONDO:0957487	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:648919	idiopathic catatonia	Idiopathic catatonia
 MONDO:0957556	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:99126	congenital pulmonary vein atresia	Congenital pulmonary vein atresia
+MONDO:0957874	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:658778	neuronopathy, distal hereditary motor, autosomal recessive 9	COQ7-related distal hereditary motor neuropathy
 MONDO:0958011	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:699615	immunodeficiency 117	Severe mendelian susceptibility to mycobacterial diseases due to complete IRF1 deficiency
 MONDO:0958013	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:697417	immunodeficiency, common variable, 15	Common variable immunodeficiency phenotype due to SEC61A1 deficiency
 MONDO:0958034	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:686999	lipodystrophy, familial partial, type 9	Lipodystrophy-demyelinating peripheral sensory-motor neuropathy syndrome
@@ -9350,7 +9351,6 @@ MONDO:0958122	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:658549
 MONDO:0958123	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:658574	isolated pulmonary artery sling	Isolated pulmonary artery sling
 MONDO:0958127	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:658602	transplant-related bronchiolitis obliterans	Transplant-related bronchiolitis obliterans
 MONDO:0958128	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:658612	non-transplant-related bronchiolitis obliterans	Non-transplant-related bronchiolitis obliterans
-MONDO:0958129	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:658778	COQ7-related distal hereditary motor neuropathy	COQ7-related distal hereditary motor neuropathy
 MONDO:0958130	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:658805	Greig cephalopolysyndactyly-contiguous gene syndrome	Greig cephalopolysyndactyly-contiguous gene syndrome
 MONDO:0958137	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:658946	early-onset autoimmune disorder due to DOCK11 partial deficiency	Early-onset immune dysregulation with autoimmunity due to DOCK11 partial deficiency
 MONDO:0958138	http://purl.obolibrary.org/obo/mondo#ordo_disorder	Orphanet:658951	early-onset immune dysregulation due to DOCK11 complete deficiency	Early-onset immune dysregulation due to DOCK11 complete deficiency

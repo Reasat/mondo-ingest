@@ -8,7 +8,6 @@ MONDO:0000873	lymphoblastic lymphoma	NCIT:C9124	MONDO:equivalentTo	Childhood Lym
 MONDO:0000873	lymphoblastic lymphoma	NCIT:C9124	MONDO:equivalentTo	Childhood Lymphoblastic Lymphoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	lymphoblastic lymphoma
 MONDO:0000873	lymphoblastic lymphoma	NCIT:C9361	MONDO:equivalentTo	Adult Lymphoblastic Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	lymphoblastic lymphoma
 MONDO:0000873	lymphoblastic lymphoma	NCIT:C9361	MONDO:equivalentTo	Adult Lymphoblastic Lymphoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	lymphoblastic lymphoma
-MONDO:0000874	T-cell childhood lymphoblastic lymphoma	NCIT:C7226	MONDO:equivalentTo	Adult T Lymphoblastic Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	t lymphoblastic lymphoma
 MONDO:0000950	asthenopia	NCIT:C217076	MONDO:equivalentTo	Eye Strain/Fatigue	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	asthenopia
 MONDO:0000992	heart conduction disease	NCIT:C78245	MONDO:equivalentTo	Cardiac Conduction Disorder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cardiac conduction disorder
 MONDO:0000992	heart conduction disease	NCIT:C78245	MONDO:equivalentTo	Cardiac Conduction Disorder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	disorder of cardiac conduction
@@ -102,12 +101,10 @@ MONDO:0003510	malignant testicular germ cell tumor	NCIT:C68628	MONDO:equivalentT
 MONDO:0003510	malignant testicular germ cell tumor	NCIT:C68628	MONDO:equivalentTo	Childhood Malignant Testicular Germ Cell Tumor	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	malignant testicular germ cell tumor
 MONDO:0003531	papillary eccrine carcinoma	NCIT:C27527	MONDO:equivalentTo	Tubular Apocrine Adenoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tubular apocrine adenoma
 MONDO:0003531	papillary eccrine carcinoma	NCIT:C27527	MONDO:equivalentTo	Tubular Apocrine Adenoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	tubular apocrine adenoma
-MONDO:0003539	T-cell adult acute lymphocytic leukemia	NCIT:C126112	MONDO:equivalentTo	Infant T Acute Lymphoblastic Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	t acute lymphoblastic leukemia
 MONDO:0003649	esophageal neuroendocrine tumor	NCIT:C5821	MONDO:equivalentTo	Esophageal Neuroendocrine Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	esophageal neuroendocrine neoplasm
 MONDO:0003649	esophageal neuroendocrine tumor	NCIT:C5821	MONDO:equivalentTo	Esophageal Neuroendocrine Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	neuroendocrine neoplasm of esophagus
 MONDO:0003649	esophageal neuroendocrine tumor	NCIT:C5821	MONDO:equivalentTo	Esophageal Neuroendocrine Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	esophageal neuroendocrine neoplasm
 MONDO:0003671	septal myocardial infarction	NCIT:C35519	MONDO:equivalentTo	Septal Myocardial Infarction by ECG Finding	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	septal myocardial infarction
-MONDO:0003731	adult central nervous system teratoma	NCIT:C6204	MONDO:equivalentTo	Childhood Central Nervous System Teratoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	central nervous system teratoma
 MONDO:0003857	adult intracranial malignant hemangiopericytoma	NCIT:C129527	MONDO:equivalentTo	Central Nervous System Solitary Fibrous Tumor, Grade 3	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	central nervous system solitary fibrous tumor/hemangiopericytoma, grade type 3
 MONDO:0003899	adult myxoid chondrosarcoma	NCIT:C7924	MONDO:equivalentTo	Adult Extraskeletal Myxoid Chondrosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	adult myxoid chondrosarcoma
 MONDO:0003899	adult myxoid chondrosarcoma	NCIT:C7924	MONDO:equivalentTo	Adult Extraskeletal Myxoid Chondrosarcoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	adult myxoid chondrosarcoma
@@ -156,7 +153,6 @@ MONDO:0005058	leiomyosarcoma	NCIT:C8093	MONDO:equivalentTo	Childhood Leiomyosarc
 MONDO:0005072	neuroblastoma	NCIT:C124270	MONDO:equivalentTo	Childhood Neuroblastoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	neuroblastoma
 MONDO:0005072	neuroblastoma	NCIT:C124270	MONDO:equivalentTo	Childhood Neuroblastoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	neuroblastoma
 MONDO:0005102	undifferentiated (embryonal) sarcoma	NCIT:C121793	MONDO:equivalentTo	Undifferentiated Soft Tissue Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	undifferentiated sarcoma
-MONDO:0005103	well-differentiated liposarcoma	NCIT:C176981	MONDO:equivalentTo	Atypical Lipomatous Tumor/Well Differentiated Liposarcoma of Deep Soft Tissue	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	well differentiated liposarcoma of deep soft tissue
 MONDO:0005112	malignant pleural mesothelioma	NCIT:C222813	MONDO:equivalentTo	Pleural Diffuse Malignant Mesothelioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pleural diffuse malignant mesothelioma
 MONDO:0005112	malignant pleural mesothelioma	NCIT:C222813	MONDO:equivalentTo	Pleural Diffuse Malignant Mesothelioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pleural diffuse malignant mesothelioma
 MONDO:0005192	exocrine pancreatic carcinoma	NCIT:C207229	MONDO:equivalentTo	Pancreatic Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	carcinoma of the pancreas
@@ -200,8 +196,6 @@ MONDO:0006717	cutaneous fibrous histiocytoma	NCIT:C8402	MONDO:equivalentTo	Fibro
 MONDO:0006717	cutaneous fibrous histiocytoma	NCIT:C8402	MONDO:equivalentTo	Fibrohistiocytic Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fibrohistiocytic neoplasm
 MONDO:0006738	eccrine acrospiroma	NCIT:C205462	MONDO:equivalentTo	Eccrine Poroma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	eccrine poroma
 MONDO:0006738	eccrine acrospiroma	NCIT:C205462	MONDO:equivalentTo	Eccrine Poroma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	eccrine poroma
-MONDO:0006745	endometrioid stromal sarcoma	NCIT:C84686	MONDO:equivalentTo	Empty Sella Syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	empty sella syndrome
-MONDO:0006745	endometrioid stromal sarcoma	NCIT:C84686	MONDO:equivalentTo	Empty Sella Syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	empty sella syndrome
 MONDO:0006971	sigmoid neoplasm	NCIT:C213279	MONDO:equivalentTo	Sigmoid Colon Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	sigmoid colon neoplasm
 MONDO:0006971	sigmoid neoplasm	NCIT:C213279	MONDO:equivalentTo	Sigmoid Colon Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	sigmoid colon neoplasm
 MONDO:0007243	Burkitt lymphoma	NCIT:C9062	MONDO:equivalentTo	Adult Burkitt Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	burkitt lymphoma
@@ -216,8 +210,6 @@ MONDO:0007667	subependymoma	NCIT:C115623	MONDO:equivalentTo	Adult Subependymoma	
 MONDO:0007667	subependymoma	NCIT:C115623	MONDO:equivalentTo	Adult Subependymoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	subependymoma
 MONDO:0007896	acute monocytic leukemia	NCIT:C9163	MONDO:equivalentTo	Childhood Acute Monocytic Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute monocytic leukemia
 MONDO:0007896	acute monocytic leukemia	NCIT:C9163	MONDO:equivalentTo	Childhood Acute Monocytic Leukemia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	acute monocytic leukemia
-MONDO:0008056	myotonic dystrophy type 1	NCIT:C84914	MONDO:equivalentTo	Myotonic Dystrophy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	myotonic dystrophy
-MONDO:0008056	myotonic dystrophy type 1	NCIT:C84914	MONDO:equivalentTo	Myotonic Dystrophy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	myotonic dystrophy
 MONDO:0008145	Ollier disease	NCIT:C53457	MONDO:equivalentTo	Multiple Osteochondromas	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	osteochondromatosis
 MONDO:0008375	retinal detachment	NCIT:C55886	MONDO:equivalentTo	Retinal Detachment, CTCAE 3.0	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	retinal detachment
 MONDO:0008375	retinal detachment	NCIT:C55886	MONDO:equivalentTo	Retinal Detachment, CTCAE 3.0	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	retinal detachment
@@ -265,8 +257,6 @@ MONDO:0015674	late infantile neuronal ceroid lipofuscinosis	NCIT:C85864	MONDO:eq
 MONDO:0015686	primary peritoneal carcinoma	NCIT:C4182	MONDO:equivalentTo	Serous Surface Papillary Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	serous surface papillary carcinoma
 MONDO:0015686	primary peritoneal carcinoma	NCIT:C4182	MONDO:equivalentTo	Serous Surface Papillary Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	serous surface papillary carcinoma
 MONDO:0015909	aplastic anemia	NCIT:C220794	MONDO:equivalentTo	Aplastic Anemia, CTCAE	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	aplastic anemia
-MONDO:0016057	isolated encephalocele	NCIT:C84687	MONDO:equivalentTo	Encephalocele	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	encephalocele
-MONDO:0016057	isolated encephalocele	NCIT:C84687	MONDO:equivalentTo	Encephalocele	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	encephalocele
 MONDO:0016226	specific language disorder	NCIT:C35546	MONDO:equivalentTo	Dysphasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	dysphasia
 MONDO:0016226	specific language disorder	NCIT:C35546	MONDO:equivalentTo	Dysphasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	dysphasia
 MONDO:0016259	carcinosarcoma of the corpus uteri	NCIT:C223980	MONDO:equivalentTo	Uterine Corpus Carcinosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	uterine corpus carcinosarcoma
@@ -333,8 +323,6 @@ MONDO:0016982	angiosarcoma	NCIT:C9040	MONDO:equivalentTo	Adult Angiosarcoma	sema
 MONDO:0016996	NK-cell enteropathy	NCIT:C200037	MONDO:equivalentTo	Indolent NK-Cell Lymphoproliferative Disorder of the Gastrointestinal Tract	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	nk-cell enteropathy
 MONDO:0017343	Epstein-Barr virus-associated lymphoproliferative disorder	NCIT:C159717	MONDO:equivalentTo	EBV-Related Lymphoproliferative Disorder	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	epstein-barr virus-associated lymphoproliferative disorder
 MONDO:0017598	primary cutaneous anaplastic large cell lymphoma	NCIT:C27365	MONDO:equivalentTo	Adult Primary Cutaneous Anaplastic Large Cell Lymphoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	primary cutaneous anaplastic large cell lymphoma
-MONDO:0017844	Sezary syndrome	NCIT:C35300	MONDO:equivalentTo	Sheehan Syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	sheehan syndrome
-MONDO:0017844	Sezary syndrome	NCIT:C35300	MONDO:equivalentTo	Sheehan Syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	sheehan syndrome
 MONDO:0017858	acute erythroid leukemia	NCIT:C9153	MONDO:equivalentTo	Adult Acute Erythroid Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute erythroid leukemia
 MONDO:0017858	acute erythroid leukemia	NCIT:C9153	MONDO:equivalentTo	Adult Acute Erythroid Leukemia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	acute erythroid leukemia
 MONDO:0017858	acute erythroid leukemia	NCIT:C9164	MONDO:equivalentTo	Childhood Acute Erythroid Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute erythroid leukemia
@@ -378,7 +366,6 @@ MONDO:0018908	non-Hodgkin lymphoma	NCIT:C7704	MONDO:equivalentTo	Adult Non-Hodgk
 MONDO:0018908	non-Hodgkin lymphoma	NCIT:C7706	MONDO:equivalentTo	Childhood Non-Hodgkin Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	non-hodgkin lymphoma
 MONDO:0018908	non-Hodgkin lymphoma	NCIT:C7706	MONDO:equivalentTo	Childhood Non-Hodgkin Lymphoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	non-hodgkin lymphoma
 MONDO:0018911	maturity-onset diabetes of the young	NCIT:C91449	MONDO:equivalentTo	Maturity Onset Diabetes of the Young Pathway	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	maturity onset diabetes of the young
-MONDO:0019086	carcinoma of esophagus	NCIT:C118812	MONDO:equivalentTo	Childhood Esophageal Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	esophageal cancer
 MONDO:0019171	familial long QT syndrome	NCIT:C85049	MONDO:equivalentTo	Long QT Syndrome 1	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	romano-ward syndrome
 MONDO:0019210	cutaneous neuroendocrine carcinoma	NCIT:C173385	MONDO:equivalentTo	Cutaneous Merkel Cell Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cutaneous neuroendocrine carcinoma
 MONDO:0019210	cutaneous neuroendocrine carcinoma	NCIT:C173385	MONDO:equivalentTo	Cutaneous Merkel Cell Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	neuroendocrine carcinoma of skin

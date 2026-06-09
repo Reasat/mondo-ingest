@@ -1824,7 +1824,7 @@ MONDO:0011728	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:529	benign ess
 MONDO:0011730	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111261	fumaric aciduria	fumarase deficiency
 MONDO:0011731	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0070563	glucose-galactose malabsorption	glucose-galactose malabsorption
 MONDO:0011735	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0060023	hyper-IgM syndrome type 3	immunodeficiency with hyper IgM type 3
-MONDO:0011738	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080922	bilateral frontoparietal polymicrogyria	bilateral frontoparietal polymicrogyria
+MONDO:0011738	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080922	bilateral frontoparietal polymicrogyria	complex cortical dysplasia with other brain malformations 14A
 MONDO:0011740	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080533	Carney-Stratakis syndrome	Carney-Stratakis syndrome
 MONDO:0011758	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111390	Hurler syndrome	mucopolysaccharidosis Ih
 MONDO:0011759	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111389	Hurler-Scheie syndrome	mucopolysaccharidosis Ih/s
@@ -3083,7 +3083,7 @@ MONDO:0019667	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112284	spondy
 MONDO:0019675	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0112197	spondyloepimetaphyseal dysplasia with joint laxity	spondyloepimetaphyseal dysplasia with joint laxity
 MONDO:0019696	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080049	acromesomelic dysplasia	acromesomelic dysplasia
 MONDO:0019701	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:2581	chondrodysplasia punctata	chondrodysplasia punctata
-MONDO:0019719	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080205	congenital anomaly of kidney and urinary tract	congenital anomalies of kidney and urinary tract
+MONDO:0019719	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0080205	congenital anomaly of kidney and urinary tract	congenital anomalies of the kidney and urinary tract
 MONDO:0019754	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:0111152	multicentric Castleman disease	multicentric Castleman disease
 MONDO:0019772	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:3982	blepharospasm-oromandibular dystonia syndrome	Meige syndrome
 MONDO:0019790	http://purl.obolibrary.org/obo/mondo#doid_rare	DOID:14464	neuroleptic malignant syndrome	neuroleptic malignant syndrome

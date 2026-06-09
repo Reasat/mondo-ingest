@@ -257,7 +257,6 @@ MONDO:0001783	endometrial stromal nodule	MONDO:0000632	DOID:1373	DOID:0060095	ut
 MONDO:0001790	spinal cord lipoma	MONDO:0002545	DOID:13743	DOID:319	spinal cord disorder
 MONDO:0001791	neonatal urinary tract infectious disease	MONDO:0002118	DOID:1375	DOID:18	urinary system disorder
 MONDO:0001794	Pthirus pubis infestation	MONDO:0005093	DOID:13760	DOID:37	skin disorder
-MONDO:0001795	plantar wart	MONDO:0005108	DOID:13775	DOID:934	viral infectious disease
 MONDO:0001802	acute tympanitis	MONDO:0003648	DOID:13790	DOID:5782	tympanic membrane disorder
 MONDO:0001824	polyneuropathy	MONDO:0003620	DOID:1389	DOID:574	peripheral nervous system disorder
 MONDO:0001827	white piedra	MONDO:0024268	DOID:13902	DOID:0050133	superficial mycosis
@@ -1489,6 +1488,7 @@ MONDO:0009153	ectopia lentis et pupillae	MONDO:0005328	DOID:0111648	DOID:5614	ey
 MONDO:0009154	hypothyroidism, congenital, nongoitrous, 5	MONDO:0018612	DOID:0070125	DOID:0050328	congenital hypothyroidism
 MONDO:0009159	Ehlers-Danlos syndrome, cardiac valvular type	MONDO:0020066	DOID:0080730	DOID:13359	Ehlers-Danlos syndrome
 MONDO:0009162	Ellis-van Creveld syndrome	MONDO:0002254	DOID:12714	DOID:225	syndromic disease
+MONDO:0009176	epidermodysplasia verruciformis	MONDO:0005093	DOID:13777	DOID:37	skin disorder
 MONDO:0009181	epidermolysis bullosa simplex 5B, with muscular dystrophy	MONDO:0006025	DOID:0090017	DOID:0050737	autosomal recessive disease
 MONDO:0009185	amelocerebrohypohidrotic syndrome	MONDO:0002254	DOID:0111668	DOID:225	syndromic disease
 MONDO:0009210	congenital factor V deficiency	MONDO:0001531	DOID:2216	DOID:1247	blood coagulation disease
@@ -2437,7 +2437,6 @@ MONDO:0014585	congenital myasthenic syndrome 3C	MONDO:0018940	DOID:0110664	DOID:
 MONDO:0014586	congenital myasthenic syndrome 4B	MONDO:0018940	DOID:0110677	DOID:3635	congenital myasthenic syndrome
 MONDO:0014587	congenital myasthenic syndrome 9	MONDO:0018940	DOID:0110670	DOID:3635	congenital myasthenic syndrome
 MONDO:0014588	congenital myasthenic syndrome 11	MONDO:0018940	DOID:0110675	DOID:3635	congenital myasthenic syndrome
-MONDO:0014590	congenital myasthenic syndrome 18	MONDO:0018940	DOID:0110683	DOID:3635	congenital myasthenic syndrome
 MONDO:0014591	autosomal dominant Robinow syndrome 2	MONDO:0000426	DOID:0060765	DOID:0050736	autosomal dominant disease
 MONDO:0014591	autosomal dominant Robinow syndrome 2	MONDO:0019978	DOID:0060765	DOID:0060254	Robinow syndrome
 MONDO:0014593	developmental and epileptic encephalopathy, 29	MONDO:0100062	DOID:0080451	DOID:0112202	genetic developmental and epileptic encephalopathy
@@ -2785,7 +2784,6 @@ MONDO:0020320	acute myeloblastic leukemia with maturation	MONDO:0018874	DOID:008
 MONDO:0020322	acute biphenotypic leukemia	MONDO:0010643	DOID:9953	DOID:12603	acute leukemia
 MONDO:0020325	anaplastic large cell lymphoma	MONDO:0018908	DOID:0050744	DOID:0060060	non-Hodgkin lymphoma
 MONDO:0020334	mast cell leukemia	MONDO:0002724	DOID:9254	DOID:3664	mast cell neoplasm
-MONDO:0020340	bilateral perisylvian polymicrogyria	MONDO:0000087	DOID:0080924	DOID:0080918	polymicrogyria
 MONDO:0020364	posterior polymorphous corneal dystrophy	MONDO:0018102	DOID:0060457	DOID:2566	corneal dystrophy
 MONDO:0020380	autosomal dominant cerebellar ataxia	MONDO:0000437	DOID:1441	DOID:0050753	cerebellar ataxia
 MONDO:0020460	acquired von willebrand syndrome	MONDO:0001531	DOID:0111146	DOID:1247	blood coagulation disease
@@ -4426,7 +4424,6 @@ MONDO:0013975	ectodermal dysplasia 7, hair/nail type	MONDO:0019287	OMIM:614929	O
 MONDO:0013976	ectodermal dysplasia 9, hair/nail type	MONDO:0019287	OMIM:614931	OMIMPS:305100	ectodermal dysplasia syndrome
 MONDO:0013982	ectodermal dysplasia 11A, hypohidrotic/hair/tooth type, autosomal dominant	MONDO:0019287	OMIM:614940	OMIMPS:305100	ectodermal dysplasia syndrome
 MONDO:0013983	ectodermal dysplasia 11B, hypohidrotic/hair/tooth type, autosomal recessive	MONDO:0019287	OMIM:614941	OMIMPS:305100	ectodermal dysplasia syndrome
-MONDO:0013996	focal facial dermal dysplasia type II	MONDO:0018363	OMIM:614973	OMIMPS:136500	focal facial dermal dysplasia
 MONDO:0014001	Usher syndrome type 1K	MONDO:0019501	OMIM:614990	OMIMPS:276900	Usher syndrome
 MONDO:0014006	Schuurs-Hoeijmakers syndrome	MONDO:0100172	OMIM:615009	OMIMPS:156200	intellectual disability, autosomal dominant
 MONDO:0014009	autosomal recessive congenital ichthyosis 7	MONDO:0017265	OMIM:615022	OMIMPS:242300	autosomal recessive congenital ichthyosis
@@ -5029,7 +5026,6 @@ MONDO:0013815	bent bone dysplasia syndrome 1	MONDO:0019698	Orphanet:313855	Orpha
 MONDO:0013860	idiopathic membranous glomerulonephritis	MONDO:0019722	Orphanet:97560	Orphanet:93548	glomerular disorder
 MONDO:0013866	neuronal ceroid lipofuscinosis 11	MONDO:0016295	Orphanet:314629	Orphanet:216	neuronal ceroid lipofuscinosis
 MONDO:0013931	peroxisome biogenesis disorder 4B	MONDO:0019053	Orphanet:95433	Orphanet:68373	peroxisomal disease
-MONDO:0013996	focal facial dermal dysplasia type II	MONDO:0018363	Orphanet:398173	Orphanet:398166	focal facial dermal dysplasia
 MONDO:0014062	mitochondrial DNA deletion syndrome with progressive myopathy	MONDO:0009637	Orphanet:352470	Orphanet:206966	inborn mitochondrial myopathy
 MONDO:0014147	neuronal ceroid lipofuscinosis 13	MONDO:0016295	Orphanet:352709	Orphanet:216	neuronal ceroid lipofuscinosis
 MONDO:0014157	mandibular hypoplasia-deafness-progeroid syndrome	MONDO:0019303	Orphanet:363649	Orphanet:79389	premature aging syndrome
@@ -5136,6 +5132,7 @@ MONDO:0017373	poliomyelitis	MONDO:0020010	Orphanet:2912	Orphanet:98010	infectiou
 MONDO:0017381	congenital herpes simplex virus infection	MONDO:0016511	Orphanet:293	Orphanet:232035	infectious embryofetopathy
 MONDO:0017382	familial clubfoot due to 5q31 microdeletion	MONDO:0016046	Orphanet:293144	Orphanet:199315	familial clubfoot with or without associated lower limb anomalies
 MONDO:0017383	familial clubfoot due to PITX1 point mutation	MONDO:0016046	Orphanet:293150	Orphanet:199315	familial clubfoot with or without associated lower limb anomalies
+MONDO:0017385	malignant migrating partial seizures of infancy	MONDO:0100022	Orphanet:293181	Orphanet:693802	neonatal/infantile epilepsy syndrome
 MONDO:0017404	distal Xq28 microduplication syndrome	MONDO:0017010	Orphanet:293939	Orphanet:263783	partial duplication of the long arm of chromosome X
 MONDO:0017409	fetal cytomegalovirus syndrome	MONDO:0016511	Orphanet:294	Orphanet:232035	infectious embryofetopathy
 MONDO:0017416	postpoliomyelitis syndrome	MONDO:0020129	Orphanet:2942	Orphanet:98506	acquired motor neuron disease
@@ -5316,4 +5313,5 @@ MONDO:0850112	breast implant-associated anaplastic large cell lymphoma	MONDO:001
 MONDO:0957462	primary pulmonary tuberculosis	MONDO:0018076	Orphanet:645814	Orphanet:3389	tuberculosis
 MONDO:0957464	primary cutaneous tuberculosis	MONDO:0018076	Orphanet:645849	Orphanet:3389	tuberculosis
 MONDO:0957467	primary genito-urinary tuberculosis	MONDO:0018076	Orphanet:645874	Orphanet:3389	tuberculosis
+MONDO:0957874	neuronopathy, distal hereditary motor, autosomal recessive 9	MONDO:0018151	Orphanet:658778	Orphanet:35656	coenzyme Q10 deficiency
 MONDO:0958034	lipodystrophy, familial partial, type 9	MONDO:0020087	Orphanet:686999	Orphanet:98305	hereditary lipodystrophy

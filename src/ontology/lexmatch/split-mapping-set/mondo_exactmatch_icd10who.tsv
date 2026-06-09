@@ -502,8 +502,6 @@ MONDO:0005081	preeclampsia	skos:exactMatch	ICD10WHO:O14	Pre-eclampsia	semapv:Lex
 MONDO:0005081	preeclampsia	skos:exactMatch	ICD10WHO:O14	Pre-eclampsia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pre-eclampsia	LEXMATCH
 MONDO:0005085	pterygium	skos:exactMatch	ICD10WHO:H11.0	Pterygium	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pterygium	LEXMATCH
 MONDO:0005091	severe acute respiratory syndrome	skos:exactMatch	ICD10WHO:U04	Severe acute respiratory syndrome [SARS]	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	severe acute respiratory syndrome	LEXMATCH
-MONDO:0005100	systemic sclerosis	skos:exactMatch	ICD10WHO:G37.0	Diffuse sclerosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	diffuse sclerosis	LEXMATCH
-MONDO:0005100	systemic sclerosis	skos:exactMatch	ICD10WHO:G37.0	Diffuse sclerosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	diffuse sclerosis	LEXMATCH
 MONDO:0005119	anthrax infection	skos:exactMatch	ICD10WHO:A22	Anthrax	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	anthrax	LEXMATCH
 MONDO:0005119	anthrax infection	skos:exactMatch	ICD10WHO:A22	Anthrax	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	anthrax	LEXMATCH
 MONDO:0005124	leprosy	skos:exactMatch	ICD10WHO:A30	Leprosy [Hansen disease]	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	leprosy	LEXMATCH
@@ -522,8 +520,6 @@ MONDO:0005160	aortic aneurysm	skos:exactMatch	ICD10WHO:I71.8	Aortic aneurysm of 
 MONDO:0005160	aortic aneurysm	skos:exactMatch	ICD10WHO:I71.8	Aortic aneurysm of unspecified site, ruptured	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	aortic aneurysm of unspecified site, ruptured	LEXMATCH
 MONDO:0005173	actinic keratosis	skos:exactMatch	ICD10WHO:L57.0	Actinic keratosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	actinic keratosis	LEXMATCH
 MONDO:0005181	progressive external ophthalmoplegia	skos:exactMatch	ICD10WHO:H49.4	Progressive external ophthalmoplegia	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	progressive external ophthalmoplegia	LEXMATCH
-MONDO:0005185	chronic childhood arthritis	skos:exactMatch	ICD10WHO:M08.0	Juvenile rheumatoid arthritis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	juvenile rheumatoid arthritis	LEXMATCH
-MONDO:0005185	chronic childhood arthritis	skos:exactMatch	ICD10WHO:M08.0	Juvenile rheumatoid arthritis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	juvenile rheumatoid arthritis	LEXMATCH
 MONDO:0005219	breast fibrocystic disease	skos:exactMatch	ICD10WHO:N60.1	Diffuse cystic mastopathy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	diffuse cystic mastopathy	LEXMATCH
 MONDO:0005219	breast fibrocystic disease	skos:exactMatch	ICD10WHO:N60.1	Diffuse cystic mastopathy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	diffuse cystic mastopathy	LEXMATCH
 MONDO:0005258	autism spectrum disorder	skos:exactMatch	ICD10WHO:F84	Pervasive developmental disorders	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pervasive developmental disorders	LEXMATCH
@@ -944,8 +940,6 @@ MONDO:0011122	obesity disorder	skos:exactMatch	ICD10WHO:E66	Obesity	semapv:Lexic
 MONDO:0011284	astigmatism	skos:exactMatch	ICD10WHO:H52.2	Astigmatism	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	astigmatism	LEXMATCH
 MONDO:0011399	alpha thalassemia spectrum	skos:exactMatch	ICD10WHO:D56.0	Alpha thalassaemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	alpha thalassaemia	LEXMATCH
 MONDO:0011399	alpha thalassemia spectrum	skos:exactMatch	ICD10WHO:D56.0	Alpha thalassaemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	alpha thalassaemia	LEXMATCH
-MONDO:0011405	poikiloderma with neutropenia	skos:exactMatch	ICD10WHO:L28.1	Prurigo nodularis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	prurigo nodularis	LEXMATCH
-MONDO:0011405	poikiloderma with neutropenia	skos:exactMatch	ICD10WHO:L28.1	Prurigo nodularis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	prurigo nodularis	LEXMATCH
 MONDO:0011429	juvenile idiopathic arthritis	skos:exactMatch	ICD10WHO:M08.0	Juvenile rheumatoid arthritis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	juvenile rheumatoid arthritis	LEXMATCH
 MONDO:0011429	juvenile idiopathic arthritis	skos:exactMatch	ICD10WHO:M08.0	Juvenile rheumatoid arthritis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	juvenile rheumatoid arthritis	LEXMATCH
 MONDO:0011438	acne	skos:exactMatch	ICD10WHO:L70.0	Acne vulgaris	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acne vulgaris	LEXMATCH
@@ -1010,8 +1004,6 @@ MONDO:0016011	fetal alcohol syndrome	skos:exactMatch	ICD10WHO:Q86.0	Fetal alcoho
 MONDO:0016020	frontal encephalocele	skos:exactMatch	ICD10WHO:Q01.0	Frontal encephalocele	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	frontal encephalocele	LEXMATCH
 MONDO:0016035	Nelson syndrome	skos:exactMatch	ICD10WHO:E24.1	Nelson syndrome	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	nelson syndrome	LEXMATCH
 MONDO:0016052	atypical autism	skos:exactMatch	ICD10WHO:F84.1	Atypical autism	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	atypical autism	LEXMATCH
-MONDO:0016057	isolated encephalocele	skos:exactMatch	ICD10WHO:Q01	Encephalocele	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	encephalocele	LEXMATCH
-MONDO:0016057	isolated encephalocele	skos:exactMatch	ICD10WHO:Q01	Encephalocele	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	encephalocele	LEXMATCH
 MONDO:0016122	periodic paralysis	skos:exactMatch	ICD10WHO:G72.3	Periodic paralysis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	periodic paralysis	LEXMATCH
 MONDO:0016215	spastic quadriplegic cerebral palsy	skos:exactMatch	ICD10WHO:G80.0	Spastic quadriplegic cerebral palsy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	spastic quadriplegic cerebral palsy	LEXMATCH
 MONDO:0016218	Guillain-Barre syndrome	skos:exactMatch	ICD10WHO:G61.0	Guillain-Barré syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	guillain-barré syndrome	LEXMATCH

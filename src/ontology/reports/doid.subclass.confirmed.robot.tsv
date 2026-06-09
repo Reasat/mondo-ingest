@@ -548,7 +548,6 @@ MONDO:0001200	secondary hypertension	MONDO:0005044	DOID:11130	DOID:10763	hyperte
 MONDO:0001204	esophagus sarcoma	MONDO:0007576	DOID:1114	DOID:5041	esophageal cancer
 MONDO:0001205	hypersecretion glaucoma	MONDO:0005041	DOID:11148	DOID:1686	glaucoma
 MONDO:0001206	aqueous misdirection	MONDO:0005041	DOID:11149	DOID:1686	glaucoma
-MONDO:0001209	common wart	MONDO:0005108	DOID:11165	DOID:934	viral infectious disease
 MONDO:0001210	enophthalmos	MONDO:0004751	DOID:11175	DOID:930	disease of orbital part of eye adnexa
 MONDO:0001211	total internal ophthalmoplegia	MONDO:0000926	DOID:11177	DOID:10034	eye accommodation disease
 MONDO:0001211	total internal ophthalmoplegia	MONDO:0002285	DOID:11177	DOID:238	pupil disorder
@@ -4697,7 +4696,6 @@ MONDO:0009226	fibrochondrogenesis 1	MONDO:0016068	DOID:0080672	DOID:0060465	fibr
 MONDO:0009227	myofibromatosis, infantile, 1	MONDO:0016824	DOID:0070666	DOID:0080109	infantile myofibromatosis
 MONDO:0009231	acromesomelic dysplasia 2B	MONDO:0006025	DOID:0050790	DOID:0050737	autosomal recessive disease
 MONDO:0009231	acromesomelic dysplasia 2B	MONDO:0019696	DOID:0050790	DOID:0080049	acromesomelic dysplasia
-MONDO:0009237	focal epithelial hyperplasia	MONDO:0005108	DOID:5362	DOID:934	viral infectious disease
 MONDO:0009239	hypogonadotropic hypogonadism 24 without anosmia	MONDO:0018555	DOID:0090088	DOID:0090070	hypogonadotropic hypogonadism
 MONDO:0009242	brittle cornea syndrome	MONDO:0000942	DOID:14775	DOID:10124	corneal disorder
 MONDO:0009242	brittle cornea syndrome	MONDO:0006025	DOID:14775	DOID:0050737	autosomal recessive disease
@@ -5815,7 +5813,6 @@ MONDO:0012589	Pitt-Hopkins syndrome	MONDO:0002254	DOID:0060488	DOID:225	syndromi
 MONDO:0012590	XFE progeroid syndrome	MONDO:0015333	DOID:0060590	DOID:0081332	progeroid syndrome
 MONDO:0012594	complement factor I deficiency	MONDO:0003832	DOID:0050419	DOID:626	complement deficiency
 MONDO:0012602	autosomal recessive nonsyndromic hearing loss 24	MONDO:0019588	DOID:0110482	DOID:0050565	hearing loss, autosomal recessive
-MONDO:0012604	isolated microphthalmia 3	MONDO:0000062	DOID:0060842	DOID:0080637	isolated microphthalmia
 MONDO:0012605	isolated microphthalmia 5	MONDO:0000062	DOID:0060837	DOID:0080637	isolated microphthalmia
 MONDO:0012608	neuronopathy, distal hereditary motor, autosomal recessive 4	MONDO:0015363	DOID:0111213	DOID:0111197	neuronopathy, distal hereditary motor, autosomal recessive
 MONDO:0012610	inflammatory bowel disease 10	MONDO:0005265	DOID:0110885	DOID:0050589	inflammatory bowel disease
