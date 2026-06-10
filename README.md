@@ -30,7 +30,7 @@ A variety of reports are committed as static files in `src/ontology/reports/` an
 noted below.
 
 ### Mapping progress report
-The [mapping progress report](./docs/reports/unmapped.md) consists lists of all unmapped terms fo each ontology, as well 
+The [mapping progress report](./docs/reports/unmapped.md) consists lists of all unmapped terms for each ontology, as well 
 as a table of statistics showing total number of terms, excluded terms, deprecated terms, and unmapped terms.
 
 ### Mapped deprecated terms
