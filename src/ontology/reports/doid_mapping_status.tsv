@@ -1,13 +1,60 @@
 subject_id	subject_label	is_mapped	is_excluded	is_deprecated
 DOID:0050457	Sertoli cell-only syndrome	False	False	False
+DOID:0051078	congenital anomalies of the kidney and urinary tract 3	False	False	False
+DOID:0051079	monogenic chronic kidney disease	False	False	False
+DOID:0051080	Alport syndrome 3B	False	False	False
+DOID:0051081	polycystic kidney disease 8	False	False	False
+DOID:0051082	Parkinson's disease 27	False	False	False
 DOID:0060160	childhood spinal muscular atrophy	False	False	False
 DOID:0060854	autosomal recessive pseudohypoaldosteronism type 1	False	False	False
-DOID:0061195	proximal renal tubular acidosis-ocular anomaly syndrome	False	False	False
 DOID:0061212	hypocholesteremia	False	False	False
 DOID:0061213	telomere biology disorder	False	False	False
+DOID:0061271	liver glycogen storage disease	False	False	False
+DOID:0061272	muscle glycogen storage disease	False	False	False
+DOID:0061285	glycogen storage disease X	False	False	False
+DOID:0061286	glycogen storage disease XI	False	False	False
+DOID:0061287	glycogen storage disease XII	False	False	False
+DOID:0061288	glycogen storage disease XIII	False	False	False
+DOID:0061289	Galloway-Mowat syndrome 6	False	False	False
+DOID:0061290	Galloway-Mowat syndrome 7	False	False	False
+DOID:0061291	Galloway-Mowat syndrome 8	False	False	False
+DOID:0061292	Galloway-Mowat syndrome 9	False	False	False
+DOID:0061293	Galloway-Mowat syndrome 10	False	False	False
+DOID:0061294	Meckel syndrome 9	False	False	False
+DOID:0061295	Meckel syndrome 10	False	False	False
+DOID:0061296	Meckel syndrome 11	False	False	False
+DOID:0061297	Meckel syndrome 12	False	False	False
+DOID:0061298	retinitis pigmentosa 100	False	False	False
+DOID:0061299	retinitis pigmentosa 101	False	False	False
+DOID:0061300	Hermansky-Pudlak syndrome 10	False	False	False
+DOID:0061301	Hermansky-Pudlak syndrome 11	False	False	False
 DOID:0070648	cherubism	False	False	False
 DOID:0070649	cherubism 2	False	False	False
 DOID:0070656	hamartoma syndrome	False	False	False
+DOID:0070681	congenital hydrocephalus	False	False	False
+DOID:0070682	congenital hydrocephalus 1	False	False	False
+DOID:0070683	congenital hydrocephalus 2	False	False	False
+DOID:0070684	congenital hydrocephalus 3	False	False	False
+DOID:0070685	congenital hydrocephalus 4	False	False	False
+DOID:0070686	X-linked congenital hydrocephalus	False	False	False
+DOID:0070687	normal pressure hydrocephalus 1	False	False	False
+DOID:0070688	autosomal recessive congenital indifference to pain	False	False	False
+DOID:0070689	hereditary sensory and autonomic neuropathy type 2D	False	False	False
+DOID:0070690	lobodontia	False	False	False
+DOID:0070691	craniosynostosis-scoliosis syndrome	False	False	False
+DOID:0070692	Davis-Wells syndrome	False	False	False
+DOID:0070693	Ebstein-Bezieau neurodevelopmental syndrome	False	False	False
+DOID:0070694	neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities	False	False	False
+DOID:0070695	Yu-Kury neurodevelopmental syndrome	False	False	False
+DOID:0070696	neurodevelopmental disorder with seizures, hypotonia, and variable spasticity	False	False	False
+DOID:0070697	neurodevelopmental disorder with spasticity, thin corpus callosum, and decreased brain white matter	False	False	False
+DOID:0070698	X-linked neurodevelopmental disorder with poor or absent speech and behavioral abnormalities	False	False	False
+DOID:0070699	STAD syndrome	False	False	False
+DOID:0070700	Luo-Agrawal neurodevelopmental syndrome	False	False	False
+DOID:0070701	small fiber neuropathy	False	False	False
+DOID:0070702	measles inclusion body encephalitis	False	False	False
+DOID:0070703	Meckel syndrome 14	False	False	False
+DOID:0081462	Zeitz-Han retinal dystrophy	False	False	False
 DOID:0111368	cholesterol-ester transfer protein deficiency	False	False	False
 DOID:146	papilledema	False	False	False
 DOID:2536	chronic inflammatory demyelinating polyneuritis	False	False	False
@@ -428,6 +475,7 @@ DOID:0050747	obsolete lymphoplasmacytic lymphoma	False	True	True
 DOID:0050756	obsolete CLN3 disease	False	True	True
 DOID:0050761	obsolete paramyloidosis	False	True	True
 DOID:0050780	obsolete Opitz-GBBB syndrome	False	True	True
+DOID:0050786	obsolete iridogoniodysgenesis syndrome	False	True	True
 DOID:0050815	obsolete eye adnexa disease	False	True	True
 DOID:0050819	obsolete Matthew-Wood syndrome	False	True	True
 DOID:0050875	obsolete small cell neuroendocrine carcinoma of the lung	False	True	True
@@ -485,6 +533,7 @@ DOID:0080423	obsolete early infantile epileptic encephalopathy 39	False	True	Tru
 DOID:0080466	obsolete multiple congenital anomalies-hypotonia-seizures syndrome 2	False	True	True
 DOID:0080469	obsolete congenital disorder of glycosylation type 2m	False	True	True
 DOID:0080546	obsolete non-alcoholic fatty liver	False	True	True
+DOID:0080701	obsolete prothrombin thrombophilia	False	True	True
 DOID:0080713	obsolete MECP2 duplication syndrome	False	True	True
 DOID:0080783	obsolete X-linked sensorineural deafness	False	True	True
 DOID:0081062	obsolete diabetes	False	True	True
@@ -2844,7 +2893,7 @@ DOID:0050544	hypermethioninemia	True	False	False
 DOID:0050545	visceral heterotaxy	True	False	False
 DOID:0050546	congenital adrenal insufficiency	True	False	False
 DOID:0050547	familial medullary thyroid carcinoma	True	False	False
-DOID:0050548	hereditary sensory neuropathy	True	False	False
+DOID:0050548	hereditary sensory and autonomic neuropathy	True	False	False
 DOID:0050553	proteasome-associated autoinflammatory syndrome 1	True	False	False
 DOID:0050554	X-linked sideroblastic anemia with ataxia	True	False	False
 DOID:0050557	congenital muscular dystrophy	True	False	False
@@ -3328,6 +3377,17 @@ DOID:0051063	hemorrhagic stroke	True	False	False
 DOID:0051064	left ventricular failure	True	False	False
 DOID:0051065	chronic pancreatitis	True	False	False
 DOID:0051066	arterionephrosclerosis	True	False	False
+DOID:0051067	Fontaine progeroid syndrome	True	False	False
+DOID:0051068	early-onset obesity, adrenal insufficiency, and red hair	True	False	False
+DOID:0051069	Meier-Gorlin syndrome 9	True	False	False
+DOID:0051070	Meier-Gorlin syndrome 10	True	False	False
+DOID:0051071	neurodevelopmental disorder with seizures and impaired intellectual and language development	True	False	False
+DOID:0051072	neurodegenerative disorder with cerebellar and caudate atrophy	True	False	False
+DOID:0051073	dilated cardiomyopathy 3C	True	False	False
+DOID:0051074	primary autosomal recessive microcephaly 31	True	False	False
+DOID:0051075	aggressive periodontitis 2	True	False	False
+DOID:0051076	neurodevelopmental disorder with parkinsonism or other movement abnormalities	True	False	False
+DOID:0051077	diethylstilbestrol syndrome	True	False	False
 DOID:0060000	infective endocarditis	True	False	False
 DOID:0060001	withdrawal disorder	True	False	False
 DOID:0060002	C1 inhibitor deficiency	True	False	False
@@ -3938,8 +3998,8 @@ DOID:0060730	torsion dystonia 1	True	False	False
 DOID:0060731	congenital central hypoventilation syndrome	True	False	False
 DOID:0060732	chromosome 9p deletion syndrome	True	False	False
 DOID:0060733	junctional epidermolysis bullosa with pyloric atresia	True	False	False
-DOID:0060735	epidermolysis bullosa simplex Dowling-Meara type	True	False	False
-DOID:0060736	epidermolysis bullosa simplex Ogna type	True	False	False
+DOID:0060735	generalized severe epidermolysis bullosa simplex 1A	True	False	False
+DOID:0060736	epidermolysis bullosa simplex 5A Ogna type	True	False	False
 DOID:0060737	junctional epidermolysis bullosa Herlitz type	True	False	False
 DOID:0060738	junctional epidermolysis bullosa non-Herlitz type	True	False	False
 DOID:0060739	hand-foot-genital syndrome	True	False	False
@@ -4043,7 +4103,7 @@ DOID:0060838	isolated microphthalmia 7	True	False	False
 DOID:0060839	isolated microphthalmia 2	True	False	False
 DOID:0060840	isolated microphthalmia 1	True	False	False
 DOID:0060841	isolated microphthalmia 8	True	False	False
-DOID:0060842	isolated microphthalmia 3	True	False	False
+DOID:0060842	syndromic microphthalmia 16	True	False	False
 DOID:0060843	hereditary neuropathy with liability to pressure palsies	True	False	False
 DOID:0060844	Norrie disease	True	False	False
 DOID:0060847	Leri-Weill dyschondrosteosis	True	False	False
@@ -4380,6 +4440,7 @@ DOID:0061191	neonatal nephrocutaneous inflammatory syndrome	True	False	False
 DOID:0061192	neonatal inflammatory skin and bowel disease 1	True	False	False
 DOID:0061193	nephrotic syndrome type 26	True	False	False
 DOID:0061194	nephrotic syndrome type 24	True	False	False
+DOID:0061195	proximal renal tubular acidosis-ocular anomaly syndrome	True	False	False
 DOID:0061196	Mietens syndrome	True	False	False
 DOID:0061197	BCARD syndrome	True	False	False
 DOID:0061198	Bethlem myopathy 1A	True	False	False
@@ -4427,6 +4488,41 @@ DOID:0061243	glucocorticoid deficiency 4 with or without mineralocorticoid defic
 DOID:0061244	glucocorticoid deficiency 5	True	False	False
 DOID:0061245	periventricular nodular heterotopia 8	True	False	False
 DOID:0061246	periventricular nodular heterotopia 9	True	False	False
+DOID:0061247	familial hyperaldosteronism	True	False	False
+DOID:0061248	familial hyperaldosteronism III	True	False	False
+DOID:0061249	familial hyperaldosteronism II	True	False	False
+DOID:0061250	familial hyperaldosteronism IV	True	False	False
+DOID:0061251	Charcot-Marie-Tooth disease type 2KK	True	False	False
+DOID:0061252	neurodevelopmental disorder with hypotonia, epilepsy, and absent speech	True	False	False
+DOID:0061253	neurodevelopmental disorder with speech delay, movement abnormalities, and seizures	True	False	False
+DOID:0061254	intellectual developmental disorder with seizures and dysmorphic facies	True	False	False
+DOID:0061255	spondylocostal dysostosis 7	True	False	False
+DOID:0061256	congenital myopathy 25	True	False	False
+DOID:0061257	congenital myopathy 26	True	False	False
+DOID:0061258	congenital myopathy 27	True	False	False
+DOID:0061259	congenital myopathy 28	True	False	False
+DOID:0061260	congenital myopathy 29	True	False	False
+DOID:0061261	lethal congenital contracture syndrome 5	True	False	False
+DOID:0061262	lethal congenital contracture syndrome 6	True	False	False
+DOID:0061263	lethal congenital contracture syndrome 7	True	False	False
+DOID:0061264	lethal congenital contracture syndrome 8	True	False	False
+DOID:0061265	lethal congenital contracture syndrome 9	True	False	False
+DOID:0061266	lethal congenital contracture syndrome 10	True	False	False
+DOID:0061267	lethal congenital contracture syndrome 11	True	False	False
+DOID:0061268	lethal congenital contracture syndrome 12	True	False	False
+DOID:0061269	periventricular nodular heterotopia 6	True	False	False
+DOID:0061270	periventricular nodular heterotopia 7	True	False	False
+DOID:0061273	Weill-Marchesani syndrome 1	True	False	False
+DOID:0061274	Weill-Marchesani syndrome 2	True	False	False
+DOID:0061275	Weill-Marchesani syndrome 3	True	False	False
+DOID:0061276	Weill-Marchesani syndrome 4	True	False	False
+DOID:0061277	Senior-Loken syndrome 1	True	False	False
+DOID:0061278	Senior-Loken syndrome 4	True	False	False
+DOID:0061279	Senior-Loken syndrome 5	True	False	False
+DOID:0061280	Senior-Loken syndrome 6	True	False	False
+DOID:0061281	Senior-Loken syndrome 7	True	False	False
+DOID:0061282	Senior-Loken syndrome 8	True	False	False
+DOID:0061283	Senior-Loken syndrome 9	True	False	False
 DOID:0070000	3-methylglutaconic aciduria type 8	True	False	False
 DOID:0070002	3-methylglutaconic aciduria type 9	True	False	False
 DOID:0070003	blastoma	True	False	False
@@ -4560,7 +4656,7 @@ DOID:0070142	autosomal dominant cutis laxa	True	False	False
 DOID:0070143	autosomal recessive cutis laxa type III	True	False	False
 DOID:0070144	autosomal recessive cutis laxa type I	True	False	False
 DOID:0070145	hereditary sensory and autonomic neuropathy type 5	True	False	False
-DOID:0070146	hereditary sensory neuropathy type 4	True	False	False
+DOID:0070146	congenital insensitivity to pain with anhidrosis	True	False	False
 DOID:0070147	hereditary sensory neuropathy type 2C	True	False	False
 DOID:0070148	cerebellar ataxia, neuropathy, and vestibular areflexia syndrome	True	False	False
 DOID:0070149	hereditary sensory and autonomic neuropathy type 7	True	False	False
@@ -4573,7 +4669,7 @@ DOID:0070155	hereditary sensory and autonomic neuropathy type 2A	True	False	Fals
 DOID:0070156	hereditary sensory neuropathy type 1D	True	False	False
 DOID:0070157	hereditary sensory and autonomic neuropathy type 1C	True	False	False
 DOID:0070158	hereditary sensory neuropathy type 1E	True	False	False
-DOID:0070159	hereditary sensory neuropathy X-linked	True	False	False
+DOID:0070159	X-linked hereditary sensory neuropathy	True	False	False
 DOID:0070160	atypical hereditary sensory neuropathy	True	False	False
 DOID:0070161	hereditary sensory and autonomic neuropathy type 2	True	False	False
 DOID:0070162	hereditary sensory and autonomic neuropathy type 1	True	False	False
@@ -5075,6 +5171,18 @@ DOID:0070665	lipofibromatosis	True	False	False
 DOID:0070666	infantile myofibromatosis 1	True	False	False
 DOID:0070667	infantile myofibromatosis 2	True	False	False
 DOID:0070668	Snijders Blok-Campeau syndrome	True	False	False
+DOID:0070669	autosomal recessive nonsyndromic deafness 122	True	False	False
+DOID:0070670	autosomal recessive nonsyndromic deafness 123	True	False	False
+DOID:0070671	autosomal recessive nonsyndromic deafness 117	True	False	False
+DOID:0070672	autosomal recessive nonsyndromic deafness 118	True	False	False
+DOID:0070673	autosomal recessive nonsyndromic deafness 119	True	False	False
+DOID:0070674	autosomal recessive nonsyndromic deafness 120	True	False	False
+DOID:0070675	autosomal recessive nonsyndromic deafness 121	True	False	False
+DOID:0070676	autosomal recessive nonsyndromic deafness 124	True	False	False
+DOID:0070677	Ferguson-Bonni neurodevelopmental syndrome	True	False	False
+DOID:0070678	congenital hypomyelinating neuropathy	True	False	False
+DOID:0070679	congenital hypomyelinating neuropathy 2	True	False	False
+DOID:0070680	congenital hypomyelinating neuropathy 3	True	False	False
 DOID:0080000	muscular disease	True	False	False
 DOID:0080001	bone disease	True	False	False
 DOID:0080005	bone remodeling disease	True	False	False
@@ -5258,9 +5366,9 @@ DOID:0080200	bilateral renal aplasia	True	False	False
 DOID:0080201	Peters plus syndrome	True	False	False
 DOID:0080202	adenoid cystic carcinoma	True	False	False
 DOID:0080204	renal hypoplasia	True	False	False
-DOID:0080205	CAKUT	True	False	False
-DOID:0080206	CAKUT1	True	False	False
-DOID:0080207	CAKUT2	True	False	False
+DOID:0080205	congenital anomalies of kidney and urinary tract	True	False	False
+DOID:0080206	congenital anomalies of the kidney and urinary tract 1	True	False	False
+DOID:0080207	congenital anomalies of the kidney and urinary tract 2	True	False	False
 DOID:0080208	metabolic dysfunction-associated steatotic liver disease	True	False	False
 DOID:0080209	sideroblastic anemia with B-cell immunodeficiency, periodic fevers, and developmental delay	True	False	False
 DOID:0080210	primary mediastinal B-cell lymphoma	True	False	False
@@ -5553,8 +5661,8 @@ DOID:0080506	Cornelia de Lange syndrome 2	True	False	False
 DOID:0080507	Cornelia de Lange syndrome 3	True	False	False
 DOID:0080508	Cornelia de Lange syndrome 4	True	False	False
 DOID:0080509	Cornelia de Lange syndrome 5	True	False	False
-DOID:0080510	epidermolysis bullosa simplex localized type	True	False	False
-DOID:0080511	epidermolysis bullosa simplex generalized type	True	False	False
+DOID:0080510	epidermolysis bullosa simplex 1C	True	False	False
+DOID:0080511	generalized intermediate epidermolysis bullosa simplex 1B	True	False	False
 DOID:0080512	Meier-Gorlin syndrome 1	True	False	False
 DOID:0080513	Meier-Gorlin syndrome 2	True	False	False
 DOID:0080514	Meier-Gorlin syndrome 3	True	False	False
@@ -5843,7 +5951,7 @@ DOID:0080812	intermittent asthma	True	False	False
 DOID:0080815	childhood-onset asthma	True	False	False
 DOID:0080817	T2-high asthma	True	False	False
 DOID:0080818	T2-low asthma	True	False	False
-DOID:0080819	environmental induced asthma	True	False	False
+DOID:0080819	environmentally induced asthma	True	False	False
 DOID:0080820	occupational asthma	True	False	False
 DOID:0080821	exercise-induced bronchoconstriction	True	False	False
 DOID:0080822	aspirin-induced respiratory disease	True	False	False
@@ -6615,8 +6723,8 @@ DOID:0110028	age related macular degeneration 5	True	False	False
 DOID:0110029	alpha thalassemia-intellectual disability syndrome type 1	True	False	False
 DOID:0110030	alpha thalassemia-X-linked intellectual disability syndrome	True	False	False
 DOID:0110031	hemoglobin H disease	True	False	False
-DOID:0110032	autosomal dominant Alport syndrome 3A	True	False	False
-DOID:0110033	autosomal recessive Alport syndrome	True	False	False
+DOID:0110032	Alport syndrome 3A	True	False	False
+DOID:0110033	Alport syndrome 2	True	False	False
 DOID:0110034	X-linked Alport syndrome	True	False	False
 DOID:0110035	Alzheimer's disease 2	True	False	False
 DOID:0110036	Alzheimer's disease 16	True	False	False
@@ -6768,7 +6876,7 @@ DOID:0110191	Charcot-Marie-Tooth disease type 4B1	True	False	False
 DOID:0110192	Charcot-Marie-Tooth disease type 4H	True	False	False
 DOID:0110193	Charcot-Marie-Tooth disease type 4F	True	False	False
 DOID:0110194	Charcot-Marie-Tooth disease type 4B3	True	False	False
-DOID:0110195	Charcot-Marie-Tooth disease type 4E	True	False	False
+DOID:0110195	congenital hypomyelinating neuropathy 1	True	False	False
 DOID:0110196	Charcot-Marie-Tooth disease type 4G	True	False	False
 DOID:0110197	Charcot-Marie-Tooth disease dominant intermediate B	True	False	False
 DOID:0110198	Charcot-Marie-Tooth disease recessive intermediate C	True	False	False
@@ -7029,7 +7137,7 @@ DOID:0110457	dilated cardiomyopathy 1Y	True	False	False
 DOID:0110458	dilated cardiomyopathy 1BB	True	False	False
 DOID:0110459	dilated cardiomyopathy 1FF	True	False	False
 DOID:0110460	dilated cardiomyopathy 2A	True	False	False
-DOID:0110461	X-linked dilated cardiomyopathy	True	False	False
+DOID:0110461	dilated cardiomyopathy 3B	True	False	False
 DOID:0110462	autosomal recessive nonsyndromic deafness 101	True	False	False
 DOID:0110463	autosomal recessive nonsyndromic deafness 102	True	False	False
 DOID:0110464	autosomal recessive nonsyndromic deafness 103	True	False	False
@@ -7346,7 +7454,7 @@ DOID:0110797	hereditary spastic paraplegia 45	True	False	False
 DOID:0110798	hereditary spastic paraplegia 46	True	False	False
 DOID:0110799	hereditary spastic paraplegia 47	True	False	False
 DOID:0110800	hereditary spastic paraplegia 48	True	False	False
-DOID:0110801	hereditary spastic paraplegia 49	True	False	False
+DOID:0110801	hereditary sensory and autonomic neuropathy type 9	True	False	False
 DOID:0110802	hereditary spastic paraplegia 50	True	False	False
 DOID:0110803	hereditary spastic paraplegia 51	True	False	False
 DOID:0110804	hereditary spastic paraplegia 52	True	False	False
@@ -7475,7 +7583,7 @@ DOID:0110928	nemaline myopathy 2	True	False	False
 DOID:0110929	nemaline myopathy 9	True	False	False
 DOID:0110930	nemaline myopathy 8	True	False	False
 DOID:0110931	nemaline myopathy 10	True	False	False
-DOID:0110932	nemaline myopathy 4	True	False	False
+DOID:0110932	congenital myopathy 23	True	False	False
 DOID:0110933	nemaline myopathy 11	True	False	False
 DOID:0110934	nemaline myopathy 7	True	False	False
 DOID:0110935	nemaline myopathy 6	True	False	False
@@ -7584,7 +7692,7 @@ DOID:0111038	hypermethioninemia due to adenosine kinase deficiency	True	False	Fa
 DOID:0111039	hypermethioninemia with deficiency of S-adenosylhomocysteine hydrolase	True	False	False
 DOID:0111040	glycogen storage disease IXd	True	False	False
 DOID:0111041	glycogen storage disease IXb	True	False	False
-DOID:0111042	glycogen storage disease IXa	True	False	False
+DOID:0111042	glycogen storage disease IXa1	True	False	False
 DOID:0111043	glycogen storage disease IXc	True	False	False
 DOID:0111044	gray platelet syndrome	True	False	False
 DOID:0111045	platelet-type bleeding disorder 9	True	False	False
@@ -7850,7 +7958,7 @@ DOID:0111329	pyridoxamine 5'-phosphate oxidase deficiency	True	False	False
 DOID:0111330	combined saposin deficiency	True	False	False
 DOID:0111331	intellectual disability-severe speech delay-mild dysmorphism syndrome	True	False	False
 DOID:0111332	Pitt-Hopkins-like syndrome 2	True	False	False
-DOID:0111333	early-onset myopathy-areflexia-respiratory distress-dysphagia syndrome	True	False	False
+DOID:0111333	congenital myopathy 10A	True	False	False
 DOID:0111334	congenital leptin deficiency	True	False	False
 DOID:0111335	myopathy with extrapyramidal signs	True	False	False
 DOID:0111336	craniofacial-deafness-hand syndrome	True	False	False
@@ -7863,7 +7971,7 @@ DOID:0111342	dermatopathia pigmentosa reticularis	True	False	False
 DOID:0111343	lateral meningocele syndrome	True	False	False
 DOID:0111344	myeloproliferative disorder with eosinophilia	True	False	False
 DOID:0111345	transient bullous dermolysis of the newborn	True	False	False
-DOID:0111346	epidermolysis bullosa simplex with mottled pigmentation	True	False	False
+DOID:0111346	epidermolysis bullosa simplex 2F with mottled pigmentation	True	False	False
 DOID:0111347	epidermolysis bullosa with congenital localized absence of skin and deformity of nails	True	False	False
 DOID:0111348	multiple epiphyseal dysplasia with myopia and deafness	True	False	False
 DOID:0111349	hereditary desmoid disease	True	False	False
@@ -8196,7 +8304,7 @@ DOID:0111678	hereditary folate malabsorption	True	False	False
 DOID:0111679	glutamate formiminotransferase deficiency	True	False	False
 DOID:0111680	essential fructosuria	True	False	False
 DOID:0111681	congenital nonspherocytic hemolytic anemia 7	True	False	False
-DOID:0111682	diffuse cystic renal dysplasia	True	False	False
+DOID:0111682	cystic renal dysplasia	True	False	False
 DOID:0111683	neurofibromatosis-Noonan syndrome	True	False	False
 DOID:0111684	hereditary mixed polyposis syndrome	True	False	False
 DOID:0111685	hereditary mixed polyposis syndrome 1	True	False	False
@@ -8735,7 +8843,7 @@ DOID:0112226	Bosch-Boonstra-Schaaf optic atrophy syndrome	True	False	False
 DOID:0112227	tubulinopathy	True	False	False
 DOID:0112228	lissencephaly 9 with complex brainstem malformation	True	False	False
 DOID:0112229	lissencephaly 10	True	False	False
-DOID:0112230	lissencephaly 5	True	False	False
+DOID:0112230	leukoencephalopathy with variable cortical brain malformations and/or hydrocephalus	True	False	False
 DOID:0112231	lissencephaly 7 with cerebellar hypoplasia	True	False	False
 DOID:0112232	lissencephaly 3	True	False	False
 DOID:0112233	lissencephaly 8	True	False	False
@@ -9483,7 +9591,7 @@ DOID:11573	listeriosis	True	False	False
 DOID:11574	streptococcal meningitis	True	False	False
 DOID:11577	Cauda equina syndrome	True	False	False
 DOID:11581	phlyctenulosis	True	False	False
-DOID:11589	Riley-Day syndrome	True	False	False
+DOID:11589	familial dysautonomia	True	False	False
 DOID:1159	functional gastric disease	True	False	False
 DOID:11593	bladder lateral wall cancer	True	False	False
 DOID:11594	ring staphyloma	True	False	False
@@ -14512,12 +14620,10 @@ DOID:4379	nut allergy	True	True	False
 DOID:4481	allergic rhinitis	True	True	False
 DOID:9415	allergic asthma	True	True	False
 DOID:0050068	obsolete pestis minor	True	True	True
-DOID:0050786	obsolete iridogoniodysgenesis syndrome	True	True	True
 DOID:0050867	obsolete Jensen syndrome	True	True	True
 DOID:0060771	obsolete dextro-looped transposition of the great arteries 1	True	True	True
 DOID:0061095	obsolete immunodeficiency 130	True	True	True
 DOID:0080191	obsolete PTEN hamartoma tumor syndrome	True	True	True
-DOID:0080701	obsolete prothrombin thrombophilia	True	True	True
 DOID:0110302	obsolete autosomal dominant limb-girdle muscular dystrophy type 1C	True	True	True
 DOID:0110578	obsolete autosomal dominant nonsyndromic deafness 52	True	True	True
 DOID:0111612	obsolete autosomal recessive spinocerebellar ataxia 3	True	True	True

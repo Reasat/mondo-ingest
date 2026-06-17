@@ -35,7 +35,6 @@
 | NCIT:C38160  | AIDS-Related Plasmablastic Lymphoma of Mucosa Site                                                                                                                          |
 | NCIT:C186660 | AIDS-Related Primary Diffuse Large B-Cell Lymphoma of the Central Nervous System                                                                                            |
 | NCIT:C9017   | AIDS-Related Primary Effusion Lymphoma                                                                                                                                      |
-| NCIT:C9422   | AJCC Grade 4 Sarcoma                                                                                                                                                        |
 | NCIT:C200105 | ALK-Positive Histiocytosis                                                                                                                                                  |
 | NCIT:C215346 | ALK-Positive Lung Non-Small Cell Carcinoma                                                                                                                                  |
 | NCIT:C189249 | ALK-Rearranged Renal Cell Carcinoma                                                                                                                                         |
@@ -93,7 +92,11 @@
 | NCIT:C198965 | Acute Myeloid Leukemia with Complex Karyotype                                                                                                                               |
 | NCIT:C198885 | Acute Myeloid Leukemia with EZH2 Mutation                                                                                                                                   |
 | NCIT:C200419 | Acute Myeloid Leukemia with FUS-ERG                                                                                                                                         |
+| NCIT:C224900 | Acute Myeloid Leukemia with Genetic Abnormalities                                                                                                                           |
+| NCIT:C225001 | Acute Myeloid Leukemia with IDH1 Mutation                                                                                                                                   |
+| NCIT:C225002 | Acute Myeloid Leukemia with IDH2 Mutation                                                                                                                                   |
 | NCIT:C198891 | Acute Myeloid Leukemia with In-Frame bZIP CEBPA Mutation                                                                                                                    |
+| NCIT:C224842 | Acute Myeloid Leukemia with KMT2A Partial Tandem Duplication                                                                                                                |
 | NCIT:C200407 | Acute Myeloid Leukemia with MECOM Rearrangement                                                                                                                             |
 | NCIT:C129783 | Acute Myeloid Leukemia with Monoallelic CEBPA Mutation                                                                                                                      |
 | NCIT:C198596 | Acute Myeloid Leukemia with Mutated TP53                                                                                                                                    |
@@ -101,6 +104,7 @@
 | NCIT:C82430  | Acute Myeloid Leukemia with Myelodysplasia-Related Gene Mutations                                                                                                           |
 | NCIT:C200420 | Acute Myeloid Leukemia with NPM1-MLF1                                                                                                                                       |
 | NCIT:C200411 | Acute Myeloid Leukemia with NUP98 Rearrangement                                                                                                                             |
+| NCIT:C224902 | Acute Myeloid Leukemia with Other Genetic Abnormalities                                                                                                                     |
 | NCIT:C167089 | Acute Myeloid Leukemia with RAM Immunophenotype                                                                                                                             |
 | NCIT:C198886 | Acute Myeloid Leukemia with SF3B1 Mutation                                                                                                                                  |
 | NCIT:C198887 | Acute Myeloid Leukemia with SRSF2 Mutation                                                                                                                                  |
@@ -123,7 +127,7 @@
 | NCIT:C198850 | Acute Myeloid Leukemia with t(3;21)(q26.2;q22.1); MECOM-RUNX1                                                                                                               |
 | NCIT:C198847 | Acute Myeloid Leukemia with t(3;8)(q26.2;q24); MYC, MECOM                                                                                                                   |
 | NCIT:C198861 | Acute Myeloid Leukemia with t(4;11)(q21.3;q23.3); AFF1-KMT2A                                                                                                                |
-| NCIT:C9288   | Acute Myeloid Leukemia with t(8;21)(q22; q22.1); RUNX1-RUNX1T1                                                                                                              |
+| NCIT:C9288   | Acute Myeloid Leukemia with t(8;21)(q22;q22.1); RUNX1-RUNX1T1                                                                                                               |
 | NCIT:C9020   | Acute Myelomonocytic Leukemia with Abnormal Eosinophils                                                                                                                     |
 | NCIT:C42779  | Acute Myelomonocytic Leukemia without Abnormal Eosinophils                                                                                                                  |
 | NCIT:C208352 | Acute Promyelocytic Leukemia                                                                                                                                                |
@@ -303,10 +307,12 @@
 | NCIT:C9154   | Adult Acute Myeloid Leukemia                                                                                                                                                |
 | NCIT:C7961   | Adult Acute Myeloid Leukemia with Maturation                                                                                                                                |
 | NCIT:C8303   | Adult Acute Myeloid Leukemia with Minimal Differentiation                                                                                                                   |
+| NCIT:C225016 | Adult Acute Myeloid Leukemia with NPM1-MLF1                                                                                                                                 |
 | NCIT:C68700  | Adult Acute Myeloid Leukemia with Recurrent Genetic Abnormalities                                                                                                           |
 | NCIT:C68697  | Adult Acute Myeloid Leukemia with inv(16)(p13.1q22); CBFB-MYH11                                                                                                             |
 | NCIT:C68698  | Adult Acute Myeloid Leukemia with t(16;16)(p13.1;q22); CBFB-MYH11                                                                                                           |
-| NCIT:C68699  | Adult Acute Myeloid Leukemia with t(8;21); (q22; q22.1); RUNX1-RUNX1T1                                                                                                      |
+| NCIT:C225010 | Adult Acute Myeloid Leukemia with t(8;16)(p11.2;p13.3); KAT6A-CREBBP                                                                                                        |
+| NCIT:C68699  | Adult Acute Myeloid Leukemia with t(8;21)(q22;q22.1); RUNX1-RUNX1T1                                                                                                         |
 | NCIT:C68696  | Adult Acute Myeloid Leukemia with t(9;11)(p21.3;q23.3); MLLT3-KMT2A                                                                                                         |
 | NCIT:C9380   | Adult Acute Myeloid Leukemia without Maturation                                                                                                                             |
 | NCIT:C7962   | Adult Acute Myelomonocytic Leukemia                                                                                                                                         |
@@ -347,6 +353,7 @@
 | NCIT:C7872   | Adult Diffuse Large Cell Lymphoma                                                                                                                                           |
 | NCIT:C210639 | Adult Diffuse Midline Glioma                                                                                                                                                |
 | NCIT:C188923 | Adult Diffuse Midline Glioma, H3 K27-Altered                                                                                                                                |
+| NCIT:C222663 | Adult Diffuse Midline Glioma, H3 K27-Mutant                                                                                                                                 |
 | NCIT:C7871   | Adult Diffuse Mixed Cell Lymphoma                                                                                                                                           |
 | NCIT:C215209 | Adult Diffuse Pediatric-Type High Grade Glioma MYCN                                                                                                                         |
 | NCIT:C215210 | Adult Diffuse Pediatric-Type High Grade Glioma RTK1                                                                                                                         |
@@ -399,8 +406,6 @@
 | NCIT:C9126   | Adult Nodular Sclerosis Classic Hodgkin Lymphoma                                                                                                                            |
 | NCIT:C7704   | Adult Non-Hodgkin Lymphoma                                                                                                                                                  |
 | NCIT:C141235 | Adult Non-Hodgkin Lymphoma by Ann Arbor Stage                                                                                                                               |
-| NCIT:C8166   | Adult Non-Hodgkin's Lymphoma Grade                                                                                                                                          |
-| NCIT:C8068   | Adult Non-Hodgkin's Lymphoma Stage                                                                                                                                          |
 | NCIT:C114574 | Adult Non-T Non-B Acute Lymphoblastic Leukemia                                                                                                                              |
 | NCIT:C68691  | Adult Oligodendroglial Tumor                                                                                                                                                |
 | NCIT:C7288   | Adult Ovarian Granulosa Cell Tumor                                                                                                                                          |
@@ -444,10 +449,12 @@
 | NCIT:C166180 | Advanced Anaplastic Large Cell Lymphoma                                                                                                                                     |
 | NCIT:C168720 | Advanced Angiosarcoma                                                                                                                                                       |
 | NCIT:C182105 | Advanced Appendix Adenocarcinoma                                                                                                                                            |
+| NCIT:C221015 | Advanced Appendix Carcinoma                                                                                                                                                 |
 | NCIT:C148065 | Advanced B-Cell Malignant Neoplasm                                                                                                                                          |
 | NCIT:C217099 | Advanced B-Cell Non-Hodgkin Lymphoma                                                                                                                                        |
 | NCIT:C172362 | Advanced Basal Cell Carcinoma                                                                                                                                               |
 | NCIT:C142870 | Advanced Bile Duct Carcinoma                                                                                                                                                |
+| NCIT:C225026 | Advanced Biliary Tract Adenocarcinoma                                                                                                                                       |
 | NCIT:C171331 | Advanced Biliary Tract Carcinoma                                                                                                                                            |
 | NCIT:C167338 | Advanced Bladder Carcinoma                                                                                                                                                  |
 | NCIT:C163954 | Advanced Bladder Urothelial Carcinoma                                                                                                                                       |
@@ -458,6 +465,7 @@
 | NCIT:C180922 | Advanced Bronchogenic Carcinoma                                                                                                                                             |
 | NCIT:C153171 | Advanced Carcinoma                                                                                                                                                          |
 | NCIT:C170928 | Advanced Carcinosarcoma                                                                                                                                                     |
+| NCIT:C222232 | Advanced Castration-Resistant Prostate Carcinoma                                                                                                                            |
 | NCIT:C156304 | Advanced Cervical Adenocarcinoma                                                                                                                                            |
 | NCIT:C174032 | Advanced Cervical Adenosquamous Carcinoma                                                                                                                                   |
 | NCIT:C156294 | Advanced Cervical Carcinoma                                                                                                                                                 |
@@ -490,9 +498,16 @@
 | NCIT:C209286 | Advanced Distal Bile Duct Carcinoma                                                                                                                                         |
 | NCIT:C176888 | Advanced Distal Cholangiocarcinoma                                                                                                                                          |
 | NCIT:C170805 | Advanced Endometrial Adenocarcinoma                                                                                                                                         |
+| NCIT:C222634 | Advanced Endometrial Adenocarcinoma, Not Otherwise Specified                                                                                                                |
 | NCIT:C159676 | Advanced Endometrial Carcinoma                                                                                                                                              |
+| NCIT:C222629 | Advanced Endometrial Clear Cell Adenocarcinoma                                                                                                                              |
+| NCIT:C222628 | Advanced Endometrial Dedifferentiated Carcinoma                                                                                                                             |
 | NCIT:C170810 | Advanced Endometrial Endometrioid Adenocarcinoma                                                                                                                            |
+| NCIT:C222631 | Advanced Endometrial Mixed Cell Adenocarcinoma                                                                                                                              |
+| NCIT:C222639 | Advanced Endometrial Mucinous Adenocarcinoma                                                                                                                                |
 | NCIT:C170809 | Advanced Endometrial Serous Adenocarcinoma                                                                                                                                  |
+| NCIT:C222641 | Advanced Endometrial Squamous Cell Carcinoma                                                                                                                                |
+| NCIT:C222644 | Advanced Endometrial Transitional Cell Carcinoma                                                                                                                            |
 | NCIT:C198706 | Advanced Endometrial Undifferentiated Carcinoma                                                                                                                             |
 | NCIT:C170807 | Advanced Endometrioid Adenocarcinoma                                                                                                                                        |
 | NCIT:C213345 | Advanced Ependymoma                                                                                                                                                         |
@@ -511,14 +526,14 @@
 | NCIT:C191982 | Advanced Extrapulmonary Neuroendocrine Carcinoma                                                                                                                            |
 | NCIT:C191993 | Advanced Extrapulmonary Small Cell Neuroendocrine Carcinoma                                                                                                                 |
 | NCIT:C167395 | Advanced Fallopian Tube Carcinoma                                                                                                                                           |
-| NCIT:C211527 | Advanced Fallopian Tube Carcinosarcoma                                                                                                                                      |
 | NCIT:C211525 | Advanced Fallopian Tube Clear Cell Adenocarcinoma                                                                                                                           |
 | NCIT:C211523 | Advanced Fallopian Tube Endometrioid Adenocarcinoma                                                                                                                         |
 | NCIT:C203311 | Advanced Fallopian Tube High Grade Serous Adenocarcinoma                                                                                                                    |
+| NCIT:C211527 | Advanced Fallopian Tube Malignant Mixed Mesodermal (Müllerian) Tumor                                                                                                        |
 | NCIT:C68662  | Advanced Favorable Hodgkin Lymphoma                                                                                                                                         |
 | NCIT:C53283  | Advanced Favorable Non-Hodgkin Lymphoma                                                                                                                                     |
 | NCIT:C213709 | Advanced Female Reproductive System Carcinoma                                                                                                                               |
-| NCIT:C170930 | Advanced Female Reproductive System Carcinosarcoma                                                                                                                          |
+| NCIT:C223959 | Advanced Female Reproductive System Carcinosarcoma                                                                                                                          |
 | NCIT:C185067 | Advanced Fibrolamellar Carcinoma                                                                                                                                            |
 | NCIT:C168716 | Advanced Fibrosarcoma                                                                                                                                                       |
 | NCIT:C172359 | Advanced Follicular Lymphoma                                                                                                                                                |
@@ -537,12 +552,14 @@
 | NCIT:C179555 | Advanced HER2-Low Breast Carcinoma                                                                                                                                          |
 | NCIT:C168782 | Advanced HER2-Negative Breast Carcinoma                                                                                                                                     |
 | NCIT:C180925 | Advanced HER2-Positive Breast Carcinoma                                                                                                                                     |
+| NCIT:C223946 | Advanced HER2-Ultralow Breast Carcinoma                                                                                                                                     |
 | NCIT:C129861 | Advanced Head and Neck Carcinoma                                                                                                                                            |
 | NCIT:C171574 | Advanced Head and Neck Cutaneous Squamous Cell Carcinoma                                                                                                                    |
 | NCIT:C139291 | Advanced Head and Neck Squamous Cell Carcinoma                                                                                                                              |
 | NCIT:C213347 | Advanced Hepatoblastoma                                                                                                                                                     |
 | NCIT:C167336 | Advanced Hepatocellular Carcinoma                                                                                                                                           |
 | NCIT:C214989 | Advanced Hepatopancreatobiliary Carcinoma                                                                                                                                   |
+| NCIT:C223951 | Advanced High Grade Sarcoma                                                                                                                                                 |
 | NCIT:C185070 | Advanced Hilar Cholangiocarcinoma                                                                                                                                           |
 | NCIT:C172373 | Advanced Hodgkin Lymphoma                                                                                                                                                   |
 | NCIT:C190678 | Advanced Hormone Receptor-Negative Breast Carcinoma                                                                                                                         |
@@ -580,6 +597,7 @@
 | NCIT:C170967 | Advanced Malignant Germ Cell Tumor                                                                                                                                          |
 | NCIT:C170469 | Advanced Malignant Head and Neck Neoplasm                                                                                                                                   |
 | NCIT:C7865   | Advanced Malignant Mesothelioma                                                                                                                                             |
+| NCIT:C170930 | Advanced Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                                       |
 | NCIT:C9270   | Advanced Malignant Neoplasm                                                                                                                                                 |
 | NCIT:C164246 | Advanced Malignant PEComa                                                                                                                                                   |
 | NCIT:C168714 | Advanced Malignant Peripheral Nerve Sheath Tumor                                                                                                                            |
@@ -603,6 +621,7 @@
 | NCIT:C171304 | Advanced Myxofibrosarcoma                                                                                                                                                   |
 | NCIT:C162763 | Advanced Myxoid Liposarcoma                                                                                                                                                 |
 | NCIT:C160298 | Advanced NUT Carcinoma                                                                                                                                                      |
+| NCIT:C219686 | Advanced Nasal Cavity Squamous Cell Carcinoma                                                                                                                               |
 | NCIT:C175491 | Advanced Nasopharyngeal Carcinoma                                                                                                                                           |
 | NCIT:C150207 | Advanced Nasopharyngeal Squamous Cell Carcinoma                                                                                                                             |
 | NCIT:C155870 | Advanced Neuroendocrine Carcinoma                                                                                                                                           |
@@ -618,11 +637,11 @@
 | NCIT:C150201 | Advanced Oropharyngeal Squamous Cell Carcinoma                                                                                                                              |
 | NCIT:C213346 | Advanced Osteosarcoma                                                                                                                                                       |
 | NCIT:C165458 | Advanced Ovarian Carcinoma                                                                                                                                                  |
-| NCIT:C170934 | Advanced Ovarian Carcinosarcoma                                                                                                                                             |
 | NCIT:C170945 | Advanced Ovarian Clear Cell Adenocarcinoma                                                                                                                                  |
 | NCIT:C170942 | Advanced Ovarian Endometrioid Adenocarcinoma                                                                                                                                |
 | NCIT:C213327 | Advanced Ovarian High Grade Endometrioid Adenocarcinoma                                                                                                                     |
 | NCIT:C190633 | Advanced Ovarian High Grade Serous Adenocarcinoma                                                                                                                           |
+| NCIT:C170934 | Advanced Ovarian Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                               |
 | NCIT:C170937 | Advanced Ovarian Serous Adenocarcinoma                                                                                                                                      |
 | NCIT:C187235 | Advanced Ovarian Serous Cystadenocarcinoma                                                                                                                                  |
 | NCIT:C162153 | Advanced Pancreatic Adenocarcinoma                                                                                                                                          |
@@ -659,6 +678,7 @@
 | NCIT:C211526 | Advanced Primary Peritoneal Clear Cell Adenocarcinoma                                                                                                                       |
 | NCIT:C211524 | Advanced Primary Peritoneal Endometrioid Adenocarcinoma                                                                                                                     |
 | NCIT:C203312 | Advanced Primary Peritoneal High Grade Serous Adenocarcinoma                                                                                                                |
+| NCIT:C222454 | Advanced Primary Peritoneal Serous Adenocarcinoma                                                                                                                           |
 | NCIT:C200573 | Advanced Progesterone Receptor-Positive Breast Carcinoma                                                                                                                    |
 | NCIT:C156286 | Advanced Prostate Adenocarcinoma                                                                                                                                            |
 | NCIT:C186456 | Advanced Prostate Adenocarcinoma with Neuroendocrine Differentiation                                                                                                        |
@@ -669,6 +689,7 @@
 | NCIT:C170777 | Advanced Rectal Carcinoma                                                                                                                                                   |
 | NCIT:C170780 | Advanced Rectal Squamous Cell Carcinoma                                                                                                                                     |
 | NCIT:C153170 | Advanced Renal Cell Carcinoma                                                                                                                                               |
+| NCIT:C223892 | Advanced Renal Cell Carcinoma with MiT Translocations                                                                                                                       |
 | NCIT:C171582 | Advanced Renal Cell Carcinoma, Not Otherwise Specified                                                                                                                      |
 | NCIT:C163966 | Advanced Renal Pelvis Carcinoma                                                                                                                                             |
 | NCIT:C172278 | Advanced Renal Pelvis Urothelial Carcinoma                                                                                                                                  |
@@ -681,6 +702,7 @@
 | NCIT:C155649 | Advanced Sarcoma of the Extremity                                                                                                                                           |
 | NCIT:C171581 | Advanced Sarcomatoid Renal Cell Carcinoma                                                                                                                                   |
 | NCIT:C200064 | Advanced Sebaceous Carcinoma                                                                                                                                                |
+| NCIT:C219683 | Advanced Sinonasal Squamous Cell Carcinoma                                                                                                                                  |
 | NCIT:C217749 | Advanced Skin Sarcoma                                                                                                                                                       |
 | NCIT:C168542 | Advanced Skin Squamous Cell Carcinoma                                                                                                                                       |
 | NCIT:C215394 | Advanced Small Cell Neuroendocrine Carcinoma                                                                                                                                |
@@ -714,7 +736,7 @@
 | NCIT:C163963 | Advanced Urethral Urothelial Carcinoma                                                                                                                                      |
 | NCIT:C213708 | Advanced Urinary System Carcinoma                                                                                                                                           |
 | NCIT:C148493 | Advanced Urothelial Carcinoma                                                                                                                                               |
-| NCIT:C158383 | Advanced Uterine Corpus Carcinosarcoma                                                                                                                                      |
+| NCIT:C158383 | Advanced Uterine Corpus Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                        |
 | NCIT:C148515 | Advanced Uveal Melanoma                                                                                                                                                     |
 | NCIT:C180920 | Advanced Vaginal Adenocarcinoma                                                                                                                                             |
 | NCIT:C181029 | Advanced Vaginal Adenosquamous Carcinoma                                                                                                                                    |
@@ -1256,7 +1278,6 @@
 | NCIT:C178466 | BCOR-CCNB3 Sarcoma                                                                                                                                                          |
 | NCIT:C167189 | BRCA Hereditary Breast Carcinoma                                                                                                                                            |
 | NCIT:C148024 | BRCA Hereditary Ovarian Carcinoma                                                                                                                                           |
-| NCIT:C167179 | BRCA-Associated Malignant Neoplasm                                                                                                                                          |
 | NCIT:C134766 | Baboon Lymphoma                                                                                                                                                             |
 | NCIT:C27760  | Bacterium-Related Malignant Neoplasm                                                                                                                                        |
 | NCIT:C213115 | Balloon Cell Nevus                                                                                                                                                          |
@@ -1291,6 +1312,7 @@
 | NCIT:C63885  | Benign Basal Cell Tumor of the Rat Forestomach                                                                                                                              |
 | NCIT:C64109  | Benign Basal Cell Tumor of the Rat Skin                                                                                                                                     |
 | NCIT:C64110  | Benign Basosquamous Tumor of the Rat Skin                                                                                                                                   |
+| NCIT:C224693 | Benign Brachial Plexus Neoplasm                                                                                                                                             |
 | NCIT:C179933 | Benign Broad Ligament Neoplasm                                                                                                                                              |
 | NCIT:C5357   | Benign Cardiac Germ Cell Tumor                                                                                                                                              |
 | NCIT:C6757   | Benign Central Nervous System Mesenchymal, Non-Meningothelial Neoplasm                                                                                                      |
@@ -1315,7 +1337,6 @@
 | NCIT:C7128   | Benign Extrahepatic Bile Duct Non-Epithelial Neoplasm                                                                                                                       |
 | NCIT:C5856   | Benign Extrahepatic Bile Duct Soft Tissue Neoplasm                                                                                                                          |
 | NCIT:C6571   | Benign Extraskeletal Cartilaginous and Osseous Neoplasm                                                                                                                     |
-| NCIT:C214972 | Benign Eyelid Adnexal Neoplasm                                                                                                                                              |
 | NCIT:C3848   | Benign Female Breast Neoplasm                                                                                                                                               |
 | NCIT:C7147   | Benign Fibroblastic Neoplasm                                                                                                                                                |
 | NCIT:C6490   | Benign Fibrohistiocytic Neoplasm                                                                                                                                            |
@@ -1400,6 +1421,7 @@
 | NCIT:C173480 | Benign Oral Cavity Soft Tissue Neoplasm                                                                                                                                     |
 | NCIT:C7608   | Benign Oral Neoplasm                                                                                                                                                        |
 | NCIT:C5352   | Benign Orbit Hemangiopericytoma                                                                                                                                             |
+| NCIT:C219760 | Benign Orbital Bone Neoplasm                                                                                                                                                |
 | NCIT:C3620   | Benign Orbital Neoplasm                                                                                                                                                     |
 | NCIT:C27477  | Benign Osteoclastic Giant Cell-Rich Tumor of Bone                                                                                                                           |
 | NCIT:C43315  | Benign Outer Hair Sheath and Infundibulum Neoplasm                                                                                                                          |
@@ -1469,10 +1491,12 @@
 | NCIT:C150359 | Bilateral Synchronous Sporadic Renal Cell Carcinoma                                                                                                                         |
 | NCIT:C173846 | Bilateral Thalamic Glioma                                                                                                                                                   |
 | NCIT:C96945  | Bile Duct Biliary Intraepithelial Neoplasia                                                                                                                                 |
+| NCIT:C223356 | Bile Duct Intraductal Oncocytic Papillary Neoplasm                                                                                                                          |
 | NCIT:C96808  | Bile Duct Intraductal Papillary Neoplasm with Intermediate Grade Intraepithelial Neoplasia                                                                                  |
 | NCIT:C96810  | Bile Duct Intraductal Papillary Neoplasm with an Associated Invasive Carcinoma                                                                                              |
 | NCIT:C96809  | Bile Duct Intraductal Papillary Neoplasm, High Grade                                                                                                                        |
 | NCIT:C96807  | Bile Duct Intraductal Papillary Neoplasm, Low Grade                                                                                                                         |
+| NCIT:C223515 | Bile Duct Intraductal Tubulopapillary Neoplasm                                                                                                                              |
 | NCIT:C96837  | Bile Duct Mucinous Cystic Neoplasm with Intermediate Grade Intraepithelial Neoplasia                                                                                        |
 | NCIT:C96838  | Bile Duct Mucinous Cystic Neoplasm, High Grade                                                                                                                              |
 | NCIT:C96836  | Bile Duct Mucinous Cystic Neoplasm, Low Grade                                                                                                                               |
@@ -1481,6 +1505,7 @@
 | NCIT:C67491  | Biliary Intraepithelial Neoplasia-1                                                                                                                                         |
 | NCIT:C67492  | Biliary Intraepithelial Neoplasia-2                                                                                                                                         |
 | NCIT:C2899   | Biliary System Disorder                                                                                                                                                     |
+| NCIT:C222829 | Biliary Tract Adenocarcinoma                                                                                                                                                |
 | NCIT:C156781 | Biliary Tract Carcinoma                                                                                                                                                     |
 | NCIT:C156771 | Biochemically Recurrent Prostate Carcinoma                                                                                                                                  |
 | NCIT:C164205 | Biphenotypic Sinonasal Sarcoma                                                                                                                                              |
@@ -1536,6 +1561,7 @@
 | NCIT:C53964  | Bone Leiomyoma                                                                                                                                                              |
 | NCIT:C27475  | Bone Lipoma                                                                                                                                                                 |
 | NCIT:C188064 | Bone Malignant Peripheral Nerve Sheath Tumor                                                                                                                                |
+| NCIT:C53493  | Bone Mesenchymal Chondrosarcoma                                                                                                                                             |
 | NCIT:C213348 | Bone Rhabdomyosarcoma                                                                                                                                                       |
 | NCIT:C178613 | Bone Rosai-Dorfman-Destombes Disease                                                                                                                                        |
 | NCIT:C136632 | Bone Sarcoma by AJCC v7 Stage                                                                                                                                               |
@@ -1591,9 +1617,11 @@
 | NCIT:C157350 | Borderline Resectable Pancreatic Ductal Adenocarcinoma                                                                                                                      |
 | NCIT:C158622 | Borderline Serous Cystadenofibroma                                                                                                                                          |
 | NCIT:C4177   | Borderline Serous Cystadenoma                                                                                                                                               |
-| NCIT:C40140  | Borderline Uterine Ligament Neoplasm                                                                                                                                        |
 | NCIT:C181907 | Borderline Vulvar Phyllodes Tumor                                                                                                                                           |
 | NCIT:C45163  | Borrelia Burgdoferi-Associated Primary Cutaneous Marginal Zone Lymphoproliferative Disorder                                                                                 |
+| NCIT:C224696 | Brachial Plexus Malignant Peripheral Nerve Sheath Tumor                                                                                                                     |
+| NCIT:C224695 | Brachial Plexus Neurofibroma                                                                                                                                                |
+| NCIT:C224694 | Brachial Plexus Schwannoma                                                                                                                                                  |
 | NCIT:C156462 | Brain Ependymoma                                                                                                                                                            |
 | NCIT:C201977 | Brain Low Grade Glioma                                                                                                                                                      |
 | NCIT:C201975 | Brain Pilocytic Astrocytoma                                                                                                                                                 |
@@ -1687,8 +1715,9 @@
 | NCIT:C179547 | Broad Ligament Wolffian Tumor                                                                                                                                               |
 | NCIT:C45601  | Bronchial Glandular Papilloma                                                                                                                                               |
 | NCIT:C7436   | Bronchial Intraepithelial Neoplasia                                                                                                                                         |
-| NCIT:C45602  | Bronchial Mixed Squamous Cell and Glandular Papilloma                                                                                                                       |
+| NCIT:C45602  | Bronchial Mixed Squamous and Glandular Papilloma                                                                                                                            |
 | NCIT:C211514 | Bronchial Papillomatosis                                                                                                                                                    |
+| NCIT:C45573  | Bronchial Squamous Papilloma                                                                                                                                                |
 | NCIT:C183045 | Bronchiolar Adenoma/Ciliated Muconodular Papillary Tumor                                                                                                                    |
 | NCIT:C202609 | Buccal Mucosa Lipoma                                                                                                                                                        |
 | NCIT:C8175   | Buccal Mucosa Verrucous Carcinoma                                                                                                                                           |
@@ -1765,7 +1794,10 @@
 | NCIT:C147006 | Cardiac Yolk Sac Tumor                                                                                                                                                      |
 | NCIT:C23118  | Cartilage/Bone Neoplasms of the Mouse Larynx                                                                                                                                |
 | NCIT:C148536 | Castration-Naive Prostate Carcinoma                                                                                                                                         |
+| NCIT:C222490 | Castration-Resistant Prostate Adenocarcinoma                                                                                                                                |
 | NCIT:C157497 | Castration-Resistant Prostate Carcinoma Refractory to Second-Generation Androgen Receptor Axis-Targeted Agents                                                              |
+| NCIT:C222658 | Castration-Resistant Prostate Neuroendocrine Carcinoma                                                                                                                      |
+| NCIT:C222492 | Castration-Sensitive Prostate Adenocarcinoma                                                                                                                                |
 | NCIT:C153336 | Castration-Sensitive Prostate Carcinoma                                                                                                                                     |
 | NCIT:C49115  | Cavernous Angioleiomyoma                                                                                                                                                    |
 | NCIT:C22922  | Cavernous Hemangioma of the Mouse Blood Vessel                                                                                                                              |
@@ -1836,7 +1868,6 @@
 | NCIT:C7372   | Cerebellar Glioneuronal and Neuronal Tumors                                                                                                                                 |
 | NCIT:C48318  | Cerebellar Paraganglioma                                                                                                                                                    |
 | NCIT:C179883 | Cerebellar Peduncle Neoplasm                                                                                                                                                |
-| NCIT:C66803  | Cerebellar Sarcoma                                                                                                                                                          |
 | NCIT:C5151   | Cerebral Glioblastoma                                                                                                                                                       |
 | NCIT:C155947 | Cerebral Hemangioblastoma                                                                                                                                                   |
 | NCIT:C5055   | Cerebral Hodgkin Lymphoma                                                                                                                                                   |
@@ -1853,6 +1884,7 @@
 | NCIT:C181562 | Cervical Cancer by AJCC v9 Stage                                                                                                                                            |
 | NCIT:C186619 | Cervical Cancer by FIGO Stage 2009                                                                                                                                          |
 | NCIT:C162225 | Cervical Cancer by FIGO Stage 2018                                                                                                                                          |
+| NCIT:C223981 | Cervical Carcinosarcoma                                                                                                                                                     |
 | NCIT:C8421   | Cervical Condyloma Acuminatum                                                                                                                                               |
 | NCIT:C150031 | Cervical Esophagus Adenocarcinoma                                                                                                                                           |
 | NCIT:C150032 | Cervical Esophagus Squamous Cell Carcinoma                                                                                                                                  |
@@ -1864,6 +1896,8 @@
 | NCIT:C40222  | Cervical Low Grade Endometrioid Stromal Sarcoma                                                                                                                             |
 | NCIT:C213739 | Cervical Lymphoma                                                                                                                                                           |
 | NCIT:C128050 | Cervical Malignant Peripheral Nerve Sheath Tumor                                                                                                                            |
+| NCIT:C223985 | Cervical Mesonephric Carcinosarcoma                                                                                                                                         |
+| NCIT:C223984 | Cervical Mesonephric-Like Carcinosarcoma                                                                                                                                    |
 | NCIT:C6856   | Cervical Microglandular Polyp                                                                                                                                               |
 | NCIT:C180864 | Cervical Micropapillary Adenocarcinoma                                                                                                                                      |
 | NCIT:C40226  | Cervical Mixed Epithelial and Mesenchymal Neoplasm                                                                                                                          |
@@ -1891,7 +1925,6 @@
 | NCIT:C40191  | Cervical Warty Carcinoma                                                                                                                                                    |
 | NCIT:C128055 | Cervical Yolk Sac Tumor                                                                                                                                                     |
 | NCIT:C80691  | Chemotherapy-Related Leukemia                                                                                                                                               |
-| NCIT:C4372   | Cherry Hemangioma of Lip                                                                                                                                                    |
 | NCIT:C35745  | Chest Wall Disorder                                                                                                                                                         |
 | NCIT:C6713   | Chest Wall Fibromatosis                                                                                                                                                     |
 | NCIT:C6723   | Chest Wall Hodgkin Lymphoma                                                                                                                                                 |
@@ -1920,7 +1953,10 @@
 | NCIT:C122726 | Childhood Acute Myeloid Leukemia with Abnormalities of Chromosome 7                                                                                                         |
 | NCIT:C9381   | Childhood Acute Myeloid Leukemia with Maturation                                                                                                                            |
 | NCIT:C8304   | Childhood Acute Myeloid Leukemia with Minimal Differentiation                                                                                                               |
+| NCIT:C225013 | Childhood Acute Myeloid Leukemia with NPM1-MLF1                                                                                                                             |
 | NCIT:C122691 | Childhood Acute Myeloid Leukemia with NUP98 Rearrangement                                                                                                                   |
+| NCIT:C224907 | Childhood Acute Myeloid Leukemia with Recurrent Genetic Abnormalities                                                                                                       |
+| NCIT:C225009 | Childhood Acute Myeloid Leukemia with t(8;16)(p11.2;p13.3); KAT6A-CREBBP                                                                                                    |
 | NCIT:C188450 | Childhood Acute Myeloid Leukemia with t(8;21); (q22; q22.1); RUNX1-RUNX1T1                                                                                                  |
 | NCIT:C188451 | Childhood Acute Myeloid Leukemia with t(9;11)(p21.3;q23.3); MLLT3-KMT2A                                                                                                     |
 | NCIT:C9158   | Childhood Acute Myeloid Leukemia without Maturation                                                                                                                         |
@@ -2086,6 +2122,7 @@
 | NCIT:C114966 | Childhood Giant Cell Glioblastoma                                                                                                                                           |
 | NCIT:C189030 | Childhood Giant Cell Tumor of Bone                                                                                                                                          |
 | NCIT:C5136   | Childhood Glioblastoma                                                                                                                                                      |
+| NCIT:C221717 | Childhood Glioma                                                                                                                                                            |
 | NCIT:C114969 | Childhood Gliomatosis Cerebri                                                                                                                                               |
 | NCIT:C114968 | Childhood Gliosarcoma                                                                                                                                                       |
 | NCIT:C71300  | Childhood Grade 1 Meningioma                                                                                                                                                |
@@ -2167,6 +2204,7 @@
 | NCIT:C190098 | Childhood Malignant Thoracic Neoplasm                                                                                                                                       |
 | NCIT:C5637   | Childhood Mature T-Cell and NK-Cell Non-Hodgkin Lymphoma                                                                                                                    |
 | NCIT:C123836 | Childhood Mature Teratoma                                                                                                                                                   |
+| NCIT:C219662 | Childhood Mediastinal Mixed Germ Cell Tumor                                                                                                                                 |
 | NCIT:C198474 | Childhood Medulloblastoma by Toronto Guidelines v2 Stage                                                                                                                    |
 | NCIT:C198475 | Childhood Medulloblastoma by Toronto Guidelines v2 Stage, Tier 1                                                                                                            |
 | NCIT:C198478 | Childhood Medulloblastoma by Toronto Guidelines v2 Stage, Tier 2                                                                                                            |
@@ -2259,6 +2297,7 @@
 | NCIT:C189026 | Childhood Primary Central Chondrosarcoma                                                                                                                                    |
 | NCIT:C7211   | Childhood Primary Cutaneous Anaplastic Large Cell Lymphoma                                                                                                                  |
 | NCIT:C188455 | Childhood Primary Mediastinal Large B-Cell Lymphoma                                                                                                                         |
+| NCIT:C221716 | Childhood Primitive Neuroectodermal Tumor                                                                                                                                   |
 | NCIT:C114972 | Childhood Protoplasmic Astrocytoma                                                                                                                                          |
 | NCIT:C188979 | Childhood Pseudomyogenic Hemangioendothelioma                                                                                                                               |
 | NCIT:C118823 | Childhood Rectal Carcinoma                                                                                                                                                  |
@@ -2357,7 +2396,6 @@
 | NCIT:C7179   | Chronic Adult T-Cell Leukemia/Lymphoma                                                                                                                                      |
 | NCIT:C22087  | Chronic Enteritis of the Mouse Intestinal Tract                                                                                                                             |
 | NCIT:C126351 | Chronic Eosinophilic Leukemia with FIP1L1-PDGFRA                                                                                                                            |
-| NCIT:C8502   | Chronic Lymphoblastic Lymphoma                                                                                                                                              |
 | NCIT:C37202  | Chronic Lymphocytic Leukemia with Immunoglobulin Heavy Chain Variable-Region Gene Somatic Hypermutation                                                                     |
 | NCIT:C36272  | Chronic Lymphocytic Leukemia with Plasmacytoid Differentiation                                                                                                              |
 | NCIT:C37205  | Chronic Lymphocytic Leukemia with Unmutated Immunoglobulin Heavy Chain Variable-Region Gene                                                                                 |
@@ -2401,9 +2439,7 @@
 | NCIT:C22976  | Clear Cell Chondrosarcoma of the Mouse Skeletal System                                                                                                                      |
 | NCIT:C63900  | Clear Cell Focus of Cellular Alteration of the Rat                                                                                                                          |
 | NCIT:C43848  | Clear Cell Intrahepatic Cholangiocarcinoma                                                                                                                                  |
-| NCIT:C65156  | Clear Cell Malignant Neoplasm                                                                                                                                               |
 | NCIT:C38154  | Clear Cell Myomelanocytic Tumor of the Falciform Ligament/Ligamentum Teres                                                                                                  |
-| NCIT:C66752  | Clear Cell Neoplasm                                                                                                                                                         |
 | NCIT:C54300  | Clear Cell Odontogenic Carcinoma                                                                                                                                            |
 | NCIT:C204755 | Clear Cell Tumor with Melanocytic Differentiation and ACTB-MITF Translocation                                                                                               |
 | NCIT:C204756 | Clear Cell Tumor with Melanocytic Differentiation and ACTG1-MITF Translocation                                                                                              |
@@ -2423,6 +2459,7 @@
 | NCIT:C133648 | Clinical Stage I Gastric Cancer AJCC v8                                                                                                                                     |
 | NCIT:C133552 | Clinical Stage I Gastroesophageal Junction Adenocarcinoma AJCC v8                                                                                                           |
 | NCIT:C132885 | Clinical Stage I HPV-Mediated (p16-Positive) Oropharyngeal Carcinoma AJCC v8                                                                                                |
+| NCIT:C224056 | Clinical Stage I Oropharyngeal (HPV-Associated) Carcinoma AJCC v9                                                                                                           |
 | NCIT:C140752 | Clinical Stage I Retinoblastoma AJCC v8                                                                                                                                     |
 | NCIT:C137649 | Clinical Stage IA Cutaneous Melanoma AJCC v8                                                                                                                                |
 | NCIT:C137650 | Clinical Stage IB Cutaneous Melanoma AJCC v8                                                                                                                                |
@@ -2433,6 +2470,7 @@
 | NCIT:C133649 | Clinical Stage II Gastric Cancer AJCC v8                                                                                                                                    |
 | NCIT:C133553 | Clinical Stage II Gastroesophageal Junction Adenocarcinoma AJCC v8                                                                                                          |
 | NCIT:C132886 | Clinical Stage II HPV-Mediated (p16-Positive) Oropharyngeal Carcinoma AJCC v8                                                                                               |
+| NCIT:C224057 | Clinical Stage II Oropharyngeal (HPV-Associated) Carcinoma AJCC v9                                                                                                          |
 | NCIT:C140753 | Clinical Stage II Retinoblastoma AJCC v8                                                                                                                                    |
 | NCIT:C137652 | Clinical Stage IIA Cutaneous Melanoma AJCC v8                                                                                                                               |
 | NCIT:C136875 | Clinical Stage IIA Cutaneous Merkel Cell Carcinoma AJCC v8                                                                                                                  |
@@ -2452,6 +2490,7 @@
 | NCIT:C133650 | Clinical Stage III Gastric Cancer AJCC v8                                                                                                                                   |
 | NCIT:C133556 | Clinical Stage III Gastroesophageal Junction Adenocarcinoma AJCC v8                                                                                                         |
 | NCIT:C132891 | Clinical Stage III HPV-Mediated (p16-Positive) Oropharyngeal Carcinoma AJCC v8                                                                                              |
+| NCIT:C224058 | Clinical Stage III Oropharyngeal (HPV-Associated) Carcinoma AJCC v9                                                                                                         |
 | NCIT:C140754 | Clinical Stage III Retinoblastoma AJCC v8                                                                                                                                   |
 | NCIT:C137656 | Clinical Stage IV Cutaneous Melanoma AJCC v8                                                                                                                                |
 | NCIT:C136878 | Clinical Stage IV Cutaneous Merkel Cell Carcinoma AJCC v8                                                                                                                   |
@@ -2460,6 +2499,7 @@
 | NCIT:C133651 | Clinical Stage IV Gastric Cancer AJCC v8                                                                                                                                    |
 | NCIT:C133557 | Clinical Stage IV Gastroesophageal Junction Adenocarcinoma AJCC v8                                                                                                          |
 | NCIT:C132893 | Clinical Stage IV HPV-Mediated (p16-Positive) Oropharyngeal Carcinoma AJCC v8                                                                                               |
+| NCIT:C224059 | Clinical Stage IV Oropharyngeal (HPV-Associated) Carcinoma AJCC v9                                                                                                          |
 | NCIT:C140755 | Clinical Stage IV Retinoblastoma AJCC v8                                                                                                                                    |
 | NCIT:C133409 | Clinical Stage IVA Esophageal Adenocarcinoma AJCC v8                                                                                                                        |
 | NCIT:C133452 | Clinical Stage IVA Esophageal Squamous Cell Carcinoma AJCC v8                                                                                                               |
@@ -2584,7 +2624,6 @@
 | NCIT:C165529 | Combined Nevus                                                                                                                                                              |
 | NCIT:C4496   | Common Blue Nevus                                                                                                                                                           |
 | NCIT:C7206   | Common Variant Anaplastic Large Cell Lymphoma                                                                                                                               |
-| NCIT:C35560  | Complex Endometrial Hyperplasia with Atypia                                                                                                                                 |
 | NCIT:C4198   | Complex Epithelial Neoplasm                                                                                                                                                 |
 | NCIT:C188229 | Composite Gangliocytoma/Neuroma and Neuroendocrine Tumor                                                                                                                    |
 | NCIT:C157246 | Composite Paraganglioma                                                                                                                                                     |
@@ -2619,6 +2658,7 @@
 | NCIT:C4578   | Conjunctival Kaposi Sarcoma                                                                                                                                                 |
 | NCIT:C174390 | Conjunctival Keratoacanthoma                                                                                                                                                |
 | NCIT:C175500 | Conjunctival Leiomyosarcoma                                                                                                                                                 |
+| NCIT:C219749 | Conjunctival Lobular Capillary Hemangioma                                                                                                                                   |
 | NCIT:C175498 | Conjunctival Lymphangioma                                                                                                                                                   |
 | NCIT:C100054 | Conjunctival Melanocytic Intraepithelial Lesion                                                                                                                             |
 | NCIT:C204977 | Conjunctival Melanocytic Neoplasm                                                                                                                                           |
@@ -2745,6 +2785,7 @@
 | NCIT:C181866 | DS Stage IIIB Multiple Myeloma                                                                                                                                              |
 | NCIT:C200050 | DUSP22-R Anaplastic Large Cell Lymphoma, ALK-Negative                                                                                                                       |
 | NCIT:C213961 | De Novo High Volume Metastatic Castration-Sensitive Prostate Carcinoma                                                                                                      |
+| NCIT:C222472 | De Novo Low Volume Metastatic Castration-Sensitive Prostate Adenocarcinoma                                                                                                  |
 | NCIT:C213962 | De Novo Low Volume Metastatic Castration-Sensitive Prostate Carcinoma                                                                                                       |
 | NCIT:C213960 | De Novo Metastatic Castration-Sensitive Prostate Carcinoma                                                                                                                  |
 | NCIT:C8253   | De Novo Myelodysplastic Syndrome                                                                                                                                            |
@@ -2935,7 +2976,7 @@
 | NCIT:C202130 | EGFR-Positive Lung Adenocarcinoma                                                                                                                                           |
 | NCIT:C202131 | EGFR-Positive Lung Non-Small Cell Carcinoma                                                                                                                                 |
 | NCIT:C191375 | ELOC-Mutated Renal Cell Carcinoma                                                                                                                                           |
-| NCIT:C186591 | ELP1-Associated Medulloblastoma                                                                                                                                             |
+| NCIT:C186591 | ELP1-Related Medulloblastoma                                                                                                                                                |
 | NCIT:C104031 | ENSAT Stage I Adrenal Cortical Carcinoma                                                                                                                                    |
 | NCIT:C104032 | ENSAT Stage II Adrenal Cortical Carcinoma                                                                                                                                   |
 | NCIT:C104033 | ENSAT Stage III Adrenal Cortical Carcinoma                                                                                                                                  |
@@ -2943,6 +2984,7 @@
 | NCIT:C177278 | EWSR1-SMAD3 Rearranged Fibroblastic Tumor                                                                                                                                   |
 | NCIT:C54262  | Ear Carcinoma                                                                                                                                                               |
 | NCIT:C202574 | Ear Osteoma                                                                                                                                                                 |
+| NCIT:C222802 | Early Esophageal Adenocarcinoma                                                                                                                                             |
 | NCIT:C68661  | Early Favorable Hodgkin Lymphoma                                                                                                                                            |
 | NCIT:C53280  | Early Favorable Non-Hodgkin Lymphoma                                                                                                                                        |
 | NCIT:C96772  | Early Hepatocellular Carcinoma                                                                                                                                              |
@@ -2959,6 +3001,7 @@
 | NCIT:C190215 | Early Stage HER2-Negative Breast Carcinoma                                                                                                                                  |
 | NCIT:C212980 | Early Stage HER2-Positive Breast Carcinoma                                                                                                                                  |
 | NCIT:C205301 | Early Stage Hepatocellular Carcinoma                                                                                                                                        |
+| NCIT:C222569 | Early Stage Hormone Receptor-Positive Breast Carcinoma                                                                                                                      |
 | NCIT:C205303 | Early Stage Lung Non-Small Cell Carcinoma                                                                                                                                   |
 | NCIT:C205307 | Early Stage Malignant Skin Neoplasm                                                                                                                                         |
 | NCIT:C213459 | Early Stage Malignant Solid Neoplasm                                                                                                                                        |
@@ -2994,6 +3037,7 @@
 | NCIT:C40224  | Endocervical Undifferentiated Sarcoma                                                                                                                                       |
 | NCIT:C215715 | Endocrine Carcinoma                                                                                                                                                         |
 | NCIT:C167364 | Endocrine Mucin-Producing Sweat Gland Carcinoma                                                                                                                             |
+| NCIT:C222632 | Endometrial Adenocarcinoma, Not Otherwise Specified                                                                                                                         |
 | NCIT:C27789  | Endometrial Atypical Hyperplasia/Endometrioid Intraepithelial Neoplasia                                                                                                     |
 | NCIT:C206217 | Endometrial Cancer by FIGO Stage 2023                                                                                                                                       |
 | NCIT:C206218 | Endometrial Cancer with Molecular Classification by FIGO Stage 2023                                                                                                         |
@@ -3031,6 +3075,7 @@
 | NCIT:C27225  | Environment-Related Neoplasm                                                                                                                                                |
 | NCIT:C189254 | Eosinophilic Solid and Cystic Renal Cell Carcinoma                                                                                                                          |
 | NCIT:C155774 | Ependymal Pituicytoma                                                                                                                                                       |
+| NCIT:C222261 | Ependymoma with Genetic Abnormalities                                                                                                                                       |
 | NCIT:C192120 | Epididymal Carcinoma                                                                                                                                                        |
 | NCIT:C162483 | Epididymal Cystadenoma                                                                                                                                                      |
 | NCIT:C162488 | Epididymal Melanotic Neuroectodermal Tumor                                                                                                                                  |
@@ -3089,21 +3134,21 @@
 | NCIT:C91221  | Esophageal Cancer by AJCC v7 Stage                                                                                                                                          |
 | NCIT:C133399 | Esophageal Cancer by AJCC v8 Stage                                                                                                                                          |
 | NCIT:C179888 | Esophageal Carcinoma Cuniculatum                                                                                                                                            |
+| NCIT:C224860 | Esophageal Carcinoma, SWI/SNF Deficient                                                                                                                                     |
 | NCIT:C95625  | Esophageal Diffuse Large B-Cell Lymphoma                                                                                                                                    |
 | NCIT:C5702   | Esophageal Fibroma                                                                                                                                                          |
 | NCIT:C27430  | Esophageal Gastrointestinal Stromal Tumor                                                                                                                                   |
+| NCIT:C5699   | Esophageal Giant Fibrovascular Polyp                                                                                                                                        |
 | NCIT:C27424  | Esophageal Glandular Intraepithelial Neoplasia                                                                                                                              |
 | NCIT:C95622  | Esophageal Hemangioma                                                                                                                                                       |
-| NCIT:C27425  | Esophageal High Grade Intraepithelial Neoplasia                                                                                                                             |
 | NCIT:C5689   | Esophageal Hodgkin Lymphoma                                                                                                                                                 |
 | NCIT:C4839   | Esophageal Intraepithelial Neoplasia                                                                                                                                        |
 | NCIT:C161906 | Esophageal Intramucosal Adenocarcinoma                                                                                                                                      |
 | NCIT:C5706   | Esophageal Kaposi Sarcoma                                                                                                                                                   |
 | NCIT:C95620  | Esophageal Large Cell Neuroendocrine Carcinoma                                                                                                                              |
-| NCIT:C4840   | Esophageal Low Grade Intraepithelial Neoplasia                                                                                                                              |
+| NCIT:C224861 | Esophageal Lymphoepithelioma-Like Carcinoma                                                                                                                                 |
 | NCIT:C92185  | Esophageal Malignant Peripheral Nerve Sheath Tumor                                                                                                                          |
 | NCIT:C95621  | Esophageal Mixed Adenoneuroendocrine Carcinoma                                                                                                                              |
-| NCIT:C95611  | Esophageal Moderately Differentiated Squamous Cell Carcinoma                                                                                                                |
 | NCIT:C95626  | Esophageal Mucosa-Associated Lymphoid Tissue Lymphoma                                                                                                                       |
 | NCIT:C95619  | Esophageal Neuroendocrine Carcinoma                                                                                                                                         |
 | NCIT:C5821   | Esophageal Neuroendocrine Neoplasm                                                                                                                                          |
@@ -3112,27 +3157,28 @@
 | NCIT:C172661 | Esophageal Neuroendocrine Tumor G3                                                                                                                                          |
 | NCIT:C5688   | Esophageal Non-Hodgkin Lymphoma                                                                                                                                             |
 | NCIT:C4057   | Esophageal Polyp                                                                                                                                                            |
-| NCIT:C95612  | Esophageal Poorly Differentiated Squamous Cell Carcinoma                                                                                                                    |
 | NCIT:C7423   | Esophageal Precancerous Condition                                                                                                                                           |
 | NCIT:C95623  | Esophageal Rhabdomyosarcoma                                                                                                                                                 |
+| NCIT:C95608  | Esophageal Sarcomatoid Squamous Cell Carcinoma                                                                                                                              |
 | NCIT:C5703   | Esophageal Schwannoma                                                                                                                                                       |
 | NCIT:C172853 | Esophageal Soft Tissue Neoplasm                                                                                                                                             |
-| NCIT:C95608  | Esophageal Spindle Cell Carcinoma                                                                                                                                           |
 | NCIT:C133442 | Esophageal Squamous Cell Carcinoma by AJCC v7 Stage                                                                                                                         |
 | NCIT:C133444 | Esophageal Squamous Cell Carcinoma by AJCC v8 Clinical Stage                                                                                                                |
 | NCIT:C133445 | Esophageal Squamous Cell Carcinoma by AJCC v8 Pathologic Stage                                                                                                              |
 | NCIT:C133446 | Esophageal Squamous Cell Carcinoma by AJCC v8 Postneoadjuvant Therapy Stage                                                                                                 |
 | NCIT:C133443 | Esophageal Squamous Cell Carcinoma by AJCC v8 Stage                                                                                                                         |
 | NCIT:C27423  | Esophageal Squamous Intraepithelial Neoplasia                                                                                                                               |
+| NCIT:C224827 | Esophageal Squamous Papillomatosis                                                                                                                                          |
 | NCIT:C217665 | Esophageal Submucosal Gland Duct Adenoma                                                                                                                                    |
 | NCIT:C95624  | Esophageal Synovial Sarcoma                                                                                                                                                 |
-| NCIT:C95610  | Esophageal Well Differentiated Squamous Cell Carcinoma                                                                                                                      |
+| NCIT:C224859 | Esophageal Undifferentiated Carcinoma, Not Otherwise Specified                                                                                                              |
 | NCIT:C203673 | Esophageal and Gastroesophageal Junction Carcinoma                                                                                                                          |
 | NCIT:C212969 | Essential Thrombocythemia with CALR Mutation                                                                                                                                |
 | NCIT:C212975 | Essential Thrombocythemia with JAK2 Mutation                                                                                                                                |
 | NCIT:C212972 | Essential Thrombocythemia with MPL Mutation                                                                                                                                 |
 | NCIT:C212978 | Essential Thrombocythemia with Recurrent Thrombosis                                                                                                                         |
 | NCIT:C188366 | Estrogen Receptor-Positive Breast Carcinoma                                                                                                                                 |
+| NCIT:C223364 | Estrogen Receptor-Positive Invasive Breast Lobular Carcinoma                                                                                                                |
 | NCIT:C48456  | Estrogen-Producing Adrenal Cortical Adenoma                                                                                                                                 |
 | NCIT:C63888  | Exophytic Squamous Cell Carcinoma of the Rat Esophagus                                                                                                                      |
 | NCIT:C16835  | Experimental Malignant Melanoma                                                                                                                                             |
@@ -3174,6 +3220,14 @@
 | NCIT:C96811  | Extrahepatic Bile Duct Tubulopapillary Adenoma                                                                                                                              |
 | NCIT:C5780   | Extrahepatic Bile Duct Undifferentiated Carcinoma                                                                                                                           |
 | NCIT:C208025 | Extrahepatic Cholangiocarcinoma                                                                                                                                             |
+| NCIT:C225325 | Extramedullary Disease in Acute Myeloid Leukemia                                                                                                                            |
+| NCIT:C225326 | Extramedullary Disease in Acute Myeloid Leukemia Involving the Central Nervous System                                                                                       |
+| NCIT:C225327 | Extramedullary Disease in Acute Myeloid Leukemia Involving the Kidney                                                                                                       |
+| NCIT:C225328 | Extramedullary Disease in Acute Myeloid Leukemia Involving the Liver                                                                                                        |
+| NCIT:C225330 | Extramedullary Disease in Acute Myeloid Leukemia Involving the Lung                                                                                                         |
+| NCIT:C225329 | Extramedullary Disease in Acute Myeloid Leukemia Involving the Skin                                                                                                         |
+| NCIT:C225331 | Extramedullary Disease in Acute Myeloid Leukemia Involving the Spleen                                                                                                       |
+| NCIT:C225332 | Extramedullary Disease in Acute Myeloid Leukemia Involving the Uterine Corpus                                                                                               |
 | NCIT:C185149 | Extramedullary Disease in Multiple Myeloma                                                                                                                                  |
 | NCIT:C185037 | Extramedullary Disease in Multiple Myeloma Involving the Central Nervous System                                                                                             |
 | NCIT:C185153 | Extramedullary Disease in Multiple Myeloma Involving the Kidney                                                                                                             |
@@ -3202,7 +3256,7 @@
 | NCIT:C175223 | Eye Melanocytoma                                                                                                                                                            |
 | NCIT:C214968 | Eyelid Actinic Keratosis                                                                                                                                                    |
 | NCIT:C215016 | Eyelid Adenoid Cystic Carcinoma                                                                                                                                             |
-| NCIT:C214969 | Eyelid Adnexal Neoplasm                                                                                                                                                     |
+| NCIT:C219756 | Eyelid Angiosarcoma                                                                                                                                                         |
 | NCIT:C215031 | Eyelid Apocrine Carcinoma                                                                                                                                                   |
 | NCIT:C214975 | Eyelid Apocrine Hidrocystoma                                                                                                                                                |
 | NCIT:C181159 | Eyelid Basal Cell Carcinoma                                                                                                                                                 |
@@ -3210,10 +3264,13 @@
 | NCIT:C140513 | Eyelid Carcinoma by AJCC v8 Stage                                                                                                                                           |
 | NCIT:C214976 | Eyelid Eccrine Hidrocystoma                                                                                                                                                 |
 | NCIT:C215029 | Eyelid Endocrine Mucin-Producing Sweat Gland Carcinoma                                                                                                                      |
+| NCIT:C219754 | Eyelid Epithelioid Hemangioma                                                                                                                                               |
 | NCIT:C217739 | Eyelid Fibrous Histiocytoma                                                                                                                                                 |
+| NCIT:C219755 | Eyelid Hemangioma                                                                                                                                                           |
 | NCIT:C214974 | Eyelid Hidrocystoma                                                                                                                                                         |
 | NCIT:C214775 | Eyelid Inverted Follicular Keratosis                                                                                                                                        |
 | NCIT:C217741 | Eyelid Lipoma                                                                                                                                                               |
+| NCIT:C219748 | Eyelid Lobular Capillary Hemangioma                                                                                                                                         |
 | NCIT:C215032 | Eyelid Melanocytic Neoplasm                                                                                                                                                 |
 | NCIT:C214970 | Eyelid Merkel Cell Carcinoma                                                                                                                                                |
 | NCIT:C215030 | Eyelid Microcystic Adnexal Carcinoma                                                                                                                                        |
@@ -3297,7 +3354,8 @@
 | NCIT:C215423 | Female Reproductive System Adenosquamous Carcinoma                                                                                                                          |
 | NCIT:C212117 | Female Reproductive System Adnexal Neoplasm                                                                                                                                 |
 | NCIT:C181162 | Female Reproductive System Carcinoma                                                                                                                                        |
-| NCIT:C8975   | Female Reproductive System Carcinosarcoma                                                                                                                                   |
+| NCIT:C223955 | Female Reproductive System Carcinosarcoma                                                                                                                                   |
+| NCIT:C222815 | Female Reproductive System Clear Cell Adenocarcinoma                                                                                                                        |
 | NCIT:C215411 | Female Reproductive System Endometrioid Adenocarcinoma                                                                                                                      |
 | NCIT:C215422 | Female Reproductive System Large Cell Neuroendocrine Carcinoma                                                                                                              |
 | NCIT:C213738 | Female Reproductive System Lymphoma                                                                                                                                         |
@@ -3483,6 +3541,8 @@
 | NCIT:C203675 | Gastroesophageal Junction Carcinoma                                                                                                                                         |
 | NCIT:C126323 | Gastroesophageal Junction Large Cell Neuroendocrine Carcinoma                                                                                                               |
 | NCIT:C126324 | Gastroesophageal Junction Neuroendocrine Carcinoma                                                                                                                          |
+| NCIT:C223236 | Gastroesophageal Junction Neuroendocrine Neoplasm                                                                                                                           |
+| NCIT:C223237 | Gastroesophageal Junction Neuroendocrine Tumor                                                                                                                              |
 | NCIT:C126325 | Gastroesophageal Junction Small Cell Neuroendocrine Carcinoma                                                                                                               |
 | NCIT:C27940  | Gastrointestinal Autonomic Nerve Tumor                                                                                                                                      |
 | NCIT:C168666 | Gastrointestinal Carcinomatosis                                                                                                                                             |
@@ -3526,7 +3586,6 @@
 | NCIT:C22978  | Giant Cell Tumor of Bone of the Mouse Skeletal System, NOS                                                                                                                  |
 | NCIT:C65160  | Giant Cell and Spindle Cell Carcinoma                                                                                                                                       |
 | NCIT:C179410 | Giant Cell-Rich Osteosarcoma                                                                                                                                                |
-| NCIT:C5699   | Giant Fibrovascular Esophageal Polyp                                                                                                                                        |
 | NCIT:C134774 | Gibbon Lymphosarcoma                                                                                                                                                        |
 | NCIT:C27478  | Gingival Angiofibroma                                                                                                                                                       |
 | NCIT:C7721   | Gingival Carcinoma                                                                                                                                                          |
@@ -3567,6 +3626,7 @@
 | NCIT:C35851  | Grade 1 Clear Cell Renal Cell Carcinoma                                                                                                                                     |
 | NCIT:C7220   | Grade 1 Cutaneous Follicular Lymphoma                                                                                                                                       |
 | NCIT:C9464   | Grade 1 Diffuse Follicular Lymphoma                                                                                                                                         |
+| NCIT:C95610  | Grade 1 Esophageal Squamous Cell Carcinoma                                                                                                                                  |
 | NCIT:C3465   | Grade 1 Follicular Lymphoma                                                                                                                                                 |
 | NCIT:C5133   | Grade 1 Intracranial Meningioma                                                                                                                                             |
 | NCIT:C36039  | Grade 1 Malignant Neoplasm                                                                                                                                                  |
@@ -3578,12 +3638,14 @@
 | NCIT:C35852  | Grade 2 Clear Cell Renal Cell Carcinoma                                                                                                                                     |
 | NCIT:C7219   | Grade 2 Cutaneous Follicular Lymphoma                                                                                                                                       |
 | NCIT:C7194   | Grade 2 Diffuse Follicular Lymphoma                                                                                                                                         |
+| NCIT:C95611  | Grade 2 Esophageal Squamous Cell Carcinoma                                                                                                                                  |
 | NCIT:C8968   | Grade 2 Follicular Lymphoma                                                                                                                                                 |
 | NCIT:C36040  | Grade 2 Malignant Neoplasm                                                                                                                                                  |
 | NCIT:C7166   | Grade 2 Nodular Sclerosis Classic Hodgkin Lymphoma                                                                                                                          |
 | NCIT:C4645   | Grade 2 Vaginal Intraepithelial Neoplasia                                                                                                                                   |
 | NCIT:C35853  | Grade 3 Clear Cell Renal Cell Carcinoma                                                                                                                                     |
 | NCIT:C6859   | Grade 3 Cutaneous Follicular Lymphoma                                                                                                                                       |
+| NCIT:C95612  | Grade 3 Esophageal Squamous Cell Carcinoma                                                                                                                                  |
 | NCIT:C3460   | Grade 3 Follicular Lymphoma                                                                                                                                                 |
 | NCIT:C36042  | Grade 3 Malignant Neoplasm                                                                                                                                                  |
 | NCIT:C7191   | Grade 3a Follicular Lymphoma                                                                                                                                                |
@@ -3600,18 +3662,18 @@
 | NCIT:C185179 | Granular Cell Astrocytoma                                                                                                                                                   |
 | NCIT:C207410 | Granular Cell Atypical Fibroxanthoma                                                                                                                                        |
 | NCIT:C185178 | Granular Cell Glioblastoma                                                                                                                                                  |
-| NCIT:C7447   | Granular Cell Odontogenic Fibroma                                                                                                                                           |
 | NCIT:C22076  | Granular Cell Tumor of the Mouse Sellar Region                                                                                                                              |
 | NCIT:C21839  | Granular Cell Tumor of the Mouse Skin                                                                                                                                       |
 | NCIT:C7995   | Granular Renal Cell Carcinoma                                                                                                                                               |
 | NCIT:C22061  | Granulocytic Sarcoma of the Mouse Nervous System                                                                                                                            |
 | NCIT:C21641  | Granuloma of the Mouse Mammary Gland                                                                                                                                        |
-| NCIT:C66751  | Granulosa Cell-Theca Cell Tumor                                                                                                                                             |
 | NCIT:C5348   | Great Vessel Neoplasm                                                                                                                                                       |
 | NCIT:C134563 | Guinea Pig Colon Adenocarcinoma                                                                                                                                             |
 | NCIT:C134564 | Guinea Pig Leukemia                                                                                                                                                         |
 | NCIT:C179553 | HER2-Low Breast Carcinoma                                                                                                                                                   |
+| NCIT:C223367 | HER2-Negative Invasive Breast Lobular Carcinoma                                                                                                                             |
 | NCIT:C215011 | HER2-Positive Lung Non-Small Cell Carcinoma                                                                                                                                 |
+| NCIT:C222693 | HER2-Ultralow Breast Carcinoma                                                                                                                                              |
 | NCIT:C199576 | HHV-8 and EBV-Negative Primary Effusion-Based Lymphoma                                                                                                                      |
 | NCIT:C138320 | HHV8-Positive Diffuse Large B-Cell Lymphoma, Not Otherwise Specified                                                                                                        |
 | NCIT:C150404 | HHV8-Positive Multicentric Castleman Disease                                                                                                                                |
@@ -3804,6 +3866,7 @@
 | NCIT:C205629 | Hereditary ATTR Amyloidosis                                                                                                                                                 |
 | NCIT:C157248 | Hereditary Adrenal Gland Pheochromocytoma                                                                                                                                   |
 | NCIT:C165489 | Hereditary Cardiac ATTR Amyloidosis                                                                                                                                         |
+| NCIT:C220790 | Hereditary Chordoma                                                                                                                                                         |
 | NCIT:C164228 | Hereditary Colon Carcinoma                                                                                                                                                  |
 | NCIT:C36107  | Hereditary Female Breast Carcinoma                                                                                                                                          |
 | NCIT:C207041 | Hereditary Glomus Tumor                                                                                                                                                     |
@@ -3831,7 +3894,6 @@
 | NCIT:C199618 | High Grade B-Cell Lymphoma with MYC and BCL6 Rearrangements                                                                                                                 |
 | NCIT:C131913 | High Grade B-Cell Lymphoma with MYC, BCL2, and BCL6 Rearrangements                                                                                                          |
 | NCIT:C80291  | High Grade B-Cell Lymphoma, Not Otherwise Specified                                                                                                                         |
-| NCIT:C6817   | High Grade B-Cell Non-Hodgkin's Lymphoma                                                                                                                                    |
 | NCIT:C5005   | High Grade Burkitt-Like Lymphoma                                                                                                                                            |
 | NCIT:C7675   | High Grade Cervical Glandular Intraepithelial Neoplasia                                                                                                                     |
 | NCIT:C7670   | High Grade Cervical Intraepithelial Neoplasia                                                                                                                               |
@@ -3841,6 +3903,7 @@
 | NCIT:C190680 | High Grade Endometrial Carcinoma                                                                                                                                            |
 | NCIT:C199149 | High Grade Endometrioid Adenocarcinoma                                                                                                                                      |
 | NCIT:C27429  | High Grade Esophageal Glandular Intraepithelial Neoplasia                                                                                                                   |
+| NCIT:C27425  | High Grade Esophageal Intraepithelial Neoplasia                                                                                                                             |
 | NCIT:C27426  | High Grade Esophageal Squamous Intraepithelial Neoplasia                                                                                                                    |
 | NCIT:C22132  | High Grade Flat Tubular Dysplasia of the Mouse Intestinal Tract                                                                                                             |
 | NCIT:C22138  | High Grade Flat Tubulovillous Dysplasia of the Mouse Intestinal Tract                                                                                                       |
@@ -3913,6 +3976,7 @@
 | NCIT:C164145 | Hodgkin's Sarcoma                                                                                                                                                           |
 | NCIT:C36268  | Hodgkin-Like Adult T-Cell Leukemia/Lymphoma                                                                                                                                 |
 | NCIT:C165743 | Hormone Receptor-Negative Breast Carcinoma                                                                                                                                  |
+| NCIT:C223362 | Hormone Receptor-Positive Invasive Breast Lobular Carcinoma                                                                                                                 |
 | NCIT:C200652 | Hormone Therapy Refractory Neoplasm                                                                                                                                         |
 | NCIT:C180848 | Human Papillomavirus-Independent Cervical Adenocarcinoma                                                                                                                    |
 | NCIT:C180846 | Human Papillomavirus-Independent Cervical Adenocarcinoma In Situ                                                                                                            |
@@ -3955,7 +4019,6 @@
 | NCIT:C27679  | Human Papillomavirus-Related Vulvar Squamous Cell Carcinoma                                                                                                                 |
 | NCIT:C201821 | Hyalinizing Clear Cell Carcinoma                                                                                                                                            |
 | NCIT:C121686 | Hybrid Nerve Sheath Tumor                                                                                                                                                   |
-| NCIT:C7448   | Hybrid Odontogenic Fibroma                                                                                                                                                  |
 | NCIT:C202081 | Hybrid Odontogenic Fibroma with Central Giant Cell Granuloma                                                                                                                |
 | NCIT:C207082 | Hybrid Perineurioma-Neurofibroma                                                                                                                                            |
 | NCIT:C207081 | Hybrid Perineurioma-Schwannoma                                                                                                                                              |
@@ -3988,6 +4051,7 @@
 | NCIT:C70658  | ISS Stage I Multiple Myeloma                                                                                                                                                |
 | NCIT:C70659  | ISS Stage II Multiple Myeloma                                                                                                                                               |
 | NCIT:C70660  | ISS Stage III Multiple Myeloma                                                                                                                                              |
+| NCIT:C222278 | IgA Monoclonal Gammopathy of Undetermined Significance                                                                                                                      |
 | NCIT:C199458 | IgG-Positive Primary Cutaneous Marginal Zone Lymphoproliferative Disorder                                                                                                   |
 | NCIT:C199459 | IgG4-Positive Primary Cutaneous Marginal Zone Lymphoproliferative Disorder                                                                                                  |
 | NCIT:C150566 | IgM Monoclonal Gammopathy of Undetermined Significance                                                                                                                      |
@@ -4040,6 +4104,7 @@
 | NCIT:C172700 | Inflammatory Bowel Disease-Associated Colorectal Adenocarcinoma                                                                                                             |
 | NCIT:C21638  | Inflammatory Conditions of the Mouse Mammary Gland                                                                                                                          |
 | NCIT:C21697  | Inflammatory Conditions of the Mouse Prostate Gland                                                                                                                         |
+| NCIT:C221707 | Inflammatory Condyloma                                                                                                                                                      |
 | NCIT:C22078  | Inflammatory Diseases of the Mouse Intestinal Tract                                                                                                                         |
 | NCIT:C172941 | Inflammatory Fibroid Polyp                                                                                                                                                  |
 | NCIT:C96760  | Inflammatory Hepatocellular Adenoma                                                                                                                                         |
@@ -4334,7 +4399,6 @@
 | NCIT:C90527  | Laryngeal Cancer by AJCC v6 Stage                                                                                                                                           |
 | NCIT:C91256  | Laryngeal Cancer by AJCC v7 Stage                                                                                                                                           |
 | NCIT:C133156 | Laryngeal Cancer by AJCC v8 Stage                                                                                                                                           |
-| NCIT:C6024   | Laryngeal Carcinoid Tumor                                                                                                                                                   |
 | NCIT:C173406 | Laryngeal Chondroma                                                                                                                                                         |
 | NCIT:C173407 | Laryngeal Chondrosarcoma                                                                                                                                                    |
 | NCIT:C54342  | Laryngeal Giant Cell Carcinoma                                                                                                                                              |
@@ -4382,6 +4446,7 @@
 | NCIT:C7853   | Limited Stage Lung Small Cell Carcinoma                                                                                                                                     |
 | NCIT:C213376 | Lip Adenoid Cystic Carcinoma                                                                                                                                                |
 | NCIT:C8014   | Lip Basal Cell Carcinoma                                                                                                                                                    |
+| NCIT:C4372   | Lip Cherry Hemangioma                                                                                                                                                       |
 | NCIT:C132736 | Lip and Oral Cavity Cancer by AJCC v6 and v7 Stage                                                                                                                          |
 | NCIT:C132728 | Lip and Oral Cavity Cancer by AJCC v8 Stage                                                                                                                                 |
 | NCIT:C185180 | Lipidized Glioblastoma                                                                                                                                                      |
@@ -4431,6 +4496,7 @@
 | NCIT:C21649  | Lobuloacinar Hypoplasia of the Mouse Mammary Gland                                                                                                                          |
 | NCIT:C115997 | Localized Adult Undifferentiated High Grade Pleomorphic Sarcoma of Bone                                                                                                     |
 | NCIT:C8797   | Localized Alveolar Soft Part Sarcoma                                                                                                                                        |
+| NCIT:C223145 | Localized Anal Adenocarcinoma                                                                                                                                               |
 | NCIT:C216217 | Localized Anal Carcinoma                                                                                                                                                    |
 | NCIT:C216218 | Localized Anal Margin Carcinoma                                                                                                                                             |
 | NCIT:C166179 | Localized Anaplastic Large Cell Lymphoma                                                                                                                                    |
@@ -4438,6 +4504,7 @@
 | NCIT:C27902  | Localized Askin Tumor                                                                                                                                                       |
 | NCIT:C218460 | Localized Bladder Carcinoma                                                                                                                                                 |
 | NCIT:C6623   | Localized Bone Ewing Sarcoma                                                                                                                                                |
+| NCIT:C222485 | Localized Bone Sarcoma                                                                                                                                                      |
 | NCIT:C162782 | Localized Breast Carcinoma                                                                                                                                                  |
 | NCIT:C7625   | Localized Carcinoma                                                                                                                                                         |
 | NCIT:C150573 | Localized Cerebral Neoplasm                                                                                                                                                 |
@@ -4459,11 +4526,16 @@
 | NCIT:C115292 | Localized Childhood Soft Tissue Sarcoma                                                                                                                                     |
 | NCIT:C198415 | Localized Childhood Testicular Germ Cell Tumor by Toronto Guidelines v2                                                                                                     |
 | NCIT:C115998 | Localized Childhood Undifferentiated High Grade Pleomorphic Sarcoma of Bone                                                                                                 |
+| NCIT:C223010 | Localized Clear Cell Renal Cell Carcinoma                                                                                                                                   |
+| NCIT:C220570 | Localized Colon Adenocarcinoma                                                                                                                                              |
+| NCIT:C220569 | Localized Colon Carcinoma                                                                                                                                                   |
 | NCIT:C212894 | Localized Colorectal Carcinoma                                                                                                                                              |
+| NCIT:C219557 | Localized Dedifferentiated Liposarcoma                                                                                                                                      |
 | NCIT:C216181 | Localized Digestive System Carcinoma                                                                                                                                        |
 | NCIT:C7861   | Localized Digestive System Neuroendocrine Tumor G1                                                                                                                          |
 | NCIT:C8800   | Localized Epithelioid Sarcoma                                                                                                                                               |
 | NCIT:C166171 | Localized Esophageal Carcinoma                                                                                                                                              |
+| NCIT:C222037 | Localized Estrogen Receptor-Positive Breast Carcinoma                                                                                                                       |
 | NCIT:C7806   | Localized Ewing Sarcoma                                                                                                                                                     |
 | NCIT:C27901  | Localized Ewing Sarcoma/Peripheral Primitive Neuroectodermal Tumor                                                                                                          |
 | NCIT:C7891   | Localized Extrahepatic Bile Duct Carcinoma                                                                                                                                  |
@@ -4474,6 +4546,7 @@
 | NCIT:C198918 | Localized Gastric Adenocarcinoma                                                                                                                                            |
 | NCIT:C156167 | Localized Gastric Carcinoma                                                                                                                                                 |
 | NCIT:C156166 | Localized Gastroesophageal Junction Adenocarcinoma                                                                                                                          |
+| NCIT:C222038 | Localized HER2-Negative Breast Carcinoma                                                                                                                                    |
 | NCIT:C162569 | Localized Head and Neck Carcinoma                                                                                                                                           |
 | NCIT:C205621 | Localized Head and Neck Squamous Cell Carcinoma                                                                                                                             |
 | NCIT:C213430 | Localized High Grade Osteosarcoma of the Extremity                                                                                                                          |
@@ -4520,6 +4593,7 @@
 | NCIT:C201849 | Localized Prostate Adenocarcinoma                                                                                                                                           |
 | NCIT:C176517 | Localized Prostate Carcinoma                                                                                                                                                |
 | NCIT:C213456 | Localized Rectal Adenocarcinoma                                                                                                                                             |
+| NCIT:C220571 | Localized Rectal Carcinoma                                                                                                                                                  |
 | NCIT:C205361 | Localized Renal Cell Carcinoma                                                                                                                                              |
 | NCIT:C8167   | Localized Renal Pelvis and Ureter Urothelial Carcinoma                                                                                                                      |
 | NCIT:C9064   | Localized Resectable Adult Hepatocellular Carcinoma                                                                                                                         |
@@ -4530,6 +4604,7 @@
 | NCIT:C189240 | Localized Soft Tissue Sarcoma                                                                                                                                               |
 | NCIT:C8826   | Localized Synovial Sarcoma                                                                                                                                                  |
 | NCIT:C217175 | Localized Triple-Negative Breast Carcinoma                                                                                                                                  |
+| NCIT:C222484 | Localized Undifferentiated High Grade Pleomorphic Sarcoma of Bone                                                                                                           |
 | NCIT:C217176 | Localized Undifferentiated Pleomorphic Sarcoma                                                                                                                              |
 | NCIT:C9065   | Localized Unresectable Adult Hepatocellular Carcinoma                                                                                                                       |
 | NCIT:C7878   | Localized Unresectable Adult Liver Carcinoma                                                                                                                                |
@@ -4543,10 +4618,12 @@
 | NCIT:C164076 | Locally Advanced Alveolar Soft Part Sarcoma                                                                                                                                 |
 | NCIT:C171327 | Locally Advanced Ampulla of Vater Carcinoma                                                                                                                                 |
 | NCIT:C168977 | Locally Advanced Anal Carcinoma                                                                                                                                             |
+| NCIT:C222320 | Locally Advanced Anal Squamous Cell Carcinoma                                                                                                                               |
 | NCIT:C146856 | Locally Advanced Angiosarcoma                                                                                                                                               |
 | NCIT:C203618 | Locally Advanced Appendix Adenocarcinoma                                                                                                                                    |
 | NCIT:C156770 | Locally Advanced Basal Cell Carcinoma                                                                                                                                       |
 | NCIT:C151971 | Locally Advanced Bile Duct Carcinoma                                                                                                                                        |
+| NCIT:C222832 | Locally Advanced Biliary Tract Adenocarcinoma                                                                                                                               |
 | NCIT:C168981 | Locally Advanced Biliary Tract Carcinoma                                                                                                                                    |
 | NCIT:C203407 | Locally Advanced Bladder Adenocarcinoma                                                                                                                                     |
 | NCIT:C167071 | Locally Advanced Bladder Carcinoma                                                                                                                                          |
@@ -4620,12 +4697,14 @@
 | NCIT:C204437 | Locally Advanced HER2-Low Breast Carcinoma                                                                                                                                  |
 | NCIT:C178348 | Locally Advanced HER2-Negative Breast Carcinoma                                                                                                                             |
 | NCIT:C181793 | Locally Advanced HER2-Positive Breast Carcinoma                                                                                                                             |
+| NCIT:C222695 | Locally Advanced HER2-Ultralow Breast Carcinoma                                                                                                                             |
 | NCIT:C153213 | Locally Advanced Head and Neck Carcinoma                                                                                                                                    |
 | NCIT:C180891 | Locally Advanced Head and Neck Cutaneous Squamous Cell Carcinoma                                                                                                            |
 | NCIT:C162758 | Locally Advanced Head and Neck Squamous Cell Carcinoma                                                                                                                      |
 | NCIT:C168979 | Locally Advanced Hepatocellular Carcinoma                                                                                                                                   |
 | NCIT:C214990 | Locally Advanced Hepatopancreatobiliary Carcinoma                                                                                                                           |
 | NCIT:C168668 | Locally Advanced High Grade Sarcoma                                                                                                                                         |
+| NCIT:C225027 | Locally Advanced Hilar Cholangiocarcinoma                                                                                                                                   |
 | NCIT:C210714 | Locally Advanced Hindgut Neuroendocrine Tumor                                                                                                                               |
 | NCIT:C187399 | Locally Advanced Hormone Receptor-Positive Breast Carcinoma                                                                                                                 |
 | NCIT:C171280 | Locally Advanced Hypopharyngeal Carcinoma                                                                                                                                   |
@@ -4664,6 +4743,7 @@
 | NCIT:C171284 | Locally Advanced Malignant Skin Neoplasm                                                                                                                                    |
 | NCIT:C133093 | Locally Advanced Malignant Solid Neoplasm                                                                                                                                   |
 | NCIT:C148494 | Locally Advanced Melanoma                                                                                                                                                   |
+| NCIT:C223190 | Locally Advanced Meningioma                                                                                                                                                 |
 | NCIT:C165738 | Locally Advanced Merkel Cell Carcinoma                                                                                                                                      |
 | NCIT:C178269 | Locally Advanced Microsatellite Stable Colon Carcinoma                                                                                                                      |
 | NCIT:C156745 | Locally Advanced Microsatellite Stable Colorectal Carcinoma                                                                                                                 |
@@ -4789,6 +4869,8 @@
 | NCIT:C206437 | Locally Advanced Unresectable HER2-Negative BRCA-Associated Breast Carcinoma                                                                                                |
 | NCIT:C187398 | Locally Advanced Unresectable HER2-Negative Breast Carcinoma                                                                                                                |
 | NCIT:C186283 | Locally Advanced Unresectable HER2-Positive Breast Carcinoma                                                                                                                |
+| NCIT:C224626 | Locally Advanced Unresectable Head and Neck Carcinoma                                                                                                                       |
+| NCIT:C224624 | Locally Advanced Unresectable Head and Neck Squamous Cell Carcinoma                                                                                                         |
 | NCIT:C210687 | Locally Advanced Unresectable Hepatocellular Carcinoma                                                                                                                      |
 | NCIT:C187400 | Locally Advanced Unresectable Hormone Receptor-Positive Breast Carcinoma                                                                                                    |
 | NCIT:C213698 | Locally Advanced Unresectable Lung Adenocarcinoma                                                                                                                           |
@@ -4815,6 +4897,7 @@
 | NCIT:C155699 | Locally Advanced Unresectable Renal Cell Carcinoma                                                                                                                          |
 | NCIT:C153477 | Locally Advanced Unresectable Sarcoma                                                                                                                                       |
 | NCIT:C153476 | Locally Advanced Unresectable Soft Tissue Sarcoma                                                                                                                           |
+| NCIT:C224625 | Locally Advanced Unresectable Squamous Cell Carcinoma                                                                                                                       |
 | NCIT:C187402 | Locally Advanced Unresectable Triple-Negative Breast Carcinoma                                                                                                              |
 | NCIT:C213704 | Locally Advanced Unresectable Urinary System Carcinoma                                                                                                                      |
 | NCIT:C213699 | Locally Advanced Unresectable Urothelial Carcinoma                                                                                                                          |
@@ -4829,43 +4912,59 @@
 | NCIT:C170787 | Locally Advanced Vaginal Carcinoma                                                                                                                                          |
 | NCIT:C170785 | Locally Advanced Vulvar Carcinoma                                                                                                                                           |
 | NCIT:C175667 | Locally Invasive Desmoid-Type Fibromatosis                                                                                                                                  |
+| NCIT:C223143 | Locally Recurrent Anal Adenocarcinoma                                                                                                                                       |
 | NCIT:C175364 | Locally Recurrent Anal Canal Squamous Cell Carcinoma                                                                                                                        |
+| NCIT:C223144 | Locally Recurrent Anal Carcinoma                                                                                                                                            |
 | NCIT:C212217 | Locally Recurrent Biliary Tract Carcinoma                                                                                                                                   |
 | NCIT:C190196 | Locally Recurrent Breast Carcinoma                                                                                                                                          |
+| NCIT:C219062 | Locally Recurrent Breast Inflammatory Carcinoma                                                                                                                             |
 | NCIT:C190194 | Locally Recurrent Carcinoma                                                                                                                                                 |
 | NCIT:C217316 | Locally Recurrent Cervical Squamous Cell Carcinoma                                                                                                                          |
 | NCIT:C185073 | Locally Recurrent Chordoma                                                                                                                                                  |
 | NCIT:C190197 | Locally Recurrent Clear Cell Renal Cell Carcinoma                                                                                                                           |
 | NCIT:C190199 | Locally Recurrent Colorectal Carcinoma                                                                                                                                      |
+| NCIT:C219556 | Locally Recurrent Dedifferentiated Liposarcoma                                                                                                                              |
 | NCIT:C190200 | Locally Recurrent Endometrial Carcinoma                                                                                                                                     |
 | NCIT:C217315 | Locally Recurrent Esophageal Squamous Cell Carcinoma                                                                                                                        |
+| NCIT:C220572 | Locally Recurrent Estrogen Receptor-Positive Breast Carcinoma                                                                                                               |
 | NCIT:C211951 | Locally Recurrent Fallopian Tube Carcinoma                                                                                                                                  |
 | NCIT:C190198 | Locally Recurrent Gastric Carcinoma                                                                                                                                         |
+| NCIT:C220573 | Locally Recurrent HER2-Negative Breast Carcinoma                                                                                                                            |
 | NCIT:C176682 | Locally Recurrent Head and Neck Squamous Cell Carcinoma                                                                                                                     |
 | NCIT:C198153 | Locally Recurrent Hypopharyngeal Squamous Cell Carcinoma                                                                                                                    |
 | NCIT:C198151 | Locally Recurrent Laryngeal Squamous Cell Carcinoma                                                                                                                         |
+| NCIT:C219560 | Locally Recurrent Liposarcoma                                                                                                                                               |
 | NCIT:C190195 | Locally Recurrent Lung Non-Small Cell Carcinoma                                                                                                                             |
 | NCIT:C217312 | Locally Recurrent Lung Non-Small Cell Squamous Carcinoma                                                                                                                    |
 | NCIT:C94796  | Locally Recurrent Malignant Neoplasm                                                                                                                                        |
 | NCIT:C213666 | Locally Recurrent Malignant Solid Neoplasm                                                                                                                                  |
 | NCIT:C165740 | Locally Recurrent Merkel Cell Carcinoma                                                                                                                                     |
+| NCIT:C219551 | Locally Recurrent Myxofibrosarcoma                                                                                                                                          |
+| NCIT:C223558 | Locally Recurrent Nasal Cavity Squamous Cell Carcinoma                                                                                                                      |
 | NCIT:C217314 | Locally Recurrent Nasopharyngeal Squamous Cell Carcinoma                                                                                                                    |
 | NCIT:C198147 | Locally Recurrent Oral Cavity Squamous Cell Carcinoma                                                                                                                       |
 | NCIT:C198148 | Locally Recurrent Oropharyngeal Squamous Cell Carcinoma                                                                                                                     |
 | NCIT:C190201 | Locally Recurrent Ovarian Carcinoma                                                                                                                                         |
 | NCIT:C217199 | Locally Recurrent Ovarian High Grade Serous Adenocarcinoma                                                                                                                  |
 | NCIT:C212216 | Locally Recurrent Pancreatic Ductal Adenocarcinoma                                                                                                                          |
+| NCIT:C223559 | Locally Recurrent Paranasal Sinus Squamous Cell Carcinoma                                                                                                                   |
+| NCIT:C219558 | Locally Recurrent Pleomorphic Liposarcoma                                                                                                                                   |
 | NCIT:C211952 | Locally Recurrent Primary Peritoneal Carcinoma                                                                                                                              |
+| NCIT:C221747 | Locally Recurrent Prostate Adenocarcinoma                                                                                                                                   |
 | NCIT:C212215 | Locally Recurrent Prostate Carcinoma                                                                                                                                        |
+| NCIT:C223142 | Locally Recurrent Rectal Adenocarcinoma                                                                                                                                     |
 | NCIT:C209992 | Locally Recurrent Rectal Carcinoma                                                                                                                                          |
 | NCIT:C213760 | Locally Recurrent Retroperitoneal Sarcoma                                                                                                                                   |
 | NCIT:C213763 | Locally Recurrent Sarcoma                                                                                                                                                   |
 | NCIT:C165737 | Locally Recurrent Skin Squamous Cell Carcinoma                                                                                                                              |
 | NCIT:C212214 | Locally Recurrent Triple-Negative Breast Carcinoma                                                                                                                          |
+| NCIT:C219550 | Locally Recurrent Undifferentiated Pleomorphic Sarcoma                                                                                                                      |
 | NCIT:C213049 | Locally Recurrent Unresectable Breast Carcinoma                                                                                                                             |
 | NCIT:C212218 | Locally Recurrent Urothelial Carcinoma                                                                                                                                      |
 | NCIT:C179182 | Locally Recurrent Uterine Corpus Leiomyosarcoma                                                                                                                             |
 | NCIT:C198066 | Locoregional Childhood Neuroblastoma by Toronto Guidelines v2                                                                                                               |
+| NCIT:C223135 | Locoregionally Recurrent Breast Carcinoma                                                                                                                                   |
+| NCIT:C223134 | Locoregionally Recurrent Malignant Neoplasm                                                                                                                                 |
 | NCIT:C9098   | Low Grade Adult Non-Hodgkin's Lymphoma                                                                                                                                      |
 | NCIT:C27238  | Low Grade Anal Canal Intraepithelial Neoplasia                                                                                                                              |
 | NCIT:C157573 | Low Grade Anal Intraepithelial Neoplasia                                                                                                                                    |
@@ -4882,6 +4981,7 @@
 | NCIT:C199146 | Low Grade Endometrioid Adenocarcinoma                                                                                                                                       |
 | NCIT:C4263   | Low Grade Endometrioid Stromal Sarcoma                                                                                                                                      |
 | NCIT:C27428  | Low Grade Esophageal Glandular Intraepithelial Neoplasia                                                                                                                    |
+| NCIT:C4840   | Low Grade Esophageal Intraepithelial Neoplasia                                                                                                                              |
 | NCIT:C27427  | Low Grade Esophageal Squamous Intraepithelial Neoplasia                                                                                                                     |
 | NCIT:C126457 | Low Grade Fallopian Tube Serous Adenocarcinoma                                                                                                                              |
 | NCIT:C22131  | Low Grade Flat Tubular Dysplasia of the Mouse Intestinal Tract                                                                                                              |
@@ -4987,11 +5087,13 @@
 | NCIT:C173809 | Lung Alveolar Soft Part Sarcoma                                                                                                                                             |
 | NCIT:C210711 | Lung Amphicrine Carcinoma                                                                                                                                                   |
 | NCIT:C188082 | Lung Anaplastic Large Cell Lymphoma                                                                                                                                         |
+| NCIT:C223238 | Lung Angiosarcoma                                                                                                                                                           |
 | NCIT:C45507  | Lung Basaloid Squamous Cell Carcinoma                                                                                                                                       |
 | NCIT:C45632  | Lung Biphasic Synovial Sarcoma                                                                                                                                              |
 | NCIT:C90519  | Lung Cancer by AJCC v6 Stage                                                                                                                                                |
 | NCIT:C91232  | Lung Cancer by AJCC v7 Stage                                                                                                                                                |
 | NCIT:C136467 | Lung Cancer by AJCC v8 Stage                                                                                                                                                |
+| NCIT:C222364 | Lung Cancer by AJCC v9 Stage                                                                                                                                                |
 | NCIT:C45543  | Lung Carcinosarcoma                                                                                                                                                         |
 | NCIT:C45629  | Lung Chondroma                                                                                                                                                              |
 | NCIT:C45516  | Lung Clear Cell Adenocarcinoma                                                                                                                                              |
@@ -5000,6 +5102,7 @@
 | NCIT:C4453   | Lung Epithelioid Hemangioendothelioma                                                                                                                                       |
 | NCIT:C213633 | Lung Ewing Sarcoma                                                                                                                                                          |
 | NCIT:C181211 | Lung Follicular Lymphoma                                                                                                                                                    |
+| NCIT:C223175 | Lung Granular Cell Tumor                                                                                                                                                    |
 | NCIT:C213902 | Lung Hematopoietic and Lymphoid Cell Neoplasm                                                                                                                               |
 | NCIT:C213906 | Lung Histiocytic and Dendritic Cell Neoplasm                                                                                                                                |
 | NCIT:C181205 | Lung Hodgkin Lymphoma                                                                                                                                                       |
@@ -5021,19 +5124,24 @@
 | NCIT:C142828 | Lung Myoepithelial Tumor                                                                                                                                                    |
 | NCIT:C142829 | Lung Myoepithelioma                                                                                                                                                         |
 | NCIT:C5657   | Lung Myolipoma                                                                                                                                                              |
+| NCIT:C223193 | Lung NUT Carcinoma                                                                                                                                                          |
 | NCIT:C45569  | Lung Neuroendocrine Carcinoma                                                                                                                                               |
 | NCIT:C45550  | Lung Neuroendocrine Tumor G1                                                                                                                                                |
 | NCIT:C45551  | Lung Neuroendocrine Tumor G2                                                                                                                                                |
 | NCIT:C136714 | Lung Non-Keratinizing Squamous Cell Carcinoma                                                                                                                               |
 | NCIT:C136716 | Lung Non-Mucinous Adenocarcinoma In Situ                                                                                                                                    |
 | NCIT:C136491 | Lung Non-Small Cell Cancer by AJCC v7 Stage                                                                                                                                 |
+| NCIT:C223188 | Lung Non-Small Cell Carcinoma, Not Otherwise Specified                                                                                                                      |
 | NCIT:C135017 | Lung Non-Squamous Non-Small Cell Carcinoma                                                                                                                                  |
+| NCIT:C223176 | Lung Oncocytoma                                                                                                                                                             |
 | NCIT:C188061 | Lung Osteosarcoma                                                                                                                                                           |
+| NCIT:C223235 | Lung Paraganglioma                                                                                                                                                          |
 | NCIT:C185043 | Lung Plasmacytoma                                                                                                                                                           |
 | NCIT:C45603  | Lung Pleomorphic Adenoma                                                                                                                                                    |
 | NCIT:C213858 | Lung Polymorphic Post-Transplant Lymphoproliferative Disorder                                                                                                               |
 | NCIT:C213849 | Lung Post-Transplant Lymphoproliferative Disorder                                                                                                                           |
 | NCIT:C181201 | Lung Rhabdomyosarcoma                                                                                                                                                       |
+| NCIT:C223177 | Lung Schwannoma                                                                                                                                                             |
 | NCIT:C188068 | Lung Secretory Carcinoma                                                                                                                                                    |
 | NCIT:C188756 | Lung Small Cell Carcinoma Molecular Subtypes                                                                                                                                |
 | NCIT:C188753 | Lung Small Cell Carcinoma Neuroendocrine Subtypes                                                                                                                           |
@@ -5052,7 +5160,6 @@
 | NCIT:C45503  | Lung Squamous Cell Carcinoma, Clear Cell Variant                                                                                                                            |
 | NCIT:C45502  | Lung Squamous Cell Carcinoma, Papillary Variant                                                                                                                             |
 | NCIT:C45504  | Lung Squamous Cell Carcinoma, Small Cell Variant                                                                                                                            |
-| NCIT:C45573  | Lung Squamous Papilloma                                                                                                                                                     |
 | NCIT:C45631  | Lung Synovial Sarcoma                                                                                                                                                       |
 | NCIT:C45637  | Lung Teratoma                                                                                                                                                               |
 | NCIT:C213523 | Lung Undifferentiated Pleomorphic Sarcoma                                                                                                                                   |
@@ -5069,7 +5176,6 @@
 | NCIT:C21904  | Lymphoid Neoplasms and Related Disorders of the Mouse Hematologic System                                                                                                    |
 | NCIT:C141205 | Lymphoma by AJCC v8 Stage                                                                                                                                                   |
 | NCIT:C141139 | Lymphoma by Ann Arbor Stage                                                                                                                                                 |
-| NCIT:C27951  | Lymphoma by Lukes-Collins Classification (Antiquated)                                                                                                                       |
 | NCIT:C27268  | Lymphoma by Stage                                                                                                                                                           |
 | NCIT:C7186   | Lymphoma by Working Formulation (Antiquated)                                                                                                                                |
 | NCIT:C22160  | Lymphoma of the Mouse Intestinal Tract                                                                                                                                      |
@@ -5077,7 +5183,6 @@
 | NCIT:C23065  | Lymphoma of the Mouse Oral Cavity                                                                                                                                           |
 | NCIT:C23085  | Lymphoma of the Mouse Pharynx                                                                                                                                               |
 | NCIT:C23149  | Lymphoma of the Mouse Salivary Glands                                                                                                                                       |
-| NCIT:C27267  | Lymphoma/Leukemia by Kiel Classification (Antiquated)                                                                                                                       |
 | NCIT:C22058  | Lymphomas and Haemopoietic Neoplasms of the Mouse Nervous System                                                                                                            |
 | NCIT:C139017 | Lymphomatoid Papulosis with DUSP22-IRF4 Gene Rearrangement                                                                                                                  |
 | NCIT:C36266  | Lymphomatous Adult T-Cell Leukemia/Lymphoma                                                                                                                                 |
@@ -5117,6 +5222,7 @@
 | NCIT:C64042  | Malignant Astrocytoma of the Rat Brain                                                                                                                                      |
 | NCIT:C64043  | Malignant Astrocytoma of the Rat Spinal Cord                                                                                                                                |
 | NCIT:C21811  | Malignant Basal Cell Tumor of the Mouse Skin                                                                                                                                |
+| NCIT:C224692 | Malignant Brachial Plexus Neoplasm                                                                                                                                          |
 | NCIT:C5403   | Malignant Brain Germ Cell Tumor                                                                                                                                             |
 | NCIT:C5143   | Malignant Breast Adenomyoepithelioma                                                                                                                                        |
 | NCIT:C54099  | Malignant Central Nervous System Germ Cell Tumor                                                                                                                            |
@@ -5133,7 +5239,6 @@
 | NCIT:C7513   | Malignant Esophageal Neoplasm by Topographic Region                                                                                                                         |
 | NCIT:C3554   | Malignant Exocervical Neoplasm                                                                                                                                              |
 | NCIT:C6572   | Malignant Extraskeletal Cartilaginous and Osseous Neoplasm                                                                                                                  |
-| NCIT:C214973 | Malignant Eyelid Adnexal Neoplasm                                                                                                                                           |
 | NCIT:C121500 | Malignant Fibrohistiocytic Neoplasm                                                                                                                                         |
 | NCIT:C23122  | Malignant Fibrous Histiocytoma of the Mouse Larynx                                                                                                                          |
 | NCIT:C22036  | Malignant Fibrous Histiocytoma of the Mouse Nervous System                                                                                                                  |
@@ -5170,9 +5275,6 @@
 | NCIT:C190593 | Malignant Liver Neoplasm                                                                                                                                                    |
 | NCIT:C7115   | Malignant Liver Non-Epithelial Neoplasm                                                                                                                                     |
 | NCIT:C45625  | Malignant Lung and Pleural Neoplasm                                                                                                                                         |
-| NCIT:C8994   | Malignant Lymphoma Centroblastic, Follicular                                                                                                                                |
-| NCIT:C8996   | Malignant Lymphoma Follicular, Large Cleaved Cell Type                                                                                                                      |
-| NCIT:C8995   | Malignant Lymphoma Follicular, Large Noncleaved Cell Type                                                                                                                   |
 | NCIT:C27827  | Malignant Lymphoma by Cell Type (Working Formulation)                                                                                                                       |
 | NCIT:C27821  | Malignant Lymphoma, Convoluted                                                                                                                                              |
 | NCIT:C27099  | Malignant Lymphoma, Histiocytic, Diffuse                                                                                                                                    |
@@ -5197,6 +5299,7 @@
 | NCIT:C64120  | Malignant Mesothelioma of the Rat Peritoneum                                                                                                                                |
 | NCIT:C64121  | Malignant Mesothelioma of the Rat Pleura                                                                                                                                    |
 | NCIT:C64050  | Malignant Mixed Glioma of the Rat Spinal Cord                                                                                                                               |
+| NCIT:C8975   | Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                                                |
 | NCIT:C63987  | Malignant Mixed Muellerian Tumor of the Rat Uterine Cervix                                                                                                                  |
 | NCIT:C63988  | Malignant Mixed Muellerian Tumor of the Rat Uterus                                                                                                                          |
 | NCIT:C5902   | Malignant Mixed Tumor of the Major Salivary Gland                                                                                                                           |
@@ -5266,6 +5369,7 @@
 | NCIT:C215140 | Malignant Optic Nerve Teratoid Medulloepithelioma                                                                                                                           |
 | NCIT:C9316   | Malignant Oral Neoplasm                                                                                                                                                     |
 | NCIT:C4544   | Malignant Orbit Hemangiopericytoma                                                                                                                                          |
+| NCIT:C219761 | Malignant Orbital Bone Neoplasm                                                                                                                                             |
 | NCIT:C213613 | Malignant Orbital Solitary Fibrous Tumor                                                                                                                                    |
 | NCIT:C121774 | Malignant Ossifying Fibromyxoid Tumor                                                                                                                                       |
 | NCIT:C121933 | Malignant Osteoclastic Giant Cell-Rich Tumor of Bone                                                                                                                        |
@@ -5466,14 +5570,16 @@
 | NCIT:C6971   | Meningothelial Cell Neoplasm                                                                                                                                                |
 | NCIT:C204385 | Merkel Cell Polyoma Virus-Negative Merkel Cell Carcinoma                                                                                                                    |
 | NCIT:C204383 | Merkel Cell Polyoma Virus-Positive Merkel Cell Carcinoma                                                                                                                    |
-| NCIT:C53493  | Mesenchymal Chondrosarcoma of Bone                                                                                                                                          |
 | NCIT:C22974  | Mesenchymal Chondrosarcoma of the Mouse Skeletal System                                                                                                                     |
 | NCIT:C22029  | Mesenchymal Non-meningothelial Tumours of the Mouse Nervous System                                                                                                          |
 | NCIT:C40339  | Mesenteric Gastrointestinal Stromal Tumor                                                                                                                                   |
+| NCIT:C223952 | Mesonephric Carcinosarcoma                                                                                                                                                  |
 | NCIT:C179320 | Mesonephric-Like Adenocarcinoma                                                                                                                                             |
+| NCIT:C223953 | Mesonephric-Like Carcinosarcoma                                                                                                                                             |
 | NCIT:C64293  | Mesothelial Hyperplasia of the Rat Pericardium                                                                                                                              |
 | NCIT:C64294  | Mesothelial Hyperplasia of the Rat Peritoneum                                                                                                                               |
 | NCIT:C64295  | Mesothelial Hyperplasia of the Rat Pleura                                                                                                                                   |
+| NCIT:C223046 | Mesothelioma In Situ                                                                                                                                                        |
 | NCIT:C213964 | Metachronous High Volume Metastatic Castration-Sensitive Prostate Carcinoma                                                                                                 |
 | NCIT:C38156  | Metachronous Malignant Neoplasm                                                                                                                                             |
 | NCIT:C213963 | Metachronous Metastatic Castration-Sensitive Prostate Carcinoma                                                                                                             |
@@ -5516,6 +5622,7 @@
 | NCIT:C156769 | Metastatic Basal Cell Carcinoma                                                                                                                                             |
 | NCIT:C36264  | Metastatic Benign Neoplasm                                                                                                                                                  |
 | NCIT:C142869 | Metastatic Bile Duct Carcinoma                                                                                                                                              |
+| NCIT:C222831 | Metastatic Biliary Tract Adenocarcinoma                                                                                                                                     |
 | NCIT:C162751 | Metastatic Biliary Tract Carcinoma                                                                                                                                          |
 | NCIT:C203406 | Metastatic Bladder Adenocarcinoma                                                                                                                                           |
 | NCIT:C156062 | Metastatic Bladder Carcinoma                                                                                                                                                |
@@ -5537,6 +5644,7 @@
 | NCIT:C165698 | Metastatic Breast Adenocarcinoma                                                                                                                                            |
 | NCIT:C153238 | Metastatic Breast Carcinoma                                                                                                                                                 |
 | NCIT:C36303  | Metastatic Breast Carcinoma in the Bone                                                                                                                                     |
+| NCIT:C224700 | Metastatic Breast Carcinoma in the Brachial Plexus                                                                                                                          |
 | NCIT:C36301  | Metastatic Breast Carcinoma in the Brain                                                                                                                                    |
 | NCIT:C133501 | Metastatic Breast Carcinoma in the Central Nervous System                                                                                                                   |
 | NCIT:C214846 | Metastatic Breast Carcinoma in the Heart                                                                                                                                    |
@@ -5575,11 +5683,17 @@
 | NCIT:C24086  | Metastatic Carcinoma to the Mouse Uterine Cervix                                                                                                                            |
 | NCIT:C170924 | Metastatic Carcinosarcoma                                                                                                                                                   |
 | NCIT:C5392   | Metastatic Cardiac Paraganglioma                                                                                                                                            |
+| NCIT:C222491 | Metastatic Castration-Resistant Prostate Adenocarcinoma                                                                                                                     |
 | NCIT:C210981 | Metastatic Castration-Resistant Prostate Carcinoma                                                                                                                          |
+| NCIT:C222493 | Metastatic Castration-Sensitive Prostate Adenocarcinoma                                                                                                                     |
 | NCIT:C210982 | Metastatic Castration-Sensitive Prostate Carcinoma                                                                                                                          |
 | NCIT:C153389 | Metastatic Cervical Adenocarcinoma                                                                                                                                          |
 | NCIT:C153390 | Metastatic Cervical Adenosquamous Carcinoma                                                                                                                                 |
 | NCIT:C153387 | Metastatic Cervical Carcinoma                                                                                                                                               |
+| NCIT:C223991 | Metastatic Cervical Carcinosarcoma                                                                                                                                          |
+| NCIT:C223992 | Metastatic Cervical Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                            |
+| NCIT:C223993 | Metastatic Cervical Mesonephric Carcinosarcoma                                                                                                                              |
+| NCIT:C223994 | Metastatic Cervical Mesonephric-Like Carcinosarcoma                                                                                                                         |
 | NCIT:C206195 | Metastatic Cervical Non-Squamous Cell Carcinoma                                                                                                                             |
 | NCIT:C153388 | Metastatic Cervical Squamous Cell Carcinoma                                                                                                                                 |
 | NCIT:C198452 | Metastatic Childhood Astrocytoma by Toronto Guidelines v2                                                                                                                   |
@@ -5635,16 +5749,22 @@
 | NCIT:C175503 | Metastatic Distal Bile Duct Carcinoma                                                                                                                                       |
 | NCIT:C172242 | Metastatic Distal Cholangiocarcinoma                                                                                                                                        |
 | NCIT:C172249 | Metastatic Distal Esophagus Adenocarcinoma                                                                                                                                  |
+| NCIT:C224812 | Metastatic Distal Esophagus Squamous Cell Carcinoma                                                                                                                         |
 | NCIT:C183250 | Metastatic Embryonal Rhabdomyosarcoma                                                                                                                                       |
 | NCIT:C214935 | Metastatic Embryonal Tumor with Multilayered Rosettes                                                                                                                       |
 | NCIT:C215187 | Metastatic Endocrine Carcinoma                                                                                                                                              |
 | NCIT:C8942   | Metastatic Endometrial Adenocarcinoma                                                                                                                                       |
+| NCIT:C222633 | Metastatic Endometrial Adenocarcinoma, Not Otherwise Specified                                                                                                              |
 | NCIT:C175597 | Metastatic Endometrial Adenosquamous Carcinoma                                                                                                                              |
 | NCIT:C156068 | Metastatic Endometrial Carcinoma                                                                                                                                            |
 | NCIT:C175596 | Metastatic Endometrial Clear Cell Adenocarcinoma                                                                                                                            |
+| NCIT:C222627 | Metastatic Endometrial Dedifferentiated Carcinoma                                                                                                                           |
 | NCIT:C170806 | Metastatic Endometrial Endometrioid Adenocarcinoma                                                                                                                          |
 | NCIT:C175599 | Metastatic Endometrial Mixed Cell Adenocarcinoma                                                                                                                            |
+| NCIT:C222638 | Metastatic Endometrial Mucinous Adenocarcinoma                                                                                                                              |
 | NCIT:C170804 | Metastatic Endometrial Serous Adenocarcinoma                                                                                                                                |
+| NCIT:C222640 | Metastatic Endometrial Squamous Cell Carcinoma                                                                                                                              |
+| NCIT:C222643 | Metastatic Endometrial Transitional Cell Carcinoma                                                                                                                          |
 | NCIT:C198705 | Metastatic Endometrial Undifferentiated Carcinoma                                                                                                                           |
 | NCIT:C8943   | Metastatic Endometrioid Adenocarcinoma                                                                                                                                      |
 | NCIT:C213344 | Metastatic Ependymoma                                                                                                                                                       |
@@ -5669,12 +5789,12 @@
 | NCIT:C8804   | Metastatic Extraskeletal Myxoid Chondrosarcoma                                                                                                                              |
 | NCIT:C8808   | Metastatic Extraskeletal Osteosarcoma                                                                                                                                       |
 | NCIT:C156063 | Metastatic Fallopian Tube Carcinoma                                                                                                                                         |
-| NCIT:C211521 | Metastatic Fallopian Tube Carcinosarcoma                                                                                                                                    |
 | NCIT:C211519 | Metastatic Fallopian Tube Clear Cell Adenocarcinoma                                                                                                                         |
 | NCIT:C211517 | Metastatic Fallopian Tube Endometrioid Adenocarcinoma                                                                                                                       |
 | NCIT:C171016 | Metastatic Fallopian Tube High Grade Serous Adenocarcinoma                                                                                                                  |
+| NCIT:C211521 | Metastatic Fallopian Tube Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                      |
 | NCIT:C213702 | Metastatic Female Reproductive System Carcinoma                                                                                                                             |
-| NCIT:C170929 | Metastatic Female Reproductive System Carcinosarcoma                                                                                                                        |
+| NCIT:C223958 | Metastatic Female Reproductive System Carcinosarcoma                                                                                                                        |
 | NCIT:C215414 | Metastatic Female Reproductive System Endometrioid Adenocarcinoma                                                                                                           |
 | NCIT:C154078 | Metastatic Fibrolamellar Carcinoma                                                                                                                                          |
 | NCIT:C8812   | Metastatic Fibrosarcoma                                                                                                                                                     |
@@ -5683,6 +5803,7 @@
 | NCIT:C153319 | Metastatic Gastric Adenocarcinoma                                                                                                                                           |
 | NCIT:C153320 | Metastatic Gastric Carcinoma                                                                                                                                                |
 | NCIT:C156682 | Metastatic Gastric Neuroendocrine Carcinoma                                                                                                                                 |
+| NCIT:C224811 | Metastatic Gastric Squamous Cell Carcinoma                                                                                                                                  |
 | NCIT:C150577 | Metastatic Gastroesophageal Junction Adenocarcinoma                                                                                                                         |
 | NCIT:C206534 | Metastatic Gastroesophageal Junction Carcinoma                                                                                                                              |
 | NCIT:C150738 | Metastatic Gastrointestinal Stromal Tumor                                                                                                                                   |
@@ -5693,7 +5814,9 @@
 | NCIT:C179554 | Metastatic HER2-Low Breast Carcinoma                                                                                                                                        |
 | NCIT:C206436 | Metastatic HER2-Negative BRCA-Associated Breast Carcinoma                                                                                                                   |
 | NCIT:C168777 | Metastatic HER2-Negative Breast Carcinoma                                                                                                                                   |
+| NCIT:C223368 | Metastatic HER2-Negative Invasive Breast Lobular Carcinoma                                                                                                                  |
 | NCIT:C180924 | Metastatic HER2-Positive Breast Carcinoma                                                                                                                                   |
+| NCIT:C222694 | Metastatic HER2-Ultralow Breast Carcinoma                                                                                                                                   |
 | NCIT:C126465 | Metastatic Head and Neck Carcinoma                                                                                                                                          |
 | NCIT:C171573 | Metastatic Head and Neck Cutaneous Squamous Cell Carcinoma                                                                                                                  |
 | NCIT:C148153 | Metastatic Head and Neck Squamous Cell Carcinoma                                                                                                                            |
@@ -5705,6 +5828,7 @@
 | NCIT:C210713 | Metastatic Hindgut Neuroendocrine Tumor                                                                                                                                     |
 | NCIT:C190677 | Metastatic Hormone Receptor-Negative Breast Carcinoma                                                                                                                       |
 | NCIT:C185880 | Metastatic Hormone Receptor-Positive Breast Carcinoma                                                                                                                       |
+| NCIT:C223363 | Metastatic Hormone Receptor-Positive Invasive Breast Lobular Carcinoma                                                                                                      |
 | NCIT:C156793 | Metastatic Human Papillomavirus-Related Malignant Neoplasm                                                                                                                  |
 | NCIT:C180635 | Metastatic Hydatidiform Mole                                                                                                                                                |
 | NCIT:C156081 | Metastatic Hypopharyngeal Carcinoma                                                                                                                                         |
@@ -5715,6 +5839,7 @@
 | NCIT:C156475 | Metastatic Kaposi Sarcoma                                                                                                                                                   |
 | NCIT:C27806  | Metastatic Kidney Carcinoma                                                                                                                                                 |
 | NCIT:C157755 | Metastatic Kidney Medullary Carcinoma                                                                                                                                       |
+| NCIT:C219660 | Metastatic Kidney Wilms Tumor                                                                                                                                               |
 | NCIT:C158908 | Metastatic Large Cell Neuroendocrine Carcinoma                                                                                                                              |
 | NCIT:C156085 | Metastatic Laryngeal Carcinoma                                                                                                                                              |
 | NCIT:C150213 | Metastatic Laryngeal Squamous Cell Carcinoma                                                                                                                                |
@@ -5726,11 +5851,13 @@
 | NCIT:C8816   | Metastatic Liposarcoma                                                                                                                                                      |
 | NCIT:C154088 | Metastatic Liver Carcinoma                                                                                                                                                  |
 | NCIT:C178559 | Metastatic Low Grade Astrocytoma                                                                                                                                            |
+| NCIT:C223914 | Metastatic Low Grade Fibromyxoid Sarcoma                                                                                                                                    |
 | NCIT:C178558 | Metastatic Low Grade Glioma                                                                                                                                                 |
 | NCIT:C155908 | Metastatic Lung Adenocarcinoma                                                                                                                                              |
 | NCIT:C156093 | Metastatic Lung Adenosquamous Carcinoma                                                                                                                                     |
 | NCIT:C153202 | Metastatic Lung Carcinoma                                                                                                                                                   |
 | NCIT:C36305  | Metastatic Lung Carcinoma in the Bone                                                                                                                                       |
+| NCIT:C224699 | Metastatic Lung Carcinoma in the Brachial Plexus                                                                                                                            |
 | NCIT:C36304  | Metastatic Lung Carcinoma in the Brain                                                                                                                                      |
 | NCIT:C133503 | Metastatic Lung Carcinoma in the Central Nervous System                                                                                                                     |
 | NCIT:C213284 | Metastatic Lung Carcinoma in the Cerebrum                                                                                                                                   |
@@ -5764,7 +5891,9 @@
 | NCIT:C170467 | Metastatic Malignant Head and Neck Neoplasm                                                                                                                                 |
 | NCIT:C8709   | Metastatic Malignant Hemangiopericytoma                                                                                                                                     |
 | NCIT:C217201 | Metastatic Malignant Hepatobiliary Neoplasm                                                                                                                                 |
+| NCIT:C219661 | Metastatic Malignant Kidney Neoplasm                                                                                                                                        |
 | NCIT:C165252 | Metastatic Malignant Mesothelioma                                                                                                                                           |
+| NCIT:C170929 | Metastatic Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                                     |
 | NCIT:C8615   | Metastatic Malignant Neoplasm in the Abdomen                                                                                                                                |
 | NCIT:C214492 | Metastatic Malignant Neoplasm in the Abdominal Lymph Nodes                                                                                                                  |
 | NCIT:C8610   | Metastatic Malignant Neoplasm in the Adrenal Gland                                                                                                                          |
@@ -5773,6 +5902,7 @@
 | NCIT:C7650   | Metastatic Malignant Neoplasm in the Bladder                                                                                                                                |
 | NCIT:C3580   | Metastatic Malignant Neoplasm in the Bone                                                                                                                                   |
 | NCIT:C4582   | Metastatic Malignant Neoplasm in the Bone Marrow                                                                                                                            |
+| NCIT:C224697 | Metastatic Malignant Neoplasm in the Brachial Plexus                                                                                                                        |
 | NCIT:C3813   | Metastatic Malignant Neoplasm in the Brain                                                                                                                                  |
 | NCIT:C8550   | Metastatic Malignant Neoplasm in the Brain Stem                                                                                                                             |
 | NCIT:C7511   | Metastatic Malignant Neoplasm in the Breast                                                                                                                                 |
@@ -5811,6 +5941,7 @@
 | NCIT:C6030   | Metastatic Malignant Neoplasm in the Nasopharynx                                                                                                                            |
 | NCIT:C8528   | Metastatic Malignant Neoplasm in the Neck                                                                                                                                   |
 | NCIT:C8547   | Metastatic Malignant Neoplasm in the Nervous System                                                                                                                         |
+| NCIT:C220565 | Metastatic Malignant Neoplasm in the Ocular Adnexa                                                                                                                          |
 | NCIT:C8556   | Metastatic Malignant Neoplasm in the Orbit                                                                                                                                  |
 | NCIT:C6029   | Metastatic Malignant Neoplasm in the Oropharynx                                                                                                                             |
 | NCIT:C7456   | Metastatic Malignant Neoplasm in the Ovary                                                                                                                                  |
@@ -5819,6 +5950,7 @@
 | NCIT:C161583 | Metastatic Malignant Neoplasm in the Pelvic Cavity                                                                                                                          |
 | NCIT:C162549 | Metastatic Malignant Neoplasm in the Penis                                                                                                                                  |
 | NCIT:C45762  | Metastatic Malignant Neoplasm in the Pericardium                                                                                                                            |
+| NCIT:C224698 | Metastatic Malignant Neoplasm in the Peripheral Nervous System                                                                                                              |
 | NCIT:C4583   | Metastatic Malignant Neoplasm in the Peritoneum                                                                                                                             |
 | NCIT:C7546   | Metastatic Malignant Neoplasm in the Pharynx                                                                                                                                |
 | NCIT:C6805   | Metastatic Malignant Neoplasm in the Pituitary Gland                                                                                                                        |
@@ -5869,7 +6001,9 @@
 | NCIT:C127155 | Metastatic Malignant Solid Neoplasm                                                                                                                                         |
 | NCIT:C25771  | Metastatic Malignant Testicular Germ Cell Tumor                                                                                                                             |
 | NCIT:C212205 | Metastatic Malignant Testicular Neoplasm                                                                                                                                    |
+| NCIT:C222489 | Metastatic Malignant Testicular Non-Seminomatous Germ Cell Tumor                                                                                                            |
 | NCIT:C176862 | Metastatic Malignant Thoracic Neoplasm                                                                                                                                      |
+| NCIT:C219668 | Metastatic Malignant Urinary System Neoplasm                                                                                                                                |
 | NCIT:C213048 | Metastatic Malignant Uterine Corpus Neoplasm                                                                                                                                |
 | NCIT:C177725 | Metastatic Medulloblastoma                                                                                                                                                  |
 | NCIT:C213510 | Metastatic Melanoma in the Bone                                                                                                                                             |
@@ -5884,11 +6018,14 @@
 | NCIT:C5274   | Metastatic Meningioma                                                                                                                                                       |
 | NCIT:C162572 | Metastatic Merkel Cell Carcinoma                                                                                                                                            |
 | NCIT:C185381 | Metastatic Mesonephric Adenocarcinoma                                                                                                                                       |
+| NCIT:C224000 | Metastatic Mesonephric Carcinosarcoma                                                                                                                                       |
+| NCIT:C224001 | Metastatic Mesonephric-Like Carcinosarcoma                                                                                                                                  |
 | NCIT:C191695 | Metastatic Micropapillary Urothelial Carcinoma                                                                                                                              |
 | NCIT:C178268 | Metastatic Microsatellite Stable Colon Carcinoma                                                                                                                            |
 | NCIT:C142867 | Metastatic Microsatellite Stable Colorectal Carcinoma                                                                                                                       |
 | NCIT:C180336 | Metastatic Microsatellite Stable Endometrial Carcinoma                                                                                                                      |
 | NCIT:C180333 | Metastatic Microsatellite Stable Ovarian Carcinoma                                                                                                                          |
+| NCIT:C219509 | Metastatic Microsatellite Stable Pancreatic Ductal Adenocarcinoma                                                                                                           |
 | NCIT:C167329 | Metastatic Midgut Neuroendocrine Tumor                                                                                                                                      |
 | NCIT:C200495 | Metastatic Midgut Neuroendocrine Tumor G1                                                                                                                                   |
 | NCIT:C200496 | Metastatic Midgut Neuroendocrine Tumor G2                                                                                                                                   |
@@ -5928,13 +6065,16 @@
 | NCIT:C150202 | Metastatic Oropharyngeal Squamous Cell Carcinoma                                                                                                                            |
 | NCIT:C7781   | Metastatic Osteosarcoma                                                                                                                                                     |
 | NCIT:C156064 | Metastatic Ovarian Carcinoma                                                                                                                                                |
-| NCIT:C170933 | Metastatic Ovarian Carcinosarcoma                                                                                                                                           |
+| NCIT:C223973 | Metastatic Ovarian Carcinosarcoma                                                                                                                                           |
 | NCIT:C170944 | Metastatic Ovarian Clear Cell Adenocarcinoma                                                                                                                                |
 | NCIT:C170938 | Metastatic Ovarian Endometrioid Adenocarcinoma                                                                                                                              |
 | NCIT:C213326 | Metastatic Ovarian High Grade Endometrioid Adenocarcinoma                                                                                                                   |
 | NCIT:C186454 | Metastatic Ovarian High Grade Serous Adenocarcinoma                                                                                                                         |
 | NCIT:C215217 | Metastatic Ovarian Low Grade Endometrioid Adenocarcinoma                                                                                                                    |
 | NCIT:C215219 | Metastatic Ovarian Low Grade Serous Adenocarcinoma                                                                                                                          |
+| NCIT:C170933 | Metastatic Ovarian Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                             |
+| NCIT:C223969 | Metastatic Ovarian Mesonephric Carcinosarcoma                                                                                                                               |
+| NCIT:C223971 | Metastatic Ovarian Mesonephric-Like Carcinosarcoma                                                                                                                          |
 | NCIT:C183244 | Metastatic Ovarian Mucinous Adenocarcinoma                                                                                                                                  |
 | NCIT:C160782 | Metastatic Ovarian Serous Adenocarcinoma                                                                                                                                    |
 | NCIT:C187234 | Metastatic Ovarian Serous Cystadenocarcinoma                                                                                                                                |
@@ -6000,6 +6140,7 @@
 | NCIT:C156098 | Metastatic Rectal Carcinoma                                                                                                                                                 |
 | NCIT:C170779 | Metastatic Rectal Squamous Cell Carcinoma                                                                                                                                   |
 | NCIT:C150595 | Metastatic Renal Cell Carcinoma                                                                                                                                             |
+| NCIT:C223891 | Metastatic Renal Cell Carcinoma with MiT Translocations                                                                                                                     |
 | NCIT:C171583 | Metastatic Renal Cell Carcinoma, Not Otherwise Specified                                                                                                                    |
 | NCIT:C163965 | Metastatic Renal Pelvis Carcinoma                                                                                                                                           |
 | NCIT:C150514 | Metastatic Renal Pelvis Urothelial Carcinoma                                                                                                                                |
@@ -6020,6 +6161,7 @@
 | NCIT:C213486 | Metastatic Sarcoma with BCOR Genetic Alterations                                                                                                                            |
 | NCIT:C157757 | Metastatic Sarcomatoid Renal Cell Carcinoma                                                                                                                                 |
 | NCIT:C191736 | Metastatic Sarcomatoid Urothelial Carcinoma                                                                                                                                 |
+| NCIT:C223912 | Metastatic Sclerosing Epithelioid Fibrosarcoma                                                                                                                              |
 | NCIT:C200060 | Metastatic Sebaceous Carcinoma                                                                                                                                              |
 | NCIT:C66717  | Metastatic Signet Ring Cell Adenocarcinoma                                                                                                                                  |
 | NCIT:C200584 | Metastatic Sinonasal Carcinoma                                                                                                                                              |
@@ -6042,6 +6184,7 @@
 | NCIT:C188113 | Metastatic Squamous Cell Carcinoma in the Skin                                                                                                                              |
 | NCIT:C211607 | Metastatic Succinate Dehydrogenase-Deficient Renal Cell Carcinoma                                                                                                           |
 | NCIT:C8825   | Metastatic Synovial Sarcoma                                                                                                                                                 |
+| NCIT:C222480 | Metastatic Testicular Seminoma                                                                                                                                              |
 | NCIT:C148128 | Metastatic Thymus Carcinoma                                                                                                                                                 |
 | NCIT:C162461 | Metastatic Thymus Neuroendocrine Neoplasm                                                                                                                                   |
 | NCIT:C170831 | Metastatic Thyroid Gland Anaplastic Carcinoma                                                                                                                               |
@@ -6054,6 +6197,7 @@
 | NCIT:C129828 | Metastatic Transitional Cell Carcinoma                                                                                                                                      |
 | NCIT:C153348 | Metastatic Triple-Negative Breast Carcinoma                                                                                                                                 |
 | NCIT:C185954 | Metastatic Triple-Negative Breast Inflammatory Carcinoma                                                                                                                    |
+| NCIT:C223370 | Metastatic Triple-Negative Invasive Breast Lobular Carcinoma                                                                                                                |
 | NCIT:C22077  | Metastatic Tumours of the Mouse Nervous System                                                                                                                              |
 | NCIT:C4926   | Metastatic Undifferentiated Pleomorphic Sarcoma                                                                                                                             |
 | NCIT:C213482 | Metastatic Undifferentiated Round Cell Sarcoma                                                                                                                              |
@@ -6073,9 +6217,16 @@
 | NCIT:C150512 | Metastatic Urethral Urothelial Carcinoma                                                                                                                                    |
 | NCIT:C213705 | Metastatic Urinary System Carcinoma                                                                                                                                         |
 | NCIT:C126109 | Metastatic Urothelial Carcinoma                                                                                                                                             |
-| NCIT:C170931 | Metastatic Uterine Corpus Carcinosarcoma                                                                                                                                    |
+| NCIT:C223979 | Metastatic Uterine Carcinosarcoma                                                                                                                                           |
+| NCIT:C223987 | Metastatic Uterine Corpus Carcinosarcoma                                                                                                                                    |
 | NCIT:C188207 | Metastatic Uterine Corpus Leiomyosarcoma                                                                                                                                    |
+| NCIT:C170931 | Metastatic Uterine Corpus Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                      |
+| NCIT:C223988 | Metastatic Uterine Corpus Mesonephric Carcinosarcoma                                                                                                                        |
+| NCIT:C223989 | Metastatic Uterine Corpus Mesonephric-Like Carcinosarcoma                                                                                                                   |
 | NCIT:C190009 | Metastatic Uterine Corpus Sarcoma                                                                                                                                           |
+| NCIT:C223999 | Metastatic Uterine Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                             |
+| NCIT:C223975 | Metastatic Uterine Mesonephric Carcinosarcoma                                                                                                                               |
+| NCIT:C223977 | Metastatic Uterine Mesonephric-Like Carcinosarcoma                                                                                                                          |
 | NCIT:C148514 | Metastatic Uveal Melanoma                                                                                                                                                   |
 | NCIT:C8944   | Metastatic Vaginal Adenocarcinoma                                                                                                                                           |
 | NCIT:C181028 | Metastatic Vaginal Adenosquamous Carcinoma                                                                                                                                  |
@@ -6106,6 +6257,7 @@
 | NCIT:C173324 | Microsatellite Stable Colorectal Carcinoma                                                                                                                                  |
 | NCIT:C180335 | Microsatellite Stable Endometrial Carcinoma                                                                                                                                 |
 | NCIT:C180332 | Microsatellite Stable Ovarian Carcinoma                                                                                                                                     |
+| NCIT:C219508 | Microsatellite Stable Pancreatic Ductal Adenocarcinoma                                                                                                                      |
 | NCIT:C177776 | Microsatellite Stable Rectal Carcinoma                                                                                                                                      |
 | NCIT:C45708  | Microscopic Thymoma                                                                                                                                                         |
 | NCIT:C206679 | Microvenular Hemangioma                                                                                                                                                     |
@@ -6792,6 +6944,7 @@
 | NCIT:C90522  | Nasopharyngeal Carcinoma by AJCC v6 Stage                                                                                                                                   |
 | NCIT:C91244  | Nasopharyngeal Carcinoma by AJCC v7 Stage                                                                                                                                   |
 | NCIT:C132816 | Nasopharyngeal Carcinoma by AJCC v8 Stage                                                                                                                                   |
+| NCIT:C222756 | Nasopharyngeal Carcinoma by AJCC v9 Stage                                                                                                                                   |
 | NCIT:C54389  | Nasopharyngeal Differentiated Carcinoma                                                                                                                                     |
 | NCIT:C213674 | Nasopharyngeal Diffuse Large B-Cell Lymphoma                                                                                                                                |
 | NCIT:C213723 | Nasopharyngeal Follicular Lymphoma                                                                                                                                          |
@@ -6877,7 +7030,6 @@
 | NCIT:C67171  | Nodular Sclerosis Classic Hodgkin Lymphoma, Cellular Phase                                                                                                                  |
 | NCIT:C27807  | Nodular Sclerosis Classic Hodgkin Lymphoma, Syncytial Variant                                                                                                               |
 | NCIT:C206118 | Non-BRCA Hereditary Breast Carcinoma                                                                                                                                        |
-| NCIT:C7187   | Non-Burkitt's Lymphoma                                                                                                                                                      |
 | NCIT:C202059 | Non-Calcifying/Langerhans Cell-Rich Calcifying Epithelial Odontogenic Tumor                                                                                                 |
 | NCIT:C206472 | Non-Classic Inclusion Body Fibromatosis                                                                                                                                     |
 | NCIT:C202497 | Non-Clear Cell Renal Cell Carcinoma                                                                                                                                         |
@@ -6912,6 +7064,9 @@
 | NCIT:C65181  | Non-Invasive Papillary Urothelial Carcinoma                                                                                                                                 |
 | NCIT:C191675 | Non-Invasive Papillary Urothelial Carcinoma, High Grade                                                                                                                     |
 | NCIT:C191673 | Non-Invasive Papillary Urothelial Carcinoma, Low Grade                                                                                                                      |
+| NCIT:C222752 | Non-Invasive Renal Pelvis and Ureter Papillary Urothelial Carcinoma                                                                                                         |
+| NCIT:C222755 | Non-Invasive Renal Pelvis and Ureter Papillary Urothelial Carcinoma, High Grade                                                                                             |
+| NCIT:C222754 | Non-Invasive Renal Pelvis and Ureter Papillary Urothelial Carcinoma, Low Grade                                                                                              |
 | NCIT:C23071  | Non-Keratinizing Carcinoma of the Mouse Pharynx                                                                                                                             |
 | NCIT:C23073  | Non-Keratinizing Carcinoma of the Mouse Pharynx With Lymphoid Stroma                                                                                                        |
 | NCIT:C23072  | Non-Keratinizing Carcinoma of the Mouse Pharynx Without Lymphoid Stroma                                                                                                     |
@@ -6965,6 +7120,7 @@
 | NCIT:C137674 | Occult Breast Carcinoma                                                                                                                                                     |
 | NCIT:C6684   | Occult Lung Adenosquamous Carcinoma                                                                                                                                         |
 | NCIT:C136468 | Occult Lung Cancer AJCC v8                                                                                                                                                  |
+| NCIT:C222365 | Occult Lung Cancer AJCC v9                                                                                                                                                  |
 | NCIT:C5641   | Occult Lung Carcinoma                                                                                                                                                       |
 | NCIT:C9038   | Occult Lung Non-Small Cell Carcinoma                                                                                                                                        |
 | NCIT:C4993   | Occupational Malignant Neoplasm                                                                                                                                             |
@@ -6978,7 +7134,6 @@
 | NCIT:C64062  | Ocular Dermoid of the Rat Eyeball                                                                                                                                           |
 | NCIT:C217092 | Ocular Surface Fibroma                                                                                                                                                      |
 | NCIT:C176043 | Ocular Surface Squamous Neoplasia                                                                                                                                           |
-| NCIT:C54317  | Odontoameloblastoma                                                                                                                                                         |
 | NCIT:C173720 | Odontogenic Carcinoma                                                                                                                                                       |
 | NCIT:C173735 | Odontogenic Carcinosarcoma                                                                                                                                                  |
 | NCIT:C4314   | Odontogenic Fibroma                                                                                                                                                         |
@@ -6998,16 +7153,22 @@
 | NCIT:C129323 | Oligoastrocytoma, Not Otherwise Specified                                                                                                                                   |
 | NCIT:C66802  | Oligodendroblastoma                                                                                                                                                         |
 | NCIT:C129319 | Oligodendroglioma, Not Otherwise Specified                                                                                                                                  |
+| NCIT:C223844 | Oligometastatic Adenocarcinoma                                                                                                                                              |
 | NCIT:C179515 | Oligometastatic Breast Carcinoma                                                                                                                                            |
+| NCIT:C223843 | Oligometastatic Carcinoma                                                                                                                                                   |
 | NCIT:C185165 | Oligometastatic Colorectal Carcinoma                                                                                                                                        |
 | NCIT:C209348 | Oligometastatic Cutaneous Melanoma                                                                                                                                          |
 | NCIT:C166120 | Oligometastatic Esophageal Adenocarcinoma                                                                                                                                   |
 | NCIT:C166121 | Oligometastatic Gastric Adenocarcinoma                                                                                                                                      |
 | NCIT:C200569 | Oligometastatic Intrahepatic Cholangiocarcinoma                                                                                                                             |
 | NCIT:C187195 | Oligometastatic Lung Carcinoma                                                                                                                                              |
+| NCIT:C223845 | Oligometastatic Malignant Neoplasm                                                                                                                                          |
 | NCIT:C161019 | Oligometastatic Malignant Solid Neoplasm                                                                                                                                    |
 | NCIT:C187450 | Oligometastatic Pancreatic Ductal Adenocarcinoma                                                                                                                            |
+| NCIT:C220613 | Oligometastatic Prostate Adenocarcinoma                                                                                                                                     |
 | NCIT:C171265 | Oligometastatic Prostate Carcinoma                                                                                                                                          |
+| NCIT:C223842 | Oligometastatic Urothelial Carcinoma                                                                                                                                        |
+| NCIT:C222471 | Oligoprogressive Prostate Adenocarcinoma                                                                                                                                    |
 | NCIT:C40340  | Omentum Gastrointestinal Stromal Tumor                                                                                                                                      |
 | NCIT:C3679   | Oncocytic Adenocarcinoma                                                                                                                                                    |
 | NCIT:C46093  | Oncocytic Variant Thyroid Gland Papillary Carcinoma                                                                                                                         |
@@ -7074,14 +7235,25 @@
 | NCIT:C173475 | Oral Verruca Vulgaris                                                                                                                                                       |
 | NCIT:C4547   | Orbit Hemangiopericytoma                                                                                                                                                    |
 | NCIT:C156276 | Orbital Alveolar Soft Part Sarcoma                                                                                                                                          |
+| NCIT:C220242 | Orbital Bone Angiosarcoma                                                                                                                                                   |
+| NCIT:C220243 | Orbital Bone Epithelioid Hemangioendothelioma                                                                                                                               |
+| NCIT:C220235 | Orbital Bone Mesenchymal Chondrosarcoma                                                                                                                                     |
+| NCIT:C219759 | Orbital Bone Neoplasm                                                                                                                                                       |
+| NCIT:C219766 | Orbital Bone Osteoblastoma                                                                                                                                                  |
+| NCIT:C219762 | Orbital Bone Osteoma                                                                                                                                                        |
+| NCIT:C219768 | Orbital Bone Osteosarcoma                                                                                                                                                   |
 | NCIT:C4545   | Orbital Capillary Hemangioma                                                                                                                                                |
 | NCIT:C216244 | Orbital Disorder                                                                                                                                                            |
+| NCIT:C219753 | Orbital Epithelioid Hemangioma                                                                                                                                              |
+| NCIT:C219757 | Orbital Epithelioid Sarcoma                                                                                                                                                 |
 | NCIT:C202882 | Orbital Extraskeletal Myxoid Chondrosarcoma                                                                                                                                 |
 | NCIT:C216957 | Orbital Follicular Lymphoma                                                                                                                                                 |
 | NCIT:C216257 | Orbital Germ Cell Tumor                                                                                                                                                     |
+| NCIT:C219710 | Orbital Granular Cell Tumor                                                                                                                                                 |
 | NCIT:C217094 | Orbital Inflammatory Myofibroblastic Tumor                                                                                                                                  |
 | NCIT:C217744 | Orbital Leiomyoma                                                                                                                                                           |
 | NCIT:C217742 | Orbital Liposarcoma                                                                                                                                                         |
+| NCIT:C219711 | Orbital Malignant Peripheral Nerve Sheath Tumor                                                                                                                             |
 | NCIT:C216958 | Orbital Mantle Cell Lymphoma                                                                                                                                                |
 | NCIT:C118828 | Orbital Melanoma                                                                                                                                                            |
 | NCIT:C217021 | Orbital Myeloid Sarcoma                                                                                                                                                     |
@@ -7090,9 +7262,13 @@
 | NCIT:C217745 | Orbital Schwannoma                                                                                                                                                          |
 | NCIT:C202620 | Orbital Solitary Fibrous Tumor                                                                                                                                              |
 | NCIT:C208484 | Orbital Squamous Cell Carcinoma                                                                                                                                             |
+| NCIT:C219758 | Orbital Synovial Sarcoma                                                                                                                                                    |
 | NCIT:C216258 | Orbital Teratoma                                                                                                                                                            |
 | NCIT:C216259 | Orbital Yolk Sac Tumor                                                                                                                                                      |
 | NCIT:C60317  | Organ not Available for Histological Examination                                                                                                                            |
+| NCIT:C224052 | Oropharyngeal (HPV-Associated) Carcinoma by AJCC v9 Clinical Stage                                                                                                          |
+| NCIT:C224060 | Oropharyngeal (HPV-Associated) Carcinoma by AJCC v9 Pathologic Stage                                                                                                        |
+| NCIT:C224049 | Oropharyngeal (HPV-Associated) Carcinoma by AJCC v9 Stage                                                                                                                   |
 | NCIT:C132994 | Oropharyngeal (p16-Negative) Carcinoma by AJCC v8 Stage                                                                                                                     |
 | NCIT:C213478 | Oropharyngeal Adenosquamous Carcinoma                                                                                                                                       |
 | NCIT:C126751 | Oropharyngeal Basaloid Squamous Cell Carcinoma                                                                                                                              |
@@ -7151,6 +7327,7 @@
 | NCIT:C128106 | Ovarian Cancer by AJCC v6 and v7 Stage                                                                                                                                      |
 | NCIT:C139963 | Ovarian Cancer by AJCC v8 Stage                                                                                                                                             |
 | NCIT:C128081 | Ovarian Cancer by FIGO Stage 2014                                                                                                                                           |
+| NCIT:C223972 | Ovarian Carcinosarcoma                                                                                                                                                      |
 | NCIT:C7291   | Ovarian Cellular Fibroma                                                                                                                                                    |
 | NCIT:C179334 | Ovarian Dedifferentiated Carcinoma                                                                                                                                          |
 | NCIT:C39999  | Ovarian Dermoid Cyst with Adenocarcinoma                                                                                                                                    |
@@ -7186,7 +7363,9 @@
 | NCIT:C105556 | Ovarian Low Grade Serous Adenocarcinoma                                                                                                                                     |
 | NCIT:C4203   | Ovarian Luteinized Thecoma                                                                                                                                                  |
 | NCIT:C126321 | Ovarian Luteinized Thecoma Associated with Sclerosing Peritonitis                                                                                                           |
+| NCIT:C223968 | Ovarian Mesonephric Carcinosarcoma                                                                                                                                          |
 | NCIT:C179321 | Ovarian Mesonephric-Like Adenocarcinoma                                                                                                                                     |
+| NCIT:C223970 | Ovarian Mesonephric-Like Carcinosarcoma                                                                                                                                     |
 | NCIT:C179339 | Ovarian Mixed Cell Adenocarcinoma                                                                                                                                           |
 | NCIT:C7321   | Ovarian Mixed Germ Cell-Sex Cord-Stromal Tumor                                                                                                                              |
 | NCIT:C179475 | Ovarian Mixed Germ Cell-Sex Cord-Stromal Tumor, Unclassified                                                                                                                |
@@ -7232,7 +7411,6 @@
 | NCIT:C172655 | Oxyntic Gland Adenoma                                                                                                                                                       |
 | NCIT:C23131  | Oxyphilic Adenoma of the Mouse Salivary Glands                                                                                                                              |
 | NCIT:C167193 | PALB2 Hereditary Breast Carcinoma                                                                                                                                           |
-| NCIT:C176729 | PALB2-Associated Malignant Neoplasm                                                                                                                                         |
 | NCIT:C206277 | POLEm Endometrial Carcinoma                                                                                                                                                 |
 | NCIT:C180512 | POLEm Endometrial Endometrioid Adenocarcinoma                                                                                                                               |
 | NCIT:C207621 | PRDM10-Rearranged Soft Tissue Tumor                                                                                                                                         |
@@ -7252,13 +7430,20 @@
 | NCIT:C134909 | Pancreatic Cancer by AJCC v8 Stage                                                                                                                                          |
 | NCIT:C207229 | Pancreatic Carcinoma                                                                                                                                                        |
 | NCIT:C67460  | Pancreatic Delta Cell Adenoma                                                                                                                                               |
+| NCIT:C223523 | Pancreatic Diffuse Large B-Cell Lymphoma                                                                                                                                    |
 | NCIT:C213375 | Pancreatic Ductal Intestinal-Type Adenocarcinoma                                                                                                                            |
+| NCIT:C223537 | Pancreatic Ewing Sarcoma                                                                                                                                                    |
+| NCIT:C223524 | Pancreatic Follicular Lymphoma                                                                                                                                              |
+| NCIT:C223531 | Pancreatic Gastrointestinal Stromal Tumor                                                                                                                                   |
+| NCIT:C223542 | Pancreatic Germ Cell Tumor                                                                                                                                                  |
 | NCIT:C3062   | Pancreatic Glucagon-Producing Neuroendocrine Tumor                                                                                                                          |
+| NCIT:C223350 | Pancreatic Granular Cell Tumor                                                                                                                                              |
+| NCIT:C223349 | Pancreatic Hemangioma                                                                                                                                                       |
 | NCIT:C95465  | Pancreatic Hepatoid Adenocarcinoma                                                                                                                                          |
 | NCIT:C95505  | Pancreatic Intraductal Neoplasm                                                                                                                                             |
+| NCIT:C95514  | Pancreatic Intraductal Oncocytic Papillary Neoplasm                                                                                                                         |
 | NCIT:C95508  | Pancreatic Intraductal Papillary Mucinous Neoplasm, Gastric-Type                                                                                                            |
 | NCIT:C95510  | Pancreatic Intraductal Papillary Mucinous Neoplasm, Intestinal-Type                                                                                                         |
-| NCIT:C95514  | Pancreatic Intraductal Papillary Mucinous Neoplasm, Oncocytic-Type                                                                                                          |
 | NCIT:C95512  | Pancreatic Intraductal Papillary Mucinous Neoplasm, Pancreatobiliary-Type                                                                                                   |
 | NCIT:C5719   | Pancreatic Intraductal Papillary-Mucinous Neoplasm with Intermediate Grade Dysplasia                                                                                        |
 | NCIT:C95507  | Pancreatic Intraductal Tubulopapillary Neoplasm with an Associated Invasive Carcinoma                                                                                       |
@@ -7268,6 +7453,8 @@
 | NCIT:C95430  | Pancreatic Intraepithelial Neoplasia-1B                                                                                                                                     |
 | NCIT:C4846   | Pancreatic Intraepithelial Neoplasia-2                                                                                                                                      |
 | NCIT:C188065 | Pancreatic Leiomyosarcoma                                                                                                                                                   |
+| NCIT:C223352 | Pancreatic Lipoma                                                                                                                                                           |
+| NCIT:C223348 | Pancreatic Lymphangioma                                                                                                                                                     |
 | NCIT:C95559  | Pancreatic Mature Teratoma                                                                                                                                                  |
 | NCIT:C95466  | Pancreatic Medullary Carcinoma                                                                                                                                              |
 | NCIT:C6878   | Pancreatic Mixed Acinar Carcinoma-Neuroendocrine Carcinoma                                                                                                                  |
@@ -7279,23 +7466,37 @@
 | NCIT:C6883   | Pancreatic Mucinous-Cystic Neoplasm with Intermediate Grade Dysplasia                                                                                                       |
 | NCIT:C95493  | Pancreatic Mucinous-Cystic Neoplasm, High Grade                                                                                                                             |
 | NCIT:C95483  | Pancreatic Mucinous-Cystic Neoplasm, Low Grade                                                                                                                              |
+| NCIT:C223525 | Pancreatic Mucosa-Associated Lymphoid Tissue Lymphoma                                                                                                                       |
+| NCIT:C223532 | Pancreatic Myeloid Sarcoma                                                                                                                                                  |
 | NCIT:C45834  | Pancreatic Neuroendocrine Microtumor                                                                                                                                        |
 | NCIT:C45835  | Pancreatic Neuroendocrine Tumor G2                                                                                                                                          |
 | NCIT:C172814 | Pancreatic Neuroendocrine Tumor G3                                                                                                                                          |
 | NCIT:C135560 | Pancreatic Neuroendocrine Tumor by AJCC v8 Stage                                                                                                                            |
 | NCIT:C208221 | Pancreatic Neuroendocrine Tumor by AJCC v9 Stage                                                                                                                            |
+| NCIT:C223351 | Pancreatic Neurofibroma                                                                                                                                                     |
 | NCIT:C5789   | Pancreatic Non-Hodgkin Lymphoma                                                                                                                                             |
+| NCIT:C223534 | Pancreatic Plasmacytoma                                                                                                                                                     |
 | NCIT:C172811 | Pancreatic Poorly Cohesive Adenocarcinoma                                                                                                                                   |
 | NCIT:C95428  | Pancreatic Poorly Differentiated Ductal Adenocarcinoma                                                                                                                      |
 | NCIT:C7412   | Pancreatic Precancerous Condition                                                                                                                                           |
+| NCIT:C223347 | Pancreatic Schwannoma                                                                                                                                                       |
 | NCIT:C95471  | Pancreatic Serous Macrocystic Cystadenoma                                                                                                                                   |
 | NCIT:C209395 | Pancreatic Serous Microcystic Adenoma                                                                                                                                       |
+| NCIT:C223530 | Pancreatic Soft Tissue Neoplasm                                                                                                                                             |
 | NCIT:C95475  | Pancreatic Solid Serous Microcystic Adenoma                                                                                                                                 |
 | NCIT:C8006   | Pancreatic Somatostatin-Producing Neuroendocrine Tumor                                                                                                                      |
 | NCIT:C95558  | Pancreatic Teratoma                                                                                                                                                         |
 | NCIT:C172812 | Pancreatic Undifferentiated Carcinoma with Rhabdoid Cells                                                                                                                   |
 | NCIT:C95599  | Pancreatic Vipoma                                                                                                                                                           |
 | NCIT:C95426  | Pancreatic Well Differentiated Ductal Adenocarcinoma                                                                                                                        |
+| NCIT:C223543 | Pancreatic Yolk Sac Tumor                                                                                                                                                   |
+| NCIT:C223355 | Pancreaticobiliary Intraductal Oncocytic Papillary Neoplasm                                                                                                                 |
+| NCIT:C223514 | Pancreaticobiliary Intraductal Tubulopapillary Neoplasm                                                                                                                     |
+| NCIT:C223378 | Pancreaticobiliary Mucinous Cystic Neoplasm                                                                                                                                 |
+| NCIT:C223358 | Pancreaticobiliary Mucinous Cystic Neoplasm, High Grade                                                                                                                     |
+| NCIT:C223377 | Pancreaticobiliary Mucinous Cystic Neoplasm, Low Grade                                                                                                                      |
+| NCIT:C223357 | Pancreaticobiliary Neoplasm                                                                                                                                                 |
+| NCIT:C223383 | Pancreaticobiliary Neoplasm, Low-Risk/Grade                                                                                                                                 |
 | NCIT:C166418 | Pancreatobiliary Carcinoma                                                                                                                                                  |
 | NCIT:C21772  | Papillary Adenocarcinoma of the Mouse Pulmonary System                                                                                                                      |
 | NCIT:C23143  | Papillary Adenocarcinoma of the Mouse Salivary Glands                                                                                                                       |
@@ -7324,6 +7525,7 @@
 | NCIT:C206176 | Papillomatous Onychocytic Matricoma                                                                                                                                         |
 | NCIT:C21975  | Paraganglioma of the Mouse Filum Terminale                                                                                                                                  |
 | NCIT:C37258  | Paraganglioma-Like Dermal Melanocytic Tumor                                                                                                                                 |
+| NCIT:C224864 | Paramedullary Disease in Multiple Myeloma                                                                                                                                   |
 | NCIT:C6017   | Paranasal Sinus Adenocarcinoma                                                                                                                                              |
 | NCIT:C6073   | Paranasal Sinus Diffuse Large B-Cell Lymphoma                                                                                                                               |
 | NCIT:C8195   | Paranasal Sinus Inverted Papilloma                                                                                                                                          |
@@ -7417,6 +7619,7 @@
 | NCIT:C133655 | Pathologic Stage I Gastric Cancer AJCC v8                                                                                                                                   |
 | NCIT:C133565 | Pathologic Stage I Gastroesophageal Junction Adenocarcinoma AJCC v8                                                                                                         |
 | NCIT:C132898 | Pathologic Stage I HPV-Mediated (p16-Positive) Oropharyngeal Carcinoma AJCC v8                                                                                              |
+| NCIT:C224061 | Pathologic Stage I Oropharyngeal (HPV-Associated) Carcinoma AJCC v9                                                                                                         |
 | NCIT:C140757 | Pathologic Stage I Retinoblastoma AJCC v8                                                                                                                                   |
 | NCIT:C137664 | Pathologic Stage IA Cutaneous Melanoma AJCC v8                                                                                                                              |
 | NCIT:C133415 | Pathologic Stage IA Esophageal Adenocarcinoma AJCC v8                                                                                                                       |
@@ -7437,6 +7640,7 @@
 | NCIT:C133659 | Pathologic Stage II Gastric Cancer AJCC v8                                                                                                                                  |
 | NCIT:C133570 | Pathologic Stage II Gastroesophageal Junction Adenocarcinoma AJCC v8                                                                                                        |
 | NCIT:C132899 | Pathologic Stage II HPV-Mediated (p16-Positive) Oropharyngeal Carcinoma AJCC v8                                                                                             |
+| NCIT:C224062 | Pathologic Stage II Oropharyngeal (HPV-Associated) Carcinoma AJCC v9                                                                                                        |
 | NCIT:C140758 | Pathologic Stage II Retinoblastoma AJCC v8                                                                                                                                  |
 | NCIT:C137667 | Pathologic Stage IIA Cutaneous Melanoma AJCC v8                                                                                                                             |
 | NCIT:C136884 | Pathologic Stage IIA Cutaneous Merkel Cell Carcinoma AJCC v8                                                                                                                |
@@ -7458,6 +7662,7 @@
 | NCIT:C133663 | Pathologic Stage III Gastric Cancer AJCC v8                                                                                                                                 |
 | NCIT:C133575 | Pathologic Stage III Gastroesophageal Junction Adenocarcinoma AJCC v8                                                                                                       |
 | NCIT:C132900 | Pathologic Stage III HPV-Mediated (p16-Positive) Oropharyngeal Carcinoma AJCC v8                                                                                            |
+| NCIT:C224064 | Pathologic Stage III Oropharyngeal (HPV-Associated) Carcinoma AJCC v9                                                                                                       |
 | NCIT:C140759 | Pathologic Stage III Retinoblastoma AJCC v8                                                                                                                                 |
 | NCIT:C137671 | Pathologic Stage IIIA Cutaneous Melanoma AJCC v8                                                                                                                            |
 | NCIT:C136887 | Pathologic Stage IIIA Cutaneous Merkel Cell Carcinoma AJCC v8                                                                                                               |
@@ -7481,6 +7686,7 @@
 | NCIT:C133668 | Pathologic Stage IV Gastric Cancer AJCC v8                                                                                                                                  |
 | NCIT:C133580 | Pathologic Stage IV Gastroesophageal Junction Adenocarcinoma AJCC v8                                                                                                        |
 | NCIT:C132901 | Pathologic Stage IV HPV-Mediated (p16-Positive) Oropharyngeal Carcinoma AJCC v8                                                                                             |
+| NCIT:C224066 | Pathologic Stage IV Oropharyngeal (HPV-Associated) Carcinoma AJCC v9                                                                                                        |
 | NCIT:C140760 | Pathologic Stage IV Retinoblastoma AJCC v8                                                                                                                                  |
 | NCIT:C133425 | Pathologic Stage IVA Esophageal Adenocarcinoma AJCC v8                                                                                                                      |
 | NCIT:C133541 | Pathologic Stage IVA Esophageal Squamous Cell Carcinoma AJCC v8                                                                                                             |
@@ -7563,6 +7769,7 @@
 | NCIT:C4315   | Peripheral Odontogenic Fibroma                                                                                                                                              |
 | NCIT:C67214  | Peripheral Primitive Neuroectodermal Tumor of Kidney                                                                                                                        |
 | NCIT:C27352  | Peripheral T-Cell Lymphoma, Large Cell                                                                                                                                      |
+| NCIT:C225039 | Peripheral T-Cell Lymphoma, Not Otherwise Specified with Cytotoxic Phenotype                                                                                                |
 | NCIT:C200073 | Peripheral T-Cell Lymphoma-GATA3                                                                                                                                            |
 | NCIT:C200074 | Peripheral T-Cell Lymphoma-TBX21                                                                                                                                            |
 | NCIT:C217655 | Peritoneal Adenosarcoma                                                                                                                                                     |
@@ -7582,6 +7789,7 @@
 | NCIT:C90525  | Pharyngeal Carcinoma by AJCC v6 Stage                                                                                                                                       |
 | NCIT:C91252  | Pharyngeal Carcinoma by AJCC v7 Stage                                                                                                                                       |
 | NCIT:C132814 | Pharyngeal Carcinoma by AJCC v8 Stage                                                                                                                                       |
+| NCIT:C222757 | Pharyngeal Carcinoma by AJCC v9 Stage                                                                                                                                       |
 | NCIT:C173356 | Pharyngeal Hodgkin Lymphoma                                                                                                                                                 |
 | NCIT:C173354 | Pharyngeal Lymphoma                                                                                                                                                         |
 | NCIT:C178521 | Pharyngeal Mucosal Melanoma                                                                                                                                                 |
@@ -7638,6 +7846,7 @@
 | NCIT:C23151  | Plasmacytoma of the Mouse Salivary Glands                                                                                                                                   |
 | NCIT:C7241   | Plasmacytoma-Like Post-Transplant Lymphoproliferative Disorder                                                                                                              |
 | NCIT:C178698 | Platinum-Refractory Fallopian Tube Carcinoma                                                                                                                                |
+| NCIT:C222791 | Platinum-Refractory Fallopian Tube Endometrioid Adenocarcinoma                                                                                                              |
 | NCIT:C204988 | Platinum-Refractory Fallopian Tube High Grade Serous Adenocarcinoma                                                                                                         |
 | NCIT:C178697 | Platinum-Refractory Malignant Female Reproductive System Neoplasm                                                                                                           |
 | NCIT:C178700 | Platinum-Refractory Ovarian Carcinoma                                                                                                                                       |
@@ -7648,6 +7857,7 @@
 | NCIT:C213148 | Platinum-Refractory Ovarian Seromucinous Carcinoma                                                                                                                          |
 | NCIT:C213150 | Platinum-Refractory Ovarian Undifferentiated Carcinoma                                                                                                                      |
 | NCIT:C178702 | Platinum-Refractory Primary Peritoneal Carcinoma                                                                                                                            |
+| NCIT:C222793 | Platinum-Refractory Primary Peritoneal Endometrioid Adenocarcinoma                                                                                                          |
 | NCIT:C204991 | Platinum-Refractory Primary Peritoneal High Grade Serous Adenocarcinoma                                                                                                     |
 | NCIT:C214997 | Platinum-Resistant Cervical Carcinoma                                                                                                                                       |
 | NCIT:C214996 | Platinum-Resistant Endometrial Carcinoma                                                                                                                                    |
@@ -7673,11 +7883,14 @@
 | NCIT:C205187 | Platinum-Sensitive Endometrial Carcinoma                                                                                                                                    |
 | NCIT:C187374 | Platinum-Sensitive Endometrial Serous Adenocarcinoma                                                                                                                        |
 | NCIT:C160873 | Platinum-Sensitive Fallopian Tube Carcinoma                                                                                                                                 |
+| NCIT:C224140 | Platinum-Sensitive Fallopian Tube High Grade Serous Adenocarcinoma                                                                                                          |
 | NCIT:C158495 | Platinum-Sensitive Lung Small Cell Carcinoma                                                                                                                                |
+| NCIT:C224161 | Platinum-Sensitive Malignant Female Reproductive System Neoplasm                                                                                                            |
 | NCIT:C159902 | Platinum-Sensitive Ovarian Carcinoma                                                                                                                                        |
 | NCIT:C214963 | Platinum-Sensitive Ovarian High Grade Serous Adenocarcinoma                                                                                                                 |
 | NCIT:C214962 | Platinum-Sensitive Ovarian Serous Adenocarcinoma                                                                                                                            |
 | NCIT:C160872 | Platinum-Sensitive Primary Peritoneal Carcinoma                                                                                                                             |
+| NCIT:C224144 | Platinum-Sensitive Primary Peritoneal High Grade Serous Adenocarcinoma                                                                                                      |
 | NCIT:C23128  | Pleomorphic Adenoma of the Mouse Salivary Glands                                                                                                                            |
 | NCIT:C170736 | Pleomorphic Fibroma                                                                                                                                                         |
 | NCIT:C53594  | Pleomorphic Hyalinizing Angiectatic Tumor of Soft Parts                                                                                                                     |
@@ -7688,10 +7901,12 @@
 | NCIT:C183277 | Pleural Calcifying Fibrous Tumor                                                                                                                                            |
 | NCIT:C27384  | Pleural Carcinomatosis                                                                                                                                                      |
 | NCIT:C45664  | Pleural Desmoplastic Mesothelioma                                                                                                                                           |
+| NCIT:C222813 | Pleural Diffuse Malignant Mesothelioma                                                                                                                                      |
+| NCIT:C136374 | Pleural Diffuse Malignant Mesothelioma by AJCC v7 Stage                                                                                                                     |
+| NCIT:C136399 | Pleural Diffuse Malignant Mesothelioma by AJCC v8 Stage                                                                                                                     |
+| NCIT:C222667 | Pleural Diffuse Malignant Mesothelioma by AJCC v9 Stage                                                                                                                     |
 | NCIT:C45695  | Pleural Epithelioid Hemangioendothelioma                                                                                                                                    |
 | NCIT:C188063 | Pleural Leiomyosarcoma                                                                                                                                                      |
-| NCIT:C136374 | Pleural Malignant Mesothelioma by AJCC v7 Stage                                                                                                                             |
-| NCIT:C136399 | Pleural Malignant Mesothelioma by AJCC v8 Stage                                                                                                                             |
 | NCIT:C183134 | Pleural Mesothelioma In Situ                                                                                                                                                |
 | NCIT:C45697  | Pleural Monophasic Synovial Sarcoma                                                                                                                                         |
 | NCIT:C213788 | Pleural Mucosa-Associated Lymphoid Tissue Lymphoma                                                                                                                          |
@@ -7860,6 +8075,7 @@
 | NCIT:C155797 | Primary Pituitary Gland Diffuse Large B-Cell Lymphoma                                                                                                                       |
 | NCIT:C155796 | Primary Pituitary Gland Non-Hodgkin Lymphoma                                                                                                                                |
 | NCIT:C142827 | Primary Pulmonary Myxoid Sarcoma with EWSR1-CREB1 Fusion                                                                                                                    |
+| NCIT:C223194 | Primary Pulmonary Salivary Gland-Type Tumor                                                                                                                                 |
 | NCIT:C206389 | Primary Renal Amyloidosis                                                                                                                                                   |
 | NCIT:C173163 | Primary Sinonasal Meningioma                                                                                                                                                |
 | NCIT:C175451 | Primary Uveal Non-Hodgkin Lymphoma                                                                                                                                          |
@@ -7880,16 +8096,24 @@
 | NCIT:C139584 | Prognostic Stage IIIB Breast Cancer AJCC v8                                                                                                                                 |
 | NCIT:C139585 | Prognostic Stage IIIC Breast Cancer AJCC v8                                                                                                                                 |
 | NCIT:C139587 | Prognostic Stage IV Breast Cancer AJCC v8                                                                                                                                   |
+| NCIT:C223622 | Progressive Astrocytoma, IDH-Mutant, Grade 4                                                                                                                                |
 | NCIT:C147113 | Progressive Central Nervous System Neoplasm                                                                                                                                 |
 | NCIT:C209371 | Progressive Childhood Medulloblastoma                                                                                                                                       |
+| NCIT:C223906 | Progressive Diffuse Intrinsic Pontine Glioma                                                                                                                                |
 | NCIT:C147112 | Progressive Ependymoma                                                                                                                                                      |
 | NCIT:C217575 | Progressive Glioblastoma                                                                                                                                                    |
+| NCIT:C223908 | Progressive Glioma                                                                                                                                                          |
+| NCIT:C223621 | Progressive Gliosarcoma                                                                                                                                                     |
 | NCIT:C8029   | Progressive Hairy Cell Leukemia Initial Treatment                                                                                                                           |
+| NCIT:C223907 | Progressive Malignant Glioma                                                                                                                                                |
 | NCIT:C147111 | Progressive Medulloblastoma                                                                                                                                                 |
 | NCIT:C147115 | Progressive Medulloblastoma, SHH-Activated                                                                                                                                  |
 | NCIT:C206692 | Progressive Nervous System Neoplasm                                                                                                                                         |
 | NCIT:C140671 | Progressive Neuroblastoma                                                                                                                                                   |
+| NCIT:C223197 | Progressive Posterior Fossa Ependymoma, Group A (PFA)                                                                                                                       |
 | NCIT:C161765 | Progressive Thyroid Gland Carcinoma                                                                                                                                         |
+| NCIT:C219636 | Progressive WHO Grade 2 Glioma                                                                                                                                              |
+| NCIT:C219638 | Progressive WHO Grade 3 Glioma                                                                                                                                              |
 | NCIT:C61112  | Proliferative Change of the Rat Cardiovascular System                                                                                                                       |
 | NCIT:C61113  | Proliferative Change of the Rat Digestive System                                                                                                                            |
 | NCIT:C61114  | Proliferative Change of the Rat Endocrine System                                                                                                                            |
@@ -7969,6 +8193,7 @@
 | NCIT:C3763   | Pulmonary Adenomatosis                                                                                                                                                      |
 | NCIT:C6746   | Pulmonary Artery Angiosarcoma                                                                                                                                               |
 | NCIT:C142825 | Pulmonary Artery Intimal Sarcoma                                                                                                                                            |
+| NCIT:C223234 | Pulmonary Erdheim-Chester Disease                                                                                                                                           |
 | NCIT:C45607  | Pulmonary Lymphomatoid Granulomatosis                                                                                                                                       |
 | NCIT:C201978 | Pulmonary Mucinous Cystic Tumor of Borderline Malignancy                                                                                                                    |
 | NCIT:C7435   | Pulmonary Precancerous Condition                                                                                                                                            |
@@ -8337,7 +8562,9 @@
 | NCIT:C7882   | Recurrent Adult Acute Myeloid Leukemia                                                                                                                                      |
 | NCIT:C7884   | Recurrent Adult Brain Neoplasm                                                                                                                                              |
 | NCIT:C8159   | Recurrent Adult Burkitt Lymphoma                                                                                                                                            |
+| NCIT:C222664 | Recurrent Adult Diffuse Hemispheric Glioma, H3 G34-Mutant                                                                                                                   |
 | NCIT:C8161   | Recurrent Adult Diffuse Large Cell Lymphoma                                                                                                                                 |
+| NCIT:C222666 | Recurrent Adult Diffuse Midline Glioma, H3 K27-Mutant                                                                                                                       |
 | NCIT:C8160   | Recurrent Adult Diffuse Mixed Cell Lymphoma                                                                                                                                 |
 | NCIT:C70588  | Recurrent Adult Diffuse Small Cleaved Cell Lymphoma                                                                                                                         |
 | NCIT:C115349 | Recurrent Adult Grade III Lymphomatoid Granulomatosis                                                                                                                       |
@@ -8362,6 +8589,7 @@
 | NCIT:C142881 | Recurrent Alveolar Rhabdomyosarcoma                                                                                                                                         |
 | NCIT:C8798   | Recurrent Alveolar Soft Part Sarcoma                                                                                                                                        |
 | NCIT:C153574 | Recurrent Ampulla of Vater Adenocarcinoma                                                                                                                                   |
+| NCIT:C224862 | Recurrent Ampulla of Vater Carcinoma                                                                                                                                        |
 | NCIT:C153575 | Recurrent Anal Adenocarcinoma                                                                                                                                               |
 | NCIT:C7793   | Recurrent Anal Canal Carcinoma                                                                                                                                              |
 | NCIT:C175360 | Recurrent Anal Canal Squamous Cell Carcinoma                                                                                                                                |
@@ -8410,6 +8638,7 @@
 | NCIT:C126307 | Recurrent Bladder Urothelial Carcinoma                                                                                                                                      |
 | NCIT:C156103 | Recurrent Blastic Plasmacytoid Dendritic Cell Neoplasm                                                                                                                      |
 | NCIT:C6622   | Recurrent Bone Ewing Sarcoma                                                                                                                                                |
+| NCIT:C222481 | Recurrent Bone Sarcoma                                                                                                                                                      |
 | NCIT:C115352 | Recurrent Borderline Ovarian Surface Epithelial-Stromal Tumor                                                                                                               |
 | NCIT:C191198 | Recurrent Brain Glioblastoma                                                                                                                                                |
 | NCIT:C71698  | Recurrent Brain Neoplasm                                                                                                                                                    |
@@ -8431,9 +8660,11 @@
 | NCIT:C180923 | Recurrent Bronchogenic Carcinoma                                                                                                                                            |
 | NCIT:C151976 | Recurrent Burkitt Leukemia                                                                                                                                                  |
 | NCIT:C5008   | Recurrent Burkitt Lymphoma                                                                                                                                                  |
+| NCIT:C223922 | Recurrent CIC-Rearranged Sarcoma                                                                                                                                            |
 | NCIT:C7619   | Recurrent Carcinoma                                                                                                                                                         |
 | NCIT:C9181   | Recurrent Carcinoma of Unknown Primary                                                                                                                                      |
 | NCIT:C215241 | Recurrent Castleman Disease                                                                                                                                                 |
+| NCIT:C222566 | Recurrent Castration-Resistant Prostate Carcinoma                                                                                                                           |
 | NCIT:C205238 | Recurrent Castration-Sensitive Prostate Carcinoma                                                                                                                           |
 | NCIT:C138019 | Recurrent Central Nervous System Lymphoma                                                                                                                                   |
 | NCIT:C146990 | Recurrent Central Nervous System Non-Hodgkin Lymphoma                                                                                                                       |
@@ -8467,12 +8698,15 @@
 | NCIT:C9191   | Recurrent Childhood Cerebral Astrocytoma                                                                                                                                    |
 | NCIT:C115360 | Recurrent Childhood Diffuse Astrocytoma                                                                                                                                     |
 | NCIT:C210638 | Recurrent Childhood Diffuse Midline Glioma                                                                                                                                  |
+| NCIT:C222275 | Recurrent Childhood Digestive System Neuroendocrine Tumor                                                                                                                   |
 | NCIT:C8579   | Recurrent Childhood Ependymoma                                                                                                                                              |
+| NCIT:C222394 | Recurrent Childhood Ewing Sarcoma                                                                                                                                           |
 | NCIT:C115361 | Recurrent Childhood Fibrillary Astrocytoma                                                                                                                                  |
 | NCIT:C208269 | Recurrent Childhood Fibrolamellar Carcinoma                                                                                                                                 |
 | NCIT:C115362 | Recurrent Childhood Gemistocytic Astrocytoma                                                                                                                                |
 | NCIT:C115363 | Recurrent Childhood Giant Cell Glioblastoma                                                                                                                                 |
 | NCIT:C115364 | Recurrent Childhood Glioblastoma                                                                                                                                            |
+| NCIT:C221718 | Recurrent Childhood Glioma                                                                                                                                                  |
 | NCIT:C115366 | Recurrent Childhood Gliomatosis Cerebri                                                                                                                                     |
 | NCIT:C115365 | Recurrent Childhood Gliosarcoma                                                                                                                                             |
 | NCIT:C115367 | Recurrent Childhood Grade III Lymphomatoid Granulomatosis                                                                                                                   |
@@ -8514,6 +8748,8 @@
 | NCIT:C115368 | Recurrent Childhood Undifferentiated High Grade Pleomorphic Sarcoma of Bone                                                                                                 |
 | NCIT:C7530   | Recurrent Childhood Visual Pathway Astrocytoma                                                                                                                              |
 | NCIT:C7529   | Recurrent Childhood Visual Pathway Glioma                                                                                                                                   |
+| NCIT:C222241 | Recurrent Childhood WHO Grade 3 Glioma                                                                                                                                      |
+| NCIT:C222242 | Recurrent Childhood WHO Grade 4 Glioma                                                                                                                                      |
 | NCIT:C27325  | Recurrent Cholangiocarcinoma                                                                                                                                                |
 | NCIT:C8780   | Recurrent Chondrosarcoma                                                                                                                                                    |
 | NCIT:C155973 | Recurrent Chordoma                                                                                                                                                          |
@@ -8523,6 +8759,7 @@
 | NCIT:C131873 | Recurrent Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma                                                                                                           |
 | NCIT:C9070   | Recurrent Chronic Myeloid Leukemia, BCR-ABL1 Positive                                                                                                                       |
 | NCIT:C150048 | Recurrent Chronic Myelomonocytic Leukemia                                                                                                                                   |
+| NCIT:C219059 | Recurrent Chronic Myelomonocytic Leukemia-0                                                                                                                                 |
 | NCIT:C211682 | Recurrent Chronic Phase Chronic Myeloid Leukemia, BCR-ABL1 Positive                                                                                                         |
 | NCIT:C133592 | Recurrent Classic Hodgkin Lymphoma                                                                                                                                          |
 | NCIT:C153590 | Recurrent Clear Cell Renal Cell Carcinoma                                                                                                                                   |
@@ -8570,6 +8807,7 @@
 | NCIT:C153573 | Recurrent Endocervical Adenocarcinoma, Usual-Type                                                                                                                           |
 | NCIT:C150540 | Recurrent Endocrine Carcinoma                                                                                                                                               |
 | NCIT:C158437 | Recurrent Endometrial Adenocarcinoma                                                                                                                                        |
+| NCIT:C222636 | Recurrent Endometrial Adenocarcinoma, Not Otherwise Specified                                                                                                               |
 | NCIT:C175598 | Recurrent Endometrial Adenosquamous Carcinoma                                                                                                                               |
 | NCIT:C150094 | Recurrent Endometrial Carcinoma                                                                                                                                             |
 | NCIT:C155816 | Recurrent Endometrial Clear Cell Adenocarcinoma                                                                                                                             |
@@ -8579,6 +8817,7 @@
 | NCIT:C199153 | Recurrent Endometrial Low Grade Endometrioid Adenocarcinoma                                                                                                                 |
 | NCIT:C155819 | Recurrent Endometrial Mixed Cell Adenocarcinoma                                                                                                                             |
 | NCIT:C165291 | Recurrent Endometrial Mucinous Adenocarcinoma                                                                                                                               |
+| NCIT:C223264 | Recurrent Endometrial Neuroendocrine Carcinoma                                                                                                                              |
 | NCIT:C132294 | Recurrent Endometrial Serous Adenocarcinoma                                                                                                                                 |
 | NCIT:C165283 | Recurrent Endometrial Squamous Cell Carcinoma                                                                                                                               |
 | NCIT:C165284 | Recurrent Endometrial Transitional Cell Carcinoma                                                                                                                           |
@@ -8611,21 +8850,24 @@
 | NCIT:C191978 | Recurrent Extrapulmonary Neuroendocrine Carcinoma                                                                                                                           |
 | NCIT:C183128 | Recurrent Extrapulmonary Small Cell Neuroendocrine Carcinoma                                                                                                                |
 | NCIT:C188881 | Recurrent Extrarenal Rhabdoid Tumor                                                                                                                                         |
+| NCIT:C219664 | Recurrent Extrarenal Rhabdoid Tumor of the Liver                                                                                                                            |
 | NCIT:C171170 | Recurrent Extrarenal Rhabdoid Tumor of the Ovary                                                                                                                            |
 | NCIT:C8803   | Recurrent Extraskeletal Ewing Sarcoma                                                                                                                                       |
 | NCIT:C8807   | Recurrent Extraskeletal Myxoid Chondrosarcoma                                                                                                                               |
 | NCIT:C8811   | Recurrent Extraskeletal Osteosarcoma                                                                                                                                        |
+| NCIT:C222827 | Recurrent Eyelid Squamous Cell Carcinoma                                                                                                                                    |
 | NCIT:C170766 | Recurrent Fallopian Tube Adenocarcinoma                                                                                                                                     |
 | NCIT:C115429 | Recurrent Fallopian Tube Carcinoma                                                                                                                                          |
-| NCIT:C199462 | Recurrent Fallopian Tube Carcinosarcoma                                                                                                                                     |
 | NCIT:C170760 | Recurrent Fallopian Tube Clear Cell Adenocarcinoma                                                                                                                          |
 | NCIT:C165265 | Recurrent Fallopian Tube Endometrioid Adenocarcinoma                                                                                                                        |
 | NCIT:C165267 | Recurrent Fallopian Tube High Grade Serous Adenocarcinoma                                                                                                                   |
+| NCIT:C199462 | Recurrent Fallopian Tube Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                       |
 | NCIT:C178668 | Recurrent Fallopian Tube Mucinous Adenocarcinoma                                                                                                                            |
 | NCIT:C170757 | Recurrent Fallopian Tube Transitional Cell Carcinoma                                                                                                                        |
 | NCIT:C170755 | Recurrent Fallopian Tube Undifferentiated Carcinoma                                                                                                                         |
 | NCIT:C7620   | Recurrent Female Reproductive System Carcinoma                                                                                                                              |
-| NCIT:C207060 | Recurrent Female Reproductive System Carcinosarcoma                                                                                                                         |
+| NCIT:C223960 | Recurrent Female Reproductive System Carcinosarcoma                                                                                                                         |
+| NCIT:C222817 | Recurrent Female Reproductive System Clear Cell Adenocarcinoma                                                                                                              |
 | NCIT:C212197 | Recurrent Fibroblastic Reticular Cell Sarcoma                                                                                                                               |
 | NCIT:C154082 | Recurrent Fibrolamellar Carcinoma                                                                                                                                           |
 | NCIT:C158428 | Recurrent Fibrosarcoma                                                                                                                                                      |
@@ -8653,7 +8895,9 @@
 | NCIT:C8155   | Recurrent Grade 1 Follicular Lymphoma                                                                                                                                       |
 | NCIT:C211882 | Recurrent Grade 1 Meningioma                                                                                                                                                |
 | NCIT:C8156   | Recurrent Grade 2 Follicular Lymphoma                                                                                                                                       |
+| NCIT:C219625 | Recurrent Grade 2 Meningioma                                                                                                                                                |
 | NCIT:C8158   | Recurrent Grade 3 Follicular Lymphoma                                                                                                                                       |
+| NCIT:C219626 | Recurrent Grade 3 Meningioma                                                                                                                                                |
 | NCIT:C148244 | Recurrent Grade 3a Follicular Lymphoma                                                                                                                                      |
 | NCIT:C172323 | Recurrent Grade 3b Follicular Lymphoma                                                                                                                                      |
 | NCIT:C115430 | Recurrent Grade I Lymphomatoid Granulomatosis                                                                                                                               |
@@ -8674,6 +8918,7 @@
 | NCIT:C27358  | Recurrent Hematologic Malignancy                                                                                                                                            |
 | NCIT:C8643   | Recurrent Hepatoblastoma                                                                                                                                                    |
 | NCIT:C9264   | Recurrent Hepatocellular Carcinoma                                                                                                                                          |
+| NCIT:C221113 | Recurrent Hepatocellular Malignant Neoplasm, Not Otherwise Specified                                                                                                        |
 | NCIT:C153160 | Recurrent Hepatosplenic T-Cell Lymphoma                                                                                                                                     |
 | NCIT:C173638 | Recurrent Hereditary Thyroid Gland Medullary Carcinoma                                                                                                                      |
 | NCIT:C8162   | Recurrent High Grade Adult Non-Hodgkin's Lymphoma                                                                                                                           |
@@ -8705,6 +8950,7 @@
 | NCIT:C128807 | Recurrent Intrahepatic Cholangiocarcinoma                                                                                                                                   |
 | NCIT:C138025 | Recurrent Intravascular Large B-Cell Lymphoma                                                                                                                               |
 | NCIT:C153587 | Recurrent Invasive Breast Carcinoma of No Special Type                                                                                                                      |
+| NCIT:C153584 | Recurrent Invasive Breast Lobular Carcinoma                                                                                                                                 |
 | NCIT:C193422 | Recurrent Juvenile Myelomonocytic Leukemia                                                                                                                                  |
 | NCIT:C7935   | Recurrent Kaposi Sarcoma                                                                                                                                                    |
 | NCIT:C172622 | Recurrent Kidney Carcinoma                                                                                                                                                  |
@@ -8719,21 +8965,23 @@
 | NCIT:C8815   | Recurrent Leiomyosarcoma                                                                                                                                                    |
 | NCIT:C8785   | Recurrent Lentigo Maligna Melanoma                                                                                                                                          |
 | NCIT:C148425 | Recurrent Leukemia                                                                                                                                                          |
+| NCIT:C225008 | Recurrent Limited Stage Lung Small Cell Carcinoma                                                                                                                           |
 | NCIT:C8213   | Recurrent Lip Basal Cell Carcinoma                                                                                                                                          |
 | NCIT:C8037   | Recurrent Lip and Oral Cavity Carcinoma                                                                                                                                     |
 | NCIT:C115442 | Recurrent Lip and Oral Cavity Squamous Cell Carcinoma                                                                                                                       |
 | NCIT:C8818   | Recurrent Liposarcoma                                                                                                                                                       |
 | NCIT:C7110   | Recurrent Liver Carcinoma                                                                                                                                                   |
-| NCIT:C153584 | Recurrent Lobular Breast Carcinoma                                                                                                                                          |
 | NCIT:C8153   | Recurrent Low Grade Adult Non-Hodgkin's Lymphoma                                                                                                                            |
 | NCIT:C176464 | Recurrent Low Grade Astrocytoma                                                                                                                                             |
 | NCIT:C199150 | Recurrent Low Grade Endometrioid Adenocarcinoma                                                                                                                             |
 | NCIT:C156456 | Recurrent Low Grade Fallopian Tube Serous Adenocarcinoma                                                                                                                    |
+| NCIT:C223918 | Recurrent Low Grade Fibromyxoid Sarcoma                                                                                                                                     |
 | NCIT:C177794 | Recurrent Low Grade Glioma                                                                                                                                                  |
 | NCIT:C8757   | Recurrent Lung Adenocarcinoma                                                                                                                                               |
 | NCIT:C8747   | Recurrent Lung Adenosquamous Carcinoma                                                                                                                                      |
 | NCIT:C8953   | Recurrent Lung Carcinoma                                                                                                                                                    |
 | NCIT:C8753   | Recurrent Lung Large Cell Carcinoma                                                                                                                                         |
+| NCIT:C222309 | Recurrent Lung Large Cell Neuroendocrine Carcinoma                                                                                                                          |
 | NCIT:C176711 | Recurrent Lung Neuroendocrine Neoplasm                                                                                                                                      |
 | NCIT:C7783   | Recurrent Lung Non-Small Cell Carcinoma                                                                                                                                     |
 | NCIT:C171286 | Recurrent Lung Non-Small Cell Squamous Carcinoma                                                                                                                            |
@@ -8774,7 +9022,9 @@
 | NCIT:C172133 | Recurrent Malignant Lymphoid Neoplasm                                                                                                                                       |
 | NCIT:C150533 | Recurrent Malignant Male Reproductive System Neoplasm                                                                                                                       |
 | NCIT:C170817 | Recurrent Malignant Mastocytosis                                                                                                                                            |
+| NCIT:C222476 | Recurrent Malignant Mediastinal Nongerminomatous Germ Cell Tumor                                                                                                            |
 | NCIT:C7866   | Recurrent Malignant Mesothelioma                                                                                                                                            |
+| NCIT:C207060 | Recurrent Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                                      |
 | NCIT:C24099  | Recurrent Malignant Mouse Endometrial Neoplasm                                                                                                                              |
 | NCIT:C162732 | Recurrent Malignant Myoepithelioma                                                                                                                                          |
 | NCIT:C9268   | Recurrent Malignant Nasopharyngeal Neoplasm                                                                                                                                 |
@@ -8785,6 +9035,7 @@
 | NCIT:C9262   | Recurrent Malignant Oral Neoplasm                                                                                                                                           |
 | NCIT:C153818 | Recurrent Malignant Ovarian Brenner Tumor                                                                                                                                   |
 | NCIT:C160619 | Recurrent Malignant Ovarian Granulosa Cell Tumor                                                                                                                            |
+| NCIT:C223921 | Recurrent Malignant PEComa                                                                                                                                                  |
 | NCIT:C8823   | Recurrent Malignant Peripheral Nerve Sheath Tumor                                                                                                                           |
 | NCIT:C150531 | Recurrent Malignant Pharyngeal Neoplasm                                                                                                                                     |
 | NCIT:C179463 | Recurrent Malignant Retroperitoneal Neoplasm                                                                                                                                |
@@ -8807,6 +9058,7 @@
 | NCIT:C173409 | Recurrent Mature T-Cell and NK-Cell Neoplasm                                                                                                                                |
 | NCIT:C8688   | Recurrent Mature T-Cell and NK-Cell Non-Hodgkin Lymphoma                                                                                                                    |
 | NCIT:C153175 | Recurrent Mediastinal Lymphoma                                                                                                                                              |
+| NCIT:C219666 | Recurrent Mediastinal Mixed Germ Cell Tumor                                                                                                                                 |
 | NCIT:C5588   | Recurrent Medulloblastoma                                                                                                                                                   |
 | NCIT:C147109 | Recurrent Medulloblastoma, SHH-Activated                                                                                                                                    |
 | NCIT:C180893 | Recurrent Medulloblastoma, WNT-Activated                                                                                                                                    |
@@ -8839,9 +9091,11 @@
 | NCIT:C192630 | Recurrent Muscle Invasive Bladder Urothelial Carcinoma                                                                                                                      |
 | NCIT:C8686   | Recurrent Mycosis Fungoides                                                                                                                                                 |
 | NCIT:C115439 | Recurrent Mycosis Fungoides and Sezary Syndrome                                                                                                                             |
+| NCIT:C223036 | Recurrent Myelodysplastic Chronic Myelomonocytic Leukemia                                                                                                                   |
 | NCIT:C148363 | Recurrent Myelodysplastic Syndrome                                                                                                                                          |
 | NCIT:C206441 | Recurrent Myelodysplastic Syndrome/Acute Myeloid Leukemia                                                                                                                   |
 | NCIT:C166143 | Recurrent Myelodysplastic/Myeloproliferative Neoplasm                                                                                                                       |
+| NCIT:C223033 | Recurrent Myelodysplastic/Myeloproliferative Neoplasm with Ring Sideroblasts and Thrombocytosis, Not Otherwise Specified                                                    |
 | NCIT:C213015 | Recurrent Myelodysplastic/Myeloproliferative Neoplasm, Not Otherwise Specified                                                                                              |
 | NCIT:C162424 | Recurrent Myelofibrosis                                                                                                                                                     |
 | NCIT:C193431 | Recurrent Myeloid Leukemia                                                                                                                                                  |
@@ -8891,7 +9145,6 @@
 | NCIT:C7881   | Recurrent Osteosarcoma                                                                                                                                                      |
 | NCIT:C153614 | Recurrent Ovarian Adenocarcinoma                                                                                                                                            |
 | NCIT:C7833   | Recurrent Ovarian Carcinoma                                                                                                                                                 |
-| NCIT:C153347 | Recurrent Ovarian Carcinosarcoma                                                                                                                                            |
 | NCIT:C153618 | Recurrent Ovarian Clear Cell Adenocarcinoma                                                                                                                                 |
 | NCIT:C153617 | Recurrent Ovarian Cystadenocarcinoma                                                                                                                                        |
 | NCIT:C150095 | Recurrent Ovarian Endometrioid Adenocarcinoma                                                                                                                               |
@@ -8900,6 +9153,7 @@
 | NCIT:C165262 | Recurrent Ovarian High Grade Serous Adenocarcinoma                                                                                                                          |
 | NCIT:C199167 | Recurrent Ovarian Low Grade Endometrioid Adenocarcinoma                                                                                                                     |
 | NCIT:C156455 | Recurrent Ovarian Low Grade Serous Adenocarcinoma                                                                                                                           |
+| NCIT:C153347 | Recurrent Ovarian Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                              |
 | NCIT:C153616 | Recurrent Ovarian Mucinous Adenocarcinoma                                                                                                                                   |
 | NCIT:C178669 | Recurrent Ovarian Seromucinous Carcinoma                                                                                                                                    |
 | NCIT:C153615 | Recurrent Ovarian Serous Adenocarcinoma                                                                                                                                     |
@@ -8929,6 +9183,7 @@
 | NCIT:C27899  | Recurrent Peripheral Primitive Neuroectodermal Tumor                                                                                                                        |
 | NCIT:C27354  | Recurrent Peripheral Primitive Neuroectodermal Tumor of Bone                                                                                                                |
 | NCIT:C154333 | Recurrent Peripheral T-Cell Lymphoma, Not Otherwise Specified                                                                                                               |
+| NCIT:C225040 | Recurrent Peripheral T-Cell Lymphoma, Not Otherwise Specified with Cytotoxic Phenotype                                                                                      |
 | NCIT:C8705   | Recurrent Peritoneal Malignant Mesothelioma                                                                                                                                 |
 | NCIT:C5103   | Recurrent Pharyngeal Carcinoma                                                                                                                                              |
 | NCIT:C173689 | Recurrent Pharyngeal Squamous Cell Carcinoma                                                                                                                                |
@@ -8947,8 +9202,12 @@
 | NCIT:C204986 | Recurrent Platinum-Resistant Primary Peritoneal High Grade Serous Adenocarcinoma                                                                                            |
 | NCIT:C205188 | Recurrent Platinum-Sensitive Endometrial Carcinoma                                                                                                                          |
 | NCIT:C191395 | Recurrent Platinum-Sensitive Fallopian Tube Carcinoma                                                                                                                       |
+| NCIT:C224143 | Recurrent Platinum-Sensitive Fallopian Tube High Grade Serous Adenocarcinoma                                                                                                |
 | NCIT:C188391 | Recurrent Platinum-Sensitive Ovarian Carcinoma                                                                                                                              |
+| NCIT:C224138 | Recurrent Platinum-Sensitive Ovarian High Grade Serous Adenocarcinoma                                                                                                       |
 | NCIT:C191407 | Recurrent Platinum-Sensitive Primary Peritoneal Carcinoma                                                                                                                   |
+| NCIT:C224147 | Recurrent Platinum-Sensitive Primary Peritoneal High Grade Serous Adenocarcinoma                                                                                            |
+| NCIT:C219559 | Recurrent Pleomorphic Liposarcoma                                                                                                                                           |
 | NCIT:C8707   | Recurrent Pleural Malignant Mesothelioma                                                                                                                                    |
 | NCIT:C216938 | Recurrent Polycythemia Vera                                                                                                                                                 |
 | NCIT:C206086 | Recurrent Polycythemia Vera, Post-Polycythemic Myelofibrosis Phase                                                                                                          |
@@ -8956,6 +9215,7 @@
 | NCIT:C180400 | Recurrent Polymorphous Low Grade Neuroepithelial Tumor of the Young                                                                                                         |
 | NCIT:C174047 | Recurrent Poorly Differentiated Thyroid Gland Carcinoma                                                                                                                     |
 | NCIT:C206089 | Recurrent Post-Essential Thrombocythemia Myelofibrosis                                                                                                                      |
+| NCIT:C223196 | Recurrent Posterior Fossa Ependymoma, Group A (PFA)                                                                                                                         |
 | NCIT:C133732 | Recurrent Primary Amyloidosis                                                                                                                                               |
 | NCIT:C157681 | Recurrent Primary Bone Lymphoma                                                                                                                                             |
 | NCIT:C213352 | Recurrent Primary Central Nervous System Lymphoma                                                                                                                           |
@@ -8974,6 +9234,7 @@
 | NCIT:C131500 | Recurrent Primary Malignant Neoplasm                                                                                                                                        |
 | NCIT:C8874   | Recurrent Primary Mediastinal Large B-Cell Lymphoma                                                                                                                         |
 | NCIT:C179203 | Recurrent Primary Myelofibrosis                                                                                                                                             |
+| NCIT:C225042 | Recurrent Primary Nodal EBV-Positive T-Cell/NK-Cell Lymphoma                                                                                                                |
 | NCIT:C170767 | Recurrent Primary Peritoneal Adenocarcinoma                                                                                                                                 |
 | NCIT:C115441 | Recurrent Primary Peritoneal Carcinoma                                                                                                                                      |
 | NCIT:C199463 | Recurrent Primary Peritoneal Carcinosarcoma                                                                                                                                 |
@@ -9015,16 +9276,23 @@
 | NCIT:C148302 | Recurrent Sarcoma                                                                                                                                                           |
 | NCIT:C155648 | Recurrent Sarcoma of the Extremity                                                                                                                                          |
 | NCIT:C182029 | Recurrent Schwannoma                                                                                                                                                        |
+| NCIT:C223910 | Recurrent Sclerosing Epithelioid Fibrosarcoma                                                                                                                               |
 | NCIT:C200066 | Recurrent Sebaceous Carcinoma                                                                                                                                               |
 | NCIT:C213423 | Recurrent Secondary Acute Myeloid Leukemia                                                                                                                                  |
+| NCIT:C222303 | Recurrent Secondary Central Nervous System Lymphoma                                                                                                                         |
 | NCIT:C212055 | Recurrent Secondary Diffuse Large B-Cell Lymphoma of the Central Nervous System                                                                                             |
 | NCIT:C176999 | Recurrent Sezary Syndrome                                                                                                                                                   |
 | NCIT:C67558  | Recurrent Sinonasal Carcinoma                                                                                                                                               |
 | NCIT:C115432 | Recurrent Sinonasal Inverted Papilloma                                                                                                                                      |
 | NCIT:C115443 | Recurrent Sinonasal Squamous Cell Carcinoma                                                                                                                                 |
+| NCIT:C222821 | Recurrent Skin Acantholytic Squamous Cell Carcinoma                                                                                                                         |
 | NCIT:C153626 | Recurrent Skin Angiosarcoma                                                                                                                                                 |
 | NCIT:C7903   | Recurrent Skin Carcinoma                                                                                                                                                    |
+| NCIT:C222823 | Recurrent Skin Clear Cell Squamous Cell Carcinoma                                                                                                                           |
+| NCIT:C222825 | Recurrent Skin Lymphoepithelial Carcinoma                                                                                                                                   |
+| NCIT:C222814 | Recurrent Skin Spindle Cell Squamous Cell Carcinoma                                                                                                                         |
 | NCIT:C143012 | Recurrent Skin Squamous Cell Carcinoma                                                                                                                                      |
+| NCIT:C222819 | Recurrent Skin Squamous Cell Carcinoma with Sarcomatoid Differentiation                                                                                                     |
 | NCIT:C192733 | Recurrent Skull Base Squamous Cell Carcinoma                                                                                                                                |
 | NCIT:C163961 | Recurrent Small Cell Glioblastoma                                                                                                                                           |
 | NCIT:C183127 | Recurrent Small Cell Neuroendocrine Carcinoma                                                                                                                               |
@@ -9075,10 +9343,12 @@
 | NCIT:C186483 | Recurrent Transformed Indolent B-Cell Non-Hodgkin Lymphoma to Diffuse Large B-Cell Lymphoma                                                                                 |
 | NCIT:C175216 | Recurrent Transformed Marginal Zone Lymphoma to Diffuse Large B-Cell Lymphoma                                                                                               |
 | NCIT:C165784 | Recurrent Transformed Mycosis Fungoides                                                                                                                                     |
+| NCIT:C223943 | Recurrent Transformed Nodular Lymphocyte Predominant B-Cell Lymphoma to Diffuse Large B-Cell Lymphoma                                                                       |
 | NCIT:C8702   | Recurrent Transformed Non-Hodgkin Lymphoma                                                                                                                                  |
 | NCIT:C165789 | Recurrent Transformed T-cell Non-Hodgkin Lymphoma                                                                                                                           |
 | NCIT:C215239 | Recurrent Transplant-Related Kaposi Sarcoma                                                                                                                                 |
 | NCIT:C171014 | Recurrent Triple-Negative Breast Carcinoma                                                                                                                                  |
+| NCIT:C222483 | Recurrent Undifferentiated High Grade Pleomorphic Sarcoma of Bone                                                                                                           |
 | NCIT:C8795   | Recurrent Undifferentiated Pleomorphic Sarcoma                                                                                                                              |
 | NCIT:C214784 | Recurrent Unresectable Carcinoma                                                                                                                                            |
 | NCIT:C214783 | Recurrent Unresectable Colorectal Carcinoma                                                                                                                                 |
@@ -9098,7 +9368,7 @@
 | NCIT:C131218 | Recurrent Urethral Urothelial Carcinoma                                                                                                                                     |
 | NCIT:C7623   | Recurrent Urinary System Carcinoma                                                                                                                                          |
 | NCIT:C157631 | Recurrent Urothelial Carcinoma                                                                                                                                              |
-| NCIT:C155818 | Recurrent Uterine Corpus Carcinosarcoma                                                                                                                                     |
+| NCIT:C155818 | Recurrent Uterine Corpus Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                       |
 | NCIT:C8261   | Recurrent Uterine Corpus Sarcoma                                                                                                                                            |
 | NCIT:C7914   | Recurrent Uveal Melanoma                                                                                                                                                    |
 | NCIT:C7860   | Recurrent Vaginal Carcinoma                                                                                                                                                 |
@@ -9177,6 +9447,7 @@
 | NCIT:C191861 | Refractory Bladder Small Cell Neuroendocrine Carcinoma                                                                                                                      |
 | NCIT:C165702 | Refractory Bladder Urothelial Carcinoma                                                                                                                                     |
 | NCIT:C156104 | Refractory Blastic Plasmacytoid Dendritic Cell Neoplasm                                                                                                                     |
+| NCIT:C222482 | Refractory Bone Sarcoma                                                                                                                                                     |
 | NCIT:C71702  | Refractory Brain Neoplasm                                                                                                                                                   |
 | NCIT:C165703 | Refractory Breast Adenocarcinoma                                                                                                                                            |
 | NCIT:C147965 | Refractory Breast Carcinoma                                                                                                                                                 |
@@ -9207,15 +9478,20 @@
 | NCIT:C187215 | Refractory Childhood Brain Neoplasm                                                                                                                                         |
 | NCIT:C209363 | Refractory Childhood Central Nervous System Embryonal Tumor                                                                                                                 |
 | NCIT:C187214 | Refractory Childhood Central Nervous System Neoplasm                                                                                                                        |
+| NCIT:C222276 | Refractory Childhood Digestive System Neuroendocrine Tumor                                                                                                                  |
+| NCIT:C222248 | Refractory Childhood Ependymoma                                                                                                                                             |
+| NCIT:C222395 | Refractory Childhood Ewing Sarcoma                                                                                                                                          |
 | NCIT:C211965 | Refractory Childhood Fibrillary Astrocytoma                                                                                                                                 |
 | NCIT:C208274 | Refractory Childhood Fibrolamellar Carcinoma                                                                                                                                |
 | NCIT:C211960 | Refractory Childhood Glioblastoma                                                                                                                                           |
+| NCIT:C221719 | Refractory Childhood Glioma                                                                                                                                                 |
 | NCIT:C208290 | Refractory Childhood Hepatocellular Carcinoma                                                                                                                               |
 | NCIT:C115458 | Refractory Childhood Hodgkin Lymphoma                                                                                                                                       |
 | NCIT:C213758 | Refractory Childhood Leukemia                                                                                                                                               |
 | NCIT:C213658 | Refractory Childhood Lymphoblastic Lymphoma                                                                                                                                 |
 | NCIT:C187197 | Refractory Childhood Lymphoma                                                                                                                                               |
 | NCIT:C123737 | Refractory Childhood Malignant Germ Cell Tumor                                                                                                                              |
+| NCIT:C222247 | Refractory Childhood Malignant Glioma                                                                                                                                       |
 | NCIT:C208289 | Refractory Childhood Malignant Liver Neoplasm                                                                                                                               |
 | NCIT:C162703 | Refractory Childhood Malignant Neoplasm                                                                                                                                     |
 | NCIT:C148027 | Refractory Childhood Malignant Solid Neoplasm                                                                                                                               |
@@ -9224,6 +9500,7 @@
 | NCIT:C208311 | Refractory Childhood Myelodysplastic Syndrome                                                                                                                               |
 | NCIT:C209814 | Refractory Childhood Neuroblastoma                                                                                                                                          |
 | NCIT:C210133 | Refractory Childhood Non-Hodgkin Lymphoma                                                                                                                                   |
+| NCIT:C222246 | Refractory Childhood Oligoastrocytoma                                                                                                                                       |
 | NCIT:C211967 | Refractory Childhood Oligodendroglioma                                                                                                                                      |
 | NCIT:C187192 | Refractory Childhood Osteosarcoma                                                                                                                                           |
 | NCIT:C211966 | Refractory Childhood Pilomyxoid Astrocytoma                                                                                                                                 |
@@ -9231,6 +9508,8 @@
 | NCIT:C187194 | Refractory Childhood Soft Tissue Sarcoma                                                                                                                                    |
 | NCIT:C71714  | Refractory Childhood Spinal Cord Neoplasm                                                                                                                                   |
 | NCIT:C210013 | Refractory Childhood T Acute Lymphoblastic Leukemia                                                                                                                         |
+| NCIT:C222245 | Refractory Childhood WHO Grade 3 Glioma                                                                                                                                     |
+| NCIT:C222244 | Refractory Childhood WHO Grade 4 Glioma                                                                                                                                     |
 | NCIT:C158101 | Refractory Cholangiocarcinoma                                                                                                                                               |
 | NCIT:C162721 | Refractory Chordoma                                                                                                                                                         |
 | NCIT:C213954 | Refractory Chromophobe Renal Cell Carcinoma                                                                                                                                 |
@@ -9239,6 +9518,7 @@
 | NCIT:C172282 | Refractory Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma                                                                                                          |
 | NCIT:C7885   | Refractory Chronic Myeloid Leukemia, BCR-ABL1 Positive                                                                                                                      |
 | NCIT:C150049 | Refractory Chronic Myelomonocytic Leukemia                                                                                                                                  |
+| NCIT:C219061 | Refractory Chronic Myelomonocytic Leukemia-0                                                                                                                                |
 | NCIT:C133736 | Refractory Classic Hodgkin Lymphoma                                                                                                                                         |
 | NCIT:C164236 | Refractory Clear Cell Renal Cell Carcinoma                                                                                                                                  |
 | NCIT:C180979 | Refractory Clear Cell Sarcoma of Soft Tissue                                                                                                                                |
@@ -9271,6 +9551,7 @@
 | NCIT:C160152 | Refractory EBV-Related Lymphoproliferative Disease with Primary Immunodeficiency                                                                                            |
 | NCIT:C150541 | Refractory Endocrine Carcinoma                                                                                                                                              |
 | NCIT:C165289 | Refractory Endometrial Adenocarcinoma                                                                                                                                       |
+| NCIT:C222637 | Refractory Endometrial Adenocarcinoma, Not Otherwise Specified                                                                                                              |
 | NCIT:C150093 | Refractory Endometrial Carcinoma                                                                                                                                            |
 | NCIT:C158380 | Refractory Endometrial Clear Cell Adenocarcinoma                                                                                                                            |
 | NCIT:C165286 | Refractory Endometrial Dedifferentiated Carcinoma                                                                                                                           |
@@ -9290,6 +9571,8 @@
 | NCIT:C171604 | Refractory Esophageal Carcinoma                                                                                                                                             |
 | NCIT:C171606 | Refractory Esophageal Squamous Cell Carcinoma                                                                                                                               |
 | NCIT:C212977 | Refractory Essential Thrombocythemia                                                                                                                                        |
+| NCIT:C223147 | Refractory Estrogen Receptor-Positive Breast Carcinoma                                                                                                                      |
+| NCIT:C223365 | Refractory Estrogen Receptor-Positive Invasive Breast Lobular Carcinoma                                                                                                     |
 | NCIT:C142853 | Refractory Ewing Sarcoma                                                                                                                                                    |
 | NCIT:C153286 | Refractory Ewing Sarcoma/Peripheral Primitive Neuroectodermal Tumor                                                                                                         |
 | NCIT:C141078 | Refractory Extensive Stage Lung Small Cell Carcinoma                                                                                                                        |
@@ -9303,19 +9586,20 @@
 | NCIT:C191979 | Refractory Extrapulmonary Neuroendocrine Carcinoma                                                                                                                          |
 | NCIT:C191854 | Refractory Extrapulmonary Small Cell Neuroendocrine Carcinoma                                                                                                               |
 | NCIT:C188884 | Refractory Extrarenal Rhabdoid Tumor                                                                                                                                        |
+| NCIT:C219665 | Refractory Extrarenal Rhabdoid Tumor of the Liver                                                                                                                           |
 | NCIT:C171171 | Refractory Extrarenal Rhabdoid Tumor of the Ovary                                                                                                                           |
 | NCIT:C171168 | Refractory Extraskeletal Myxoid Chondrosarcoma                                                                                                                              |
 | NCIT:C170971 | Refractory Fallopian Tube Adenocarcinoma                                                                                                                                    |
 | NCIT:C152047 | Refractory Fallopian Tube Carcinoma                                                                                                                                         |
-| NCIT:C207057 | Refractory Fallopian Tube Carcinosarcoma                                                                                                                                    |
 | NCIT:C178672 | Refractory Fallopian Tube Clear Cell Adenocarcinoma                                                                                                                         |
 | NCIT:C178673 | Refractory Fallopian Tube Endometrioid Adenocarcinoma                                                                                                                       |
 | NCIT:C178676 | Refractory Fallopian Tube High Grade Serous Adenocarcinoma                                                                                                                  |
+| NCIT:C207057 | Refractory Fallopian Tube Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                      |
 | NCIT:C178670 | Refractory Fallopian Tube Mucinous Adenocarcinoma                                                                                                                           |
 | NCIT:C178674 | Refractory Fallopian Tube Transitional Cell Carcinoma                                                                                                                       |
 | NCIT:C178675 | Refractory Fallopian Tube Undifferentiated Carcinoma                                                                                                                        |
 | NCIT:C152048 | Refractory Female Reproductive System Carcinoma                                                                                                                             |
-| NCIT:C207061 | Refractory Female Reproductive System Carcinosarcoma                                                                                                                        |
+| NCIT:C223961 | Refractory Female Reproductive System Carcinosarcoma                                                                                                                        |
 | NCIT:C212199 | Refractory Fibroblastic Reticular Cell Sarcoma                                                                                                                              |
 | NCIT:C188887 | Refractory Fibrolamellar Carcinoma                                                                                                                                          |
 | NCIT:C158429 | Refractory Fibrosarcoma                                                                                                                                                     |
@@ -9333,6 +9617,7 @@
 | NCIT:C176998 | Refractory Giant Cell Glioblastoma                                                                                                                                          |
 | NCIT:C146734 | Refractory Glioblastoma                                                                                                                                                     |
 | NCIT:C147107 | Refractory Glioma                                                                                                                                                           |
+| NCIT:C224959 | Refractory Glioneuronal and Neuronal Tumors                                                                                                                                 |
 | NCIT:C163962 | Refractory Gliosarcoma                                                                                                                                                      |
 | NCIT:C172309 | Refractory Grade 1 Follicular Lymphoma                                                                                                                                      |
 | NCIT:C172312 | Refractory Grade 2 Follicular Lymphoma                                                                                                                                      |
@@ -9340,6 +9625,7 @@
 | NCIT:C172315 | Refractory Grade 3a Follicular Lymphoma                                                                                                                                     |
 | NCIT:C172318 | Refractory Grade 3b Follicular Lymphoma                                                                                                                                     |
 | NCIT:C138014 | Refractory Gray-Zone Lymphoma                                                                                                                                               |
+| NCIT:C224104 | Refractory HER2-Low Breast Carcinoma                                                                                                                                        |
 | NCIT:C168784 | Refractory HER2-Negative Breast Carcinoma                                                                                                                                   |
 | NCIT:C182110 | Refractory HER2-Positive Breast Carcinoma                                                                                                                                   |
 | NCIT:C202987 | Refractory HHV8-Positive Diffuse Large B-Cell Lymphoma, Not Otherwise Specified                                                                                             |
@@ -9352,6 +9638,7 @@
 | NCIT:C153297 | Refractory Hemophagocytic Lymphohistiocytosis                                                                                                                               |
 | NCIT:C142854 | Refractory Hepatoblastoma                                                                                                                                                   |
 | NCIT:C162450 | Refractory Hepatocellular Carcinoma                                                                                                                                         |
+| NCIT:C221115 | Refractory Hepatocellular Malignant Neoplasm, Not Otherwise Specified                                                                                                       |
 | NCIT:C153161 | Refractory Hepatosplenic T-Cell Lymphoma                                                                                                                                    |
 | NCIT:C160233 | Refractory High Grade B-Cell Lymphoma                                                                                                                                       |
 | NCIT:C212118 | Refractory High Grade B-Cell Lymphoma with MYC and BCL2 Rearrangements                                                                                                      |
@@ -9376,6 +9663,7 @@
 | NCIT:C212200 | Refractory Interdigitating Dendritic Cell Sarcoma                                                                                                                           |
 | NCIT:C174247 | Refractory Intrahepatic Cholangiocarcinoma                                                                                                                                  |
 | NCIT:C138026 | Refractory Intravascular Large B-Cell Lymphoma                                                                                                                              |
+| NCIT:C223366 | Refractory Invasive Breast Lobular Carcinoma                                                                                                                                |
 | NCIT:C203523 | Refractory Juvenile Myelomonocytic Leukemia                                                                                                                                 |
 | NCIT:C156474 | Refractory Kaposi Sarcoma                                                                                                                                                   |
 | NCIT:C172623 | Refractory Kidney Carcinoma                                                                                                                                                 |
@@ -9421,6 +9709,7 @@
 | NCIT:C150534 | Refractory Malignant Male Reproductive System Neoplasm                                                                                                                      |
 | NCIT:C170816 | Refractory Malignant Mastocytosis                                                                                                                                           |
 | NCIT:C150535 | Refractory Malignant Mesothelioma                                                                                                                                           |
+| NCIT:C207061 | Refractory Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                                     |
 | NCIT:C162733 | Refractory Malignant Myoepithelioma                                                                                                                                         |
 | NCIT:C150529 | Refractory Malignant Neoplasm of Multiple Primary Sites                                                                                                                     |
 | NCIT:C213042 | Refractory Malignant Neoplasm of Unknown Primary                                                                                                                            |
@@ -9444,6 +9733,7 @@
 | NCIT:C173411 | Refractory Mature T-Cell and NK-Cell Neoplasm                                                                                                                               |
 | NCIT:C8689   | Refractory Mature T-Cell and NK-Cell Non-Hodgkin Lymphoma                                                                                                                   |
 | NCIT:C153177 | Refractory Mediastinal Lymphoma                                                                                                                                             |
+| NCIT:C219667 | Refractory Mediastinal Mixed Germ Cell Tumor                                                                                                                                |
 | NCIT:C142856 | Refractory Medulloblastoma                                                                                                                                                  |
 | NCIT:C147110 | Refractory Medulloblastoma, SHH-Activated                                                                                                                                   |
 | NCIT:C180892 | Refractory Medulloblastoma, WNT-Activated                                                                                                                                   |
@@ -9465,6 +9755,7 @@
 | NCIT:C7024   | Refractory Multiple Myeloma                                                                                                                                                 |
 | NCIT:C8687   | Refractory Mycosis Fungoides                                                                                                                                                |
 | NCIT:C148129 | Refractory Mycosis Fungoides and Sezary Syndrome                                                                                                                            |
+| NCIT:C223037 | Refractory Myelodysplastic Chronic Myelomonocytic Leukemia                                                                                                                  |
 | NCIT:C148362 | Refractory Myelodysplastic Syndrome                                                                                                                                         |
 | NCIT:C206442 | Refractory Myelodysplastic Syndrome/Acute Myeloid Leukemia                                                                                                                  |
 | NCIT:C171339 | Refractory Myelodysplastic/Myeloproliferative Neoplasm                                                                                                                      |
@@ -9499,11 +9790,11 @@
 | NCIT:C142857 | Refractory Osteosarcoma                                                                                                                                                     |
 | NCIT:C170968 | Refractory Ovarian Adenocarcinoma                                                                                                                                           |
 | NCIT:C150091 | Refractory Ovarian Carcinoma                                                                                                                                                |
-| NCIT:C207056 | Refractory Ovarian Carcinosarcoma                                                                                                                                           |
 | NCIT:C178680 | Refractory Ovarian Clear Cell Adenocarcinoma                                                                                                                                |
 | NCIT:C150096 | Refractory Ovarian Endometrioid Adenocarcinoma                                                                                                                              |
 | NCIT:C178677 | Refractory Ovarian High Grade Serous Adenocarcinoma                                                                                                                         |
 | NCIT:C178679 | Refractory Ovarian Low Grade Serous Adenocarcinoma                                                                                                                          |
+| NCIT:C207056 | Refractory Ovarian Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                             |
 | NCIT:C178681 | Refractory Ovarian Mucinous Adenocarcinoma                                                                                                                                  |
 | NCIT:C178671 | Refractory Ovarian Seromucinous Carcinoma                                                                                                                                   |
 | NCIT:C171015 | Refractory Ovarian Serous Adenocarcinoma                                                                                                                                    |
@@ -9521,6 +9812,7 @@
 | NCIT:C177150 | Refractory Penile Carcinoma                                                                                                                                                 |
 | NCIT:C142850 | Refractory Peripheral Primitive Neuroectodermal Tumor                                                                                                                       |
 | NCIT:C9339   | Refractory Peripheral T-Cell Lymphoma, Not Otherwise Specified                                                                                                              |
+| NCIT:C225041 | Refractory Peripheral T-Cell Lymphoma, Not Otherwise Specified with Cytotoxic Phenotype                                                                                     |
 | NCIT:C214958 | Refractory Pharyngeal Carcinoma                                                                                                                                             |
 | NCIT:C214957 | Refractory Pharyngeal Squamous Cell Carcinoma                                                                                                                               |
 | NCIT:C211955 | Refractory Pilomyxoid Astrocytoma                                                                                                                                           |
@@ -9550,6 +9842,7 @@
 | NCIT:C153842 | Refractory Primary Malignant Central Nervous System Neoplasm                                                                                                                |
 | NCIT:C8875   | Refractory Primary Mediastinal Large B-Cell Lymphoma                                                                                                                        |
 | NCIT:C171340 | Refractory Primary Myelofibrosis                                                                                                                                            |
+| NCIT:C225043 | Refractory Primary Nodal EBV-Positive T-Cell/NK-Cell Lymphoma                                                                                                               |
 | NCIT:C170975 | Refractory Primary Peritoneal Adenocarcinoma                                                                                                                                |
 | NCIT:C152046 | Refractory Primary Peritoneal Carcinoma                                                                                                                                     |
 | NCIT:C207058 | Refractory Primary Peritoneal Carcinosarcoma                                                                                                                                |
@@ -9563,6 +9856,7 @@
 | NCIT:C157071 | Refractory Primary Vitreoretinal Diffuse Large B-Cell Lymphoma                                                                                                              |
 | NCIT:C157069 | Refractory Primary Vitreoretinal Non-Hodgkin Lymphoma                                                                                                                       |
 | NCIT:C173565 | Refractory Primitive Neuroectodermal Tumor                                                                                                                                  |
+| NCIT:C223148 | Refractory Progesterone Receptor-Positive Breast Carcinoma                                                                                                                  |
 | NCIT:C167256 | Refractory Prostate Adenocarcinoma                                                                                                                                          |
 | NCIT:C167255 | Refractory Prostate Carcinoma                                                                                                                                               |
 | NCIT:C191862 | Refractory Prostate Small Cell Neuroendocrine Carcinoma                                                                                                                     |
@@ -9573,6 +9867,7 @@
 | NCIT:C177151 | Refractory Rectal Squamous Cell Carcinoma                                                                                                                                   |
 | NCIT:C165745 | Refractory Renal Cell Carcinoma                                                                                                                                             |
 | NCIT:C176997 | Refractory Renal Pelvis Urothelial Carcinoma                                                                                                                                |
+| NCIT:C219624 | Refractory Renal Pelvis and Ureter Urothelial Carcinoma                                                                                                                     |
 | NCIT:C142858 | Refractory Rhabdoid Tumor                                                                                                                                                   |
 | NCIT:C162731 | Refractory Rhabdoid Tumor of the Kidney                                                                                                                                     |
 | NCIT:C142851 | Refractory Rhabdomyosarcoma                                                                                                                                                 |
@@ -9582,6 +9877,7 @@
 | NCIT:C148301 | Refractory Sarcoma                                                                                                                                                          |
 | NCIT:C199636 | Refractory Sebaceous Carcinoma                                                                                                                                              |
 | NCIT:C213424 | Refractory Secondary Acute Myeloid Leukemia                                                                                                                                 |
+| NCIT:C222305 | Refractory Secondary Central Nervous System Lymphoma                                                                                                                        |
 | NCIT:C212056 | Refractory Secondary Diffuse Large B-Cell Lymphoma of the Central Nervous System                                                                                            |
 | NCIT:C207802 | Refractory Secondary Hemophagocytic Lymphohistiocytosis                                                                                                                     |
 | NCIT:C177000 | Refractory Sezary Syndrome                                                                                                                                                  |
@@ -9625,6 +9921,7 @@
 | NCIT:C186484 | Refractory Transformed Indolent B-Cell Non-Hodgkin Lymphoma to Diffuse Large B-Cell Lymphoma                                                                                |
 | NCIT:C175217 | Refractory Transformed Marginal Zone Lymphoma to Diffuse Large B-Cell Lymphoma                                                                                              |
 | NCIT:C165785 | Refractory Transformed Mycosis Fungoides                                                                                                                                    |
+| NCIT:C223945 | Refractory Transformed Nodular Lymphocyte Predominant B-Cell Lymphoma to Diffuse Large B-Cell Lymphoma                                                                      |
 | NCIT:C140091 | Refractory Transformed Non-Hodgkin Lymphoma                                                                                                                                 |
 | NCIT:C165791 | Refractory Transformed T-cell Non-Hodgkin Lymphoma                                                                                                                          |
 | NCIT:C167076 | Refractory Triple-Negative Breast Carcinoma                                                                                                                                 |
@@ -9633,7 +9930,7 @@
 | NCIT:C176996 | Refractory Urethral Urothelial Carcinoma                                                                                                                                    |
 | NCIT:C162719 | Refractory Urinary System Carcinoma                                                                                                                                         |
 | NCIT:C150364 | Refractory Urothelial Carcinoma                                                                                                                                             |
-| NCIT:C158381 | Refractory Uterine Corpus Carcinosarcoma                                                                                                                                    |
+| NCIT:C158381 | Refractory Uterine Corpus Malignant Mixed Mesodermal (Mullerian) Tumor                                                                                                      |
 | NCIT:C173335 | Refractory Uveal Melanoma                                                                                                                                                   |
 | NCIT:C174509 | Refractory Vaginal Carcinoma                                                                                                                                                |
 | NCIT:C185303 | Refractory Vaginal Squamous Cell Carcinoma                                                                                                                                  |
@@ -9676,6 +9973,7 @@
 | NCIT:C140376 | Renal Pelvis and Ureter Cancer by AJCC v7 Stage                                                                                                                             |
 | NCIT:C140355 | Renal Pelvis and Ureter Cancer by AJCC v8 Stage                                                                                                                             |
 | NCIT:C7515   | Renal Pelvis and Ureter Carcinoma                                                                                                                                           |
+| NCIT:C222753 | Renal Pelvis and Ureter Papillary Urothelial Carcinoma                                                                                                                      |
 | NCIT:C5388   | Renal Vein Leiomyosarcoma                                                                                                                                                   |
 | NCIT:C5100   | Renomedullary Interstitial Cell Tumor                                                                                                                                       |
 | NCIT:C7335   | Reproductive Endocrine Neoplasm                                                                                                                                             |
@@ -9691,6 +9989,7 @@
 | NCIT:C212896 | Resectable Biliary Tract Carcinoma                                                                                                                                          |
 | NCIT:C188032 | Resectable Bladder Urothelial Carcinoma                                                                                                                                     |
 | NCIT:C211532 | Resectable Brain Neoplasm                                                                                                                                                   |
+| NCIT:C222571 | Resectable Breast Adenocarcinoma                                                                                                                                            |
 | NCIT:C188035 | Resectable Breast Carcinoma                                                                                                                                                 |
 | NCIT:C150604 | Resectable Carcinoma                                                                                                                                                        |
 | NCIT:C170961 | Resectable Carcinoma of Unknown Primary                                                                                                                                     |
@@ -9711,6 +10010,7 @@
 | NCIT:C205311 | Resectable Esophageal Carcinoma                                                                                                                                             |
 | NCIT:C156911 | Resectable Extrahepatic Bile Duct Adenocarcinoma                                                                                                                            |
 | NCIT:C8640   | Resectable Extrahepatic Bile Duct Carcinoma                                                                                                                                 |
+| NCIT:C222828 | Resectable Eyelid Squamous Cell Carcinoma                                                                                                                                   |
 | NCIT:C210820 | Resectable Female Reproductive System Carcinoma                                                                                                                             |
 | NCIT:C198617 | Resectable Gallbladder Adenocarcinoma                                                                                                                                       |
 | NCIT:C212898 | Resectable Gallbladder Carcinoma                                                                                                                                            |
@@ -9725,6 +10025,7 @@
 | NCIT:C8642   | Resectable Hepatoblastoma                                                                                                                                                   |
 | NCIT:C7691   | Resectable Hepatocellular Carcinoma                                                                                                                                         |
 | NCIT:C212895 | Resectable Hilar Cholangiocarcinoma                                                                                                                                         |
+| NCIT:C222570 | Resectable Hormone Receptor-Positive Breast Carcinoma                                                                                                                       |
 | NCIT:C207804 | Resectable Human Papillomavirus-Independent Head and Neck Mucosal Squamous Cell Carcinoma                                                                                   |
 | NCIT:C205617 | Resectable Hypopharyngeal Squamous Cell Carcinoma                                                                                                                           |
 | NCIT:C156908 | Resectable Intrahepatic Cholangiocarcinoma                                                                                                                                  |
@@ -9750,6 +10051,7 @@
 | NCIT:C210823 | Resectable Malignant Urinary System Neoplasm                                                                                                                                |
 | NCIT:C190239 | Resectable Melanoma                                                                                                                                                         |
 | NCIT:C193450 | Resectable Merkel Cell Carcinoma                                                                                                                                            |
+| NCIT:C219555 | Resectable Myxofibrosarcoma                                                                                                                                                 |
 | NCIT:C218462 | Resectable Nasal Cavity Squamous Cell Carcinoma                                                                                                                             |
 | NCIT:C211531 | Resectable Neoplasm                                                                                                                                                         |
 | NCIT:C150620 | Resectable Neuroblastoma                                                                                                                                                    |
@@ -9770,8 +10072,13 @@
 | NCIT:C154547 | Resectable Renal Cell Carcinoma                                                                                                                                             |
 | NCIT:C150605 | Resectable Sarcoma                                                                                                                                                          |
 | NCIT:C215234 | Resectable Sinonasal Mucosal Melanoma                                                                                                                                       |
+| NCIT:C222822 | Resectable Skin Acantholytic Squamous Cell Carcinoma                                                                                                                        |
 | NCIT:C170465 | Resectable Skin Carcinoma                                                                                                                                                   |
+| NCIT:C222824 | Resectable Skin Clear Cell Squamous Cell Carcinoma                                                                                                                          |
+| NCIT:C222826 | Resectable Skin Lymphoepithelial Carcinoma                                                                                                                                  |
+| NCIT:C222818 | Resectable Skin Spindle Cell Squamous Cell Carcinoma                                                                                                                        |
 | NCIT:C170464 | Resectable Skin Squamous Cell Carcinoma                                                                                                                                     |
+| NCIT:C222820 | Resectable Skin Squamous Cell Carcinoma with Sarcomatoid Differentiation                                                                                                    |
 | NCIT:C8639   | Resectable Small Intestinal Carcinoma                                                                                                                                       |
 | NCIT:C153086 | Resectable Soft Tissue Sarcoma                                                                                                                                              |
 | NCIT:C201952 | Resectable Soft Tissue Sarcoma of the Trunk and Extremities                                                                                                                 |
@@ -9782,12 +10089,12 @@
 | NCIT:C26959  | Reticulosarcoma Involving Spleen                                                                                                                                            |
 | NCIT:C174539 | Retinal Astrocytoma                                                                                                                                                         |
 | NCIT:C215115 | Retinal Giant Cell Astrocytoma                                                                                                                                              |
+| NCIT:C219532 | Retinal Hemangioblastomatosis                                                                                                                                               |
 | NCIT:C174551 | Retinal Pigment Epithelium Adenocarcinoma                                                                                                                                   |
 | NCIT:C140751 | Retinoblastoma by AJCC v8 Clinical Stage                                                                                                                                    |
 | NCIT:C140756 | Retinoblastoma by AJCC v8 Pathologic Stage                                                                                                                                  |
 | NCIT:C140750 | Retinoblastoma by AJCC v8 Stage                                                                                                                                             |
 | NCIT:C66812  | Retinocytoma                                                                                                                                                                |
-| NCIT:C8597   | Retro-Orbital Neoplasm                                                                                                                                                      |
 | NCIT:C8172   | Retromolar Trigone Squamous Cell Carcinoma                                                                                                                                  |
 | NCIT:C213754 | Retroperitoneal Diffuse Large B-Cell Lymphoma                                                                                                                               |
 | NCIT:C213749 | Retroperitoneal Follicular Lymphoma                                                                                                                                         |
@@ -9812,6 +10119,7 @@
 | NCIT:C21750  | Rhabdomyosarcoma of the Mouse Prostate Gland                                                                                                                                |
 | NCIT:C21845  | Rhabdomyosarcoma of the Mouse Skin                                                                                                                                          |
 | NCIT:C202263 | Rhabdomyosarcoma with TFCP2 Rearrangement                                                                                                                                   |
+| NCIT:C222358 | Rhesus Monkey Leukemia                                                                                                                                                      |
 | NCIT:C134783 | Rhesus Monkey Lymphoma                                                                                                                                                      |
 | NCIT:C134784 | Rhesus Monkey Mammary Tumor                                                                                                                                                 |
 | NCIT:C4792   | Right Atrial Myxoma                                                                                                                                                         |
@@ -9834,6 +10142,7 @@
 | NCIT:C62196  | Salivary Gland Adenocarcinoma, Not Otherwise Specified                                                                                                                      |
 | NCIT:C184295 | Salivary Gland Adenoma                                                                                                                                                      |
 | NCIT:C5979   | Salivary Gland Canalicular Adenoma                                                                                                                                          |
+| NCIT:C224096 | Salivary Gland Cancer by AJCC v9 Stage                                                                                                                                      |
 | NCIT:C35831  | Salivary Gland Carcinosarcoma                                                                                                                                               |
 | NCIT:C62191  | Salivary Gland Clear Cell Carcinoma                                                                                                                                         |
 | NCIT:C5980   | Salivary Gland Cystadenocarcinoma                                                                                                                                           |
@@ -10009,8 +10318,8 @@
 | NCIT:C63891  | Signet Ring Cell Adenocarcinoma of the Rat Glandular Stomach                                                                                                                |
 | NCIT:C167369 | Signet Ring Cell/Histiocytoid Carcinoma                                                                                                                                     |
 | NCIT:C54663  | Signet Ring Melanoma                                                                                                                                                        |
-| NCIT:C6991   | Simple Endometrial Hyperplasia with Atypia                                                                                                                                  |
 | NCIT:C21672  | Simple Mouse MIN NOS                                                                                                                                                        |
+| NCIT:C222359 | Sinclair Swine Cutaneous Melanoma                                                                                                                                           |
 | NCIT:C160976 | Sinonasal Adenocarcinoma                                                                                                                                                    |
 | NCIT:C116316 | Sinonasal Adenocarcinoma, Intestinal-Type                                                                                                                                   |
 | NCIT:C160986 | Sinonasal Adenocarcinoma, Intestinal-Type with Colonic Pattern                                                                                                              |
@@ -10236,6 +10545,7 @@
 | NCIT:C154340 | Sparsely Granulated Corticotroph Pituitary Neuroendocrine Tumor                                                                                                             |
 | NCIT:C45932  | Sparsely Granulated Lactotroph Pituitary Neuroendocrine Tumor                                                                                                               |
 | NCIT:C45926  | Sparsely Granulated Somatotroph Pituitary Neuroendocrine Tumor                                                                                                              |
+| NCIT:C222258 | Spinal Cord Ependymoma with NF2 Mutation                                                                                                                                    |
 | NCIT:C215130 | Spinal Cord Glioblastoma                                                                                                                                                    |
 | NCIT:C201976 | Spinal Cord Pilocytic Astrocytoma                                                                                                                                           |
 | NCIT:C215182 | Spinal Disorder                                                                                                                                                             |
@@ -10273,7 +10583,6 @@
 | NCIT:C7304   | Splenic Small Lymphocytic Lymphoma                                                                                                                                          |
 | NCIT:C7311   | Splenic T Lymphoblastic Lymphoma                                                                                                                                            |
 | NCIT:C66811  | Spongioneuroblastoma                                                                                                                                                        |
-| NCIT:C66816  | Spontaneously Regressed Retinoblastoma                                                                                                                                      |
 | NCIT:C27914  | Sporadic Burkitt Lymphoma                                                                                                                                                   |
 | NCIT:C43351  | Sporadic Cylindroma                                                                                                                                                         |
 | NCIT:C43527  | Sporadic Gastric Adenocarcinoma                                                                                                                                             |
@@ -10436,10 +10745,12 @@
 | NCIT:C8758   | Stage 0 Lung Adenocarcinoma AJCC v6 and v7                                                                                                                                  |
 | NCIT:C8748   | Stage 0 Lung Adenosquamous Carcinoma AJCC v6 and v7                                                                                                                         |
 | NCIT:C136469 | Stage 0 Lung Cancer AJCC v8                                                                                                                                                 |
+| NCIT:C222366 | Stage 0 Lung Cancer AJCC v9                                                                                                                                                 |
 | NCIT:C35758  | Stage 0 Lung Large Cell Carcinoma AJCC v6 and v7                                                                                                                            |
 | NCIT:C9104   | Stage 0 Lung Non-Small Cell Cancer AJCC v6 and v7                                                                                                                           |
 | NCIT:C8763   | Stage 0 Lung Squamous Cell Carcinoma AJCC v6 and v7                                                                                                                         |
 | NCIT:C132783 | Stage 0 Major Salivary Gland Cancer AJCC v8                                                                                                                                 |
+| NCIT:C222758 | Stage 0 Nasopharyngeal Carcinoma AJCC v9                                                                                                                                    |
 | NCIT:C6036   | Stage 0 Nasopharyngeal Keratinizing Squamous Cell Carcinoma AJCC v6, v7, and v8                                                                                             |
 | NCIT:C6035   | Stage 0 Nasopharyngeal Undifferentiated Carcinoma AJCC v6, v7, and v8                                                                                                       |
 | NCIT:C6052   | Stage 0 Oral Cavity Squamous Cell Carcinoma AJCC v6 and v7                                                                                                                  |
@@ -10455,6 +10766,7 @@
 | NCIT:C5017   | Stage 0 Rectosigmoid Cancer AJCC v6 and v7                                                                                                                                  |
 | NCIT:C6193   | Stage 0 Renal Pelvis Cancer AJCC v7                                                                                                                                         |
 | NCIT:C39850  | Stage 0 Renal Pelvis and Ureter Cancer AJCC v7                                                                                                                              |
+| NCIT:C224097 | Stage 0 Salivary Gland Cancer AJCC v9                                                                                                                                       |
 | NCIT:C87498  | Stage 0 Sinonasal Cancer AJCC v6, v7, and v8                                                                                                                                |
 | NCIT:C133894 | Stage 0 Small Intestinal Adenocarcinoma AJCC v8                                                                                                                             |
 | NCIT:C4892   | Stage 0 Small Intestinal Cancer AJCC v7                                                                                                                                     |
@@ -10535,7 +10847,6 @@
 | NCIT:C94821  | Stage I Borderline Ovarian Surface Epithelial-Stromal Tumor                                                                                                                 |
 | NCIT:C7767   | Stage I Breast Cancer AJCC v6                                                                                                                                               |
 | NCIT:C88375  | Stage I Breast Cancer AJCC v7                                                                                                                                               |
-| NCIT:C27327  | Stage I Centroblastic Follicular Lymphoma                                                                                                                                   |
 | NCIT:C9204   | Stage I Cervical Cancer AJCC v6 and v7                                                                                                                                      |
 | NCIT:C139734 | Stage I Cervical Cancer AJCC v8                                                                                                                                             |
 | NCIT:C181564 | Stage I Cervical Cancer AJCC v9                                                                                                                                             |
@@ -10564,7 +10875,6 @@
 | NCIT:C7916   | Stage I Cutaneous Melanoma AJCC v6                                                                                                                                          |
 | NCIT:C88414  | Stage I Cutaneous Melanoma AJCC v7                                                                                                                                          |
 | NCIT:C85889  | Stage I Cutaneous Merkel Cell Carcinoma AJCC v7                                                                                                                             |
-| NCIT:C7795   | Stage I Cutaneous T-Cell Non-Hodgkin Lymphoma                                                                                                                               |
 | NCIT:C101540 | Stage I Differentiated Thyroid Gland Carcinoma 45 Years and Older AJCC v7                                                                                                   |
 | NCIT:C140968 | Stage I Differentiated Thyroid Gland Carcinoma 55 Years and Older AJCC v8                                                                                                   |
 | NCIT:C87543  | Stage I Differentiated Thyroid Gland Carcinoma AJCC v7                                                                                                                      |
@@ -10576,15 +10886,14 @@
 | NCIT:C135076 | Stage I Duodenal Neuroendocrine Tumor AJCC v8                                                                                                                               |
 | NCIT:C207854 | Stage I Duodenal Neuroendocrine Tumor AJCC v9                                                                                                                               |
 | NCIT:C207848 | Stage I Duodenal and Ampulla of Vater Neuroendocrine Tumor AJCC v9                                                                                                          |
+| NCIT:C8723   | Stage I Dysgerminoma AJCC v6 and v7                                                                                                                                         |
 | NCIT:C206219 | Stage I Endometrial Cancer FIGO 2023                                                                                                                                        |
 | NCIT:C8630   | Stage I Esophageal Adenocarcinoma AJCC v7                                                                                                                                   |
 | NCIT:C9210   | Stage I Esophageal Cancer AJCC v6                                                                                                                                           |
 | NCIT:C89793  | Stage I Esophageal Cancer AJCC v7                                                                                                                                           |
 | NCIT:C5022   | Stage I Esophageal Squamous Cell Carcinoma AJCC v7                                                                                                                          |
-| NCIT:C8882   | Stage I Extragonadal Mixed Germ Cell Tumor                                                                                                                                  |
 | NCIT:C8886   | Stage I Extragonadal Non-Seminomatous Germ Cell Tumor                                                                                                                       |
 | NCIT:C4996   | Stage I Extragonadal Seminoma                                                                                                                                               |
-| NCIT:C5769   | Stage I Extrahepatic Bile Duct Cancer                                                                                                                                       |
 | NCIT:C140516 | Stage I Eyelid Carcinoma AJCC v8                                                                                                                                            |
 | NCIT:C8720   | Stage I Fallopian Tube Cancer AJCC v6 and v7                                                                                                                                |
 | NCIT:C139984 | Stage I Fallopian Tube Cancer AJCC v8                                                                                                                                       |
@@ -10636,6 +10945,7 @@
 | NCIT:C8772   | Stage I Lung Cancer AJCC v6                                                                                                                                                 |
 | NCIT:C88888  | Stage I Lung Cancer AJCC v7                                                                                                                                                 |
 | NCIT:C136470 | Stage I Lung Cancer AJCC v8                                                                                                                                                 |
+| NCIT:C222367 | Stage I Lung Cancer AJCC v9                                                                                                                                                 |
 | NCIT:C8755   | Stage I Lung Large Cell Carcinoma AJCC v7                                                                                                                                   |
 | NCIT:C6671   | Stage I Lung Non-Small Cell Cancer AJCC v7                                                                                                                                  |
 | NCIT:C6673   | Stage I Lung Small Cell Carcinoma AJCC v7                                                                                                                                   |
@@ -10651,13 +10961,13 @@
 | NCIT:C7395   | Stage I Nasopharyngeal Carcinoma AJCC v6                                                                                                                                    |
 | NCIT:C88981  | Stage I Nasopharyngeal Carcinoma AJCC v7                                                                                                                                    |
 | NCIT:C132817 | Stage I Nasopharyngeal Carcinoma AJCC v8                                                                                                                                    |
+| NCIT:C222760 | Stage I Nasopharyngeal Carcinoma AJCC v9                                                                                                                                    |
 | NCIT:C8222   | Stage I Nasopharyngeal Keratinizing Squamous Cell Carcinoma AJCC v7                                                                                                         |
 | NCIT:C8223   | Stage I Nasopharyngeal Undifferentiated Carcinoma AJCC v7                                                                                                                   |
 | NCIT:C8200   | Stage I Oral Cavity Adenoid Cystic Carcinoma AJCC v6 and v7                                                                                                                 |
 | NCIT:C5883   | Stage I Oral Cavity Cancer AJCC v6 and v7                                                                                                                                   |
 | NCIT:C8199   | Stage I Oral Cavity Mucoepidermoid Carcinoma AJCC v6 and v7                                                                                                                 |
 | NCIT:C6053   | Stage I Oral Cavity Squamous Cell Carcinoma AJCC v6 and v7                                                                                                                  |
-| NCIT:C8198   | Stage I Oral Cavity Verrucous Carcinoma                                                                                                                                     |
 | NCIT:C132996 | Stage I Oropharyngeal (p16-Negative) Carcinoma AJCC v8                                                                                                                      |
 | NCIT:C8048   | Stage I Oropharyngeal Carcinoma AJCC v6 and v7                                                                                                                              |
 | NCIT:C8217   | Stage I Oropharyngeal Squamous Cell Carcinoma AJCC v6 and v7                                                                                                                |
@@ -10666,7 +10976,6 @@
 | NCIT:C7829   | Stage I Ovarian Cancer AJCC v6 and v7                                                                                                                                       |
 | NCIT:C139964 | Stage I Ovarian Cancer AJCC v8                                                                                                                                              |
 | NCIT:C8730   | Stage I Ovarian Choriocarcinoma                                                                                                                                             |
-| NCIT:C8723   | Stage I Ovarian Dysgerminoma AJCC v6 and v7                                                                                                                                 |
 | NCIT:C8734   | Stage I Ovarian Embryonal Carcinoma AJCC v6 and v7                                                                                                                          |
 | NCIT:C8083   | Stage I Ovarian Germ Cell Tumor AJCC v6 and v7                                                                                                                              |
 | NCIT:C8739   | Stage I Ovarian Polyembryoma AJCC v6 and v7                                                                                                                                 |
@@ -10680,9 +10989,10 @@
 | NCIT:C7867   | Stage I Penile Cancer AJCC v6                                                                                                                                               |
 | NCIT:C89195  | Stage I Penile Cancer AJCC v7                                                                                                                                               |
 | NCIT:C140079 | Stage I Penile Cancer AJCC v8                                                                                                                                               |
-| NCIT:C8768   | Stage I Pharyngeal Cancer                                                                                                                                                   |
-| NCIT:C6646   | Stage I Pleural Malignant Mesothelioma AJCC v7                                                                                                                              |
-| NCIT:C136400 | Stage I Pleural Malignant Mesothelioma AJCC v8                                                                                                                              |
+| NCIT:C8768   | Stage I Pharyngeal Carcinoma                                                                                                                                                |
+| NCIT:C6646   | Stage I Pleural Diffuse Malignant Mesothelioma AJCC v7                                                                                                                      |
+| NCIT:C136400 | Stage I Pleural Diffuse Malignant Mesothelioma AJCC v8                                                                                                                      |
+| NCIT:C222668 | Stage I Pleural Diffuse Malignant Mesothelioma AJCC v9                                                                                                                      |
 | NCIT:C8947   | Stage I Prostate Adenocarcinoma AJCC v7                                                                                                                                     |
 | NCIT:C7555   | Stage I Prostate Cancer AJCC v6                                                                                                                                             |
 | NCIT:C89232  | Stage I Prostate Cancer AJCC v7                                                                                                                                             |
@@ -10699,6 +11009,7 @@
 | NCIT:C7519   | Stage I Renal Pelvis and Ureter Cancer AJCC v7                                                                                                                              |
 | NCIT:C140364 | Stage I Renal Pelvis and Ureter Cancer AJCC v8                                                                                                                              |
 | NCIT:C136812 | Stage I Retroperitoneal Sarcoma AJCC v8                                                                                                                                     |
+| NCIT:C224098 | Stage I Salivary Gland Cancer AJCC v9                                                                                                                                       |
 | NCIT:C67554  | Stage I Sinonasal Cancer AJCC v6 and v7                                                                                                                                     |
 | NCIT:C133076 | Stage I Sinonasal Cancer AJCC v8                                                                                                                                            |
 | NCIT:C115070 | Stage I Sinonasal Squamous Cell Carcinoma AJCC v6 and v7                                                                                                                    |
@@ -10721,7 +11032,9 @@
 | NCIT:C8917   | Stage I Testicular Seminoma AJCC v6 and v7                                                                                                                                  |
 | NCIT:C8920   | Stage I Testicular Yolk Sac Tumor AJCC v6 and v7                                                                                                                            |
 | NCIT:C136348 | Stage I Thymoma AJCC v8                                                                                                                                                     |
+| NCIT:C222534 | Stage I Thymoma AJCC v9                                                                                                                                                     |
 | NCIT:C136322 | Stage I Thymus Epithelial Neoplasm AJCC v8                                                                                                                                  |
+| NCIT:C222525 | Stage I Thymus Epithelial Neoplasm AJCC v9                                                                                                                                  |
 | NCIT:C140990 | Stage I Thyroid Gland Follicular Carcinoma 55 Years and Older AJCC v8                                                                                                       |
 | NCIT:C9084   | Stage I Thyroid Gland Follicular Carcinoma AJCC v7                                                                                                                          |
 | NCIT:C140988 | Stage I Thyroid Gland Follicular Carcinoma AJCC v8                                                                                                                          |
@@ -10791,14 +11104,15 @@
 | NCIT:C130951 | Stage IA Mycosis Fungoides AJCC v7                                                                                                                                          |
 | NCIT:C88151  | Stage IA Mycosis Fungoides and Sezary Syndrome AJCC v7                                                                                                                      |
 | NCIT:C141348 | Stage IA Mycosis Fungoides and Sezary Syndrome AJCC v8                                                                                                                      |
+| NCIT:C222761 | Stage IA Nasopharyngeal Carcinoma AJCC v9                                                                                                                                   |
 | NCIT:C6607   | Stage IA Osteosarcoma AJCC v7                                                                                                                                               |
 | NCIT:C5220   | Stage IA Ovarian Cancer AJCC v6 and v7                                                                                                                                      |
 | NCIT:C139965 | Stage IA Ovarian Cancer AJCC v8                                                                                                                                             |
 | NCIT:C6291   | Stage IA Ovarian Germ Cell Tumor AJCC v6 and v7                                                                                                                             |
 | NCIT:C88100  | Stage IA Pancreatic Cancer AJCC v6 and v7                                                                                                                                   |
 | NCIT:C134917 | Stage IA Pancreatic Cancer AJCC v8                                                                                                                                          |
-| NCIT:C87195  | Stage IA Pleural Malignant Mesothelioma AJCC v7                                                                                                                             |
-| NCIT:C136409 | Stage IA Pleural Malignant Mesothelioma AJCC v8                                                                                                                             |
+| NCIT:C87195  | Stage IA Pleural Diffuse Malignant Mesothelioma AJCC v7                                                                                                                     |
+| NCIT:C136409 | Stage IA Pleural Diffuse Malignant Mesothelioma AJCC v8                                                                                                                     |
 | NCIT:C136813 | Stage IA Retroperitoneal Sarcoma AJCC v8                                                                                                                                    |
 | NCIT:C8583   | Stage IA Soft Tissue Sarcoma AJCC v7                                                                                                                                        |
 | NCIT:C136698 | Stage IA Soft Tissue Sarcoma of the Trunk and Extremities AJCC v8                                                                                                           |
@@ -10822,6 +11136,7 @@
 | NCIT:C162228 | Stage IA1 Cervical Cancer FIGO 2018                                                                                                                                         |
 | NCIT:C206225 | Stage IA1 Endometrial Cancer FIGO 2023                                                                                                                                      |
 | NCIT:C136471 | Stage IA1 Lung Cancer AJCC v8                                                                                                                                               |
+| NCIT:C222368 | Stage IA1 Lung Cancer AJCC v9                                                                                                                                               |
 | NCIT:C6315   | Stage IA2 Cervical Cancer AJCC v6 and v7                                                                                                                                    |
 | NCIT:C139737 | Stage IA2 Cervical Cancer AJCC v8                                                                                                                                           |
 | NCIT:C181568 | Stage IA2 Cervical Cancer AJCC v9                                                                                                                                           |
@@ -10829,8 +11144,10 @@
 | NCIT:C162229 | Stage IA2 Cervical Cancer FIGO 2018                                                                                                                                         |
 | NCIT:C206226 | Stage IA2 Endometrial Cancer FIGO 2023                                                                                                                                      |
 | NCIT:C136472 | Stage IA2 Lung Cancer AJCC v8                                                                                                                                               |
+| NCIT:C222369 | Stage IA2 Lung Cancer AJCC v9                                                                                                                                               |
 | NCIT:C206227 | Stage IA3 Endometrial Cancer FIGO 2023                                                                                                                                      |
 | NCIT:C136473 | Stage IA3 Lung Cancer AJCC v8                                                                                                                                               |
+| NCIT:C222370 | Stage IA3 Lung Cancer AJCC v9                                                                                                                                               |
 | NCIT:C206223 | Stage IAmPOLEm Endometrial Cancer FIGO 2023                                                                                                                                 |
 | NCIT:C8570   | Stage IB Adult Soft Tissue Sarcoma AJCC v7                                                                                                                                  |
 | NCIT:C88097  | Stage IB Ampulla of Vater Cancer AJCC v7                                                                                                                                    |
@@ -10868,6 +11185,7 @@
 | NCIT:C6669   | Stage IB Lung Adenosquamous Carcinoma AJCC v7                                                                                                                               |
 | NCIT:C5643   | Stage IB Lung Cancer AJCC v7                                                                                                                                                |
 | NCIT:C136474 | Stage IB Lung Cancer AJCC v8                                                                                                                                                |
+| NCIT:C222371 | Stage IB Lung Cancer AJCC v9                                                                                                                                                |
 | NCIT:C6662   | Stage IB Lung Large Cell Carcinoma AJCC v7                                                                                                                                  |
 | NCIT:C5653   | Stage IB Lung Non-Small Cell Carcinoma AJCC v7                                                                                                                              |
 | NCIT:C6675   | Stage IB Lung Small Cell Carcinoma AJCC v7                                                                                                                                  |
@@ -10875,14 +11193,15 @@
 | NCIT:C130237 | Stage IB Mycosis Fungoides AJCC v7                                                                                                                                          |
 | NCIT:C88152  | Stage IB Mycosis Fungoides and Sezary Syndrome AJCC v7                                                                                                                      |
 | NCIT:C141349 | Stage IB Mycosis Fungoides and Sezary Syndrome AJCC v8                                                                                                                      |
+| NCIT:C222762 | Stage IB Nasopharyngeal Carcinoma AJCC v9                                                                                                                                   |
 | NCIT:C6609   | Stage IB Osteosarcoma AJCC v7                                                                                                                                               |
 | NCIT:C5221   | Stage IB Ovarian Cancer AJCC v6 and v7                                                                                                                                      |
 | NCIT:C139966 | Stage IB Ovarian Cancer AJCC v8                                                                                                                                             |
 | NCIT:C6292   | Stage IB Ovarian Germ Cell Tumor AJCC v6 and v7                                                                                                                             |
 | NCIT:C88101  | Stage IB Pancreatic Cancer AJCC v6 and v7                                                                                                                                   |
 | NCIT:C134920 | Stage IB Pancreatic Cancer AJCC v8                                                                                                                                          |
-| NCIT:C87196  | Stage IB Pleural Malignant Mesothelioma AJCC v7                                                                                                                             |
-| NCIT:C136401 | Stage IB Pleural Malignant Mesothelioma AJCC v8                                                                                                                             |
+| NCIT:C87196  | Stage IB Pleural Diffuse Malignant Mesothelioma AJCC v7                                                                                                                     |
+| NCIT:C136401 | Stage IB Pleural Diffuse Malignant Mesothelioma AJCC v8                                                                                                                     |
 | NCIT:C136814 | Stage IB Retroperitoneal Sarcoma AJCC v8                                                                                                                                    |
 | NCIT:C8580   | Stage IB Soft Tissue Sarcoma AJCC v7                                                                                                                                        |
 | NCIT:C136700 | Stage IB Soft Tissue Sarcoma of the Trunk and Extremities AJCC v8                                                                                                           |
@@ -10952,7 +11271,6 @@
 | NCIT:C6705   | Stage II Bone Sarcoma AJCC v7                                                                                                                                               |
 | NCIT:C94822  | Stage II Borderline Ovarian Surface Epithelial-Stromal Tumor                                                                                                                |
 | NCIT:C7768   | Stage II Breast Cancer AJCC v6 and v7                                                                                                                                       |
-| NCIT:C27328  | Stage II Centroblastic Follicular Lymphoma                                                                                                                                  |
 | NCIT:C7803   | Stage II Cervical Cancer AJCC v6                                                                                                                                            |
 | NCIT:C89551  | Stage II Cervical Cancer AJCC v7                                                                                                                                            |
 | NCIT:C139743 | Stage II Cervical Cancer AJCC v8                                                                                                                                            |
@@ -10984,7 +11302,6 @@
 | NCIT:C8471   | Stage II Contiguous Adult Diffuse Small Cleaved Cell Lymphoma                                                                                                               |
 | NCIT:C7917   | Stage II Cutaneous Melanoma AJCC v6 and v7                                                                                                                                  |
 | NCIT:C85893  | Stage II Cutaneous Merkel Cell Carcinoma AJCC v7                                                                                                                            |
-| NCIT:C7797   | Stage II Cutaneous T-Cell Non-Hodgkin Lymphoma                                                                                                                              |
 | NCIT:C101542 | Stage II Differentiated Thyroid Gland Carcinoma 45 Years and Older AJCC v7                                                                                                  |
 | NCIT:C140971 | Stage II Differentiated Thyroid Gland Carcinoma 55 Years and Older AJCC v8                                                                                                  |
 | NCIT:C87544  | Stage II Differentiated Thyroid Gland Carcinoma AJCC v7                                                                                                                     |
@@ -10995,15 +11312,14 @@
 | NCIT:C135077 | Stage II Duodenal Neuroendocrine Tumor AJCC v8                                                                                                                              |
 | NCIT:C207855 | Stage II Duodenal Neuroendocrine Tumor AJCC v9                                                                                                                              |
 | NCIT:C207849 | Stage II Duodenal and Ampulla of Vater Neuroendocrine Tumor AJCC v9                                                                                                         |
+| NCIT:C8724   | Stage II Dysgerminoma AJCC v6 and v7                                                                                                                                        |
 | NCIT:C206220 | Stage II Endometrial Cancer FIGO 2023                                                                                                                                       |
 | NCIT:C8628   | Stage II Esophageal Adenocarcinoma AJCC v7                                                                                                                                  |
 | NCIT:C9211   | Stage II Esophageal Cancer AJCC v6                                                                                                                                          |
 | NCIT:C89794  | Stage II Esophageal Cancer AJCC v7                                                                                                                                          |
 | NCIT:C5021   | Stage II Esophageal Squamous Cell Carcinoma AJCC v7                                                                                                                         |
-| NCIT:C8600   | Stage II Extragonadal Mixed Germ Cell Tumor                                                                                                                                 |
 | NCIT:C8887   | Stage II Extragonadal Non-Seminomatous Germ Cell Tumor                                                                                                                      |
 | NCIT:C8890   | Stage II Extragonadal Seminoma                                                                                                                                              |
-| NCIT:C5770   | Stage II Extrahepatic Bile Duct Cancer                                                                                                                                      |
 | NCIT:C88127  | Stage II Eyelid Carcinoma AJCC v7                                                                                                                                           |
 | NCIT:C140519 | Stage II Eyelid Carcinoma AJCC v8                                                                                                                                           |
 | NCIT:C8721   | Stage II Fallopian Tube Cancer AJCC v6 and v7                                                                                                                               |
@@ -11056,6 +11372,7 @@
 | NCIT:C8954   | Stage II Lung Cancer AJCC v6                                                                                                                                                |
 | NCIT:C88889  | Stage II Lung Cancer AJCC v7                                                                                                                                                |
 | NCIT:C136475 | Stage II Lung Cancer AJCC v8                                                                                                                                                |
+| NCIT:C222372 | Stage II Lung Cancer AJCC v9                                                                                                                                                |
 | NCIT:C6660   | Stage II Lung Large Cell Carcinoma AJCC v7                                                                                                                                  |
 | NCIT:C7777   | Stage II Lung Non-Small Cell Cancer AJCC v7                                                                                                                                 |
 | NCIT:C6678   | Stage II Lung Small Cell Carcinoma AJCC v7                                                                                                                                  |
@@ -11071,6 +11388,7 @@
 | NCIT:C7920   | Stage II Nasopharyngeal Carcinoma AJCC v6                                                                                                                                   |
 | NCIT:C88982  | Stage II Nasopharyngeal Carcinoma AJCC v7                                                                                                                                   |
 | NCIT:C132818 | Stage II Nasopharyngeal Carcinoma AJCC v8                                                                                                                                   |
+| NCIT:C222763 | Stage II Nasopharyngeal Carcinoma AJCC v9                                                                                                                                   |
 | NCIT:C8224   | Stage II Nasopharyngeal Keratinizing Squamous Cell Carcinoma AJCC v7                                                                                                        |
 | NCIT:C8225   | Stage II Nasopharyngeal Undifferentiated Carcinoma AJCC v7                                                                                                                  |
 | NCIT:C8480   | Stage II Non-Contiguous Adult Diffuse Large Cell Lymphoma                                                                                                                   |
@@ -11080,7 +11398,6 @@
 | NCIT:C5884   | Stage II Oral Cavity Cancer AJCC v6 and v7                                                                                                                                  |
 | NCIT:C8203   | Stage II Oral Cavity Mucoepidermoid Carcinoma                                                                                                                               |
 | NCIT:C6054   | Stage II Oral Cavity Squamous Cell Carcinoma AJCC v6 and v7                                                                                                                 |
-| NCIT:C8202   | Stage II Oral Cavity Verrucous Carcinoma                                                                                                                                    |
 | NCIT:C132997 | Stage II Oropharyngeal (p16-Negative) Carcinoma AJCC v8                                                                                                                     |
 | NCIT:C8049   | Stage II Oropharyngeal Carcinoma AJCC v6 and v7                                                                                                                             |
 | NCIT:C8218   | Stage II Oropharyngeal Squamous Cell Carcinoma AJCC v6 and v7                                                                                                               |
@@ -11089,7 +11406,6 @@
 | NCIT:C7830   | Stage II Ovarian Cancer AJCC v6 and v7                                                                                                                                      |
 | NCIT:C139968 | Stage II Ovarian Cancer AJCC v8                                                                                                                                             |
 | NCIT:C8731   | Stage II Ovarian Choriocarcinoma                                                                                                                                            |
-| NCIT:C8724   | Stage II Ovarian Dysgerminoma AJCC v6 and v7                                                                                                                                |
 | NCIT:C8725   | Stage II Ovarian Embryonal Carcinoma AJCC v6 and v7                                                                                                                         |
 | NCIT:C8084   | Stage II Ovarian Germ Cell Tumor AJCC v6 and v7                                                                                                                             |
 | NCIT:C8740   | Stage II Ovarian Polyembryoma AJCC v6 and v7                                                                                                                                |
@@ -11103,9 +11419,10 @@
 | NCIT:C7868   | Stage II Penile Cancer AJCC v6                                                                                                                                              |
 | NCIT:C89196  | Stage II Penile Cancer AJCC v7                                                                                                                                              |
 | NCIT:C140080 | Stage II Penile Cancer AJCC v8                                                                                                                                              |
-| NCIT:C8769   | Stage II Pharyngeal Cancer                                                                                                                                                  |
-| NCIT:C6647   | Stage II Pleural Malignant Mesothelioma AJCC v7                                                                                                                             |
-| NCIT:C136402 | Stage II Pleural Malignant Mesothelioma AJCC v8                                                                                                                             |
+| NCIT:C8769   | Stage II Pharyngeal Carcinoma                                                                                                                                               |
+| NCIT:C6647   | Stage II Pleural Diffuse Malignant Mesothelioma AJCC v7                                                                                                                     |
+| NCIT:C136402 | Stage II Pleural Diffuse Malignant Mesothelioma AJCC v8                                                                                                                     |
+| NCIT:C222669 | Stage II Pleural Diffuse Malignant Mesothelioma AJCC v9                                                                                                                     |
 | NCIT:C140005 | Stage II Primary Peritoneal Cancer AJCC v8                                                                                                                                  |
 | NCIT:C8948   | Stage II Prostate Adenocarcinoma AJCC v7                                                                                                                                    |
 | NCIT:C7553   | Stage II Prostate Cancer AJCC v6                                                                                                                                            |
@@ -11125,6 +11442,7 @@
 | NCIT:C7520   | Stage II Renal Pelvis and Ureter Cancer AJCC v7                                                                                                                             |
 | NCIT:C140367 | Stage II Renal Pelvis and Ureter Cancer AJCC v8                                                                                                                             |
 | NCIT:C136815 | Stage II Retroperitoneal Sarcoma AJCC v8                                                                                                                                    |
+| NCIT:C224099 | Stage II Salivary Gland Cancer AJCC v9                                                                                                                                      |
 | NCIT:C67555  | Stage II Sinonasal Cancer AJCC v6 and v7                                                                                                                                    |
 | NCIT:C133077 | Stage II Sinonasal Cancer AJCC v8                                                                                                                                           |
 | NCIT:C115071 | Stage II Sinonasal Squamous Cell Carcinoma AJCC v6 and v7                                                                                                                   |
@@ -11146,7 +11464,9 @@
 | NCIT:C8918   | Stage II Testicular Seminoma AJCC v6 and v7                                                                                                                                 |
 | NCIT:C8921   | Stage II Testicular Yolk Sac Tumor AJCC v6 and v7                                                                                                                           |
 | NCIT:C136349 | Stage II Thymoma AJCC v8                                                                                                                                                    |
+| NCIT:C222535 | Stage II Thymoma AJCC v9                                                                                                                                                    |
 | NCIT:C136323 | Stage II Thymus Epithelial Neoplasm AJCC v8                                                                                                                                 |
+| NCIT:C222526 | Stage II Thymus Epithelial Neoplasm AJCC v9                                                                                                                                 |
 | NCIT:C140993 | Stage II Thyroid Gland Follicular Carcinoma 55 Years and Older AJCC v8                                                                                                      |
 | NCIT:C9085   | Stage II Thyroid Gland Follicular Carcinoma AJCC v7                                                                                                                         |
 | NCIT:C140991 | Stage II Thyroid Gland Follicular Carcinoma AJCC v8                                                                                                                         |
@@ -11183,7 +11503,6 @@
 | NCIT:C87799  | Stage IIA Appendix Carcinoma AJCC v7                                                                                                                                        |
 | NCIT:C134122 | Stage IIA Appendix Carcinoma AJCC v8                                                                                                                                        |
 | NCIT:C207710 | Stage IIA Appendix Carcinoma AJCC v9                                                                                                                                        |
-| NCIT:C9365   | Stage IIA Bladder Cancer                                                                                                                                                    |
 | NCIT:C87182  | Stage IIA Bone Cancer AJCC v7                                                                                                                                               |
 | NCIT:C136617 | Stage IIA Bone Cancer AJCC v8                                                                                                                                               |
 | NCIT:C6467   | Stage IIA Bone Sarcoma AJCC v7                                                                                                                                              |
@@ -11224,6 +11543,7 @@
 | NCIT:C6667   | Stage IIA Lung Adenosquamous Carcinoma AJCC v7                                                                                                                              |
 | NCIT:C5644   | Stage IIA Lung Cancer AJCC v7                                                                                                                                               |
 | NCIT:C136476 | Stage IIA Lung Cancer AJCC v8                                                                                                                                               |
+| NCIT:C222373 | Stage IIA Lung Cancer AJCC v9                                                                                                                                               |
 | NCIT:C6666   | Stage IIA Lung Large Cell Carcinoma AJCC v7                                                                                                                                 |
 | NCIT:C5655   | Stage IIA Lung Non-Small Cell Carcinoma AJCC v7                                                                                                                             |
 | NCIT:C6677   | Stage IIA Lung Small Cell Carcinoma AJCC v7                                                                                                                                 |
@@ -11271,7 +11591,6 @@
 | NCIT:C87800  | Stage IIB Appendix Carcinoma AJCC v7                                                                                                                                        |
 | NCIT:C134123 | Stage IIB Appendix Carcinoma AJCC v8                                                                                                                                        |
 | NCIT:C207711 | Stage IIB Appendix Carcinoma AJCC v9                                                                                                                                        |
-| NCIT:C9366   | Stage IIB Bladder Cancer                                                                                                                                                    |
 | NCIT:C87183  | Stage IIB Bone Cancer AJCC v7                                                                                                                                               |
 | NCIT:C136618 | Stage IIB Bone Cancer AJCC v8                                                                                                                                               |
 | NCIT:C6466   | Stage IIB Bone Sarcoma AJCC v7                                                                                                                                              |
@@ -11311,6 +11630,7 @@
 | NCIT:C6670   | Stage IIB Lung Adenosquamous Carcinoma AJCC v7                                                                                                                              |
 | NCIT:C5645   | Stage IIB Lung Cancer AJCC v7                                                                                                                                               |
 | NCIT:C136477 | Stage IIB Lung Cancer AJCC v8                                                                                                                                               |
+| NCIT:C222374 | Stage IIB Lung Cancer AJCC v9                                                                                                                                               |
 | NCIT:C6663   | Stage IIB Lung Large Cell Carcinoma AJCC v7                                                                                                                                 |
 | NCIT:C5654   | Stage IIB Lung Non-Small Cell Carcinoma AJCC v7                                                                                                                             |
 | NCIT:C6676   | Stage IIB Lung Small Cell Carcinoma AJCC v7                                                                                                                                 |
@@ -11340,7 +11660,6 @@
 | NCIT:C115131 | Stage IIB Uterine Sarcoma AJCC v7                                                                                                                                           |
 | NCIT:C88136  | Stage IIB Uveal Melanoma AJCC v7                                                                                                                                            |
 | NCIT:C139664 | Stage IIB Vaginal Cancer AJCC v8                                                                                                                                            |
-| NCIT:C8573   | Stage IIC Adult Soft Tissue Sarcoma                                                                                                                                         |
 | NCIT:C87801  | Stage IIC Appendix Carcinoma AJCC v7                                                                                                                                        |
 | NCIT:C134124 | Stage IIC Appendix Carcinoma AJCC v8                                                                                                                                        |
 | NCIT:C207712 | Stage IIC Appendix Carcinoma AJCC v9                                                                                                                                        |
@@ -11358,7 +11677,6 @@
 | NCIT:C140168 | Stage IIC Prostate Cancer AJCC v8                                                                                                                                           |
 | NCIT:C115046 | Stage IIC Rectal Cancer AJCC v7                                                                                                                                             |
 | NCIT:C134296 | Stage IIC Rectal Cancer AJCC v8                                                                                                                                             |
-| NCIT:C8584   | Stage IIC Soft Tissue Sarcoma                                                                                                                                               |
 | NCIT:C6366   | Stage IIC Testicular Cancer AJCC v6 and v7                                                                                                                                  |
 | NCIT:C140236 | Stage IIC Testicular Cancer AJCC v8                                                                                                                                         |
 | NCIT:C206224 | Stage IICmp53abn Endometrial Cancer FIGO 2023                                                                                                                               |
@@ -11423,7 +11741,6 @@
 | NCIT:C7918   | Stage III Cutaneous Melanoma AJCC v6                                                                                                                                        |
 | NCIT:C88415  | Stage III Cutaneous Melanoma AJCC v7                                                                                                                                        |
 | NCIT:C85897  | Stage III Cutaneous Merkel Cell Carcinoma AJCC v7                                                                                                                           |
-| NCIT:C7799   | Stage III Cutaneous T-Cell Non-Hodgkin Lymphoma                                                                                                                             |
 | NCIT:C87545  | Stage III Differentiated Thyroid Gland Carcinoma AJCC v7                                                                                                                    |
 | NCIT:C140972 | Stage III Differentiated Thyroid Gland Carcinoma AJCC v8                                                                                                                    |
 | NCIT:C88094  | Stage III Distal Bile Duct Cancer AJCC v7                                                                                                                                   |
@@ -11431,15 +11748,14 @@
 | NCIT:C135078 | Stage III Duodenal Neuroendocrine Tumor AJCC v8                                                                                                                             |
 | NCIT:C207856 | Stage III Duodenal Neuroendocrine Tumor AJCC v9                                                                                                                             |
 | NCIT:C207850 | Stage III Duodenal and Ampulla of Vater Neuroendocrine Tumor AJCC v9                                                                                                        |
+| NCIT:C8726   | Stage III Dysgerminoma AJCC v6 and v7                                                                                                                                       |
 | NCIT:C206221 | Stage III Endometrial Cancer FIGO 2023                                                                                                                                      |
 | NCIT:C8631   | Stage III Esophageal Adenocarcinoma AJCC v7                                                                                                                                 |
 | NCIT:C9212   | Stage III Esophageal Cancer AJCC v6                                                                                                                                         |
 | NCIT:C89795  | Stage III Esophageal Cancer AJCC v7                                                                                                                                         |
 | NCIT:C5020   | Stage III Esophageal Squamous Cell Carcinoma AJCC v7                                                                                                                        |
-| NCIT:C8883   | Stage III Extragonadal Mixed Germ Cell Tumor                                                                                                                                |
 | NCIT:C8888   | Stage III Extragonadal Non-Seminomatous Germ Cell Tumor                                                                                                                     |
 | NCIT:C8891   | Stage III Extragonadal Seminoma                                                                                                                                             |
-| NCIT:C5771   | Stage III Extrahepatic Bile Duct Cancer                                                                                                                                     |
 | NCIT:C140522 | Stage III Eyelid Carcinoma AJCC v8                                                                                                                                          |
 | NCIT:C8722   | Stage III Fallopian Tube Cancer AJCC v6                                                                                                                                     |
 | NCIT:C89692  | Stage III Fallopian Tube Cancer AJCC v7                                                                                                                                     |
@@ -11494,6 +11810,7 @@
 | NCIT:C8773   | Stage III Lung Cancer AJCC v6                                                                                                                                               |
 | NCIT:C88890  | Stage III Lung Cancer AJCC v7                                                                                                                                               |
 | NCIT:C136478 | Stage III Lung Cancer AJCC v8                                                                                                                                               |
+| NCIT:C222375 | Stage III Lung Cancer AJCC v9                                                                                                                                               |
 | NCIT:C9257   | Stage III Lung Large Cell Carcinoma AJCC v7                                                                                                                                 |
 | NCIT:C7778   | Stage III Lung Non-Small Cell Cancer AJCC v7                                                                                                                                |
 | NCIT:C6679   | Stage III Lung Small Cell Carcinoma AJCC v7                                                                                                                                 |
@@ -11509,13 +11826,13 @@
 | NCIT:C7396   | Stage III Nasopharyngeal Carcinoma AJCC v6                                                                                                                                  |
 | NCIT:C88983  | Stage III Nasopharyngeal Carcinoma AJCC v7                                                                                                                                  |
 | NCIT:C132819 | Stage III Nasopharyngeal Carcinoma AJCC v8                                                                                                                                  |
+| NCIT:C222764 | Stage III Nasopharyngeal Carcinoma AJCC v9                                                                                                                                  |
 | NCIT:C8226   | Stage III Nasopharyngeal Keratinizing Squamous Cell Carcinoma AJCC v7                                                                                                       |
 | NCIT:C8227   | Stage III Nasopharyngeal Undifferentiated Carcinoma AJCC v7                                                                                                                 |
 | NCIT:C8208   | Stage III Oral Cavity Adenoid Cystic Carcinoma AJCC v6 and v7                                                                                                               |
 | NCIT:C5885   | Stage III Oral Cavity Cancer AJCC v6 and v7                                                                                                                                 |
 | NCIT:C8207   | Stage III Oral Cavity Mucoepidermoid Carcinoma AJCC v6 and v7                                                                                                               |
 | NCIT:C6055   | Stage III Oral Cavity Squamous Cell Carcinoma AJCC v6 and v7                                                                                                                |
-| NCIT:C8206   | Stage III Oral Cavity Verrucous Carcinoma                                                                                                                                   |
 | NCIT:C132998 | Stage III Oropharyngeal (p16-Negative) Carcinoma AJCC v8                                                                                                                    |
 | NCIT:C8050   | Stage III Oropharyngeal Carcinoma AJCC v6                                                                                                                                   |
 | NCIT:C89021  | Stage III Oropharyngeal Carcinoma AJCC v7                                                                                                                                   |
@@ -11525,7 +11842,6 @@
 | NCIT:C7831   | Stage III Ovarian Cancer AJCC v6 and v7                                                                                                                                     |
 | NCIT:C139971 | Stage III Ovarian Cancer AJCC v8                                                                                                                                            |
 | NCIT:C8732   | Stage III Ovarian Choriocarcinoma                                                                                                                                           |
-| NCIT:C8726   | Stage III Ovarian Dysgerminoma AJCC v6 and v7                                                                                                                               |
 | NCIT:C8728   | Stage III Ovarian Embryonal Carcinoma AJCC v6 and v7                                                                                                                        |
 | NCIT:C8085   | Stage III Ovarian Germ Cell Tumor AJCC v6 and v7                                                                                                                            |
 | NCIT:C8741   | Stage III Ovarian Polyembryoma AJCC v6 and v7                                                                                                                               |
@@ -11539,9 +11855,10 @@
 | NCIT:C7869   | Stage III Penile Cancer AJCC v6                                                                                                                                             |
 | NCIT:C89197  | Stage III Penile Cancer AJCC v7                                                                                                                                             |
 | NCIT:C140084 | Stage III Penile Cancer AJCC v8                                                                                                                                             |
-| NCIT:C8770   | Stage III Pharyngeal Cancer                                                                                                                                                 |
-| NCIT:C6648   | Stage III Pleural Malignant Mesothelioma AJCC v7                                                                                                                            |
-| NCIT:C136403 | Stage III Pleural Malignant Mesothelioma AJCC v8                                                                                                                            |
+| NCIT:C8770   | Stage III Pharyngeal Carcinoma                                                                                                                                              |
+| NCIT:C6648   | Stage III Pleural Diffuse Malignant Mesothelioma AJCC v7                                                                                                                    |
+| NCIT:C136403 | Stage III Pleural Diffuse Malignant Mesothelioma AJCC v8                                                                                                                    |
+| NCIT:C222670 | Stage III Pleural Diffuse Malignant Mesothelioma AJCC v9                                                                                                                    |
 | NCIT:C115094 | Stage III Primary Peritoneal Cancer AJCC v7                                                                                                                                 |
 | NCIT:C140008 | Stage III Primary Peritoneal Cancer AJCC v8                                                                                                                                 |
 | NCIT:C8949   | Stage III Prostate Adenocarcinoma AJCC v7                                                                                                                                   |
@@ -11562,6 +11879,7 @@
 | NCIT:C7521   | Stage III Renal Pelvis and Ureter Cancer AJCC v7                                                                                                                            |
 | NCIT:C140370 | Stage III Renal Pelvis and Ureter Cancer AJCC v8                                                                                                                            |
 | NCIT:C136816 | Stage III Retroperitoneal Sarcoma AJCC v8                                                                                                                                   |
+| NCIT:C224100 | Stage III Salivary Gland Cancer AJCC v9                                                                                                                                     |
 | NCIT:C67556  | Stage III Sinonasal Cancer AJCC v6 and v7                                                                                                                                   |
 | NCIT:C133078 | Stage III Sinonasal Cancer AJCC v8                                                                                                                                          |
 | NCIT:C115072 | Stage III Sinonasal Squamous Cell Carcinoma AJCC v6 and v7                                                                                                                  |
@@ -11582,7 +11900,9 @@
 | NCIT:C8919   | Stage III Testicular Seminoma AJCC v6 and v7                                                                                                                                |
 | NCIT:C8922   | Stage III Testicular Yolk Sac Tumor AJCC v6 and v7                                                                                                                          |
 | NCIT:C136350 | Stage III Thymoma AJCC v8                                                                                                                                                   |
+| NCIT:C222536 | Stage III Thymoma AJCC v9                                                                                                                                                   |
 | NCIT:C136325 | Stage III Thymus Epithelial Neoplasm AJCC v8                                                                                                                                |
+| NCIT:C222527 | Stage III Thymus Epithelial Neoplasm AJCC v9                                                                                                                                |
 | NCIT:C9121   | Stage III Thyroid Gland Follicular Carcinoma AJCC v7                                                                                                                        |
 | NCIT:C140995 | Stage III Thyroid Gland Follicular Carcinoma AJCC v8                                                                                                                        |
 | NCIT:C6135   | Stage III Thyroid Gland Medullary Carcinoma AJCC v7                                                                                                                         |
@@ -11662,6 +11982,7 @@
 | NCIT:C8951   | Stage IIIA Lung Adenosquamous Carcinoma AJCC v7                                                                                                                             |
 | NCIT:C5646   | Stage IIIA Lung Cancer AJCC v7                                                                                                                                              |
 | NCIT:C136479 | Stage IIIA Lung Cancer AJCC v8                                                                                                                                              |
+| NCIT:C222376 | Stage IIIA Lung Cancer AJCC v9                                                                                                                                              |
 | NCIT:C6665   | Stage IIIA Lung Large Cell Carcinoma AJCC v7                                                                                                                                |
 | NCIT:C9102   | Stage IIIA Lung Non-Small Cell Cancer AJCC v7                                                                                                                               |
 | NCIT:C6680   | Stage IIIA Lung Small Cell Carcinoma AJCC v7                                                                                                                                |
@@ -11672,7 +11993,8 @@
 | NCIT:C139972 | Stage IIIA Ovarian Cancer AJCC v8                                                                                                                                           |
 | NCIT:C6297   | Stage IIIA Ovarian Germ Cell Tumor AJCC v6 and v7                                                                                                                           |
 | NCIT:C140085 | Stage IIIA Penile Cancer AJCC v8                                                                                                                                            |
-| NCIT:C136404 | Stage IIIA Pleural Malignant Mesothelioma AJCC v8                                                                                                                           |
+| NCIT:C136404 | Stage IIIA Pleural Diffuse Malignant Mesothelioma AJCC v8                                                                                                                   |
+| NCIT:C222671 | Stage IIIA Pleural Diffuse Malignant Mesothelioma AJCC v9                                                                                                                   |
 | NCIT:C115095 | Stage IIIA Primary Peritoneal Cancer AJCC v7                                                                                                                                |
 | NCIT:C140009 | Stage IIIA Primary Peritoneal Cancer AJCC v8                                                                                                                                |
 | NCIT:C140170 | Stage IIIA Prostate Cancer AJCC v8                                                                                                                                          |
@@ -11681,6 +12003,7 @@
 | NCIT:C135531 | Stage IIIA Rectal Neuroendocrine Tumor AJCC v8                                                                                                                              |
 | NCIT:C208110 | Stage IIIA Rectal Neuroendocrine Tumor AJCC v9                                                                                                                              |
 | NCIT:C136817 | Stage IIIA Retroperitoneal Sarcoma AJCC v8                                                                                                                                  |
+| NCIT:C224101 | Stage IIIA Salivary Gland Cancer AJCC v9                                                                                                                                    |
 | NCIT:C133900 | Stage IIIA Small Intestinal Adenocarcinoma AJCC v8                                                                                                                          |
 | NCIT:C87793  | Stage IIIA Small Intestinal Cancer AJCC v7                                                                                                                                  |
 | NCIT:C87833  | Stage IIIA Small Intestinal Gastrointestinal Stromal Tumor AJCC v7                                                                                                          |
@@ -11689,7 +12012,9 @@
 | NCIT:C6369   | Stage IIIA Testicular Cancer AJCC v6 and v7                                                                                                                                 |
 | NCIT:C140238 | Stage IIIA Testicular Cancer AJCC v8                                                                                                                                        |
 | NCIT:C136351 | Stage IIIA Thymoma AJCC v8                                                                                                                                                  |
+| NCIT:C222537 | Stage IIIA Thymoma AJCC v9                                                                                                                                                  |
 | NCIT:C136327 | Stage IIIA Thymus Epithelial Neoplasm AJCC v8                                                                                                                               |
+| NCIT:C222528 | Stage IIIA Thymus Epithelial Neoplasm AJCC v9                                                                                                                               |
 | NCIT:C139901 | Stage IIIA Uterine Corpus Adenosarcoma AJCC v8                                                                                                                              |
 | NCIT:C139807 | Stage IIIA Uterine Corpus Carcinoma or Carcinosarcoma AJCC v8                                                                                                               |
 | NCIT:C6306   | Stage IIIA Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage                                                                                                      |
@@ -11761,6 +12086,7 @@
 | NCIT:C8952   | Stage IIIB Lung Adenosquamous Carcinoma AJCC v7                                                                                                                             |
 | NCIT:C5647   | Stage IIIB Lung Cancer AJCC v7                                                                                                                                              |
 | NCIT:C136480 | Stage IIIB Lung Cancer AJCC v8                                                                                                                                              |
+| NCIT:C222377 | Stage IIIB Lung Cancer AJCC v9                                                                                                                                              |
 | NCIT:C6664   | Stage IIIB Lung Large Cell Carcinoma AJCC v7                                                                                                                                |
 | NCIT:C9103   | Stage IIIB Lung Non-Small Cell Cancer AJCC v7                                                                                                                               |
 | NCIT:C6681   | Stage IIIB Lung Small Cell Carcinoma AJCC v7                                                                                                                                |
@@ -11773,7 +12099,8 @@
 | NCIT:C139975 | Stage IIIB Ovarian Cancer AJCC v8                                                                                                                                           |
 | NCIT:C6298   | Stage IIIB Ovarian Germ Cell Tumor AJCC v6 and v7                                                                                                                           |
 | NCIT:C140086 | Stage IIIB Penile Cancer AJCC v8                                                                                                                                            |
-| NCIT:C136405 | Stage IIIB Pleural Malignant Mesothelioma AJCC v8                                                                                                                           |
+| NCIT:C136405 | Stage IIIB Pleural Diffuse Malignant Mesothelioma AJCC v8                                                                                                                   |
+| NCIT:C222672 | Stage IIIB Pleural Diffuse Malignant Mesothelioma AJCC v9                                                                                                                   |
 | NCIT:C115096 | Stage IIIB Primary Peritoneal Cancer AJCC v7                                                                                                                                |
 | NCIT:C140010 | Stage IIIB Primary Peritoneal Cancer AJCC v8                                                                                                                                |
 | NCIT:C140171 | Stage IIIB Prostate Cancer AJCC v8                                                                                                                                          |
@@ -11782,6 +12109,7 @@
 | NCIT:C135532 | Stage IIIB Rectal Neuroendocrine Tumor AJCC v8                                                                                                                              |
 | NCIT:C208113 | Stage IIIB Rectal Neuroendocrine Tumor AJCC v9                                                                                                                              |
 | NCIT:C136818 | Stage IIIB Retroperitoneal Sarcoma AJCC v8                                                                                                                                  |
+| NCIT:C224102 | Stage IIIB Salivary Gland Cancer AJCC v9                                                                                                                                    |
 | NCIT:C133901 | Stage IIIB Small Intestinal Adenocarcinoma AJCC v8                                                                                                                          |
 | NCIT:C87795  | Stage IIIB Small Intestinal Cancer AJCC v7                                                                                                                                  |
 | NCIT:C87834  | Stage IIIB Small Intestinal Gastrointestinal Stromal Tumor AJCC v7                                                                                                          |
@@ -11790,7 +12118,9 @@
 | NCIT:C6368   | Stage IIIB Testicular Cancer AJCC v6 and v7                                                                                                                                 |
 | NCIT:C140239 | Stage IIIB Testicular Cancer AJCC v8                                                                                                                                        |
 | NCIT:C136352 | Stage IIIB Thymoma AJCC v8                                                                                                                                                  |
+| NCIT:C222538 | Stage IIIB Thymoma AJCC v9                                                                                                                                                  |
 | NCIT:C136328 | Stage IIIB Thymus Epithelial Neoplasm AJCC v8                                                                                                                               |
+| NCIT:C222529 | Stage IIIB Thymus Epithelial Neoplasm AJCC v9                                                                                                                               |
 | NCIT:C139902 | Stage IIIB Uterine Corpus Adenosarcoma AJCC v8                                                                                                                              |
 | NCIT:C139808 | Stage IIIB Uterine Corpus Carcinoma or Carcinosarcoma AJCC v8                                                                                                               |
 | NCIT:C6307   | Stage IIIB Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage                                                                                                      |
@@ -11831,6 +12161,7 @@
 | NCIT:C88044  | Stage IIIC Hepatocellular Carcinoma AJCC v7                                                                                                                                 |
 | NCIT:C134750 | Stage IIIC Hilar Cholangiocarcinoma AJCC v8                                                                                                                                 |
 | NCIT:C136481 | Stage IIIC Lung Cancer AJCC v8                                                                                                                                              |
+| NCIT:C222378 | Stage IIIC Lung Cancer AJCC v9                                                                                                                                              |
 | NCIT:C6260   | Stage IIIC Ovarian Cancer AJCC v6 and v7                                                                                                                                    |
 | NCIT:C139976 | Stage IIIC Ovarian Cancer AJCC v8                                                                                                                                           |
 | NCIT:C6299   | Stage IIIC Ovarian Germ Cell Tumor AJCC v6 and v7                                                                                                                           |
@@ -11933,7 +12264,6 @@
 | NCIT:C208114 | Stage IV Colorectal Neuroendocrine Tumor AJCC v9                                                                                                                            |
 | NCIT:C9096   | Stage IV Cutaneous Melanoma AJCC v6 and v7                                                                                                                                  |
 | NCIT:C85900  | Stage IV Cutaneous Merkel Cell Carcinoma AJCC v7                                                                                                                            |
-| NCIT:C7801   | Stage IV Cutaneous T-Cell Non-Hodgkin Lymphoma                                                                                                                              |
 | NCIT:C140973 | Stage IV Differentiated Thyroid Gland Carcinoma AJCC v8                                                                                                                     |
 | NCIT:C88033  | Stage IV Digestive System Neuroendocrine Tumor AJCC v7                                                                                                                      |
 | NCIT:C88095  | Stage IV Distal Bile Duct Cancer AJCC v7                                                                                                                                    |
@@ -11941,6 +12271,7 @@
 | NCIT:C135079 | Stage IV Duodenal Neuroendocrine Tumor AJCC v8                                                                                                                              |
 | NCIT:C207857 | Stage IV Duodenal Neuroendocrine Tumor AJCC v9                                                                                                                              |
 | NCIT:C207851 | Stage IV Duodenal and Ampulla of Vater Neuroendocrine Tumor AJCC v9                                                                                                         |
+| NCIT:C8727   | Stage IV Dysgerminoma AJCC v6 and v7                                                                                                                                        |
 | NCIT:C206222 | Stage IV Endometrial Cancer FIGO 2023                                                                                                                                       |
 | NCIT:C8632   | Stage IV Esophageal Adenocarcinoma AJCC v7                                                                                                                                  |
 | NCIT:C9213   | Stage IV Esophageal Cancer AJCC v6                                                                                                                                          |
@@ -11948,7 +12279,6 @@
 | NCIT:C5019   | Stage IV Esophageal Squamous Cell Carcinoma AJCC v7                                                                                                                         |
 | NCIT:C8889   | Stage IV Extragonadal Non-Seminomatous Germ Cell Tumor                                                                                                                      |
 | NCIT:C8892   | Stage IV Extragonadal Seminoma                                                                                                                                              |
-| NCIT:C5772   | Stage IV Extrahepatic Bile Duct Cancer                                                                                                                                      |
 | NCIT:C88133  | Stage IV Eyelid Carcinoma AJCC v7                                                                                                                                           |
 | NCIT:C140525 | Stage IV Eyelid Carcinoma AJCC v8                                                                                                                                           |
 | NCIT:C8963   | Stage IV Fallopian Tube Cancer AJCC v6 and v7                                                                                                                               |
@@ -11958,8 +12288,6 @@
 | NCIT:C134675 | Stage IV Gallbladder Cancer AJCC v8                                                                                                                                         |
 | NCIT:C9036   | Stage IV Gastric Cancer AJCC v6                                                                                                                                             |
 | NCIT:C89861  | Stage IV Gastric Cancer AJCC v7                                                                                                                                             |
-| NCIT:C8626   | Stage IV Gastric Cancer with Metastasis                                                                                                                                     |
-| NCIT:C8956   | Stage IV Gastric Cancer without Metastasis                                                                                                                                  |
 | NCIT:C87830  | Stage IV Gastric Gastrointestinal Stromal Tumor AJCC v7                                                                                                                     |
 | NCIT:C135049 | Stage IV Gastric Neuroendocrine Tumor AJCC v8                                                                                                                               |
 | NCIT:C208305 | Stage IV Gastric Neuroendocrine Tumor AJCC v9                                                                                                                               |
@@ -12005,6 +12333,7 @@
 | NCIT:C8774   | Stage IV Lung Cancer AJCC v6                                                                                                                                                |
 | NCIT:C88891  | Stage IV Lung Cancer AJCC v7                                                                                                                                                |
 | NCIT:C136482 | Stage IV Lung Cancer AJCC v8                                                                                                                                                |
+| NCIT:C222379 | Stage IV Lung Cancer AJCC v9                                                                                                                                                |
 | NCIT:C8756   | Stage IV Lung Large Cell Carcinoma AJCC v7                                                                                                                                  |
 | NCIT:C4012   | Stage IV Lung Non-Small Cell Cancer AJCC v7                                                                                                                                 |
 | NCIT:C6682   | Stage IV Lung Small Cell Carcinoma AJCC v7                                                                                                                                  |
@@ -12022,6 +12351,7 @@
 | NCIT:C7397   | Stage IV Nasopharyngeal Carcinoma AJCC v6                                                                                                                                   |
 | NCIT:C88984  | Stage IV Nasopharyngeal Carcinoma AJCC v7                                                                                                                                   |
 | NCIT:C132820 | Stage IV Nasopharyngeal Carcinoma AJCC v8                                                                                                                                   |
+| NCIT:C222765 | Stage IV Nasopharyngeal Carcinoma AJCC v9                                                                                                                                   |
 | NCIT:C8228   | Stage IV Nasopharyngeal Keratinizing Squamous Cell Carcinoma AJCC v7                                                                                                        |
 | NCIT:C8229   | Stage IV Nasopharyngeal Undifferentiated Carcinoma AJCC v7                                                                                                                  |
 | NCIT:C8212   | Stage IV Oral Cavity Adenoid Cystic Carcinoma AJCC v6 and v7                                                                                                                |
@@ -12037,7 +12367,6 @@
 | NCIT:C7832   | Stage IV Ovarian Cancer AJCC v6 and v7                                                                                                                                      |
 | NCIT:C139977 | Stage IV Ovarian Cancer AJCC v8                                                                                                                                             |
 | NCIT:C8733   | Stage IV Ovarian Choriocarcinoma                                                                                                                                            |
-| NCIT:C8727   | Stage IV Ovarian Dysgerminoma AJCC v6 and v7                                                                                                                                |
 | NCIT:C8729   | Stage IV Ovarian Embryonal Carcinoma AJCC v6 and v7                                                                                                                         |
 | NCIT:C8086   | Stage IV Ovarian Germ Cell Tumor AJCC v6 and v7                                                                                                                             |
 | NCIT:C8742   | Stage IV Ovarian Polyembryoma AJCC v6 and v7                                                                                                                                |
@@ -12051,9 +12380,10 @@
 | NCIT:C8959   | Stage IV Penile Cancer AJCC v6                                                                                                                                              |
 | NCIT:C89198  | Stage IV Penile Cancer AJCC v7                                                                                                                                              |
 | NCIT:C140087 | Stage IV Penile Cancer AJCC v8                                                                                                                                              |
-| NCIT:C8771   | Stage IV Pharyngeal Cancer                                                                                                                                                  |
-| NCIT:C6649   | Stage IV Pleural Malignant Mesothelioma AJCC v7                                                                                                                             |
-| NCIT:C136406 | Stage IV Pleural Malignant Mesothelioma AJCC v8                                                                                                                             |
+| NCIT:C8771   | Stage IV Pharyngeal Carcinoma                                                                                                                                               |
+| NCIT:C6649   | Stage IV Pleural Diffuse Malignant Mesothelioma AJCC v7                                                                                                                     |
+| NCIT:C136406 | Stage IV Pleural Diffuse Malignant Mesothelioma AJCC v8                                                                                                                     |
+| NCIT:C222673 | Stage IV Pleural Diffuse Malignant Mesothelioma AJCC v9                                                                                                                     |
 | NCIT:C115098 | Stage IV Primary Peritoneal Cancer AJCC v7                                                                                                                                  |
 | NCIT:C140012 | Stage IV Primary Peritoneal Cancer AJCC v8                                                                                                                                  |
 | NCIT:C8950   | Stage IV Prostate Adenocarcinoma AJCC v7                                                                                                                                    |
@@ -12075,6 +12405,7 @@
 | NCIT:C7522   | Stage IV Renal Pelvis and Ureter Cancer AJCC v7                                                                                                                             |
 | NCIT:C140373 | Stage IV Renal Pelvis and Ureter Cancer AJCC v8                                                                                                                             |
 | NCIT:C136819 | Stage IV Retroperitoneal Sarcoma AJCC v8                                                                                                                                    |
+| NCIT:C224103 | Stage IV Salivary Gland Cancer AJCC v9                                                                                                                                      |
 | NCIT:C67557  | Stage IV Sinonasal Cancer AJCC v6                                                                                                                                           |
 | NCIT:C89117  | Stage IV Sinonasal Cancer AJCC v7                                                                                                                                           |
 | NCIT:C133079 | Stage IV Sinonasal Cancer AJCC v8                                                                                                                                           |
@@ -12087,9 +12418,10 @@
 | NCIT:C8586   | Stage IV Soft Tissue Sarcoma AJCC v7                                                                                                                                        |
 | NCIT:C136706 | Stage IV Soft Tissue Sarcoma of the Trunk and Extremities AJCC v8                                                                                                           |
 | NCIT:C8700   | Stage IV T Lymphoblastic Leukemia/Lymphoma                                                                                                                                  |
-| NCIT:C28337  | Stage IV Testicular Non-Seminomatous Germ Cell Tumor                                                                                                                        |
 | NCIT:C136353 | Stage IV Thymoma AJCC v8                                                                                                                                                    |
+| NCIT:C222539 | Stage IV Thymoma AJCC v9                                                                                                                                                    |
 | NCIT:C136329 | Stage IV Thymus Epithelial Neoplasm AJCC v8                                                                                                                                 |
+| NCIT:C222530 | Stage IV Thymus Epithelial Neoplasm AJCC v9                                                                                                                                 |
 | NCIT:C9086   | Stage IV Thyroid Gland Follicular Carcinoma AJCC v7                                                                                                                         |
 | NCIT:C140996 | Stage IV Thyroid Gland Follicular Carcinoma AJCC v8                                                                                                                         |
 | NCIT:C6136   | Stage IV Thyroid Gland Medullary Carcinoma AJCC v7                                                                                                                          |
@@ -12117,7 +12449,6 @@
 | NCIT:C87806  | Stage IVA Appendix Carcinoma AJCC v7                                                                                                                                        |
 | NCIT:C134130 | Stage IVA Appendix Carcinoma AJCC v8                                                                                                                                        |
 | NCIT:C207718 | Stage IVA Appendix Carcinoma AJCC v9                                                                                                                                        |
-| NCIT:C9367   | Stage IVA Bladder Cancer                                                                                                                                                    |
 | NCIT:C140425 | Stage IVA Bladder Cancer AJCC v8                                                                                                                                            |
 | NCIT:C87186  | Stage IVA Bone Cancer AJCC v7                                                                                                                                               |
 | NCIT:C136621 | Stage IVA Bone Cancer AJCC v8                                                                                                                                               |
@@ -12159,11 +12490,13 @@
 | NCIT:C115061 | Stage IVA Lip and Oral Cavity Squamous Cell Carcinoma AJCC v6 and v7                                                                                                        |
 | NCIT:C7122   | Stage IVA Liver Cancer                                                                                                                                                      |
 | NCIT:C136483 | Stage IVA Lung Cancer AJCC v8                                                                                                                                               |
+| NCIT:C222380 | Stage IVA Lung Cancer AJCC v9                                                                                                                                               |
 | NCIT:C35694  | Stage IVA Major Salivary Gland Cancer AJCC v7                                                                                                                               |
 | NCIT:C132788 | Stage IVA Major Salivary Gland Cancer AJCC v8                                                                                                                               |
 | NCIT:C88161  | Stage IVA Mycosis Fungoides and Sezary Syndrome AJCC v7                                                                                                                     |
 | NCIT:C5997   | Stage IVA Nasopharyngeal Carcinoma AJCC v7                                                                                                                                  |
 | NCIT:C132821 | Stage IVA Nasopharyngeal Carcinoma AJCC v8                                                                                                                                  |
+| NCIT:C222767 | Stage IVA Nasopharyngeal Carcinoma AJCC v9                                                                                                                                  |
 | NCIT:C6137   | Stage IVA Nasopharyngeal Keratinizing Squamous Cell Carcinoma AJCC v7                                                                                                       |
 | NCIT:C5863   | Stage IVA Oral Cavity Adenoid Cystic Carcinoma AJCC v6 and v7                                                                                                               |
 | NCIT:C5887   | Stage IVA Oral Cavity Cancer AJCC v6 and v7                                                                                                                                 |
@@ -12176,7 +12509,7 @@
 | NCIT:C6702   | Stage IVA Osteosarcoma AJCC v7                                                                                                                                              |
 | NCIT:C139978 | Stage IVA Ovarian Cancer AJCC v8                                                                                                                                            |
 | NCIT:C6070   | Stage IVA Paranasal Sinus Cancer AJCC v7                                                                                                                                    |
-| NCIT:C6000   | Stage IVA Pharyngeal Cancer                                                                                                                                                 |
+| NCIT:C6000   | Stage IVA Pharyngeal Carcinoma                                                                                                                                              |
 | NCIT:C140013 | Stage IVA Primary Peritoneal Cancer AJCC v8                                                                                                                                 |
 | NCIT:C140174 | Stage IVA Prostate Cancer AJCC v8                                                                                                                                           |
 | NCIT:C115055 | Stage IVA Rectal Cancer AJCC v7                                                                                                                                             |
@@ -12185,7 +12518,9 @@
 | NCIT:C133080 | Stage IVA Sinonasal Cancer AJCC v8                                                                                                                                          |
 | NCIT:C115074 | Stage IVA Sinonasal Squamous Cell Carcinoma AJCC v7                                                                                                                         |
 | NCIT:C136354 | Stage IVA Thymoma AJCC v8                                                                                                                                                   |
+| NCIT:C222540 | Stage IVA Thymoma AJCC v9                                                                                                                                                   |
 | NCIT:C136330 | Stage IVA Thymus Epithelial Neoplasm AJCC v8                                                                                                                                |
+| NCIT:C222531 | Stage IVA Thymus Epithelial Neoplasm AJCC v9                                                                                                                                |
 | NCIT:C87552  | Stage IVA Thyroid Gland Anaplastic Carcinoma AJCC v7                                                                                                                        |
 | NCIT:C141001 | Stage IVA Thyroid Gland Anaplastic Carcinoma AJCC v8                                                                                                                        |
 | NCIT:C115035 | Stage IVA Thyroid Gland Follicular Carcinoma AJCC v7                                                                                                                        |
@@ -12253,12 +12588,14 @@
 | NCIT:C115062 | Stage IVB Lip and Oral Cavity Squamous Cell Carcinoma AJCC v6 and v7                                                                                                        |
 | NCIT:C7123   | Stage IVB Liver Cancer                                                                                                                                                      |
 | NCIT:C136484 | Stage IVB Lung Cancer AJCC v8                                                                                                                                               |
+| NCIT:C222381 | Stage IVB Lung Cancer AJCC v9                                                                                                                                               |
 | NCIT:C35695  | Stage IVB Major Salivary Gland Cancer AJCC v7                                                                                                                               |
 | NCIT:C132789 | Stage IVB Major Salivary Gland Cancer AJCC v8                                                                                                                               |
 | NCIT:C88162  | Stage IVB Mycosis Fungoides and Sezary Syndrome AJCC v7                                                                                                                     |
 | NCIT:C141359 | Stage IVB Mycosis Fungoides and Sezary Syndrome AJCC v8                                                                                                                     |
 | NCIT:C5996   | Stage IVB Nasopharyngeal Carcinoma AJCC v7                                                                                                                                  |
 | NCIT:C132822 | Stage IVB Nasopharyngeal Carcinoma AJCC v8                                                                                                                                  |
+| NCIT:C222768 | Stage IVB Nasopharyngeal Carcinoma AJCC v9                                                                                                                                  |
 | NCIT:C6138   | Stage IVB Nasopharyngeal Keratinizing Squamous Cell Carcinoma AJCC v7                                                                                                       |
 | NCIT:C5864   | Stage IVB Oral Cavity Adenoid Cystic Carcinoma AJCC v6 and v7                                                                                                               |
 | NCIT:C5888   | Stage IVB Oral Cavity Cancer AJCC v6 and v7                                                                                                                                 |
@@ -12270,9 +12607,8 @@
 | NCIT:C115091 | Stage IVB Oropharyngeal Undifferentiated Carcinoma AJCC v7                                                                                                                  |
 | NCIT:C6703   | Stage IVB Osteosarcoma AJCC v7                                                                                                                                              |
 | NCIT:C139979 | Stage IVB Ovarian Cancer AJCC v8                                                                                                                                            |
-| NCIT:C8575   | Stage IVB Pancreatic Cancer                                                                                                                                                 |
 | NCIT:C6071   | Stage IVB Paranasal Sinus Cancer AJCC v7                                                                                                                                    |
-| NCIT:C6001   | Stage IVB Pharyngeal Cancer                                                                                                                                                 |
+| NCIT:C6001   | Stage IVB Pharyngeal Carcinoma                                                                                                                                              |
 | NCIT:C140014 | Stage IVB Primary Peritoneal Cancer AJCC v8                                                                                                                                 |
 | NCIT:C140175 | Stage IVB Prostate Cancer AJCC v8                                                                                                                                           |
 | NCIT:C115056 | Stage IVB Rectal Cancer AJCC v7                                                                                                                                             |
@@ -12281,7 +12617,9 @@
 | NCIT:C133081 | Stage IVB Sinonasal Cancer AJCC v8                                                                                                                                          |
 | NCIT:C115075 | Stage IVB Sinonasal Squamous Cell Carcinoma AJCC v7                                                                                                                         |
 | NCIT:C136356 | Stage IVB Thymoma AJCC v8                                                                                                                                                   |
+| NCIT:C222541 | Stage IVB Thymoma AJCC v9                                                                                                                                                   |
 | NCIT:C136331 | Stage IVB Thymus Epithelial Neoplasm AJCC v8                                                                                                                                |
+| NCIT:C222532 | Stage IVB Thymus Epithelial Neoplasm AJCC v9                                                                                                                                |
 | NCIT:C87553  | Stage IVB Thyroid Gland Anaplastic Carcinoma AJCC v7                                                                                                                        |
 | NCIT:C141003 | Stage IVB Thyroid Gland Anaplastic Carcinoma AJCC v8                                                                                                                        |
 | NCIT:C115036 | Stage IVB Thyroid Gland Follicular Carcinoma AJCC v7                                                                                                                        |
@@ -12335,7 +12673,7 @@
 | NCIT:C6140   | Stage IVC Oropharyngeal Squamous Cell Carcinoma AJCC v7                                                                                                                     |
 | NCIT:C115092 | Stage IVC Oropharyngeal Undifferentiated Carcinoma AJCC v7                                                                                                                  |
 | NCIT:C6072   | Stage IVC Paranasal Sinus Cancer AJCC v7                                                                                                                                    |
-| NCIT:C6002   | Stage IVC Pharyngeal Cancer                                                                                                                                                 |
+| NCIT:C6002   | Stage IVC Pharyngeal Carcinoma                                                                                                                                              |
 | NCIT:C134304 | Stage IVC Rectal Cancer AJCC v8                                                                                                                                             |
 | NCIT:C87503  | Stage IVC Sinonasal Cancer AJCC v7                                                                                                                                          |
 | NCIT:C133082 | Stage IVC Sinonasal Cancer AJCC v8                                                                                                                                          |
@@ -12549,12 +12887,14 @@
 | NCIT:C35506  | Throat Carcinoma                                                                                                                                                            |
 | NCIT:C95038  | Thymoliposarcoma                                                                                                                                                            |
 | NCIT:C136345 | Thymoma by AJCC v8 Stage                                                                                                                                                    |
+| NCIT:C222533 | Thymoma by AJCC v9 Stage                                                                                                                                                    |
 | NCIT:C112006 | Thymoma by Masaoka-Koga Stage                                                                                                                                               |
 | NCIT:C183315 | Thymus Adenocarcinoma, Not Otherwise Specified                                                                                                                              |
 | NCIT:C183313 | Thymus Carcinoma with Adenoid Cystic Carcinoma-Like Features                                                                                                                |
 | NCIT:C183316 | Thymus Carcinoma, Not Otherwise Specified                                                                                                                                   |
 | NCIT:C183314 | Thymus Enteric-Type Adenocarcinoma                                                                                                                                          |
 | NCIT:C136320 | Thymus Epithelial Neoplasm by AJCC v8 Stage                                                                                                                                 |
+| NCIT:C222524 | Thymus Epithelial Neoplasm by AJCC v9 Stage                                                                                                                                 |
 | NCIT:C146717 | Thymus Hepatoid Adenocarcinoma                                                                                                                                              |
 | NCIT:C95057  | Thymus Hodgkin Lymphoma                                                                                                                                                     |
 | NCIT:C45710  | Thymus Lipofibroadenoma                                                                                                                                                     |
@@ -12622,7 +12962,6 @@
 | NCIT:C155957 | Thyroid Gland Spindle Cell Follicular Adenoma                                                                                                                               |
 | NCIT:C46124  | Thyroid Gland Teratoma                                                                                                                                                      |
 | NCIT:C187284 | Thyroid Gland Tumor of Uncertain Malignant Potential                                                                                                                        |
-| NCIT:C7907   | Thyroid Gland Undifferentiated Small Cell Carcinoma                                                                                                                         |
 | NCIT:C207787 | Thyroid-Like Follicular Renal Cell Carcinoma                                                                                                                                |
 | NCIT:C60314  | Tissue Autolysed Diagnosis Not Possible                                                                                                                                     |
 | NCIT:C27773  | Tobacco Chewing-Related Carcinoma                                                                                                                                           |
@@ -12669,6 +13008,7 @@
 | NCIT:C185134 | Transformed Lymphoplasmacytic Lymphoma to Diffuse Large B-Cell Lymphoma                                                                                                     |
 | NCIT:C156699 | Transformed Marginal Zone Lymphoma to Diffuse Large B-Cell Lymphoma                                                                                                         |
 | NCIT:C165783 | Transformed Mycosis Fungoides                                                                                                                                               |
+| NCIT:C223944 | Transformed Nodular Lymphocyte Predominant B-Cell Lymphoma to Diffuse Large B-Cell Lymphoma                                                                                 |
 | NCIT:C151957 | Transformed Non-Hodgkin Lymphoma                                                                                                                                            |
 | NCIT:C157625 | Transformed Small Lymphocytic Lymphoma to Diffuse Large B-Cell Lymphoma                                                                                                     |
 | NCIT:C201961 | Transformed Small Lymphocytic Lymphoma to Hodgkin Lymphoma                                                                                                                  |
@@ -12711,6 +13051,7 @@
 | NCIT:C21818  | Trichofolliculoma Type of Basaloid Follicular Neoplasm of the Mouse Skin                                                                                                    |
 | NCIT:C205371 | Trichogerminoma                                                                                                                                                             |
 | NCIT:C178375 | Triple-Class Refractory Multiple Myeloma                                                                                                                                    |
+| NCIT:C223369 | Triple-Negative Invasive Breast Lobular Carcinoma                                                                                                                           |
 | NCIT:C35382  | True Histiocytic Lymphoma                                                                                                                                                   |
 | NCIT:C22153  | Tubular Adenocarcinoma of the Mouse Intestinal Tract                                                                                                                        |
 | NCIT:C209283 | Tubular Adenoma                                                                                                                                                             |
@@ -12776,6 +13117,7 @@
 | NCIT:C175939 | Unresectable Abdominal Neuroendocrine Neoplasm                                                                                                                              |
 | NCIT:C165535 | Unresectable Acral Lentiginous Melanoma                                                                                                                                     |
 | NCIT:C213771 | Unresectable Acral Melanoma                                                                                                                                                 |
+| NCIT:C224629 | Unresectable Adenocarcinoma                                                                                                                                                 |
 | NCIT:C164013 | Unresectable Adenoid Cystic Carcinoma                                                                                                                                       |
 | NCIT:C150580 | Unresectable Adrenal Cortical Carcinoma                                                                                                                                     |
 | NCIT:C157128 | Unresectable Adrenal Gland Pheochromocytoma                                                                                                                                 |
@@ -12789,10 +13131,12 @@
 | NCIT:C168718 | Unresectable Angiosarcoma                                                                                                                                                   |
 | NCIT:C215227 | Unresectable Anorectal Melanoma                                                                                                                                             |
 | NCIT:C203619 | Unresectable Appendix Adenocarcinoma                                                                                                                                        |
+| NCIT:C223265 | Unresectable Appendix Carcinoma                                                                                                                                             |
 | NCIT:C203282 | Unresectable Astrocytic Tumor                                                                                                                                               |
 | NCIT:C203269 | Unresectable Astrocytoma, IDH-Mutant                                                                                                                                        |
 | NCIT:C157330 | Unresectable Basal Cell Carcinoma                                                                                                                                           |
 | NCIT:C171322 | Unresectable Bile Duct Carcinoma                                                                                                                                            |
+| NCIT:C222830 | Unresectable Biliary Tract Adenocarcinoma                                                                                                                                   |
 | NCIT:C176042 | Unresectable Biliary Tract Carcinoma                                                                                                                                        |
 | NCIT:C203409 | Unresectable Bladder Adenocarcinoma                                                                                                                                         |
 | NCIT:C167075 | Unresectable Bladder Carcinoma                                                                                                                                              |
@@ -12814,6 +13158,7 @@
 | NCIT:C153325 | Unresectable Chordoma                                                                                                                                                       |
 | NCIT:C201953 | Unresectable Chromophobe Renal Cell Carcinoma                                                                                                                               |
 | NCIT:C165449 | Unresectable Clear Cell Renal Cell Carcinoma                                                                                                                                |
+| NCIT:C223048 | Unresectable Clear Cell Sarcoma of Soft Tissue                                                                                                                              |
 | NCIT:C162116 | Unresectable Colon Adenocarcinoma                                                                                                                                           |
 | NCIT:C180406 | Unresectable Colon Carcinoma                                                                                                                                                |
 | NCIT:C171585 | Unresectable Colorectal Adenocarcinoma                                                                                                                                      |
@@ -12839,6 +13184,7 @@
 | NCIT:C192794 | Unresectable Digestive System Neuroendocrine Tumor G3                                                                                                                       |
 | NCIT:C172241 | Unresectable Distal Cholangiocarcinoma                                                                                                                                      |
 | NCIT:C172248 | Unresectable Distal Esophagus Adenocarcinoma                                                                                                                                |
+| NCIT:C221811 | Unresectable Endometrial Adenocarcinoma                                                                                                                                     |
 | NCIT:C171610 | Unresectable Endometrial Carcinoma                                                                                                                                          |
 | NCIT:C168723 | Unresectable Epithelioid Hemangioendothelioma                                                                                                                               |
 | NCIT:C167379 | Unresectable Epithelioid Sarcoma                                                                                                                                            |
@@ -12857,6 +13203,7 @@
 | NCIT:C170969 | Unresectable Fallopian Tube Carcinoma                                                                                                                                       |
 | NCIT:C186274 | Unresectable Fallopian Tube Endometrioid Adenocarcinoma                                                                                                                     |
 | NCIT:C171017 | Unresectable Fallopian Tube High Grade Serous Adenocarcinoma                                                                                                                |
+| NCIT:C224631 | Unresectable Female Reproductive System Adenocarcinoma                                                                                                                      |
 | NCIT:C213701 | Unresectable Female Reproductive System Carcinoma                                                                                                                           |
 | NCIT:C162602 | Unresectable Fibrolamellar Carcinoma                                                                                                                                        |
 | NCIT:C168717 | Unresectable Fibrosarcoma                                                                                                                                                   |
@@ -12875,6 +13222,7 @@
 | NCIT:C203700 | Unresectable HER2-Low Breast Carcinoma                                                                                                                                      |
 | NCIT:C187161 | Unresectable HER2-Negative Breast Carcinoma                                                                                                                                 |
 | NCIT:C186284 | Unresectable HER2-Positive Breast Carcinoma                                                                                                                                 |
+| NCIT:C222696 | Unresectable HER2-Ultralow Breast Carcinoma                                                                                                                                 |
 | NCIT:C165174 | Unresectable Head and Neck Carcinoma                                                                                                                                        |
 | NCIT:C200088 | Unresectable Head and Neck Cutaneous Squamous Cell Carcinoma                                                                                                                |
 | NCIT:C136427 | Unresectable Head and Neck Squamous Cell Carcinoma                                                                                                                          |
@@ -12905,6 +13253,7 @@
 | NCIT:C162642 | Unresectable Lung Non-Squamous Non-Small Cell Carcinoma                                                                                                                     |
 | NCIT:C160295 | Unresectable Lung Small Cell Carcinoma                                                                                                                                      |
 | NCIT:C157657 | Unresectable Lymphoma                                                                                                                                                       |
+| NCIT:C224635 | Unresectable Male Reproductive System Carcinoma                                                                                                                             |
 | NCIT:C162845 | Unresectable Malignant Digestive System Neoplasm                                                                                                                            |
 | NCIT:C217541 | Unresectable Malignant Extragonadal Germ Cell Tumor                                                                                                                         |
 | NCIT:C217536 | Unresectable Malignant Female Reproductive System Neoplasm                                                                                                                  |
@@ -12946,6 +13295,7 @@
 | NCIT:C162833 | Unresectable Oropharyngeal Squamous Cell Carcinoma                                                                                                                          |
 | NCIT:C190632 | Unresectable Oropharyngeal Undifferentiated Carcinoma                                                                                                                       |
 | NCIT:C132850 | Unresectable Osteosarcoma                                                                                                                                                   |
+| NCIT:C224630 | Unresectable Ovarian Adenocarcinoma                                                                                                                                         |
 | NCIT:C167073 | Unresectable Ovarian Carcinoma                                                                                                                                              |
 | NCIT:C215214 | Unresectable Ovarian Clear Cell Adenocarcinoma                                                                                                                              |
 | NCIT:C186273 | Unresectable Ovarian Endometrioid Adenocarcinoma                                                                                                                            |
@@ -12962,6 +13312,8 @@
 | NCIT:C153079 | Unresectable Pancreatic Neuroendocrine Carcinoma                                                                                                                            |
 | NCIT:C165456 | Unresectable Pancreatic Neuroendocrine Neoplasm                                                                                                                             |
 | NCIT:C190782 | Unresectable Pancreatic Neuroendocrine Tumor                                                                                                                                |
+| NCIT:C222478 | Unresectable Pancreatic Neuroendocrine Tumor G1                                                                                                                             |
+| NCIT:C222479 | Unresectable Pancreatic Neuroendocrine Tumor G2                                                                                                                             |
 | NCIT:C192795 | Unresectable Pancreatic Neuroendocrine Tumor G3                                                                                                                             |
 | NCIT:C190505 | Unresectable Papillary Renal Cell Carcinoma                                                                                                                                 |
 | NCIT:C157126 | Unresectable Paraganglioma                                                                                                                                                  |
@@ -12998,12 +13350,16 @@
 | NCIT:C186276 | Unresectable Primary Peritoneal Endometrioid Adenocarcinoma                                                                                                                 |
 | NCIT:C186275 | Unresectable Primary Peritoneal High Grade Serous Adenocarcinoma                                                                                                            |
 | NCIT:C171020 | Unresectable Primary Peritoneal Serous Adenocarcinoma                                                                                                                       |
+| NCIT:C223267 | Unresectable Prostate Adenocarcinoma                                                                                                                                        |
 | NCIT:C171611 | Unresectable Prostate Carcinoma                                                                                                                                             |
+| NCIT:C222655 | Unresectable Prostate Neuroendocrine Carcinoma                                                                                                                              |
 | NCIT:C191856 | Unresectable Prostate Small Cell Neuroendocrine Carcinoma                                                                                                                   |
 | NCIT:C214843 | Unresectable Pseudomyxoma Peritonei                                                                                                                                         |
 | NCIT:C162117 | Unresectable Rectal Adenocarcinoma                                                                                                                                          |
 | NCIT:C211964 | Unresectable Rectal Carcinoma                                                                                                                                               |
+| NCIT:C222321 | Unresectable Rectal Squamous Cell Carcinoma                                                                                                                                 |
 | NCIT:C154545 | Unresectable Renal Cell Carcinoma                                                                                                                                           |
+| NCIT:C223893 | Unresectable Renal Cell Carcinoma with MiT Translocations                                                                                                                   |
 | NCIT:C190508 | Unresectable Renal Cell Carcinoma, Not Otherwise Specified                                                                                                                  |
 | NCIT:C158588 | Unresectable Renal Pelvis Urothelial Carcinoma                                                                                                                              |
 | NCIT:C164160 | Unresectable Renal Pelvis and Ureter Urothelial Carcinoma                                                                                                                   |
@@ -13026,10 +13382,12 @@
 | NCIT:C168728 | Unresectable Soft Tissue Leiomyosarcoma                                                                                                                                     |
 | NCIT:C153068 | Unresectable Soft Tissue Sarcoma                                                                                                                                            |
 | NCIT:C127156 | Unresectable Solid Neoplasm                                                                                                                                                 |
+| NCIT:C224628 | Unresectable Squamous Cell Carcinoma                                                                                                                                        |
 | NCIT:C211606 | Unresectable Succinate Dehydrogenase-Deficient Renal Cell Carcinoma                                                                                                         |
 | NCIT:C153074 | Unresectable Synovial Sarcoma                                                                                                                                               |
 | NCIT:C148125 | Unresectable Thymus Carcinoma                                                                                                                                               |
 | NCIT:C180872 | Unresectable Thymus Neuroendocrine Neoplasm                                                                                                                                 |
+| NCIT:C224636 | Unresectable Thyroid Gland Adenocarcinoma                                                                                                                                   |
 | NCIT:C170833 | Unresectable Thyroid Gland Anaplastic Carcinoma                                                                                                                             |
 | NCIT:C129784 | Unresectable Thyroid Gland Carcinoma                                                                                                                                        |
 | NCIT:C174571 | Unresectable Thyroid Gland Follicular Carcinoma                                                                                                                             |
@@ -13041,6 +13399,8 @@
 | NCIT:C150610 | Unresectable Undifferentiated Pleomorphic Sarcoma                                                                                                                           |
 | NCIT:C158587 | Unresectable Ureter Urothelial Carcinoma                                                                                                                                    |
 | NCIT:C158585 | Unresectable Urethral Urothelial Carcinoma                                                                                                                                  |
+| NCIT:C224633 | Unresectable Urinary System Adenocarcinoma                                                                                                                                  |
+| NCIT:C224632 | Unresectable Urinary System Carcinoma                                                                                                                                       |
 | NCIT:C150521 | Unresectable Urothelial Carcinoma                                                                                                                                           |
 | NCIT:C188209 | Unresectable Uterine Corpus Leiomyosarcoma                                                                                                                                  |
 | NCIT:C190016 | Unresectable Uterine Corpus Sarcoma                                                                                                                                         |
@@ -13061,6 +13421,7 @@
 | NCIT:C6169   | Urethral Condyloma Acuminatum                                                                                                                                               |
 | NCIT:C159665 | Urethral Melanoma                                                                                                                                                           |
 | NCIT:C6168   | Urethral Undifferentiated Carcinoma                                                                                                                                         |
+| NCIT:C224634 | Urinary System Adenocarcinoma                                                                                                                                               |
 | NCIT:C181197 | Urinary System Carcinoma                                                                                                                                                    |
 | NCIT:C178453 | Urinary System Mucosal Melanoma                                                                                                                                             |
 | NCIT:C7046   | Urinary System Paraganglioma                                                                                                                                                |
@@ -13077,12 +13438,12 @@
 | NCIT:C212103 | Urticaria Pigmentosa/Maculopapular Cutaneous Mastocytosis, Polymorphic Variant                                                                                              |
 | NCIT:C158656 | Usual Prostate Adenocarcinoma with Neuroendocrine Differentiation                                                                                                           |
 | NCIT:C5385   | Uterine Angiosarcoma                                                                                                                                                        |
-| NCIT:C113239 | Uterine Carcinosarcoma, Heterologous Type                                                                                                                                   |
-| NCIT:C113238 | Uterine Carcinosarcoma, Homologous Type                                                                                                                                     |
+| NCIT:C223978 | Uterine Carcinosarcoma                                                                                                                                                      |
 | NCIT:C139894 | Uterine Corpus Adenosarcoma by AJCC v8 Stage                                                                                                                                |
 | NCIT:C90494  | Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v6 Stage                                                                                                                 |
 | NCIT:C91218  | Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v7 Stage                                                                                                                 |
 | NCIT:C139801 | Uterine Corpus Carcinoma or Carcinosarcoma by AJCC v8 Stage                                                                                                                 |
+| NCIT:C223980 | Uterine Corpus Carcinosarcoma                                                                                                                                               |
 | NCIT:C180546 | Uterine Corpus Central Primitive Neuroectodermal Tumor                                                                                                                      |
 | NCIT:C3511   | Uterine Corpus Degenerated Leiomyoma                                                                                                                                        |
 | NCIT:C139882 | Uterine Corpus Endometrial Stromal Sarcoma by AJCC v8 Stage                                                                                                                 |
@@ -13096,6 +13457,8 @@
 | NCIT:C139870 | Uterine Corpus Leiomyosarcoma by AJCC v8 Stage                                                                                                                              |
 | NCIT:C40223  | Uterine Corpus Low Grade Endometrial Stromal Sarcoma                                                                                                                        |
 | NCIT:C127072 | Uterine Corpus Malignant PEComa                                                                                                                                             |
+| NCIT:C223983 | Uterine Corpus Mesonephric Carcinosarcoma                                                                                                                                   |
+| NCIT:C223982 | Uterine Corpus Mesonephric-Like Carcinosarcoma                                                                                                                              |
 | NCIT:C40173  | Uterine Corpus Metastasizing Leiomyoma                                                                                                                                      |
 | NCIT:C180541 | Uterine Corpus Myxoid Smooth Muscle Tumor of Uncertain Malignant Potential                                                                                                  |
 | NCIT:C136708 | Uterine Corpus Sarcoma by AJCC v7 Stage                                                                                                                                     |
@@ -13110,6 +13473,10 @@
 | NCIT:C179923 | Uterine Ligament Leiomyoma                                                                                                                                                  |
 | NCIT:C155952 | Uterine Ligament Papillary Cystadenoma                                                                                                                                      |
 | NCIT:C179927 | Uterine Ligament Wolffian Tumor                                                                                                                                             |
+| NCIT:C113239 | Uterine Malignant Mixed Mesodermal (Mullerian) Tumor, Heterologous Type                                                                                                     |
+| NCIT:C113238 | Uterine Malignant Mixed Mesodermal (Mullerian) Tumor, Homologous Type                                                                                                       |
+| NCIT:C223974 | Uterine Mesonephric Carcinosarcoma                                                                                                                                          |
+| NCIT:C223976 | Uterine Mesonephric-Like Carcinosarcoma                                                                                                                                     |
 | NCIT:C111020 | Uveal Class 1 Melanoma                                                                                                                                                      |
 | NCIT:C111022 | Uveal Class 1a Melanoma                                                                                                                                                     |
 | NCIT:C111023 | Uveal Class 1b Melanoma                                                                                                                                                     |

@@ -11,8 +11,6 @@ MONDO:0000620	breast benign neoplasm	ICD10WHO:D24	MONDO:equivalentTo	Benign neop
 MONDO:0000620	breast benign neoplasm	ICD10WHO:D24	MONDO:equivalentTo	Benign neoplasm of breast	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	benign neoplasm of breast
 MONDO:0000646	ovarian benign neoplasm	ICD10WHO:D27	MONDO:equivalentTo	Benign neoplasm of ovary	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	benign neoplasm of ovary
 MONDO:0000646	ovarian benign neoplasm	ICD10WHO:D27	MONDO:equivalentTo	Benign neoplasm of ovary	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	benign neoplasm of ovary
-MONDO:0000723	stutter disorder	ICD10WHO:F98.5	MONDO:equivalentTo	Stuttering [stammering]	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	stuttering
-MONDO:0000723	stutter disorder	ICD10WHO:F98.5	MONDO:equivalentTo	Stuttering [stammering]	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	stuttering
 MONDO:0000751	cervical polyp	ICD10WHO:N84.1	MONDO:equivalentTo	Polyp of cervix uteri	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	polyp of cervix uteri
 MONDO:0000751	cervical polyp	ICD10WHO:N84.1	MONDO:equivalentTo	Polyp of cervix uteri	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	polyp of cervix uteri
 MONDO:0000754	anal fistula	ICD10WHO:K60.5	MONDO:equivalentTo	Anorectal fistula	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	anorectal fistula
@@ -34,8 +32,6 @@ MONDO:0001031	purulent acute otitis media	ICD10WHO:H66.0	MONDO:equivalentTo	Acut
 MONDO:0001031	purulent acute otitis media	ICD10WHO:H66.0	MONDO:equivalentTo	Acute suppurative otitis media	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	acute suppurative otitis media
 MONDO:0001039	tonsillitis	ICD10WHO:J35.0	MONDO:equivalentTo	Chronic tonsillitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	chronic tonsillitis
 MONDO:0001039	tonsillitis	ICD10WHO:J35.0	MONDO:equivalentTo	Chronic tonsillitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	chronic tonsillitis
-MONDO:0001040	nasopharyngitis	ICD10WHO:J31.1	MONDO:equivalentTo	Chronic nasopharyngitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	chronic nasopharyngitis
-MONDO:0001040	nasopharyngitis	ICD10WHO:J31.1	MONDO:equivalentTo	Chronic nasopharyngitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	chronic nasopharyngitis
 MONDO:0001056	gastric cancer	ICD10WHO:C16	MONDO:equivalentTo	Malignant neoplasm of stomach	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant neoplasm of stomach
 MONDO:0001056	gastric cancer	ICD10WHO:C16	MONDO:equivalentTo	Malignant neoplasm of stomach	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	malignant neoplasm of stomach
 MONDO:0001067	early yaws	ICD10WHO:A66.0	MONDO:equivalentTo	Initial lesions of yaws	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	initial lesions of yaws
@@ -51,8 +47,6 @@ MONDO:0001137	Murray valley encephalitis	ICD10WHO:A83.4	MONDO:equivalentTo	Austr
 MONDO:0001137	Murray valley encephalitis	ICD10WHO:A83.4	MONDO:equivalentTo	Australian encephalitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	australian encephalitis
 MONDO:0001164	antisocial personality disorder	ICD10WHO:F60.2	MONDO:equivalentTo	Dissocial personality disorder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	dissocial personality disorder
 MONDO:0001164	antisocial personality disorder	ICD10WHO:F60.2	MONDO:equivalentTo	Dissocial personality disorder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	dissocial personality disorder
-MONDO:0001168	spastic hemiplegia	ICD10WHO:G80.2	MONDO:equivalentTo	Spastic hemiplegic cerebral palsy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	spastic hemiplegic cerebral palsy
-MONDO:0001168	spastic hemiplegia	ICD10WHO:G80.2	MONDO:equivalentTo	Spastic hemiplegic cerebral palsy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	spastic hemiplegic cerebral palsy
 MONDO:0001171	acute salpingo-oophoritis	ICD10WHO:N70.0	MONDO:equivalentTo	Acute salpingitis and oophoritis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute salpingitis and oophoritis
 MONDO:0001171	acute salpingo-oophoritis	ICD10WHO:N70.0	MONDO:equivalentTo	Acute salpingitis and oophoritis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	acute salpingitis and oophoritis
 MONDO:0001187	urinary bladder cancer	ICD10WHO:C67	MONDO:equivalentTo	Malignant neoplasm of bladder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant neoplasm of bladder
@@ -77,8 +71,6 @@ MONDO:0001244	vitamin K deficiency hemorrhagic disease	ICD10WHO:E56.1	MONDO:equi
 MONDO:0001244	vitamin K deficiency hemorrhagic disease	ICD10WHO:E56.1	MONDO:equivalentTo	Deficiency of vitamin K	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	deficiency of vitamin k
 MONDO:0001246	typhus	ICD10WHO:A75	MONDO:equivalentTo	Typhus fever	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	typhus fever
 MONDO:0001246	typhus	ICD10WHO:A75	MONDO:equivalentTo	Typhus fever	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	typhus fever
-MONDO:0001255	ventilation pneumonitis	ICD10WHO:J67.7	MONDO:equivalentTo	Air-conditioner and humidifier lung	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	air-conditioner and humidifier lung
-MONDO:0001255	ventilation pneumonitis	ICD10WHO:J67.7	MONDO:equivalentTo	Air-conditioner and humidifier lung	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	air-conditioner and humidifier lung
 MONDO:0001258	vertebral artery occlusion	ICD10WHO:I65.0	MONDO:equivalentTo	Occlusion and stenosis of vertebral artery	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	occlusion and stenosis of vertebral artery
 MONDO:0001258	vertebral artery occlusion	ICD10WHO:I65.0	MONDO:equivalentTo	Occlusion and stenosis of vertebral artery	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	occlusion and stenosis of vertebral artery
 MONDO:0001282	fallopian tube endometriosis	ICD10WHO:N80.2	MONDO:equivalentTo	Endometriosis of fallopian tube	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	endometriosis of fallopian tube
@@ -125,8 +117,6 @@ MONDO:0001528	vulva cancer	ICD10WHO:C51	MONDO:equivalentTo	Malignant neoplasm of
 MONDO:0001528	vulva cancer	ICD10WHO:C51	MONDO:equivalentTo	Malignant neoplasm of vulva	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	malignant neoplasm of vulva
 MONDO:0001541	plantar nerve lesion	ICD10WHO:G57.6	MONDO:equivalentTo	Lesion of plantar nerve	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	lesion of plantar nerve
 MONDO:0001541	plantar nerve lesion	ICD10WHO:G57.6	MONDO:equivalentTo	Lesion of plantar nerve	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	lesion of plantar nerve
-MONDO:0001549	hemolytic-uremic syndrome	ICD10WHO:D59.3	MONDO:equivalentTo	Haemolytic-uraemic syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	haemolytic-uraemic syndrome
-MONDO:0001549	hemolytic-uremic syndrome	ICD10WHO:D59.3	MONDO:equivalentTo	Haemolytic-uraemic syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	haemolytic-uraemic syndrome
 MONDO:0001558	Potter sequence	ICD10WHO:Q60.6	MONDO:equivalentTo	Potter syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	potter syndrome
 MONDO:0001558	Potter sequence	ICD10WHO:Q60.6	MONDO:equivalentTo	Potter syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	potter syndrome
 MONDO:0001560	hypertrophic pyloric stenosis	ICD10WHO:Q40.0	MONDO:equivalentTo	Congenital hypertrophic pyloric stenosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	congenital hypertrophic pyloric stenosis
@@ -161,18 +151,10 @@ MONDO:0001821	hypoactive sexual desire disorder	ICD10WHO:F52.0	MONDO:equivalentT
 MONDO:0001821	hypoactive sexual desire disorder	ICD10WHO:F52.0	MONDO:equivalentTo	Lack or loss of sexual desire	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	lack or loss of sexual desire
 MONDO:0001843	uterus interstitial leiomyoma	ICD10WHO:D25.1	MONDO:equivalentTo	Intramural leiomyoma of uterus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	intramural leiomyoma of uterus
 MONDO:0001843	uterus interstitial leiomyoma	ICD10WHO:D25.1	MONDO:equivalentTo	Intramural leiomyoma of uterus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	intramural leiomyoma of uterus
-MONDO:0001847	nuclear senile cataract	ICD10WHO:H25.1	MONDO:equivalentTo	Senile nuclear cataract	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	senile nuclear cataract
-MONDO:0001847	nuclear senile cataract	ICD10WHO:H25.1	MONDO:equivalentTo	Senile nuclear cataract	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	senile nuclear cataract
-MONDO:0001860	folic acid deficiency anemia	ICD10WHO:D52	MONDO:equivalentTo	Folate deficiency anaemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	folate deficiency anaemia
-MONDO:0001860	folic acid deficiency anemia	ICD10WHO:D52	MONDO:equivalentTo	Folate deficiency anaemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	folate deficiency anaemia
-MONDO:0001875	epicondylitis	ICD10WHO:M77.0	MONDO:equivalentTo	Medial epicondylitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	medial epicondylitis
-MONDO:0001875	epicondylitis	ICD10WHO:M77.0	MONDO:equivalentTo	Medial epicondylitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	medial epicondylitis
 MONDO:0001875	epicondylitis	ICD10WHO:M77.1	MONDO:equivalentTo	Lateral epicondylitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	lateral epicondylitis
 MONDO:0001875	epicondylitis	ICD10WHO:M77.1	MONDO:equivalentTo	Lateral epicondylitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	lateral epicondylitis
 MONDO:0001876	renal artery atheroma	ICD10WHO:I70.1	MONDO:equivalentTo	Atherosclerosis of renal artery	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	atherosclerosis of renal artery
 MONDO:0001876	renal artery atheroma	ICD10WHO:I70.1	MONDO:equivalentTo	Atherosclerosis of renal artery	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	atherosclerosis of renal artery
-MONDO:0001878	acquired hypertrophic pyloric stenosis	ICD10WHO:K31.1	MONDO:equivalentTo	Adult hypertrophic pyloric stenosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	adult hypertrophic pyloric stenosis
-MONDO:0001878	acquired hypertrophic pyloric stenosis	ICD10WHO:K31.1	MONDO:equivalentTo	Adult hypertrophic pyloric stenosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	adult hypertrophic pyloric stenosis
 MONDO:0001921	chronic atticoantral disease	ICD10WHO:H66.2	MONDO:equivalentTo	Chronic atticoantral suppurative otitis media	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	chronic atticoantral suppurative otitis media
 MONDO:0001921	chronic atticoantral disease	ICD10WHO:H66.2	MONDO:equivalentTo	Chronic atticoantral suppurative otitis media	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	chronic atticoantral suppurative otitis media
 MONDO:0001935	neurogenic arthropathy	ICD10WHO:M14.6	MONDO:equivalentTo	Neuropathic arthropathy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	neuropathic arthropathy
@@ -197,16 +179,12 @@ MONDO:0002172	otosalpingitis	ICD10WHO:H68.0	MONDO:equivalentTo	Eustachian salpin
 MONDO:0002172	otosalpingitis	ICD10WHO:H68.0	MONDO:equivalentTo	Eustachian salpingitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	eustachian salpingitis
 MONDO:0002178	placenta cancer	ICD10WHO:C58	MONDO:equivalentTo	Malignant neoplasm of placenta	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant neoplasm of placenta
 MONDO:0002178	placenta cancer	ICD10WHO:C58	MONDO:equivalentTo	Malignant neoplasm of placenta	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	malignant neoplasm of placenta
-MONDO:0002181	exostosis	ICD10WHO:M25.7	MONDO:equivalentTo	Osteophyte	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	osteophyte
-MONDO:0002181	exostosis	ICD10WHO:M25.7	MONDO:equivalentTo	Osteophyte	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	osteophyte
 MONDO:0002185	hyperostosis	ICD10WHO:M89.3	MONDO:equivalentTo	Hypertrophy of bone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hypertrophy of bone
 MONDO:0002185	hyperostosis	ICD10WHO:M89.3	MONDO:equivalentTo	Hypertrophy of bone	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	hypertrophy of bone
 MONDO:0002203	constipation disorder	ICD10WHO:K59.0	MONDO:equivalentTo	Constipation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	constipation
 MONDO:0002203	constipation disorder	ICD10WHO:K59.0	MONDO:equivalentTo	Constipation	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	constipation
 MONDO:0002275	generalized atherosclerosis	ICD10WHO:I70.9	MONDO:equivalentTo	Generalized and unspecified atherosclerosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	generalized and unspecified atherosclerosis
 MONDO:0002275	generalized atherosclerosis	ICD10WHO:I70.9	MONDO:equivalentTo	Generalized and unspecified atherosclerosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	generalized and unspecified atherosclerosis
-MONDO:0002312	opportunistic mycosis	ICD10WHO:B48.7	MONDO:equivalentTo	Opportunistic mycoses	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	opportunistic mycoses
-MONDO:0002312	opportunistic mycosis	ICD10WHO:B48.7	MONDO:equivalentTo	Opportunistic mycoses	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	opportunistic mycoses
 MONDO:0002317	central nervous system origin vertigo	ICD10WHO:H81.4	MONDO:equivalentTo	Vertigo of central origin	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	vertigo of central origin
 MONDO:0002317	central nervous system origin vertigo	ICD10WHO:H81.4	MONDO:equivalentTo	Vertigo of central origin	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	vertigo of central origin
 MONDO:0002352	larynx cancer	ICD10WHO:C32	MONDO:equivalentTo	Malignant neoplasm of larynx	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant neoplasm of larynx
@@ -254,14 +232,10 @@ MONDO:0004187	nodular fasciitis	ICD10WHO:M72.4	MONDO:equivalentTo	Pseudosarcomat
 MONDO:0004225	monoclonal gammopathy of uncertain significance	ICD10WHO:D47.2	MONDO:equivalentTo	Monoclonal gammopathy of undetermined significance (MGUS)	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	monoclonal gammopathy of undetermined significance
 MONDO:0004225	monoclonal gammopathy of uncertain significance	ICD10WHO:D47.2	MONDO:equivalentTo	Monoclonal gammopathy of undetermined significance (MGUS)	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	monoclonal gammopathy of undetermined significance (mgus)
 MONDO:0004225	monoclonal gammopathy of uncertain significance	ICD10WHO:D47.2	MONDO:equivalentTo	Monoclonal gammopathy of undetermined significance (MGUS)	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	monoclonal gammopathy of undetermined significance (mgus)
-MONDO:0004272	urinary bladder tuberculosis	ICD10WHO:N33.0	MONDO:equivalentTo	Tuberculous cystitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tuberculous cystitis
-MONDO:0004272	urinary bladder tuberculosis	ICD10WHO:N33.0	MONDO:equivalentTo	Tuberculous cystitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	tuberculous cystitis
 MONDO:0004375	end stage renal failure	ICD10WHO:N18.5	MONDO:equivalentTo	Chronic kidney disease, stage 5	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	chronic kidney disorder, stage type 5
 MONDO:0004375	end stage renal failure	ICD10WHO:N18.5	MONDO:equivalentTo	Chronic kidney disease, stage 5	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	chronic kidney disorder, stage type 5
 MONDO:0004390	ocular hypotension	ICD10WHO:H44.4	MONDO:equivalentTo	Hypotony of eye	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hypotony of eye
 MONDO:0004390	ocular hypotension	ICD10WHO:H44.4	MONDO:equivalentTo	Hypotony of eye	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	hypotony of eye
-MONDO:0004450	carotid artery occlusion	ICD10WHO:I65.2	MONDO:equivalentTo	Occlusion and stenosis of carotid artery	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	occlusion and stenosis of carotid artery
-MONDO:0004450	carotid artery occlusion	ICD10WHO:I65.2	MONDO:equivalentTo	Occlusion and stenosis of carotid artery	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	occlusion and stenosis of carotid artery
 MONDO:0004471	bacterial arthritis	ICD10WHO:M00	MONDO:equivalentTo	Pyogenic arthritis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pyogenic arthritis
 MONDO:0004471	bacterial arthritis	ICD10WHO:M00	MONDO:equivalentTo	Pyogenic arthritis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pyogenic arthritis
 MONDO:0004497	tertiary syphilis	ICD10WHO:A52	MONDO:equivalentTo	Late syphilis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	late syphilis
@@ -313,8 +287,6 @@ MONDO:0004881	myositis fibrosa	ICD10WHO:M60.1	MONDO:equivalentTo	Interstitial my
 MONDO:0004881	myositis fibrosa	ICD10WHO:M60.1	MONDO:equivalentTo	Interstitial myositis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	interstitial myositis
 MONDO:0004891	hyperopia	ICD10WHO:H52.0	MONDO:equivalentTo	Hypermetropia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hypermetropia
 MONDO:0004891	hyperopia	ICD10WHO:H52.0	MONDO:equivalentTo	Hypermetropia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	hypermetropia
-MONDO:0004914	celiac artery stenosis from compression by median arcuate ligament of diaphragm	ICD10WHO:I77.4	MONDO:equivalentTo	Coeliac artery compression syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	coeliac artery compression syndrome
-MONDO:0004914	celiac artery stenosis from compression by median arcuate ligament of diaphragm	ICD10WHO:I77.4	MONDO:equivalentTo	Coeliac artery compression syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	coeliac artery compression syndrome
 MONDO:0004952	Hodgkins lymphoma	ICD10WHO:C81	MONDO:equivalentTo	Hodgkin lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hodgkin lymphoma
 MONDO:0004952	Hodgkins lymphoma	ICD10WHO:C81	MONDO:equivalentTo	Hodgkin lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	hodgkin lymphoma
 MONDO:0004975	Alzheimer disease	ICD10WHO:G30.8	MONDO:equivalentTo	Other Alzheimer disease	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	alzheimer disorder
@@ -336,8 +308,6 @@ MONDO:0005081	preeclampsia	ICD10WHO:O14	MONDO:equivalentTo	Pre-eclampsia	semapv:
 MONDO:0005091	severe acute respiratory syndrome	ICD10WHO:U04	MONDO:equivalentTo	Severe acute respiratory syndrome [SARS]	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	severe acute respiratory syndrome
 MONDO:0005100	systemic sclerosis	ICD10WHO:G37.0	MONDO:equivalentTo	Diffuse sclerosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	diffuse sclerosis
 MONDO:0005100	systemic sclerosis	ICD10WHO:G37.0	MONDO:equivalentTo	Diffuse sclerosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	diffuse sclerosis
-MONDO:0005100	systemic sclerosis	ICD10WHO:M34.0	MONDO:equivalentTo	Progressive systemic sclerosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	progressive systemic sclerosis
-MONDO:0005100	systemic sclerosis	ICD10WHO:M34.0	MONDO:equivalentTo	Progressive systemic sclerosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	progressive systemic sclerosis
 MONDO:0005119	anthrax infection	ICD10WHO:A22	MONDO:equivalentTo	Anthrax	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	anthrax
 MONDO:0005119	anthrax infection	ICD10WHO:A22	MONDO:equivalentTo	Anthrax	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	anthrax
 MONDO:0005124	leprosy	ICD10WHO:A30	MONDO:equivalentTo	Leprosy [Hansen disease]	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	leprosy
@@ -355,8 +325,6 @@ MONDO:0005219	breast fibrocystic disease	ICD10WHO:N60.1	MONDO:equivalentTo	Diffu
 MONDO:0005219	breast fibrocystic disease	ICD10WHO:N60.1	MONDO:equivalentTo	Diffuse cystic mastopathy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	diffuse cystic mastopathy
 MONDO:0005258	autism spectrum disorder	ICD10WHO:F84	MONDO:equivalentTo	Pervasive developmental disorders	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pervasive developmental disorders
 MONDO:0005258	autism spectrum disorder	ICD10WHO:F84	MONDO:equivalentTo	Pervasive developmental disorders	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pervasive developmental disorders
-MONDO:0005260	autism	ICD10WHO:F84.0	MONDO:equivalentTo	Childhood autism	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	childhood autism
-MONDO:0005260	autism	ICD10WHO:F84.0	MONDO:equivalentTo	Childhood autism	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	childhood autism
 MONDO:0005277	migraine disorder	ICD10WHO:G43	MONDO:equivalentTo	Migraine	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	migraine
 MONDO:0005277	migraine disorder	ICD10WHO:G43	MONDO:equivalentTo	Migraine	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	migraine
 MONDO:0005293	flatfoot	ICD10WHO:M21.4	MONDO:equivalentTo	Flat foot [pes planus] (acquired)	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	flat foot
@@ -365,8 +333,6 @@ MONDO:0005382	bone Paget disease	ICD10WHO:M88	MONDO:equivalentTo	Paget disease o
 MONDO:0005383	panic disorder	ICD10WHO:F41.0	MONDO:equivalentTo	Panic disorder [episodic paroxysmal anxiety]	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	panic disorder
 MONDO:0005388	primary biliary cholangitis	ICD10WHO:K74.3	MONDO:equivalentTo	Primary biliary cirrhosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	primary biliary cirrhosis
 MONDO:0005388	primary biliary cholangitis	ICD10WHO:K74.3	MONDO:equivalentTo	Primary biliary cirrhosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	primary biliary cirrhosis
-MONDO:0005404	myalgic encephalomeyelitis/chronic fatigue syndrome	ICD10WHO:G93.3	MONDO:equivalentTo	Postviral fatigue syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	postviral fatigue syndrome
-MONDO:0005404	myalgic encephalomeyelitis/chronic fatigue syndrome	ICD10WHO:G93.3	MONDO:equivalentTo	Postviral fatigue syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	postviral fatigue syndrome
 MONDO:0005411	gallbladder cancer	ICD10WHO:C23	MONDO:equivalentTo	Malignant neoplasm of gallbladder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant neoplasm of gallbladder
 MONDO:0005411	gallbladder cancer	ICD10WHO:C23	MONDO:equivalentTo	Malignant neoplasm of gallbladder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	malignant neoplasm of gallbladder
 MONDO:0005447	testicular cancer	ICD10WHO:C62	MONDO:equivalentTo	Malignant neoplasm of testis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant neoplasm of testis
@@ -382,14 +348,10 @@ MONDO:0005507	gingival cancer	ICD10WHO:C03	MONDO:equivalentTo	Malignant neoplasm
 MONDO:0005507	gingival cancer	ICD10WHO:C03	MONDO:equivalentTo	Malignant neoplasm of gum	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	malignant neoplasm of gum
 MONDO:0005609	herpes zoster	ICD10WHO:B02	MONDO:equivalentTo	Zoster [herpes zoster]	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	zoster
 MONDO:0005609	herpes zoster	ICD10WHO:B02	MONDO:equivalentTo	Zoster [herpes zoster]	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	zoster
-MONDO:0005644	amebiasis	ICD10WHO:A06	MONDO:equivalentTo	Amoebiasis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	amoebiasis
-MONDO:0005644	amebiasis	ICD10WHO:A06	MONDO:equivalentTo	Amoebiasis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	amoebiasis
 MONDO:0005648	aortic valve insufficiency	ICD10WHO:I06.1	MONDO:equivalentTo	Rheumatic aortic insufficiency	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	rheumatic aortic insufficiency
 MONDO:0005648	aortic valve insufficiency	ICD10WHO:I06.1	MONDO:equivalentTo	Rheumatic aortic insufficiency	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	rheumatic aortic insufficiency
 MONDO:0005663	Barre-Lieou syndrome	ICD10WHO:M53.0	MONDO:equivalentTo	Cervicocranial syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cervicocranial syndrome
 MONDO:0005663	Barre-Lieou syndrome	ICD10WHO:M53.0	MONDO:equivalentTo	Cervicocranial syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	cervicocranial syndrome
-MONDO:0005665	Bell's palsy	ICD10WHO:G51.0	MONDO:equivalentTo	Bell palsy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bell palsy
-MONDO:0005665	Bell's palsy	ICD10WHO:G51.0	MONDO:equivalentTo	Bell palsy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	bell palsy
 MONDO:0005668	bird fancier's lung	ICD10WHO:J67.2	MONDO:equivalentTo	Bird fancier lung	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	bird fancier lung
 MONDO:0005668	bird fancier's lung	ICD10WHO:J67.2	MONDO:equivalentTo	Bird fancier lung	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	bird fancier lung
 MONDO:0005680	Brill-Zinsser disease	ICD10WHO:A75.1	MONDO:equivalentTo	Recrudescent typhus [Brill disease]	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	recrudescent typhus
@@ -406,8 +368,6 @@ MONDO:0005751	epidemic pleurodynia	ICD10WHO:B33.0	MONDO:equivalentTo	Epidemic my
 MONDO:0005751	epidemic pleurodynia	ICD10WHO:B33.0	MONDO:equivalentTo	Epidemic myalgia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	epidemic myalgia
 MONDO:0005757	eumycotic mycetoma	ICD10WHO:B47.0	MONDO:equivalentTo	Eumycetoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	eumycetoma
 MONDO:0005757	eumycotic mycetoma	ICD10WHO:B47.0	MONDO:equivalentTo	Eumycetoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	eumycetoma
-MONDO:0005768	gastrointestinal tuberculosis	ICD10WHO:A18.3	MONDO:equivalentTo	Tuberculosis of intestines, peritoneum and mesenteric glands	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tuberculosis of intestines, peritoneum and mesenteric glands
-MONDO:0005768	gastrointestinal tuberculosis	ICD10WHO:A18.3	MONDO:equivalentTo	Tuberculosis of intestines, peritoneum and mesenteric glands	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	tuberculosis of intestines, peritoneum and mesenteric glands
 MONDO:0005776	gnathomiasis	ICD10WHO:B83.1	MONDO:equivalentTo	Gnathostomiasis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	gnathostomiasis
 MONDO:0005776	gnathomiasis	ICD10WHO:B83.1	MONDO:equivalentTo	Gnathostomiasis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	gnathostomiasis
 MONDO:0005804	hyperprolactinemia	ICD10WHO:E22.1	MONDO:equivalentTo	Hyperprolactinaemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hyperprolactinaemia
@@ -418,10 +378,6 @@ MONDO:0005808	inclusion conjunctivitis	ICD10WHO:A74.0	MONDO:equivalentTo	Chlamyd
 MONDO:0005808	inclusion conjunctivitis	ICD10WHO:A74.0	MONDO:equivalentTo	Chlamydial conjunctivitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	chlamydial conjunctivitis
 MONDO:0005810	infectious mononucleosis	ICD10WHO:B27.0	MONDO:equivalentTo	Gammaherpesviral mononucleosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	gammaherpesviral mononucleosis
 MONDO:0005810	infectious mononucleosis	ICD10WHO:B27.0	MONDO:equivalentTo	Gammaherpesviral mononucleosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	gammaherpesviral mononucleosis
-MONDO:0005824	Legionnaires' disease	ICD10WHO:A48.1	MONDO:equivalentTo	Legionnaires disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	legionnaires disorder
-MONDO:0005824	Legionnaires' disease	ICD10WHO:A48.1	MONDO:equivalentTo	Legionnaires disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	legionnaires disorder
-MONDO:0005825	leptospirosis	ICD10WHO:A27.0	MONDO:equivalentTo	Leptospirosis icterohaemorrhagica	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	leptospirosis icterohaemorrhagica
-MONDO:0005825	leptospirosis	ICD10WHO:A27.0	MONDO:equivalentTo	Leptospirosis icterohaemorrhagica	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	leptospirosis icterohaemorrhagica
 MONDO:0005852	mitral valve stenosis	ICD10WHO:I05.0	MONDO:equivalentTo	Mitral stenosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mitral stenosis
 MONDO:0005852	mitral valve stenosis	ICD10WHO:I05.0	MONDO:equivalentTo	Mitral stenosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	mitral stenosis
 MONDO:0005867	Mycoplasma pneumoniae pneumonia	ICD10WHO:J15.7	MONDO:equivalentTo	Pneumonia due to Mycoplasma pneumoniae	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pneumonia due to mycoplasma pneumoniae
@@ -432,8 +388,6 @@ MONDO:0005920	Plasmodium falciparum malaria	ICD10WHO:B50.9	MONDO:equivalentTo	Pl
 MONDO:0005920	Plasmodium falciparum malaria	ICD10WHO:B50.9	MONDO:equivalentTo	Plasmodium falciparum malaria, unspecified	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	plasmodium falciparum malaria, unspecified
 MONDO:0005941	retroperitoneal cancer	ICD10WHO:C48	MONDO:equivalentTo	Malignant neoplasm of retroperitoneum and peritoneum	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant neoplasm of retroperitoneum and peritoneum
 MONDO:0005941	retroperitoneal cancer	ICD10WHO:C48	MONDO:equivalentTo	Malignant neoplasm of retroperitoneum and peritoneum	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	malignant neoplasm of retroperitoneum and peritoneum
-MONDO:0005974	strongyloidiasis	ICD10WHO:B78.7	MONDO:equivalentTo	Disseminated strongyloidiasis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	disseminated strongyloidiasis
-MONDO:0005974	strongyloidiasis	ICD10WHO:B78.7	MONDO:equivalentTo	Disseminated strongyloidiasis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	disseminated strongyloidiasis
 MONDO:0005988	toxocariasis	ICD10WHO:B83.0	MONDO:equivalentTo	Visceral larva migrans	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	visceral larva migrans
 MONDO:0005988	toxocariasis	ICD10WHO:B83.0	MONDO:equivalentTo	Visceral larva migrans	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	visceral larva migrans
 MONDO:0005990	tracheitis	ICD10WHO:J04.1	MONDO:equivalentTo	Acute tracheitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute tracheitis
@@ -476,10 +430,6 @@ MONDO:0006564	irritant dermatitis	ICD10WHO:L24	MONDO:equivalentTo	Irritant conta
 MONDO:0006564	irritant dermatitis	ICD10WHO:L24	MONDO:equivalentTo	Irritant contact dermatitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	irritant contact dermatitis
 MONDO:0006585	neurodermatitis	ICD10WHO:L28.0	MONDO:equivalentTo	Lichen simplex chronicus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	lichen simplex chronicus
 MONDO:0006585	neurodermatitis	ICD10WHO:L28.0	MONDO:equivalentTo	Lichen simplex chronicus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	lichen simplex chronicus
-MONDO:0006608	seborrheic dermatitis	ICD10WHO:L21	MONDO:equivalentTo	Seborrhoeic dermatitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	seborrhoeic dermatitis
-MONDO:0006608	seborrheic dermatitis	ICD10WHO:L21	MONDO:equivalentTo	Seborrhoeic dermatitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	seborrhoeic dermatitis
-MONDO:0006609	seborrheic infantile dermatitis	ICD10WHO:L21.0	MONDO:equivalentTo	Seborrhoea capitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	seborrhoea capitis
-MONDO:0006609	seborrheic infantile dermatitis	ICD10WHO:L21.0	MONDO:equivalentTo	Seborrhoea capitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	seborrhoea capitis
 MONDO:0006614	subcorneal pustular dermatosis	ICD10WHO:L13.1	MONDO:equivalentTo	Subcorneal pustular dermatitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	subcorneal pustular dermatitis
 MONDO:0006614	subcorneal pustular dermatosis	ICD10WHO:L13.1	MONDO:equivalentTo	Subcorneal pustular dermatitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	subcorneal pustular dermatitis
 MONDO:0006637	acute kidney tubular necrosis	ICD10WHO:N17.0	MONDO:equivalentTo	Acute renal failure with tubular necrosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute renal failure with tubular necrosis
@@ -558,12 +508,6 @@ MONDO:0007650	MALT lymphoma	ICD10WHO:C88.4	MONDO:equivalentTo	Extranodal margina
 MONDO:0007650	MALT lymphoma	ICD10WHO:C88.4	MONDO:equivalentTo	Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue [MALT-lyphoma]	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	extranodal marginal zone b-cell lymphoma of mucosa-associated lymphoid tissue
 MONDO:0007655	fissured tongue	ICD10WHO:K14.5	MONDO:equivalentTo	Plicated tongue	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	plicated tongue
 MONDO:0007655	fissured tongue	ICD10WHO:K14.5	MONDO:equivalentTo	Plicated tongue	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	plicated tongue
-MONDO:0007885	Legg-Calve-Perthes disease	ICD10WHO:M91	MONDO:equivalentTo	Juvenile osteochondrosis of hip and pelvis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	juvenile osteochondrosis of hip and pelvis
-MONDO:0007885	Legg-Calve-Perthes disease	ICD10WHO:M91	MONDO:equivalentTo	Juvenile osteochondrosis of hip and pelvis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	juvenile osteochondrosis of hip and pelvis
-MONDO:0007885	Legg-Calve-Perthes disease	ICD10WHO:M91.2	MONDO:equivalentTo	Coxa plana	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	coxa plana
-MONDO:0007885	Legg-Calve-Perthes disease	ICD10WHO:M91.2	MONDO:equivalentTo	Coxa plana	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	coxa plana
-MONDO:0007885	Legg-Calve-Perthes disease	ICD10WHO:M91.3	MONDO:equivalentTo	Pseudocoxalgia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pseudocoxalgia
-MONDO:0007885	Legg-Calve-Perthes disease	ICD10WHO:M91.3	MONDO:equivalentTo	Pseudocoxalgia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pseudocoxalgia
 MONDO:0008007	tooth ankylosis	ICD10WHO:K03.5	MONDO:equivalentTo	Ankylosis of teeth	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	ankylosis of teeth
 MONDO:0008007	tooth ankylosis	ICD10WHO:K03.5	MONDO:equivalentTo	Ankylosis of teeth	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	ankylosis of teeth
 MONDO:0008109	ocular cicatricial pemphigoid	ICD10WHO:H13.3	MONDO:equivalentTo	Ocular pemphigoid	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	ocular pemphigoid
@@ -572,8 +516,6 @@ MONDO:0008170	ovarian cancer	ICD10WHO:C56	MONDO:equivalentTo	Malignant neoplasm 
 MONDO:0008170	ovarian cancer	ICD10WHO:C56	MONDO:equivalentTo	Malignant neoplasm of ovary	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	malignant neoplasm of ovary
 MONDO:0008171	nephrolithiasis	ICD10WHO:N20	MONDO:equivalentTo	Calculus of kidney and ureter	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	calculus of kidney and ureter
 MONDO:0008171	nephrolithiasis	ICD10WHO:N20	MONDO:equivalentTo	Calculus of kidney and ureter	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	calculus of kidney and ureter
-MONDO:0008231	Peyronie disease	ICD10WHO:N48.6	MONDO:equivalentTo	Induratio penis plastica	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	induratio penis plastica
-MONDO:0008231	Peyronie disease	ICD10WHO:N48.6	MONDO:equivalentTo	Induratio penis plastica	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	induratio penis plastica
 MONDO:0008315	prostate cancer	ICD10WHO:C61	MONDO:equivalentTo	Malignant neoplasm of prostate	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	malignant neoplasm of prostate
 MONDO:0008315	prostate cancer	ICD10WHO:C61	MONDO:equivalentTo	Malignant neoplasm of prostate	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	malignant neoplasm of prostate
 MONDO:0008364	Raynaud disease	ICD10WHO:I73.0	MONDO:equivalentTo	Raynaud syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	raynaud syndrome
@@ -599,8 +541,6 @@ MONDO:0008867	biliary atresia	ICD10WHO:Q44.2	MONDO:equivalentTo	Atresia of bile 
 MONDO:0008889	thromboangiitis obliterans	ICD10WHO:I73.1	MONDO:equivalentTo	Thromboangiitis obliterans [Buerger]	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	thromboangiitis obliterans
 MONDO:0009047	cryptorchidism	ICD10WHO:Q53	MONDO:equivalentTo	Undescended testicle	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	undescended testicle
 MONDO:0009047	cryptorchidism	ICD10WHO:Q53	MONDO:equivalentTo	Undescended testicle	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	undescended testicle
-MONDO:0009072	Dandy-Walker syndrome	ICD10WHO:Q03.1	MONDO:equivalentTo	Atresia of foramina of Magendie and Luschka	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	atresia of foramina of magendie and luschka
-MONDO:0009072	Dandy-Walker syndrome	ICD10WHO:Q03.1	MONDO:equivalentTo	Atresia of foramina of Magendie and Luschka	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	atresia of foramina of magendie and luschka
 MONDO:0009131	Riley-Day syndrome	ICD10WHO:G90.1	MONDO:equivalentTo	Familial dysautonomia [Riley-Day]	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	familial dysautonomia
 MONDO:0009131	Riley-Day syndrome	ICD10WHO:G90.1	MONDO:equivalentTo	Familial dysautonomia [Riley-Day]	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	familial dysautonomia
 MONDO:0009162	Ellis-van Creveld syndrome	ICD10WHO:Q77.6	MONDO:equivalentTo	Chondroectodermal dysplasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	chondroectodermal dysplasia
@@ -652,8 +592,6 @@ MONDO:0011438	acne	ICD10WHO:L70.0	MONDO:equivalentTo	Acne vulgaris	semapv:Lexica
 MONDO:0011438	acne	ICD10WHO:L70.0	MONDO:equivalentTo	Acne vulgaris	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	acne vulgaris
 MONDO:0011438	acne	ICD10WHO:L70.2	MONDO:equivalentTo	Acne varioliformis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acne varioliformis
 MONDO:0011438	acne	ICD10WHO:L70.2	MONDO:equivalentTo	Acne varioliformis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	acne varioliformis
-MONDO:0011644	pars planitis	ICD10WHO:H30.2	MONDO:equivalentTo	Posterior cyclitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	posterior cyclitis
-MONDO:0011644	pars planitis	ICD10WHO:H30.2	MONDO:equivalentTo	Posterior cyclitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	posterior cyclitis
 MONDO:0011728	benign essential blepharospasm	ICD10WHO:G24.5	MONDO:equivalentTo	Blepharospasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	blepharospasm
 MONDO:0011728	benign essential blepharospasm	ICD10WHO:G24.5	MONDO:equivalentTo	Blepharospasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	blepharospasm
 MONDO:0011849	psoriatic arthritis	ICD10WHO:L40.5	MONDO:equivalentTo	Arthropathic psoriasis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	arthropathic psoriasis
@@ -670,8 +608,6 @@ MONDO:0013300	commissural facial cleft	ICD10WHO:Q18.4	MONDO:equivalentTo	Macrost
 MONDO:0013300	commissural facial cleft	ICD10WHO:Q18.4	MONDO:equivalentTo	Macrostomia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	macrostomia
 MONDO:0015045	alpha-heavy chain disease	ICD10WHO:C88.3	MONDO:equivalentTo	Immunoproliferative small intestinal disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	immunoproliferative small intestinal disorder
 MONDO:0015045	alpha-heavy chain disease	ICD10WHO:C88.3	MONDO:equivalentTo	Immunoproliferative small intestinal disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	immunoproliferative small intestinal disorder
-MONDO:0015129	chronic primary adrenal insufficiency	ICD10WHO:E27.1	MONDO:equivalentTo	Primary adrenocortical insufficiency	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	primary adrenocortical insufficiency
-MONDO:0015129	chronic primary adrenal insufficiency	ICD10WHO:E27.1	MONDO:equivalentTo	Primary adrenocortical insufficiency	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	primary adrenocortical insufficiency
 MONDO:0015254	schistosomiasis	ICD10WHO:B65	MONDO:equivalentTo	Schistosomiasis [bilharziasis]	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	schistosomiasis
 MONDO:0015274	chronic beryllium disease	ICD10WHO:J63.2	MONDO:equivalentTo	Berylliosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	berylliosis
 MONDO:0015274	chronic beryllium disease	ICD10WHO:J63.2	MONDO:equivalentTo	Berylliosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	berylliosis
@@ -706,10 +642,8 @@ MONDO:0017278	autoimmune polyendocrinopathy	ICD10WHO:E31.0	MONDO:equivalentTo	Au
 MONDO:0017278	autoimmune polyendocrinopathy	ICD10WHO:E31.0	MONDO:equivalentTo	Autoimmune polyglandular failure	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	autoimmune polyglandular failure
 MONDO:0017373	poliomyelitis	ICD10WHO:A80	MONDO:equivalentTo	Acute poliomyelitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute poliomyelitis
 MONDO:0017373	poliomyelitis	ICD10WHO:A80	MONDO:equivalentTo	Acute poliomyelitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	acute poliomyelitis
-MONDO:0017376	reactive arthritis	ICD10WHO:M02.1	MONDO:equivalentTo	Postdysenteric arthropathy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	postdysenteric arthropathy
-MONDO:0017376	reactive arthritis	ICD10WHO:M02.1	MONDO:equivalentTo	Postdysenteric arthropathy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	postdysenteric arthropathy
-MONDO:0017376	reactive arthritis	ICD10WHO:M02.3	MONDO:equivalentTo	Reiter disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	reiter disorder
-MONDO:0017376	reactive arthritis	ICD10WHO:M02.3	MONDO:equivalentTo	Reiter disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	reiter disorder
+MONDO:0017388	celiac trunk compression syndrome	ICD10WHO:I77.4	MONDO:equivalentTo	Coeliac artery compression syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	coeliac artery compression syndrome
+MONDO:0017388	celiac trunk compression syndrome	ICD10WHO:I77.4	MONDO:equivalentTo	Coeliac artery compression syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	coeliac artery compression syndrome
 MONDO:0017416	postpoliomyelitis syndrome	ICD10WHO:G14	MONDO:equivalentTo	Postpolio syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	postpolio syndrome
 MONDO:0017416	postpoliomyelitis syndrome	ICD10WHO:G14	MONDO:equivalentTo	Postpolio syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	postpolio syndrome
 MONDO:0017572	tick-borne encephalitis	ICD10WHO:A84	MONDO:equivalentTo	Tick-borne viral encephalitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tick-borne viral encephalitis
@@ -720,10 +654,6 @@ MONDO:0017603	ALK-negative anaplastic large cell lymphoma	ICD10WHO:C84.7	MONDO:e
 MONDO:0017603	ALK-negative anaplastic large cell lymphoma	ICD10WHO:C84.7	MONDO:equivalentTo	Anaplastic large cell lymphoma, ALK-negative	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	anaplastic large cell lymphoma, alk-negative
 MONDO:0017767	rheumatic fever	ICD10WHO:I00-I02	MONDO:equivalentTo	Acute rheumatic fever	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute rheumatic fever
 MONDO:0017767	rheumatic fever	ICD10WHO:I00-I02	MONDO:equivalentTo	Acute rheumatic fever	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	acute rheumatic fever
-MONDO:0017775	melioidosis	ICD10WHO:A24.1	MONDO:equivalentTo	Acute and fulminating melioidosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute and fulminating melioidosis
-MONDO:0017775	melioidosis	ICD10WHO:A24.1	MONDO:equivalentTo	Acute and fulminating melioidosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	acute and fulminating melioidosis
-MONDO:0017775	melioidosis	ICD10WHO:A24.2	MONDO:equivalentTo	Subacute and chronic melioidosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	subacute and chronic melioidosis
-MONDO:0017775	melioidosis	ICD10WHO:A24.2	MONDO:equivalentTo	Subacute and chronic melioidosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	subacute and chronic melioidosis
 MONDO:0017991	Takayasu arteritis	ICD10WHO:M31.4	MONDO:equivalentTo	Aortic arch syndrome [Takayasu]	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	aortic arch syndrome
 MONDO:0017991	Takayasu arteritis	ICD10WHO:M31.4	MONDO:equivalentTo	Aortic arch syndrome [Takayasu]	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	aortic arch syndrome
 MONDO:0018025	chronic actinic dermatitis	ICD10WHO:L57.1	MONDO:equivalentTo	Actinic reticuloid	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	actinic reticuloid
@@ -734,8 +664,6 @@ MONDO:0018301	interstitial cystitis	ICD10WHO:N30.1	MONDO:equivalentTo	Interstiti
 MONDO:0018362	persistent idiopathic facial pain	ICD10WHO:G50.1	MONDO:equivalentTo	Atypical facial pain	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	atypical facial pain
 MONDO:0018362	persistent idiopathic facial pain	ICD10WHO:G50.1	MONDO:equivalentTo	Atypical facial pain	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	atypical facial pain
 MONDO:0018382	epiphysiolysis of the hip	ICD10WHO:M93.0	MONDO:equivalentTo	Slipped upper femoral epiphysis (nontraumatic)	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	slipped upper femoral epiphysis
-MONDO:0018408	cystic echinococcosis	ICD10WHO:B67.1	MONDO:equivalentTo	Echinococcus granulosus infection of lung	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	echinococcus granulosus infection of lung
-MONDO:0018408	cystic echinococcosis	ICD10WHO:B67.1	MONDO:equivalentTo	Echinococcus granulosus infection of lung	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	echinococcus granulosus infection of lung
 MONDO:0018456	polyarticular juvenile idiopathic arthritis	ICD10WHO:M08.3	MONDO:equivalentTo	Juvenile polyarthritis (seronegative)	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	juvenile polyarthritis
 MONDO:0018477	bilirubin encephalopathy	ICD10WHO:P57	MONDO:equivalentTo	Kernicterus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	kernicterus
 MONDO:0018477	bilirubin encephalopathy	ICD10WHO:P57	MONDO:equivalentTo	Kernicterus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	kernicterus
@@ -753,8 +681,6 @@ MONDO:0018848	IgG4-related retroperitoneal fibrosis	ICD10WHO:K66.2	MONDO:equival
 MONDO:0018848	IgG4-related retroperitoneal fibrosis	ICD10WHO:K66.2	MONDO:equivalentTo	Retroperitoneal fibrosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	retroperitoneal fibrosis
 MONDO:0018871	acute myelomonocytic leukemia M4	ICD10WHO:C92.5	MONDO:equivalentTo	Acute myelomonocytic leukaemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute myelomonocytic leukaemia
 MONDO:0018871	acute myelomonocytic leukemia M4	ICD10WHO:C92.5	MONDO:equivalentTo	Acute myelomonocytic leukaemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	acute myelomonocytic leukaemia
-MONDO:0018874	acute myeloid leukemia	ICD10WHO:C92.0	MONDO:equivalentTo	Acute myeloblastic leukaemia [AML]	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute myeloblastic leukaemia
-MONDO:0018874	acute myeloid leukemia	ICD10WHO:C92.0	MONDO:equivalentTo	Acute myeloblastic leukaemia [AML]	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	acute myeloblastic leukaemia
 MONDO:0018881	myelodysplastic syndrome	ICD10WHO:D46	MONDO:equivalentTo	Myelodysplastic syndromes	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	myelodysplastic syndromes
 MONDO:0018881	myelodysplastic syndrome	ICD10WHO:D46	MONDO:equivalentTo	Myelodysplastic syndromes	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	myelodysplastic syndromes
 MONDO:0018895	Plummer-Vinson syndrome	ICD10WHO:D50.1	MONDO:equivalentTo	Sideropenic dysphagia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	sideropenic dysphagia
@@ -783,12 +709,8 @@ MONDO:0019196	Foix-Alajouanine syndrome	ICD10WHO:G37.4	MONDO:equivalentTo	Subacu
 MONDO:0019287	ectodermal dysplasia syndrome	ICD10WHO:Q82.4	MONDO:equivalentTo	Ectodermal dysplasia (anhidrotic)	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	ectodermal dysplasia
 MONDO:0019369	complex regional pain syndrome	ICD10WHO:M89.0	MONDO:equivalentTo	Algoneurodystrophy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	algoneurodystrophy
 MONDO:0019369	complex regional pain syndrome	ICD10WHO:M89.0	MONDO:equivalentTo	Algoneurodystrophy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	algoneurodystrophy
-MONDO:0019378	la Crosse encephalitis	ICD10WHO:A83.5	MONDO:equivalentTo	California encephalitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	california encephalitis
-MONDO:0019378	la Crosse encephalitis	ICD10WHO:A83.5	MONDO:equivalentTo	California encephalitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	california encephalitis
 MONDO:0019383	acute disseminated encephalomyelitis	ICD10WHO:G04.0	MONDO:equivalentTo	Acute disseminated encephalitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute disseminated encephalitis
 MONDO:0019383	acute disseminated encephalomyelitis	ICD10WHO:G04.0	MONDO:equivalentTo	Acute disseminated encephalitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	acute disseminated encephalitis
-MONDO:0019409	idiopathic juvenile osteoporosis	ICD10WHO:M81.5	MONDO:equivalentTo	Idiopathic osteoporosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	idiopathic osteoporosis
-MONDO:0019409	idiopathic juvenile osteoporosis	ICD10WHO:M81.5	MONDO:equivalentTo	Idiopathic osteoporosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	idiopathic osteoporosis
 MONDO:0019464	heavy chain disease	ICD10WHO:C88.2	MONDO:equivalentTo	Other heavy chain disease	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	heavy chain disorder
 MONDO:0019467	CD4+/CD56+ hematodermic neoplasm	ICD10WHO:C86.4	MONDO:equivalentTo	Blastic NK-cell lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	blastic nk-cell lymphoma
 MONDO:0019467	CD4+/CD56+ hematodermic neoplasm	ICD10WHO:C86.4	MONDO:equivalentTo	Blastic NK-cell lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	blastic nk-cell lymphoma
@@ -809,8 +731,6 @@ MONDO:0019809	congenital aortic valve insufficiency	ICD10WHO:Q23.1	MONDO:equival
 MONDO:0019810	toxic epidermal necrolysis	ICD10WHO:L51.2	MONDO:equivalentTo	Toxic epidermal necrolysis [Lyell]	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	toxic epidermal necrolysis
 MONDO:0019932	isolated partial vaginal agenesis	ICD10WHO:Q52.0	MONDO:equivalentTo	Congenital absence of vagina	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	congenital absence of vagina
 MONDO:0019932	isolated partial vaginal agenesis	ICD10WHO:Q52.0	MONDO:equivalentTo	Congenital absence of vagina	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	congenital absence of vagina
-MONDO:0019975	pellagra	ICD10WHO:E52	MONDO:equivalentTo	Niacin deficiency [pellagra]	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	niacin deficiency
-MONDO:0019975	pellagra	ICD10WHO:E52	MONDO:equivalentTo	Niacin deficiency [pellagra]	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	niacin deficiency
 MONDO:0020076	myeloproliferative neoplasm	ICD10WHO:D47.1	MONDO:equivalentTo	Chronic myeloproliferative disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	chronic myeloproliferative disorder
 MONDO:0020076	myeloproliferative neoplasm	ICD10WHO:D47.1	MONDO:equivalentTo	Chronic myeloproliferative disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	chronic myeloproliferative disorder
 MONDO:0020128	motor neuron disorder	ICD10WHO:G12.2	MONDO:equivalentTo	Motor neuron disease	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	motor neuron disorder
@@ -829,10 +749,6 @@ MONDO:0020501	Crimean-Congo hemorrhagic fever	ICD10WHO:A98.0	MONDO:equivalentTo	
 MONDO:0020501	Crimean-Congo hemorrhagic fever	ICD10WHO:A98.0	MONDO:equivalentTo	Crimean-Congo haemorrhagic fever	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	crimean-congo haemorrhagic fever
 MONDO:0020502	yellow fever	ICD10WHO:A95.0	MONDO:equivalentTo	Sylvatic yellow fever	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	sylvatic yellow fever
 MONDO:0020502	yellow fever	ICD10WHO:A95.0	MONDO:equivalentTo	Sylvatic yellow fever	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	sylvatic yellow fever
-MONDO:0020502	yellow fever	ICD10WHO:A95.1	MONDO:equivalentTo	Urban yellow fever	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	urban yellow fever
-MONDO:0020502	yellow fever	ICD10WHO:A95.1	MONDO:equivalentTo	Urban yellow fever	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	urban yellow fever
-MONDO:0020528	ACTH-dependent Cushing syndrome	ICD10WHO:E24.0	MONDO:equivalentTo	Pituitary-dependent Cushing disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pituitary-dependent cushing disorder
-MONDO:0020528	ACTH-dependent Cushing syndrome	ICD10WHO:E24.0	MONDO:equivalentTo	Pituitary-dependent Cushing disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pituitary-dependent cushing disorder
 MONDO:0020800	demyelinating disease of central nervous system	ICD10WHO:G35-G37	MONDO:equivalentTo	Demyelinating diseases of the central nervous system	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	demyelinating disorders of the central nervous system
 MONDO:0020800	demyelinating disease of central nervous system	ICD10WHO:G35-G37	MONDO:equivalentTo	Demyelinating diseases of the central nervous system	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	demyelinating disorders of the central nervous system
 MONDO:0021061	neurofibromatosis	ICD10WHO:Q85.0	MONDO:equivalentTo	Neurofibromatosis (nonmalignant)	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	neurofibromatosis

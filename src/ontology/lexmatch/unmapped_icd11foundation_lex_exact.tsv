@@ -4,7 +4,10 @@ MONDO:0004762	pelvic congestion syndrome	icd11.foundation:2109588852	MONDO:equiv
 MONDO:0008340	congenital ptosis	icd11.foundation:1561844189	MONDO:equivalentTo	Congenital ptosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	congenital ptosis
 MONDO:0016001	2-hydroxyglutaric aciduria	icd11.foundation:896211058	MONDO:equivalentTo	2-hydroxyglutaric aciduria	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	2-hydroxyglutaric aciduria
 MONDO:0019504	superior limbic keratoconjunctivitis	icd11.foundation:1532846455	MONDO:equivalentTo	Superior limbic keratoconjunctivitis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	superior limbic keratoconjunctivitis
+MONDO:0019835	lymphocytic hypophysitis	icd11.foundation:481072789	MONDO:equivalentTo	Lymphocytic hypophysitis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lymphocytic hypophysitis
+MONDO:0023124	Dursun syndrome	icd11.foundation:232201917	MONDO:equivalentTo	Dursun syndrome	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	dursun syndrome
 MONDO:0100637	drug-induced myopathy	icd11.foundation:1456167356	MONDO:equivalentTo	Drug-induced myopathy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	drug-induced myopathy
+MONDO:0700322	tinnitus	icd11.foundation:1089305710	MONDO:equivalentTo	Tinnitus	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	tinnitus
 MONDO:0700351	argyrophilic grain disease	icd11.foundation:1743002548	MONDO:equivalentTo	Argyrophilic grain disease	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	argyrophilic grain disorder
 MONDO:0700416	paraneoplastic sensory ganglionopathy	icd11.foundation:46072886	MONDO:equivalentTo	Paraneoplastic sensory ganglionopathy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	paraneoplastic sensory ganglionopathy
 MONDO:0700419	semilobar holoprosencephaly	icd11.foundation:97445313	MONDO:equivalentTo	Semilobar holoprosencephaly	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	semilobar holoprosencephaly
@@ -18,3 +21,5 @@ MONDO:1060188	small plaque parapsoriasis	icd11.foundation:682646804	MONDO:equiva
 MONDO:1060189	large plaque parapsoriasis	icd11.foundation:1532939912	MONDO:equivalentTo	Large plaque parapsoriasis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	large plaque parapsoriasis
 MONDO:1060200	primary hyperthyroidism	icd11.foundation:583743726	MONDO:equivalentTo	Primary hyperthyroidism	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	primary hyperthyroidism
 MONDO:1060201	secondary hyperthyroidism	icd11.foundation:355116695	MONDO:equivalentTo	Secondary hyperthyroidism	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	secondary hyperthyroidism
+MONDO:1060213	reticular pseudodrusen	icd11.foundation:80797147	MONDO:equivalentTo	Reticular pseudodrusen	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	reticular pseudodrusen
+MONDO:1060217	xanthomatous hypophysitis	icd11.foundation:2018168585	MONDO:equivalentTo	Xanthomatous hypophysitis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	xanthomatous hypophysitis

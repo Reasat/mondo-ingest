@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/mondo/external/nord.robot.owl#"
-     xml:base="http://purl.obolibrary.org/obo/mondo/external/nord.robot.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/mondo/external/mondo-efo.robot.owl#"
+     xml:base="http://purl.obolibrary.org/obo/mondo/external/mondo-efo.robot.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mondo/external/nord.robot.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mondo/external/2026-03-19/nord.robot.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mondo/external/mondo-efo.robot.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mondo/external/2026-05-18/mondo-efo.robot.owl"/>
     </owl:Ontology>
     
 

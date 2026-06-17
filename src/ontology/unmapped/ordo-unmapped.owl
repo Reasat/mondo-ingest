@@ -106,15 +106,8 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#source -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#source">
-        <oboInOwl:hasExactSynonym>manual_assertion</oboInOwl:hasExactSynonym>
         <rdfs:label>manual_assertion</rdfs:label>
     </owl:AnnotationProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.geneontology.org/formats/oboInOwl#source"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>manual_assertion</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#GENERATED_FROM_LABEL"/>
-    </owl:Axiom>
     
 
 
@@ -151,15 +144,8 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
         <obo:IAO_0000115 xml:lang="en">Relation between two clinical entities, one being included in the other. Ex : clinical subtype part_of disease.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>part_of</oboInOwl:hasExactSynonym>
         <rdfs:label>part_of</rdfs:label>
     </owl:ObjectProperty>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>part_of</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#GENERATED_FROM_LABEL"/>
-    </owl:Axiom>
     
 
 
@@ -26691,14 +26677,14 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.orpha.net/ORDO/Orphanet_1001"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>del(2)(q37)</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#GENERATED"/>
+        <owl:annotatedTarget>2q37 microdeletion syndrome</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#GENERATED_FROM_LABEL"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.orpha.net/ORDO/Orphanet_1001"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>2q37 microdeletion syndrome</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#GENERATED_FROM_LABEL"/>
+        <owl:annotatedTarget>del(2)(q37)</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/mondo#GENERATED"/>
     </owl:Axiom>
     
 

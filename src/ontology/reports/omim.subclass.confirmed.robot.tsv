@@ -671,7 +671,7 @@ MONDO:0010685	myopia 1, X-linked	MONDO:0001384	OMIM:310460	OMIMPS:160700	myopia
 MONDO:0010693	nystagmus 1, congenital, X-linked	MONDO:0005712	OMIM:310700	OMIMPS:310700	congenital nystagmus
 MONDO:0010698	optic atrophy 2	MONDO:0043878	OMIM:311050	OMIMPS:165500	hereditary optic atrophy
 MONDO:0010706	premature ovarian failure 1	MONDO:0019852	OMIM:311360	OMIMPS:311360	inherited primary ovarian failure
-MONDO:0010714	Pelizeaus-Merzbacher spectrum disorder	MONDO:0019046	OMIM:312080	OMIMPS:312080	leukodystrophy
+MONDO:0010714	Pelizaeus-Merzbacher spectrum disorder	MONDO:0019046	OMIM:312080	OMIMPS:312080	leukodystrophy
 MONDO:0010717	pyruvate dehydrogenase E1-alpha deficiency	MONDO:0019169	OMIM:312170	OMIMPS:312170	pyruvate dehydrogenase deficiency
 MONDO:0010723	retinitis pigmentosa 2	MONDO:0019200	OMIM:312600	OMIMPS:268000	retinitis pigmentosa
 MONDO:0010733	hereditary spastic paraplegia 2	MONDO:0019064	OMIM:312920	OMIMPS:303350	hereditary spastic paraplegia
@@ -1848,7 +1848,7 @@ MONDO:0013766	familial cold autoinflammatory syndrome 3	MONDO:0018768	OMIM:61446
 MONDO:0013768	arterial calcification, generalized, of infancy, 2	MONDO:0018870	OMIM:614473	OMIMPS:208000	arterial calcification of infancy
 MONDO:0013769	atrioventricular septal defect 5	MONDO:0020290	OMIM:614474	OMIMPS:606215	familial atrioventricular septal defect
 MONDO:0013770	atrial septal defect 9	MONDO:0006664	OMIM:614475	OMIMPS:108800	atrial septal defect
-MONDO:0013773	porencephaly 2	MONDO:0020496	OMIM:614483	OMIMPS:175780	familial porencephaly
+MONDO:0013773	brain small vessel disease 2A, autosomal dominant	MONDO:0020496	OMIM:614483	OMIMPS:175780	familial porencephaly
 MONDO:0013774	trigonocephaly 2	MONDO:0018065	OMIM:614485	OMIMPS:190440	isolated trigonocephaly
 MONDO:0013775	thrombomodulin-related bleeding disorder	MONDO:0100240	OMIM:614486	OMIMPS:188050	inherited thrombophilia
 MONDO:0013777	pseudohypoaldosteronism type 2B	MONDO:0019162	OMIM:614491	OMIMPS:145260	pseudohypoaldosteronism type 2
@@ -2383,7 +2383,7 @@ MONDO:0014810	pancytopenia due to IKZF1 mutations	MONDO:0015517	OMIM:616873	OMIM
 MONDO:0014813	hypomyelinating leukodystrophy 13	MONDO:0019046	OMIM:616881	OMIMPS:312080	leukodystrophy
 MONDO:0014814	advanced sleep phase syndrome 3	MONDO:0015609	OMIM:616882	OMIMPS:604348	advanced sleep phase syndrome
 MONDO:0014815	intellectual disability, autosomal recessive 52	MONDO:0019502	OMIM:616887	OMIMPS:249500	autosomal recessive non-syndromic intellectual disability
-MONDO:0014820	mitochondrial DNA depletion syndrome 14 (cardioencephalomyopathic type)	MONDO:0018158	OMIM:616896	OMIMPS:603041	mitochondrial DNA depletion syndrome
+MONDO:0014820	mitochondrial DNA depletion syndrome 14B (cardioencephalomyopathic type)	MONDO:0018158	OMIM:616896	OMIMPS:603041	mitochondrial DNA depletion syndrome
 MONDO:0014823	hypotonia, infantile, with psychomotor retardation and characteristic facies 3	MONDO:0014176	OMIM:616900	OMIMPS:615419	hypotonia, infantile, with psychomotor retardation and characteristic facies
 MONDO:0014828	immunodeficiency-centromeric instability-facial anomalies syndrome 3	MONDO:0000133	OMIM:616910	OMIMPS:242860	immunodeficiency-centromeric instability-facial anomalies syndrome
 MONDO:0014829	immunodeficiency-centromeric instability-facial anomalies syndrome 4	MONDO:0000133	OMIM:616911	OMIMPS:242860	immunodeficiency-centromeric instability-facial anomalies syndrome
@@ -2975,7 +2975,7 @@ MONDO:0030973	immunodeficiency 77	MONDO:0021094	OMIM:619223	OMIMPS:300755	immuno
 MONDO:0030974	mitochondrial complex 2 deficiency, nuclear type 4	MONDO:0031230	OMIM:619224	OMIMPS:252011	mitochondrial complex II deficiency, nuclear type
 MONDO:0030975	premature ovarian failure 20	MONDO:0019852	OMIM:619938	OMIMPS:311360	inherited primary ovarian failure
 MONDO:0030977	neuronopathy, distal hereditary motor, autosomal recessive 7	MONDO:0015363	OMIM:619216	OMIMPS:604320	neuronopathy, distal hereditary motor, autosomal recessive
-MONDO:0030983	Waardenburg syndrome, IIa 2F	MONDO:0018094	OMIM:619947	OMIMPS:193500	Waardenburg syndrome
+MONDO:0030983	Waardenburg syndrome 2F	MONDO:0018094	OMIM:619947	OMIMPS:193500	Waardenburg syndrome
 MONDO:0030984	spermatogenic failure 75	MONDO:0004983	OMIM:619949	OMIMPS:258150	spermatogenic failure
 MONDO:0030985	premature ovarian failure 19	MONDO:0019852	OMIM:619245	OMIMPS:311360	inherited primary ovarian failure
 MONDO:0030989	spermatogenic failure 53	MONDO:0004983	OMIM:619258	OMIMPS:258150	spermatogenic failure
@@ -3537,6 +3537,7 @@ MONDO:0859192	cerebral cavernous malformation 4	MONDO:0031037	OMIM:619538	OMIMPS
 MONDO:0859222	heterotaxy, visceral, 12, autosomal	MONDO:0018677	OMIM:619702	OMIMPS:306955	visceral heterotaxy
 MONDO:0859228	combined oxidative phosphorylation deficiency 55	MONDO:0000732	OMIM:619743	OMIMPS:609060	combined oxidative phosphorylation deficiency
 MONDO:0859234	agammaglobulinemia 8b, autosomal recessive	MONDO:0015977	OMIM:619824	OMIMPS:601495	agammaglobulinemia
+MONDO:0859235	auditory neuropathy, autosomal dominant 3	MONDO:0021944	OMIM:619832	OMIMPS:609129	auditory neuropathy
 MONDO:0859242	leukodystrophy, hypomyelinating, 24	MONDO:0019046	OMIM:619851	OMIMPS:312080	leukodystrophy
 MONDO:0859245	spinocerebellar ataxia, autosomal recessive 32	MONDO:0015244	OMIM:619862	OMIMPS:213200	autosomal recessive cerebellar ataxia
 MONDO:0859264	congenital myopathy 11	MONDO:0019952	OMIM:619967	OMIMPS:117000	congenital myopathy
@@ -3649,6 +3650,7 @@ MONDO:0957266	RECON progeroid syndrome	MONDO:0015333	OMIM:620370	OMIMPS:176670	p
 MONDO:0957270	muscular dystrophy, limb-girdle, autosomal recessive 28	MONDO:0015152	OMIM:620375	OMIMPS:253600	autosomal recessive limb-girdle muscular dystrophy
 MONDO:0957274	spastic paraplegia 89, autosomal recessive	MONDO:0019064	OMIM:620379	OMIMPS:303350	hereditary spastic paraplegia
 MONDO:0957278	oocyte/zygote/embryo maturation arrest 20	MONDO:0014769	OMIM:620383	OMIMPS:615774	inherited oocyte maturation defect
+MONDO:0957279	auditory neuropathy, autosomal dominant 2	MONDO:0021944	OMIM:620384	OMIMPS:609129	auditory neuropathy
 MONDO:0957281	nemaline myopathy 5B, autosomal recessive, childhood-onset	MONDO:0018958	OMIM:620386	OMIMPS:256030	nemaline myopathy
 MONDO:0957284	nemaline myopathy 5C, autosomal dominant	MONDO:0018958	OMIM:620389	OMIMPS:256030	nemaline myopathy
 MONDO:0957288	intellectual developmental disorder, autosomal recessive 79	MONDO:0019502	OMIM:620393	OMIMPS:249500	autosomal recessive non-syndromic intellectual disability
@@ -3919,6 +3921,12 @@ MONDO:0980991	microcephaly 31, primary, autosomal recessive	MONDO:0016660	OMIM:6
 MONDO:0980992	Meier-Gorlin syndrome 9	MONDO:0016817	OMIM:621512	OMIMPS:224690	Meier-Gorlin syndrome
 MONDO:0981022	cardiomyopathy, dilated, 3C	MONDO:0016333	OMIM:301163	OMIMPS:115200	familial dilated cardiomyopathy
 MONDO:0981023	spondylocostal dysostosis 7, autosomal recessive	MONDO:0000359	OMIM:621523	OMIMPS:277300	spondylocostal dysostosis
+MONDO:0981030	congenital myopathy 29 with contractures	MONDO:0019952	OMIM:621510	OMIMPS:117000	congenital myopathy
+MONDO:0981031	lethal congenital contracture syndrome 12	MONDO:0017436	OMIM:621511	OMIMPS:253310	lethal congenital contracture syndrome
+MONDO:0981050	Meier-Gorlin syndrome 10	MONDO:0016817	OMIM:621528	OMIMPS:224690	Meier-Gorlin syndrome
+MONDO:0981162	spinocerebellar ataxia 52	MONDO:0020380	OMIM:621535	OMIMPS:164400	autosomal dominant cerebellar ataxia
+MONDO:0981164	retinitis pigmentosa 101	MONDO:0019200	OMIM:621548	OMIMPS:268000	retinitis pigmentosa
+MONDO:1010200	oocyte/zygote/embryo maturation arrest 16	MONDO:0014769	OMIM:617234	OMIMPS:615774	inherited oocyte maturation defect
 MONDO:1060177	developmental and epileptic encephalopathy 119	MONDO:0100062	OMIM:621304	OMIMPS:308350	genetic developmental and epileptic encephalopathy
 MONDO:1060185	systemic lupus erythematosus 18	MONDO:0007915	OMIM:621369	OMIMPS:601744	systemic lupus erythematosus
 MONDO:8000006	WHIM syndrome 1	MONDO:0023880	OMIM:193670	OMIMPS:193670	WHIM syndrome

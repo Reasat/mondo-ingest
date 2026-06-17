@@ -240,7 +240,7 @@ MONDO:0011195	Usher syndrome type 1E	MONDO:0019501	OMIM:602097	OMIMPS:276900	Ush
 MONDO:0011196	amyotrophic lateral sclerosis type 5	MONDO:0005144	OMIM:602099	OMIMPS:105400	familial amyotrophic lateral sclerosis
 MONDO:0011216	hemochromatosis type 2A	MONDO:0006507	OMIM:602390	OMIMPS:235200	hereditary hemochromatosis
 MONDO:0011220	Parkinson disease 3, autosomal dominant	MONDO:0005180	OMIM:602404	OMIMPS:168600	Parkinson disease
-MONDO:0011236	hyperinsulinism due to glucokinase deficiency	MONDO:0005803	OMIM:602485	OMIMPS:256450	hyperinsulinemic hypoglycemia
+MONDO:0011236	hyperinsulinemic hypoglycemia, familial, 3	MONDO:0005803	OMIM:602485	OMIMPS:256450	hyperinsulinemic hypoglycemia
 MONDO:0011242	Bartter disease type 4A	MONDO:0015231	OMIM:602522	OMIMPS:601678	Bartter syndrome
 MONDO:0011264	torsion dystonia 6	MONDO:0044807	OMIM:602629	OMIMPS:128100	inherited dystonia
 MONDO:0011268	renal tubular acidosis, distal, 3, with or without sensorineural hearing loss	MONDO:1060161	OMIM:602722	OMIMPS:179800	inherited distal renal tubular acidosis
@@ -768,7 +768,6 @@ MONDO:0014842	intellectual disability, autosomal dominant 41	MONDO:0100172	OMIM:
 MONDO:0014846	spinocerebellar ataxia, autosomal recessive 23	MONDO:0015244	OMIM:616949	OMIMPS:213200	autosomal recessive cerebellar ataxia
 MONDO:0014858	intellectual disability, autosomal dominant 43	MONDO:0100172	OMIM:616977	OMIMPS:156200	intellectual disability, autosomal dominant
 MONDO:0014865	autosomal recessive severe congenital neutropenia due to CSF3R deficiency	MONDO:0018542	OMIM:617014	OMIMPS:202700	severe congenital neutropenia
-MONDO:0014866	Charcot-Marie-Tooth disease axonal type 2T	MONDO:0015626	OMIM:617017	OMIMPS:118220	Charcot-Marie-Tooth disease
 MONDO:0014874	pontocerebellar hypoplasia, type 2F	MONDO:0020135	OMIM:617026	OMIMPS:607596	pontocerebellar hypoplasia
 MONDO:0014892	micrognathia-recurrent infections-behavioral abnormalities-mild intellectual disability syndrome	MONDO:0100172	OMIM:617061	OMIMPS:156200	intellectual disability, autosomal dominant
 MONDO:0014916	developmental and epileptic encephalopathy, 41	MONDO:0100062	OMIM:617105	OMIMPS:308350	genetic developmental and epileptic encephalopathy
@@ -875,6 +874,7 @@ MONDO:0036484	Charcot-Marie-Tooth disease, dominant intermediate G	MONDO:0015626
 MONDO:0040501	Ehlers-Danlos syndrome, arthrochalasia type, 2	MONDO:0020066	OMIM:617821	OMIMPS:130000	Ehlers-Danlos syndrome
 MONDO:0042490	neutropenia, severe congenital, 1, autosomal dominant	MONDO:0018542	OMIM:202700	OMIMPS:202700	severe congenital neutropenia
 MONDO:0044329	osteogenesis imperfecta, type 18	MONDO:0019019	OMIM:617952	OMIMPS:166200	osteogenesis imperfecta
+MONDO:0044640	Charcot-Marie-Tooth disease type 2T	MONDO:0015626	OMIM:617017	OMIMPS:118220	Charcot-Marie-Tooth disease
 MONDO:0044721	severe combined immunodeficiency due to LAT deficiency	MONDO:0021094	OMIM:617514	OMIMPS:300755	immunodeficiency disease
 MONDO:0044725	combined immunodeficiency due to GINS1 deficiency	MONDO:0021094	OMIM:617827	OMIMPS:300755	immunodeficiency disease
 MONDO:0049223	osteogenesis imperfecta, type 19	MONDO:0019019	OMIM:301014	OMIMPS:166200	osteogenesis imperfecta

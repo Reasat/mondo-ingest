@@ -2,10 +2,22 @@
 [Interactive FlatGithub table](https://flatgithub.com/monarch-initiative/mondo-ingest?filename=src/ontology/reports/omim_mapping_status.tsv)
 
 ### Unmapped mappable terms _(!excluded, !deprecated)_
-| subject_id   | subject_label                                                                                |
-|:-------------|:---------------------------------------------------------------------------------------------|
-| OMIM:621510  | congenital myopathy 29 with contractures                                                     |
-| OMIM:621426  | drug metabolism, altered, cyp2a6-related                                                     |
-| OMIM:621511  | lethal congenital contracture syndrome 12                                                    |
-| OMIM:621528  | meier-gorlin syndrome 10                                                                     |
-| OMIM:621533  | neurodevelopmental disorder with seizures and impaired intellectual and language development |
+| subject_id   | subject_label                                                                                  |
+|:-------------|:-----------------------------------------------------------------------------------------------|
+| OMIM:621567  | congenital disorder of glycosylation, type ibb                                                 |
+| OMIM:621570  | cornelia lange lange syndrome 7                                                                |
+| OMIM:621566  | davis-wells syndrome                                                                           |
+| OMIM:621559  | dentin dysplasia, type 1c                                                                      |
+| OMIM:621426  | drug metabolism, altered, cyp2a6-related                                                       |
+| OMIM:621588  | epidermodysplasia verruciformis, susceptibility to, 6                                          |
+| OMIM:621585  | mendez-johnson immunoneurologic syndrome                                                       |
+| OMIM:301164  | neurodevelopmental disorder, x-linked, with poor or absent speech and behavioral abnormalities |
+| OMIM:621582  | ras-associated autoimmune leukoproliferative disorder 2                                        |
+| OMIM:621558  | retinal dystrophy, zeitz-han type                                                              |
+| OMIM:621560  | retinitis pigmentosa 102                                                                       |
+| OMIM:621561  | retinitis pigmentosa 103                                                                       |
+| OMIM:621562  | retinitis pigmentosa 104                                                                       |
+| OMIM:621563  | retinitis pigmentosa 105                                                                       |
+| OMIM:621564  | retinitis pigmentosa 106                                                                       |
+| OMIM:621587  | retinitis pigmentosa 107                                                                       |
+| OMIM:621565  | yu-kury neurodevelopmental syndrome                                                            |
