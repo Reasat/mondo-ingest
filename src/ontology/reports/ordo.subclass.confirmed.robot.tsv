@@ -1982,6 +1982,7 @@ MONDO:0013971	leukoencephalopathy-thalamus and brainstem anomalies-high lactate 
 MONDO:0013972	Perrault syndrome 2	MONDO:0017312	Orphanet:642976	Orphanet:2855	Perrault syndrome
 MONDO:0013990	pontocerebellar hypoplasia type 8	MONDO:0020135	Orphanet:324569	Orphanet:98523	pontocerebellar hypoplasia
 MONDO:0013993	pontocerebellar hypoplasia type 7	MONDO:0020135	Orphanet:284339	Orphanet:98523	pontocerebellar hypoplasia
+MONDO:0013996	focal facial dermal dysplasia type II	MONDO:0018363	Orphanet:398173	Orphanet:398166	focal facial dermal dysplasia
 MONDO:0013997	focal facial dermal dysplasia type IV	MONDO:0018363	Orphanet:398189	Orphanet:398166	focal facial dermal dysplasia
 MONDO:0014005	immunoglobulin-mediated membranoproliferative glomerulonephritis	MONDO:0018904	Orphanet:329903	Orphanet:54370	primary membranoproliferative glomerulonephritis
 MONDO:0014006	Schuurs-Hoeijmakers syndrome	MONDO:0015159	Orphanet:329224	Orphanet:102283	multiple congenital anomalies/dysmorphic syndrome-intellectual disability
@@ -3650,7 +3651,7 @@ MONDO:0018842	primary effusion lymphoma	MONDO:0017343	Orphanet:48686	Orphanet:28
 MONDO:0018843	embryonal carcinoma of the central nervous system	MONDO:0005440	Orphanet:48736	Orphanet:180226	embryonal carcinoma
 MONDO:0018844	urachal cyst	MONDO:0018565	Orphanet:488	Orphanet:435743	congenital urachal anomaly
 MONDO:0018845	focal myositis	MONDO:0020122	Orphanet:48918	Orphanet:98482	acquired idiopathic inflammatory myopathy
-MONDO:0018846	penile agenesis	MONDO:0020040	Orphanet:49	Orphanet:98085	46,XY disorder of sex development
+MONDO:0018846	penile agenesis	MONDO:0020040	Orphanet:49	Orphanet:98085	46 XY differences of sex development
 MONDO:0018848	IgG4-related retroperitoneal fibrosis	MONDO:0017287	Orphanet:49041	Orphanet:596448	immunoglobulin G4-related sclerosing disease
 MONDO:0018852	achromatopsia	MONDO:0001703	Orphanet:49382	Orphanet:98658	color vision disorder
 MONDO:0018856	lichen amyloidosis	MONDO:0015301	Orphanet:49804	Orphanet:137807	primary cutaneous amyloidosis
@@ -4148,7 +4149,7 @@ MONDO:0019992	pseudohypoparathyroidism	MONDO:0015327	Orphanet:97593	Orphanet:139
 MONDO:0019992	pseudohypoparathyroidism	MONDO:0015962	Orphanet:97593	Orphanet:183592	inherited renal tubular disease
 MONDO:0019992	pseudohypoparathyroidism	MONDO:0016165	Orphanet:97593	Orphanet:208593	hereditary hypoparathyroidism
 MONDO:0020022	central nervous system malformation	MONDO:0019755	Orphanet:98044	Orphanet:93890	developmental defect during embryogenesis
-MONDO:0020040	46,XY disorder of sex development	MONDO:0002145	Orphanet:98085	Orphanet:90771	disorder of sexual differentiation
+MONDO:0020040	46 XY differences of sex development	MONDO:0002145	Orphanet:98085	Orphanet:90771	disorder of sexual differentiation
 MONDO:0020043	autosomal recessive congenital cerebellar ataxia	MONDO:0015244	Orphanet:98095	Orphanet:1172	autosomal recessive cerebellar ataxia
 MONDO:0020044	autosomal recessive metabolic cerebellar ataxia	MONDO:0015244	Orphanet:98096	Orphanet:1172	autosomal recessive cerebellar ataxia
 MONDO:0020046	autosomal recessive degenerative and progressive cerebellar ataxia	MONDO:0015244	Orphanet:98098	Orphanet:1172	autosomal recessive cerebellar ataxia
@@ -4621,6 +4622,7 @@ MONDO:0957463	primary bone and joint tuberculosis	MONDO:0018076	Orphanet:645822	
 MONDO:0957465	multifocal tuberculosis	MONDO:0018076	Orphanet:645854	Orphanet:3389	tuberculosis
 MONDO:0957466	primary tuberculosis of the digestive system	MONDO:0018076	Orphanet:645859	Orphanet:3389	tuberculosis
 MONDO:0957556	congenital pulmonary vein atresia	MONDO:0017864	Orphanet:99126	Orphanet:3188	congenital pulmonary veins atresia or stenosis
+MONDO:0957874	neuronopathy, distal hereditary motor, autosomal recessive 9	MONDO:0015363	Orphanet:658778	Orphanet:140468	neuronopathy, distal hereditary motor, autosomal recessive
 MONDO:0958071	Hao-Fountain syndrome due to USP7 mutation	MONDO:0014805	Orphanet:643538	Orphanet:643549	Hao-Fountain syndrome
 MONDO:0958075	intramedullary non-dysraphic spinal cord lipoma	MONDO:0001790	Orphanet:645359	Orphanet:645276	spinal cord lipoma
 MONDO:0958076	myeloschisis	MONDO:0017062	Orphanet:645398	Orphanet:268369	spina bifida aperta
@@ -4644,8 +4646,6 @@ MONDO:0958120	autosomal dominant combined immunodeficiency due to ERBIN deficien
 MONDO:0958123	isolated pulmonary artery sling	MONDO:0015239	Orphanet:658574	Orphanet:1138	abnormal origin of the pulmonary artery
 MONDO:0958127	transplant-related bronchiolitis obliterans	MONDO:0015265	Orphanet:658602	Orphanet:1303	bronchiolitis obliterans syndrome
 MONDO:0958128	non-transplant-related bronchiolitis obliterans	MONDO:0015265	Orphanet:658612	Orphanet:1303	bronchiolitis obliterans syndrome
-MONDO:0958129	COQ7-related distal hereditary motor neuropathy	MONDO:0015363	Orphanet:658778	Orphanet:140468	neuronopathy, distal hereditary motor, autosomal recessive
-MONDO:0958129	COQ7-related distal hereditary motor neuropathy	MONDO:0018151	Orphanet:658778	Orphanet:35656	coenzyme Q10 deficiency
 MONDO:0958130	Greig cephalopolysyndactyly-contiguous gene syndrome	MONDO:0015161	Orphanet:658805	Orphanet:102285	multiple congenital anomalies/dysmorphic syndrome without intellectual disability
 MONDO:0958231	neurodevelopmental disorder with motor abnormalities, seizures, and facial dysmorphism	MONDO:0015653	Orphanet:589515	Orphanet:166472	monogenic epilepsy
 MONDO:0958231	neurodevelopmental disorder with motor abnormalities, seizures, and facial dysmorphism	MONDO:0019792	Orphanet:589515	Orphanet:94145	autosomal dominant cerebellar ataxia type I

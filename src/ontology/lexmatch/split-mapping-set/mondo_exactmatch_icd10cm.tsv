@@ -350,7 +350,6 @@ MONDO:0008009	monilethrix	skos:exactMatch	ICD10CM:Q84.1	Congenital morphological
 MONDO:0008048	autosomal dominant centronuclear myopathy	skos:exactMatch	ICD10CM:G71.228	Other centronuclear myopathy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	autosomal dominant centronuclear myopathy	LEXMATCH
 MONDO:0008048	autosomal dominant centronuclear myopathy	skos:exactMatch	ICD10CM:G71.228	Other centronuclear myopathy	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	autosomal dominant centronuclear myopathy	LEXMATCH
 MONDO:0008056	myotonic dystrophy type 1	skos:exactMatch	ICD10CM:G71.11	Myotonic muscular dystrophy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	dystrophia myotonica	LEXMATCH
-MONDO:0008056	myotonic dystrophy type 1	skos:exactMatch	ICD10CM:G71.11	Myotonic muscular dystrophy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	myotonic dystrophy	LEXMATCH
 MONDO:0008056	myotonic dystrophy type 1	skos:exactMatch	ICD10CM:G71.11	Myotonic muscular dystrophy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	steinert disorder	LEXMATCH
 MONDO:0008061	nail-patella syndrome	skos:exactMatch	ICD10CM:Q87.2	Congenital malformation syndromes predominantly involving limbs	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	nail patella syndrome	LEXMATCH
 MONDO:0008116	oculopharyngeal muscular dystrophy	skos:exactMatch	ICD10CM:G71.09	Other specified muscular dystrophies	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	oculopharyngeal muscular dystrophy	LEXMATCH
@@ -449,7 +448,6 @@ MONDO:0009846	pentosuria	skos:exactMatch	ICD10CM:E74.89	Other specified disorder
 MONDO:0009887	desquamative interstitial pneumonia	skos:exactMatch	ICD10CM:J84.115	Respiratory bronchiolitis interstitial lung disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	respiratory bronchiolitis interstitial lung disorder	LEXMATCH
 MONDO:0009887	desquamative interstitial pneumonia	skos:exactMatch	ICD10CM:J84.115	Respiratory bronchiolitis interstitial lung disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	respiratory bronchiolitis interstitial lung disorder	LEXMATCH
 MONDO:0009902	cutaneous porphyria	skos:exactMatch	ICD10CM:E80.0	Hereditary erythropoietic porphyria	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	congenital erythropoietic porphyria	LEXMATCH
-MONDO:0009948	pyropoikilocytosis, hereditary	skos:exactMatch	ICD10CM:E83.39	Other disorders of phosphorus metabolism	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hypophosphatasia	LEXMATCH
 MONDO:0010011	schizencephaly	skos:exactMatch	ICD10CM:Q04.6	Congenital cerebral cysts	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	schizencephaly	LEXMATCH
 MONDO:0010011	schizencephaly	skos:exactMatch	ICD10CM:Q04.6	Congenital cerebral cysts	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	schizencephaly	LEXMATCH
 MONDO:0010079	Canavan disease	skos:exactMatch	ICD10CM:E75.28	Canavan disease	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	canavan disorder	LEXMATCH
@@ -487,8 +485,6 @@ MONDO:0011266	myotonic dystrophy type 2	skos:exactMatch	ICD10CM:G71.11	Myotonic 
 MONDO:0011382	sickle cell disease	skos:exactMatch	ICD10CM:D57.20	Sickle-cell/Hb-C disease without crisis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	sickle-cell/hb-c disorder without crisis	LEXMATCH
 MONDO:0011382	sickle cell disease	skos:exactMatch	ICD10CM:D57.20	Sickle-cell/Hb-C disease without crisis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	sickle-cell/hb-c disorder without crisis	LEXMATCH
 MONDO:0011391	megalencephalic leukoencephalopathy with subcortical cysts	skos:exactMatch	ICD10CM:G93.42	Megalencephalic leukoencephalopathy with subcortical cysts	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	megalencephalic leukoencephalopathy with subcortical cysts	LEXMATCH
-MONDO:0011405	poikiloderma with neutropenia	skos:exactMatch	ICD10CM:L28.1	Prurigo nodularis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	prurigo nodularis	LEXMATCH
-MONDO:0011405	poikiloderma with neutropenia	skos:exactMatch	ICD10CM:L28.1	Prurigo nodularis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	prurigo nodularis	LEXMATCH
 MONDO:0011438	acne	skos:exactMatch	ICD10CM:L70.0	Acne vulgaris	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acne vulgaris	LEXMATCH
 MONDO:0011438	acne	skos:exactMatch	ICD10CM:L70.0	Acne vulgaris	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	acne vulgaris	LEXMATCH
 MONDO:0011438	acne	skos:exactMatch	ICD10CM:L70.2	Acne varioliformis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acne varioliformis	LEXMATCH
@@ -597,8 +593,6 @@ MONDO:0017278	autoimmune polyendocrinopathy	skos:exactMatch	ICD10CM:D68.61	Antip
 MONDO:0017278	autoimmune polyendocrinopathy	skos:exactMatch	ICD10CM:D68.61	Antiphospholipid syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	antiphospholipid syndrome	LEXMATCH
 MONDO:0017287	immunoglobulin G4-related sclerosing disease	skos:exactMatch	ICD10CM:D89.84	IgG4-related disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	igg4-related disorder	LEXMATCH
 MONDO:0017287	immunoglobulin G4-related sclerosing disease	skos:exactMatch	ICD10CM:D89.84	IgG4-related disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	igg4-related disorder	LEXMATCH
-MONDO:0017363	idiopathic chronic eosinophilic pneumonia	skos:exactMatch	ICD10CM:J82.81	Chronic eosinophilic pneumonia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	chronic eosinophilic pneumonia	LEXMATCH
-MONDO:0017363	idiopathic chronic eosinophilic pneumonia	skos:exactMatch	ICD10CM:J82.81	Chronic eosinophilic pneumonia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	chronic eosinophilic pneumonia	LEXMATCH
 MONDO:0017373	poliomyelitis	skos:exactMatch	ICD10CM:A80	Acute poliomyelitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute poliomyelitis	LEXMATCH
 MONDO:0017373	poliomyelitis	skos:exactMatch	ICD10CM:A80	Acute poliomyelitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	acute poliomyelitis	LEXMATCH
 MONDO:0017376	reactive arthritis	skos:exactMatch	ICD10CM:M02.3	Reiter's disease	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	reactive arthritis	LEXMATCH
@@ -641,8 +635,6 @@ MONDO:0018546	serotonin syndrome	skos:exactMatch	ICD10CM:G90.81	Serotonin syndro
 MONDO:0018551	patent urachus	skos:exactMatch	ICD10CM:Q64.4	Malformation of urachus	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	patent urachus	LEXMATCH
 MONDO:0018551	patent urachus	skos:exactMatch	ICD10CM:Q64.4	Malformation of urachus	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	patent urachus	LEXMATCH
 MONDO:0018570	hypophosphatasia	skos:exactMatch	ICD10CM:E83.39	Other disorders of phosphorus metabolism	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	hypophosphatasia	LEXMATCH
-MONDO:0018646	sclerosing cholangitis	skos:exactMatch	ICD10CM:K83.01	Primary sclerosing cholangitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	primary sclerosing cholangitis	LEXMATCH
-MONDO:0018646	sclerosing cholangitis	skos:exactMatch	ICD10CM:K83.01	Primary sclerosing cholangitis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	primary sclerosing cholangitis	LEXMATCH
 MONDO:0018690	Holmes-Adie syndrome	skos:exactMatch	ICD10CM:H57.05	Tonic pupil	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tonic pupil	LEXMATCH
 MONDO:0018690	Holmes-Adie syndrome	skos:exactMatch	ICD10CM:H57.05	Tonic pupil	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	tonic pupil	LEXMATCH
 MONDO:0018695	avian influenza	skos:exactMatch	ICD10CM:J09.X	Influenza due to identified novel influenza A virus	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	avian influenza	LEXMATCH
@@ -695,8 +687,6 @@ MONDO:0019147	myiasis	skos:exactMatch	ICD10CM:B87.9	Myiasis, unspecified	semapv:
 MONDO:0019154	androgen insensitivity syndrome	skos:exactMatch	ICD10CM:E34.51	Complete androgen insensitivity syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	goldberg-maxwell syndrome	LEXMATCH
 MONDO:0019165	central precocious puberty	skos:exactMatch	ICD10CM:E22.8	Other hyperfunction of pituitary gland	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	central precocious puberty	LEXMATCH
 MONDO:0019168	pyomyositis	skos:exactMatch	ICD10CM:M60.0	Infective myositis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tropical pyomyositis	LEXMATCH
-MONDO:0019171	familial long QT syndrome	skos:exactMatch	ICD10CM:I45.81	Long QT syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	long qt syndrome	LEXMATCH
-MONDO:0019171	familial long QT syndrome	skos:exactMatch	ICD10CM:I45.81	Long QT syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	long qt syndrome	LEXMATCH
 MONDO:0019187	Axenfeld-Rieger syndrome	skos:exactMatch	ICD10CM:Q13.81	Rieger anomaly	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	axenfeld-rieger syndrome	LEXMATCH
 MONDO:0019188	Rubinstein-Taybi syndrome	skos:exactMatch	ICD10CM:Q87.2	Congenital malformation syndromes predominantly involving limbs	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	rubinstein-taybi syndrome	LEXMATCH
 MONDO:0019188	Rubinstein-Taybi syndrome	skos:exactMatch	ICD10CM:Q87.2	Congenital malformation syndromes predominantly involving limbs	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	rubinstein-taybi syndrome	LEXMATCH
@@ -707,8 +697,6 @@ MONDO:0019262	juvenile neuronal ceroid lipofuscinosis	skos:exactMatch	ICD10CM:E7
 MONDO:0019262	juvenile neuronal ceroid lipofuscinosis	skos:exactMatch	ICD10CM:E75.4	Neuronal ceroid lipofuscinosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	spielmeyer-vogt disorder	LEXMATCH
 MONDO:0019280	hypertrichosis	skos:exactMatch	ICD10CM:L68	Hypertrichosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hypertrichosis	LEXMATCH
 MONDO:0019287	ectodermal dysplasia syndrome	skos:exactMatch	ICD10CM:Q82.4	Ectodermal dysplasia (anhidrotic)	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	ectodermal dysplasia	LEXMATCH
-MONDO:0019312	Hermansky-Pudlak syndrome	skos:exactMatch	ICD10CM:K76.81	Hepatopulmonary syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hepatopulmonary syndrome	LEXMATCH
-MONDO:0019312	Hermansky-Pudlak syndrome	skos:exactMatch	ICD10CM:K76.81	Hepatopulmonary syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	hepatopulmonary syndrome	LEXMATCH
 MONDO:0019314	cutaneous mastocytoma	skos:exactMatch	ICD10CM:D47.01	Cutaneous mastocytosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	solitary mastocytoma	LEXMATCH
 MONDO:0019315	diffuse cutaneous mastocytosis	skos:exactMatch	ICD10CM:D47.01	Cutaneous mastocytosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	diffuse cutaneous mastocytosis	LEXMATCH
 MONDO:0019315	diffuse cutaneous mastocytosis	skos:exactMatch	ICD10CM:D47.01	Cutaneous mastocytosis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	diffuse cutaneous mastocytosis	LEXMATCH
@@ -809,7 +797,6 @@ MONDO:0021001	hemochromatosis type 1	skos:exactMatch	ICD10CM:E83.11	Hemochromato
 MONDO:0021001	hemochromatosis type 1	skos:exactMatch	ICD10CM:E83.11	Hemochromatosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	hemochromatosis	LEXMATCH
 MONDO:0021055	classic familial adenomatous polyposis	skos:exactMatch	ICD10CM:D13.91	Familial adenomatous polyposis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	familial adenomatous polyposis	LEXMATCH
 MONDO:0021055	classic familial adenomatous polyposis	skos:exactMatch	ICD10CM:D13.91	Familial adenomatous polyposis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	familial adenomatous polyposis	LEXMATCH
-MONDO:0021061	neurofibromatosis	skos:exactMatch	ICD10CM:Q85.02	Neurofibromatosis, type 2	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acoustic neurofibromatosis	LEXMATCH
 MONDO:0021287	carcinoma in situ of epiglottis	skos:exactMatch	ICD10CM:D02.0	Carcinoma in situ of larynx	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	carcinoma in situ of epiglottis	LEXMATCH
 MONDO:0021287	carcinoma in situ of epiglottis	skos:exactMatch	ICD10CM:D02.0	Carcinoma in situ of larynx	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	carcinoma in situ of epiglottis	LEXMATCH
 MONDO:0021446	benign neoplasm of epiglottis	skos:exactMatch	ICD10CM:D14.1	Benign neoplasm of larynx	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	benign neoplasm of epiglottis	LEXMATCH
@@ -901,6 +888,7 @@ MONDO:0956962	benign teratoma	skos:exactMatch	ICD10CM:D28	Benign neoplasm of oth
 MONDO:0971058	verruga peruana	skos:exactMatch	ICD10CM:A44.1	Cutaneous and mucocutaneous bartonellosis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	verruga peruana	LEXMATCH
 MONDO:1010100	myxedema coma	skos:exactMatch	ICD10CM:E03.5	Myxedema coma	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	myxedema coma	LEXMATCH
 MONDO:1010182	premenstrual dysphoric disorder	skos:exactMatch	ICD10CM:F32.81	Premenstrual dysphoric disorder	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	premenstrual dysphoric disorder	LEXMATCH
+MONDO:1015242	hepatocellular carcinoma, non-human animal	skos:exactMatch	ICD10CM:C22.0	Liver cell carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hepatoma	LEXMATCH
 MONDO:1030007	hypertensive urgency	skos:exactMatch	ICD10CM:I16.0	Hypertensive urgency	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	hypertensive urgency	LEXMATCH
 MONDO:1030010	precerebral artery stenosis	skos:exactMatch	ICD10CM:I65	Occlusion and stenosis of precerebral arteries, not resulting in cerebral infarction	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	narrowing of precerebral artery	LEXMATCH
 MONDO:1060134	atherosclerotic cardiovascular disease	skos:exactMatch	ICD10CM:I25.1	Atherosclerotic heart disease of native coronary artery	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	atherosclerotic cardiovascular disorder	LEXMATCH

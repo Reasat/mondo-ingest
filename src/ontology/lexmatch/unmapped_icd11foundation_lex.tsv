@@ -933,7 +933,6 @@ MONDO:0005095	spondyloarthropathy	icd11.foundation:647013871	MONDO:equivalentTo	
 MONDO:0005098	stroke disorder	icd11.foundation:1442995018	MONDO:equivalentTo	Stroke not known if ischaemic or haemorrhagic	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cerebrovascular accident
 MONDO:0005098	stroke disorder	icd11.foundation:1442995018	MONDO:equivalentTo	Stroke not known if ischaemic or haemorrhagic	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	stroke
 MONDO:0005098	stroke disorder	icd11.foundation:1442995018	MONDO:equivalentTo	Stroke not known if ischaemic or haemorrhagic	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	stroke syndrome
-MONDO:0005100	systemic sclerosis	icd11.foundation:816172167	MONDO:equivalentTo	Myelinoclastic diffuse sclerosis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	diffuse sclerosis
 MONDO:0005108	viral infectious disease	icd11.foundation:237422666	MONDO:equivalentTo	Viral infection of unspecified site	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	viral disorder
 MONDO:0005108	viral infectious disease	icd11.foundation:237422666	MONDO:equivalentTo	Viral infection of unspecified site	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	viral infectious disorder
 MONDO:0005109	HIV infectious disease	icd11.foundation:1508081745	MONDO:equivalentTo	Human immunodeficiency virus disease without mention of tuberculosis or malaria	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	hiv infection
@@ -2592,7 +2591,6 @@ MONDO:0011382	sickle cell disease	icd11.foundation:1711513381	MONDO:equivalentTo
 MONDO:0011382	sickle cell disease	icd11.foundation:1711513381	MONDO:equivalentTo	Sickle cell disease without crisis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	sickle cell disorder
 MONDO:0011385	intervertebral disk degenerative disorder	icd11.foundation:1225264916	MONDO:equivalentTo	Intervertebral disc degeneration	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	intervertebral disc degeneration
 MONDO:0011385	intervertebral disk degenerative disorder	icd11.foundation:1225264916	MONDO:equivalentTo	Intervertebral disc degeneration	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	intervertebral disc degeneration
-MONDO:0011405	poikiloderma with neutropenia	icd11.foundation:806314148	MONDO:equivalentTo	Nodular prurigo	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	prurigo nodularis
 MONDO:0011408	hereditary spastic paraplegia 10	icd11.foundation:217113223	MONDO:equivalentTo	Autosomal dominant spastic paraplegia type 10	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	autosomal dominant spastic paraplegia type 10
 MONDO:0011408	hereditary spastic paraplegia 10	icd11.foundation:217113223	MONDO:equivalentTo	Autosomal dominant spastic paraplegia type 10	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	autosomal dominant spastic paraplegia type 10
 MONDO:0011426	aceruloplasminemia	icd11.foundation:688027972	MONDO:equivalentTo	Acaeruloplasminaemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	aceruloplasminemia
@@ -3127,7 +3125,6 @@ MONDO:0015753	cap myopathy	icd11.foundation:482118421	MONDO:equivalentTo	Cap dis
 MONDO:0015753	cap myopathy	icd11.foundation:482118421	MONDO:equivalentTo	Cap disease	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	cap myopathy
 MONDO:0015761	trisomy 10p	icd11.foundation:442413368	MONDO:equivalentTo	10p duplication	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	trisomy type 10p
 MONDO:0015761	trisomy 10p	icd11.foundation:442413368	MONDO:equivalentTo	10p duplication	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	trisomy type 10p
-MONDO:0015779	45,X/46,XY mixed gonadal dysgenesis	icd11.foundation:451241641	MONDO:equivalentTo	45, X, 46, XY gonadal dysgenesis	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	mixed gonadal dysgenesis
 MONDO:0015804	infant botulism	icd11.foundation:2113104711	MONDO:equivalentTo	Infant intestinal botulism	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	infant intestinal botulism
 MONDO:0015804	infant botulism	icd11.foundation:2113104711	MONDO:equivalentTo	Infant intestinal botulism	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	infantile botulism
 MONDO:0015804	infant botulism	icd11.foundation:2113104711	MONDO:equivalentTo	Infant intestinal botulism	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	infant intestinal botulism
@@ -3180,8 +3177,6 @@ MONDO:0016040	harlequin syndrome	icd11.foundation:1195658403	MONDO:equivalentTo	
 MONDO:0016040	harlequin syndrome	icd11.foundation:1195658403	MONDO:equivalentTo	Progressive isolated segmental anhidrosis	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	harlequin syndrome
 MONDO:0016045	tetragametic chimerism	icd11.foundation:1262245334	MONDO:equivalentTo	Chimaera 46, XX, 46, XY	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	tetragametic chimerism
 MONDO:0016048	isolated autosomal dominant hypomagnesemia, Glaudemans type	icd11.foundation:1038958214	MONDO:equivalentTo	Glaudemans type isolated autosomal dominant hypomagnesaemia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	isolated autosomal dominant hypomagnesemia, glaudemans type
-MONDO:0016057	isolated encephalocele	icd11.foundation:2115894108	MONDO:equivalentTo	Encephalocele	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	encephalocele
-MONDO:0016057	isolated encephalocele	icd11.foundation:2115894108	MONDO:equivalentTo	Encephalocele	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	encephalocele
 MONDO:0016063	Cowden disease	icd11.foundation:2020168794	MONDO:equivalentTo	Cowden syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cowden syndrome
 MONDO:0016063	Cowden disease	icd11.foundation:2020168794	MONDO:equivalentTo	Cowden syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	multiple hamartoma syndrome
 MONDO:0016063	Cowden disease	icd11.foundation:2020168794	MONDO:equivalentTo	Cowden syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	cowden syndrome

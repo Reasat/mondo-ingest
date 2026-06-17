@@ -13,7 +13,6 @@ MONDO:0979598	hamartoma syndrome	DOID:0070656	MONDO:equivalentTo	hamartoma syndr
 MONDO:0979921	hypocholesteremia	DOID:0061212	MONDO:equivalentTo	hypocholesteremia		MONDO:0005066
 MONDO:0979922	telomere biology disorder	DOID:0061213	MONDO:equivalentTo	telomere biology disorder	A genetic disease that is characterized by telomeres that are longer or shorter than usual.	MONDO:0003847
 MONDO:0981181	congenital anomalies of the kidney and urinary tract 3	DOID:0051078	MONDO:equivalentTo	congenital anomalies of the kidney and urinary tract 3	A congenital anomalies of the kidney and urinary tract that has_material_basis_in heterozygous mutation in the NRIP1 gene on chromosome 21q11-q21.	MONDO:0019719
-MONDO:0981182	monogenic chronic kidney disease	DOID:0051079	MONDO:equivalentTo	monogenic chronic kidney disease	A chronic kidney disease that has_material_basis_in a mutation in a single gene.	MONDO:0005300|MONDO:0000275
 MONDO:0981183	alport syndrome 3b	DOID:0051080	MONDO:equivalentTo	Alport syndrome 3B	An Alport syndrome that is characterized by glomerular basement membrane abnormalities and that has_material_basis_in homozygous or compound heterozygous mutation in the COL4A3 gene on chromosome 2q36. Sensorineural hearing loss and ocular manifestations may be present.	MONDO:0018965|MONDO:0006025
 MONDO:0981184	polycystic kidney disease 8	DOID:0051081	MONDO:equivalentTo	polycystic kidney disease 8	An autosomal dominant polycystic kidney disease that is characterized by enlarged kidneys, arterial hypertension, and kidney failure and that has_material_basis_in heterozygous mutation in the NEK8 gene on chromosome 17q11.	MONDO:0004691
 MONDO:0981185	parkinson's disease 27	DOID:0051082	MONDO:equivalentTo	Parkinson's disease 27	A Parkinson's disease that has_material_basis_in mutation in the GBA1 gene on chromosome 1q22.	MONDO:0005180
@@ -55,3 +54,68 @@ MONDO:0981220	small fiber neuropathy	DOID:0070701	MONDO:equivalentTo	small fiber
 MONDO:0981221	measles inclusion body encephalitis	DOID:0070702	MONDO:equivalentTo	measles inclusion body encephalitis		MONDO:0006009|MONDO:0001773
 MONDO:0981222	meckel syndrome 14	DOID:0070703	MONDO:equivalentTo	Meckel syndrome 14		MONDO:0018921|MONDO:0006025
 MONDO:0981223	zeitz-han retinal dystrophy	DOID:0081462	MONDO:equivalentTo	Zeitz-Han retinal dystrophy	A retinal degeneration that is characterized by a variable retinal phenotypes, predominantly described as rod-cone dystrophy with some patients clinically diagnosed as having retinitis pigmentosa, but also including cases of cone-rod and cone dystrophy and that has_material_basis_in homozygous or compound heterozygous mutation in the ubiquitin-associated protein (UBAP1L) gene on chromosome 15q22.	MONDO:0004580
+MONDO:0981237	developmental and epileptic encephalopathy 111	DOID:0051083	MONDO:equivalentTo	developmental and epileptic encephalopathy 111		MONDO:0100062|MONDO:0006025
+MONDO:0981238	developmental and epileptic encephalopathy 112	DOID:0051084	MONDO:equivalentTo	developmental and epileptic encephalopathy 112		MONDO:0100062|MONDO:0000426
+MONDO:0981239	developmental and epileptic encephalopathy 113	DOID:0051085	MONDO:equivalentTo	developmental and epileptic encephalopathy 113		MONDO:0100062|MONDO:0006025
+MONDO:0981240	developmental and epileptic encephalopathy 114	DOID:0051086	MONDO:equivalentTo	developmental and epileptic encephalopathy 114		MONDO:0100062|MONDO:0000426
+MONDO:0981241	developmental and epileptic encephalopathy 115	DOID:0051087	MONDO:equivalentTo	developmental and epileptic encephalopathy 115		MONDO:0100062|MONDO:0006025
+MONDO:0981242	developmental and epileptic encephalopathy 119	DOID:0051088	MONDO:equivalentTo	developmental and epileptic encephalopathy 119		MONDO:0100062|MONDO:0000426
+MONDO:0981243	developmental and epileptic encephalopathy 120	DOID:0051089	MONDO:equivalentTo	developmental and epileptic encephalopathy 120		MONDO:0100062|MONDO:0000426
+MONDO:0981244	developmental and epileptic encephalopathy 121	DOID:0051090	MONDO:equivalentTo	developmental and epileptic encephalopathy 121		MONDO:0100062|MONDO:0006025
+MONDO:0981245	developmental and epileptic encephalopathy 122	DOID:0051091	MONDO:equivalentTo	developmental and epileptic encephalopathy 122		MONDO:0100062|MONDO:0006025
+MONDO:0981246	dentin dysplasia type ia	DOID:0070704	MONDO:equivalentTo	dentin dysplasia type IA		MONDO:0015613|MONDO:0006025
+MONDO:0981247	dentin dysplasia type ib	DOID:0070705	MONDO:equivalentTo	dentin dysplasia type IB		MONDO:0015613|MONDO:0000426
+MONDO:0981248	dentin dysplasia type ic	DOID:0070706	MONDO:equivalentTo	dentin dysplasia type IC		MONDO:0015613|MONDO:0000426
+MONDO:0981249	dentin dysplasia type ii	DOID:0070707	MONDO:equivalentTo	dentin dysplasia type II		MONDO:0015613|MONDO:0000426
+MONDO:0981250	dentin dysplasia with sclerotic bones	DOID:0070708	MONDO:equivalentTo	dentin dysplasia with sclerotic bones		MONDO:0000426|MONDO:0002254|MONDO:0006999|MONDO:0005381
+MONDO:0981251	popov-chang syndrome	DOID:0070709	MONDO:equivalentTo	Popov-Chang syndrome		MONDO:0015802
+MONDO:0981252	neurodevelopmental disorder with speech delay and behavioral abnormalities	DOID:0070710	MONDO:equivalentTo	neurodevelopmental disorder with speech delay and behavioral abnormalities		MONDO:0015802
+MONDO:0981253	harel-tora neurodevelopmental syndrome	DOID:0070711	MONDO:equivalentTo	Harel-Tora neurodevelopmental syndrome		MONDO:0015802
+MONDO:0981254	developmental delay with variable cardiac and renal congenital anomalies and dysmorphic facies	DOID:0070712	MONDO:equivalentTo	developmental delay with variable cardiac and renal congenital anomalies and dysmorphic facies		MONDO:0019502
+MONDO:0981255	neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities	DOID:0070713	MONDO:equivalentTo	neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities		MONDO:0015802
+MONDO:0981256	neurodevelopmental disorder with structural brain abnormalities and craniofacial abnormalities	DOID:0070714	MONDO:equivalentTo	neurodevelopmental disorder with structural brain abnormalities and craniofacial abnormalities		MONDO:0002320|MONDO:0006025
+MONDO:0981257	ramond-elliott neurodevelopmental syndrome	DOID:0070715	MONDO:equivalentTo	Ramond-Elliott neurodevelopmental syndrome		MONDO:0015802
+MONDO:0981258	progressive microcephaly with simplified gyral pattern and cerebellar hypoplasia	DOID:0070716	MONDO:equivalentTo	progressive microcephaly with simplified gyral pattern and cerebellar hypoplasia		MONDO:0002320|MONDO:0000426
+MONDO:0981259	developmental delay with sleep apnea	DOID:0070717	MONDO:equivalentTo	developmental delay with sleep apnea		MONDO:0015802
+MONDO:0981260	neurodevelopmental disorder with behavioral abnormalities and childhood-onset spastic paraplegia	DOID:0070718	MONDO:equivalentTo	neurodevelopmental disorder with behavioral abnormalities and childhood-onset spastic paraplegia		MONDO:0019064|MONDO:0006025
+MONDO:0981261	neurocardiorenal malformation syndrome	DOID:0070719	MONDO:equivalentTo	neurocardiorenal malformation syndrome		MONDO:0000839|MONDO:0006025
+MONDO:0981262	immune dysregulation, neurodevelopmental defects, and colitis	DOID:0070720	MONDO:equivalentTo	immune dysregulation, neurodevelopmental defects, and colitis		MONDO:0000839|MONDO:0006025
+MONDO:0981263	valence-farazi cerebellar ataxia syndrome	DOID:0070721	MONDO:equivalentTo	Valence-Farazi cerebellar ataxia syndrome		MONDO:0015244
+MONDO:0981264	adult-onset leukoencephalopathy without lacunae	DOID:0070722	MONDO:equivalentTo	adult-onset leukoencephalopathy without lacunae		MONDO:0019046|MONDO:0000426
+MONDO:0981265	dyschromatosis, ichthyosis, deafness, and atopic disease	DOID:0070723	MONDO:equivalentTo	dyschromatosis, ichthyosis, deafness, and atopic disease		MONDO:0002254|MONDO:0006025
+MONDO:0981266	dental radicular dysplasia	DOID:0070724	MONDO:equivalentTo	dental radicular dysplasia		MONDO:0006858|MONDO:0000426
+MONDO:0981267	spermatogenic failure 96	DOID:0070725	MONDO:equivalentTo	spermatogenic failure 96		MONDO:0004983|MONDO:0006025
+MONDO:0981268	spermatogenic failure 97	DOID:0070726	MONDO:equivalentTo	spermatogenic failure 97		MONDO:0004983|MONDO:0006025
+MONDO:0981269	spermatogenic failure 98	DOID:0070727	MONDO:equivalentTo	spermatogenic failure 98		MONDO:0004983|MONDO:0006025
+MONDO:0981270	spermatogenic failure 99	DOID:0070728	MONDO:equivalentTo	spermatogenic failure 99		MONDO:0004983|MONDO:0006025
+MONDO:0981271	spermatogenic failure 100	DOID:0070729	MONDO:equivalentTo	spermatogenic failure 100		MONDO:0004983|MONDO:0006025
+MONDO:0981272	spermatogenic failure 101	DOID:0070730	MONDO:equivalentTo	spermatogenic failure 101		MONDO:0004983|MONDO:0006025
+MONDO:0981273	spermatogenic failure 102	DOID:0070731	MONDO:equivalentTo	spermatogenic failure 102		MONDO:0004983|MONDO:0006025
+MONDO:0981274	familial juvenile hyperuricemic nephropathy 3	DOID:0070732	MONDO:equivalentTo	familial juvenile hyperuricemic nephropathy 3		MONDO:0000608
+MONDO:0981275	multiple mitochondrial dysfunctions syndrome 7	DOID:0070733	MONDO:equivalentTo	multiple mitochondrial dysfunctions syndrome 7		MONDO:0017338|MONDO:0006025
+MONDO:0981276	episodic mitochondrial myopathy with optic atrophy and reversible leukoencephalopathy	DOID:0070734	MONDO:equivalentTo	episodic mitochondrial myopathy with optic atrophy and reversible leukoencephalopathy		MONDO:0006025|MONDO:0017338
+MONDO:0981277	auditory neuropathy and optic atrophy	DOID:0070735	MONDO:equivalentTo	auditory neuropathy and optic atrophy		MONDO:0002135|MONDO:0017338|MONDO:0006025|MONDO:0001563
+MONDO:0981278	multiple mitochondrial dysfunctions syndrome 9b	DOID:0070736	MONDO:equivalentTo	multiple mitochondrial dysfunctions syndrome 9B		MONDO:0017338|MONDO:0006025
+MONDO:0981279	multiple mitochondrial dysfunctions syndrome 10	DOID:0070737	MONDO:equivalentTo	multiple mitochondrial dysfunctions syndrome 10		MONDO:0006025|MONDO:0017338
+MONDO:0981280	al kaissi syndrome	DOID:0070738	MONDO:equivalentTo	Al Kaissi syndrome		MONDO:0019502
+MONDO:0981281	autosomal recessive neurodevelopmental disorder with or without hyperkinetic movements and seizures	DOID:0070739	MONDO:equivalentTo	autosomal recessive neurodevelopmental disorder with or without hyperkinetic movements and seizures		MONDO:0019502
+MONDO:0981282	cerebellar atrophy, developmental delay, and seizures	DOID:0070740	MONDO:equivalentTo	cerebellar atrophy, developmental delay, and seizures		MONDO:0019502
+MONDO:0981283	cerebellar atrophy with seizures and variable developmental delay	DOID:0070741	MONDO:equivalentTo	cerebellar atrophy with seizures and variable developmental delay		MONDO:0019502
+MONDO:0981284	combined immunodeficiency and megaloblastic anemia with or without hyperhomocysteinemia	DOID:0070742	MONDO:equivalentTo	combined immunodeficiency and megaloblastic anemia with or without hyperhomocysteinemia		MONDO:0006025|MONDO:0005528
+MONDO:0981285	congenital facial palsy with ptosis and velopharyngeal dysfunction	DOID:0070743	MONDO:equivalentTo	congenital facial palsy with ptosis and velopharyngeal dysfunction		MONDO:0002254|MONDO:0000426
+MONDO:0981286	early childhood-onset progressive leukodystrophy	DOID:0070744	MONDO:equivalentTo	early childhood-onset progressive leukodystrophy		MONDO:0019046|MONDO:0006025
+MONDO:0981287	early-onset progressive encephalopathy with brain atrophy and spasticity	DOID:0070745	MONDO:equivalentTo	early-onset progressive encephalopathy with brain atrophy and spasticity		MONDO:0019502
+MONDO:0981288	helix syndrome	DOID:0070746	MONDO:equivalentTo	HELIX syndrome		MONDO:0006025|MONDO:0002254
+MONDO:0981289	immunodeficiency, developmental delay, and hypohomocysteinemia	DOID:0070747	MONDO:equivalentTo	immunodeficiency, developmental delay, and hypohomocysteinemia		MONDO:0015802
+MONDO:0981290	joint laxity, short stature, and myopia	DOID:0070748	MONDO:equivalentTo	joint laxity, short stature, and myopia		MONDO:0002254|MONDO:0006025
+MONDO:0981291	mendez-johnson immunoneurologic syndrome	DOID:0070749	MONDO:equivalentTo	Mendez-Johnson immunoneurologic syndrome		MONDO:0002254|MONDO:0006025
+MONDO:0981292	mitochondrial myopathy and ataxia	DOID:0070750	MONDO:equivalentTo	mitochondrial myopathy and ataxia		MONDO:0009637|MONDO:0018158|MONDO:0006025
+MONDO:0981293	mitochondrial neurodevelopmental disorder with abnormal movements and lactic acidosis, with or without seizures	DOID:0070751	MONDO:equivalentTo	mitochondrial neurodevelopmental disorder with abnormal movements and lactic acidosis, with or without seizures		MONDO:0019502
+MONDO:0981294	neonatal severe encephalopathy with lactic acidosis and brain abnormalities	DOID:0070752	MONDO:equivalentTo	neonatal severe encephalopathy with lactic acidosis and brain abnormalities		MONDO:0006025|MONDO:0004069
+MONDO:0981295	neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter	DOID:0070753	MONDO:equivalentTo	neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter		MONDO:0015802
+MONDO:0981296	neurodevelopmental disorder with microcephaly, ataxia, and seizures	DOID:0070754	MONDO:equivalentTo	neurodevelopmental disorder with microcephaly, ataxia, and seizures		MONDO:0019502
+MONDO:0981297	neurodevelopmental disorder with microcephaly, seizures, and cortical atrophy	DOID:0070755	MONDO:equivalentTo	neurodevelopmental disorder with microcephaly, seizures, and cortical atrophy		MONDO:0019502
+MONDO:0981298	neurodevelopmental disorder with variable motor and speech impairment	DOID:0070756	MONDO:equivalentTo	neurodevelopmental disorder with variable motor and speech impairment		MONDO:0015802
+MONDO:0981299	pilarowski-bjornsson syndrome	DOID:0070757	MONDO:equivalentTo	Pilarowski-Bjornsson syndrome		MONDO:0015802
+MONDO:0981300	autosomal recessive progressive external ophthalmoplegia with mitochondrial dna deletions 6	DOID:0070759	MONDO:equivalentTo	autosomal recessive progressive external ophthalmoplegia with mitochondrial DNA deletions 6		MONDO:0005181
+MONDO:0981301	recurrent respiratory papillomatosis	DOID:0081463	MONDO:equivalentTo	recurrent respiratory papillomatosis		MONDO:0002363|MONDO:0005161|MONDO:0000382

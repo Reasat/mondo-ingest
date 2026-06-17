@@ -12,8 +12,6 @@ APC-related attenuated FAP	MONDO:0016362	Orphanet:220460	added
 APC-related attenuated FAP	MONDO:0016613		unconfirmed		
 APC-related attenuated familial polyposis coli	MONDO:0016362	Orphanet:220460	added		
 APC-related attenuated familial polyposis coli	MONDO:0016613		unconfirmed		
-Abdominal obesity-metabolic syndrome	MONDO:0000816	OMIMPS:605552	added		
-Abdominal obesity-metabolic syndrome	MONDO:0011566		unconfirmed		
 Accessory tricuspid valve tissue	MONDO:0009144	icd11.foundation:307157712	added		
 Accessory tricuspid valve tissue	MONDO:0019815	Orphanet:95462	added		
 Ackerman syndrome	MONDO:0008706	OMIM:200970	confirmed		
@@ -69,8 +67,6 @@ Au-Kline syndrome	MONDO:0018681	Orphanet:453499	added
 Au-Kline syndrome	MONDO:0018681	Orphanet:453499	added		MONDO:0014700
 Autistic disorder	MONDO:0005258	icd11.foundation:437815624	added		
 Autistic disorder	MONDO:0005260	ICD10CM:F84.0	added		
-Autoinflammation, panniculitis, and dermatosis syndrome	MONDO:0014912		unconfirmed		
-Autoinflammation, panniculitis, and dermatosis syndrome	MONDO:0975955	OMIMPS:617099	added		
 Axenfeld syndrome	MONDO:0019187	DOID:14686	confirmed		
 Axenfeld syndrome	MONDO:0019187	Orphanet:782	confirmed		
 Axenfeld syndrome	MONDO:0020368	icd11.foundation:1703498511	added		
@@ -122,9 +118,6 @@ Charcot-Marie-Tooth disease	MONDO:0015626	OMIMPS:118220	confirmed
 Chilblain lupus	MONDO:0018827	OMIMPS:610448	added		
 Chilblain lupus	MONDO:0019557	DOID:0060386	added		
 Chilblain lupus	MONDO:0019557	Orphanet:90280	added		
-Chronic Eosinophilic Pneumonia	MONDO:0004806	NCIT:C34471	added		
-Chronic Eosinophilic Pneumonia	MONDO:0017363	NORD:967	unconfirmed		
-Chronic Eosinophilic Pneumonia	MONDO:0017363	Orphanet:2902	confirmed		
 Clear cell carcinoma	MONDO:0005004	NCIT:C3766	added		
 Clear cell carcinoma	MONDO:0006191	NCIT:C8028	added		
 Closed spina bifida	MONDO:0000859	Orphanet:645202	added		
@@ -168,8 +161,6 @@ Eales disease	MONDO:0006950	ICD10CM:H35.06	added		MONDO:0018460
 Eales disease	MONDO:0018460	Orphanet:40923	added		
 Eales disease	MONDO:0018460	icd11.foundation:945788847	added		
 Emery-Dreifuss muscular dystrophy 6, X-linked	MONDO:0010401	icd11.foundation:420677690	added		MONDO:0800318
-Epilepsy of infancy with migrating focal seizures	MONDO:0017385	Orphanet:293181	added		
-Epilepsy of infancy with migrating focal seizures	MONDO:0100025	icd11.foundation:1727727812	added		
 Erythroleukemia	MONDO:0017858	ICD10CM:C94.0	added		
 Erythroleukemia	MONDO:0017858	Orphanet:318	added		
 Erythroleukemia	MONDO:0859598	NCIT:C7152	added		
@@ -249,10 +240,6 @@ Hypomelanosis of Ito	MONDO:0010302	DOID:3156	confirmed
 Hypomelanosis of Ito	MONDO:0010302	NORD:1274	unconfirmed		
 Hypomelanosis of Ito	MONDO:0010302	OMIM:300337	confirmed		
 Hypomelanosis of Ito	MONDO:0016985	NCIT:C7582	added		
-Hypophosphatasia	MONDO:0009948	NORD:1276	unconfirmed		
-Hypophosphatasia	MONDO:0018570	NCIT:C26798	added		
-Hypophosphatasia	MONDO:0018570	Orphanet:436	added		
-Hypophosphatasia	MONDO:0018570	icd11.foundation:422012968	added		
 Idiopathic torsion dystonia	MONDO:0007492	Orphanet:256	added		
 Idiopathic torsion dystonia	MONDO:0044811	NCIT:C34564	confirmed		
 IgA nephropathy	MONDO:0005342	DOID:2986	confirmed		
@@ -292,8 +279,6 @@ Knobloch syndrome	MONDO:0800166	OMIMPS:267750	added
 Knobloch syndrome	MONDO:0800166	icd11.foundation:1664056510	added		
 Knobloch syndrome	MONDO:0800167	Orphanet:1571	added		
 Knobloch syndrome	MONDO:0800167	Orphanet:1571	added		MONDO:0800166
-Kocher-Debre-Semelaigne syndrome	MONDO:0016521		unconfirmed		
-Kocher-Debre-Semelaigne syndrome	MONDO:0023558	icd11.foundation:109007822	added		
 Koolen de Vries syndrome	MONDO:0012496		unconfirmed		
 Koolen de Vries syndrome	MONDO:0018216	DOID:0050880	added		
 Korean hemorrhagic fever	MONDO:0000283	DOID:0050200	added		
@@ -342,12 +327,15 @@ Multicystic dysplastic kidney	MONDO:0015988	icd11.foundation:1178642763	added
 Multicystic dysplastic kidney	MONDO:0019638	ICD10CM:Q61.4	added		
 Multiple congenital anomalies-hypotonia-seizures syndrome	MONDO:0013563	Orphanet:280633	added		
 Multiple congenital anomalies-hypotonia-seizures syndrome	MONDO:0100247	OMIMPS:614080	added		
-Myotonic Dystrophy	MONDO:0008056	NORD:1075	unconfirmed		
-Myotonic Dystrophy	MONDO:0016107	NCIT:C84914	added		
 NAO syndrome	MONDO:0009809	OMIM:259600	confirmed		
 NAO syndrome	MONDO:0018298	Orphanet:371428	added		
 NET of the colon	MONDO:0002882	Orphanet:100080	added		
 NET of the colon	MONDO:0015067		unconfirmed		
+NR4A2-related neurodevelopmental syndrome	MONDO:0859257	Orphanet:660017	unconfirmed		
+NR4A2-related neurodevelopmental syndrome	MONDO:0859257	PMID:33585677	unconfirmed		
+NR4A2-related neurodevelopmental syndrome	MONDO:0859257	PMID:41019763	unconfirmed		
+NR4A2-related neurodevelopmental syndrome	MONDO:0859257	https://orcid.org/0000-0001-9310-0163	unconfirmed		
+NR4A2-related neurodevelopmental syndrome	MONDO:0971062	Orphanet:660012	added		
 Narcolepsy	MONDO:0021107	ICD10CM:G47.41	added		
 Narcolepsy	MONDO:0021107	NCIT:C84489	added		
 Narcolepsy	MONDO:0021107	Orphanet:619284	added		
@@ -414,12 +402,6 @@ Primary orthostatic hypotension	MONDO:0005469	icd11.foundation:56009591	added
 Primary orthostatic hypotension	MONDO:0015914	Orphanet:182058	added		
 Primary progressive aphasia	MONDO:0008243	ICD10CM:G31.01	added		
 Primary progressive aphasia	MONDO:0019806	Orphanet:95432	added		
-Primary sclerosing cholangitis	MONDO:0013433	ICD10CM:K83.01	added		
-Primary sclerosing cholangitis	MONDO:0013433	Orphanet:171	added		
-Primary sclerosing cholangitis	MONDO:0013433	icd11.foundation:857962451	added		
-Primary sclerosing cholangitis	MONDO:0018646	NCIT:C4828	confirmed		
-Proctitis	MONDO:0005538	NCIT:C38011	added		
-Proctitis	MONDO:0019084	NORD:1615	unconfirmed		
 Purpura fulminans	MONDO:0000809	icd11.foundation:1293848111	added		
 Purpura fulminans	MONDO:0001243	ICD10CM:D65	added		
 Restless legs syndrome	MONDO:0005391	ICD10CM:G25.81	added		
@@ -450,8 +432,6 @@ Secondary hypertension	MONDO:0001200	icd11.foundation:1331849426	added
 Secondary hypertension	MONDO:0005044	ICD10CM:I15	added		
 Secondary short bowel syndrome	MONDO:0015183	icd11.foundation:780637678	added		
 Secondary short bowel syndrome	MONDO:0019802	Orphanet:95427	added		
-Sheehan Syndrome	MONDO:0017844	NORD:1707	unconfirmed		
-Sheehan Syndrome	MONDO:0019618	NCIT:C35300	added		
 Sheehan's syndrome	MONDO:0005152	ICD10CM:E23.0	added		
 Sheehan's syndrome	MONDO:0019618	DOID:9476	confirmed		
 Sheehan's syndrome	MONDO:0019618	NCIT:C35300	confirmed		
@@ -472,8 +452,6 @@ Smoldering systemic mastocytosis	MONDO:0015557	Orphanet:158775	added
 Smoldering systemic mastocytosis	MONDO:0016586	ICD10CM:D47.02	added		
 Spielmeyer-Vogt disease	MONDO:0016295	ICD10CM:E75.4	added		
 Spielmeyer-Vogt disease	MONDO:0019262	icd11.foundation:1716107919	confirmed		
-Spinal Muscular Atrophy	MONDO:0001516	NCIT:C85075	added		
-Spinal Muscular Atrophy	MONDO:0019079	NORD:1729	unconfirmed		
 Spondyloepiphyseal dysplasia, Nishimura type	MONDO:0011261	Orphanet:163649	added		
 Spondyloepiphyseal dysplasia, Nishimura type	MONDO:0032835	icd11.foundation:523290419	added		
 Steinert disease	MONDO:0008056	DOID:11722	confirmed		
@@ -511,10 +489,6 @@ Tibial muscular dystrophy	MONDO:0010870	Orphanet:609	added
 Tibial muscular dystrophy	MONDO:0011721	icd11.foundation:651559966	added		
 Toxic epidermal necrolysis	MONDO:0018890	Orphanet:537	added		
 Toxic epidermal necrolysis	MONDO:0019810	icd11.foundation:1575072695	added		
-Trachoma	MONDO:0001249	ICD10CM:A71	added		
-Trachoma	MONDO:0001249	ICD10WHO:A71	added		
-Trachoma	MONDO:0001249	icd11.foundation:372424530	added		
-Trachoma	MONDO:0005808		unconfirmed		
 Treacher Collins syndrome	MONDO:0002457	DOID:2908	confirmed		
 Treacher Collins syndrome	MONDO:0002457	NCIT:C75018	confirmed		
 Treacher Collins syndrome	MONDO:0002457	OMIMPS:154500	confirmed		
@@ -528,8 +502,6 @@ Tyrosinosis	MONDO:0010161	icd11.foundation:2029519782	added		MONDO:0010163
 Tyrosinosis	MONDO:0010163	OMIM:276800	confirmed		
 Undetermined colitis	MONDO:0006038	icd11.foundation:553916326	added		
 Undetermined colitis	MONDO:0015176	Orphanet:103920	added		
-Vesicoureteral reflux	MONDO:0008653		unconfirmed		
-Vesicoureteral reflux	MONDO:0017329	OMIMPS:193000	added		
 Vibratory urticaria	MONDO:0006618	ICD10CM:L50.4	added		
 Vibratory urticaria	MONDO:0007447	Orphanet:493342	added		
 WDHA syndrome	MONDO:0004058	NCIT:C3488	confirmed		
@@ -619,9 +591,7 @@ amastia	MONDO:0007238	NCIT:C118459	confirmed
 amastia	MONDO:0100490	OMIM:113700	added		
 amastia	MONDO:0100490	OMIM:113700	added		MONDO:0007238
 ampulla of Vater cancer	MONDO:0000919	DOID:10020	added		
-ampulla of Vater cancer	MONDO:0017590	DOID:4932	confirmed		
-ampulla of Vater cancer	MONDO:0017590	NCIT:C3908	confirmed		
-ampulla of Vater cancer	MONDO:0017590	icd11.foundation:267067189	confirmed		
+ampulla of Vater cancer	MONDO:0017590	icd11.foundation:267067189	added		
 amyloidosis cutis dyschromica	MONDO:0017906	DOID:0080932	confirmed		
 amyloidosis cutis dyschromica	MONDO:0017906	Orphanet:319635	confirmed		
 amyloidosis cutis dyschromica	MONDO:0054765	OMIM:617920	added		
@@ -943,6 +913,7 @@ diabetes insipidus	MONDO:0015790	icd11.foundation:1009553897	added		MONDO:000478
 dialysis-related amyloidosis	MONDO:0018590	DOID:0080928	added		
 dialysis-related amyloidosis	MONDO:0019440	GARD:0010563	unconfirmed		
 dialysis-related amyloidosis	MONDO:0019440	Orphanet:85446	confirmed		
+diffuse midline glioma, H3 K27-altered	MONDO:0957196	DOID:0080684	added		MONDO:1060171
 digital anomalies with short palpebral fissures and atresia of esophagus or duodenum	MONDO:0008115	OMIM:164280	added		
 digital anomalies with short palpebral fissures and atresia of esophagus or duodenum	MONDO:0015267	DOID:0060464	confirmed		
 digital anomalies with short palpebral fissures and atresia of esophagus or duodenum	MONDO:0015267	Orphanet:1305	confirmed		
@@ -974,8 +945,6 @@ dopa-responsive dystonia	MONDO:0007495	DOID:0090043	added		MONDO:0016812
 dopa-responsive dystonia	MONDO:0016812	NCIT:C116719	confirmed		
 dopa-responsive dystonia	MONDO:0016812	Orphanet:255	confirmed		
 dopa-responsive dystonia	MONDO:0016812	icd11.foundation:1534901505	confirmed		
-dopamine transporter deficiency syndrome	MONDO:0013150	Orphanet:238455	confirmed		
-dopamine transporter deficiency syndrome	MONDO:0054835	OMIM:613135	added		
 dysequilibrium syndrome	MONDO:0009133	GARD:0001998	unconfirmed		
 dysequilibrium syndrome	MONDO:0009133	Orphanet:1766	confirmed		
 dysequilibrium syndrome	MONDO:0024542	OMIM:224050	added		
@@ -1159,6 +1128,12 @@ hemochromatosis, hereditary	MONDO:0021001	OMIM:235200	added
 hemoglobinopathy	MONDO:0019050	DOID:2860	added		
 hemoglobinopathy	MONDO:0019050	DOID:2860	added		MONDO:0044348
 hemoglobinopathy	MONDO:0044348		unconfirmed		
+hepatoma	MONDO:0007256	DOID:684	confirmed		
+hepatoma	MONDO:0007256	ICD10CM:C22.0	confirmed		
+hepatoma	MONDO:0007256	NCIT:C3099	confirmed		
+hepatoma	MONDO:0007256	OMIM:114550	confirmed		
+hepatoma	MONDO:0007256	https://orcid.org/0000-0002-6601-2165	unconfirmed		
+hepatoma	MONDO:1015242	VeNom:966	unconfirmed		
 hepatorenal glycogenosis	MONDO:0002413	Orphanet:364	confirmed		
 hepatorenal glycogenosis	MONDO:0009287	OMIM:232200	added		
 hereditary motor neuron disease	MONDO:0020128	icd11.foundation:661720689	added		
@@ -1537,6 +1512,8 @@ osteosclerotic myeloma	MONDO:0017364	Orphanet:2905	confirmed
 osteosclerotic myeloma	MONDO:0017364	icd11.foundation:1555299114	confirmed		
 ostium primum atrial septal defect	MONDO:0020290	ICD10CM:Q21.2	added		
 ostium primum atrial septal defect	MONDO:0020437	icd11.foundation:1159570489	added		
+otitis	MONDO:0021666		unconfirmed		
+otitis	MONDO:1013050	VeNom:1576	unconfirmed		
 otitis media with effusion	MONDO:0001212	icd11.foundation:800153181	added		MONDO:0005892
 otospondylomegaepiphyseal dysplasia, autosomal recessive	MONDO:0008975	DOID:0080026	added		
 otospondylomegaepiphyseal dysplasia, autosomal recessive	MONDO:0008975	DOID:0080026	added		MONDO:0044206
@@ -1819,7 +1796,7 @@ sclerosing cholangitis	MONDO:0013433	icd11.foundation:857962451	added
 sclerosing cholangitis	MONDO:0013433	icd11.foundation:857962451	added		MONDO:0018646
 sclerosing cholangitis	MONDO:0018646	DOID:14268	confirmed		
 sclerosing cholangitis	MONDO:0018646	MONDO:ambiguous	unconfirmed		
-sclerosing cholangitis	MONDO:0018646	NCIT:C4828	confirmed		
+sclerosing cholangitis	MONDO:0018646	NCIT:C4828	unconfirmed		
 sclerosing cholangitis	MONDO:0018646	Orphanet:447771	confirmed		
 secondary hypogonadism	MONDO:0005152	icd11.foundation:768216194	added		
 secondary hypogonadism	MONDO:0018555	NCIT:C113347	confirmed		

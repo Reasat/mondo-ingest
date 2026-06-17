@@ -145,7 +145,6 @@ MONDO:0010857	semantic dementia	skos:closeMatch	NCIT:C84719	Frontotemporal Demen
 MONDO:0011655	alveolar soft part sarcoma	skos:closeMatch	NCIT:C8092	Childhood Alveolar Soft Part Sarcoma	semapv:LexicalMatching	oaklib	0.5	oio:hasNarrowSynonym	oio:hasExactSynonym	childhood alveolar soft part sarcoma	LEXMATCH
 MONDO:0011655	alveolar soft part sarcoma	skos:closeMatch	NCIT:C8092	Childhood Alveolar Soft Part Sarcoma	semapv:LexicalMatching	oaklib	0.5	oio:hasNarrowSynonym	oio:hasExactSynonym	pediatric alveolar soft part sarcoma	LEXMATCH
 MONDO:0011655	alveolar soft part sarcoma	skos:closeMatch	NCIT:C8092	Childhood Alveolar Soft Part Sarcoma	semapv:LexicalMatching	oaklib	0.5	oio:hasNarrowSynonym	rdfs:label	childhood alveolar soft part sarcoma	LEXMATCH
-MONDO:0011655	alveolar soft part sarcoma	skos:closeMatch	NCIT:C8092	Childhood Alveolar Soft Part Sarcoma	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	alveolar soft part sarcoma	LEXMATCH
 MONDO:0011786	allergic rhinitis	skos:closeMatch	NCIT:C92188	Seasonal Allergic Rhinitis	semapv:LexicalMatching	oaklib	0.5	oio:hasNarrowSynonym	oio:hasExactSynonym	seasonal allergic rhinitis	LEXMATCH
 MONDO:0011786	allergic rhinitis	skos:closeMatch	NCIT:C92188	Seasonal Allergic Rhinitis	semapv:LexicalMatching	oaklib	0.5	oio:hasNarrowSynonym	rdfs:label	seasonal allergic rhinitis	LEXMATCH
 MONDO:0011786	allergic rhinitis	skos:closeMatch	NCIT:C92189	Perennial Allergic Rhinitis	semapv:LexicalMatching	oaklib	0.5	oio:hasNarrowSynonym	oio:hasExactSynonym	non-seasonal allergic rhinitis	LEXMATCH
@@ -187,7 +186,6 @@ MONDO:0020316	acute myeloid leukemia with abnormal bone marrow eosinophils inv(1
 MONDO:0021636	astrocytic tumor	skos:closeMatch	NCIT:C124275	Childhood Astrocytoma	semapv:LexicalMatching	oaklib	0.5	oio:hasNarrowSynonym	oio:hasExactSynonym	astrocytoma	LEXMATCH
 MONDO:0021657	ovarian sex cord-stromal tumor	skos:closeMatch	NCIT:C4208	Ovarian Sex Cord Tumor with Annular Tubules	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	ovarian sex cord tumor with annular tubules	LEXMATCH
 MONDO:0021657	ovarian sex cord-stromal tumor	skos:closeMatch	NCIT:C4208	Ovarian Sex Cord Tumor with Annular Tubules	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	rdfs:label	ovarian sex cord tumor with annular tubules	LEXMATCH
-MONDO:0023161	viral myocarditis	skos:closeMatch	NCIT:C91441	Viral Myocarditis Pathway	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	viral myocarditis	LEXMATCH
 MONDO:0024300	hypophosphatemic rickets	skos:closeMatch	NCIT:C85234	X-Linked Dominant Hypophosphatemic Rickets	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	hypophosphatemic vitamin d-resistant rickets	LEXMATCH
 MONDO:0024300	hypophosphatemic rickets	skos:closeMatch	NCIT:C85234	X-Linked Dominant Hypophosphatemic Rickets	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	vitamin d-resistant rickets	LEXMATCH
 MONDO:0043251	odontoma	skos:closeMatch	NCIT:C3710	Ameloblastic Fibro-Odontoma	semapv:LexicalMatching	oaklib	0.5	oio:hasRelatedSynonym	oio:hasExactSynonym	ameloblastic fibro-odontoma	LEXMATCH

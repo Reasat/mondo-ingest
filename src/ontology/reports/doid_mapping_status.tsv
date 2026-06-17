@@ -1,10 +1,18 @@
 subject_id	subject_label	is_mapped	is_excluded	is_deprecated
 DOID:0050457	Sertoli cell-only syndrome	False	False	False
 DOID:0051078	congenital anomalies of the kidney and urinary tract 3	False	False	False
-DOID:0051079	monogenic chronic kidney disease	False	False	False
 DOID:0051080	Alport syndrome 3B	False	False	False
 DOID:0051081	polycystic kidney disease 8	False	False	False
 DOID:0051082	Parkinson's disease 27	False	False	False
+DOID:0051083	developmental and epileptic encephalopathy 111	False	False	False
+DOID:0051084	developmental and epileptic encephalopathy 112	False	False	False
+DOID:0051085	developmental and epileptic encephalopathy 113	False	False	False
+DOID:0051086	developmental and epileptic encephalopathy 114	False	False	False
+DOID:0051087	developmental and epileptic encephalopathy 115	False	False	False
+DOID:0051088	developmental and epileptic encephalopathy 119	False	False	False
+DOID:0051089	developmental and epileptic encephalopathy 120	False	False	False
+DOID:0051090	developmental and epileptic encephalopathy 121	False	False	False
+DOID:0051091	developmental and epileptic encephalopathy 122	False	False	False
 DOID:0060160	childhood spinal muscular atrophy	False	False	False
 DOID:0060854	autosomal recessive pseudohypoaldosteronism type 1	False	False	False
 DOID:0061212	hypocholesteremia	False	False	False
@@ -54,7 +62,63 @@ DOID:0070700	Luo-Agrawal neurodevelopmental syndrome	False	False	False
 DOID:0070701	small fiber neuropathy	False	False	False
 DOID:0070702	measles inclusion body encephalitis	False	False	False
 DOID:0070703	Meckel syndrome 14	False	False	False
+DOID:0070704	dentin dysplasia type IA	False	False	False
+DOID:0070705	dentin dysplasia type IB	False	False	False
+DOID:0070706	dentin dysplasia type IC	False	False	False
+DOID:0070707	dentin dysplasia type II	False	False	False
+DOID:0070708	dentin dysplasia with sclerotic bones	False	False	False
+DOID:0070709	Popov-Chang syndrome	False	False	False
+DOID:0070710	neurodevelopmental disorder with speech delay and behavioral abnormalities	False	False	False
+DOID:0070711	Harel-Tora neurodevelopmental syndrome	False	False	False
+DOID:0070712	developmental delay with variable cardiac and renal congenital anomalies and dysmorphic facies	False	False	False
+DOID:0070713	neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities	False	False	False
+DOID:0070714	neurodevelopmental disorder with structural brain abnormalities and craniofacial abnormalities	False	False	False
+DOID:0070715	Ramond-Elliott neurodevelopmental syndrome	False	False	False
+DOID:0070716	progressive microcephaly with simplified gyral pattern and cerebellar hypoplasia	False	False	False
+DOID:0070717	developmental delay with sleep apnea	False	False	False
+DOID:0070718	neurodevelopmental disorder with behavioral abnormalities and childhood-onset spastic paraplegia	False	False	False
+DOID:0070719	neurocardiorenal malformation syndrome	False	False	False
+DOID:0070720	immune dysregulation, neurodevelopmental defects, and colitis	False	False	False
+DOID:0070721	Valence-Farazi cerebellar ataxia syndrome	False	False	False
+DOID:0070722	adult-onset leukoencephalopathy without lacunae	False	False	False
+DOID:0070723	dyschromatosis, ichthyosis, deafness, and atopic disease	False	False	False
+DOID:0070724	dental radicular dysplasia	False	False	False
+DOID:0070725	spermatogenic failure 96	False	False	False
+DOID:0070726	spermatogenic failure 97	False	False	False
+DOID:0070727	spermatogenic failure 98	False	False	False
+DOID:0070728	spermatogenic failure 99	False	False	False
+DOID:0070729	spermatogenic failure 100	False	False	False
+DOID:0070730	spermatogenic failure 101	False	False	False
+DOID:0070731	spermatogenic failure 102	False	False	False
+DOID:0070732	familial juvenile hyperuricemic nephropathy 3	False	False	False
+DOID:0070733	multiple mitochondrial dysfunctions syndrome 7	False	False	False
+DOID:0070734	episodic mitochondrial myopathy with optic atrophy and reversible leukoencephalopathy	False	False	False
+DOID:0070735	auditory neuropathy and optic atrophy	False	False	False
+DOID:0070736	multiple mitochondrial dysfunctions syndrome 9B	False	False	False
+DOID:0070737	multiple mitochondrial dysfunctions syndrome 10	False	False	False
+DOID:0070738	Al Kaissi syndrome	False	False	False
+DOID:0070739	autosomal recessive neurodevelopmental disorder with or without hyperkinetic movements and seizures	False	False	False
+DOID:0070740	cerebellar atrophy, developmental delay, and seizures	False	False	False
+DOID:0070741	cerebellar atrophy with seizures and variable developmental delay	False	False	False
+DOID:0070742	combined immunodeficiency and megaloblastic anemia with or without hyperhomocysteinemia	False	False	False
+DOID:0070743	congenital facial palsy with ptosis and velopharyngeal dysfunction	False	False	False
+DOID:0070744	early childhood-onset progressive leukodystrophy	False	False	False
+DOID:0070745	early-onset progressive encephalopathy with brain atrophy and spasticity	False	False	False
+DOID:0070746	HELIX syndrome	False	False	False
+DOID:0070747	immunodeficiency, developmental delay, and hypohomocysteinemia	False	False	False
+DOID:0070748	joint laxity, short stature, and myopia	False	False	False
+DOID:0070749	Mendez-Johnson immunoneurologic syndrome	False	False	False
+DOID:0070750	mitochondrial myopathy and ataxia	False	False	False
+DOID:0070751	mitochondrial neurodevelopmental disorder with abnormal movements and lactic acidosis, with or without seizures	False	False	False
+DOID:0070752	neonatal severe encephalopathy with lactic acidosis and brain abnormalities	False	False	False
+DOID:0070753	neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter	False	False	False
+DOID:0070754	neurodevelopmental disorder with microcephaly, ataxia, and seizures	False	False	False
+DOID:0070755	neurodevelopmental disorder with microcephaly, seizures, and cortical atrophy	False	False	False
+DOID:0070756	neurodevelopmental disorder with variable motor and speech impairment	False	False	False
+DOID:0070757	Pilarowski-Bjornsson syndrome	False	False	False
+DOID:0070759	autosomal recessive progressive external ophthalmoplegia with mitochondrial DNA deletions 6	False	False	False
 DOID:0081462	Zeitz-Han retinal dystrophy	False	False	False
+DOID:0081463	recurrent respiratory papillomatosis	False	False	False
 DOID:0111368	cholesterol-ester transfer protein deficiency	False	False	False
 DOID:146	papilledema	False	False	False
 DOID:2536	chronic inflammatory demyelinating polyneuritis	False	False	False
@@ -481,6 +545,7 @@ DOID:0050819	obsolete Matthew-Wood syndrome	False	True	True
 DOID:0050875	obsolete small cell neuroendocrine carcinoma of the lung	False	True	True
 DOID:0050878	obsolete CLONE OF congenital afibrinogenemia	False	True	True
 DOID:0050966	obsolete spinocerebellar ataxia type 16	False	True	True
+DOID:0051079	obsolete monogenic chronic kidney disease	False	True	True
 DOID:0060006	obsolete artemis deficiency	False	True	True
 DOID:0060015	obsolete interleukin-7 receptor alpha deficiency	False	True	True
 DOID:0060035	obsolete medical disorder	False	True	True
@@ -4560,7 +4625,7 @@ DOID:0070034	autosomal dominant intellectual developmental disorder 4	True	False
 DOID:0070035	autosomal dominant intellectual developmental disorder 5	True	False	False
 DOID:0070036	autosomal dominant intellectual developmental disorder 6	True	False	False
 DOID:0070037	autosomal dominant intellectual developmental disorder 7	True	False	False
-DOID:0070038	autosomal dominant intellectual developmental disorder 8	True	False	False
+DOID:0070038	autosomal dominant neurodevelopmental disorder with or without hyperkinetic movements and seizures	True	False	False
 DOID:0070039	NESCAV syndrome	True	False	False
 DOID:0070040	autosomal dominant intellectual developmental disorder 10	True	False	False
 DOID:0070041	autosomal dominant intellectual developmental disorder 11	True	False	False
@@ -5366,7 +5431,7 @@ DOID:0080200	bilateral renal aplasia	True	False	False
 DOID:0080201	Peters plus syndrome	True	False	False
 DOID:0080202	adenoid cystic carcinoma	True	False	False
 DOID:0080204	renal hypoplasia	True	False	False
-DOID:0080205	congenital anomalies of kidney and urinary tract	True	False	False
+DOID:0080205	congenital anomalies of the kidney and urinary tract	True	False	False
 DOID:0080206	congenital anomalies of the kidney and urinary tract 1	True	False	False
 DOID:0080207	congenital anomalies of the kidney and urinary tract 2	True	False	False
 DOID:0080208	metabolic dysfunction-associated steatotic liver disease	True	False	False
@@ -5825,7 +5890,7 @@ DOID:0080680	neuronal intestinal dysplasia type B	True	False	False
 DOID:0080681	X-linked chronic idiopathic intestinal pseudo-obstruction	True	False	False
 DOID:0080682	autosomal dominant familial visceral neuropathy	True	False	False
 DOID:0080683	nonsyndromic congenital nail disorder	True	False	False
-DOID:0080684	diffuse midline glioma, H3 K27M-mutant	True	False	False
+DOID:0080684	diffuse midline glioma, H3 K27-altered	True	False	False
 DOID:0080686	tubular aggregate myopathy 2	True	False	False
 DOID:0080687	reducing body myopathy 1B	True	False	False
 DOID:0080688	mosaic variegated aneuploidy syndrome	True	False	False
@@ -6046,7 +6111,7 @@ DOID:0080918	polymicrogyria	True	False	False
 DOID:0080919	unilateral focal polymicrogyria	True	False	False
 DOID:0080920	bilateral generalized polymicrogyria	True	False	False
 DOID:0080921	bilateral frontal polymicrogyria	True	False	False
-DOID:0080922	bilateral frontoparietal polymicrogyria	True	False	False
+DOID:0080922	complex cortical dysplasia with other brain malformations 14A	True	False	False
 DOID:0080923	bilateral parasagittal parieto-occipital polymicrogyria	True	False	False
 DOID:0080924	complex cortical dysplasia with other brain malformations 14B	True	False	False
 DOID:0080925	cytochrome P450 oxidoreductase deficiency	True	False	False
@@ -6358,7 +6423,7 @@ DOID:0081262	intellectual developmental disorder with hypotonia, impaired speech
 DOID:0081263	neurodevelopmental disorder with microcephaly, cataracts, and renal abnormalities	True	False	False
 DOID:0081264	developmental delay, hypotrophy, and dysmorphic features without Moebius syndrome	True	False	False
 DOID:0081265	intellectual developmental disorder with abnormal behavior, microcephaly, and short stature	True	False	False
-DOID:0081266	pachygyria, microcephaly, developmental delay, and dysmorphic facies, with or without seizures	True	False	False
+DOID:0081266	complex cortical dysplasia with other brain malformations 15	True	False	False
 DOID:0081267	graft-versus-host disease	True	False	False
 DOID:0081268	pulmonary venoocclusive disease 1	True	False	False
 DOID:0081269	pulmonary venoocclusive disease 2	True	False	False
@@ -7352,7 +7417,7 @@ DOID:0110679	congenital myasthenic syndrome 4C	True	False	False
 DOID:0110680	congenital myasthenic syndrome 2C	True	False	False
 DOID:0110681	congenital myasthenic syndrome 2A	True	False	False
 DOID:0110682	congenital myasthenic syndrome 16	True	False	False
-DOID:0110683	congenital myasthenic syndrome 18	True	False	False
+DOID:0110683	developmental and epileptic encephalopathy 117	True	False	False
 DOID:0110698	hypotrichosis 1	True	False	False
 DOID:0110699	hypotrichosis 2	True	False	False
 DOID:0110700	hypotrichosis 3	True	False	False

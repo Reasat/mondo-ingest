@@ -10,7 +10,6 @@ MONDO:0000873	lymphoblastic lymphoma	skos:exactMatch	NCIT:C9124	Childhood Lympho
 MONDO:0000873	lymphoblastic lymphoma	skos:exactMatch	NCIT:C9124	Childhood Lymphoblastic Lymphoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	lymphoblastic lymphoma	LEXMATCH
 MONDO:0000873	lymphoblastic lymphoma	skos:exactMatch	NCIT:C9361	Adult Lymphoblastic Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	lymphoblastic lymphoma	LEXMATCH
 MONDO:0000873	lymphoblastic lymphoma	skos:exactMatch	NCIT:C9361	Adult Lymphoblastic Lymphoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	lymphoblastic lymphoma	LEXMATCH
-MONDO:0000874	T-cell childhood lymphoblastic lymphoma	skos:exactMatch	NCIT:C7226	Adult T Lymphoblastic Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	t lymphoblastic lymphoma	LEXMATCH
 MONDO:0000950	asthenopia	skos:exactMatch	NCIT:C217076	Eye Strain/Fatigue	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	asthenopia	LEXMATCH
 MONDO:0000992	heart conduction disease	skos:exactMatch	NCIT:C78245	Cardiac Conduction Disorder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cardiac conduction disorder	LEXMATCH
 MONDO:0000992	heart conduction disease	skos:exactMatch	NCIT:C78245	Cardiac Conduction Disorder	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cardiac conduction disorder	LEXMATCH
@@ -116,13 +115,11 @@ MONDO:0003510	malignant testicular germ cell tumor	skos:exactMatch	NCIT:C68628	C
 MONDO:0003510	malignant testicular germ cell tumor	skos:exactMatch	NCIT:C68628	Childhood Malignant Testicular Germ Cell Tumor	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	malignant testicular germ cell tumor	LEXMATCH
 MONDO:0003531	papillary eccrine carcinoma	skos:exactMatch	NCIT:C27527	Tubular Apocrine Adenoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	tubular apocrine adenoma	LEXMATCH
 MONDO:0003531	papillary eccrine carcinoma	skos:exactMatch	NCIT:C27527	Tubular Apocrine Adenoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	tubular apocrine adenoma	LEXMATCH
-MONDO:0003539	T-cell adult acute lymphocytic leukemia	skos:exactMatch	NCIT:C126112	Infant T Acute Lymphoblastic Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	t acute lymphoblastic leukemia	LEXMATCH
 MONDO:0003649	esophageal neuroendocrine tumor	skos:exactMatch	NCIT:C5821	Esophageal Neuroendocrine Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	esophageal neuroendocrine neoplasm	LEXMATCH
 MONDO:0003649	esophageal neuroendocrine tumor	skos:exactMatch	NCIT:C5821	Esophageal Neuroendocrine Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	neuroendocrine neoplasm of esophagus	LEXMATCH
 MONDO:0003649	esophageal neuroendocrine tumor	skos:exactMatch	NCIT:C5821	Esophageal Neuroendocrine Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	esophageal neuroendocrine neoplasm	LEXMATCH
 MONDO:0003671	septal myocardial infarction	skos:exactMatch	NCIT:C35519	Septal Myocardial Infarction by ECG Finding	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	septal myocardial infarction	LEXMATCH
 MONDO:0003723	obsolete blunt duct adenosis of breast	skos:exactMatch	NCIT:C6941	Breast Blunt Duct Adenosis	semapv:UnspecifiedMatching		0.5				MONDO_MAPPINGS
-MONDO:0003731	adult central nervous system teratoma	skos:exactMatch	NCIT:C6204	Childhood Central Nervous System Teratoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	central nervous system teratoma	LEXMATCH
 MONDO:0003792	ovarian carcinosarcoma	skos:exactMatch	NCIT:C223972	Ovarian Carcinosarcoma	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	ovarian carcinosarcoma	LEXMATCH
 MONDO:0003857	adult intracranial malignant hemangiopericytoma	skos:exactMatch	NCIT:C129527	Central Nervous System Solitary Fibrous Tumor, Grade 3	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	central nervous system solitary fibrous tumor/hemangiopericytoma, grade type 3	LEXMATCH
 MONDO:0003899	adult myxoid chondrosarcoma	skos:exactMatch	NCIT:C7924	Adult Extraskeletal Myxoid Chondrosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	adult myxoid chondrosarcoma	LEXMATCH
@@ -173,7 +170,6 @@ MONDO:0005058	leiomyosarcoma	skos:exactMatch	NCIT:C8093	Childhood Leiomyosarcoma
 MONDO:0005072	neuroblastoma	skos:exactMatch	NCIT:C124270	Childhood Neuroblastoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	neuroblastoma	LEXMATCH
 MONDO:0005072	neuroblastoma	skos:exactMatch	NCIT:C124270	Childhood Neuroblastoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	neuroblastoma	LEXMATCH
 MONDO:0005102	undifferentiated (embryonal) sarcoma	skos:exactMatch	NCIT:C121793	Undifferentiated Soft Tissue Sarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	undifferentiated sarcoma	LEXMATCH
-MONDO:0005103	well-differentiated liposarcoma	skos:exactMatch	NCIT:C176981	Atypical Lipomatous Tumor/Well Differentiated Liposarcoma of Deep Soft Tissue	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	well differentiated liposarcoma of deep soft tissue	LEXMATCH
 MONDO:0005112	malignant pleural mesothelioma	skos:exactMatch	NCIT:C222813	Pleural Diffuse Malignant Mesothelioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	pleural diffuse malignant mesothelioma	LEXMATCH
 MONDO:0005112	malignant pleural mesothelioma	skos:exactMatch	NCIT:C222813	Pleural Diffuse Malignant Mesothelioma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	pleural diffuse malignant mesothelioma	LEXMATCH
 MONDO:0005192	exocrine pancreatic carcinoma	skos:exactMatch	NCIT:C207229	Pancreatic Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	carcinoma of the pancreas	LEXMATCH
@@ -223,8 +219,6 @@ MONDO:0006717	cutaneous fibrous histiocytoma	skos:exactMatch	NCIT:C8402	Fibrohis
 MONDO:0006717	cutaneous fibrous histiocytoma	skos:exactMatch	NCIT:C8402	Fibrohistiocytic Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	fibrohistiocytic neoplasm	LEXMATCH
 MONDO:0006738	eccrine acrospiroma	skos:exactMatch	NCIT:C205462	Eccrine Poroma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	eccrine poroma	LEXMATCH
 MONDO:0006738	eccrine acrospiroma	skos:exactMatch	NCIT:C205462	Eccrine Poroma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	eccrine poroma	LEXMATCH
-MONDO:0006745	endometrioid stromal sarcoma	skos:exactMatch	NCIT:C84686	Empty Sella Syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	empty sella syndrome	LEXMATCH
-MONDO:0006745	endometrioid stromal sarcoma	skos:exactMatch	NCIT:C84686	Empty Sella Syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	empty sella syndrome	LEXMATCH
 MONDO:0006810	intracranial hypertension	skos:exactMatch	NCIT:C84791	Intracranial Hypertension	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	intracranial hypertension	LEXMATCH
 MONDO:0006947	renovascular hypertension	skos:exactMatch	NCIT:C85044	Renovascular Hypertension	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	renovascular hypertension	LEXMATCH
 MONDO:0006971	sigmoid neoplasm	skos:exactMatch	NCIT:C213279	Sigmoid Colon Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	sigmoid colon neoplasm	LEXMATCH
@@ -242,8 +236,6 @@ MONDO:0007667	subependymoma	skos:exactMatch	NCIT:C115623	Adult Subependymoma	sem
 MONDO:0007710	facial hemiatrophy	skos:exactMatch	NCIT:C84703	Facial Hemiatrophy	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	facial hemiatrophy	LEXMATCH
 MONDO:0007896	acute monocytic leukemia	skos:exactMatch	NCIT:C9163	Childhood Acute Monocytic Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute monocytic leukemia	LEXMATCH
 MONDO:0007896	acute monocytic leukemia	skos:exactMatch	NCIT:C9163	Childhood Acute Monocytic Leukemia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	acute monocytic leukemia	LEXMATCH
-MONDO:0008056	myotonic dystrophy type 1	skos:exactMatch	NCIT:C84914	Myotonic Dystrophy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	myotonic dystrophy	LEXMATCH
-MONDO:0008056	myotonic dystrophy type 1	skos:exactMatch	NCIT:C84914	Myotonic Dystrophy	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	myotonic dystrophy	LEXMATCH
 MONDO:0008145	Ollier disease	skos:exactMatch	NCIT:C53457	Multiple Osteochondromas	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	osteochondromatosis	LEXMATCH
 MONDO:0008375	retinal detachment	skos:exactMatch	NCIT:C55886	Retinal Detachment, CTCAE 3.0	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	retinal detachment	LEXMATCH
 MONDO:0008375	retinal detachment	skos:exactMatch	NCIT:C55886	Retinal Detachment, CTCAE 3.0	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	retinal detachment	LEXMATCH
@@ -294,8 +286,6 @@ MONDO:0015674	late infantile neuronal ceroid lipofuscinosis	skos:exactMatch	NCIT
 MONDO:0015686	primary peritoneal carcinoma	skos:exactMatch	NCIT:C4182	Serous Surface Papillary Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	serous surface papillary carcinoma	LEXMATCH
 MONDO:0015686	primary peritoneal carcinoma	skos:exactMatch	NCIT:C4182	Serous Surface Papillary Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	serous surface papillary carcinoma	LEXMATCH
 MONDO:0015909	aplastic anemia	skos:exactMatch	NCIT:C220794	Aplastic Anemia, CTCAE	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	aplastic anemia	LEXMATCH
-MONDO:0016057	isolated encephalocele	skos:exactMatch	NCIT:C84687	Encephalocele	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	encephalocele	LEXMATCH
-MONDO:0016057	isolated encephalocele	skos:exactMatch	NCIT:C84687	Encephalocele	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	encephalocele	LEXMATCH
 MONDO:0016226	specific language disorder	skos:exactMatch	NCIT:C35546	Dysphasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	dysphasia	LEXMATCH
 MONDO:0016226	specific language disorder	skos:exactMatch	NCIT:C35546	Dysphasia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	dysphasia	LEXMATCH
 MONDO:0016259	carcinosarcoma of the corpus uteri	skos:exactMatch	NCIT:C223980	Uterine Corpus Carcinosarcoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	uterine corpus carcinosarcoma	LEXMATCH
@@ -367,8 +357,6 @@ MONDO:0017586	onychocytic matricoma	skos:exactMatch	NCIT:C206174	Onychocytic Mat
 MONDO:0017587	onychomatricoma	skos:exactMatch	NCIT:C206156	Onychomatricoma	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	onychomatricoma	LEXMATCH
 MONDO:0017596	diffuse large B-cell lymphoma of the central nervous system	skos:exactMatch	NCIT:C212057	Diffuse Large B-Cell Lymphoma of the Central Nervous System	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	diffuse large b-cell lymphoma of the central nervous system	LEXMATCH
 MONDO:0017598	primary cutaneous anaplastic large cell lymphoma	skos:exactMatch	NCIT:C27365	Adult Primary Cutaneous Anaplastic Large Cell Lymphoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	primary cutaneous anaplastic large cell lymphoma	LEXMATCH
-MONDO:0017844	Sezary syndrome	skos:exactMatch	NCIT:C35300	Sheehan Syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	sheehan syndrome	LEXMATCH
-MONDO:0017844	Sezary syndrome	skos:exactMatch	NCIT:C35300	Sheehan Syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	rdfs:label	sheehan syndrome	LEXMATCH
 MONDO:0017858	acute erythroid leukemia	skos:exactMatch	NCIT:C9153	Adult Acute Erythroid Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute erythroid leukemia	LEXMATCH
 MONDO:0017858	acute erythroid leukemia	skos:exactMatch	NCIT:C9153	Adult Acute Erythroid Leukemia	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	acute erythroid leukemia	LEXMATCH
 MONDO:0017858	acute erythroid leukemia	skos:exactMatch	NCIT:C9164	Childhood Acute Erythroid Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	acute erythroid leukemia	LEXMATCH
@@ -414,7 +402,6 @@ MONDO:0018908	non-Hodgkin lymphoma	skos:exactMatch	NCIT:C7706	Childhood Non-Hodg
 MONDO:0018908	non-Hodgkin lymphoma	skos:exactMatch	NCIT:C7706	Childhood Non-Hodgkin Lymphoma	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	non-hodgkin lymphoma	LEXMATCH
 MONDO:0018911	maturity-onset diabetes of the young	skos:exactMatch	NCIT:C91449	Maturity Onset Diabetes of the Young Pathway	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	maturity onset diabetes of the young	LEXMATCH
 MONDO:0018922	cold agglutinin disease	skos:exactMatch	NCIT:C208228	Cold Agglutinin Disease	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	cold agglutinin disorder	LEXMATCH
-MONDO:0019086	carcinoma of esophagus	skos:exactMatch	NCIT:C118812	Childhood Esophageal Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	esophageal cancer	LEXMATCH
 MONDO:0019171	familial long QT syndrome	skos:exactMatch	NCIT:C85049	Long QT Syndrome 1	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	romano-ward syndrome	LEXMATCH
 MONDO:0019210	cutaneous neuroendocrine carcinoma	skos:exactMatch	NCIT:C173385	Cutaneous Merkel Cell Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	cutaneous neuroendocrine carcinoma	LEXMATCH
 MONDO:0019210	cutaneous neuroendocrine carcinoma	skos:exactMatch	NCIT:C173385	Cutaneous Merkel Cell Carcinoma	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	neuroendocrine carcinoma of skin	LEXMATCH
@@ -558,6 +545,7 @@ MONDO:0975753	papillary hemangioma	skos:exactMatch	NCIT:C206681	Papillary Hemang
 MONDO:0975754	pseudomyogenic hemangioendothelioma	skos:exactMatch	NCIT:C121668	Pseudomyogenic Hemangioendothelioma	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pseudomyogenic hemangioendothelioma	LEXMATCH
 MONDO:0975870	acute myeloid leukemia with FUS-ERG fusion	skos:exactMatch	NCIT:C200419	Acute Myeloid Leukemia with FUS-ERG	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	acute myeloid leukemia with fus-erg fusion	LEXMATCH
 MONDO:0975872	acute myeloid leukemia with NPM1-MLF1 fusion	skos:exactMatch	NCIT:C200420	Acute Myeloid Leukemia with NPM1-MLF1	semapv:LexicalMatching	oaklib	0.8	rdfs:label	oio:hasExactSynonym	acute myeloid leukemia with npm1-mlf1 fusion	LEXMATCH
+MONDO:0975907	pulmonary langerhans cell histiocytosis	skos:exactMatch	NCIT:C142833	Pulmonary Langerhans Cell Histiocytosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	pulmonary langerhans cell histiocytosis	LEXMATCH
 MONDO:0975925	adenoid ameloblastoma	skos:exactMatch	NCIT:C202061	Adenoid Ameloblastoma	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	adenoid ameloblastoma	LEXMATCH
 MONDO:0980767	lipofibromatosis	skos:exactMatch	NCIT:C99180	Lipofibromatosis	semapv:LexicalMatching	oaklib	0.8497788951776651	rdfs:label	rdfs:label	lipofibromatosis	LEXMATCH
 MONDO:1010116	sudden unexpected infant death	skos:exactMatch	NCIT:C85173	Sudden Infant Death Syndrome	semapv:LexicalMatching	oaklib	0.8	oio:hasExactSynonym	oio:hasExactSynonym	sudden infant death syndrome	LEXMATCH

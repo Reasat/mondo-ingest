@@ -327,10 +327,14 @@ MONDO:0013904	muscular dystrophy-dystroglycanopathy (congenital with brain and e
 MONDO:0013991	obesity due to congenital leptin deficiency	MONDO:0000839	DOID:0111334	DOID:0080015	obsolete congenital abnormality
 MONDO:0014022	muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type a, 10	MONDO:0018132	DOID:0111239	DOID:0111229	obsolete congenital muscular alpha-dystroglycanopathy with brain and eye anomalies
 MONDO:0014029	osteogenesis imperfecta type 14	MONDO:0000275	DOID:0110343	DOID:0050177	obsolete monogenic disease
+MONDO:0014036	Alzheimer disease 17	MONDO:0000275	DOID:0110049	DOID:0050177	obsolete monogenic disease
 MONDO:0014071	muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type a, 11	MONDO:0018132	DOID:0111230	DOID:0111229	obsolete congenital muscular alpha-dystroglycanopathy with brain and eye anomalies
 MONDO:0014101	muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type a, 12	MONDO:0018132	DOID:0111235	DOID:0111229	obsolete congenital muscular alpha-dystroglycanopathy with brain and eye anomalies
 MONDO:0014120	muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A13	MONDO:0018132	DOID:0111238	DOID:0111229	obsolete congenital muscular alpha-dystroglycanopathy with brain and eye anomalies
 MONDO:0014140	muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A14	MONDO:0018132	DOID:0111233	DOID:0111229	obsolete congenital muscular alpha-dystroglycanopathy with brain and eye anomalies
+MONDO:0014265	Alzheimer disease 18	MONDO:0000275	DOID:0110050	DOID:0050177	obsolete monogenic disease
+MONDO:0014316	Alzheimer disease 19	MONDO:0000275	DOID:0110051	DOID:0050177	obsolete monogenic disease
+MONDO:0014590	congenital myasthenic syndrome 18	MONDO:0000839	DOID:0110683	DOID:0080015	obsolete congenital abnormality
 MONDO:0014683	muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A9	MONDO:0018132	DOID:0111232	DOID:0111229	obsolete congenital muscular alpha-dystroglycanopathy with brain and eye anomalies
 MONDO:0014709	obsolete Heimler syndrome 2	MONDO:0006025	DOID:0080624	DOID:0050737	autosomal recessive disease
 MONDO:0014709	obsolete Heimler syndrome 2	MONDO:0019234	DOID:0080624	DOID:0080377	peroxisome biogenesis disorder
@@ -348,6 +352,7 @@ MONDO:0015528	congenital epulis	MONDO:0000839	DOID:7280	DOID:0080015	obsolete co
 MONDO:0015528	congenital epulis	MONDO:0000839	DOID:8303	DOID:0080015	obsolete congenital abnormality
 MONDO:0015627	multiple epiphyseal dysplasia due to collagen 9 anomaly	MONDO:0000275	DOID:0070305	DOID:0050177	obsolete monogenic disease
 MONDO:0015722	congenital vitamin K-dependent coagulation factors deficiency	MONDO:0000275	DOID:0112172	DOID:0050177	obsolete monogenic disease
+MONDO:0015977	agammaglobulinemia	MONDO:0000275	DOID:2583	DOID:0050177	obsolete monogenic disease
 MONDO:0015993	cone-rod dystrophy	MONDO:0000275	DOID:0050572	DOID:0050177	obsolete monogenic disease
 MONDO:0016027	benign neonatal seizures	MONDO:0000412	DOID:14264	DOID:0050702	obsolete neonatal period electroclinical syndrome
 MONDO:0016027	benign neonatal seizures	MONDO:0000412	DOID:14777	DOID:0050702	obsolete neonatal period electroclinical syndrome
@@ -386,6 +391,7 @@ MONDO:0018677	visceral heterotaxy	MONDO:0000839	DOID:0050545	DOID:0080015	obsole
 MONDO:0018801	congenital bilateral absence of vas deferens	MONDO:0000839	DOID:0111862	DOID:0080015	obsolete congenital abnormality
 MONDO:0018841	congenital bile acid synthesis defect	MONDO:0000839	DOID:0050674	DOID:0080015	obsolete congenital abnormality
 MONDO:0018940	congenital myasthenic syndrome	MONDO:0000839	DOID:3635	DOID:0080015	obsolete congenital abnormality
+MONDO:0018965	Alport syndrome	MONDO:0000275	DOID:10983	DOID:0050177	obsolete monogenic disease
 MONDO:0018997	Noonan syndrome	MONDO:0000275	DOID:3490	DOID:0050177	obsolete monogenic disease
 MONDO:0018998	Leber congenital amaurosis	MONDO:0000839	DOID:14791	DOID:0080015	obsolete congenital abnormality
 MONDO:0019015	omphalocele	MONDO:0000839	DOID:0060327	DOID:0080015	obsolete congenital abnormality
@@ -393,6 +399,7 @@ MONDO:0019078	Ritscher-Schinzel syndrome	MONDO:0000275	DOID:0060565	DOID:0050177
 MONDO:0019174	obsolete infantile Refsum disease	MONDO:0019053	DOID:0050444	DOID:906	peroxisomal disease
 MONDO:0019284	inherited isolated nail anomaly	MONDO:0000839	DOID:0080683	DOID:0080015	obsolete congenital abnormality
 MONDO:0019503	anterior segment dysgenesis	MONDO:0000275	DOID:0060648	DOID:0050177	obsolete monogenic disease
+MONDO:0019507	amelogenesis imperfecta	MONDO:0000275	DOID:2187	DOID:0050177	obsolete monogenic disease
 MONDO:0019669	hypochondrogenesis	MONDO:0000275	DOID:0080044	DOID:0050177	obsolete monogenic disease
 MONDO:0019701	chondrodysplasia punctata	MONDO:0000275	DOID:2581	DOID:0050177	obsolete monogenic disease
 MONDO:0019735	polymyalgia rheumatica	MONDO:0021103	DOID:853	DOID:854	obsolete collagen diseases

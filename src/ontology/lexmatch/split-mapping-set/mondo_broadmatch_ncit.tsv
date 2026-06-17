@@ -1,5 +1,6 @@
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_tool	confidence	subject_match_field	object_match_field	match_string	comment
 MONDO:0000871	T-cell childhood acute lymphocytic leukemia	skos:broadMatch	NCIT:C126112	Infant T Acute Lymphoblastic Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	t acute lymphoblastic leukemia	LEXMATCH
+MONDO:0000874	T-cell childhood lymphoblastic lymphoma	skos:broadMatch	NCIT:C7226	Adult T Lymphoblastic Lymphoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	t lymphoblastic lymphoma	LEXMATCH
 MONDO:0000875	adult acute monocytic leukemia	skos:broadMatch	NCIT:C9163	Childhood Acute Monocytic Leukemia	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	acute monocytic leukemia	LEXMATCH
 MONDO:0001657	brain cancer	skos:broadMatch	NCIT:C7703	Childhood Brain Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	brain neoplasm	LEXMATCH
 MONDO:0001657	brain cancer	skos:broadMatch	NCIT:C7710	Adult Brain Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	brain neoplasm	LEXMATCH
@@ -25,6 +26,7 @@ MONDO:0003478	childhood ependymoma	skos:broadMatch	NCIT:C9092	Adult Ependymoma	s
 MONDO:0003516	adult teratoma	skos:broadMatch	NCIT:C68626	Childhood Teratoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	teratoma	LEXMATCH
 MONDO:0003544	spinal cord cancer	skos:broadMatch	NCIT:C3382	Intraspinal Neoplasm	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	intraspinal tumor	LEXMATCH
 MONDO:0003690	adult anaplastic ependymoma	skos:broadMatch	NCIT:C124293	Childhood Anaplastic Ependymoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	anaplastic ependymoma	LEXMATCH
+MONDO:0003731	adult central nervous system teratoma	skos:broadMatch	NCIT:C6204	Childhood Central Nervous System Teratoma	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	central nervous system teratoma	LEXMATCH
 MONDO:0003741	juvenile type testicular granulosa cell tumor	skos:broadMatch	NCIT:C4207	Juvenile Granulosa Cell Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	juvenile granulosa cell tumor	LEXMATCH
 MONDO:0003741	juvenile type testicular granulosa cell tumor	skos:broadMatch	NCIT:C4207	Juvenile Granulosa Cell Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	juvenile type granulosa cell neoplasm	LEXMATCH
 MONDO:0003741	juvenile type testicular granulosa cell tumor	skos:broadMatch	NCIT:C4207	Juvenile Granulosa Cell Tumor	semapv:LexicalMatching	oaklib	0.8	oio:hasBroadSynonym	oio:hasExactSynonym	juvenile type granulosa cell tumor	LEXMATCH

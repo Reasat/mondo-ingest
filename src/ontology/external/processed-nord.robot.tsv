@@ -2992,7 +2992,7 @@ MONDO:0011545					https://w3id.org/information-resource-registry/nord	http://pur
 MONDO:0011546					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
 MONDO:0011547					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
 MONDO:0011549					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
-MONDO:0011551	NORD:1810	MONDO:NORD	Tyrosine Hydroxylase Deficiency	NORD:1810	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:1810	MONDO:NORD	https://medlineplus.gov/genetics/condition/tyrosine-hydroxylase-deficiency	https://www.ncbi.nlm.nih.gov/books/NBK1437
+MONDO:0011551	NORD:1810	MONDO:NORD		NORD:1810	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:1810	MONDO:NORD	https://medlineplus.gov/genetics/condition/tyrosine-hydroxylase-deficiency	https://www.ncbi.nlm.nih.gov/books/NBK1437
 MONDO:0011553					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
 MONDO:0011555					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
 MONDO:0011558					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		https://www.ncbi.nlm.nih.gov/books/NBK1341
@@ -6176,7 +6176,7 @@ MONDO:0017349					https://w3id.org/information-resource-registry/nord	http://pur
 MONDO:0017357					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
 MONDO:0017361	NORD:1681	MONDO:NORD	Rubella, Congenital	NORD:1681	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:1681	MONDO:NORD		
 MONDO:0017362	NORD:1560	MONDO:NORD	Parsonage Turner Syndrome	NORD:1560	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:1560	MONDO:NORD		
-MONDO:0017363	NORD:967	MONDO:NORD	Chronic Eosinophilic Pneumonia	NORD:967	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:967	MONDO:NORD		
+MONDO:0017363	NORD:967	MONDO:NORD		NORD:967	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:967	MONDO:NORD		
 MONDO:0017364	NORD:1586	MONDO:NORD		NORD:1586	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:1586	MONDO:NORD		
 MONDO:0017366					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
 MONDO:0017372	NORD:1003	MONDO:NORD		NORD:1003	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:1003	MONDO:NORD		
@@ -7149,7 +7149,7 @@ MONDO:0019167					https://w3id.org/information-resource-registry/nord	http://pur
 MONDO:0019168					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
 MONDO:0019169	NORD:1641	MONDO:NORD	Pyruvate Dehydrogenase Complex Deficiency	NORD:1641	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:1641	MONDO:NORD		https://www.ncbi.nlm.nih.gov/books/NBK571223
 MONDO:0019170	NORD:1588	MONDO:NORD		NORD:1588	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:1588	MONDO:NORD		
-MONDO:0019171	NORD:1675	MONDO:NORD	Long QT Syndrome	NORD:1675	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:1675	MONDO:NORD		https://www.ncbi.nlm.nih.gov/books/NBK1129
+MONDO:0019171	NORD:1675	MONDO:NORD		NORD:1675	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:1675	MONDO:NORD		https://www.ncbi.nlm.nih.gov/books/NBK1129
 MONDO:0019173	NORD:1644	MONDO:NORD		NORD:1644	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:1644	MONDO:NORD		
 MONDO:0019177					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
 MONDO:0019179					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
@@ -8015,7 +8015,7 @@ MONDO:0024520					https://w3id.org/information-resource-registry/nord	http://pur
 MONDO:0024521					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
 MONDO:0024523					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
 MONDO:0024525					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
-MONDO:0024526	NORD:1344	MONDO:NORD	Laband Syndrome	NORD:1344	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:1344	MONDO:NORD		
+MONDO:0024526	NORD:1344	MONDO:NORD		NORD:1344	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:1344	MONDO:NORD		
 MONDO:0024527					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
 MONDO:0024529					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
 MONDO:0024532					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
@@ -8965,7 +8965,7 @@ MONDO:0800372					https://w3id.org/information-resource-registry/nord	http://pur
 MONDO:0800375					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
 MONDO:0800376					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
 MONDO:0800383					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
-MONDO:8000006	NORD:1849	MONDO:NORD	WHIM Syndrome	NORD:1849	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:1849	MONDO:NORD		
+MONDO:8000006	NORD:1849	MONDO:NORD		NORD:1849	https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare	NORD:1849	MONDO:NORD		
 MONDO:8000008					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		https://www.ncbi.nlm.nih.gov/books/NBK475670
 MONDO:8000011					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		
 MONDO:8000012					https://w3id.org/information-resource-registry/nord	http://purl.obolibrary.org/obo/mondo#nord_rare		MONDO:NORD		

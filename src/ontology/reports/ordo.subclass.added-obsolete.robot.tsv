@@ -9004,14 +9004,14 @@ MONDO:0017963	obsolete 46,XX disorder of sex development induced by endogenous m
 MONDO:0017964	obsolete 46,XX disorder of sex development induced by exogenous maternal-derived androgen	MONDO:0019608	Orphanet:325099	Orphanet:91144	obsolete 46,XX disorder of sex development induced by maternal-derived androgen
 MONDO:0017965	obsolete syndrome with 46,XX disorder of sex development	MONDO:0017576	Orphanet:325109	Orphanet:2982	46,XX disorder of sex development
 MONDO:0017965	obsolete syndrome with 46,XX disorder of sex development	MONDO:0957024	Orphanet:325109	Orphanet:325697	obsolete hereditary 46,XX disorder of sex development
-MONDO:0017966	obsolete 46,XY disorder of gonadal development	MONDO:0020040	Orphanet:325118	Orphanet:98085	46,XY disorder of sex development
+MONDO:0017966	obsolete 46,XY disorder of gonadal development	MONDO:0020040	Orphanet:325118	Orphanet:98085	46 XY differences of sex development
 MONDO:0017966	obsolete 46,XY disorder of gonadal development	MONDO:0957025	Orphanet:325118	Orphanet:325706	obsolete hereditary 46,XY disorder of sex development
 MONDO:0017967	testicular agenesis	MONDO:0017966	Orphanet:325124	Orphanet:325118	obsolete 46,XY disorder of gonadal development
 MONDO:0017967	testicular agenesis	MONDO:0020090	Orphanet:325124	Orphanet:98313	obsolete male infertility due to gonadal dysgenesis
 MONDO:0017967	testicular agenesis	MONDO:8000030	Orphanet:325124	Orphanet:377791	obsolete morphological anomaly
 MONDO:0017968	46,XY ovotesticular disorder of sex development	MONDO:0017966	Orphanet:325345	Orphanet:325118	obsolete 46,XY disorder of gonadal development
 MONDO:0017968	46,XY ovotesticular disorder of sex development	MONDO:0020038	Orphanet:325345	Orphanet:98074	obsolete gonadal dysgenesis of gynecological interest
-MONDO:0017969	obsolete 46,XY disorder of sex development of endocrine origin	MONDO:0020040	Orphanet:325351	Orphanet:98085	46,XY disorder of sex development
+MONDO:0017969	obsolete 46,XY disorder of sex development of endocrine origin	MONDO:0020040	Orphanet:325351	Orphanet:98085	46 XY differences of sex development
 MONDO:0017970	obsolete 46,XY disorder of sex development due to impaired androgen production	MONDO:0017969	Orphanet:325357	Orphanet:325351	obsolete 46,XY disorder of sex development of endocrine origin
 MONDO:0017971	obsolete 46,XY disorder of sex development due to a cholesterol synthesis defect	MONDO:0019594	Orphanet:325511	Orphanet:90783	obsolete 46,XY disorder of sex development due to a testosterone synthesis defect
 MONDO:0017972	classic congenital lipoid adrenal hyperplasia due to STAR deficency	MONDO:8000031	Orphanet:325524	Orphanet:557494	obsolete subtype of a disorder
@@ -11156,7 +11156,7 @@ MONDO:0020039	obsolete 46,XX disorder of sex development induced by androgens ex
 MONDO:0020039	obsolete 46,XX disorder of sex development induced by androgens excess	MONDO:0017976	Orphanet:98078	Orphanet:325620	obsolete disorder of sex development of gynecological interest
 MONDO:0020041	obsolete 46,XY disorder of sex development due to a defect in testosterone metabolism by peripheral tissue	MONDO:0017970	Orphanet:98086	Orphanet:325357	obsolete 46,XY disorder of sex development due to impaired androgen production
 MONDO:0020041	obsolete 46,XY disorder of sex development due to a defect in testosterone metabolism by peripheral tissue	MONDO:0017977	Orphanet:98086	Orphanet:325632	obsolete 46,XY disorder of sex development of gynecological interest
-MONDO:0020042	obsolete syndrome with 46,XY disorder of sex development	MONDO:0020040	Orphanet:98087	Orphanet:98085	46,XY disorder of sex development
+MONDO:0020042	obsolete syndrome with 46,XY disorder of sex development	MONDO:0020040	Orphanet:98087	Orphanet:98085	46 XY differences of sex development
 MONDO:0020042	obsolete syndrome with 46,XY disorder of sex development	MONDO:0957025	Orphanet:98087	Orphanet:325706	obsolete hereditary 46,XY disorder of sex development
 MONDO:0020045	obsolete autosomal recessive cerebellar ataxia due to a DNA repair defect	MONDO:0015244	Orphanet:98097	Orphanet:1172	autosomal recessive cerebellar ataxia
 MONDO:0020048	internal carotid agenesis	MONDO:0015145	Orphanet:981	Orphanet:102006	obsolete neurovascular malformation

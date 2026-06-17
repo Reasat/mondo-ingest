@@ -17453,6 +17453,15 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C142833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142833">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C150701"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C213906"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C142848 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C142848">
