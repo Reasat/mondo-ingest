@@ -209,9 +209,14 @@ $(COMPONENTSDIR)/icd10cm.owl: $(TMPDIR)/icd10cm_relevant_signature.txt $(TMPDIR)
 		remove -T config/properties.txt --select complement --select properties --trim true \
 		annotate --ontology-iri $(URIBASE)/mondo/sources/icd10cm.owl --version-iri $(URIBASE)/mondo/sources/$(TODAY)/icd10cm.owl -o $@; fi
 
-# Preprocessed component from https://github.com/Reasat/icd10who (replaces in-repo ROBOT build).
-$(COMPONENTSDIR)/icd10who.owl: | $(COMPONENTSDIR)
-	if [ $(COMP) = true ]; then wget $(ICD10WHO_RELEASE) -O $@; fi
+# Preprocessed component from external icd10who release (replaces in-repo ROBOT build).
+# linkml-owl releases functional-syntax OWL; convert to RDF/XML for semsql rdftab.
+$(COMPONENTSDIR)/icd10who.owl: | $(COMPONENTSDIR) $(TMPDIR)
+	if [ $(COMP) = true ]; then \
+		wget $(ICD10WHO_RELEASE) -O $(TMPDIR)/icd10who-release.owl.tmp && \
+		$(ROBOT) convert -i $(TMPDIR)/icd10who-release.owl.tmp -o $@ && \
+		rm $(TMPDIR)/icd10who-release.owl.tmp; \
+	fi
 
 $(COMPONENTSDIR)/icd11foundation.owl: $(TMPDIR)/icd11foundation_relevant_signature.txt $(TMPDIR)/mirror-icd11foundation.owl
 	if [ $(COMP) = true ] ; then $(ROBOT) remove -i $(TMPDIR)/mirror-icd11foundation.owl --select imports \
