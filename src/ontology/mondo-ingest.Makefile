@@ -18,6 +18,8 @@
 DOID=				http://purl.obolibrary.org/obo/doid.owl
 ICD10_BP_CODE=		27
 ICD10CM=			https://data.bioontology.org/ontologies/ICD10CM/submissions/$(ICD10_BP_CODE)/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb
+# Temporary fallback: Reasat `icd10who.raw.ttl` not yet present on latest release.
+# Switch back to Reasat URL once release assets include the TTL file.
 ICD10WHO_UPSTREAM=	https://github.com/monarch-initiative/icd10who/releases/latest/download/icd10who.ttl
 ICD10WHO_RELEASE=	https://github.com/Reasat/icd10who/releases/latest/download/icd10who.owl
 ICD11FOUNDATION=	https://github.com/monarch-initiative/icd11/releases/latest/download/icd11foundation.owl

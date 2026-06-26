@@ -1,0 +1,105 @@
+# ICD10WHO high-level flow (mondo-ingest external-release)
+
+direction: right
+
+icd10who source repo: {
+  label: icd10who source repo
+  style.fill: "#fff9e6"
+
+  direction: down
+  WHO: WHO ICD-10 API
+  RAW: tmp/icd10who_raw.ttl
+  TRANS: tmp/transformed-icd10who.owl
+  YAML: icd10who.yaml
+  REL: icd10who.owl release
+  TTL: icd10who.raw.ttl release
+
+  WHO -> RAW -> TRANS -> YAML -> REL
+}
+
+mondo repo: {
+  label: monarch-initiative/mondo
+  style.fill: "#fff9e6"
+
+  direction: down
+  MCLONE: git clone at build time
+  MOWL: mondo.owl
+  MSSSOM: mappings/mondo.sssom.tsv
+
+  MCLONE -> MOWL
+  MCLONE -> MSSSOM
+}
+
+mondo-ingest curated: {
+  label: mondo-ingest curated inputs
+  style.fill: "#fff9e6"
+
+  direction: down
+  CFG: config/icd10who_exclusions.tsv
+  META: metadata/icd10who.yml
+  SSSOMCFG: metadata/mondo.sssom.config.yml
+  PREFIX: config/prefixes.csv
+}
+
+mondo-ingest build: {
+  label: mondo-ingest build
+  style.fill: "#e8f4ff"
+
+  direction: down
+
+  acquire: {
+    label: acquire
+    MIRROR: tmp/mirror-icd10who.owl
+    COMP: components/icd10who.owl
+    TMPM: tmp/mondo.owl
+    TMPSSSOM: tmp/mondo.sssom.tsv
+  }
+
+  index: {
+    label: index
+    DB: components/icd10who.db
+  }
+
+  integrate: {
+    label: integrate
+    MAP: mappings/icd10who.sssom.tsv
+    SLURP: slurp/icd10who.tsv
+    SYNC: "sync-subClassOf / sync-synonym TSVs"
+  }
+
+  release: {
+    label: release
+    OUT: mondo-ingest release\nOWL/OBO
+  }
+
+  acquire -> index -> integrate -> release
+}
+
+# Source releases into build
+icd10who source repo.TTL -> mondo-ingest build.acquire.MIRROR
+icd10who source repo.REL -> mondo-ingest build.acquire.COMP
+
+# Mondo clone into build
+mondo repo.MOWL -> mondo-ingest build.acquire.TMPM
+mondo repo.MSSSOM -> mondo-ingest build.acquire.TMPSSSOM
+
+# Curated inputs into build
+mondo-ingest curated.PREFIX -> mondo-ingest build.index.DB
+mondo-ingest curated.SSSOMCFG -> mondo-ingest build.integrate.MAP
+mondo-ingest curated.CFG -> mondo-ingest build.integrate.SLURP
+mondo-ingest curated.META -> mondo-ingest build.integrate.SLURP
+mondo-ingest curated.META -> mondo-ingest build.integrate.SYNC
+
+# Component feeds integration steps
+mondo-ingest build.acquire.COMP -> mondo-ingest build.index.DB
+mondo-ingest build.acquire.COMP -> mondo-ingest build.integrate.MAP
+mondo-ingest build.acquire.COMP -> mondo-ingest build.integrate.SLURP
+mondo-ingest build.acquire.COMP -> mondo-ingest build.integrate.SYNC
+mondo-ingest build.acquire.COMP -> mondo-ingest build.release.OUT
+
+mondo-ingest build.acquire.TMPM -> mondo-ingest build.integrate.MAP
+mondo-ingest build.acquire.TMPSSSOM -> mondo-ingest build.integrate.MAP
+mondo-ingest build.acquire.TMPM -> mondo-ingest build.integrate.SLURP
+mondo-ingest build.acquire.TMPSSSOM -> mondo-ingest build.integrate.SLURP
+mondo-ingest build.acquire.TMPM -> mondo-ingest build.integrate.SYNC
+mondo-ingest build.acquire.TMPSSSOM -> mondo-ingest build.integrate.SYNC
