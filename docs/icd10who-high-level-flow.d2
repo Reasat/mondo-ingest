@@ -2,8 +2,10 @@
 
 direction: right
 
+*.style.font-size: 26
+
 icd10who source repo: {
-  label: icd10who source repo
+  label: "icd10who source repo\nJob: WHO ICD-10 → published OWL/TTL"
   style.fill: "#fff9e6"
 
   direction: down
@@ -18,7 +20,7 @@ icd10who source repo: {
 }
 
 mondo repo: {
-  label: monarch-initiative/mondo
+  label: "monarch-initiative/mondo\nJob: Mondo + mappings as alignment target"
   style.fill: "#fff9e6"
 
   direction: down
@@ -31,7 +33,7 @@ mondo repo: {
 }
 
 mondo-ingest curated: {
-  label: mondo-ingest curated inputs
+  label: "mondo-ingest curated inputs\nJob: curator config (exclusions, metadata)"
   style.fill: "#fff9e6"
 
   direction: down
@@ -42,13 +44,13 @@ mondo-ingest curated: {
 }
 
 mondo-ingest build: {
-  label: mondo-ingest build
+  label: "mondo-ingest build\nJob: align ICD10WHO into Mondo ingest"
   style.fill: "#e8f4ff"
 
   direction: down
 
   acquire: {
-    label: acquire
+    label: "acquire\nJob: download and stage inputs"
     MIRROR: tmp/mirror-icd10who.owl
     COMP: components/icd10who.owl
     TMPM: tmp/mondo.owl
@@ -56,19 +58,19 @@ mondo-ingest build: {
   }
 
   index: {
-    label: index
+    label: "index\nJob: semsql index of component"
     DB: components/icd10who.db
   }
 
   integrate: {
-    label: integrate
+    label: "integrate\nJob: diff vs Mondo → slurp, sync, mappings"
     MAP: mappings/icd10who.sssom.tsv
     SLURP: slurp/icd10who.tsv
     SYNC: "sync-subClassOf / sync-synonym TSVs"
   }
 
   release: {
-    label: release
+    label: "release\nJob: mondo-ingest release OWL/OBO"
     OUT: mondo-ingest release\nOWL/OBO
   }
 
