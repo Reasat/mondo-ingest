@@ -18,8 +18,12 @@
 DOID=				http://purl.obolibrary.org/obo/doid.owl
 ICD10_BP_CODE=		27
 ICD10CM=			https://data.bioontology.org/ontologies/ICD10CM/submissions/$(ICD10_BP_CODE)/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb
-ICD10WHO_UPSTREAM=	https://github.com/Reasat/icd10who/releases/latest/download/icd10who.raw.ttl
-ICD10WHO_RELEASE=	https://github.com/Reasat/icd10who/releases/latest/download/icd10who.owl
+ICD10WHO_RELEASE_BASE=	https://github.com/Reasat/icd10who/releases/latest/download
+# GitHub Releases flattens upload paths (reports/foo.tsv → foo.tsv at download URL).
+ICD10WHO_RELEASE_MIRROR_SIGNATURE=	$(ICD10WHO_RELEASE_BASE)/mirror_signature.tsv
+ICD10WHO_RELEASE_COMPONENT_SIGNATURE=	$(ICD10WHO_RELEASE_BASE)/component_signature.tsv
+ICD10WHO_RELEASE_SSSOM=			$(ICD10WHO_RELEASE_BASE)/icd10who.sssom.tsv
+ICD10WHO_RELEASE_METRICS=		$(ICD10WHO_RELEASE_BASE)/icd10who-metrics.json
 ICD11FOUNDATION=	https://github.com/monarch-initiative/icd11/releases/latest/download/icd11foundation.owl
 NCIT=				http://purl.obolibrary.org/obo/ncit.owl
 OMIM=				https://github.com/monarch-initiative/omim/releases/latest/download/omim.owl
@@ -39,12 +43,6 @@ $(TMPDIR)/mirror-doid.owl: | all_robot_plugins $(TMPDIR)
 	$(ROBOT) merge -I $(DOID) \
 		 odk:normalize --add-source true --output $@
 .PRECIOUS: $(TMPDIR)/mirror-doid.owl
-
-# Upstream mirror retained for exclusions and signatures; component from external release.
-$(TMPDIR)/mirror-icd10who.owl: | all_robot_plugins $(TMPDIR)
-	$(ROBOT) merge -I $(ICD10WHO_UPSTREAM) \
-		 odk:normalize --add-source true --output $@
-.PRECIOUS: $(TMPDIR)/mirror-icd10who.owl
 
 $(TMPDIR)/mirror-icd11foundation.owl: | all_robot_plugins $(TMPDIR)
 	$(ROBOT) merge -I $(ICD11FOUNDATION) \
@@ -209,14 +207,37 @@ $(COMPONENTSDIR)/icd10cm.owl: $(TMPDIR)/icd10cm_relevant_signature.txt $(TMPDIR)
 		remove -T config/properties.txt --select complement --select properties --trim true \
 		annotate --ontology-iri $(URIBASE)/mondo/sources/icd10cm.owl --version-iri $(URIBASE)/mondo/sources/$(TODAY)/icd10cm.owl -o $@; fi
 
-# Preprocessed component from external icd10who release (replaces in-repo ROBOT build).
+####################################
+### ICD10WHO external release ######
+####################################
+# Preprocessing lives in the icd10who source repo; mondo-ingest wget's the release bundle.
+
 # linkml-owl releases functional-syntax OWL; convert to RDF/XML for semsql rdftab.
 $(COMPONENTSDIR)/icd10who.owl: | $(COMPONENTSDIR) $(TMPDIR)
 	if [ $(COMP) = true ]; then \
-		wget $(ICD10WHO_RELEASE) -O $(TMPDIR)/icd10who-release.owl.tmp && \
+		wget -nv $(ICD10WHO_RELEASE_BASE)/icd10who.owl -O $(TMPDIR)/icd10who-release.owl.tmp && \
 		$(ROBOT) convert -i $(TMPDIR)/icd10who-release.owl.tmp -o $@ && \
 		rm $(TMPDIR)/icd10who-release.owl.tmp; \
 	fi
+
+$(TMPDIR)/mirror-icd10who.owl: | $(TMPDIR)
+	if [ $(COMP) = true ]; then wget -nv $(ICD10WHO_RELEASE_BASE)/icd10who.mirror.owl -O $@; fi
+.PRECIOUS: $(TMPDIR)/mirror-icd10who.owl
+
+$(COMPONENTSDIR)/icd10who.db: | $(COMPONENTSDIR)
+	if [ $(COMP) = true ]; then wget -nv $(ICD10WHO_RELEASE_BASE)/icd10who.db -O $@; fi
+
+reports/mirror_signature-icd10who.tsv: | $(REPORTDIR)
+	wget -nv $(ICD10WHO_RELEASE_MIRROR_SIGNATURE) -O $@
+
+reports/component_signature-icd10who.tsv: | $(REPORTDIR)
+	wget -nv $(ICD10WHO_RELEASE_COMPONENT_SIGNATURE) -O $@
+
+$(MAPPINGSDIR)/icd10who.sssom.tsv: | $(MAPPINGSDIR)/
+	wget -nv $(ICD10WHO_RELEASE_SSSOM) -O $@
+
+metadata/icd10who-metrics.json:
+	wget -nv $(ICD10WHO_RELEASE_METRICS) -O $@
 
 $(COMPONENTSDIR)/icd11foundation.owl: $(TMPDIR)/icd11foundation_relevant_signature.txt $(TMPDIR)/mirror-icd11foundation.owl
 	if [ $(COMP) = true ] ; then $(ROBOT) remove -i $(TMPDIR)/mirror-icd11foundation.owl --select imports \

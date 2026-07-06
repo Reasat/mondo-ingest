@@ -14,7 +14,10 @@ icd10who source repo: {
   TRANS: tmp/transformed-icd10who.owl
   YAML: icd10who.yaml
   REL: icd10who.owl release
-  TTL: icd10who.raw.ttl release
+  MIRROR_REL: icd10who.mirror.owl release
+  DB_REL: icd10who.db release
+  SIG_REL: reports/*_signature.tsv release
+  MAP_REL: mappings/icd10who.sssom.tsv release
 
   WHO -> RAW -> TRANS -> YAML -> REL
 }
@@ -50,7 +53,7 @@ mondo-ingest build: {
   direction: down
 
   acquire: {
-    label: "acquire\nJob: download and stage inputs"
+    label: "acquire\nJob: wget release bundle + Mondo clone"
     MIRROR: tmp/mirror-icd10who.owl
     COMP: components/icd10who.owl
     TMPM: tmp/mondo.owl
@@ -58,12 +61,12 @@ mondo-ingest build: {
   }
 
   index: {
-    label: "index\nJob: semsql index of component"
+    label: "index\nJob: wget release db"
     DB: components/icd10who.db
   }
 
   integrate: {
-    label: "integrate\nJob: diff vs Mondo → slurp, sync, mappings"
+    label: "integrate\nJob: alignment only (slurp, sync, exclusions)"
     MAP: mappings/icd10who.sssom.tsv
     SLURP: slurp/icd10who.tsv
     SYNC: "sync-subClassOf / sync-synonym TSVs"
@@ -78,8 +81,10 @@ mondo-ingest build: {
 }
 
 # Source releases into build
-icd10who source repo.TTL -> mondo-ingest build.acquire.MIRROR
+icd10who source repo.MIRROR_REL -> mondo-ingest build.acquire.MIRROR
 icd10who source repo.REL -> mondo-ingest build.acquire.COMP
+icd10who source repo.DB_REL -> mondo-ingest build.index.DB
+icd10who source repo.MAP_REL -> mondo-ingest build.integrate.MAP
 
 # Mondo clone into build
 mondo repo.MOWL -> mondo-ingest build.acquire.TMPM
