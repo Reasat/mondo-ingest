@@ -1,0 +1,301 @@
+# Mondo pipeline — repos & handoffs
+# [A] auto  [M] manual (human curation)  [R] review gate  [M-A] could automate, currently manual
+
+vars: {
+  d2-config: {
+    layout-engine: elk
+  }
+}
+
+direction: right
+
+# subprocess nodes stay small; container titles set explicitly below
+*.style.font-size: 14
+
+classes: {
+  auto: {
+    style.fill: "#c8e6c9"
+    style.stroke: "#2e7d32"
+  }
+  manual: {
+    style.fill: "#ffe0b2"
+    style.stroke: "#e65100"
+  }
+  review: {
+    style.fill: "#fff9c4"
+    style.stroke: "#f9a825"
+  }
+  ma: {
+    style.fill: "#e1bee7"
+    style.stroke: "#7b1fa2"
+  }
+}
+
+upstream: {
+  label: "upstream"
+  style.fill: "#fff9e6"
+  style.font-size: 26
+  style.bold: true
+  direction: down
+
+  sources: {
+    label: "source ontology repos"
+    style.fill: "#fff3cc"
+    style.font-size: 18
+    style.bold: true
+    text: |md
+      monarch-initiative/ omim · icd11 · icd10who
+      icd10cm · ordo · ncit · doid
+      → component.owl + mirror.owl releases
+    |
+  }
+
+  emc: {
+    label: "EMC & aux inputs"
+    style.fill: "#fff3cc"
+    style.font-size: 18
+    style.bold: true
+    text: |md
+      GARD · NORD · EFO · medgen
+      MalaCards · ClinGen · omim TSVs
+    |
+  }
+
+  mondo_clone: {
+    label: "mondo (build-time clone)"
+    style.fill: "#fff3cc"
+    style.font-size: 18
+    style.bold: true
+    text: |md
+      tmp/mondo.owl
+      tmp/mondo.sssom.tsv
+    |
+  }
+}
+
+ingest: {
+  label: "mondo-ingest"
+  style.fill: "#e8f4ff"
+  style.font-size: 26
+  style.bold: true
+  direction: right
+
+  acquire: {
+    label: "acquire"
+    style.fill: "#e3f2fd"
+    style.font-size: 20
+    style.bold: true
+    direction: down
+
+    a1: { class: auto; label: "[A] wget components / mirrors" }
+    a2: { class: auto; label: "[A] clone mondo → tmp/" }
+    a3: { class: auto; label: "[A] semsql → components/*.db" }
+    m1: { class: manual; label: "[M] config/*_exclusions.tsv" }
+    m2: { class: manual; label: "[M] metadata/<source>.yml" }
+    m4: { class: manual; label: "[M] rejected-mappings.tsv\n(Google Sheet wget)" }
+  }
+
+  integrate: {
+    label: "integrate"
+    style.fill: "#e3f2fd"
+    style.font-size: 20
+    style.bold: true
+    direction: down
+
+    i1: { class: auto; label: "[A] signatures (mirror vs component)" }
+    i2: { class: auto; label: "[A] mapping status + unmapped reports" }
+    i3: { class: auto; label: "[A] exclusions merge (config + drift)" }
+    i4: { class: auto; label: "[A] slurp/*.tsv generation" }
+    i5: { class: review; label: "[R] slurp row review" }
+    i6: { class: auto; label: "[A] lexmatch/*.tsv generation" }
+    i7: { class: review; label: "[R] lexmatch table triage" }
+    i8: { class: auto; label: "[A] subclass sync TSVs" }
+    i9: { class: auto; label: "[A] synonym sync TSVs" }
+    i10: { class: auto; label: "[A] deprecated-mapped TSVs" }
+    i11: { class: auto; label: "[A] EMC → external/processed-*.owl" }
+    i12: { class: auto; label: "[A] docs + source-versions reports" }
+    m3: { class: manual; label: "[M] nando-mondo.sssom (hand-curated)" }
+  }
+
+  publish: {
+    label: "publish"
+    style.fill: "#e3f2fd"
+    style.font-size: 20
+    style.bold: true
+    direction: down
+
+    p1: { class: auto; label: "[A] prepare_release → mondo-ingest.owl" }
+    p2: { class: auto; label: "[A] mappings/<source>.sssom.tsv" }
+    p3: { class: auto; label: "[A] tmp/mondo-labels.tsv" }
+    p4: { class: ma; label: "[M-A] commit reviewed TSVs to main" }
+    p5: { class: ma; label: "[M-A] deploy-mondo-ingest (GH release)" }
+  }
+
+  acquire -> integrate -> publish
+}
+
+mondo: {
+  label: "mondo"
+  style.fill: "#d4edda"
+  style.font-size: 26
+  style.bold: true
+  direction: down
+
+  apply: {
+    label: "mondo-edit.owl — apply proposals"
+    style.fill: "#e8f5e9"
+    style.font-size: 20
+    style.bold: true
+    direction: down
+
+    e1: { class: ma; label: "[M-A] slurp ROBOT merge" }
+    e2: { class: manual; label: "[M] curator Protege edits" }
+    e3: { class: auto; label: "[A] lex_exact → auto PR" }
+    e4: { class: auto; label: "[A] subclass sync → auto PR" }
+    e5: { class: auto; label: "[A] synonym sync → auto PR" }
+    e6: { class: auto; label: "[A] EMC robot merge" }
+    e7: { class: auto; label: "[A] deprecated xref update" }
+  }
+
+  artifacts: {
+    class: auto
+    label: "release outputs"
+    style.font-size: 18
+    style.bold: true
+    text: |md
+      [A] mondo.owl · mondo.obo
+      [A] mappings/mondo.sssom.tsv
+    |
+  }
+
+  apply -> artifacts
+}
+
+downstream: {
+  label: "downstream"
+  style.fill: "#e8f5e9"
+  style.font-size: 26
+  style.bold: true
+  direction: down
+
+  registries: {
+    class: auto
+    label: "registries"
+    style.font-size: 18
+    style.bold: true
+    text: |md
+      [A] OBO Foundry · OLS · BioPortal
+      [A] PURL.obolibrary.org
+    |
+  }
+
+  consumers: {
+    class: auto
+    label: "consumers"
+    style.font-size: 18
+    style.bold: true
+    text: |md
+      [A] ubergraph · Mondo website
+      [A] tools · databases · SSSOM users
+    |
+  }
+}
+
+legend: {
+  label: "legend"
+  style.fill: "#fafafa"
+  style.font-size: 20
+  style.bold: true
+  direction: down
+  la: { class: auto; label: "[A] auto — make runs, no human" }
+  lr: { class: review; label: "[R] review — auto file, human judgment before Mondo" }
+  lm: { class: manual; label: "[M] manual — ongoing human curation (by design)" }
+  lma: { class: ma; label: "[M-A] manual now — could be scripted/CI (ops or process gap)" }
+  lfb: {
+    style.fill: "#fafafa"
+    style.stroke: "#616161"
+    style.stroke-dash: 4
+    label: "dashed: orange=curator config | purple=main→Mondo CI | blue=next build"
+  }
+}
+
+upstream.sources -> ingest.acquire.a1: wget
+upstream.emc -> ingest.integrate.i11: fetch
+upstream.mondo_clone -> ingest.integrate.i2: clone
+
+# build-time reads (solid)
+ingest.acquire.m1 -> ingest.integrate.i3: read at build
+ingest.acquire.m2 -> ingest.integrate.i3: read at build
+ingest.acquire.m4 -> ingest.integrate.i6: read at build
+
+# curator workflow order (dashed, same cycle — not a make dependency)
+ingest.integrate.i7 -> ingest.integrate.i5: {
+  style.stroke-dash: 5
+  style.stroke: "#f9a825"
+  label: clear lex first\n(then slurp)
+}
+
+# exclusions feedback: review / mondo edits → config PR → next build
+ingest.integrate.i5 -> ingest.acquire.m1: {
+  style.stroke-dash: 5
+  style.stroke: "#e65100"
+  label: curator PR\n(exclusions)
+}
+ingest.integrate.i7 -> ingest.acquire.m1: {
+  style.stroke-dash: 5
+  style.stroke: "#e65100"
+}
+ingest.integrate.i7 -> ingest.acquire.m4: {
+  style.stroke-dash: 5
+  style.stroke: "#e65100"
+  label: update reject\nsheet
+}
+mondo.apply.e1 -> ingest.acquire.m1: {
+  style.stroke-dash: 5
+  style.stroke: "#e65100"
+}
+mondo.apply.e2 -> ingest.acquire.m1: {
+  style.stroke-dash: 5
+  style.stroke: "#e65100"
+}
+
+# mondo-ingest main → Mondo CI wget (lex, sync, EMC, deprecated)
+ingest.publish.p4 -> mondo.apply: {
+  style.stroke-dash: 5
+  style.stroke: "#7b1fa2"
+  label: mondo-ingest main\n→ Mondo CI wget
+}
+
+# Mondo changes → next mondo-ingest build (clone + realigned integrate)
+mondo.apply -> ingest.acquire.a2: {
+  style.stroke-dash: 5
+  style.stroke: "#1565c0"
+  label: next build\nclone mondo
+}
+mondo.apply -> ingest.integrate.i2: {
+  style.stroke-dash: 5
+  style.stroke: "#1565c0"
+  label: next build
+}
+mondo.apply -> ingest.integrate.i4: {
+  style.stroke-dash: 5
+  style.stroke: "#1565c0"
+  label: next build\nfewer slurp rows
+}
+mondo.apply -> ingest.integrate.i6: {
+  style.stroke-dash: 5
+  style.stroke: "#1565c0"
+  label: next build
+}
+mondo.apply -> ingest.integrate.i8: {
+  style.stroke-dash: 5
+  style.stroke: "#1565c0"
+  label: next build
+}
+
+ingest.integrate -> mondo.apply: proposals
+ingest.publish.p1 -> mondo.apply: QC sandbox
+ingest.publish.p3 -> mondo.artifacts: labels
+
+mondo.artifacts -> downstream.registries: releases
+mondo.artifacts -> downstream.consumers: consume
