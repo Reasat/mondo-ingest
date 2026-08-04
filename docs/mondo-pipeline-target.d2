@@ -212,25 +212,6 @@ downstream: {
   }
 }
 
-changes: {
-  label: "repo split summary"
-  style.fill: "#f1f8e9"
-  style.font-size: 20
-  style.bold: true
-  direction: down
-  text: |md
-    SOURCE REPOS release (wget-only into mondo-ingest):
-      component.owl · mirror · component.db
-      signatures · metrics · docs/sources
-      source.sssom.tsv · source-versions
-    MONDO-INGEST (alignment):
-      metadata/source.yml · exclusions config
-      mapping status · lexmatch · slurp · sync · deprecated · EMC
-      mondo-ingest.owl QC sandbox · proposal TSVs on main
-    AUX (not per-source): rejected-mappings sheet · EMC inputs · Mondo clone
-  |
-}
-
 legend: {
   label: "legend"
   style.fill: "#fafafa"
