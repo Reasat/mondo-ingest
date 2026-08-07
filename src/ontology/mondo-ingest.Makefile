@@ -207,12 +207,9 @@ $(COMPONENTSDIR)/icd10cm.owl: $(TMPDIR)/icd10cm_relevant_signature.txt $(TMPDIR)
 ####################################
 # Preprocessing lives in the icd10who source repo; mondo-ingest wget's the release bundle.
 
-# linkml-owl releases functional-syntax OWL; convert to RDF/XML for semsql rdftab.
-$(COMPONENTSDIR)/icd10who.owl: | $(COMPONENTSDIR) $(TMPDIR)
+$(COMPONENTSDIR)/icd10who.owl: | $(COMPONENTSDIR)
 	if [ $(COMP) = true ]; then \
-		wget -nv $(ICD10WHO_RELEASE_BASE)/icd10who.owl -O $(TMPDIR)/icd10who-release.owl.tmp && \
-		$(ROBOT) convert -i $(TMPDIR)/icd10who-release.owl.tmp -o $@ && \
-		rm $(TMPDIR)/icd10who-release.owl.tmp; \
+		wget -nv $(ICD10WHO_RELEASE_BASE)/icd10who.owl -O $@.tmp && mv $@.tmp $@; \
 	fi
 
 $(TMPDIR)/mirror-icd10who.owl: | $(TMPDIR)
