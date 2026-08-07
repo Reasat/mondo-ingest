@@ -19,11 +19,6 @@ DOID=				http://purl.obolibrary.org/obo/doid.owl
 ICD10_BP_CODE=		27
 ICD10CM=			https://data.bioontology.org/ontologies/ICD10CM/submissions/$(ICD10_BP_CODE)/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb
 ICD10WHO_RELEASE_BASE=	https://github.com/Reasat/icd10who/releases/latest/download
-# GitHub Releases flattens upload paths (reports/foo.tsv → foo.tsv at download URL).
-ICD10WHO_RELEASE_MIRROR_SIGNATURE=	$(ICD10WHO_RELEASE_BASE)/mirror_signature.tsv
-ICD10WHO_RELEASE_COMPONENT_SIGNATURE=	$(ICD10WHO_RELEASE_BASE)/component_signature.tsv
-ICD10WHO_RELEASE_SSSOM=			$(ICD10WHO_RELEASE_BASE)/icd10who.sssom.tsv
-ICD10WHO_RELEASE_METRICS=		$(ICD10WHO_RELEASE_BASE)/icd10who-metrics.json
 ICD11FOUNDATION=	https://github.com/monarch-initiative/icd11/releases/latest/download/icd11foundation.owl
 NCIT=				http://purl.obolibrary.org/obo/ncit.owl
 OMIM=				https://github.com/monarch-initiative/omim/releases/latest/download/omim.owl
@@ -221,23 +216,27 @@ $(COMPONENTSDIR)/icd10who.owl: | $(COMPONENTSDIR) $(TMPDIR)
 	fi
 
 $(TMPDIR)/mirror-icd10who.owl: | $(TMPDIR)
-	if [ $(COMP) = true ]; then wget -nv $(ICD10WHO_RELEASE_BASE)/icd10who.mirror.owl -O $@; fi
+	if [ $(COMP) = true ]; then \
+		wget -nv $(ICD10WHO_RELEASE_BASE)/icd10who.mirror.owl -O $@.tmp && mv $@.tmp $@; \
+	fi
 .PRECIOUS: $(TMPDIR)/mirror-icd10who.owl
 
 $(COMPONENTSDIR)/icd10who.db: | $(COMPONENTSDIR)
-	if [ $(COMP) = true ]; then wget -nv $(ICD10WHO_RELEASE_BASE)/icd10who.db -O $@; fi
+	if [ $(COMP) = true ]; then \
+		wget -nv $(ICD10WHO_RELEASE_BASE)/icd10who.db -O $@.tmp && mv $@.tmp $@; \
+	fi
 
 reports/mirror_signature-icd10who.tsv: | $(REPORTDIR)
-	wget -nv $(ICD10WHO_RELEASE_MIRROR_SIGNATURE) -O $@
+	wget -nv $(ICD10WHO_RELEASE_BASE)/mirror_signature.tsv -O $@.tmp && mv $@.tmp $@
 
 reports/component_signature-icd10who.tsv: | $(REPORTDIR)
-	wget -nv $(ICD10WHO_RELEASE_COMPONENT_SIGNATURE) -O $@
+	wget -nv $(ICD10WHO_RELEASE_BASE)/component_signature.tsv -O $@.tmp && mv $@.tmp $@
 
 $(MAPPINGSDIR)/icd10who.sssom.tsv: | $(MAPPINGSDIR)/
-	wget -nv $(ICD10WHO_RELEASE_SSSOM) -O $@
+	wget -nv $(ICD10WHO_RELEASE_BASE)/icd10who.sssom.tsv -O $@.tmp && mv $@.tmp $@
 
 metadata/icd10who-metrics.json:
-	wget -nv $(ICD10WHO_RELEASE_METRICS) -O $@
+	wget -nv $(ICD10WHO_RELEASE_BASE)/icd10who-metrics.json -O $@.tmp && mv $@.tmp $@
 
 $(COMPONENTSDIR)/icd11foundation.owl: $(TMPDIR)/icd11foundation_relevant_signature.txt $(TMPDIR)/mirror-icd11foundation.owl
 	if [ $(COMP) = true ] ; then $(ROBOT) remove -i $(TMPDIR)/mirror-icd11foundation.owl --select imports \
