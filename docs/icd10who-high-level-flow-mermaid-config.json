@@ -1,0 +1,17 @@
+{
+  "flowchart": {
+    "htmlLabels": true,
+    "nodeSpacing": 60,
+    "rankSpacing": 80,
+    "diagramPadding": 24,
+    "subGraphTitleMargin": {
+      "top": 12,
+      "bottom": 48
+    },
+    "useMaxWidth": false
+  },
+  "themeVariables": {
+    "fontSize": "18px",
+    "fontFamily": "arial"
+  }
+}

@@ -1,0 +1,48 @@
+---
+config:
+  theme: base
+  flowchart:
+    htmlLabels: true
+    curve: linear
+    padding: 12
+    rankSpacing: 40
+    nodeSpacing: 24
+  themeVariables:
+    fontSize: 13px
+---
+
+flowchart LR
+  subgraph U["upstream"]
+    direction TB
+    S["source repos<br/>OMIM · ICD* · ORDO · …<br/>→ component + mirror releases"]
+    E["EMC inputs<br/>GARD · EFO · medgen · …"]
+    M["mondo clone<br/>mondo.owl · mondo.sssom.tsv"]
+  end
+
+  subgraph I["mondo-ingest"]
+    direction LR
+    A[acquire] --> P[integrate<br/>QC · slurp · lex · sync · EMC]
+    P --> R[publish<br/>reports · release]
+  end
+
+  subgraph MO["mondo"]
+    direction TB
+    EDIT[mondo-edit.owl]
+    OUT[mondo.owl · mappings]
+    EDIT --> OUT
+  end
+
+  subgraph D["downstream"]
+    direction TB
+    REG[OBO · OLS · PURL]
+    USE[KG · website · tools · DBs]
+  end
+
+  S -->|wget| A
+  E --> P
+  M --> P
+  P -->|slurp · sync · lex · EMC| EDIT
+  M -.->|alignment| P
+  R --> OUT
+  OUT --> REG
+  OUT --> USE

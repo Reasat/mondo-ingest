@@ -1,0 +1,97 @@
+---
+config:
+  flowchart:
+    htmlLabels: true
+    nodeSpacing: 60
+    rankSpacing: 80
+    diagramPadding: 24
+    subGraphTitleMargin:
+      top: 12
+      bottom: 48
+    useMaxWidth: false
+  themeVariables:
+    fontSize: 18px
+---
+flowchart LR
+  subgraph icd10who_source ["icd10who source repo<br/>Job: WHO ICD-10 → published OWL/TTL"]
+    direction TB
+    WHO[WHO ICD-10 API]
+    RAW[tmp/icd10who_raw.ttl]
+    TRANS[tmp/transformed-icd10who.owl]
+    YAML[icd10who.yaml]
+    REL[icd10who.owl release]
+    TTL[icd10who.raw.ttl release]
+    WHO --> RAW --> TRANS --> YAML --> REL
+  end
+
+  subgraph mondo_repo ["monarch-initiative/mondo<br/>Job: Mondo + mappings as alignment target"]
+    direction TB
+    MCLONE[git clone at build time]
+    MOWL[mondo.owl]
+    MSSSOM[mappings/mondo.sssom.tsv]
+    MCLONE --> MOWL
+    MCLONE --> MSSSOM
+  end
+
+  subgraph mi_curated ["mondo-ingest curated inputs<br/>Job: curator config (exclusions, metadata)"]
+    direction TB
+    CFG[config/icd10who_exclusions.tsv]
+    META[metadata/icd10who.yml]
+    SSSOMCFG[metadata/mondo.sssom.config.yml]
+    PREFIX[config/prefixes.csv]
+  end
+
+  subgraph mi_build ["mondo-ingest build<br/>Job: align ICD10WHO into Mondo ingest"]
+    direction TB
+
+    subgraph acquire ["acquire<br/>Job: download and stage inputs"]
+      direction TB
+      MIRROR[tmp/mirror-icd10who.owl]
+      COMP[components/icd10who.owl]
+      TMPM[tmp/mondo.owl]
+      TMPSSSOM[tmp/mondo.sssom.tsv]
+    end
+
+    subgraph index ["index<br/>Job: semsql index of component"]
+      direction TB
+      DB[components/icd10who.db]
+    end
+
+    subgraph integrate ["integrate<br/>Job: diff vs Mondo → slurp, sync, mappings"]
+      direction TB
+      MAP[mappings/icd10who.sssom.tsv]
+      SLURP[slurp/icd10who.tsv]
+      SYNC["sync-subClassOf / sync-synonym TSVs"]
+    end
+
+    subgraph release ["release<br/>Job: mondo-ingest release OWL/OBO"]
+      direction TB
+      OUT["mondo-ingest release<br/>OWL/OBO"]
+    end
+
+    acquire --> index --> integrate --> release
+  end
+
+  TTL --> MIRROR
+  REL --> COMP
+  MOWL --> TMPM
+  MSSSOM --> TMPSSSOM
+
+  PREFIX --> DB
+  SSSOMCFG --> MAP
+  CFG --> SLURP
+  META --> SLURP
+  META --> SYNC
+
+  COMP --> DB
+  COMP --> MAP
+  COMP --> SLURP
+  COMP --> SYNC
+  COMP --> OUT
+
+  TMPM --> MAP
+  TMPSSSOM --> MAP
+  TMPM --> SLURP
+  TMPSSSOM --> SLURP
+  TMPM --> SYNC
+  TMPSSSOM --> SYNC
