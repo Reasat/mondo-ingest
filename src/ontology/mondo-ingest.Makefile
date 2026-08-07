@@ -206,34 +206,22 @@ $(COMPONENTSDIR)/icd10cm.owl: $(TMPDIR)/icd10cm_relevant_signature.txt $(TMPDIR)
 ### ICD10WHO external release ######
 ####################################
 # Preprocessing lives in the icd10who source repo; mondo-ingest wget's the release bundle.
+# Release asset basenames must match local targets (see $(@F) below).
 
-$(COMPONENTSDIR)/icd10who.owl: | $(COMPONENTSDIR)
-	if [ $(COMP) = true ]; then \
-		wget -nv $(ICD10WHO_RELEASE_BASE)/icd10who.owl -O $@.tmp && mv $@.tmp $@; \
-	fi
+ICD10WHO_DOWNLOADS := $(REPORTDIR)/mirror_signature-icd10who.tsv \
+		      $(REPORTDIR)/component_signature-icd10who.tsv \
+		      $(MAPPINGSDIR)/icd10who.sssom.tsv \
+		      metadata/icd10who-metrics.json
 
-$(TMPDIR)/mirror-icd10who.owl: | $(TMPDIR)
-	if [ $(COMP) = true ]; then \
-		wget -nv $(ICD10WHO_RELEASE_BASE)/icd10who.mirror.owl -O $@.tmp && mv $@.tmp $@; \
-	fi
+ifeq ($(COMP),true)
+ICD10WHO_DOWNLOADS += $(COMPONENTSDIR)/icd10who.owl \
+		      $(COMPONENTSDIR)/icd10who.db \
+		      $(TMPDIR)/mirror-icd10who.owl
+endif
+
+$(ICD10WHO_DOWNLOADS): | $(REPORTDIR) $(COMPONENTSDIR) $(TMPDIR) $(MAPPINGSDIR)/
+	wget -nv $(ICD10WHO_RELEASE_BASE)/$(@F) -O $@.tmp && mv $@.tmp $@
 .PRECIOUS: $(TMPDIR)/mirror-icd10who.owl
-
-$(COMPONENTSDIR)/icd10who.db: | $(COMPONENTSDIR)
-	if [ $(COMP) = true ]; then \
-		wget -nv $(ICD10WHO_RELEASE_BASE)/icd10who.db -O $@.tmp && mv $@.tmp $@; \
-	fi
-
-reports/mirror_signature-icd10who.tsv: | $(REPORTDIR)
-	wget -nv $(ICD10WHO_RELEASE_BASE)/mirror_signature.tsv -O $@.tmp && mv $@.tmp $@
-
-reports/component_signature-icd10who.tsv: | $(REPORTDIR)
-	wget -nv $(ICD10WHO_RELEASE_BASE)/component_signature.tsv -O $@.tmp && mv $@.tmp $@
-
-$(MAPPINGSDIR)/icd10who.sssom.tsv: | $(MAPPINGSDIR)/
-	wget -nv $(ICD10WHO_RELEASE_BASE)/icd10who.sssom.tsv -O $@.tmp && mv $@.tmp $@
-
-metadata/icd10who-metrics.json:
-	wget -nv $(ICD10WHO_RELEASE_BASE)/icd10who-metrics.json -O $@.tmp && mv $@.tmp $@
 
 $(COMPONENTSDIR)/icd11foundation.owl: $(TMPDIR)/icd11foundation_relevant_signature.txt $(TMPDIR)/mirror-icd11foundation.owl
 	if [ $(COMP) = true ] ; then $(ROBOT) remove -i $(TMPDIR)/mirror-icd11foundation.owl --select imports \
